@@ -1,0 +1,8 @@
+Pycharm 构建虚拟环境
+  inherit global site-packages -> 是否要继承源解释器环境中安装的包
+  Make available to all projects -> 对所有项目都可见
+
+  继承原来包的方法；复制原来的包环境，构建个虚拟环境，然后将虚拟环境覆盖原来的包环境，此时，虚拟环境具有了原来的包
+
+wechatsogou 这被当成python包了
+  
