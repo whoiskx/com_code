@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/scrapy-exts/scraper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapy_exts/scrapy-exts/scraper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/spider_learn/tutorial" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrapy-exts/scrapy-exts/scraper" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />

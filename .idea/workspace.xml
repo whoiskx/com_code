@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/scrapy-exts/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change afterPath="$PROJECT_DIR$/my_test/T_yield.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy-exts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy-exts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrapy-exts/.idea/scrapy-exts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider_learn/T_debug/debug_myspider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/com_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/com_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,64 +26,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pyquery_example.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_test/pyquery_example.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
+      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/scrapy.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="T_pyquery.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_test/T_pyquery.py">
+      <file leaf-file-name="dmoz_spider.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/spiders/dmoz_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="154">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="26" />
               <folding>
-                <marker date="1528636665344" expanded="true" signature="106:142" ph="..." />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T_redis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_test/T_redis.py">
+      <file leaf-file-name="T_yield.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_test/T_yield.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="286">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/items.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
+            <state relative-caret-position="-1532" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WechatSogou-master/README.md">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06-09" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DAYBYDAY/06-09">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="88">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -95,8 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>blogs</find>
-      <find>sbs488</find>
       <find>mn88222</find>
       <find>wo_aitengzhou</find>
       <find>bjdzg80</find>
@@ -125,6 +113,8 @@
       <find>yojjgb</find>
       <find>tuan_tuanjun</find>
       <find>get_gzh_info</find>
+      <find>ConnectionPool</find>
+      <find>MYSQL_PARAMS</find>
     </findStrings>
     <dirStrings>
       <dir>D:\com_code\WechatSogou-master\wechatsogou</dir>
@@ -174,6 +164,9 @@
         <option value="$PROJECT_DIR$/my_test/pyquery_example.html" />
         <option value="$PROJECT_DIR$/my_test/T_pyquery.py" />
         <option value="$PROJECT_DIR$/my_test/T_redis.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/spider_learn/T_debug/debug_myspider.py" />
+        <option value="$PROJECT_DIR$/my_test/T_yield.py" />
       </list>
     </option>
   </component>
@@ -186,7 +179,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1367" />
@@ -215,17 +208,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -240,21 +223,46 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="WechatSogou-master" type="462c0819:PsiDirectoryNode" />
+              <item name="my_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="spider_learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="spider_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="spider_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="spider_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/scrapy-exts" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -273,8 +281,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.T_redis">
+  <component name="RunManager" selected="Python.T_yield">
     <configuration name="T_pyquery" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -285,7 +294,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="com_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test/T_pyquery.py" />
       <option name="PARAMETERS" value="" />
@@ -294,6 +302,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="T_redis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -304,7 +313,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="com_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test/T_redis.py" />
       <option name="PARAMETERS" value="" />
@@ -312,7 +320,26 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="T_yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test/T_yield.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="dmoz_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -323,7 +350,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="com_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_learn/tutorial/tutorial/spiders/dmoz_spider.py" />
       <option name="PARAMETERS" value="" />
@@ -332,6 +358,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -342,7 +369,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="com_code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test/logger.py" />
       <option name="PARAMETERS" value="" />
@@ -350,44 +376,22 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="wxb_rank" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wxb_rank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="com_code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wxb_rank/wxb_rank.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.logger" />
-      <item index="1" class="java.lang.String" itemvalue="Python.wxb_rank" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dmoz_spider" />
-      <item index="3" class="java.lang.String" itemvalue="Python.T_pyquery" />
-      <item index="4" class="java.lang.String" itemvalue="Python.T_redis" />
+    <list>
+      <item itemvalue="Python.logger" />
+      <item itemvalue="Python.dmoz_spider" />
+      <item itemvalue="Python.T_pyquery" />
+      <item itemvalue="Python.T_redis" />
+      <item itemvalue="Python.T_yield" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.T_redis" />
-        <item index="1" class="java.lang.String" itemvalue="Python.T_pyquery" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dmoz_spider" />
-        <item index="3" class="java.lang.String" itemvalue="Python.logger" />
-        <item index="4" class="java.lang.String" itemvalue="Python.wxb_rank" />
+      <list>
+        <item itemvalue="Python.T_yield" />
+        <item itemvalue="Python.T_redis" />
+        <item itemvalue="Python.T_pyquery" />
+        <item itemvalue="Python.dmoz_spider" />
+        <item itemvalue="Python.logger" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -412,28 +416,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46349558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34070796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3949115" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25375536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51106197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25342464" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32964602" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32964602" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.46349558" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34061137" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3949115" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51106197" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,417 +460,539 @@
           <line>18</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="16" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/wechatsogou/filecache.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/queue.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/scheduler.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/spiders.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/utils.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/weiboUtils.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/scraper/spiders/master.py" />
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/engine.py" />
+    <entry file="file://$PROJECT_DIR$/my_test/pyquery_example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/wechatsogou/five.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/pipelines.py" />
+    <entry file="file://$PROJECT_DIR$/my_test/T_pyquery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="506">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/wechatsogou/identify_image.py">
+    <entry file="file://$PROJECT_DIR$/my_test/T_redis.py" />
+    <entry file="file://$PROJECT_DIR$/DAYBYDAY/06-09" />
+    <entry file="file://$PROJECT_DIR$/WechatSogou-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/wechatsogou/request.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pymysql/connections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="296">
+          <caret line="722" column="8" selection-start-line="722" selection-start-column="8" selection-end-line="722" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/wechatsogou/structuring.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="296">
+          <caret line="283" column="8" selection-start-line="283" selection-start-column="8" selection-end-line="283" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/wechatsogou/__init__.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/utils/reqser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="132">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/setup.cfg">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/http/request/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="296">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/setup.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-630">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
-            <element signature="e#0#13#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/tox.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/wechatsogou/tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/wechatsogou/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5472">
-          <caret line="245" column="21" lean-forward="false" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wxb_rank/wxb_rank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/example_stackoverflow/xx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/example_stackoverflow/top.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/example_stackoverflow/stackoverflow_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/Resources.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="690">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1166">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_slave.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_master.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1344">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-256" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/utils/trackref.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/__init__.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="726">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/Books.html">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/redis/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="22">
+          <caret line="1326" column="8" selection-start-line="1326" selection-start-column="8" selection-end-line="1326" selection-end-column="8" />
+          <folding>
+            <element signature="e#777#1134#0" />
+            <element signature="e#842#1035#0" />
+            <element signature="e#861#920#0" />
+            <element signature="e#1178#1412#0" />
+            <element signature="e#1466#1516#0" />
+            <element signature="e#1547#1621#0" />
+            <element signature="e#1662#2319#0" />
+            <element signature="e#1737#1808#0" />
+            <element signature="e#1974#2031#0" />
+            <element signature="e#2226#2298#0" />
+            <element signature="e#2364#2506#0" />
+            <element signature="e#2539#3521#0" />
+            <element signature="e#2685#3131#0" />
+            <element signature="e#2738#2935#0" />
+            <element signature="e#2759#2875#0" />
+            <element signature="e#2962#3131#0" />
+            <element signature="e#3034#3103#0" />
+            <element signature="e#3180#3504#0" />
+            <element signature="e#3230#3504#0" />
+            <element signature="e#3271#3347#0" />
+            <element signature="e#3382#3504#0" />
+            <element signature="e#3547#4189#0" />
+            <element signature="e#4228#4696#0" />
+            <element signature="e#4352#4639#0" />
+            <element signature="e#4740#4794#0" />
+            <element signature="e#4839#4992#0" />
+            <element signature="e#4885#4974#0" />
+            <element signature="e#5050#5123#0" />
+            <element signature="e#5171#5230#0" />
+            <element signature="e#5266#5367#0" />
+            <element signature="e#5420#5779#0" />
+            <element signature="e#5500#5761#0" />
+            <element signature="e#5533#5733#0" />
+            <element signature="e#5620#5733#0" />
+            <element signature="e#5620#5677#0" />
+            <element signature="e#5829#6164#0" />
+            <element signature="e#5829#5949#1" />
+            <element signature="e#6216#6518#0" />
+            <element signature="e#6216#6363#1" />
+            <element signature="e#6552#6617#0" />
+            <element signature="e#6653#6720#0" />
+            <element signature="e#6750#6784#0" />
+            <element signature="e#6835#6986#0" />
+            <element signature="e#7036#7160#0" />
+            <element signature="e#7204#7251#0" />
+            <element signature="e#7296#7370#0" />
+            <element signature="e#7415#7579#0" />
+            <element signature="e#7630#7800#0" />
+            <element signature="e#7637#7800#0" />
+            <element signature="e#7638#7778#0" />
+            <element signature="e#7852#7924#0" />
+            <element signature="e#7959#8450#0" />
+            <element signature="e#7992#8063#0" />
+            <element signature="e#8155#8423#0" />
+            <element signature="e#8503#8670#0" />
+            <element signature="e#8727#9620#0" />
+            <element signature="e#8781#8888#0" />
+            <element signature="e#8781#8824#0" />
+            <element signature="e#9110#9187#0" />
+            <element signature="e#9200#9320#0" />
+            <element signature="e#9326#9384#0" />
+            <element signature="e#9536#9620#0" />
+            <element signature="e#9673#9721#0" />
+            <element signature="e#83918#87181#0" />
+            <element signature="e#83918#84089#1" />
+            <element signature="e#84203#84317#0" />
+            <element signature="e#84392#84894#0" />
+            <element signature="e#84392#84749#1" />
+            <element signature="e#84944#85301#0" />
+            <element signature="e#84944#85132#1" />
+            <element signature="e#85351#85837#0" />
+            <element signature="e#85351#85775#1" />
+            <element signature="e#85890#87181#0" />
+            <element signature="e#85890#86776#1" />
+            <element signature="e#86826#87013#0" />
+            <element signature="e#86865#86971#0" />
+            <element signature="e#86882#86970#0" />
+            <element signature="e#87065#87122#0" />
+            <element signature="e#87210#97538#0" />
+            <element signature="e#87210#87514#1" />
+            <element signature="e#87748#88145#0" />
+            <element signature="e#87930#87997#0" />
+            <element signature="e#88178#88436#0" />
+            <element signature="e#88195#88393#0" />
+            <element signature="e#88195#88252#0" />
+            <element signature="e#88467#88728#0" />
+            <element signature="e#88499#88674#0" />
+            <element signature="e#88759#88771#0" />
+            <element signature="e#88819#89500#0" />
+            <element signature="e#88896#88963#0" />
+            <element signature="e#89126#89293#0" />
+            <element signature="e#89332#89500#0" />
+            <element signature="e#89550#89668#0" />
+            <element signature="e#89726#90438#0" />
+            <element signature="e#89773#89841#0" />
+            <element signature="e#90008#90335#0" />
+            <element signature="e#90147#90206#0" />
+            <element signature="e#90500#91123#0" />
+            <element signature="e#90604#91123#0" />
+            <element signature="e#90742#90805#0" />
+            <element signature="e#90910#90971#0" />
+            <element signature="e#91186#91614#0" />
+            <element signature="e#91320#91456#0" />
+            <element signature="e#91356#91455#0" />
+            <element signature="e#91661#92030#0" />
+            <element signature="e#91661#91882#1" />
+            <element signature="e#92083#92914#0" />
+            <element signature="e#92083#92414#1" />
+            <element signature="e#92648#92718#0" />
+            <element signature="e#92959#93197#0" />
+            <element signature="e#92959#93070#1" />
+            <element signature="e#93249#94092#0" />
+            <element signature="e#93249#93593#1" />
+            <element signature="e#93826#93896#0" />
+            <element signature="e#94136#94373#0" />
+            <element signature="e#94136#94247#1" />
+            <element signature="e#94405#94648#0" />
+            <element signature="e#94517#94648#0" />
+            <element signature="e#94729#95163#0" />
+            <element signature="e#94729#94977#1" />
+            <element signature="e#95246#97031#0" />
+            <element signature="e#95246#95446#1" />
+            <element signature="e#95544#95723#0" />
+            <element signature="e#95554#95723#0" />
+            <element signature="e#95750#95922#0" />
+            <element signature="e#95760#95922#0" />
+            <element signature="e#96062#96368#0" />
+            <element signature="e#96437#96791#0" />
+            <element signature="e#96747#96791#0" />
+            <element signature="e#96818#97007#0" />
+            <element signature="e#96818#96879#0" />
+            <element signature="e#97098#97538#0" />
+            <element signature="e#97160#97256#0" />
+            <element signature="e#97327#97423#0" />
+            <element signature="e#97589#98492#0" />
+            <element signature="e#97651#97818#0" />
+            <element signature="e#97847#98178#0" />
+            <element signature="e#98024#98125#0" />
+            <element signature="e#98208#98492#0" />
+            <element signature="e#98208#98270#0" />
+            <element signature="e#98527#110252#0" />
+            <element signature="e#98527#99396#1" />
+            <element signature="e#99569#99819#0" />
+            <element signature="e#99854#99865#0" />
+            <element signature="e#99931#99943#0" />
+            <element signature="e#99976#100048#0" />
+            <element signature="e#100081#100111#0" />
+            <element signature="e#100142#101107#0" />
+            <element signature="e#100203#100270#0" />
+            <element signature="e#100358#100741#0" />
+            <element signature="e#100379#100593#0" />
+            <element signature="e#100379#100420#0" />
+            <element signature="e#100646#100741#0" />
+            <element signature="e#100871#100937#0" />
+            <element signature="e#101027#101107#0" />
+            <element signature="e#101138#101590#0" />
+            <element signature="e#101138#101290#1" />
+            <element signature="e#101439#101549#0" />
+            <element signature="e#101456#101548#0" />
+            <element signature="e#101648#101870#0" />
+            <element signature="e#101939#103235#0" />
+            <element signature="e#101939#102196#1" />
+            <element signature="e#102350#102513#0" />
+            <element signature="e#102539#102633#0" />
+            <element signature="e#102699#103235#0" />
+            <element signature="e#102923#103067#0" />
+            <element signature="e#102965#103067#0" />
+            <element signature="e#103120#103235#0" />
+            <element signature="e#103303#103750#0" />
+            <element signature="e#103303#103679#1" />
+            <element signature="e#103834#106015#0" />
+            <element signature="e#104048#104082#0" />
+            <element signature="e#104477#104709#0" />
+            <element signature="e#104585#104709#0" />
+            <element signature="e#104853#105034#0" />
+            <element signature="e#105291#105444#0" />
+            <element signature="e#105352#105443#0" />
+            <element signature="e#105725#105995#0" />
+            <element signature="e#105774#105968#0" />
+            <element signature="e#106096#106668#0" />
+            <element signature="e#106366#106561#0" />
+            <element signature="e#106387#106476#0" />
+            <element signature="e#106731#106898#0" />
+            <element signature="e#106776#106898#0" />
+            <element signature="e#106825#106898#0" />
+            <element signature="e#106970#107214#0" />
+            <element signature="e#107291#107559#0" />
+            <element signature="e#107597#108134#0" />
+            <element signature="e#107805#107871#0" />
+            <element signature="e#108003#108134#0" />
+            <element signature="e#108058#108134#0" />
+            <element signature="e#108188#109870#0" />
+            <element signature="e#108605#108886#0" />
+            <element signature="e#108741#108803#0" />
+            <element signature="e#109022#109828#0" />
+            <element signature="e#109148#109210#0" />
+            <element signature="e#109546#109662#0" />
+            <element signature="e#109563#109661#0" />
+            <element signature="e#109675#109734#0" />
+            <element signature="e#109909#110105#0" />
+            <element signature="e#110138#110252#0" />
+            <element signature="e#110308#110353#0" />
+            <element signature="e#110397#110436#0" />
+            <element signature="e#110465#111935#0" />
+            <element signature="e#110591#111072#0" />
+            <element signature="e#110787#111020#0" />
+            <element signature="e#110787#110849#0" />
+            <element signature="e#111137#111935#0" />
+            <element signature="e#111418#111521#0" />
+            <element signature="e#111639#111935#0" />
+            <element signature="e#111639#111706#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/spiders/__init__.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="51" />
-          <folding />
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3358">
+          <folding>
+            <element signature="e#312#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/dupefilter.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/defaults.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2146">
+          <caret line="72" column="6" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/utils/serialize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="95" column="22" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#320#1" />
+            <element signature="e#321#335#0" expanded="true" />
+            <element signature="e#4321#5347#0" />
+            <element signature="e#4367#4421#0" />
+            <element signature="e#4474#5194#0" />
+            <element signature="e#4864#4929#0" />
+            <element signature="e#4955#5046#0" />
+            <element signature="e#5132#5173#0" />
+            <element signature="e#5236#5347#0" />
+            <element signature="e#5411#12064#0" />
+            <element signature="e#5455#11448#0" />
+            <element signature="e#5757#5985#0" />
+            <element signature="e#6032#6097#0" />
+            <element signature="e#7634#8006#0" />
+            <element signature="e#9263#9497#0" />
+            <element signature="e#11495#12064#0" />
+            <element signature="e#11543#11692#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/slave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="201" column="34" lean-forward="true" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#278#2484#0" />
+            <element signature="e#460#542#0" />
+            <element signature="e#593#1684#0" />
+            <element signature="e#593#706#1" />
+            <element signature="e#809#993#0" />
+            <element signature="e#809#863#0" />
+            <element signature="e#1220#1353#0" />
+            <element signature="e#1720#2484#0" />
+            <element signature="e#1880#2055#0" />
+            <element signature="e#2196#2381#0" />
+            <element signature="e#2235#2381#0" />
+            <element signature="e#6672#6969#0" />
+            <element signature="e#6810#6969#0" />
+            <element signature="e#8315#9495#0" />
+            <element signature="e#8315#9288#1" />
+            <element signature="e#9369#9495#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/T_debug/debug_myspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-1532" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/logger.py">
+    <entry file="file://$PROJECT_DIR$/my_test/T_yield.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/spiders/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="286">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/spiders/dmoz_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="154">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="26" />
           <folding>
-            <element signature="e#0#13#0" expanded="false" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="55" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3229">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/defaults.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/dupefilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3637">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/picklecompat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1152">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/scheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/spiders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/weiboUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/scraper/spiders/master.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/engine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/pyquery_example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scraper/exts/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7860">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_pyquery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <marker date="1528636665344" expanded="true" signature="106:142" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAYBYDAY/06-09">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WechatSogou-master/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
