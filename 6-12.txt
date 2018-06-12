@@ -1,0 +1,25 @@
+getattr  获取对象 属性 的值
+
+connect 主要根据参数返回数据库连接 实例
+redis_cls : class, optional
+        Defaults to ``redis.StrictRedis``.
+
+        from_settings = get_redis_from_settings
+        #获取redis连接池实例
+
+proxies在你访问http时用http的设置，访问https时用https的设置
+resp.encoding = "utf-8"
+with open("sougou_{}.html".format(i), "w", encoding="utf-8") as f:
+    f.write(resp.text)
+
+
+with open("sougou_{}.html".format(i), "wb",) as f:
+    f.write(resp.content)
+
+dupefilter 去重
+    request生成指纹 保存  set
+
+
+mitmproxy
+    mitmproxy、mitmdump、mitmweb 这三个命令中的任意一个即可，这三个命令功能一致，且都可以加载自定义脚本，唯一的区别是交互界面的不同
+--proxy-server=127.0.0.1:8080 --ignore-certificate-errors
