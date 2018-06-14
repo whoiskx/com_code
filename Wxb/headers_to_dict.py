@@ -1,14 +1,13 @@
 
-headers = """Host: data.wxb.com
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.91 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
-Referer: https://account.wxb.com/?from=https%3A%2F%2Fdata.wxb.com%2FsearchResult%3Fkw%3D%25E8%25A7%2586%25E8%25A7%2589%25E5%25BF%2597%26page%3D1
+headers = """Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
 Accept-Encoding: gzip, deflate, br
-Accept-Language: zh-CN,zh;q=0.8
-Cookie: visit-wxb-id=7c5736cc99cda0e635c8958831967045; PHPSESSID=8hvca5bejg47la3q10q96rsjm3; wxb_fp_id=3774451913; Hm_lvt_5859c7e2fd49a1739a0b0f5a28532d91=1528359684; Hm_lpvt_5859c7e2fd49a1739a0b0f5a28532d91=1528363943"""
-
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: max-age=0
+Connection: keep-alive
+Cookie: RK=MUIUMx6lTY; ptcz=f2b39020fd87469fd087c0b7f7e37420d38e6d332b75bde23b0e4a4b61fd0cc3; pt2gguin=o0574613576; pgv_pvid=6211376896; ua_id=c4frKJ6bo64FTXz4AAAAAOG1AJrMtg4x9sLPisUvdJ0=; mm_lang=zh_CN; pgv_pvi=7068666880; pgv_si=s4474253312; pgv_info=ssid=s5843357633; wxuin=1156918861; devicetype=Windows10; version=6206034e; lang=zh_CN; pass_ticket=Efb2GurPHFS4qNJUKPCFd9OHejaYHx4PS48kgFwyYYnH2r/jBqOSXH+E+S3BFsGv; rewardsn=; wxtokenkey=777; wap_sid2=CM3c1KcEElxRdUlZSndiMDh6R25LVjNoWFVyS1lHNTBWTUllZHFESGxGQ2FDbUhqM3p0bmU3UmtyeE5FUVo3aHZueE90alF2Y3lpLW9fVjQtOFluVnhkcTNXY1lUTUFEQUFBfjCDzoLZBTgNQJVO
+Host: mp.weixin.qq.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; HM NOTE 1LTEW Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6. 0.0.54_r849063.501 NetType/WIFI"""
 
 items = headers.split("\n")
 d = {}

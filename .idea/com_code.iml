@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/scrapy_exts/scrapy-exts/scraper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/spider_learn/tutorial" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scrapy-exts/scrapy-exts/scraper" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/library_git/wechat_sogou_crawl-master" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv_proxyPool" />
     </content>

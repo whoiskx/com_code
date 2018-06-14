@@ -23,3 +23,14 @@ dupefilter 去重
 mitmproxy
     mitmproxy、mitmdump、mitmweb 这三个命令中的任意一个即可，这三个命令功能一致，且都可以加载自定义脚本，唯一的区别是交互界面的不同
 --proxy-server=127.0.0.1:8080 --ignore-certificate-errors
+
+
+
+venv_proxyPool
+
+https://mp.weixin.qq.com/mp/getappmsgext?f=json&mock=&uin=&key=&pass_ticket=&wxtoken=777&devicetype=&clientversion=&appmsg_token=&x5=0&f=json
+
+
+https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=ChwKDGdvb2dsZWNocm9tZRIMNjcuMC4zMzk2Ljc5GicICRABGhkKDQgJEAYYASIDMDAxMAYQAhoCGAnxCDPJIgQgASACKAYaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCqwQQaAhgJQdpDAyIEIAEgAigBGicIARABGhkKDQgBEAYYASIDMDAxMAMQFBoCGAklWdaTIgQgASACKAMaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAKGgIYCZvdqGEiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEJcDGgIYCZWlxzEiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABEO6mBBoCGAnJOY_-IgQgASACKAEaKAgBEAgaGgoNCAEQCBgBIgMwMDEwBBD8DhoCGAmUWStkIgQgASACKAQaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDzsgQaAhgJjKxQ-SIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQkKwDGgIYCRfvmjsiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAUaAhgJRDWmyyIEIAEgAigBGigIDRABGhoKDQgNEAYYASIDMDAxMAEQpwwaAhgJ5JhFjSIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+
+https://mp.weixin.qq.com/mp/report?action=pcclick&__biz=MzAwNDc0MTUxMw==&uin=&scene=10000004&r=0.34949150262482487
