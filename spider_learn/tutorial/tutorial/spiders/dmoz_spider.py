@@ -12,10 +12,13 @@ class DmozSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
+        print("afdfaf_begin")
         for sel in response.xpath('//ul/li'):
+            print("========================")
             item = DmozItem()
             # /html/head/title
             item['title'] = sel.xpath('/html/head/title').extract()
             item['link'] = sel.xpath('a/@href').extract()
             item['desc'] = sel.xpath('text()').extract()
+            print("afdfaf_end")
             yield item
