@@ -6,6 +6,7 @@ from scrapy.http import Request
 from . import connection, defaults
 from .utils import bytes_to_str, sql_query, sql_tuple2dict
 
+
 class MysqlMixin(object):
     """Mixin class to implement reading urls from a mysql database."""
     mysql_server = None
@@ -47,7 +48,6 @@ class MysqlMixin(object):
         except (TypeError, ValueError):
             raise ValueError("mysql_batch_size must be an integer")
 
-        
         self.mysql_server = connection.get_mysql_from_settings(crawler.settings)
         self.mysql_cursor = self.mysql_server.cursor()
 
@@ -61,7 +61,7 @@ class MysqlMixin(object):
             self.mysql_cursor.execute(sql_query())
         # TODO: add support for reading a sql batch
         records = self.mysql_cursor.fetchall()
-        
+
         if records:
             for record in records:
                 recordict = sql_tuple2dict(record)
@@ -72,7 +72,6 @@ class MysqlMixin(object):
             self.logger.debug("Read %s requests from mysql server", len(records))
 
 
-    
 class RedisMixin(object):
     """Mixin class to implement reading urls from a redis queue."""
     redis_key = None
@@ -187,6 +186,7 @@ class RedisMixin(object):
         # XXX: Handle a sentinel to close the spider.
         self.schedule_next_requests()
         raise DontCloseSpider
+
 
 class MysqlRedisSpider(MysqlMixin, RedisMixin, Spider):
     """Spider that reads urls from redis queue when idle. """

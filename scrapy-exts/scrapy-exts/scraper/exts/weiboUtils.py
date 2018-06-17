@@ -1,3 +1,4 @@
+
 import string
 import requests
 import json
@@ -6,15 +7,18 @@ import math
 import hashlib
 from datetime import datetime
 
+
 def get_json(url):
     data = requests.get(url)
     data = json.loads(data.text)
     return data
 
+
 def get_md5(string):
     md5 = hashlib.md5()
     md5.update(string.encode())
     return md5.hexdigest()
+
 
 def user_handle(user):
     """处理user中的字段
@@ -24,7 +28,7 @@ def user_handle(user):
     name = user['screen_name']
     domain = user['domain'] if user.get('domain', None) else user['idstr']
     url = "http://weibo.com/{}".format(domain)
-    
+
     location = user['location'].split(" ")
     if len(location) == 2:
         province, city = location
@@ -97,7 +101,10 @@ def id2mid(my_id):
             break
     return mid
 
+
 ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+
 def base62_encode(num, alphabet=ALPHABET):
     """10进制转62进制"""
 
@@ -112,13 +119,16 @@ def base62_encode(num, alphabet=ALPHABET):
     arr.reverse()
     return ''.join(arr)
 
+
 def get_headurl(site, uid, url):
     if site == 3:
         url = urlencode(url)
     return "site={}&uid={}&url={}".format(site, uid, url)
 
+
 def urlencode(url, codec='utf-8'):
     return url.encode(codec)
+
 
 def contains(blogs, entity):
     """judge whether an entity exists"""
@@ -128,12 +138,14 @@ def contains(blogs, entity):
             return True
     return False
 
+
 def time_format(s):
     """
     Mon Mar 12 00:33:07 +0800 2018
     """
-    dt = datetime.strptime(s, "%a %b %d %H:%M:%S +0800 %Y")    
+    dt = datetime.strptime(s, "%a %b %d %H:%M:%S +0800 %Y")
     return dt.strftime("%Y-%m-%dT%H:%M:%S+08:00")
+
 
 def create_blogs(data):
     """
@@ -150,7 +162,7 @@ def create_blogs(data):
         # FIXME: time format
         time = time_format(create_at)
         source = re.sub("<.*?>", "", r['source'])
-        
+
         # user 也是一个字典
         user = r.get('user')
         if user is None:
@@ -160,7 +172,7 @@ def create_blogs(data):
         headUrl = user['headurl']
         uid = user['uid']
         author = user['name']
-        
+
         content = r['text']
         geo = geo_handle(r['geo'])
         quote = ""
@@ -171,7 +183,7 @@ def create_blogs(data):
         qmid = ""
         imgurl = ""
         quid = ""
-  
+
         quoteTime = ""
 
         # NOTE: strange imgurl
@@ -187,7 +199,7 @@ def create_blogs(data):
             picUrls += picurl + ","
         # trim the tail ','
         picUrls = picUrls[:-1]
-        
+
         # 处理转发quote
         quoteimgurl = ""
         quoteAuthor = ""
@@ -196,7 +208,7 @@ def create_blogs(data):
         if r.get('retweeted_status'):
             qr = r['retweeted_status']
             quser = qr['user']
-            if quser:                
+            if quser:
                 quser = user_handle(quser)
                 qsource = re.sub("<.*?>", "", qr['source'])
                 qheadUrl = quser['headurl']
@@ -210,7 +222,7 @@ def create_blogs(data):
                 quote = "@{}：{}".format(quoteAuthor, quoteContent)
                 qmid = id2mid(qid)
                 qurl = "http://weibo.com/{}/{}".format(quid, qmid)
-                
+
                 if qr.get('bmiddle_pic'):
                     quoteimgurl = qr.get('bmiddle_pic')
                 qimgurls = qr.get('pic_urls')
@@ -296,7 +308,6 @@ def create_blogs(data):
             blogs.append(blog)
     return blogs
 
-    
 
 if __name__ == '__main__':
     start_url = ('https://api.weibo.com/2/statuses/user_timeline.json?'

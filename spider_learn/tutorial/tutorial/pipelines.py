@@ -8,4 +8,8 @@
 
 class TutorialPipeline(object):
     def process_item(self, item, spider):
+        print("afdfaf", item)
+        x = item.pop('desc')
+        print("afdfaf_adfadf", item)
+
         return item

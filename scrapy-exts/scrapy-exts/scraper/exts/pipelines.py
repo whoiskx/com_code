@@ -105,11 +105,11 @@ class ZipfilePipeline(object):
         return deferToThread(self._process_item, item, spider)
 
     def _process_item(self, item, spider):
-        xmlname    = self._get_xmlname(item['url'])
+        xmlname = self._get_xmlname(item['url'])
         xmlcontent = self._get_xmlcontent(item['xmlcontent'])
-        comment    = self._get_comment(item['comment'])
+        comment = self._get_comment(item['comment'])
 
-        zfname = "%s.zip" % uuid1() 
+        zfname = "%s.zip" % uuid1()
         with zipfile.ZipFile(zfname, mode='w') as zf:
             zf.writestr(xmlname, xmlcontent)
             zf.comment = comment
@@ -123,7 +123,7 @@ class ZipfilePipeline(object):
         root = doc.createElement('data')
         doc.appendChild(root)
         # hard coding
-        nodenames = {"id", "name", "url", "title", "content", "author", 
+        nodenames = {"id", "name", "url", "title", "content", "author",
                      "from", "time", "image"}
         for nodename in nodenames:
             node = doc.createElement(nodename)
@@ -135,7 +135,7 @@ class ZipfilePipeline(object):
                 node.appendChild(cdata)
             root.appendChild(node)
         return doc.toprettyxml()
-        
+
     def _get_comment(self, comment):
         # pop out scrapy items
         try:
@@ -144,8 +144,9 @@ class ZipfilePipeline(object):
             comment.pop('download_timeout')
         except:
             pass
-        comment_str = json.dumps(comment, ensure_ascii=None, separators=(",",":"))
+        comment_str = json.dumps(comment, ensure_ascii=None, separators=(",", ":"))
         return comment_str.encode('gbk')
+
 
 class ZipfilePipelineWithFTP(ZipfilePipeline):
 
@@ -153,13 +154,13 @@ class ZipfilePipelineWithFTP(ZipfilePipeline):
         return deferToThread(self._process_item, item, spider)
 
     def _process_item(self, item, spider):
-        xmlname    = self._get_xmlname(item['url'])
+        xmlname = self._get_xmlname(item['url'])
         xmlcontent = self._get_xmlcontent(item['xmlcontent'])
-        comment    = self._get_comment(item['comment'])
-        ftp        = self._get_ftp(item['ftp'])
+        comment = self._get_comment(item['comment'])
+        ftp = self._get_ftp(item['ftp'])
 
         # FIXME: send zip file without creating it locally
-        zfname = "%s.zip" % uuid1() 
+        zfname = "%s.zip" % uuid1()
         with zipfile.ZipFile(zfname, 'w', zipfile.ZIP_DEFLATED) as zf:
             zf.writestr(xmlname, xmlcontent)
             zf.comment = comment
@@ -167,7 +168,7 @@ class ZipfilePipelineWithFTP(ZipfilePipeline):
             with open(zfname, 'rb') as f:
                 ftp.storbinary("STOR `%s`" % zfname, f, 1024)
         except Exception as e:
-            print(e)    
+            print(e)
         finally:
             os.remove(zfname)
             ftp.close()
@@ -180,7 +181,7 @@ class ZipfilePipelineWithFTP(ZipfilePipeline):
 
 
 class WeiboPipelineWithFTP(ZipfilePipelineWithFTP):
-    
+
     def _get_xmlcontent(self, content):
         doc = dom.Document()
         root = doc.createElement('Blog')
@@ -231,6 +232,7 @@ class WeiboPipelineWithFTP(ZipfilePipelineWithFTP):
         # 处理user
         userNode = doc.createElement('User')
         user = content['User']
+
         def add_userNode(name, text):
             # helper function
             if type(text) != type('text'):
@@ -269,6 +271,7 @@ class WeiboPipelineWithFTP(ZipfilePipelineWithFTP):
         root.appendChild(userNode)
 
         phraseNode = doc.createElement('phrase')
+
         def add_phraseNode(name, text):
             if type(text) != type('text'):
                 text = str(text)
@@ -276,6 +279,7 @@ class WeiboPipelineWithFTP(ZipfilePipelineWithFTP):
             textNode = doc.createTextNode(text)
             node.appendChild(textNode)
             phraseNode.appendChild(node)
+
         add_phraseNode('content', "")
         add_phraseNode('author', content['author'])
         add_phraseNode('quote', "")
@@ -287,7 +291,7 @@ class WeiboPipelineWithFTP(ZipfilePipelineWithFTP):
 
         xml_textNode('attitudes_count', content['attitudes_count'])
         xml_textNode('favorite_count', user['favourites'])
-        
+
         timeList = doc.createElement('timeList')
         dateTime = doc.createElement('dateTime')
         dateTime.appendChild(doc.createTextNode(content['time']))
@@ -336,10 +340,10 @@ class WeiboPipelineWithFTP(ZipfilePipelineWithFTP):
             comment.pop('depth')
         except:
             pass
-        
+
         comment['Time'] = comment['Time'].strftime("%Y-%m-%d %H:%M:%S")
         comment['Type'] = 1
         comment['Task'] = url2md5(comment['Name'])
-        comment_str = json.dumps(comment, ensure_ascii=None, separators=(",",":"))
+        comment_str = json.dumps(comment, ensure_ascii=None, separators=(",", ":"))
         comment_str = re.sub('["{}]', "", comment_str)
         return comment_str.encode('gbk')

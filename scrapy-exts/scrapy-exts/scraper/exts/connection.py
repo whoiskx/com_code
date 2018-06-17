@@ -16,6 +16,7 @@ functions
 3. get_mysql_from_setting mainly handle params
 4. get_mysql using params to instantize a mysql object.
 
+   主要用来处理参数和构造数据库连接实例
 """
 
 import six
