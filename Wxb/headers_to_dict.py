@@ -1,17 +1,18 @@
 
-headers = """Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+headers = """Host: graph.facebook.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
 Accept-Encoding: gzip, deflate, br
 Accept-Language: zh-CN,zh;q=0.9
-Cache-Control: max-age=0
-Connection: keep-alive
-Cookie: RK=MUIUMx6lTY; ptcz=f2b39020fd87469fd087c0b7f7e37420d38e6d332b75bde23b0e4a4b61fd0cc3; pt2gguin=o0574613576; pgv_pvid=6211376896; ua_id=c4frKJ6bo64FTXz4AAAAAOG1AJrMtg4x9sLPisUvdJ0=; mm_lang=zh_CN; pgv_pvi=7068666880; pgv_si=s4474253312; pgv_info=ssid=s5843357633; wxuin=1156918861; devicetype=Windows10; version=6206034e; lang=zh_CN; pass_ticket=Efb2GurPHFS4qNJUKPCFd9OHejaYHx4PS48kgFwyYYnH2r/jBqOSXH+E+S3BFsGv; rewardsn=; wxtokenkey=777; wap_sid2=CM3c1KcEElxRdUlZSndiMDh6R25LVjNoWFVyS1lHNTBWTUllZHFESGxGQ2FDbUhqM3p0bmU3UmtyeE5FUVo3aHZueE90alF2Y3lpLW9fVjQtOFluVnhkcTNXY1lUTUFEQUFBfjCDzoLZBTgNQJVO
-Host: mp.weixin.qq.com
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; HM NOTE 1LTEW Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 MicroMessenger/6. 0.0.54_r849063.501 NetType/WIFI"""
-
+Cookie: datr=OxkjW4MYaIelucIws97V02xW; wd=1920x946; sb=_R0jWyoRctx7GnDrlLyCjFE2; c_user=100005036989194; xs=32%3Am5RP8dyGJGCEZg%3A2%3A1529028093%3A-1%3A-1; pl=n; fr=0ICeTuNMbW3ThPfuj.AWW3O-4qdU12Mkzlc15GCq9APr4.BbHxb1.s-.Fsj.0.0.BbIx39.; act=1529028586747%2F2"""
 items = headers.split("\n")
+print(items)
 d = {}
 for item in items:
-    k, v = item.split(":", 1)
+    k, v = item.split(": ", 1)
+
     d[k] = v.strip()
 print(d)
