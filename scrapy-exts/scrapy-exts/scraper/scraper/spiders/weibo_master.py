@@ -36,7 +36,6 @@ class WeiboSpider(MysqlRedisSpider):
         if records:
             self.logger.debug("Read %s requests from mysql server", len(records))
 
-
     def parse(self, response):
         text = json.loads(response.text)
         blogs = wbutils.create_blogs(text)

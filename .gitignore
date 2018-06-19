@@ -1,4 +1,5 @@
-/scrapy_exts
+scrapy_exts
 
-/virual
-/venv_proxyPool
+virual
+venv_proxyPool
+.*
