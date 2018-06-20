@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Facebook_api/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook_api/login_cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook_xihaiming/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook_xihaiming/test_baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/com_code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAYBYDAY/frame/C#.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/DAYBYDAY/frame/C#.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAYBYDAY/frame/学习方式.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/DAYBYDAY/frame/学习方式.xmind" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,70 +34,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="master.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook_api/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state relative-caret-position="242">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6-19.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6-19.txt">
+      <file leaf-file-name="index_xihaiming.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="402">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook_api/new.py">
+      <file leaf-file-name="pydevd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="1664" lean-forward="true" selection-start-line="1664" selection-end-line="1664" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_baidu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/test_baidu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_baidu.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/test_baidu.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27758" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_xihaiming.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="result.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook_api/result.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="scheduler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2596">
+              <caret line="123" column="64" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="64" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="fbtoken" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook_api/fbtoken">
+      <file leaf-file-name="login_cookies.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook_api/login_cookies.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="server_api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook_api/server_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="220">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tupu_api.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Facebook_api/tupu_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slave.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/slave.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="weibo_slave.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_slave.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -140,11 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/spider_learn/T_debug/debug_myspider.py" />
-        <option value="$PROJECT_DIR$/my_test/T_yield.py" />
-        <option value="$PROJECT_DIR$/6-12.txt" />
-        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/connection.py" />
         <option value="$PROJECT_DIR$/sougou_search/search_req.py" />
         <option value="$PROJECT_DIR$/sougou_search/sougou_0.txt" />
         <option value="$PROJECT_DIR$/sougou_search/search_request.py" />
@@ -191,6 +220,11 @@
         <option value="$PROJECT_DIR$/spider_learn/doubang250/doubang250/settings.py" />
         <option value="$PROJECT_DIR$/spider_learn/doubang250/doubang250/xx.json" />
         <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_master.py" />
+        <option value="$PROJECT_DIR$/Facebook_api/login_cookies.py" />
+        <option value="$PROJECT_DIR$/Facebook_api/login.py" />
+        <option value="$PROJECT_DIR$/Facebook_xihaiming/setting.py" />
+        <option value="$PROJECT_DIR$/Facebook_xihaiming/test_baidu.py" />
+        <option value="$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py" />
       </list>
     </option>
   </component>
@@ -217,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,11 +259,15 @@
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook_xihaiming" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,25 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="adapters" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:/Program Files/Python36/Lib/site-packages/requests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:/Program Files/Python36/Lib/site-packages/requests/adapters.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.index_xihaiming">
     <configuration name="doban_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -297,7 +318,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="server_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="index_xihaiming" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook_xihaiming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,7 +348,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook_api/server_api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook_api/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,38 +372,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tupu_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Twisted Trial in test_baidu.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook_api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook_xihaiming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook_api/tupu_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Facebook_xihaiming/test_baidu.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.tupu_api" />
-      <item itemvalue="Python.adapters" />
-      <item itemvalue="Python.server_api" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.doban_spider" />
+      <item itemvalue="Python.login" />
+      <item itemvalue="Python.index_xihaiming" />
+      <item itemvalue="Python tests.Twisted Trial in test_baidu.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.index_xihaiming" />
+        <item itemvalue="Python tests.Twisted Trial in test_baidu.py" />
+        <item itemvalue="Python.login" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.doban_spider" />
-        <item itemvalue="Python.tupu_api" />
-        <item itemvalue="Python.server_api" />
-        <item itemvalue="Python.adapters" />
       </list>
     </recent_temporary>
   </component>
@@ -381,6 +415,14 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Twisted_Trial_in_test_baidu_py - 2018.06.20 at 12h 24m 46s.xml">
+      <configuration name="Twisted Trial in test_baidu.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_test_baidu_py - 2018.06.20 at 12h 25m 34s.xml">
+      <configuration name="Twisted Trial in test_baidu.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -392,17 +434,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528978" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286026" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32964602" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286026" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.4628821" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4606987" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29912663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40938863" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40938863" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49344978" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6091703" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -460,64 +503,16 @@
           <line>10</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Wxb/wxb_rank/政务.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wxb/wxb_rank/地方.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Run/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wxb/wxb_rank/wxb_rank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wxb/wxb_rank/temp.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider_learn/tutorial/tutorial/Books.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -576,15 +571,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/xx.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
@@ -660,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6-19.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="220">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
@@ -668,23 +654,121 @@
     <entry file="file://$PROJECT_DIR$/Facebook_api/fbtoken">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook_api/new.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook_api/result.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook_api/server_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook_api/tupu_api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_api/new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="123" column="64" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_api/login_cookies.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_api/server_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_api/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/test_baidu.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27758" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/test_baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="1664" lean-forward="true" selection-start-line="1664" selection-end-line="1664" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
