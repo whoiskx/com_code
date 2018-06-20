@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Facebook_xihaiming/before/friends.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook_xihaiming/copy_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook_xihaiming/parse_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook_xihaiming/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facebook_group/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_test/T_doban.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facebook_follows/parse_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facebook_follows/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook_xihaiming/_trial_temp/_trial_marker" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook_xihaiming/before/friends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook_xihaiming/_trial_temp/test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook_xihaiming/test_baidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook_xihaiming/test_baidu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook_xihaiming/test_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook_xihaiming/ttest_baidu.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +37,34 @@
       <file leaf-file-name="parse_index.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/parse_index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="227">
               <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse_profile.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/facebook_follows/parse_profile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/facebook_follows/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="96" column="46919" selection-start-line="96" selection-start-column="46919" selection-end-line="96" selection-end-column="46919" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -85,18 +101,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
               <caret line="4944" column="8" selection-start-line="4944" selection-start-column="8" selection-end-line="4944" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/facebook_group/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1624,20 +1628,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="friends.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/before/friends.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7810">
-              <caret line="92" column="70" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index_xihaiming.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -1741,19 +1731,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cctvas</find>
-      <find>MaoLife365</find>
-      <find>zgjm686</find>
-      <find>duhaoshu</find>
-      <find>yojjgb</find>
-      <find>tuan_tuanjun</find>
       <find>get_gzh_info</find>
       <find>ConnectionPool</find>
       <find>MYSQL_PARAMS</find>
@@ -1778,6 +1762,12 @@
       <find>_6a _3bcs</find>
       <find>fsl fwb fcb</find>
       <find>hidden_elem</find>
+      <find>manage</find>
+      <find>fwn</find>
+      <find>Zuungar LLC</find>
+      <find>_50f4</find>
+      <find>js_33v</find>
+      <find>_c24 _50f4</find>
     </findStrings>
     <dirStrings>
       <dir>D:\com_code\WechatSogou-master\wechatsogou</dir>
@@ -1790,9 +1780,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/library_git/wechat_sogou_crawl-master/updatemp.py" />
-        <option value="$PROJECT_DIR$/library_git/wechat_sogou_crawl-master/wechatsogou/api.py" />
-        <option value="$PROJECT_DIR$/library_git/wechat_sogou_crawl-master/updatewenzhang.py" />
         <option value="$PROJECT_DIR$/library_git/wechat_sogou_crawl-master/wechatsogou/basic.py" />
         <option value="$PROJECT_DIR$/library_git/wechat_articles_spider-master/wechatarticles/ArticlesAPI.py" />
         <option value="$PROJECT_DIR$/library_git/wechat_sogou_crawl-master/auto_add_mp.py" />
@@ -1841,6 +1828,9 @@
         <option value="$PROJECT_DIR$/Facebook_xihaiming/all_friends.txt" />
         <option value="$PROJECT_DIR$/Facebook_xihaiming/parse_index.py" />
         <option value="$PROJECT_DIR$/Facebook_xihaiming/readme.txt" />
+        <option value="$PROJECT_DIR$/facebook_group/parse_profile.py" />
+        <option value="$PROJECT_DIR$/facebook_follows/profile.html" />
+        <option value="$PROJECT_DIR$/facebook_follows/parse_profile.py" />
       </list>
     </option>
   </component>
@@ -1877,6 +1867,11 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="facebook_follows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
               <item name="facebook_group" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1904,13 +1899,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\com_code\Facebook_api" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\com_code\facebook_follows" />
       <recent name="D:\com_code\spider_learn" />
       <recent name="D:\com_code\my_test" />
       <recent name="D:\com_code\scrapy_exts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\com_code\Facebook_api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1925,7 +1921,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parse_index">
+  <component name="RunManager" selected="Python.parse_profile">
     <configuration name="friends" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1962,24 +1958,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="index_xihaiming" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook_xihaiming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook_xihaiming/index_xihaiming.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="parse_index" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1993,6 +1971,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook_xihaiming/parse_index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="parse_profile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/facebook_follows" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/facebook_follows/parse_profile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -2017,19 +2013,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.index_xihaiming" />
       <item itemvalue="Python.ttest_baidu" />
       <item itemvalue="Python.parse_index" />
       <item itemvalue="Python.friends" />
       <item itemvalue="Python.index" />
+      <item itemvalue="Python.parse_profile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parse_profile" />
         <item itemvalue="Python.parse_index" />
         <item itemvalue="Python.index" />
         <item itemvalue="Python.friends" />
         <item itemvalue="Python.ttest_baidu" />
-        <item itemvalue="Python.index_xihaiming" />
       </list>
     </recent_temporary>
   </component>
@@ -2065,16 +2061,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528978" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3286026" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50052685" side_tool="true" weight="0.6091703" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4978166" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.50926936" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.5742358" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.4628821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.40938863" />
-      <window_info anchor="top" content_ui="combo" x="0" y="601" width="1920" height="439" id="Debug" order="0" sideWeight="0.49947312" type="FLOATING" weight="0.6091703" />
+      <window_info anchor="bottom" content_ui="combo" x="-28" y="576" width="1920" height="439" id="Debug" order="11" sideWeight="0.50052685" side_tool="true" visible="true" weight="0.50926936" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -2169,17 +2166,30 @@
           <line>23</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/facebook_follows/parse_profile.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>e(&quot;div&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -4032,9 +4042,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/parse_index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="227">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
@@ -4046,10 +4063,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook_xihaiming/readme.txt">
+    <entry file="file://$PROJECT_DIR$/facebook_follows/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="344">
+          <caret line="96" column="46919" selection-start-line="96" selection-start-column="46919" selection-end-line="96" selection-end-column="46919" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/facebook_follows/parse_profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
