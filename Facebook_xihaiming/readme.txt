@@ -12,5 +12,8 @@ come_form 来自
 job 职业
 sex 性别
 degree 学历
+followers 粉丝
+
+小时  小时：分钟  月/日 月  月日年
 
 

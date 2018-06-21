@@ -6,7 +6,7 @@ import json
 import re
 from setting import db, driver_facebook
 from pyquery import PyQuery as pq
-g
+
 # driver = webdriver.Chrome()
 
 with open("all_friends.txt", 'r', encoding="utf-8") as f:
