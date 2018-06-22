@@ -27,7 +27,7 @@ error_count = 0
 for count, d in enumerate(results):
     # link = "https://www.facebook.com/longson.chang/about?lst=1682293696%3A1816532918%3A1529546966"
     # driver.get(d.get("link", ''))
-    if count <= 332:
+    if count <= 700:
         log("skip {} {}".format(count, d.get('name')))
         continue
     log("begin {}", count)
@@ -85,8 +85,8 @@ for count, d in enumerate(results):
              "job": job, 'followers': follows,
              "degree": degree, "sex": sex, "is_get": True})
         log("insert sucessful")
-        time.sleep(randint(4, 9))
-        if count >= 400:
+        time.sleep(randint(2, 5))
+        if count >= 800:
             break
     except Exception as e:
         log(count, name, e)
