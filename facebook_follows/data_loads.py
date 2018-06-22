@@ -4,9 +4,7 @@ import json
 
 from setting import db
 
-data = db.facebook
-print(data.find())
-results = []
-for i in data.find():
-    results.append(i)
-print(results)
+# 备份集合
+# data = db.facebook
+# for i in data.find():
+#     db.backup_facebook.insert(i)

@@ -8340,3 +8340,1411 @@ Facebook © 2018
 09:24:49 粉丝：6 人
 09:24:49 insert sucessful
 09:24:53 end
+10:05:10 [{'name': 'Longson Chang', 'link': 'https://www.facebook.com/longson.chang?fref=pb&hc_location=friends_tab'}, {'name': 'Pui Lian', 'link': 'https://www.facebook.com/puilian.heng?fref=pb&hc_location=friends_tab'}, {'name': '蔡瑛綺', 'link': 'https://www.facebook.com/profile.php?id=100010273510106&fref=pb&hc_location=friends_tab'}, {'name': '叶伟东', 'link': 'https://www.facebook.com/profile.php?id=100014997484778&fref=pb&hc_location=friends_tab'}, {'name': 'Hamut Mahmut', 'link': 'https://www.facebook.com/mahmut.hamut.182?fref=pb&hc_location=friends_tab'}, {'name': '汪真鎂', 'link': 'https://www.facebook.com/tiffany1966tw?fref=pb&hc_location=friends_tab'}, {'name': '洪耀南', 'link': 'https://www.facebook.com/yaonanh?fref=pb&hc_location=friends_tab'}, {'name': '張舒眉', 'link': 'https://www.facebook.com/profile.php?id=100009783974892&fref=pb&hc_location=friends_tab'}, {'name': '曾芳代', 'link': 'https://www.facebook.com/fangtai.tseng?fref=pb&hc_location=friends_tab'}, {'name': '李酉潭', 'link': 'https://www.facebook.com/profile.php?id=100007300182374&fref=pb&hc_location=friends_tab'}, {'name': '蔡進文', 'link': 'https://www.facebook.com/qi.baotai.35?fref=pb&hc_location=friends_tab'}, {'name': 'Karen Cheng', 'link': 'https://www.facebook.com/kaijung.cheng?fref=pb&hc_location=friends_tab'}, {'name': '周一回', 'link': 'https://www.facebook.com/profile.php?id=100003260021951&fref=pb&hc_location=friends_tab'}, {'name': '林允升', 'link': 'https://www.facebook.com/profile.php?id=100008305061150&fref=pb&hc_location=friends_tab'}, {'name': '朱孟庠', 'link': 'https://www.facebook.com/mengchang.chu?fref=pb&hc_location=friends_tab'}, {'name': 'Ping Nga Ong', 'link': 'https://www.facebook.com/ongngaping.ong?fref=pb&hc_location=friends_tab'}, {'name': '蔡宜蓁', 'link': 'https://www.facebook.com/yichentsai0215?fref=pb&hc_location=friends_tab'}, {'name': '李瑞鴻', 'link': 'https://www.facebook.com/profile.php?id=100006688728123&fref=pb&hc_location=friends_tab'}, {'name': '陳添發', 'link': 'https://www.facebook.com/profile.php?id=100006280697175&fref=pb&hc_location=friends_tab'}, {'name': '謝潤姿', 'link': 'https://www.facebook.com/villa.wang?fref=pb&hc_location=friends_tab'}, {'name': '曾建元', 'link': 'https://www.facebook.com/profile.php?id=714607856&fref=pb&hc_location=friends_tab'}, {'name': 'Tsering Lhamo', 'link': 'https://www.facebook.com/lhamo.tsering.798?fref=pb&hc_location=friends_tab'}, {'name': '徐傳國', 'link': 'https://www.facebook.com/profile.php?id=100016173038478&fref=pb&hc_location=friends_tab'}, {'name': '紀文清', 'link': 'https://www.facebook.com/profile.php?id=1480491883&fref=pb&hc_location=friends_tab'}, {'name': 'Toshikatsu Nagai', 'link': 'https://www.facebook.com/toshikatsu.nagai.7?fref=pb&hc_location=friends_tab'}, {'name': 'Chizuko Nakaso', 'link': 'https://www.facebook.com/chizuko.nakaso?fref=pb&hc_location=friends_tab'}, {'name': 'Turmuhammet Hashim', 'link': 'https://www.facebook.com/turmuhammet.hashim?fref=pb&hc_location=friends_tab'}, {'name': 'Tsering Woeser', 'link': 'https://www.facebook.com/tsering.woeser?fref=pb&hc_location=friends_tab'}, {'name': 'Mutu Jiri', 'link': 'https://www.facebook.com/moi77?fref=pb&hc_location=friends_tab'}, {'name': 'Mituko Nakano', 'link': 'https://www.facebook.com/mituko.nakano.7?fref=pb&hc_location=friends_tab'}, {'name': 'ChinKun Chang', 'link': 'https://www.facebook.com/profile.php?id=100019053906692&fref=pb&hc_location=friends_tab'}, {'name': '陈斌', 'link': 'https://www.facebook.com/profile.php?id=100018190562809&fref=pb&hc_location=friends_tab'}, {'name': 'Clifton Lee', 'link': 'https://www.facebook.com/clifton.lee.3344?fref=pb&hc_location=friends_tab'}, {'name': 'Jagchid Ulzidelger', 'link': 'https://www.facebook.com/B.A.uuljdelger?fref=pb&hc_location=friends_tab'}, {'name': 'Dawa Bari', 'link': 'https://www.facebook.com/dawa.bari?fref=pb&hc_location=friends_tab'}, {'name': 'Ligeng Wu', 'link': 'https://www.facebook.com/ligeng.wu?fref=pb&hc_location=friends_tab'}, {'name': '傅達士', 'link': 'https://www.facebook.com/quan.jun.5?fref=pb&hc_location=friends_tab'}, {'name': '余杰', 'link': 'https://www.facebook.com/yujie1989?fref=pb&hc_location=friends_tab'}, {'name': 'Luke Goh', 'link': 'https://www.facebook.com/SituYebin?fref=pb&hc_location=friends_tab'}, {'name': 'Xiaoqin Su', 'link': 'https://www.facebook.com/xiaoqin.su.12?fref=pb&hc_location=friends_tab'}, {'name': 'Munkhbayar Ch', 'link': 'https://www.facebook.com/munkhbayar68?fref=pb&hc_location=friends_tab'}, {'name': '林珮華', 'link': 'https://www.facebook.com/profile.php?id=100000857007639&fref=pb&hc_location=friends_tab'}, {'name': 'Dorjcvren Bayanaa', 'link': 'https://www.facebook.com/dorjcvren.bayanaa?fref=pb&hc_location=friends_tab'}, {'name': '仲維光', 'link': 'https://www.facebook.com/zhongweiguang?fref=pb&hc_location=friends_tab'}, {'name': '施正鋒', 'link': 'https://www.facebook.com/cfshih2012?fref=pb&hc_location=friends_tab'}, {'name': 'Govrud Archa', 'link': 'https://www.facebook.com/ergune.govrud?fref=pb&hc_location=friends_tab'}, {'name': '凃京威', 'link': 'https://www.facebook.com/profile.php?id=100000109779252&fref=pb&hc_location=friends_tab'}, {'name': 'Kent KU', 'link': 'https://www.facebook.com/profile.php?id=100001017234196&fref=pb&hc_location=friends_tab'}, {'name': '张伟国', 'link': 'https://www.facebook.com/zhangweiguo?fref=pb&hc_location=friends_tab'}, {'name': '王珂馨', 'link': 'https://www.facebook.com/profile.php?id=100019059701459&fref=pb&hc_location=friends_tab'}, {'name': 'Jeffery India Imc', 'link': 'https://www.facebook.com/jeffery.imc?fref=pb&hc_location=friends_tab'}, {'name': '魏京生', 'link': 'https://www.facebook.com/jingsheng.wei.3?fref=pb&hc_location=friends_tab'}, {'name': 'Dulaan Borjigan', 'link': 'https://www.facebook.com/dulaan.borjigan?fref=pb&hc_location=friends_tab'}, {'name': '范世平', 'link': 'https://www.facebook.com/shihping.fan?fref=pb&hc_location=friends_tab'}, {'name': 'Chun Wang', 'link': 'https://www.facebook.com/chun.wang.376?fref=pb&hc_location=friends_tab'}, {'name': '李恒青', 'link': 'https://www.facebook.com/hengqing.li?fref=pb&hc_location=friends_tab'}, {'name': 'フェイ ヤン', 'link': 'https://www.facebook.com/yipinchin?fref=pb&hc_location=friends_tab'}, {'name': '邱文福', 'link': 'https://www.facebook.com/jc.qiu2?fref=pb&hc_location=friends_tab'}, {'name': '邱文福', 'link': 'https://www.facebook.com/justin.qiu1?fref=pb&hc_location=friends_tab'}, {'name': 'Sorgog Borjigin', 'link': 'https://www.facebook.com/sorgog.Borjigin?fref=pb&hc_location=friends_tab'}, {'name': '张林', 'link': 'https://www.facebook.com/lin.zhang.96343405?fref=pb&hc_location=friends_tab'}, {'name': 'Daichin Olhunuud', 'link': 'https://www.facebook.com/daichin.olhunuud?fref=pb&hc_location=friends_tab'}, {'name': 'Gegentana Borjigen', 'link': 'https://www.facebook.com/bingdongdelanyi?fref=pb&hc_location=friends_tab'}, {'name': '乔龙农', 'link': 'https://www.facebook.com/profile.php?id=100009809259117&fref=pb&hc_location=friends_tab'}, {'name': 'Tenzin Jigmey', 'link': 'https://www.facebook.com/tenzin.jigmey.754918?fref=pb&hc_location=friends_tab'}, {'name': '永山英樹', 'link': 'https://www.facebook.com/mamoretaiwan?fref=pb&hc_location=friends_tab'}, {'name': 'Choelingtsang Lobsang Chopel', 'link': 'https://www.facebook.com/lobsang.chopelgatho?fref=pb&hc_location=friends_tab'}, {'name': 'Yukio Yanagihara', 'link': 'https://www.facebook.com/yukiopower?fref=pb&hc_location=friends_tab'}, {'name': 'Kwaiki Muk', 'link': 'https://www.facebook.com/kwaiki.muk?fref=pb&hc_location=friends_tab'}, {'name': 'Unimunkh Uriankhai', 'link': 'https://www.facebook.com/wunimenghe.oriyanhan?fref=pb&hc_location=friends_tab'}, {'name': '张威廉', 'link': 'https://www.facebook.com/ZhangWilhelm?fref=pb&hc_location=friends_tab'}, {'name': 'Yong Zhong Pan', 'link': 'https://www.facebook.com/yongzhong.pan?fref=pb&hc_location=friends_tab'}, {'name': 'Nomin Altuud', 'link': 'https://www.facebook.com/nomin.alta?fref=pb&hc_location=friends_tab'}, {'name': 'Jing Wei', 'link': 'https://www.facebook.com/Wei.Jingsheng.China?fref=pb&hc_location=friends_tab'}, {'name': 'Tomoko Abo', 'link': 'https://www.facebook.com/tomoko.abo?fref=pb&hc_location=friends_tab'}, {'name': '東方司馬', 'link': 'https://www.facebook.com/profile.php?id=100018745110244&fref=pb&hc_location=friends_tab'}, {'name': 'Jiri Gara', 'link': 'https://www.facebook.com/jiri65gala?fref=pb&hc_location=friends_tab'}, {'name': '李芃萱', 'link': 'https://www.facebook.com/penghsuan?fref=pb&hc_location=friends_tab'}, {'name': 'Rose Tang', 'link': 'https://www.facebook.com/rose.l.tang?fref=pb&hc_location=friends_tab'}, {'name': 'Khas Mongolia', 'link': 'https://www.facebook.com/hasiqimuge.hu?fref=pb&hc_location=friends_tab'}, {'name': 'Muumiangan Nandin', 'link': 'https://www.facebook.com/tengerlig.muumyangan?fref=pb&hc_location=friends_tab'}, {'name': '曾慧燕', 'link': 'https://www.facebook.com/profile.php?id=100003724726999&fref=pb&hc_location=friends_tab'}, {'name': 'Kotaro Miura', 'link': 'https://www.facebook.com/kotaro.miura.96?fref=pb&hc_location=friends_tab'}, {'name': '仲大聪', 'link': 'https://www.facebook.com/profile.php?id=1825102640&fref=pb&hc_location=friends_tab'}, {'name': '李忠憲', 'link': 'https://www.facebook.com/jslipfhf?fref=pb&hc_location=friends_tab'}, {'name': '袁紅冰', 'link': 'https://www.facebook.com/hongbing.yuan.52?fref=pb&hc_location=friends_tab'}, {'name': 'Umit Hamit', 'link': 'https://www.facebook.com/profile.php?id=100006712249111&fref=pb&hc_location=friends_tab'}, {'name': 'Yalalt Bayuud', 'link': 'https://www.facebook.com/profile.php?id=100011267119084&fref=pb&hc_location=friends_tab'}, {'name': '黄宇庭', 'link': 'https://www.facebook.com/profile.php?id=100014321793964&fref=pb&hc_location=friends_tab'}, {'name': 'Yang Ren', 'link': 'https://www.facebook.com/yang.ren.58?fref=pb&hc_location=friends_tab'}, {'name': 'Их Ээ', 'link': 'https://www.facebook.com/profile.php?id=100006133098594&fref=pb&hc_location=friends_tab'}, {'name': '游天隼', 'link': 'https://www.facebook.com/profile.php?id=100010568704870&fref=pb&hc_location=friends_tab'}, {'name': '李文足', 'link': 'https://www.facebook.com/profile.php?id=100014174103159&fref=pb&hc_location=friends_tab'}, {'name': 'Jun Zhang', 'link': 'https://www.facebook.com/jun.zhang.52056?fref=pb&hc_location=friends_tab'}, {'name': 'Peter Hertmann', 'link': 'https://www.facebook.com/peter.hertmann.10?fref=pb&hc_location=friends_tab'}, {'name': '金鐘', 'link': 'https://www.facebook.com/jinmw?fref=pb&hc_location=friends_tab'}, {'name': 'Fumie Furukawa', 'link': 'https://www.facebook.com/fumie.furukawa.5?fref=pb&hc_location=friends_tab'}, {'name': '彭舒蔚', 'link': 'https://www.facebook.com/jenchingjenyi?fref=pb&hc_location=friends_tab'}, {'name': '林勝韋', 'link': 'https://www.facebook.com/linmiou?fref=pb&hc_location=friends_tab'}, {'name': 'Tenpa Dhagyal', 'link': 'https://www.facebook.com/tenpa.dhagyal?fref=pb&hc_location=friends_tab'}, {'name': 'Lobsangsherap Lobsang', 'link': 'https://www.facebook.com/lobsangsherap.lobsang?fref=pb&hc_location=friends_tab'}, {'name': 'Qinglian He', 'link': 'https://www.facebook.com/profile.php?id=100002124538677&fref=pb&hc_location=friends_tab'}, {'name': 'Petra Henkel', 'link': 'https://www.facebook.com/petra.heinsmann?fref=pb&hc_location=friends_tab'}, {'name': '山本康司', 'link': 'https://www.facebook.com/yamamotokoji4?fref=pb&hc_location=friends_tab'}, {'name': '林保華', 'link': 'https://www.facebook.com/profile.php?id=100006691774424&fref=pb&hc_location=friends_tab'}, {'name': 'Gegee Borjigin', 'link': 'https://www.facebook.com/gege.borjigin?fref=pb&hc_location=friends_tab'}, {'name': 'ᠮᠠᠩᠨᠤᠳ ᠤᠷᠭᠤᠮᠠᠯ', 'link': 'https://www.facebook.com/profile.php?id=100014211006312&fref=pb&hc_location=friends_tab'}, {'name': 'Lin Hsinyi', 'link': 'https://www.facebook.com/lhsinyi?fref=pb&hc_location=friends_tab'}, {'name': 'Xashaa Tseren', 'link': 'https://www.facebook.com/profile.php?id=100008887532678&fref=pb&hc_location=friends_tab'}, {'name': '张建林', 'link': 'https://www.facebook.com/profile.php?id=100019112942940&fref=pb&hc_location=friends_tab'}, {'name': 'Wing Lee', 'link': 'https://www.facebook.com/profile.php?id=100010020401486&fref=pb&hc_location=friends_tab'}, {'name': '吳昆陽', 'link': 'https://www.facebook.com/wugood?fref=pb&hc_location=friends_tab'}, {'name': '蒙麗', 'link': 'https://www.facebook.com/profile.php?id=100010830510154&fref=pb&hc_location=friends_tab'}, {'name': '陳年添', 'link': 'https://www.facebook.com/profile.php?id=100005636444975&fref=pb&hc_location=friends_tab'}, {'name': '廖建超', 'link': 'https://www.facebook.com/pipetobacco?fref=pb&hc_location=friends_tab'}, {'name': '謝建平', 'link': 'https://www.facebook.com/xie.w.li.1?fref=pb&hc_location=friends_tab'}, {'name': 'Dolkyi སྒྲོལ་སྐྱིད', 'link': 'https://www.facebook.com/dolkyi?fref=pb&hc_location=friends_tab'}, {'name': 'Ebairitu Bao', 'link': 'https://www.facebook.com/ebairitu.bao?fref=pb&hc_location=friends_tab'}, {'name': 'Erdemt Borjigin', 'link': 'https://www.facebook.com/erdemt.borjigin?fref=pb&hc_location=friends_tab'}, {'name': 'Borjigin Tsetseg', 'link': 'https://www.facebook.com/checheg.borjigen?fref=pb&hc_location=friends_tab'}, {'name': 'Taya Tha', 'link': 'https://www.facebook.com/tayathat?fref=pb&hc_location=friends_tab'}, {'name': '云少布', 'link': 'https://www.facebook.com/yunshaobu?fref=pb&hc_location=friends_tab'}, {'name': 'Tony Cai', 'link': 'https://www.facebook.com/tony.cai.758?fref=pb&hc_location=friends_tab'}, {'name': '蘇安娜', 'link': 'https://www.facebook.com/AnnaBananaSu?fref=pb&hc_location=friends_tab'}, {'name': 'Chimgee Baatar', 'link': 'https://www.facebook.com/chimgee579?fref=pb&hc_location=friends_tab'}, {'name': 'Mumin Chen', 'link': 'https://www.facebook.com/mumin.chen.12?fref=pb&hc_location=friends_tab'}, {'name': '李瑞銘', 'link': 'https://www.facebook.com/profile.php?id=100000316160120&fref=pb&hc_location=friends_tab'}, {'name': '曾憲鴻', 'link': 'https://www.facebook.com/xianhongc2?fref=pb&hc_location=friends_tab'}, {'name': '林冠妙', 'link': 'https://www.facebook.com/topmiao?fref=pb&hc_location=friends_tab'}, {'name': 'Aherap Losang', 'link': 'https://www.facebook.com/aherap.losang?fref=pb&hc_location=friends_tab'}, {'name': 'Yiwu Liao', 'link': 'https://www.facebook.com/yiwu0619?fref=pb&hc_location=friends_tab'}, {'name': '黄芩', 'link': 'https://www.facebook.com/profile.php?id=100017695142413&fref=pb&hc_location=friends_tab'}, {'name': 'Shan Gao', 'link': 'https://www.facebook.com/shan.gao.3781?fref=pb&hc_location=friends_tab'}, {'name': '龙灿', 'link': 'https://www.facebook.com/profile.php?id=100007069511370&fref=pb&hc_location=friends_tab'}, {'name': 'Ulaana Tseren', 'link': 'https://www.facebook.com/ulaana.tseren?fref=pb&hc_location=friends_tab'}, {'name': '朱政騏', 'link': 'https://www.facebook.com/chargechu?fref=pb&hc_location=friends_tab'}, {'name': '蔡雅瀅', 'link': 'https://www.facebook.com/profile.php?id=100000184513098&fref=pb&hc_location=friends_tab'}, {'name': '包苏和', 'link': 'https://www.facebook.com/suhe.bao.3?fref=pb&hc_location=friends_tab'}, {'name': 'Brinson Ai', 'link': 'https://www.facebook.com/tala.bu.184?fref=pb&hc_location=friends_tab'}, {'name': '許龍俊', 'link': 'https://www.facebook.com/profile.php?id=100003608864865&fref=pb&hc_location=friends_tab'}, {'name': 'Ganzorig Oyunbileg Ogtoryenxebui', 'link': 'https://www.facebook.com/profile.php?id=100024279254387&fref=pb&hc_location=friends_tab'}, {'name': '烏凌翔', 'link': 'https://www.facebook.com/wulianghai?fref=pb&hc_location=friends_tab'}, {'name': 'Yong Deng', 'link': 'https://www.facebook.com/huixian.deng.16?fref=pb&hc_location=friends_tab'}, {'name': '唐丹鸿', 'link': 'https://www.facebook.com/danhong.tang?fref=pb&hc_location=friends_tab'}, {'name': '楊 長鎮', 'link': 'https://www.facebook.com/azen2u?fref=pb&hc_location=friends_tab'}, {'name': 'Bat Shu Run', 'link': 'https://www.facebook.com/profile.php?id=100013617219693&fref=pb&hc_location=friends_tab'}, {'name': 'Xiaokang Su', 'link': 'https://www.facebook.com/xiaokang.su?fref=pb&hc_location=friends_tab'}, {'name': 'Kerim Sharif', 'link': 'https://www.facebook.com/profile.php?id=100006548417772&fref=pb&hc_location=friends_tab'}, {'name': 'Taka Frank', 'link': 'https://www.facebook.com/taka.frank?fref=pb&hc_location=friends_tab'}, {'name': 'Дарьчулуун Дариа', 'link': 'https://www.facebook.com/sarangerel.saraa.3192?fref=pb&hc_location=friends_tab'}, {'name': 'Dorjee Sodor', 'link': 'https://www.facebook.com/dorjee.sodor?fref=pb&hc_location=friends_tab'}, {'name': 'Bei Ming', 'link': 'https://www.facebook.com/BeiMing2013?fref=pb&hc_location=friends_tab'}, {'name': 'Ton Chen', 'link': 'https://www.facebook.com/ton.chen.9?fref=pb&hc_location=friends_tab'}, {'name': 'Makoto Iwata', 'link': 'https://www.facebook.com/makoto.iwata1?fref=pb&hc_location=friends_tab'}, {'name': 'ᠮᠣᠩᠭᠤᠯ ᠪᠠᠲᠣᠳᠦᠷᠣ', 'link': 'https://www.facebook.com/battur.itgel?fref=pb&hc_location=friends_tab'}, {'name': 'Haijiang Zhu', 'link': 'https://www.facebook.com/haijiang.zhu?fref=pb&hc_location=friends_tab'}, {'name': '政言詹', 'link': 'https://www.facebook.com/user7enjoyjan?fref=pb&hc_location=friends_tab'}, {'name': 'Min Zhang', 'link': 'https://www.facebook.com/min.zhang.3950?fref=pb&hc_location=friends_tab'}, {'name': '王策', 'link': 'https://www.facebook.com/profile.php?id=100025660219595&fref=pb&hc_location=friends_tab'}, {'name': 'Tulguur Duudach', 'link': 'https://www.facebook.com/profile.php?id=100013910261170&fref=pb&hc_location=friends_tab'}, {'name': '宮崎Sargai', 'link': 'https://www.facebook.com/mary.yoshikawa.9?fref=pb&hc_location=friends_tab'}, {'name': 'Hsiao Jung', 'link': 'https://www.facebook.com/verna1101?fref=pb&hc_location=friends_tab'}, {'name': '謝明海', 'link': 'https://www.facebook.com/felix.tpe?fref=pb&hc_location=friends_tab'}, {'name': 'Hugjil Yunxiebu', 'link': 'https://www.facebook.com/hugjil.yunxiebu?fref=pb&hc_location=friends_tab'}, {'name': '溫金柯', 'link': 'https://www.facebook.com/profile.php?id=1758808247&fref=pb&hc_location=friends_tab'}, {'name': 'Үлнүүд Үүдам', 'link': 'https://www.facebook.com/agudamu.agudamu.7?fref=pb&hc_location=friends_tab'}, {'name': 'Alhaa Alhaa', 'link': 'https://www.facebook.com/profile.php?id=100008345895075&fref=pb&hc_location=friends_tab'}, {'name': 'Mudan Harchin', 'link': 'https://www.facebook.com/mudan.mudan.5?fref=pb&hc_location=friends_tab'}, {'name': 'Monica Cth', 'link': 'https://www.facebook.com/MONICACTH?fref=pb&hc_location=friends_tab'}, {'name': 'George Weiping Qin', 'link': 'https://www.facebook.com/lingen.qin?fref=pb&hc_location=friends_tab'}, {'name': '李鈉', 'link': 'https://www.facebook.com/nananail.taiwan?fref=pb&hc_location=friends_tab'}, {'name': 'Rabiya Kadeer', 'link': 'https://www.facebook.com/rabiya.kadeer?fref=pb&hc_location=friends_tab'}, {'name': 'Saihan Nd', 'link': 'https://www.facebook.com/sainhan.na?fref=pb&hc_location=friends_tab'}, {'name': 'Teng-Yun Huang', 'link': 'https://www.facebook.com/tengyun?fref=pb&hc_location=friends_tab'}, {'name': 'Tseten Dorjee', 'link': 'https://www.facebook.com/tseten.dorjee2?fref=pb&hc_location=friends_tab'}, {'name': 'Ru Yi', 'link': 'https://www.facebook.com/ru.yi.9235?fref=pb&hc_location=friends_tab'}, {'name': '鲍娜雅', 'link': 'https://www.facebook.com/profile.php?id=100008251216281&fref=pb&hc_location=friends_tab'}, {'name': 'Tenzin Tsundue', 'link': 'https://www.facebook.com/tsundue?fref=pb&hc_location=friends_tab'}, {'name': '林梅', 'link': 'https://www.facebook.com/profile.php?id=100007868202142&fref=pb&hc_location=friends_tab'}, {'name': '陳威豪', 'link': 'https://www.facebook.com/profile.php?id=100002307514877&fref=pb&hc_location=friends_tab'}, {'name': 'Borzigin Yalalt', 'link': 'https://www.facebook.com/borzigin.yilalt?fref=pb&hc_location=friends_tab'}, {'name': 'George Peng', 'link': 'https://www.facebook.com/george.peng.180?fref=pb&hc_location=friends_tab'}, {'name': 'Yikai Luo', 'link': 'https://www.facebook.com/yikai.luo.56?fref=pb&hc_location=friends_tab'}, {'name': 'Од Нар', 'link': 'https://www.facebook.com/buteegch.burgud?fref=pb&hc_location=friends_tab'}, {'name': 'Jane Mair', 'link': 'https://www.facebook.com/profile.php?id=100011362279280&fref=pb&hc_location=friends_tab'}, {'name': '姚诚', 'link': 'https://www.facebook.com/profile.php?id=100011294826772&fref=pb&hc_location=friends_tab'}, {'name': '鄒澄淆', 'link': 'https://www.facebook.com/muxintailang?fref=pb&hc_location=friends_tab'}, {'name': 'Marion Chen', 'link': 'https://www.facebook.com/marion.chen.18?fref=pb&hc_location=friends_tab'}, {'name': 'Koichi Iida', 'link': 'https://www.facebook.com/formosataiwan.mahorobajapan?fref=pb&hc_location=friends_tab'}, {'name': '柳学红', 'link': 'https://www.facebook.com/profile.php?id=100011216702819&fref=pb&hc_location=friends_tab'}, {'name': 'Belig Borjiged', 'link': 'https://www.facebook.com/beligb?fref=pb&hc_location=friends_tab'}, {'name': 'Harry Svensson', 'link': 'https://www.facebook.com/harry.svensson.10?fref=pb&hc_location=friends_tab'}, {'name': 'Ursula Gauthier', 'link': 'https://www.facebook.com/ursula.gauthier.9?fref=pb&hc_location=friends_tab'}, {'name': 'Jam Blackboy', 'link': 'https://www.facebook.com/jam.blackboy?fref=pb&hc_location=friends_tab'}, {'name': 'Khoh Kheer', 'link': 'https://www.facebook.com/dula.man.9678?fref=pb&hc_location=friends_tab'}, {'name': 'Gerelt Borjigin', 'link': 'https://www.facebook.com/gerelt.borjigin?fref=pb&hc_location=friends_tab'}, {'name': 'Temurbagan Chahar', 'link': 'https://www.facebook.com/profile.php?id=100014119050365&fref=pb&hc_location=friends_tab'}, {'name': 'Yuan Gu', 'link': 'https://www.facebook.com/digitalusa?fref=pb&hc_location=friends_tab'}, {'name': 'Hidetoshi Ishii', 'link': 'https://www.facebook.com/ishiihidetoshi?fref=pb&hc_location=friends_tab'}, {'name': '吳啟嘉', 'link': 'https://www.facebook.com/wuchichia?fref=pb&hc_location=friends_tab'}, {'name': 'Yang Jianli', 'link': 'https://www.facebook.com/yangjianli?fref=pb&hc_location=friends_tab'}, {'name': 'Boronruh Tsinrh', 'link': 'https://www.facebook.com/profile.php?id=100009750496720&fref=pb&hc_location=friends_tab'}, {'name': 'Rahima Mahmut', 'link': 'https://www.facebook.com/rahima.mahmut?fref=pb&hc_location=friends_tab'}, {'name': 'Jing Zhang', 'link': 'https://www.facebook.com/jing.zhang6497?fref=pb&hc_location=friends_tab'}, {'name': 'Nguyễn Thị Ngọc Hạnh', 'link': 'https://www.facebook.com/profile.php?id=100013085557304&fref=pb&hc_location=friends_tab'}, {'name': 'Tanaka Takeyuki', 'link': 'https://www.facebook.com/kokuryu1105?fref=pb&hc_location=friends_tab'}, {'name': 'Arashi L. Uzemchin', 'link': 'https://www.facebook.com/UzemchinArashi?fref=pb&hc_location=friends_tab'}, {'name': 'Lobsang Dakpa Azatsang', 'link': 'https://www.facebook.com/lobsang.dakpa?fref=pb&hc_location=friends_tab'}, {'name': '滕彪', 'link': 'https://www.facebook.com/tengbiaochina?fref=pb&hc_location=friends_tab'}, {'name': '龙曦儿', 'link': 'https://www.facebook.com/profile.php?id=100010608607167&fref=pb&hc_location=friends_tab'}, {'name': 'Timothy Huang', 'link': 'https://www.facebook.com/afotim1967?fref=pb&hc_location=friends_tab'}, {'name': '景萱', 'link': 'https://www.facebook.com/cici.zhang.1800?fref=pb&hc_location=friends_tab'}, {'name': 'Linkhua Linkhua', 'link': 'https://www.facebook.com/LinkhuaLinkhua?fref=pb&hc_location=friends_tab'}, {'name': 'Hasqiqig Borjigin', 'link': 'https://www.facebook.com/profile.php?id=100009442509442&fref=pb&hc_location=friends_tab'}, {'name': 'Roman Yadamjav', 'link': 'https://www.facebook.com/roman.yadamjav?fref=pb&hc_location=friends_tab'}, {'name': 'Chan Ho Tin', 'link': 'https://www.facebook.com/hotin.chan.9277?fref=pb&hc_location=friends_tab'}, {'name': 'Tunglag Tatar', 'link': 'https://www.facebook.com/profile.php?id=100018188232059&fref=pb&hc_location=friends_tab'}, {'name': 'Thinley Norbu', 'link': 'https://www.facebook.com/thinley.norbu.7927?fref=pb&hc_location=friends_tab'}, {'name': '王廣準', 'link': 'https://www.facebook.com/wangguangzhun?fref=pb&hc_location=friends_tab'}, {'name': '桑杰嘉', 'link': 'https://www.facebook.com/kep.sangjey?fref=pb&hc_location=friends_tab'}, {'name': 'Chin Shi Hung', 'link': 'https://www.facebook.com/chinshi.hung?fref=pb&hc_location=friends_tab'}, {'name': '微生槑', 'link': 'https://www.facebook.com/profile.php?id=100001798122356&fref=pb&hc_location=friends_tab'}, {'name': '朱雪琴', 'link': 'https://www.facebook.com/profile.php?id=100013649473166&fref=pb&hc_location=friends_tab'}, {'name': 'Huan Li', 'link': 'https://www.facebook.com/huan.li.73?fref=pb&hc_location=friends_tab'}, {'name': '章立凡', 'link': 'https://www.facebook.com/lifan.zhang.96?fref=pb&hc_location=friends_tab'}, {'name': 'Behtiyar Nasir', 'link': 'https://www.facebook.com/behtiyar.nasir?fref=pb&hc_location=friends_tab'}, {'name': 'Dorjee Tseten', 'link': 'https://www.facebook.com/dtseten?fref=pb&hc_location=friends_tab'}, {'name': 'Eermutu Bao', 'link': 'https://www.facebook.com/eermutu.bao?fref=pb&hc_location=friends_tab'}, {'name': 'Fion Luyi Shi', 'link': 'https://www.facebook.com/fion.lu.370?fref=pb&hc_location=friends_tab'}, {'name': '楊月清', 'link': 'https://www.facebook.com/profile.php?id=715826695&fref=pb&hc_location=friends_tab'}, {'name': 'いしゐ のぞむ', 'link': 'https://www.facebook.com/nozomu.ishiwi?fref=pb&hc_location=friends_tab'}, {'name': '桂和子', 'link': 'https://www.facebook.com/katurawako?fref=pb&hc_location=friends_tab'}, {'name': 'Choedak Gyatso', 'link': 'https://www.facebook.com/Choedak4638?fref=pb&hc_location=friends_tab'}, {'name': '伊井茂', 'link': 'https://www.facebook.com/ethan.kaiunmanzoku?fref=pb&hc_location=friends_tab'}, {'name': '李箐崡', 'link': 'https://www.facebook.com/profile.php?id=100008045468864&fref=pb&hc_location=friends_tab'}, {'name': '趙南', 'link': 'https://www.facebook.com/profile.php?id=100004430463187&fref=pb&hc_location=friends_tab'}, {'name': 'Taro Kanada', 'link': 'https://www.facebook.com/taro.kanada?fref=pb&hc_location=friends_tab'}, {'name': 'Asgar Can', 'link': 'https://www.facebook.com/asgar.can.9?fref=pb&hc_location=friends_tab'}, {'name': 'Tumerbulag Borjigin', 'link': 'https://www.facebook.com/tumerbulag.borjigiin?fref=pb&hc_location=friends_tab'}, {'name': '潘多丹增', 'link': 'https://www.facebook.com/VOT.phenthok?fref=pb&hc_location=friends_tab'}, {'name': 'Kalim Chun', 'link': 'https://www.facebook.com/Chunkalim?fref=pb&hc_location=friends_tab'}, {'name': 'John Ng', 'link': 'https://www.facebook.com/john.ng.9047?fref=pb&hc_location=friends_tab'}, {'name': '陳文玲', 'link': 'https://www.facebook.com/chen2234?fref=pb&hc_location=friends_tab'}, {'name': 'སད མི', 'link': 'https://www.facebook.com/yeshi.tenzin.75?fref=pb&hc_location=friends_tab'}, {'name': 'Degjrh Hantn', 'link': 'https://www.facebook.com/jirihu?fref=pb&hc_location=friends_tab'}, {'name': 'Dennis Huang', 'link': 'https://www.facebook.com/dennis.huang.965?fref=pb&hc_location=friends_tab'}, {'name': 'David Yang', 'link': 'https://www.facebook.com/profile.php?id=100009561336173&fref=pb&hc_location=friends_tab'}, {'name': '韩武', 'link': 'https://www.facebook.com/david.han.5832343?fref=pb&hc_location=friends_tab'}, {'name': 'Numchin Tuvshinzaya', 'link': 'https://www.facebook.com/tuvshinzaya.numchin?fref=pb&hc_location=friends_tab'}, {'name': '傅正明', 'link': 'https://www.facebook.com/profile.php?id=100006129255811&fref=pb&hc_location=friends_tab'}, {'name': '成涛', 'link': 'https://www.facebook.com/taocomic?fref=pb&hc_location=friends_tab'}, {'name': 'Tsering Tibet Dorjee', 'link': 'https://www.facebook.com/tsedorjee?fref=pb&hc_location=friends_tab'}, {'name': 'Niû Hiok Phîng', 'link': 'https://www.facebook.com/hoikphing?fref=pb&hc_location=friends_tab'}, {'name': 'Linda Gail Arrigo', 'link': 'https://www.facebook.com/LindaGailArrigo?fref=pb&hc_location=friends_tab'}, {'name': 'Doris Liu', 'link': 'https://www.facebook.com/doris.liu.560?fref=pb&hc_location=friends_tab'}, {'name': '康一郎吉田', 'link': 'https://www.facebook.com/k.yoshida.jp?fref=pb&hc_location=friends_tab'}, {'name': 'Бөхөө Чулуунбаатарын', 'link': 'https://www.facebook.com/profile.php?id=100009031778486&fref=pb&hc_location=friends_tab'}, {'name': 'Чулуунбат Дэнзэн', 'link': 'https://www.facebook.com/profile.php?id=100012214984992&fref=pb&hc_location=friends_tab'}, {'name': 'Lhagyari Namgyal Dolkar', 'link': 'https://www.facebook.com/namdol.lhagyari?fref=pb&hc_location=friends_tab'}, {'name': '郭亚萨', 'link': 'https://www.facebook.com/graceyasaguo?fref=pb&hc_location=friends_tab'}, {'name': '云敖登高娃', 'link': 'https://www.facebook.com/profile.php?id=100021873045746&fref=pb&hc_location=friends_tab'}, {'name': '孫治本', 'link': 'https://www.facebook.com/zhiben?fref=pb&hc_location=friends_tab'}, {'name': 'Tomokazu Omura', 'link': 'https://www.facebook.com/tomokazu.oomura?fref=pb&hc_location=friends_tab'}, {'name': 'Yungkun Chou', 'link': 'https://www.facebook.com/profile.php?id=100009701982178&fref=pb&hc_location=friends_tab'}, {'name': 'Tsengel Delgersan', 'link': 'https://www.facebook.com/qinggele.cesiuliene?fref=pb&hc_location=friends_tab'}, {'name': '瑪琴', 'link': 'https://www.facebook.com/profile.php?id=100006590082517&fref=pb&hc_location=friends_tab'}, {'name': '吴雁鸿', 'link': 'https://www.facebook.com/ai8833?fref=pb&hc_location=friends_tab'}, {'name': 'Kaiser Kaiser', 'link': 'https://www.facebook.com/profile.php?id=100013530880059&fref=pb&hc_location=friends_tab'}, {'name': '孟浪', 'link': 'https://www.facebook.com/junliangmeng?fref=pb&hc_location=friends_tab'}, {'name': 'Punsag Amarmend', 'link': 'https://www.facebook.com/punsag.amarmend?fref=pb&hc_location=friends_tab'}, {'name': 'Takashi Sato', 'link': 'https://www.facebook.com/takashi.sato.129794?fref=pb&hc_location=friends_tab'}, {'name': 'Гэгэн Тэнигэр', 'link': 'https://www.facebook.com/urank.tnigr?fref=pb&hc_location=friends_tab'}, {'name': '陈立群', 'link': 'https://www.facebook.com/profile.php?id=100000065704494&fref=pb&hc_location=friends_tab'}, {'name': '王藏', 'link': 'https://www.facebook.com/wangzang?fref=pb&hc_location=friends_tab'}, {'name': 'Temtsel Hao', 'link': 'https://www.facebook.com/temtsel?fref=pb&hc_location=friends_tab'}, {'name': '曾厚工', 'link': 'https://www.facebook.com/deltachuan?fref=pb&hc_location=friends_tab'}, {'name': 'ᠤᠯᠠᠭᠠᠨᠪᠠᠷᠰ赤虎 賢ᠥᠭᠡᠯᠡᠳ', 'link': 'https://www.facebook.com/profile.php?id=100004162423498&fref=pb&hc_location=friends_tab'}, {'name': 'Torgantal Borjigin', 'link': 'https://www.facebook.com/narisu.borjigin?fref=pb&hc_location=friends_tab'}, {'name': 'Peter Kong', 'link': 'https://www.facebook.com/profile.php?id=100006312306116&fref=pb&hc_location=friends_tab'}, {'name': '何宗勲', 'link': 'https://www.facebook.com/hehe7747?fref=pb&hc_location=friends_tab'}, {'name': '孫秀如', 'link': 'https://www.facebook.com/H.J.SUN?fref=pb&hc_location=friends_tab'}, {'name': 'Damchoe Gyaltsen', 'link': 'https://www.facebook.com/damchoe.gyaltsen.16?fref=pb&hc_location=friends_tab'}, {'name': 'Tsegyam Ngaba', 'link': 'https://www.facebook.com/tsegyam.ngaba?fref=pb&hc_location=friends_tab'}, {'name': '唐琪薇', 'link': 'https://www.facebook.com/vienna.tang1?fref=pb&hc_location=friends_tab'}, {'name': 'El Lobo Borjigin', 'link': 'https://www.facebook.com/ellobo.borjigin?fref=pb&hc_location=friends_tab'}, {'name': 'Chun Lung Huang', 'link': 'https://www.facebook.com/jackie.huang.tw?fref=pb&hc_location=friends_tab'}, {'name': '陳建安', 'link': 'https://www.facebook.com/jamesfatty520?fref=pb&hc_location=friends_tab'}, {'name': 'Eric Wang', 'link': 'https://www.facebook.com/eric.wang.7965?fref=pb&hc_location=friends_tab'}, {'name': '鄭道', 'link': 'https://www.facebook.com/profile.php?id=100002203470009&fref=pb&hc_location=friends_tab'}, {'name': 'དོན་ བཙན', 'link': 'https://www.facebook.com/lamogyal?fref=pb&hc_location=friends_tab'}, {'name': '黃芷馨', 'link': 'https://www.facebook.com/profile.php?id=100010571795371&fref=pb&hc_location=friends_tab'}, {'name': '李明宇', 'link': 'https://www.facebook.com/lijingdepengyou?fref=pb&hc_location=friends_tab'}, {'name': 'Jie Liou', 'link': 'https://www.facebook.com/profile.php?id=100010390809432&fref=pb&hc_location=friends_tab'}, {'name': 'Shuree Dorjsuren', 'link': 'https://www.facebook.com/shuree.altai?fref=pb&hc_location=friends_tab'}, {'name': '松本 しぇりー', 'link': 'https://www.facebook.com/profile.php?id=100012801510926&fref=pb&hc_location=friends_tab'}, {'name': '包龙军', 'link': 'https://www.facebook.com/profile.php?id=100022542581645&fref=pb&hc_location=friends_tab'}, {'name': '端木一郎', 'link': 'https://www.facebook.com/profile.php?id=100010717175136&fref=pb&hc_location=friends_tab'}, {'name': 'Ben Sop', 'link': 'https://www.facebook.com/profile.php?id=100000234776766&fref=pb&hc_location=friends_tab'}, {'name': '黃台仰', 'link': 'https://www.facebook.com/ray.wong.3785?fref=pb&hc_location=friends_tab'}, {'name': 'Eva CH', 'link': 'https://www.facebook.com/evagogogo?fref=pb&hc_location=friends_tab'}, {'name': 'Tony Tu', 'link': 'https://www.facebook.com/tony.tu.756?fref=pb&hc_location=friends_tab'}, {'name': 'Sonam Topgyal', 'link': 'https://www.facebook.com/nangchen.posar?fref=pb&hc_location=friends_tab'}, {'name': 'Chopathar Mache', 'link': 'https://www.facebook.com/chopathar?fref=pb&hc_location=friends_tab'}, {'name': 'Ren HK', 'link': 'https://www.facebook.com/hkren?fref=pb&hc_location=friends_tab'}, {'name': '蔡嬋兒', 'link': 'https://www.facebook.com/profile.php?id=100000114950093&fref=pb&hc_location=friends_tab'}, {'name': '有尾熊', 'link': 'https://www.facebook.com/consekao?fref=pb&hc_location=friends_tab'}, {'name': 'Zaluu Maki Mongol', 'link': 'https://www.facebook.com/zaluu.mongol.7?fref=pb&hc_location=friends_tab'}, {'name': '陳建宏', 'link': 'https://www.facebook.com/chienhung.chen.549?fref=pb&hc_location=friends_tab'}, {'name': 'Ilshat Hassan Kokbore', 'link': 'https://www.facebook.com/ilshat.kokbore?fref=pb&hc_location=friends_tab'}, {'name': '姬原', 'link': 'https://www.facebook.com/profile.php?id=100008590595923&fref=pb&hc_location=friends_tab'}, {'name': 'Toshiyuki Uchida', 'link': 'https://www.facebook.com/toshiyuki.uchida.9?fref=pb&hc_location=friends_tab'}, {'name': 'Eddie Cheng', 'link': 'https://www.facebook.com/eddie.cheng.1650?fref=pb&hc_location=friends_tab'}, {'name': '王當', 'link': 'https://www.facebook.com/chankywong?fref=pb&hc_location=friends_tab'}, {'name': 'Ikuko Murata', 'link': 'https://www.facebook.com/ikuko.murata?fref=pb&hc_location=friends_tab'}, {'name': '方政', 'link': 'https://www.facebook.com/CDEFInfo?fref=pb&hc_location=friends_tab'}, {'name': 'Tashi Tsering', 'link': 'https://www.facebook.com/tashi.tsering.980?fref=pb&hc_location=friends_tab'}, {'name': 'Burgud Zalichid', 'link': 'https://www.facebook.com/buergude.zha?fref=pb&hc_location=friends_tab'}, {'name': 'Sheng Xue', 'link': 'https://www.facebook.com/shengxue.ca?fref=pb&hc_location=friends_tab'}, {'name': 'Adil Seytoff', 'link': 'https://www.facebook.com/adil.seytoff.5?fref=pb&hc_location=friends_tab'}, {'name': 'Ying-Hung Chen', 'link': 'https://www.facebook.com/yinghung.chen.10?fref=pb&hc_location=friends_tab'}, {'name': 'Chingwan Lin', 'link': 'https://www.facebook.com/chingwan.lin?fref=pb&hc_location=friends_tab'}, {'name': '鲍 ウユンガ', 'link': 'https://www.facebook.com/profile.php?id=100011127815633&fref=pb&hc_location=friends_tab'}, {'name': 'Yuhsin Chen', 'link': 'https://www.facebook.com/hsin747?fref=pb&hc_location=friends_tab'}, {'name': 'Байгал Хошууд', 'link': 'https://www.facebook.com/gali.bai?fref=pb&hc_location=friends_tab'}, {'name': 'Borzgn Delhii', 'link': 'https://www.facebook.com/borzgn.delhii?fref=pb&hc_location=friends_tab'}, {'name': '黃美珍', 'link': 'https://www.facebook.com/profile.php?id=100000829883352&fref=pb&hc_location=friends_tab'}, {'name': 'Bulag Minggad', 'link': 'https://www.facebook.com/bulag.minggad?fref=pb&hc_location=friends_tab'}, {'name': 'Өөлд Дамринжав Төмөр', 'link': 'https://www.facebook.com/tumurgolt?fref=pb&hc_location=friends_tab'}, {'name': '朱光明', 'link': 'https://www.facebook.com/profile.php?id=100017649034563&fref=pb&hc_location=friends_tab'}, {'name': 'JeBe Borjgin', 'link': 'https://www.facebook.com/jebe.borjgin?fref=pb&hc_location=friends_tab'}, {'name': 'Chang Ping', 'link': 'https://www.facebook.com/changping2008?fref=pb&hc_location=friends_tab'}, {'name': '劉明松', 'link': 'https://www.facebook.com/profile.php?id=100007698286633&fref=pb&hc_location=friends_tab'}, {'name': '韩荣利', 'link': 'https://www.facebook.com/tgzyyj?fref=pb&hc_location=friends_tab'}, {'name': 'Askar Erkin', 'link': 'https://www.facebook.com/askar.erkin?fref=pb&hc_location=friends_tab'}, {'name': 'Meili Chow', 'link': 'https://www.facebook.com/meilichou?fref=pb&hc_location=friends_tab'}, {'name': 'Tsering Tsering', 'link': 'https://www.facebook.com/palden8888888888iiiiijs?fref=pb&hc_location=friends_tab'}, {'name': '李焕君', 'link': 'https://www.facebook.com/profile.php?id=100009195816841&fref=pb&hc_location=friends_tab'}, {'name': 'Nars Borjigin', 'link': 'https://www.facebook.com/nars.borjigin?fref=pb&hc_location=friends_tab'}, {'name': 'ཁུ། དབྱི་མོ་མཚོ།', 'link': 'https://www.facebook.com/profile.php?id=100004238057578&fref=pb&hc_location=friends_tab'}, {'name': 'Hasibagan Borjihan', 'link': 'https://www.facebook.com/hasibagan.borjihan?fref=pb&hc_location=friends_tab'}, {'name': '郭原甫', 'link': 'https://www.facebook.com/91richard.tw?fref=pb&hc_location=friends_tab'}, {'name': '富察', 'link': 'https://www.facebook.com/fu.cha.31?fref=pb&hc_location=friends_tab'}, {'name': 'Meyirbek Saylanbek', 'link': 'https://www.facebook.com/Meyirbek?fref=pb&hc_location=friends_tab'}, {'name': 'Kikuchi Toshio', 'link': 'https://www.facebook.com/kikuchi.toshio.9?fref=pb&hc_location=friends_tab'}, {'name': 'Irgen Gioro Liyanbe', 'link': 'https://www.facebook.com/liyanbe?fref=pb&hc_location=friends_tab'}, {'name': 'Pual Ma', 'link': 'https://www.facebook.com/pual.ma.3?fref=pb&hc_location=friends_tab'}, {'name': 'Chunli Shen', 'link': 'https://www.facebook.com/chunli.shen.1?fref=pb&hc_location=friends_tab'}, {'name': 'Narsuu Hartsaga', 'link': 'https://www.facebook.com/nars.khartsaga?fref=pb&hc_location=friends_tab'}, {'name': 'Barbara Chai', 'link': 'https://www.facebook.com/barbara.chai.9?fref=pb&hc_location=friends_tab'}, {'name': '陈维健', 'link': 'https://www.facebook.com/oldchen.nz?fref=pb&hc_location=friends_tab'}, {'name': 'Gulziba Tursun', 'link': 'https://www.facebook.com/gulziba.tursun?fref=pb&hc_location=friends_tab'}, {'name': 'Peter H. Lin', 'link': 'https://www.facebook.com/profile.php?id=100001332264998&fref=pb&hc_location=friends_tab'}, {'name': 'Khorchinbat Borjigin', 'link': 'https://www.facebook.com/horqinbatu.borjigen?fref=pb&hc_location=friends_tab'}, {'name': '海日汗', 'link': 'https://www.facebook.com/profile.php?id=100008674352156&fref=pb&hc_location=friends_tab'}, {'name': 'Enver Tohti', 'link': 'https://www.facebook.com/enver.tohti?fref=pb&hc_location=friends_tab'}, {'name': 'Qier Mu', 'link': 'https://www.facebook.com/qier.mu.5?fref=pb&hc_location=friends_tab'}, {'name': '劉燕子', 'link': 'https://www.facebook.com/profile.php?id=100010128933391&fref=pb&hc_location=friends_tab'}, {'name': 'Linda Manchuria', 'link': 'https://www.facebook.com/linda.manchuria?fref=pb&hc_location=friends_tab'}, {'name': 'Youki Kaku', 'link': 'https://www.facebook.com/profile.php?id=100015362476606&fref=pb&hc_location=friends_tab'}, {'name': '蘇志銓', 'link': 'https://www.facebook.com/jim.su.775?fref=pb&hc_location=friends_tab'}, {'name': '蔡瑛綺', 'link': 'https://www.facebook.com/profile.php?id=100014438802466&fref=pb&hc_location=friends_tab'}, {'name': 'Tungalag Uryanhai', 'link': 'https://www.facebook.com/tungalag.uryanhai?fref=pb&hc_location=friends_tab'}, {'name': 'Ganbat Bold', 'link': 'https://www.facebook.com/ganbat.bold.7505?fref=pb&hc_location=friends_tab'}, {'name': 'Tai Ou', 'link': 'https://www.facebook.com/tai.ou8?fref=pb&hc_location=friends_tab'}, {'name': 'Sammy Hwang', 'link': 'https://www.facebook.com/profile.php?id=100012538601637&fref=pb&hc_location=friends_tab'}, {'name': 'Soichi Makihara', 'link': 'https://www.facebook.com/profile.php?id=100004441243139&fref=pb&hc_location=friends_tab'}, {'name': 'Fengsuo ZHou', 'link': 'https://www.facebook.com/fengsuo.zhou?fref=pb&hc_location=friends_tab'}, {'name': '古川', 'link': 'https://www.facebook.com/profile.php?id=100002035728667&fref=pb&hc_location=friends_tab'}, {'name': '许志永', 'link': 'https://www.facebook.com/profile.php?id=100023978830810&fref=pb&hc_location=friends_tab'}, {'name': 'Lena Stephanie', 'link': 'https://www.facebook.com/profile.php?id=100011031554757&fref=pb&hc_location=friends_tab'}, {'name': 'Wufeng Xu', 'link': 'https://www.facebook.com/ariel.upasaka?fref=pb&hc_location=friends_tab'}, {'name': 'Mark Wain', 'link': 'https://www.facebook.com/mark.wain.73?fref=pb&hc_location=friends_tab'}, {'name': 'Borjigin Mandaa', 'link': 'https://www.facebook.com/mgltxt?fref=pb&hc_location=friends_tab'}, {'name': 'PhUrpa DorjEe', 'link': 'https://www.facebook.com/profile.php?id=100009193250497&fref=pb&hc_location=friends_tab'}, {'name': 'Gu Fu', 'link': 'https://www.facebook.com/gu.fu.589?fref=pb&hc_location=friends_tab'}, {'name': 'Nima Balaji', 'link': 'https://www.facebook.com/nima.balaji?fref=pb&hc_location=friends_tab'}, {'name': 'Ivan Bai', 'link': 'https://www.facebook.com/Mellorlinden?fref=pb&hc_location=friends_tab'}, {'name': 'Jack Ai', 'link': 'https://www.facebook.com/jack.ai.737?fref=pb&hc_location=friends_tab'}, {'name': '马建', 'link': 'https://www.facebook.com/MAJIAN1953?fref=pb&hc_location=friends_tab'}, {'name': 'Gulum Uyghur', 'link': 'https://www.facebook.com/gulum.taxmamat?fref=pb&hc_location=friends_tab'}, {'name': 'Terue Yokota', 'link': 'https://www.facebook.com/terue.yokota?fref=pb&hc_location=friends_tab'}, {'name': '高瑜', 'link': 'https://www.facebook.com/profile.php?id=100016443193728&fref=pb&hc_location=friends_tab'}, {'name': 'Tsengelbayar Tal Sahal', 'link': 'https://www.facebook.com/talsahal.sunidgiligutai?fref=pb&hc_location=friends_tab'}, {'name': '胡一刀', 'link': 'https://www.facebook.com/profile.php?id=100008630283715&fref=pb&hc_location=friends_tab'}, {'name': 'Yanjindulma Borjigin', 'link': 'https://www.facebook.com/yanjindulma?fref=pb&hc_location=friends_tab'}, {'name': 'Bao Ider', 'link': 'https://www.facebook.com/profile.php?id=100016664679336&fref=pb&hc_location=friends_tab'}, {'name': 'Hiroyuki Saito', 'link': 'https://www.facebook.com/hiroyuki.saito3?fref=pb&hc_location=friends_tab'}, {'name': 'Jamba Lama', 'link': 'https://www.facebook.com/jamba.lama.965?fref=pb&hc_location=friends_tab'}, {'name': 'Chaogetu Burenchaogetu', 'link': 'https://www.facebook.com/Burenqogto?fref=pb&hc_location=friends_tab'}, {'name': 'Sonom Dorj', 'link': 'https://www.facebook.com/sonom.dorj?fref=pb&hc_location=friends_tab'}, {'name': 'Bari Lhamo', 'link': 'https://www.facebook.com/bari.lhamo?fref=pb&hc_location=friends_tab'}, {'name': '倪戰聖', 'link': 'https://www.facebook.com/free.cooperation?fref=pb&hc_location=friends_tab'}, {'name': 'Narentonglaga Tmoro', 'link': 'https://www.facebook.com/narentonglaga.tmoro?fref=pb&hc_location=friends_tab'}, {'name': 'Daniel Derrida', 'link': 'https://www.facebook.com/profile.php?id=100011269531283&fref=pb&hc_location=friends_tab'}, {'name': 'Burgud Zalichid', 'link': 'https://www.facebook.com/shaffen.so?fref=pb&hc_location=friends_tab'}, {'name': 'Tu Tian', 'link': 'https://www.facebook.com/tu.tian.16?fref=pb&hc_location=friends_tab'}, {'name': '陆明姒', 'link': 'https://www.facebook.com/profile.php?id=100012168064532&fref=pb&hc_location=friends_tab'}, {'name': 'Stein Ringen', 'link': 'https://www.facebook.com/stein.ringen.7?fref=pb&hc_location=friends_tab'}, {'name': '林浩生', 'link': 'https://www.facebook.com/JasonLin0617?fref=pb&hc_location=friends_tab'}, {'name': 'Jie Zhang', 'link': 'https://www.facebook.com/jie.zhang.9699523?fref=pb&hc_location=friends_tab'}, {'name': '貝嶺', 'link': 'https://www.facebook.com/profile.php?id=100000040094431&fref=pb&hc_location=friends_tab'}, {'name': '冯志良', 'link': 'https://www.facebook.com/profile.php?id=100017856991479&fref=pb&hc_location=friends_tab'}, {'name': 'Bundaa Khaanphoto', 'link': 'https://www.facebook.com/u.bundaa?fref=pb&hc_location=friends_tab'}, {'name': '鲍巴德', 'link': 'https://www.facebook.com/profile.php?id=100007567697352&fref=pb&hc_location=friends_tab'}, {'name': 'Phagpa Tsering', 'link': 'https://www.facebook.com/phagpa.tsering?fref=pb&hc_location=friends_tab'}, {'name': 'Apple Wu', 'link': 'https://www.facebook.com/apple.wu.940436?fref=pb&hc_location=friends_tab'}, {'name': 'Iok-sin Loa', 'link': 'https://www.facebook.com/ioksin.loa?fref=pb&hc_location=friends_tab'}, {'name': 'Tergel Chahar', 'link': 'https://www.facebook.com/tergel.chahar?fref=pb&hc_location=friends_tab'}, {'name': 'Adam Breasley', 'link': 'https://www.facebook.com/adam.breasley.58?fref=pb&hc_location=friends_tab'}, {'name': '潘子貴', 'link': 'https://www.facebook.com/profile.php?id=100007957746171&fref=pb&hc_location=friends_tab'}, {'name': '麻生晴一郎', 'link': 'https://www.facebook.com/gikyoudai?fref=pb&hc_location=friends_tab'}, {'name': '簡大衛', 'link': 'https://www.facebook.com/profile.php?id=100008111116367&fref=pb&hc_location=friends_tab'}, {'name': 'Yong Ge', 'link': 'https://www.facebook.com/yong.ge.370?fref=pb&hc_location=friends_tab'}, {'name': 'Lianchao Han', 'link': 'https://www.facebook.com/lianchao.han?fref=pb&hc_location=friends_tab'}, {'name': '美穂原口', 'link': 'https://www.facebook.com/profile.php?id=100010672264377&fref=pb&hc_location=friends_tab'}, {'name': '钱跃君', 'link': 'https://www.facebook.com/profile.php?id=100009228392253&fref=pb&hc_location=friends_tab'}, {'name': 'Tsetsen Bat', 'link': 'https://www.facebook.com/tsetsenbat?fref=pb&hc_location=friends_tab'}, {'name': 'Yushan Bai', 'link': 'https://www.facebook.com/yushan.bai.313?fref=pb&hc_location=friends_tab'}, {'name': 'Manda Rawa', 'link': 'https://www.facebook.com/profile.php?id=100009222826758&fref=pb&hc_location=friends_tab'}, {'name': '胡杨', 'link': 'https://www.facebook.com/profile.php?id=100010895352086&fref=pb&hc_location=friends_tab'}, {'name': 'Yusi Han', 'link': 'https://www.facebook.com/yusi.han36?fref=pb&hc_location=friends_tab'}, {'name': '巴特尔', 'link': 'https://www.facebook.com/profile.php?id=100020427360829&fref=pb&hc_location=friends_tab'}, {'name': 'Ulaanbar Havhqin', 'link': 'https://www.facebook.com/ulaanbar.havhqin?fref=pb&hc_location=friends_tab'}, {'name': 'Pang-Chun Wu', 'link': 'https://www.facebook.com/pangchunwu?fref=pb&hc_location=friends_tab'}, {'name': 'Kouhei Kurabayashi', 'link': 'https://www.facebook.com/profile.php?id=100006390702662&fref=pb&hc_location=friends_tab'}, {'name': 'La Dhargye', 'link': 'https://www.facebook.com/la.dhargye?fref=pb&hc_location=friends_tab'}, {'name': 'Buren Borjigin', 'link': 'https://www.facebook.com/buren.borjigin?fref=pb&hc_location=friends_tab'}, {'name': 'C.j. Tsao', 'link': 'https://www.facebook.com/profile.php?id=100003481701383&fref=pb&hc_location=friends_tab'}, {'name': 'Ian Shih', 'link': 'https://www.facebook.com/liversea?fref=pb&hc_location=friends_tab'}, {'name': '李冠逸', 'link': 'https://www.facebook.com/profile.php?id=100004356704425&fref=pb&hc_location=friends_tab'}, {'name': 'Arig Tsundue', 'link': 'https://www.facebook.com/arig.tsundue?fref=pb&hc_location=friends_tab'}, {'name': 'Peng Tao', 'link': 'https://www.facebook.com/profile.php?id=100010312873490&fref=pb&hc_location=friends_tab'}, {'name': 'Tibet Mon Pays', 'link': 'https://www.facebook.com/laixiang.ye.3?fref=pb&hc_location=friends_tab'}, {'name': 'Alson Feng', 'link': 'https://www.facebook.com/alson.feng?fref=pb&hc_location=friends_tab'}, {'name': 'Kaifu Cheng', 'link': 'https://www.facebook.com/yuanfu.cheng.9?fref=pb&hc_location=friends_tab'}, {'name': 'Tashi Tashi', 'link': 'https://www.facebook.com/tashi.tashi.98229241?fref=pb&hc_location=friends_tab'}, {'name': '耿静', 'link': 'https://www.facebook.com/jing.geng.54?fref=pb&hc_location=friends_tab'}, {'name': 'Yukari Ida', 'link': 'https://www.facebook.com/ida.yukari.7?fref=pb&hc_location=friends_tab'}, {'name': 'Hai Peng', 'link': 'https://www.facebook.com/profile.php?id=100013274430957&fref=pb&hc_location=friends_tab'}, {'name': 'Yiruul Xi', 'link': 'https://www.facebook.com/profile.php?id=100013602602778&fref=pb&hc_location=friends_tab'}, {'name': '红梅', 'link': 'https://www.facebook.com/profile.php?id=100002517968569&fref=pb&hc_location=friends_tab'}, {'name': '通拉嘎', 'link': 'https://www.facebook.com/tonglaga.bai?fref=pb&hc_location=friends_tab'}, {'name': '相林', 'link': 'https://www.facebook.com/profile.php?id=1517589828&fref=pb&hc_location=friends_tab'}, {'name': 'Ber Lin', 'link': 'https://www.facebook.com/hldlife?fref=pb&hc_location=friends_tab'}, {'name': 'Narsu Naiman', 'link': 'https://www.facebook.com/narsu.naiman?fref=pb&hc_location=friends_tab'}, {'name': '林梅', 'link': 'https://www.facebook.com/profile.php?id=100022332082715&fref=pb&hc_location=friends_tab'}, {'name': '萬幾', 'link': 'https://www.facebook.com/lcktw?fref=pb&hc_location=friends_tab'}, {'name': '古懿', 'link': 'https://www.facebook.com/yi.gu.315?fref=pb&hc_location=friends_tab'}, {'name': 'Lanxida Liu', 'link': 'https://www.facebook.com/LanxidaLiu?fref=pb&hc_location=friends_tab'}, {'name': 'Bateer Erdun', 'link': 'https://www.facebook.com/bateer.erdun.5?fref=pb&hc_location=friends_tab'}, {'name': 'Enqi Wu', 'link': 'https://www.facebook.com/profile.php?id=100011512114179&fref=pb&hc_location=friends_tab'}, {'name': 'Ascar Chan', 'link': 'https://www.facebook.com/profile.php?id=100008805190144&fref=pb&hc_location=friends_tab'}, {'name': 'ビリグ オユン', 'link': 'https://www.facebook.com/profile.php?id=100024228226673&fref=pb&hc_location=friends_tab'}, {'name': '张大山', 'link': 'https://www.facebook.com/profile.php?id=100013791347985&fref=pb&hc_location=friends_tab'}, {'name': 'Shine Bayar', 'link': 'https://www.facebook.com/sun.na.7393?fref=pb&hc_location=friends_tab'}, {'name': '赵一白', 'link': 'https://www.facebook.com/profile.php?id=100013318964540&fref=pb&hc_location=friends_tab'}, {'name': '龙刻海', 'link': 'https://www.facebook.com/profile.php?id=100014335805805&fref=pb&hc_location=friends_tab'}, {'name': 'Dhundup Gyalpo Bawa', 'link': 'https://www.facebook.com/dhungyalpo?fref=pb&hc_location=friends_tab'}, {'name': 'ᠴᠣᠭ ᠦᠥᠷᠳᠥᠳᠥᠷᠠᠬᠤ', 'link': 'https://www.facebook.com/uurtodroh.tsog?fref=pb&hc_location=friends_tab'}, {'name': 'Tashi Nyima Tashi Nyima', 'link': 'https://www.facebook.com/tashi.nyima.92798?fref=pb&hc_location=friends_tab'}, {'name': '劉立德', 'link': 'https://www.facebook.com/profile.php?id=100000031425929&fref=pb&hc_location=friends_tab'}, {'name': 'Tony Lau', 'link': 'https://www.facebook.com/profile.php?id=100010877417415&fref=pb&hc_location=friends_tab'}, {'name': 'Ulziibayar Ayurzana', 'link': 'https://www.facebook.com/profile.php?id=100008637991828&fref=pb&hc_location=friends_tab'}, {'name': 'Hu Ri Cha Mongol', 'link': 'https://www.facebook.com/bai.huricha?fref=pb&hc_location=friends_tab'}, {'name': 'Gerile Chaogetu', 'link': 'https://www.facebook.com/chaogetu.gerile.5?fref=pb&hc_location=friends_tab'}, {'name': 'Wenhai Huang', 'link': 'https://www.facebook.com/wenhai.huang.56?fref=pb&hc_location=friends_tab'}, {'name': 'Adil Seytoff', 'link': 'https://www.facebook.com/adil.seytoff.7?fref=pb&hc_location=friends_tab'}, {'name': '陈士杰', 'link': 'https://www.facebook.com/profile.php?id=100011424036448&fref=pb&hc_location=friends_tab'}, {'name': '白代钦', 'link': 'https://www.facebook.com/daiqin.horqin?fref=pb&hc_location=friends_tab'}, {'name': 'Keqiang Lei', 'link': 'https://www.facebook.com/keqiang.lei?fref=pb&hc_location=friends_tab'}, {'name': 'Makino Suchin', 'link': 'https://www.facebook.com/profile.php?id=100013213543982&fref=pb&hc_location=friends_tab'}, {'name': 'Jennifer Zeng', 'link': 'https://www.facebook.com/jennifer.zeng1?fref=pb&hc_location=friends_tab'}, {'name': 'Misao Takashima', 'link': 'https://www.facebook.com/misao.takashima.14?fref=pb&hc_location=friends_tab'}, {'name': 'Logan Cheng', 'link': 'https://www.facebook.com/logan.cheng.796?fref=pb&hc_location=friends_tab'}, {'name': '沈良庆', 'link': 'https://www.facebook.com/sliangq?fref=pb&hc_location=friends_tab'}, {'name': 'Leo Ng', 'link': 'https://www.facebook.com/leo.voon.52?fref=pb&hc_location=friends_tab'}, {'name': 'Carmella Nelda', 'link': 'https://www.facebook.com/grass2513?fref=pb&hc_location=friends_tab'}, {'name': 'Masatoshi Yamazaki', 'link': 'https://www.facebook.com/profile.php?id=100011578576273&fref=pb&hc_location=friends_tab'}, {'name': 'Buhhe Leo', 'link': 'https://www.facebook.com/profile.php?id=1093194868&fref=pb&hc_location=friends_tab'}, {'name': 'King Hugjiltu', 'link': 'https://www.facebook.com/hugjiltu.king?fref=pb&hc_location=friends_tab'}, {'name': '黃中', 'link': 'https://www.facebook.com/profile.php?id=100002131676455&fref=pb&hc_location=friends_tab'}, {'name': '林千帆', 'link': 'https://www.facebook.com/profile.php?id=100010441770953&fref=pb&hc_location=friends_tab'}, {'name': 'Erdbyr Yun', 'link': 'https://www.facebook.com/erdbyr.yun?fref=pb&hc_location=friends_tab'}, {'name': '李一平', 'link': 'https://www.facebook.com/profile.php?id=100004141929749&fref=pb&hc_location=friends_tab'}, {'name': 'Wang Hsing-chung', 'link': 'https://www.facebook.com/sydaway?fref=pb&hc_location=friends_tab'}, {'name': '廖仁慈', 'link': 'https://www.facebook.com/jesse.liau?fref=pb&hc_location=friends_tab'}, {'name': '劉向南', 'link': 'https://www.facebook.com/profile.php?id=100026394882465&fref=pb&hc_location=friends_tab'}, {'name': '刘毅', 'link': 'https://www.facebook.com/profile.php?id=100026791231487&fref=pb&hc_location=friends_tab'}, {'name': '大村友和', 'link': 'https://www.facebook.com/profile.php?id=100024704073267&fref=pb&hc_location=friends_tab'}, {'name': 'Mariko Yoshizuka', 'link': 'https://www.facebook.com/Goi.sensei.peace?fref=pb&hc_location=friends_tab'}, {'name': 'Huh Mongol Gansuren', 'link': 'https://www.facebook.com/huhmongol.gansuren?fref=pb&hc_location=friends_tab'}, {'name': 'ᠪᠠᠶᠠᠭᠤᠳ ᠰᠢᠵᠢᠷ', 'link': 'https://www.facebook.com/profile.php?id=100023885620020&fref=pb&hc_location=friends_tab'}, {'name': 'Abda Safya', 'link': 'https://www.facebook.com/abda.safya?fref=pb&hc_location=friends_tab'}, {'name': 'Eric Kuan', 'link': 'https://www.facebook.com/eric.tsau.509?fref=pb&hc_location=friends_tab'}, {'name': '彭海', 'link': 'https://www.facebook.com/profile.php?id=1597384352&fref=pb&hc_location=friends_tab'}, {'name': 'Pari Norkar', 'link': 'https://www.facebook.com/pari.norkar?fref=pb&hc_location=friends_tab'}, {'name': '夏丹紅', 'link': 'https://www.facebook.com/demi.hsia?fref=pb&hc_location=friends_tab'}, {'name': '白相林', 'link': 'https://www.facebook.com/profile.php?id=100024251118811&fref=pb&hc_location=friends_tab'}, {'name': 'Tsetseg Altan', 'link': 'https://www.facebook.com/tsetseg.altan.104?fref=pb&hc_location=friends_tab'}, {'name': 'Bingnet Shane', 'link': 'https://www.facebook.com/bingnet.shane?fref=pb&hc_location=friends_tab'}, {'name': 'Otgonbayar Will', 'link': 'https://www.facebook.com/otgonbayar.will.7?fref=pb&hc_location=friends_tab'}, {'name': '梁国栋', 'link': 'https://www.facebook.com/profile.php?id=100023029685953&fref=pb&hc_location=friends_tab'}, {'name': '王筝', 'link': 'https://www.facebook.com/profile.php?id=100023336760667&fref=pb&hc_location=friends_tab'}, {'name': 'Xiao Si', 'link': 'https://www.facebook.com/profile.php?id=100017527964496&fref=pb&hc_location=friends_tab'}, {'name': '陈策', 'link': 'https://www.facebook.com/profile.php?id=100017401238801&fref=pb&hc_location=friends_tab'}, {'name': '吉亚太', 'link': 'https://www.facebook.com/profile.php?id=100019081836608&fref=pb&hc_location=friends_tab'}, {'name': 'Зохиолийн Дууны Клипүүд', 'link': 'https://www.facebook.com/profile.php?id=100022344611450&fref=pb&hc_location=friends_tab'}, {'name': 'Huricha Bai', 'link': 'https://www.facebook.com/huricha.bai.7?fref=pb&hc_location=friends_tab'}, {'name': '日本中国民主化協調会', 'link': 'https://www.facebook.com/profile.php?id=100017856632820&fref=pb&hc_location=friends_tab'}, {'name': '宋健来', 'link': 'https://www.facebook.com/profile.php?id=100017181331491&fref=pb&hc_location=friends_tab'}, {'name': '郭先虎', 'link': 'https://www.facebook.com/profile.php?id=100018430860400&fref=pb&hc_location=friends_tab'}, {'name': 'Nandin Borjigin', 'link': 'https://www.facebook.com/profile.php?id=100019050063618&fref=pb&hc_location=friends_tab'}, {'name': 'Xing Yin', 'link': 'https://www.facebook.com/xing.yin.5015?fref=pb&hc_location=friends_tab'}, {'name': '楊子江', 'link': 'https://www.facebook.com/profile.php?id=100018371083723&fref=pb&hc_location=friends_tab'}, {'name': 'Buhbilig Bud', 'link': 'https://www.facebook.com/profile.php?id=100017906640947&fref=pb&hc_location=friends_tab'}, {'name': 'Mandala Mandala', 'link': 'https://www.facebook.com/bao.osor?fref=pb&hc_location=friends_tab'}, {'name': '關索科', 'link': 'https://www.facebook.com/profile.php?id=100018585400010&fref=pb&hc_location=friends_tab'}, {'name': '広瀬凌也', 'link': 'https://www.facebook.com/profile.php?id=100022656591670&fref=pb&hc_location=friends_tab'}, {'name': 'Linda Wu', 'link': 'https://www.facebook.com/liangjie.wu.399?fref=pb&hc_location=friends_tab'}, {'name': '李一凡', 'link': 'https://www.facebook.com/profile.php?id=100017268010201&fref=pb&hc_location=friends_tab'}, {'name': 'Эрүүл Монгол Цагаан Идээ', 'link': 'https://www.facebook.com/profile.php?id=100015311463374&fref=pb&hc_location=friends_tab'}, {'name': '林志豪', 'link': 'https://www.facebook.com/profile.php?id=100015432572491&fref=pb&hc_location=friends_tab'}, {'name': '李旭明', 'link': 'https://www.facebook.com/lxm89?fref=pb&hc_location=friends_tab'}, {'name': '鲁冬秋', 'link': 'https://www.facebook.com/profile.php?id=100014610243150&fref=pb&hc_location=friends_tab'}, {'name': 'Yue Yao', 'link': 'https://www.facebook.com/yue.yao.33?fref=pb&hc_location=friends_tab'}, {'name': '闫尔强', 'link': 'https://www.facebook.com/profile.php?id=100015589662875&fref=pb&hc_location=friends_tab'}, {'name': 'Gerelte Horchin', 'link': 'https://www.facebook.com/Gereltehorchin?fref=pb&hc_location=friends_tab'}, {'name': '李援', 'link': 'https://www.facebook.com/liyuanchenai?fref=pb&hc_location=friends_tab'}, {'name': 'Yangzom Tsering', 'link': 'https://www.facebook.com/yangzom.tsering.58?fref=pb&hc_location=friends_tab'}, {'name': '华孜竞', 'link': 'https://www.facebook.com/profile.php?id=100015780240286&fref=pb&hc_location=friends_tab'}, {'name': '林东', 'link': 'https://www.facebook.com/profile.php?id=100015556932368&fref=pb&hc_location=friends_tab'}, {'name': '李念台', 'link': 'https://www.facebook.com/profile.php?id=100015005254588&fref=pb&hc_location=friends_tab'}, {'name': '和平', 'link': 'https://www.facebook.com/hepingfendou?fref=pb&hc_location=friends_tab'}, {'name': '董金興', 'link': 'https://www.facebook.com/profile.php?id=100016286082424&fref=pb&hc_location=friends_tab'}, {'name': '方圆', 'link': 'https://www.facebook.com/profile.php?id=100016294232809&fref=pb&hc_location=friends_tab'}, {'name': 'Jason Liu', 'link': 'https://www.facebook.com/profile.php?id=100015683491724&fref=pb&hc_location=friends_tab'}, {'name': 'Miho Sizuki', 'link': 'https://www.facebook.com/profile.php?id=100014612950195&fref=pb&hc_location=friends_tab'}, {'name': '盛东方', 'link': 'https://www.facebook.com/profile.php?id=100015481189375&fref=pb&hc_location=friends_tab'}, {'name': '林涔涔', 'link': 'https://www.facebook.com/profile.php?id=100014521391337&fref=pb&hc_location=friends_tab'}, {'name': 'Pihao Brad', 'link': 'https://www.facebook.com/pihao.brad?fref=pb&hc_location=friends_tab'}, {'name': '林榮基', 'link': 'https://www.facebook.com/profile.php?id=100012714942981&fref=pb&hc_location=friends_tab'}, {'name': 'Zhang Rong', 'link': 'https://www.facebook.com/profile.php?id=100012650133600&fref=pb&hc_location=friends_tab'}, {'name': 'chenggeletu ゲルト', 'link': 'https://www.facebook.com/profile.php?id=100013701259485&fref=pb&hc_location=friends_tab'}, {'name': 'Aorgel Si', 'link': 'https://www.facebook.com/aorgel.si.3?fref=pb&hc_location=friends_tab'}, {'name': 'Tenzin Nima', 'link': 'https://www.facebook.com/xinyi.lin.712161?fref=pb&hc_location=friends_tab'}, {'name': '林昕', 'link': 'https://www.facebook.com/profile.php?id=100014146213396&fref=pb&hc_location=friends_tab'}, {'name': '连超', 'link': 'https://www.facebook.com/profile.php?id=100013916000043&fref=pb&hc_location=friends_tab'}, {'name': '肖小爱', 'link': 'https://www.facebook.com/xiaoxiaoai0901?fref=pb&hc_location=friends_tab'}, {'name': 'Chaogetu Saren', 'link': 'https://www.facebook.com/chaogetu.saren?fref=pb&hc_location=friends_tab'}, {'name': 'Xiao Xie', 'link': 'https://www.facebook.com/xiaoxie0410?fref=pb&hc_location=friends_tab'}, {'name': 'Bao Ping An', 'link': 'https://www.facebook.com/halinna.bao?fref=pb&hc_location=friends_tab'}, {'name': '毕力格', 'link': 'https://www.facebook.com/profile.php?id=100012343716655&fref=pb&hc_location=friends_tab'}, {'name': 'Buhe Gang', 'link': 'https://www.facebook.com/buhe.gang.9?fref=pb&hc_location=friends_tab'}, {'name': '李大伟', 'link': 'https://www.facebook.com/profile.php?id=100014306703009&fref=pb&hc_location=friends_tab'}, {'name': '李保蒼', 'link': 'https://www.facebook.com/profile.php?id=100014321673559&fref=pb&hc_location=friends_tab'}, {'name': '巴图', 'link': 'https://www.facebook.com/profile.php?id=100012897645152&fref=pb&hc_location=friends_tab'}, {'name': '李珠拉', 'link': 'https://www.facebook.com/profile.php?id=100012072615199&fref=pb&hc_location=friends_tab'}, {'name': 'Jerry Hamer', 'link': 'https://www.facebook.com/jerry.hamer.961?fref=pb&hc_location=friends_tab'}, {'name': 'タ ナ', 'link': 'https://www.facebook.com/na.ta.9484941?fref=pb&hc_location=friends_tab'}, {'name': 'Guoxing Wang', 'link': 'https://www.facebook.com/guoxing.wang.71?fref=pb&hc_location=friends_tab'}, {'name': 'Perpetua Lotkowska', 'link': 'https://www.facebook.com/profile.php?id=100011501860566&fref=pb&hc_location=friends_tab'}, {'name': 'Hua Jia', 'link': 'https://www.facebook.com/profile.php?id=100011600237383&fref=pb&hc_location=friends_tab'}, {'name': 'Xiaodong Yu', 'link': 'https://www.facebook.com/profile.php?id=100010320854545&fref=pb&hc_location=friends_tab'}, {'name': 'Tuvshinbayar Aqilalt', 'link': 'https://www.facebook.com/aqilalt.bayaar?fref=pb&hc_location=friends_tab'}, {'name': '刘富祥', 'link': 'https://www.facebook.com/profile.php?id=100011919704379&fref=pb&hc_location=friends_tab'}, {'name': '林榮鍾', 'link': 'https://www.facebook.com/profile.php?id=100010609512971&fref=pb&hc_location=friends_tab'}, {'name': 'Showa Tenno', 'link': 'https://www.facebook.com/profile.php?id=100010414515452&fref=pb&hc_location=friends_tab'}, {'name': 'Ge Chao', 'link': 'https://www.facebook.com/ge.chao.39?fref=pb&hc_location=friends_tab'}, {'name': '方泥良', 'link': 'https://www.facebook.com/profile.php?id=100010668195333&fref=pb&hc_location=friends_tab'}, {'name': 'Jahaa Monkiin', 'link': 'https://www.facebook.com/monkiinjahaa?fref=pb&hc_location=friends_tab'}, {'name': 'Baatar Baatar', 'link': 'https://www.facebook.com/baatar.baatar.1656?fref=pb&hc_location=friends_tab'}, {'name': 'Shengyi Wang', 'link': 'https://www.facebook.com/profile.php?id=100010383135572&fref=pb&hc_location=friends_tab'}, {'name': '张小英', 'link': 'https://www.facebook.com/profile.php?id=100011254895903&fref=pb&hc_location=friends_tab'}, {'name': 'Maurer Alexander', 'link': 'https://www.facebook.com/profile.php?id=100011411000207&fref=pb&hc_location=friends_tab'}, {'name': 'Ichiro Kobayashi', 'link': 'https://www.facebook.com/profile.php?id=100009886382480&fref=pb&hc_location=friends_tab'}, {'name': '简露', 'link': 'https://www.facebook.com/profile.php?id=100010761160007&fref=pb&hc_location=friends_tab'}, {'name': '林梅', 'link': 'https://www.facebook.com/profile.php?id=100009951333822&fref=pb&hc_location=friends_tab'}, {'name': '趙建國', 'link': 'https://www.facebook.com/profile.php?id=100010062736304&fref=pb&hc_location=friends_tab'}, {'name': 'Shuurgan Oigud', 'link': 'https://www.facebook.com/shuurgan.oigud?fref=pb&hc_location=friends_tab'}, {'name': 'tsolmon魯門', 'link': 'https://www.facebook.com/profile.php?id=100011583720154&fref=pb&hc_location=friends_tab'}, {'name': 'Joseph Cheng', 'link': 'https://www.facebook.com/JosephYSCheng?fref=pb&hc_location=friends_tab'}, {'name': '包潇滢', 'link': 'https://www.facebook.com/profile.php?id=100008799315661&fref=pb&hc_location=friends_tab'}, {'name': 'Hongguang Bai', 'link': 'https://www.facebook.com/profile.php?id=100009500007415&fref=pb&hc_location=friends_tab'}, {'name': 'Namun Namun', 'link': 'https://www.facebook.com/namun.urianhan.7?fref=pb&hc_location=friends_tab'}, {'name': '姜涛', 'link': 'https://www.facebook.com/Subateer?fref=pb&hc_location=friends_tab'}, {'name': 'Jun Wen', 'link': 'https://www.facebook.com/profile.php?id=100009216257794&fref=pb&hc_location=friends_tab'}, {'name': 'Wulantuya Herred', 'link': 'https://www.facebook.com/profile.php?id=100009570851977&fref=pb&hc_location=friends_tab'}, {'name': 'Torgantal Borjigin', 'link': 'https://www.facebook.com/yang.claire.121?fref=pb&hc_location=friends_tab'}, {'name': '金晟', 'link': 'https://www.facebook.com/profile.php?id=100008895729413&fref=pb&hc_location=friends_tab'}, {'name': '龔與劍', 'link': 'https://www.facebook.com/profile.php?id=100009709008017&fref=pb&hc_location=friends_tab'}, {'name': '包娜娜', 'link': 'https://www.facebook.com/profile.php?id=100009683953749&fref=pb&hc_location=friends_tab'}, {'name': '张婧', 'link': 'https://www.facebook.com/profile.php?id=100009535791335&fref=pb&hc_location=friends_tab'}, {'name': 'Fumiharu Tanaka', 'link': 'https://www.facebook.com/fumiharu.tanaka.9?fref=pb&hc_location=friends_tab'}, {'name': 'Dolgoon Liu', 'link': 'https://www.facebook.com/profile.php?id=100009230000336&fref=pb&hc_location=friends_tab'}, {'name': 'Huu Mongol', 'link': 'https://www.facebook.com/huu.mongol?fref=pb&hc_location=friends_tab'}, {'name': 'Людмила Эрдниева Мошулдаева', 'link': 'https://www.facebook.com/profile.php?id=100009488130854&fref=pb&hc_location=friends_tab'}, {'name': 'Batmunkh Ngd', 'link': 'https://www.facebook.com/profile.php?id=100008778496204&fref=pb&hc_location=friends_tab'}, {'name': 'Ulaan Hugjil', 'link': 'https://www.facebook.com/wulan.hugejile?fref=pb&hc_location=friends_tab'}, {'name': '霍申铭', 'link': 'https://www.facebook.com/profile.php?id=100009803491265&fref=pb&hc_location=friends_tab'}, {'name': 'Rigood Bu', 'link': 'https://www.facebook.com/rigood.bu?fref=pb&hc_location=friends_tab'}, {'name': 'Жамъяан Уухан', 'link': 'https://www.facebook.com/profile.php?id=100007756476076&fref=pb&hc_location=friends_tab'}, {'name': '韩新娜', 'link': 'https://www.facebook.com/xiaobanyisui?fref=pb&hc_location=friends_tab'}, {'name': '郭寶勝', 'link': 'https://www.facebook.com/profile.php?id=100008339598574&fref=pb&hc_location=friends_tab'}, {'name': 'Aorigeli Huhe', 'link': 'https://www.facebook.com/aorigeli.huhe?fref=pb&hc_location=friends_tab'}, {'name': 'Dream-angel He', 'link': 'https://www.facebook.com/profile.php?id=100008082189049&fref=pb&hc_location=friends_tab'}, {'name': '溫吉綠', 'link': 'https://www.facebook.com/profile.php?id=100008465838420&fref=pb&hc_location=friends_tab'}, {'name': 'Garry Liu', 'link': 'https://www.facebook.com/profile.php?id=100008389847645&fref=pb&hc_location=friends_tab'}, {'name': '娜仁夫', 'link': 'https://www.facebook.com/profile.php?id=100008139695273&fref=pb&hc_location=friends_tab'}, {'name': 'Baater Bold', 'link': 'https://www.facebook.com/avona.etta?fref=pb&hc_location=friends_tab'}, {'name': '那木拉', 'link': 'https://www.facebook.com/profile.php?id=100008503212179&fref=pb&hc_location=friends_tab'}, {'name': 'Guihong Su', 'link': 'https://www.facebook.com/guihong.su.1?fref=pb&hc_location=friends_tab'}, {'name': 'ᠪᠣᠷᠵᠢᠬᠢᠳ ᠤᠴᠠᠷᠠᠯᠳᠤ', 'link': 'https://www.facebook.com/profile.php?id=100008338383006&fref=pb&hc_location=friends_tab'}, {'name': 'Hongguang Bai', 'link': 'https://www.facebook.com/profile.php?id=100008652099706&fref=pb&hc_location=friends_tab'}, {'name': 'Heinrichs Valentine', 'link': 'https://www.facebook.com/heinrichs.valentine?fref=pb&hc_location=friends_tab'}, {'name': 'Dawa Tashi', 'link': 'https://www.facebook.com/dawa.tashi.9461?fref=pb&hc_location=friends_tab'}, {'name': 'Burged Mongol', 'link': 'https://www.facebook.com/profile.php?id=100008725058842&fref=pb&hc_location=friends_tab'}, {'name': 'Bin Yang', 'link': 'https://www.facebook.com/bin.yang.7777?fref=pb&hc_location=friends_tab'}, {'name': '李颜砾', 'link': 'https://www.facebook.com/profile.php?id=100007849336191&fref=pb&hc_location=friends_tab'}, {'name': '黃春煌', 'link': 'https://www.facebook.com/profile.php?id=100007853445636&fref=pb&hc_location=friends_tab'}, {'name': '白晓辉', 'link': 'https://www.facebook.com/profile.php?id=100008152328658&fref=pb&hc_location=friends_tab'}, {'name': 'DQ Johnny Wong', 'link': 'https://www.facebook.com/skwmehmeh?fref=pb&hc_location=friends_tab'}, {'name': '楊楊', 'link': 'https://www.facebook.com/kennyyou.wu?fref=pb&hc_location=friends_tab'}, {'name': '汪艳芳', 'link': 'https://www.facebook.com/veasareen?fref=pb&hc_location=friends_tab'}, {'name': 'Tenzin Puncog', 'link': 'https://www.facebook.com/puncog.tenzin.5?fref=pb&hc_location=friends_tab'}, {'name': 'Johnason King', 'link': 'https://www.facebook.com/johnason.king?fref=pb&hc_location=friends_tab'}, {'name': '凌珍宝', 'link': 'https://www.facebook.com/lingzhenbao?fref=pb&hc_location=friends_tab'}, {'name': 'Chagan Wuhin', 'link': 'https://www.facebook.com/profile.php?id=100007091208915&fref=pb&hc_location=friends_tab'}, {'name': '薛燕平', 'link': 'https://www.facebook.com/profile.php?id=100007107241270&fref=pb&hc_location=friends_tab'}, {'name': '竹内齊', 'link': 'https://www.facebook.com/motohiro.takeuchi.92?fref=pb&hc_location=friends_tab'}, {'name': '胡斯楞', 'link': 'https://www.facebook.com/husileng.hu?fref=pb&hc_location=friends_tab'}, {'name': '鐘孟君', 'link': 'https://www.facebook.com/profile.php?id=100005671215493&fref=pb&hc_location=friends_tab'}, {'name': '毕力格', 'link': 'https://www.facebook.com/profile.php?id=100005433854748&fref=pb&hc_location=friends_tab'}, {'name': 'Duan Yongyao', 'link': 'https://www.facebook.com/duanyongyao?fref=pb&hc_location=friends_tab'}, {'name': 'Xiaoying Liu', 'link': 'https://www.facebook.com/xiaoying.liu.5245?fref=pb&hc_location=friends_tab'}, {'name': 'Suyalt Undes', 'link': 'https://www.facebook.com/profile.php?id=100007127628874&fref=pb&hc_location=friends_tab'}, {'name': 'Judy Hoover', 'link': 'https://www.facebook.com/judy.hoover.560345?fref=pb&hc_location=friends_tab'}, {'name': '贾榀', 'link': 'https://www.facebook.com/profile.php?id=100006736539957&fref=pb&hc_location=friends_tab'}, {'name': 'Husileng Husileng', 'link': 'https://www.facebook.com/husileng.husileng?fref=pb&hc_location=friends_tab'}, {'name': '江淳', 'link': 'https://www.facebook.com/jcxuzb?fref=pb&hc_location=friends_tab'}, {'name': '苏蘇甦', 'link': 'https://www.facebook.com/profile.php?id=100006322876377&fref=pb&hc_location=friends_tab'}, {'name': 'Yanli Lin', 'link': 'https://www.facebook.com/yanli.lin.75?fref=pb&hc_location=friends_tab'}, {'name': 'Arslan Borjgen', 'link': 'https://www.facebook.com/profile.php?id=100004662256690&fref=pb&hc_location=friends_tab'}, {'name': '包娜仁', 'link': 'https://www.facebook.com/baonarenhua?fref=pb&hc_location=friends_tab'}, {'name': '張璟順', 'link': 'https://www.facebook.com/profile.php?id=100004210753985&fref=pb&hc_location=friends_tab'}, {'name': 'Алдаагүй Монгол Бичиг А-Уд', 'link': 'https://www.facebook.com/profile.php?id=100004467165610&fref=pb&hc_location=friends_tab'}, {'name': '河之殇', 'link': 'https://www.facebook.com/xyhukou?fref=pb&hc_location=friends_tab'}, {'name': 'Huang Chogtuu', 'link': 'https://www.facebook.com/pertuit.tabatha?fref=pb&hc_location=friends_tab'}, {'name': '葛嘉嶠', 'link': 'https://www.facebook.com/profile.php?id=100004768779169&fref=pb&hc_location=friends_tab'}, {'name': '鄭仰恩', 'link': 'https://www.facebook.com/giongun.tin?fref=pb&hc_location=friends_tab'}, {'name': 'Mongol Bi', 'link': 'https://www.facebook.com/mongol.bi.5?fref=pb&hc_location=friends_tab'}, {'name': '何家維', 'link': 'https://www.facebook.com/hhhjh5?fref=pb&hc_location=friends_tab'}, {'name': 'Subuda Subuda', 'link': 'https://www.facebook.com/subuda.subuda?fref=pb&hc_location=friends_tab'}, {'name': '黃元璋', 'link': 'https://www.facebook.com/profile.php?id=100005227877484&fref=pb&hc_location=friends_tab'}, {'name': '包巴图', 'link': 'https://www.facebook.com/profile.php?id=100004262325777&fref=pb&hc_location=friends_tab'}, {'name': 'Qiyan Dima', 'link': 'https://www.facebook.com/qiyan111?fref=pb&hc_location=friends_tab'}, {'name': '徐水良', 'link': 'https://www.facebook.com/profile.php?id=100005132613761&fref=pb&hc_location=friends_tab'}, {'name': 'Borjigin Chinzorigt Zulan', 'link': 'https://www.facebook.com/ZulanMGL?fref=pb&hc_location=friends_tab'}, {'name': 'Sarna Manda', 'link': 'https://www.facebook.com/sarna.manda.5?fref=pb&hc_location=friends_tab'}, {'name': 'Xiaohu Zhang', 'link': 'https://www.facebook.com/xiaohu.zhang.35?fref=pb&hc_location=friends_tab'}, {'name': 'Saihan Tong', 'link': 'https://www.facebook.com/saihan.tong?fref=pb&hc_location=friends_tab'}, {'name': 'Yonghai Bai', 'link': 'https://www.facebook.com/yonghai.bai?fref=pb&hc_location=friends_tab'}, {'name': 'Hongshan Chan', 'link': 'https://www.facebook.com/hongshan.chan?fref=pb&hc_location=friends_tab'}, {'name': 'Daily ChineseMn', 'link': 'https://www.facebook.com/dailychinesemn?fref=pb&hc_location=friends_tab'}, {'name': 'Ulziimaa Tangad', 'link': 'https://www.facebook.com/Ulziimaa.Tangad?fref=pb&hc_location=friends_tab'}, {'name': 'Tumurbaatar Dondog', 'link': 'https://www.facebook.com/tumurbaatar.dondog?fref=pb&hc_location=friends_tab'}, {'name': '娜仁図雅', 'link': 'https://www.facebook.com/tuya.hu?fref=pb&hc_location=friends_tab'}, {'name': '王中義', 'link': 'https://www.facebook.com/profile.php?id=100003839638780&fref=pb&hc_location=friends_tab'}, {'name': 'Mongol Khuchin', 'link': 'https://www.facebook.com/huqun.huqun?fref=pb&hc_location=friends_tab'}, {'name': 'Emeel Gol', 'link': 'https://www.facebook.com/emeel.gol?fref=pb&hc_location=friends_tab'}, {'name': '郭永丰', 'link': 'https://www.facebook.com/minzhuqiangguo?fref=pb&hc_location=friends_tab'}, {'name': 'Borjigin Yurugele', 'link': 'https://www.facebook.com/Borjiginyurugele?fref=pb&hc_location=friends_tab'}, {'name': 'Louis Tan', 'link': 'https://www.facebook.com/tan.louis.146?fref=pb&hc_location=friends_tab'}, {'name': 'Mongol Gaal Han', 'link': 'https://www.facebook.com/wenliang.han?fref=pb&hc_location=friends_tab'}, {'name': 'Baikal Tu', 'link': 'https://www.facebook.com/baikal.tu?fref=pb&hc_location=friends_tab'}, {'name': 'Urgenbayar Jugachin', 'link': 'https://www.facebook.com/urgenbayar.jugachin?fref=pb&hc_location=friends_tab'}, {'name': '高井保治', 'link': 'https://www.facebook.com/takai.yasuharu?fref=pb&hc_location=friends_tab'}, {'name': 'Yang Zili', 'link': 'https://www.facebook.com/yang.zili.3?fref=pb&hc_location=friends_tab'}, {'name': '黃豐範', 'link': 'https://www.facebook.com/johnnyhuang4us?fref=pb&hc_location=friends_tab'}, {'name': 'Bold Ba', 'link': 'https://www.facebook.com/bold.ba.3?fref=pb&hc_location=friends_tab'}, {'name': 'Chimed Ochir', 'link': 'https://www.facebook.com/chimed.ochir?fref=pb&hc_location=friends_tab'}, {'name': 'Siqin Zhao', 'link': 'https://www.facebook.com/siqinzhao?fref=pb&hc_location=friends_tab'}, {'name': 'Taruto Sora', 'link': 'https://www.facebook.com/taruto.sora?fref=pb&hc_location=friends_tab'}, {'name': 'Tim Abe', 'link': 'https://www.facebook.com/tim.abe.9?fref=pb&hc_location=friends_tab'}, {'name': '歐彪峰', 'link': 'https://www.facebook.com/oubf64?fref=pb&hc_location=friends_tab'}, {'name': 'Burgud Honiqin', 'link': 'https://www.facebook.com/profile.php?id=100002418387466&fref=pb&hc_location=friends_tab'}, {'name': 'Song Luzheng', 'link': 'https://www.facebook.com/song.luzheng?fref=pb&hc_location=friends_tab'}, {'name': 'Altan Uul', 'link': 'https://www.facebook.com/altan.uul?fref=pb&hc_location=friends_tab'}, {'name': '魏千峯', 'link': 'https://www.facebook.com/profile.php?id=100002595209056&fref=pb&hc_location=friends_tab'}, {'name': 'Joyce Liang', 'link': 'https://www.facebook.com/joyce.liang.5811?fref=pb&hc_location=friends_tab'}, {'name': 'Hide Imasaki', 'link': 'https://www.facebook.com/sougokei?fref=pb&hc_location=friends_tab'}, {'name': 'Hada Ulaan', 'link': 'https://www.facebook.com/qing.miao.9693?fref=pb&hc_location=friends_tab'}, {'name': 'Forrest Sung', 'link': 'https://www.facebook.com/forrest.ontherun?fref=pb&hc_location=friends_tab'}, {'name': '劉家妤', 'link': 'https://www.facebook.com/profile.php?id=100002537875488&fref=pb&hc_location=friends_tab'}, {'name': 'Botpa Benta', 'link': 'https://www.facebook.com/tibetan888?fref=pb&hc_location=friends_tab'}, {'name': 'Helmut Henn', 'link': 'https://www.facebook.com/helmut.henn?fref=pb&hc_location=friends_tab'}, {'name': '宝海涛', 'link': 'https://www.facebook.com/bao.caijilahu?fref=pb&hc_location=friends_tab'}, {'name': 'Toli Taoli', 'link': 'https://www.facebook.com/toli.taoli?fref=pb&hc_location=friends_tab'}, {'name': 'Munkh Delger', 'link': 'https://www.facebook.com/delger.munkh?fref=pb&hc_location=friends_tab'}, {'name': 'Shigeko Yamashita', 'link': 'https://www.facebook.com/shigekoy1?fref=pb&hc_location=friends_tab'}, {'name': 'Takashi Nagao', 'link': 'https://www.facebook.com/tnagao21?fref=pb&hc_location=friends_tab'}, {'name': 'Rui Rtibet', 'link': 'https://www.facebook.com/rtibet?fref=pb&hc_location=friends_tab'}, {'name': 'Tibet Yeshi Dolma', 'link': 'https://www.facebook.com/tibetyeshi.dolma?fref=pb&hc_location=friends_tab'}, {'name': '鄭文平', 'link': 'https://www.facebook.com/profile.php?id=100001869529197&fref=pb&hc_location=friends_tab'}, {'name': '吳寬壽', 'link': 'https://www.facebook.com/kuanshou.wu?fref=pb&hc_location=friends_tab'}, {'name': '陈少文', 'link': 'https://www.facebook.com/csw621225?fref=pb&hc_location=friends_tab'}, {'name': '羅德暐', 'link': 'https://www.facebook.com/james.road2?fref=pb&hc_location=friends_tab'}, {'name': 'Jimmy Zeng', 'link': 'https://www.facebook.com/jimmy.zeng.5?fref=pb&hc_location=friends_tab'}, {'name': 'Dorjee Gyantsan', 'link': 'https://www.facebook.com/dorjee.gyantsan?fref=pb&hc_location=friends_tab'}, {'name': 'Jiahui Wang', 'link': 'https://www.facebook.com/jiahui.wang.902?fref=pb&hc_location=friends_tab'}, {'name': 'Freer DF', 'link': 'https://www.facebook.com/freer.df?fref=pb&hc_location=friends_tab'}, {'name': 'Lee Nayt Lee', 'link': 'https://www.facebook.com/leenayt.lee?fref=pb&hc_location=friends_tab'}, {'name': 'Akihiko Imamura', 'link': 'https://www.facebook.com/baron.noah.ibrahim?fref=pb&hc_location=friends_tab'}, {'name': 'Weber Luo-jin', 'link': 'https://www.facebook.com/weber.luojin?fref=pb&hc_location=friends_tab'}, {'name': 'Wong Catherine', 'link': 'https://www.facebook.com/wong.catherine.568?fref=pb&hc_location=friends_tab'}, {'name': 'Yu Zhang', 'link': 'https://www.facebook.com/Yu.Zhang.08?fref=pb&hc_location=friends_tab'}, {'name': '唐朗', 'link': 'https://www.facebook.com/profile.php?id=100000921453027&fref=pb&hc_location=friends_tab'}, {'name': 'Ilham Mahmut', 'link': 'https://www.facebook.com/mahmut.ilham?fref=pb&hc_location=friends_tab'}, {'name': 'Juan Peng', 'link': 'https://www.facebook.com/juan.peng.33?fref=pb&hc_location=friends_tab'}, {'name': 'Mei Yong', 'link': 'https://www.facebook.com/mei.yong.7921?fref=pb&hc_location=friends_tab'}, {'name': '宋一欣', 'link': 'https://www.facebook.com/profile.php?id=100000931624698&fref=pb&hc_location=friends_tab'}, {'name': '陳昱辰', 'link': 'https://www.facebook.com/profile.php?id=100000136475704&fref=pb&hc_location=friends_tab'}, {'name': '武宜三', 'link': 'https://www.facebook.com/profile.php?id=100000052519708&fref=pb&hc_location=friends_tab'}, {'name': '黃俊豪', 'link': 'https://www.facebook.com/profile.php?id=100000356412694&fref=pb&hc_location=friends_tab'}, {'name': 'Gerile Wugan', 'link': 'https://www.facebook.com/gerile.wugan?fref=pb&hc_location=friends_tab'}, {'name': '东来', 'link': 'https://www.facebook.com/dongline?fref=pb&hc_location=friends_tab'}, {'name': '燕鵬', 'link': 'https://www.facebook.com/yanpeng2015?fref=pb&hc_location=friends_tab'}, {'name': 'Mei Lu', 'link': 'https://www.facebook.com/mei.lu.3914?fref=pb&hc_location=friends_tab'}, {'name': 'Reuben Chen', 'link': 'https://www.facebook.com/reuben57?fref=pb&hc_location=friends_tab'}, {'name': 'Joe Galahad Kalashnikov', 'link': 'https://www.facebook.com/hokwan.mak.1?fref=pb&hc_location=friends_tab'}, {'name': 'Chang YI LO', 'link': 'https://www.facebook.com/profile.php?id=100000662252869&fref=pb&hc_location=friends_tab'}, {'name': '逸风', 'link': 'https://www.facebook.com/yifeng8964?fref=pb&hc_location=friends_tab'}, {'name': '張宇韶', 'link': 'https://www.facebook.com/profile.php?id=100000451765931&fref=pb&hc_location=friends_tab'}, {'name': 'Jeff Ma', 'link': 'https://www.facebook.com/jma50?fref=pb&hc_location=friends_tab'}, {'name': 'Namloyak Dhungser', 'link': 'https://www.facebook.com/namloyak.dhungser?fref=pb&hc_location=friends_tab'}, {'name': '陳隆田', 'link': 'https://www.facebook.com/profile.php?id=100000838456187&fref=pb&hc_location=friends_tab'}, {'name': '鄭瑋杰', 'link': 'https://www.facebook.com/profile.php?id=100000266348576&fref=pb&hc_location=friends_tab'}, {'name': 'Chuang Chi-jui', 'link': 'https://www.facebook.com/chijui.chuang.3?fref=pb&hc_location=friends_tab'}, {'name': 'Toya Bao', 'link': 'https://www.facebook.com/toya.bao?fref=pb&hc_location=friends_tab'}, {'name': '許滿', 'link': 'https://www.facebook.com/koomum?fref=pb&hc_location=friends_tab'}, {'name': 'John Lee', 'link': 'https://www.facebook.com/johnlee1021?fref=pb&hc_location=friends_tab'}, {'name': '林啟民', 'link': 'https://www.facebook.com/profile.php?id=100000048584489&fref=pb&hc_location=friends_tab'}, {'name': 'Jian Zhang', 'link': 'https://www.facebook.com/pariszhang64?fref=pb&hc_location=friends_tab'}, {'name': 'Attila Hun Oğlu', 'link': 'https://www.facebook.com/tarhan.gaziyev?fref=pb&hc_location=friends_tab'}, {'name': 'Keitaro Ide', 'link': 'https://www.facebook.com/keitaro.ide?fref=pb&hc_location=friends_tab'}, {'name': '普麟', 'link': 'https://www.facebook.com/pugy30?fref=pb&hc_location=friends_tab'}, {'name': 'Chinggeltu Borjiged', 'link': 'https://www.facebook.com/cborjiged?fref=pb&hc_location=friends_tab'}, {'name': 'Pasang Hsiao', 'link': 'https://www.facebook.com/pasang.hsiao?fref=pb&hc_location=friends_tab'}, {'name': '陳志峰', 'link': 'https://www.facebook.com/thomas.chen.73345?fref=pb&hc_location=friends_tab'}, {'name': 'Vivian Jennie', 'link': 'https://www.facebook.com/vivianjennie?fref=pb&hc_location=friends_tab'}, {'name': 'Terrence Chan', 'link': 'https://www.facebook.com/profile.php?id=1506530747&fref=pb&hc_location=friends_tab'}, {'name': 'アマリ アンソニー', 'link': 'https://www.facebook.com/siupanyu?fref=pb&hc_location=friends_tab'}, {'name': 'Matthew Lee', 'link': 'https://www.facebook.com/matthew.lee.50951101?fref=pb&hc_location=friends_tab'}, {'name': 'Steve Senick', 'link': 'https://www.facebook.com/steve.senick?fref=pb&hc_location=friends_tab'}, {'name': '李冠毅', 'link': 'https://www.facebook.com/profile.php?id=1606856814&fref=pb&hc_location=friends_tab'}, {'name': 'Gegentuul Bayat', 'link': 'https://www.facebook.com/Gegentuul?fref=pb&hc_location=friends_tab'}, {'name': 'Dolkun Isa', 'link': 'https://www.facebook.com/dolkun.isa?fref=pb&hc_location=friends_tab'}, {'name': 'David Yeliang Xia', 'link': 'https://www.facebook.com/xiayeliang?fref=pb&hc_location=friends_tab'}, {'name': 'Guotao Li', 'link': 'https://www.facebook.com/GuotaoLi?fref=pb&hc_location=friends_tab'}, {'name': 'Kaiser ÖzHun', 'link': 'https://www.facebook.com/kaiser.ozhun?fref=pb&hc_location=friends_tab'}, {'name': 'Bosoo-Mongol Huraldai', 'link': 'https://www.facebook.com/mendee.suqin?fref=pb&hc_location=friends_tab'}, {'name': '郭琛', 'link': 'https://www.facebook.com/KUOinMG?fref=pb&hc_location=friends_tab'}, {'name': '陳小平', 'link': 'https://www.facebook.com/profile.php?id=747222626&fref=pb&hc_location=friends_tab'}, {'name': 'Lobsang Yangtso', 'link': 'https://www.facebook.com/lobsang.yangtso?fref=pb&hc_location=friends_tab'}, {'name': 'Louisa Chiang', 'link': 'https://www.facebook.com/louisahc?fref=pb&hc_location=friends_tab'}, {'name': 'Chialing Wu', 'link': 'https://www.facebook.com/j.chialingwu?fref=pb&hc_location=friends_tab'}, {'name': 'Sechin Toya', 'link': 'https://www.facebook.com/siqin.brown?fref=pb&hc_location=friends_tab'}, {'name': '林汝羽', 'link': 'https://www.facebook.com/irisruyulin?fref=pb&hc_location=friends_tab'}, {'name': '李进进', 'link': 'https://www.facebook.com/jim.li3?fref=pb&hc_location=friends_tab'}, {'name': 'Gon Chen', 'link': 'https://www.facebook.com/gon.chen.5?fref=pb&hc_location=friends_tab'}, {'name': 'Dimon Liu', 'link': 'https://www.facebook.com/dimon.liu2?fref=pb&hc_location=friends_tab'}, {'name': '李丹', 'link': 'https://www.facebook.com/li.dan.585?fref=pb&hc_location=friends_tab'}, {'name': 'Stephen NG', 'link': 'https://www.facebook.com/stephen.ng.503?fref=pb&hc_location=friends_tab'}, {'name': '唐柏橋', 'link': 'https://www.facebook.com/baiqiao.tang?fref=pb&hc_location=friends_tab'}, {'name': 'Pu Zhang', 'link': 'https://www.facebook.com/pu.zhang.52?fref=pb&hc_location=friends_tab'}, {'name': 'Bei Ling', 'link': 'https://www.facebook.com/bei.ling.58?fref=pb&hc_location=friends_tab'}, {'name': '吾爾開希', 'link': 'https://www.facebook.com/wuerkaixi?fref=pb&hc_location=friends_tab'}, {'name': 'Thomas G Guo', 'link': 'https://www.facebook.com/thomas.g.guo?fref=pb&hc_location=friends_tab'}, {'name': '殷問', 'link': 'https://www.facebook.com/profile.php?id=625659938&fref=pb&hc_location=friends_tab'}, {'name': 'Gioro Irgen Baturu', 'link': 'https://www.facebook.com/takeru.yamaguchi.1?fref=pb&hc_location=friends_tab'}] <class 'list'>
+10:05:43 skip 0 Longson Chang
+10:05:43 skip 1 Pui Lian
+10:05:43 skip 2 蔡瑛綺
+10:05:43 skip 3 叶伟东
+10:05:43 skip 4 Hamut Mahmut
+10:05:43 skip 5 汪真鎂
+10:05:43 skip 6 洪耀南
+10:05:43 skip 7 張舒眉
+10:05:43 skip 8 曾芳代
+10:05:43 skip 9 李酉潭
+10:05:43 skip 10 蔡進文
+10:05:43 skip 11 Karen Cheng
+10:05:43 skip 12 周一回
+10:05:43 skip 13 林允升
+10:05:43 skip 14 朱孟庠
+10:05:43 skip 15 Ping Nga Ong
+10:05:43 skip 16 蔡宜蓁
+10:05:43 skip 17 李瑞鴻
+10:05:43 skip 18 陳添發
+10:05:43 skip 19 謝潤姿
+10:05:43 skip 20 曾建元
+10:05:43 skip 21 Tsering Lhamo
+10:05:43 skip 22 徐傳國
+10:05:43 skip 23 紀文清
+10:05:43 skip 24 Toshikatsu Nagai
+10:05:43 skip 25 Chizuko Nakaso
+10:05:43 skip 26 Turmuhammet Hashim
+10:05:43 skip 27 Tsering Woeser
+10:05:43 skip 28 Mutu Jiri
+10:05:43 skip 29 Mituko Nakano
+10:05:43 skip 30 ChinKun Chang
+10:05:43 skip 31 陈斌
+10:05:43 skip 32 Clifton Lee
+10:05:43 skip 33 Jagchid Ulzidelger
+10:05:43 skip 34 Dawa Bari
+10:05:43 skip 35 Ligeng Wu
+10:05:43 skip 36 傅達士
+10:05:43 skip 37 余杰
+10:05:43 skip 38 Luke Goh
+10:05:43 skip 39 Xiaoqin Su
+10:05:43 skip 40 Munkhbayar Ch
+10:05:43 skip 41 林珮華
+10:05:43 skip 42 Dorjcvren Bayanaa
+10:05:43 skip 43 仲維光
+10:05:43 skip 44 施正鋒
+10:05:43 skip 45 Govrud Archa
+10:05:43 skip 46 凃京威
+10:05:43 skip 47 Kent KU
+10:05:43 skip 48 张伟国
+10:05:43 skip 49 王珂馨
+10:05:43 skip 50 Jeffery India Imc
+10:05:43 skip 51 魏京生
+10:05:43 skip 52 Dulaan Borjigan
+10:05:43 skip 53 范世平
+10:05:43 skip 54 Chun Wang
+10:05:43 skip 55 李恒青
+10:05:43 skip 56 フェイ ヤン
+10:05:43 skip 57 邱文福
+10:05:43 skip 58 邱文福
+10:05:43 skip 59 Sorgog Borjigin
+10:05:43 skip 60 张林
+10:05:43 skip 61 Daichin Olhunuud
+10:05:43 skip 62 Gegentana Borjigen
+10:05:43 skip 63 乔龙农
+10:05:43 skip 64 Tenzin Jigmey
+10:05:43 skip 65 永山英樹
+10:05:43 skip 66 Choelingtsang Lobsang Chopel
+10:05:43 skip 67 Yukio Yanagihara
+10:05:43 skip 68 Kwaiki Muk
+10:05:43 skip 69 Unimunkh Uriankhai
+10:05:43 skip 70 张威廉
+10:05:43 skip 71 Yong Zhong Pan
+10:05:43 skip 72 Nomin Altuud
+10:05:43 skip 73 Jing Wei
+10:05:43 skip 74 Tomoko Abo
+10:05:43 skip 75 東方司馬
+10:05:43 skip 76 Jiri Gara
+10:05:43 skip 77 李芃萱
+10:05:43 skip 78 Rose Tang
+10:05:43 skip 79 Khas Mongolia
+10:05:43 skip 80 Muumiangan Nandin
+10:05:43 skip 81 曾慧燕
+10:05:43 skip 82 Kotaro Miura
+10:05:43 skip 83 仲大聪
+10:05:43 skip 84 李忠憲
+10:05:43 skip 85 袁紅冰
+10:05:43 skip 86 Umit Hamit
+10:05:43 skip 87 Yalalt Bayuud
+10:05:43 skip 88 黄宇庭
+10:05:43 skip 89 Yang Ren
+10:05:43 skip 90 Их Ээ
+10:05:43 skip 91 游天隼
+10:05:43 skip 92 李文足
+10:05:43 skip 93 Jun Zhang
+10:05:43 skip 94 Peter Hertmann
+10:05:43 skip 95 金鐘
+10:05:43 skip 96 Fumie Furukawa
+10:05:43 skip 97 彭舒蔚
+10:05:43 skip 98 林勝韋
+10:05:43 skip 99 Tenpa Dhagyal
+10:05:43 skip 100 Lobsangsherap Lobsang
+10:05:43 skip 101 Qinglian He
+10:05:43 skip 102 Petra Henkel
+10:05:43 skip 103 山本康司
+10:05:43 skip 104 林保華
+10:05:43 skip 105 Gegee Borjigin
+10:05:43 skip 106 ᠮᠠᠩᠨᠤᠳ ᠤᠷᠭᠤᠮᠠᠯ
+10:05:43 skip 107 Lin Hsinyi
+10:05:43 skip 108 Xashaa Tseren
+10:05:43 skip 109 张建林
+10:05:43 skip 110 Wing Lee
+10:05:43 skip 111 吳昆陽
+10:05:43 skip 112 蒙麗
+10:05:43 skip 113 陳年添
+10:05:43 skip 114 廖建超
+10:05:43 skip 115 謝建平
+10:05:43 skip 116 Dolkyi སྒྲོལ་སྐྱིད
+10:05:43 skip 117 Ebairitu Bao
+10:05:43 skip 118 Erdemt Borjigin
+10:05:43 skip 119 Borjigin Tsetseg
+10:05:43 skip 120 Taya Tha
+10:05:43 skip 121 云少布
+10:05:43 skip 122 Tony Cai
+10:05:43 skip 123 蘇安娜
+10:05:43 skip 124 Chimgee Baatar
+10:05:43 skip 125 Mumin Chen
+10:05:43 skip 126 李瑞銘
+10:05:43 skip 127 曾憲鴻
+10:05:43 skip 128 林冠妙
+10:05:43 skip 129 Aherap Losang
+10:05:43 skip 130 Yiwu Liao
+10:05:43 skip 131 黄芩
+10:05:43 skip 132 Shan Gao
+10:05:43 skip 133 龙灿
+10:05:43 skip 134 Ulaana Tseren
+10:05:43 skip 135 朱政騏
+10:05:43 skip 136 蔡雅瀅
+10:05:43 skip 137 包苏和
+10:05:43 skip 138 Brinson Ai
+10:05:43 skip 139 許龍俊
+10:05:43 skip 140 Ganzorig Oyunbileg Ogtoryenxebui
+10:05:43 skip 141 烏凌翔
+10:05:43 skip 142 Yong Deng
+10:05:43 skip 143 唐丹鸿
+10:05:43 skip 144 楊 長鎮
+10:05:43 skip 145 Bat Shu Run
+10:05:43 skip 146 Xiaokang Su
+10:05:43 skip 147 Kerim Sharif
+10:05:43 skip 148 Taka Frank
+10:05:43 skip 149 Дарьчулуун Дариа
+10:05:43 skip 150 Dorjee Sodor
+10:05:43 skip 151 Bei Ming
+10:05:43 skip 152 Ton Chen
+10:05:43 skip 153 Makoto Iwata
+10:05:43 skip 154 ᠮᠣᠩᠭᠤᠯ ᠪᠠᠲᠣᠳᠦᠷᠣ
+10:05:43 skip 155 Haijiang Zhu
+10:05:43 skip 156 政言詹
+10:05:43 skip 157 Min Zhang
+10:05:43 skip 158 王策
+10:05:43 skip 159 Tulguur Duudach
+10:05:43 skip 160 宮崎Sargai
+10:05:43 skip 161 Hsiao Jung
+10:05:43 skip 162 謝明海
+10:05:43 skip 163 Hugjil Yunxiebu
+10:05:43 skip 164 溫金柯
+10:05:43 skip 165 Үлнүүд Үүдам
+10:05:43 skip 166 Alhaa Alhaa
+10:05:43 skip 167 Mudan Harchin
+10:05:43 skip 168 Monica Cth
+10:05:43 skip 169 George Weiping Qin
+10:05:43 skip 170 李鈉
+10:05:43 skip 171 Rabiya Kadeer
+10:05:43 skip 172 Saihan Nd
+10:05:43 skip 173 Teng-Yun Huang
+10:05:43 skip 174 Tseten Dorjee
+10:05:43 skip 175 Ru Yi
+10:05:44 skip 176 鲍娜雅
+10:05:44 skip 177 Tenzin Tsundue
+10:05:44 skip 178 林梅
+10:05:44 skip 179 陳威豪
+10:05:44 skip 180 Borzigin Yalalt
+10:05:44 skip 181 George Peng
+10:05:44 skip 182 Yikai Luo
+10:05:44 skip 183 Од Нар
+10:05:44 skip 184 Jane Mair
+10:05:44 skip 185 姚诚
+10:05:44 skip 186 鄒澄淆
+10:05:44 skip 187 Marion Chen
+10:05:44 skip 188 Koichi Iida
+10:05:44 skip 189 柳学红
+10:05:44 skip 190 Belig Borjiged
+10:05:44 skip 191 Harry Svensson
+10:05:44 skip 192 Ursula Gauthier
+10:05:44 skip 193 Jam Blackboy
+10:05:44 skip 194 Khoh Kheer
+10:05:44 skip 195 Gerelt Borjigin
+10:05:44 skip 196 Temurbagan Chahar
+10:05:44 skip 197 Yuan Gu
+10:05:44 skip 198 Hidetoshi Ishii
+10:05:44 skip 199 吳啟嘉
+10:05:44 skip 200 Yang Jianli
+10:05:44 skip 201 Boronruh Tsinrh
+10:05:44 skip 202 Rahima Mahmut
+10:05:44 skip 203 Jing Zhang
+10:05:44 skip 204 Nguyễn Thị Ngọc Hạnh
+10:05:44 skip 205 Tanaka Takeyuki
+10:05:44 skip 206 Arashi L. Uzemchin
+10:05:44 skip 207 Lobsang Dakpa Azatsang
+10:05:44 skip 208 滕彪
+10:05:44 skip 209 龙曦儿
+10:05:44 skip 210 Timothy Huang
+10:05:44 skip 211 景萱
+10:05:44 skip 212 Linkhua Linkhua
+10:05:44 skip 213 Hasqiqig Borjigin
+10:05:44 skip 214 Roman Yadamjav
+10:05:44 skip 215 Chan Ho Tin
+10:05:44 skip 216 Tunglag Tatar
+10:05:44 skip 217 Thinley Norbu
+10:05:44 skip 218 王廣準
+10:05:44 skip 219 桑杰嘉
+10:05:44 skip 220 Chin Shi Hung
+10:05:44 skip 221 微生槑
+10:05:44 skip 222 朱雪琴
+10:05:44 skip 223 Huan Li
+10:05:44 skip 224 章立凡
+10:05:44 skip 225 Behtiyar Nasir
+10:05:44 skip 226 Dorjee Tseten
+10:05:44 skip 227 Eermutu Bao
+10:05:44 skip 228 Fion Luyi Shi
+10:05:44 skip 229 楊月清
+10:05:44 skip 230 いしゐ のぞむ
+10:05:44 skip 231 桂和子
+10:05:44 skip 232 Choedak Gyatso
+10:05:44 skip 233 伊井茂
+10:05:44 skip 234 李箐崡
+10:05:44 skip 235 趙南
+10:05:44 skip 236 Taro Kanada
+10:05:44 skip 237 Asgar Can
+10:05:44 skip 238 Tumerbulag Borjigin
+10:05:44 skip 239 潘多丹增
+10:05:44 skip 240 Kalim Chun
+10:05:44 skip 241 John Ng
+10:05:44 skip 242 陳文玲
+10:05:44 skip 243 སད མི
+10:05:44 skip 244 Degjrh Hantn
+10:05:44 skip 245 Dennis Huang
+10:05:44 skip 246 David Yang
+10:05:44 skip 247 韩武
+10:05:44 skip 248 Numchin Tuvshinzaya
+10:05:44 skip 249 傅正明
+10:05:44 skip 250 成涛
+10:05:44 skip 251 Tsering Tibet Dorjee
+10:05:44 skip 252 Niû Hiok Phîng
+10:05:44 skip 253 Linda Gail Arrigo
+10:05:44 skip 254 Doris Liu
+10:05:44 skip 255 康一郎吉田
+10:05:44 skip 256 Бөхөө Чулуунбаатарын
+10:05:44 skip 257 Чулуунбат Дэнзэн
+10:05:44 skip 258 Lhagyari Namgyal Dolkar
+10:05:44 skip 259 郭亚萨
+10:05:44 skip 260 云敖登高娃
+10:05:44 skip 261 孫治本
+10:05:44 skip 262 Tomokazu Omura
+10:05:44 skip 263 Yungkun Chou
+10:05:44 skip 264 Tsengel Delgersan
+10:05:44 skip 265 瑪琴
+10:05:44 skip 266 吴雁鸿
+10:05:44 skip 267 Kaiser Kaiser
+10:05:44 skip 268 孟浪
+10:05:44 skip 269 Punsag Amarmend
+10:05:44 skip 270 Takashi Sato
+10:05:44 skip 271 Гэгэн Тэнигэр
+10:05:44 skip 272 陈立群
+10:05:44 skip 273 王藏
+10:05:44 skip 274 Temtsel Hao
+10:05:44 skip 275 曾厚工
+10:05:44 skip 276 ᠤᠯᠠᠭᠠᠨᠪᠠᠷᠰ赤虎 賢ᠥᠭᠡᠯᠡᠳ
+10:05:44 skip 277 Torgantal Borjigin
+10:05:44 skip 278 Peter Kong
+10:05:44 skip 279 何宗勲
+10:05:44 skip 280 孫秀如
+10:05:44 skip 281 Damchoe Gyaltsen
+10:05:44 skip 282 Tsegyam Ngaba
+10:05:44 skip 283 唐琪薇
+10:05:44 skip 284 El Lobo Borjigin
+10:05:44 skip 285 Chun Lung Huang
+10:05:44 skip 286 陳建安
+10:05:44 skip 287 Eric Wang
+10:05:44 skip 288 鄭道
+10:05:44 skip 289 དོན་ བཙན
+10:05:44 skip 290 黃芷馨
+10:05:44 skip 291 李明宇
+10:05:44 skip 292 Jie Liou
+10:05:44 skip 293 Shuree Dorjsuren
+10:05:44 skip 294 松本 しぇりー
+10:05:44 skip 295 包龙军
+10:05:44 skip 296 端木一郎
+10:05:44 skip 297 Ben Sop
+10:05:44 skip 298 黃台仰
+10:05:44 skip 299 Eva CH
+10:05:44 skip 300 Tony Tu
+10:05:44 skip 301 Sonam Topgyal
+10:05:44 skip 302 Chopathar Mache
+10:05:44 skip 303 Ren HK
+10:05:44 skip 304 蔡嬋兒
+10:05:44 skip 305 有尾熊
+10:05:44 skip 306 Zaluu Maki Mongol
+10:05:44 skip 307 陳建宏
+10:05:44 skip 308 Ilshat Hassan Kokbore
+10:05:44 skip 309 姬原
+10:05:44 skip 310 Toshiyuki Uchida
+10:05:44 skip 311 Eddie Cheng
+10:05:44 skip 312 王當
+10:05:44 skip 313 Ikuko Murata
+10:05:44 skip 314 方政
+10:05:44 skip 315 Tashi Tsering
+10:05:44 skip 316 Burgud Zalichid
+10:05:44 skip 317 Sheng Xue
+10:05:44 skip 318 Adil Seytoff
+10:05:44 skip 319 Ying-Hung Chen
+10:05:44 skip 320 Chingwan Lin
+10:05:44 skip 321 鲍 ウユンガ
+10:05:44 skip 322 Yuhsin Chen
+10:05:44 skip 323 Байгал Хошууд
+10:05:44 skip 324 Borzgn Delhii
+10:05:44 skip 325 黃美珍
+10:05:44 skip 326 Bulag Minggad
+10:05:44 skip 327 Өөлд Дамринжав Төмөр
+10:05:44 skip 328 朱光明
+10:05:44 skip 329 JeBe Borjgin
+10:05:44 skip 330 Chang Ping
+10:05:44 skip 331 劉明松
+10:05:44 skip 332 韩荣利
+10:05:44 skip 333 Askar Erkin
+10:05:44 skip 334 Meili Chow
+10:05:44 skip 335 Tsering Tsering
+10:05:44 skip 336 李焕君
+10:05:44 skip 337 Nars Borjigin
+10:05:44 skip 338 ཁུ། དབྱི་མོ་མཚོ།
+10:05:44 skip 339 Hasibagan Borjihan
+10:05:44 skip 340 郭原甫
+10:05:44 skip 341 富察
+10:05:44 skip 342 Meyirbek Saylanbek
+10:05:44 skip 343 Kikuchi Toshio
+10:05:44 skip 344 Irgen Gioro Liyanbe
+10:05:44 skip 345 Pual Ma
+10:05:44 skip 346 Chunli Shen
+10:05:44 skip 347 Narsuu Hartsaga
+10:05:44 skip 348 Barbara Chai
+10:05:44 skip 349 陈维健
+10:05:44 skip 350 Gulziba Tursun
+10:05:44 skip 351 Peter H. Lin
+10:05:44 skip 352 Khorchinbat Borjigin
+10:05:44 skip 353 海日汗
+10:05:44 skip 354 Enver Tohti
+10:05:44 skip 355 Qier Mu
+10:05:44 skip 356 劉燕子
+10:05:44 skip 357 Linda Manchuria
+10:05:44 skip 358 Youki Kaku
+10:05:44 skip 359 蘇志銓
+10:05:44 skip 360 蔡瑛綺
+10:05:44 skip 361 Tungalag Uryanhai
+10:05:44 skip 362 Ganbat Bold
+10:05:44 skip 363 Tai Ou
+10:05:44 skip 364 Sammy Hwang
+10:05:44 skip 365 Soichi Makihara
+10:05:44 skip 366 Fengsuo ZHou
+10:05:44 skip 367 古川
+10:05:44 skip 368 许志永
+10:05:44 skip 369 Lena Stephanie
+10:05:44 skip 370 Wufeng Xu
+10:05:44 skip 371 Mark Wain
+10:05:44 skip 372 Borjigin Mandaa
+10:05:44 skip 373 PhUrpa DorjEe
+10:05:44 skip 374 Gu Fu
+10:05:44 skip 375 Nima Balaji
+10:05:44 skip 376 Ivan Bai
+10:05:44 skip 377 Jack Ai
+10:05:44 skip 378 马建
+10:05:44 skip 379 Gulum Uyghur
+10:05:44 skip 380 Terue Yokota
+10:05:45 skip 381 高瑜
+10:05:45 skip 382 Tsengelbayar Tal Sahal
+10:05:45 skip 383 胡一刀
+10:05:45 skip 384 Yanjindulma Borjigin
+10:05:45 skip 385 Bao Ider
+10:05:45 skip 386 Hiroyuki Saito
+10:05:45 skip 387 Jamba Lama
+10:05:45 skip 388 Chaogetu Burenchaogetu
+10:05:45 skip 389 Sonom Dorj
+10:05:45 skip 390 Bari Lhamo
+10:05:45 skip 391 倪戰聖
+10:05:45 skip 392 Narentonglaga Tmoro
+10:05:45 skip 393 Daniel Derrida
+10:05:45 skip 394 Burgud Zalichid
+10:05:45 skip 395 Tu Tian
+10:05:45 skip 396 陆明姒
+10:05:45 skip 397 Stein Ringen
+10:05:45 skip 398 林浩生
+10:05:45 skip 399 Jie Zhang
+10:05:45 skip 400 貝嶺
+10:05:45 skip 401 冯志良
+10:05:45 skip 402 Bundaa Khaanphoto
+10:05:45 skip 403 鲍巴德
+10:05:45 skip 404 Phagpa Tsering
+10:05:45 skip 405 Apple Wu
+10:05:45 skip 406 Iok-sin Loa
+10:05:45 skip 407 Tergel Chahar
+10:05:45 skip 408 Adam Breasley
+10:05:45 skip 409 潘子貴
+10:05:45 skip 410 麻生晴一郎
+10:05:45 skip 411 簡大衛
+10:05:45 skip 412 Yong Ge
+10:05:45 skip 413 Lianchao Han
+10:05:45 skip 414 美穂原口
+10:05:45 skip 415 钱跃君
+10:05:45 skip 416 Tsetsen Bat
+10:05:45 skip 417 Yushan Bai
+10:05:45 skip 418 Manda Rawa
+10:05:45 skip 419 胡杨
+10:05:45 skip 420 Yusi Han
+10:05:45 skip 421 巴特尔
+10:05:45 skip 422 Ulaanbar Havhqin
+10:05:45 skip 423 Pang-Chun Wu
+10:05:45 skip 424 Kouhei Kurabayashi
+10:05:45 skip 425 La Dhargye
+10:05:45 skip 426 Buren Borjigin
+10:05:45 skip 427 C.j. Tsao
+10:05:45 skip 428 Ian Shih
+10:05:45 skip 429 李冠逸
+10:05:45 skip 430 Arig Tsundue
+10:05:45 skip 431 Peng Tao
+10:05:45 skip 432 Tibet Mon Pays
+10:05:45 skip 433 Alson Feng
+10:05:45 skip 434 Kaifu Cheng
+10:05:45 skip 435 Tashi Tashi
+10:05:45 skip 436 耿静
+10:05:45 skip 437 Yukari Ida
+10:05:45 skip 438 Hai Peng
+10:05:45 skip 439 Yiruul Xi
+10:05:45 skip 440 红梅
+10:05:45 skip 441 通拉嘎
+10:05:45 skip 442 相林
+10:05:45 skip 443 Ber Lin
+10:05:45 skip 444 Narsu Naiman
+10:05:45 skip 445 林梅
+10:05:45 skip 446 萬幾
+10:05:45 skip 447 古懿
+10:05:45 skip 448 Lanxida Liu
+10:05:45 skip 449 Bateer Erdun
+10:05:45 skip 450 Enqi Wu
+10:05:45 skip 451 Ascar Chan
+10:05:45 skip 452 ビリグ オユン
+10:05:45 skip 453 张大山
+10:05:45 skip 454 Shine Bayar
+10:05:45 skip 455 赵一白
+10:05:45 skip 456 龙刻海
+10:05:45 skip 457 Dhundup Gyalpo Bawa
+10:05:45 skip 458 ᠴᠣᠭ ᠦᠥᠷᠳᠥᠳᠥᠷᠠᠬᠤ
+10:05:45 skip 459 Tashi Nyima Tashi Nyima
+10:05:45 skip 460 劉立德
+10:05:45 skip 461 Tony Lau
+10:05:45 skip 462 Ulziibayar Ayurzana
+10:05:45 skip 463 Hu Ri Cha Mongol
+10:05:45 skip 464 Gerile Chaogetu
+10:05:45 skip 465 Wenhai Huang
+10:05:45 skip 466 Adil Seytoff
+10:05:45 skip 467 陈士杰
+10:05:45 skip 468 白代钦
+10:05:45 skip 469 Keqiang Lei
+10:05:45 skip 470 Makino Suchin
+10:05:45 skip 471 Jennifer Zeng
+10:05:45 skip 472 Misao Takashima
+10:05:45 skip 473 Logan Cheng
+10:05:45 skip 474 沈良庆
+10:05:45 skip 475 Leo Ng
+10:05:45 skip 476 Carmella Nelda
+10:05:45 skip 477 Masatoshi Yamazaki
+10:05:45 skip 478 Buhhe Leo
+10:05:45 skip 479 King Hugjiltu
+10:05:45 skip 480 黃中
+10:05:45 skip 481 林千帆
+10:05:45 skip 482 Erdbyr Yun
+10:05:45 skip 483 李一平
+10:05:45 skip 484 Wang Hsing-chung
+10:05:45 skip 485 廖仁慈
+10:05:45 skip 486 劉向南
+10:05:45 skip 487 刘毅
+10:05:45 skip 488 大村友和
+10:05:45 skip 489 Mariko Yoshizuka
+10:05:45 skip 490 Huh Mongol Gansuren
+10:05:45 skip 491 ᠪᠠᠶᠠᠭᠤᠳ ᠰᠢᠵᠢᠷ
+10:05:45 skip 492 Abda Safya
+10:05:45 skip 493 Eric Kuan
+10:05:45 skip 494 彭海
+10:05:45 skip 495 Pari Norkar
+10:05:45 skip 496 夏丹紅
+10:05:45 skip 497 白相林
+10:05:45 skip 498 Tsetseg Altan
+10:05:45 skip 499 Bingnet Shane
+10:05:45 skip 500 Otgonbayar Will
+10:05:45 skip 501 梁国栋
+10:05:45 skip 502 王筝
+10:05:45 skip 503 Xiao Si
+10:05:45 skip 504 陈策
+10:05:45 skip 505 吉亚太
+10:05:45 skip 506 Зохиолийн Дууны Клипүүд
+10:05:45 skip 507 Huricha Bai
+10:05:45 skip 508 日本中国民主化協調会
+10:05:45 skip 509 宋健来
+10:05:45 skip 510 郭先虎
+10:05:45 skip 511 Nandin Borjigin
+10:05:45 skip 512 Xing Yin
+10:05:45 skip 513 楊子江
+10:05:45 skip 514 Buhbilig Bud
+10:05:45 skip 515 Mandala Mandala
+10:05:45 skip 516 關索科
+10:05:45 skip 517 広瀬凌也
+10:05:45 skip 518 Linda Wu
+10:05:45 skip 519 李一凡
+10:05:45 skip 520 Эрүүл Монгол Цагаан Идээ
+10:05:45 skip 521 林志豪
+10:05:45 skip 522 李旭明
+10:05:45 skip 523 鲁冬秋
+10:05:45 skip 524 Yue Yao
+10:05:45 skip 525 闫尔强
+10:05:45 skip 526 Gerelte Horchin
+10:05:45 skip 527 李援
+10:05:45 skip 528 Yangzom Tsering
+10:05:45 skip 529 华孜竞
+10:05:45 skip 530 林东
+10:05:45 skip 531 李念台
+10:05:45 skip 532 和平
+10:05:45 skip 533 董金興
+10:05:45 skip 534 方圆
+10:05:45 skip 535 Jason Liu
+10:05:45 skip 536 Miho Sizuki
+10:05:45 skip 537 盛东方
+10:05:45 skip 538 林涔涔
+10:05:45 skip 539 Pihao Brad
+10:05:45 skip 540 林榮基
+10:05:45 skip 541 Zhang Rong
+10:05:45 skip 542 chenggeletu ゲルト
+10:05:45 skip 543 Aorgel Si
+10:05:45 skip 544 Tenzin Nima
+10:05:45 skip 545 林昕
+10:05:45 skip 546 连超
+10:05:45 skip 547 肖小爱
+10:05:45 skip 548 Chaogetu Saren
+10:05:45 skip 549 Xiao Xie
+10:05:45 skip 550 Bao Ping An
+10:05:45 skip 551 毕力格
+10:05:45 skip 552 Buhe Gang
+10:05:45 skip 553 李大伟
+10:05:45 skip 554 李保蒼
+10:05:45 skip 555 巴图
+10:05:45 skip 556 李珠拉
+10:05:45 skip 557 Jerry Hamer
+10:05:45 skip 558 タ ナ
+10:05:45 skip 559 Guoxing Wang
+10:05:45 skip 560 Perpetua Lotkowska
+10:05:45 skip 561 Hua Jia
+10:05:45 skip 562 Xiaodong Yu
+10:05:45 skip 563 Tuvshinbayar Aqilalt
+10:05:45 skip 564 刘富祥
+10:05:45 skip 565 林榮鍾
+10:05:45 skip 566 Showa Tenno
+10:05:45 skip 567 Ge Chao
+10:05:45 skip 568 方泥良
+10:05:45 skip 569 Jahaa Monkiin
+10:05:45 skip 570 Baatar Baatar
+10:05:45 skip 571 Shengyi Wang
+10:05:45 skip 572 张小英
+10:05:45 skip 573 Maurer Alexander
+10:05:45 skip 574 Ichiro Kobayashi
+10:05:45 skip 575 简露
+10:05:45 skip 576 林梅
+10:05:45 skip 577 趙建國
+10:05:45 skip 578 Shuurgan Oigud
+10:05:45 skip 579 tsolmon魯門
+10:05:45 skip 580 Joseph Cheng
+10:05:45 skip 581 包潇滢
+10:05:45 skip 582 Hongguang Bai
+10:05:45 skip 583 Namun Namun
+10:05:45 skip 584 姜涛
+10:05:45 skip 585 Jun Wen
+10:05:45 skip 586 Wulantuya Herred
+10:05:45 skip 587 Torgantal Borjigin
+10:05:45 skip 588 金晟
+10:05:45 skip 589 龔與劍
+10:05:45 skip 590 包娜娜
+10:05:45 skip 591 张婧
+10:05:45 skip 592 Fumiharu Tanaka
+10:05:45 skip 593 Dolgoon Liu
+10:05:45 skip 594 Huu Mongol
+10:05:45 skip 595 Людмила Эрдниева Мошулдаева
+10:05:45 skip 596 Batmunkh Ngd
+10:05:45 skip 597 Ulaan Hugjil
+10:05:45 skip 598 霍申铭
+10:05:45 skip 599 Rigood Bu
+10:05:45 skip 600 Жамъяан Уухан
+10:05:45 skip 601 韩新娜
+10:05:45 skip 602 郭寶勝
+10:05:45 skip 603 Aorigeli Huhe
+10:05:45 skip 604 Dream-angel He
+10:05:45 skip 605 溫吉綠
+10:05:45 skip 606 Garry Liu
+10:05:45 skip 607 娜仁夫
+10:05:46 skip 608 Baater Bold
+10:05:46 skip 609 那木拉
+10:05:46 skip 610 Guihong Su
+10:05:46 skip 611 ᠪᠣᠷᠵᠢᠬᠢᠳ ᠤᠴᠠᠷᠠᠯᠳᠤ
+10:05:46 skip 612 Hongguang Bai
+10:05:46 skip 613 Heinrichs Valentine
+10:05:46 skip 614 Dawa Tashi
+10:05:46 skip 615 Burged Mongol
+10:05:46 skip 616 Bin Yang
+10:05:46 skip 617 李颜砾
+10:05:46 skip 618 黃春煌
+10:05:46 skip 619 白晓辉
+10:05:46 skip 620 DQ Johnny Wong
+10:05:46 skip 621 楊楊
+10:05:46 skip 622 汪艳芳
+10:05:46 skip 623 Tenzin Puncog
+10:05:46 skip 624 Johnason King
+10:05:46 skip 625 凌珍宝
+10:05:46 skip 626 Chagan Wuhin
+10:05:46 skip 627 薛燕平
+10:05:46 skip 628 竹内齊
+10:05:46 skip 629 胡斯楞
+10:05:46 skip 630 鐘孟君
+10:05:46 skip 631 毕力格
+10:05:46 skip 632 Duan Yongyao
+10:05:46 skip 633 Xiaoying Liu
+10:05:46 skip 634 Suyalt Undes
+10:05:46 skip 635 Judy Hoover
+10:05:46 skip 636 贾榀
+10:05:46 skip 637 Husileng Husileng
+10:05:46 skip 638 江淳
+10:05:46 skip 639 苏蘇甦
+10:05:46 skip 640 Yanli Lin
+10:05:46 skip 641 Arslan Borjgen
+10:05:46 skip 642 包娜仁
+10:05:46 skip 643 張璟順
+10:05:46 skip 644 Алдаагүй Монгол Бичиг А-Уд
+10:05:46 skip 645 河之殇
+10:05:46 skip 646 Huang Chogtuu
+10:05:46 skip 647 葛嘉嶠
+10:05:46 skip 648 鄭仰恩
+10:05:46 skip 649 Mongol Bi
+10:05:46 skip 650 何家維
+10:05:46 skip 651 Subuda Subuda
+10:05:46 skip 652 黃元璋
+10:05:46 skip 653 包巴图
+10:05:46 skip 654 Qiyan Dima
+10:05:46 skip 655 徐水良
+10:05:46 skip 656 Borjigin Chinzorigt Zulan
+10:05:46 skip 657 Sarna Manda
+10:05:46 skip 658 Xiaohu Zhang
+10:05:46 skip 659 Saihan Tong
+10:05:46 skip 660 Yonghai Bai
+10:05:46 skip 661 Hongshan Chan
+10:05:46 skip 662 Daily ChineseMn
+10:05:46 skip 663 Ulziimaa Tangad
+10:05:46 skip 664 Tumurbaatar Dondog
+10:05:46 skip 665 娜仁図雅
+10:05:46 skip 666 王中義
+10:05:46 skip 667 Mongol Khuchin
+10:05:46 skip 668 Emeel Gol
+10:05:46 skip 669 郭永丰
+10:05:46 skip 670 Borjigin Yurugele
+10:05:46 skip 671 Louis Tan
+10:05:46 skip 672 Mongol Gaal Han
+10:05:46 skip 673 Baikal Tu
+10:05:46 skip 674 Urgenbayar Jugachin
+10:05:46 skip 675 高井保治
+10:05:46 skip 676 Yang Zili
+10:05:46 skip 677 黃豐範
+10:05:46 skip 678 Bold Ba
+10:05:46 skip 679 Chimed Ochir
+10:05:46 skip 680 Siqin Zhao
+10:05:46 skip 681 Taruto Sora
+10:05:46 skip 682 Tim Abe
+10:05:46 skip 683 歐彪峰
+10:05:46 skip 684 Burgud Honiqin
+10:05:46 skip 685 Song Luzheng
+10:05:46 skip 686 Altan Uul
+10:05:46 skip 687 魏千峯
+10:05:46 skip 688 Joyce Liang
+10:05:46 skip 689 Hide Imasaki
+10:05:46 skip 690 Hada Ulaan
+10:05:46 skip 691 Forrest Sung
+10:05:46 skip 692 劉家妤
+10:05:46 skip 693 Botpa Benta
+10:05:46 skip 694 Helmut Henn
+10:05:46 skip 695 宝海涛
+10:05:46 skip 696 Toli Taoli
+10:05:46 skip 697 Munkh Delger
+10:05:46 skip 698 Shigeko Yamashita
+10:05:46 skip 699 Takashi Nagao
+10:05:46 skip 700 Rui Rtibet
+10:05:46 begin {} 701
+10:05:57 Tibet Yeshi Dolma
+10:05:59 ['"addFriendText">要查看她与好友分享的内容，<']
+10:05:59 曾在 Students for a Free Tibet 工作
+所在地：伦敦
+单身
+来自：Tibet Iman, Hamah, Syria
+10:05:59 insert sucessful
+10:06:04 begin {} 702
+10:06:07 鄭文平
+10:06:09 ['"addFriendText">查看他与好友分享的内容，<']
+10:06:09 在自由業工作
+曾经就读：智光商工
+所在地：苗栗市
+来自：新竹市
+10:06:09 insert sucessful
+10:06:12 begin {} 703
+10:06:14 吳寬壽
+10:06:16 ['"addFriendText">查看他与好友分享的内容，<']
+10:06:16 曾在國立台北商業技術學院学习 MIS
+所在地：台北市
+粉丝：221 人
+10:06:16 insert sucessful
+10:06:18 begin {} 704
+10:06:21 陈少文
+10:06:23 []
+10:06:23 生于人祸，长于国难，在万岁声里洗礼，于枷锁中醒悟，揭历史真相，探真理本源！
+
+
+
+所在地：湖南省 娄底市
+加入日期：2010年7月
+10:06:23 insert sucessful
+10:06:25 begin {} 705
+10:06:26 羅德暐
+10:06:28 ['"addFriendText">查看他与好友分享的内容，<']
+10:06:28 推廣民主與自由價值 實現自由人的夢想與活出新時代的尊嚴是台灣人的戰略核心
+曾经就读：臺中縣私立明道高級中學
+曾经就读：台中縣明道中學
+单身
+粉丝：301 人
+10:06:28 insert sucessful
+10:06:33 begin {} 706
+10:06:38 Jimmy Zeng
+10:06:40 ['"addFriendText">查看他与好友分享的内容，<']
+10:06:40 曾经就读：NZLC
+曾在國立高雄海洋科技大學学习航運技術系
+曾经就读：高雄海洋科技大學
+曾经就读：國立海洋科技大學
+所在地：高雄市
+来自：Changhua North, T'Ai-Wan, Taiwan
+粉丝：89 人
+10:06:40 insert sucessful
+10:06:45 begin {} 707
+10:06:50 Dorjee Gyantsan
+10:06:52 ['"addFriendText">查看他与好友分享的内容，<']
+10:06:52 曾在青海警校 Qinghai province police college 学习刑事學
+曾经就读：青海省西宁市湟川中学
+粉丝：50 人
+10:06:52 insert sucessful
+10:06:54 begin {} 708
+10:06:56 Jiahui Wang
+10:06:58 []
+10:06:58 个体经营
+曾经就读：社會大學
+所在地：Helsinkiranta, Länsi-Suomen Lääni, Finland
+来自：赫尔辛基
+10:06:58 insert sucessful
+10:07:03 begin {} 709
+10:07:04 Freer DF
+10:07:06 ['"addFriendText">查看他与好友分享的内容，<']
+10:07:06 粉丝：15 人
+10:07:06 insert sucessful
+10:07:10 begin {} 710
+10:07:12 Lee Nayt Lee
+10:07:14 ['"addFriendText">查看他与好友分享的内容，<']
+10:07:14 error 1 : 710 https://www.facebook.com/leenayt.lee?fref=pb&hc_location=friends_tab
+10:07:14 710 Lee Nayt Lee list index out of range
+10:07:14 begin {} 711
+10:07:19 Akihiko Imamura
+10:07:21 []
+10:07:21 直接の面識がない日本人の方は、友達申請にメッセージを添えて下さい。
+行政書士 Administrative and Immigration Solicitor
+就读于：放送大学，所学专业：教養学部
+已婚
+来自：Taku-shi, Saga, Japan
+10:07:21 insert sucessful
+10:07:23 begin {} 712
+10:07:25 Weber Luo-jin
+10:07:27 ['"addFriendText">要查看她与好友分享的内容，<']
+10:07:27 所在地：帕绍
+来自：北京市
+10:07:27 insert sucessful
+10:07:29 begin {} 713
+10:07:31 Wong Catherine
+10:07:33 ['"addFriendText">要查看她与好友分享的内容，<']
+10:07:33 曾经就读：Unofficial: The University of Hong Kong
+10:07:33 insert sucessful
+10:07:35 begin {} 714
+10:07:37 Yu Zhang
+10:07:39 ['"addFriendText">查看他与好友分享的内容，<']
+10:07:39 獨立中文筆會 Independent Chinese PEN Centre (ICPC) - P&TC Coordinator
+曾在 Writer 工作
+曾在 International PEN 工作
+曾在 Royal IT 担任 Researcher
+曾经就读：Wuhan Institute of Technology
+所在地：斯德哥尔摩
+来自：湖北省 武汉市
+10:07:39 insert sucessful
+10:07:44 begin {} 715
+10:07:46 唐朗
+10:07:48 ['"addFriendText">查看他与好友分享的内容，<']
+10:07:48 独立中文笔会会员
+照片
+好友
+· 196
+林忠忠
+宋强
+使天
+王藏
+Asia Liu
+Ge Qiao
+高進松
+吳智安
+陈宝成
+icon of profile-discovery
+看看你和唐朗的好友有哪些共同点。
+查看
+聊天
+聊天
+10:07:48 insert sucessful
+10:07:50 begin {} 716
+10:07:52 Ilham Mahmut
+10:07:54 ['"addFriendText">查看他与好友分享的内容，<']
+10:07:54 World Uyghur Congress - 東アジア太平洋地域全権代表
+日本ウイグル協会 - 会長
+曾经就读：Toin University of Yokohama
+所在地：丰岛区
+与 Reyhangul Alim 已结婚
+来自：哈密市
+粉丝：854 人
+10:07:54 insert sucessful
+10:07:57 begin {} 717
+10:07:59 Juan Peng
+10:08:01 ['"addFriendText">要查看她与好友分享的内容，<']
+10:08:01 error 2 : 717 https://www.facebook.com/juan.peng.33?fref=pb&hc_location=friends_tab
+10:08:01 717 Juan Peng list index out of range
+10:08:01 begin {} 718
+10:08:04 Mei Yong
+10:08:06 ['"addFriendText">要查看她与好友分享的内容，<']
+10:08:06 无
+曾经就读：奈良女子大学
+曾经就读：内蒙古阿拉善盟民族中学
+已婚
+10:08:06 insert sucessful
+10:08:08 begin {} 719
+10:08:13 宋一欣
+10:08:16 ['"addFriendText">查看他与好友分享的内容，<']
+10:08:16 上海汉联律师事务所副主任律师/合伙人。Song Yixin Lawyer :Partner/Vice Director of Shanghai Honor Law Firm.QQ:1634900268.
+曾在复旦大学学习法学院
+曾经就读：上海师范大学
+所在地：渥太华
+已婚
+来自：上海
+粉丝：84 人
+10:08:16 insert sucessful
+10:08:21 begin {} 720
+10:08:22 陳昱辰
+10:08:24 ['"addFriendText">查看他与好友分享的内容，<']
+10:08:24 所在地：台北市
+来自：台北市
+加入日期：2009年7月
+粉丝：110 人
+10:08:24 insert sucessful
+10:08:26 begin {} 721
+10:08:28 武宜三
+10:08:30 ['"addFriendText">查看他与好友分享的内容，<']
+10:08:30 在五七学社出版公司工作
+曾在五七学社出版公司担任 Redação
+所在地：香港
+来自：香港
+10:08:30 insert sucessful
+10:08:34 begin {} 722
+10:08:37 黃俊豪
+10:08:39 ['"addFriendText">查看他与好友分享的内容，<']
+10:08:39 醫生，博士，副教授。
+耳鼻喉科暨聽語中心主任，
+研究部副主任，
+睡眠中心主任（卸任）。
+曾在國立臺灣大學 National Taiwan University 学习醫學
+10:08:39 insert sucessful
+10:08:44 begin {} 723
+10:08:46 Gerile Wugan
+10:08:48 ['"addFriendText">要查看她与好友分享的内容，<']
+10:08:48 曾经就读：千葉大学
+曾经就读：神戸大学大学院
+曾在内モンゴル 民族大学学习蒙医本科
+曾经就读：大板一中
+粉丝：36 人
+10:08:48 insert sucessful
+10:08:53 begin {} 724
+10:08:54 东来
+10:08:56 ['"addFriendText">查看他与好友分享的内容，<']
+10:08:56 dongline.blogspot.com
+照片
+好友
+· 220
+陳芝欣
+陈玖龄
+齐进
+Zhao Xindong
+李陳木人
+Emma Hung
+Jereed Zheng
+穆文斌
+刘梦生
+icon of profile-discovery
+看看你和东来的好友有哪些共同点。
+查看
+聊天
+聊天
+10:08:56 insert sucessful
+10:08:59 begin {} 725
+10:09:01 燕鵬
+10:09:03 ['"addFriendText">查看他与好友分享的内容，<']
+10:09:03 我在乎生命中經過的酸甜苦辣，在乎人生難能可貴的真誠和感動，我並不完美，但懂得珍惜生命中每一位相識過的朋友，尤其是讓我感動和牽挂的朋友!
+已婚
+来自：山东省 青岛市
+粉丝：70 人
+10:09:03 insert sucessful
+10:09:08 begin {} 726
+10:09:11 Mei Lu
+10:09:13 ['"addFriendText">要查看她与好友分享的内容，<']
+10:09:13 曾在中央大學工作
+曾在臺北大學学习社會系
+曾在中興法商学习公共行政系
+10:09:13 insert sucessful
+10:09:15 begin {} 727
+10:09:19 Reuben Chen
+10:09:21 ['"addFriendText">查看他与好友分享的内容，<']
+10:09:21 个体经营
+曾经就读：私立淡江大學
+曾经就读：台南二中
+曾经就读：忠義國小
+所在地：新北市
+已婚
+来自：台南市
+10:09:21 insert sucessful
+10:09:26 begin {} 728
+10:09:30 Joe Galahad Kalashnikov
+10:09:32 ['"addFriendText">查看他与好友分享的内容，<']
+10:09:32 St. Joan of Arc Secondary School - librarian ...
+曾在聖公會基恩小學担任學生
+曾在 St. Joan of Arc Secondary School, Hong Kong 学习 Chemistry
+曾经就读：聖貞德中學
+所在地：香港
+单身
+来自：香港
+加入日期：2010年1月
+10:09:32 insert sucessful
+10:09:36 begin {} 729
+10:09:38 Chang YI LO
+10:09:40 ['"addFriendText">查看他与好友分享的内容，<']
+10:09:40 所在地：台北市
+来自：台北市
+10:09:40 insert sucessful
+10:09:43 begin {} 730
+10:09:44 逸风
+10:09:47 []
+10:09:47 逸風（盧泰之），基督徒。聯繫：lts8964@gmail.com
+个体经营
+曾在独立中文作家笔会工作
+曾在 Henan University 河南大学学习英语言文学
+曾经就读：社會大學
+已婚
+10:09:47 insert sucessful
+10:09:49 begin {} 731
+10:09:50 張宇韶
+10:09:52 ['"addFriendText">查看他与好友分享的内容，<']
+10:09:52 哲學家只是用不同方式解釋世界，重點在改變世界。
+個人評論收錄於「宇韶的政經異想世界」，網址：http://blog.udn.com/mobile/yushaochang718
+東吳大學 - 兼任助理教授
+兩岸政策協會 - 研究員
+致理科技大學：致理人，自己人 - 兼任助理教授
+曾在民主進步黨担任中國事務部副主任
+曾在陸委會担任簡任秘書
+曾在中華歐亞基金會担任研究部副主任
+曾在國立政治大學 National Chengchi University (NCCU) 学习東亞研究所
+曾经就读：銘傳大學經濟系
+曾经就读：及人中學
+曾经就读：辭修高中
+所在地：台北市
+加入日期：2009年11月
+10:09:52 insert sucessful
+10:09:55 begin {} 732
+10:09:57 Jeff Ma
+10:09:59 ['"addFriendText">查看他与好友分享的内容，<']
+10:09:59 1984退伍至2014返台似乎時間把家鄉變得陌生。偶遇舊友無以續話題，只盼有朝重拾熱情，再續舊夢戮力台灣坦途大道 終無所憾。
+AMD - Director
+曾在 Siliconix 担任 Staff Designer
+曾在 Vishay-Siliconix 担任 Staff Engin/ PMIC Designning Head
+曾在 Princeton University 学习 Solid-state electronics
+曾在 uOttawa 学习 Solid-state physics
+曾在 National Taiwan University 学习 Physics
+曾经就读：嘉義高中
+已婚
+来自：嘉义市
+加入日期：2010年2月
+10:09:59 insert sucessful
+10:10:02 begin {} 733
+10:10:05 Namloyak Dhungser
+10:10:07 ['"addFriendText">查看他与好友分享的内容，<']
+10:10:07 曾在 Freelance Writer/Editor 担任 Senior researcher and Tibetan/Chinese bilingual poet
+曾在 dhomay 工作
+就读于：North Metropolitan TAFE，所学专业：English language
+曾在 མཚོ་སྔོན་ཞིང་ཆེན་མཐོ་རིམ་དགེ་འོས་ཆེད་སྦྱོང་སློབ་གླིང་། 学习 Literature in Tibetan /Chinese
+曾经就读：མཚོ་ལྷོ་མི་རིགས་དགེ་ཐོན་སློབ་གྲྭ
+所在地：West Toodyay, Western Australia, Australia
+加入日期：2009年10月
+10:10:07 insert sucessful
+10:10:11 begin {} 734
+10:10:14 陳隆田
+10:10:16 []
+10:10:16 已婚
+10:10:16 insert sucessful
+10:10:19 begin {} 735
+10:10:21 鄭瑋杰
+10:10:23 ['"addFriendText">查看他与好友分享的内容，<']
+10:10:23 一名喜歡這塊土地的台灣子弟
+一名喜歡奇幻與科幻的青年
+一名歷史與古戰役史的研究者
+一名喜愛美食與工藝品愛好者
+照片
+聊天
+聊天
+10:10:23 insert sucessful
+10:10:28 begin {} 736
+10:10:29 Chuang Chi-jui
+10:10:31 ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100000878456573&amp;location=33" role="button">关注 Chuang Chi-jui</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:10:31 愛好思考，歷史，國際關係，動漫。目前業餘研究的範圍是冷戰史，中共黨史，近代東亞史。夢想是希望將中國／台灣／日本等東亞國家的近代史融會貫通，想出一套新的論述來重新詮釋。
+
+所在地：台南市
+来自：台南市
+粉丝：1,423 人
+10:10:32 insert sucessful
+10:10:34 begin {} 737
+10:10:36 Toya Bao
+10:10:38 ['"addFriendText">要查看她与好友分享的内容，<']
+10:10:38 曾经就读：hailar first high school
+来自：内蒙古 呼和浩特市
+10:10:38 insert sucessful
+10:10:43 begin {} 738
+10:10:44 許滿
+10:10:47 ['"addFriendText">查看他与好友分享的内容，<']
+10:10:47 error 3 : 738 https://www.facebook.com/koomum?fref=pb&hc_location=friends_tab
+10:10:47 738 許滿 list index out of range
+10:10:47 begin {} 739
+10:10:49 John Lee
+10:10:51 ['"addFriendText">查看他与好友分享的内容，<']
+10:10:51 曾经就读：Indiana University
+曾经就读：Central University of Finance & Economics
+所在地：布卢明顿
+已婚
+来自：江苏省 淮安市
+10:10:51 insert sucessful
+10:10:53 begin {} 740
+10:10:54 林啟民
+10:10:56 ['"addFriendText">查看他与好友分享的内容，<']
+10:10:56 所在地：台北市
+单身
+来自：台北市
+10:10:56 insert sucessful
+10:10:58 begin {} 741
+10:11:00 Jian Zhang
+10:11:03 ['"addFriendText">查看他与好友分享的内容，<']
+10:11:03 法兰西自由大学 - 总编
+曾在 Sport Hogeschool 学习政治
+曾经就读：西北民族大学
+曾经就读：Escuela Secundaria Tecnica Num. 28
+所在地：巴黎
+单身
+来自：北京市
+10:11:03 insert sucessful
+10:11:08 begin {} 742
+10:11:09 Attila Hun Oğlu
+10:11:11 ['"addFriendText">查看他与好友分享的内容，<']
+10:11:11 曾在 24 Hun Törzsszövettség 工作
+曾经就读：Turan
+曾经就读：imamhatip lisesi
+10:11:11 insert sucessful
+10:11:15 begin {} 743
+10:11:17 Keitaro Ide
+10:11:19 []
+10:11:19 曾在早稻田大学学习大学院博士課程
+已婚
+10:11:19 insert sucessful
+10:11:22 begin {} 744
+10:11:24 普麟
+10:11:26 ['"addFriendText">查看他与好友分享的内容，<']
+10:11:26 石虎少年。
+國立臺灣大學 National Taiwan University - 教學助理(TA)
+就读于：國立臺灣大學 National Taiwan University，所学专业：Political science
+曾在 National Chengchi University 学习政治學
+曾经就读：中崙高中
+所在地：台北市
+来自：花莲市
+10:11:26 insert sucessful
+10:11:31 begin {} 745
+10:11:33 Chinggeltu Borjiged
+10:11:35 []
+10:11:35 error 4 : 745 https://www.facebook.com/cborjiged?fref=pb&hc_location=friends_tab
+10:11:35 745 Chinggeltu Borjiged list index out of range
+10:11:35 begin {} 746
+10:11:37 Pasang Hsiao
+10:11:39 ['"addFriendText">查看他与好友分享的内容，<']
+10:11:39 曾在師大原民中心工作
+与鄭桂芳已结婚
+10:11:39 insert sucessful
+10:11:43 begin {} 747
+10:11:45 陳志峰
+10:11:47 ['"addFriendText">查看他与好友分享的内容，<']
+10:11:47 請盡量潑我冷水，不要客氣，因為我對生命的熱情如火，滅火器來了也沒效！XD
+曾在國立臺灣大學 National Taiwan University 学习物理學
+曾经就读：高雄中學
+所在地：台南市
+加入日期：2009年5月
+粉丝：92 人
+10:11:47 insert sucessful
+10:11:49 begin {} 748
+10:11:52 Vivian Jennie
+10:11:54 ['"addFriendText">要查看她与好友分享的内容，<']
+10:11:54 走過歲月的滄海 漫步人生的舞台 只要還有夢想 就能擁抱淡淡的期待 我們能找到理由難過 也一定能找到快樂 懂得放心的人 找到輕鬆 懂得遺忘的人 找到自由
+Lumenz Homes, Inc. - Interior Designer
+曾在德明商專学习 Banking & Insurance
+曾经就读：德明商專
+所在地：McLean, Virginia
+单身
+来自：台北市
+10:11:54 insert sucessful
+10:11:57 begin {} 749
+10:11:59 Terrence Chan
+10:12:01 ['"addFriendText">查看他与好友分享的内容，<']
+10:12:01 守護香港人嘅香港
+照片
+好友
+聊天
+聊天
+10:12:01 insert sucessful
+10:12:05 begin {} 750
+10:12:06 アマリ アンソニー
+10:12:08 ['"addFriendText">查看他与好友分享的内容，<']
+10:12:08 平和をお願いします。
+所在地：洛杉矶
+来自：Yelets
+10:12:08 insert sucessful
+10:12:12 begin {} 751
+10:12:14 Matthew Lee
+10:12:16 ['"addFriendText">查看他与好友分享的内容，<']
+10:12:16 玛特（豆瓣主页）：https://www.douban.com/people/mattviola/
+Xiamen Ensign Culture Co.,Ltd. - Executive Director
+曾经就读：Xiamen University
+曾经就读：Xiamen No.2 Middle School of Fujian
+10:12:16 insert sucessful
+10:12:20 begin {} 752
+10:12:24 Steve Senick
+10:12:26 ['"addFriendText">查看他与好友分享的内容，<']
+10:12:26 曾在 SSH SECURITY--Hong Kong/Shenzhen/Shanghai 担任 Security Consultant/Courier/Translator
+曾经就读：Saint Joseph's University
+曾经就读：Milton Hershey School
+曾经就读：Girard College
+所在地：亚历山德里亚 (弗吉尼亚州)
+来自：香港
+10:12:26 insert sucessful
+10:12:29 begin {} 753
+10:12:31 李冠毅
+10:12:33 ['"addFriendText">查看他与好友分享的内容，<']
+10:12:33 小英教育基金會 - Consultant
+曾在柯文哲辦公室担任輿情部主任
+曾在民主進步黨担任民主學院政務副主任
+曾经就读：台灣大學
+曾在台北醫學院/ Taipei Medical College 学习公共衛生學
+曾经就读：光仁中學
+所在地：台北市
+来自：台南市
+10:12:33 insert sucessful
+10:12:38 begin {} 754
+10:12:40 Gegentuul Bayat
+10:12:42 []
+10:12:42 Sydney - PhD student
+曾经就读：Macquarie University
+曾在 East China Normal University 学习 Master of Applied Linguistics
+曾经就读：锡林浩特市新时代中学
+曾经就读：内モンゴル
+所在地：悉尼
+来自：Jarud Qi, Nei Mongol, China
+10:12:42 insert sucessful
+10:12:47 begin {} 755
+10:12:50 Dolkun Isa
+10:12:52 ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=1500098151&amp;location=33" role="button">关注 Dolkun Isa</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:12:52 所在地：慕尼黑
+已婚
+粉丝：2,429 人
+10:12:52 insert sucessful
+10:12:57 begin {} 756
+10:12:59 David Yeliang Xia
+10:13:01 ['"addFriendText">查看他与好友分享的内容，<']
+10:13:01 Former Professor at Dept of Economics, Peking University, & visiting scholar at Cato Institute
+Non-profit organization - Libertarian Scholar & Independent Commentator
+曾在 The Cato Institute 担任 Visiting fellow
+曾在北京大学担任教授
+曾在斯坦福大学学习 Economic history
+曾在安徽大学、复旦大学、北京大学、多伦多大学、旧金山大学、加州伯克利大学学习 Economics
+曾经就读：安庆十一中
+曾经就读：陕柴中学
+所在地：华盛顿哥伦比亚特区
+已婚
+10:13:01 insert sucessful
+10:13:05 begin {} 757
+10:13:08 Guotao Li
+10:13:10 ['"addFriendText">查看他与好友分享的内容，<']
+10:13:10 曾在上海机械学院（现名：上海理工大学） 学习系统工程
+所在地：纽约
+来自：上海
+粉丝：32 人
+10:13:10 insert sucessful
+10:13:12 begin {} 758
+10:13:14 Kaiser ÖzHun
+10:13:16 ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=1660920661&amp;location=33" role="button">关注 Kaiser ÖzHun</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:13:16 在 IBM Svenska AB 工作
+曾在 IKEA Communication AB 担任 Photographer
+曾在 Writer 工作
+曾在 International PEN 工作
+曾在 Lund University 担任 Researcher
+曾经就读：Debresen egyetem
+曾在 Sotheby's Institute of Art, London 学习 Est Asian Art
+曾经就读：Atush high School
+来自：隆德
+加入日期：2008年10月
+粉丝：86 人
+10:13:16 insert sucessful
+10:13:19 begin {} 759
+10:13:21 Bosoo-Mongol Huraldai
+10:13:24 ['"addFriendText">查看他与好友分享的内容，<']
+10:13:24 Bosoo mongol huraldai - 公式ユーザ
+粉丝：73 人
+10:13:24 insert sucessful
+10:13:26 begin {} 760
+10:13:28 郭琛
+10:13:30 ['"addFriendText">查看他与好友分享的内容，<']
+10:13:30 曾在全友電腦股份有限工作
+曾在全友電腦工作
+曾在 UMAX 工作
+曾在全友電腦股份有限公司工作
+曾经就读：國立清華大學
+所在地：门兴格拉德巴赫
+已婚
+来自：新竹市
+粉丝：65 人
+10:13:30 insert sucessful
+10:13:35 begin {} 761
+10:13:38 陳小平
+10:13:40 []
+10:13:40 明鏡集團 - Executive Editor
+10:13:40 insert sucessful
+10:13:43 begin {} 762
+10:13:45 Lobsang Yangtso
+10:13:47 ['"addFriendText">要查看她与好友分享的内容，<']
+10:13:47 International Tibet Network - Research Assistant (RA)
+曾经就读：Jawaharlal Nehru University (JNU), New Delhi
+所在地：新德里
+加入日期：2009年4月
+10:13:47 insert sucessful
+10:13:50 begin {} 763
+10:13:52 Louisa Chiang
+10:13:54 ['"addFriendText">要查看她与好友分享的内容，<']
+10:13:54 Bilingual blogger (Chinese), translator, drama critic, lazy foodie. “誰人有此？誰人為是？” 中文筆名蔣行之，原名蔣慧娜
+
+曾经就读：Harvard University
+曾经就读：Hillsdale High
+来自：华盛顿哥伦比亚特区
+10:13:54 insert sucessful
+10:13:57 begin {} 764
+10:13:59 Chialing Wu
+10:14:02 ['"addFriendText">要查看此用户与好友分享的内容，请<']
+10:14:02 所在地：台北市
+来自：新竹市
+加入日期：2007年10月
+10:14:02 insert sucessful
+10:14:07 begin {} 765
+10:14:08 Sechin Toya
+10:14:10 []
+10:14:10 error 5 : 765 https://www.facebook.com/siqin.brown?fref=pb&hc_location=friends_tab
+10:14:10 765 Sechin Toya list index out of range
+10:14:10 begin {} 766
+10:14:12 林汝羽
+10:14:14 ['"addFriendText">要查看她与好友分享的内容，<']
+10:14:14 Institute of Development Studies - PhD student, researcher
+就读于：University of Sussex，所学专业：Development studies
+曾在 University of Sussex 学习 Anthropology
+粉丝：396 人
+10:14:14 insert sucessful
+10:14:16 begin {} 767
+10:14:17 李进进
+10:14:19 ['"addFriendText">查看他与好友分享的内容，<']
+10:14:19 曾在 University of Wisconsin-Madison 学习 Law
+曾在北京大学学习 Law
+曾在 i中南财经政法大学学习 Law LLB
+所在地：纽约
+10:14:19 insert sucessful
+10:14:23 begin {} 768
+10:14:26 Gon Chen
+10:14:28 ['"addFriendText">要查看她与好友分享的内容，<']
+10:14:28 个体经营
+来自：Tibetti, Hormozgan, Iran
+10:14:28 insert sucessful
+10:14:33 begin {} 769
+10:14:35 Dimon Liu
+10:14:37 ['"addFriendText">要查看她与好友分享的内容，<']
+10:14:37 所在地：华盛顿哥伦比亚特区
+10:14:37 insert sucessful
+10:14:42 begin {} 770
+10:14:44 李丹
+10:14:46 ['"addFriendText">查看他与好友分享的内容，<']
+10:14:46 镶黄旗满洲，2006年获Reebok Human Rights Award，创办中国国际女性影展（China Women's Film Festival），影展2014年获奥地利外交部跨文化成就奖
+交差点艺文空间 - 社長
+1905 International Human Rights Film Festival - Curator
+中国国际女性影展 - 策展人
+曾在 1908書社(1908 bookstore) 担任社長
+曾在东珍担任社长
+曾在北京酷儿影展担任组委
+曾在北京师范大学学习 Astrophotography
+曾经就读：月坛中学
+所在地：北京市
+已婚
+来自：北京市
+10:14:46 insert sucessful
+10:14:50 begin {} 771
+10:14:51 Stephen NG
+10:14:54 ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=626245049&amp;location=33" role="button">关注 Stephen NG</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:14:54 Freelance
+曾在 British East Asian Artists 工作
+曾在 University of London 学习 Chinese Poetry
+曾经就读：Unofficial: The University of Hong Kong
+曾经就读：St Francis Xavier's School Hong Kong
+所在地：伦敦
+来自：香港
+粉丝：89 人
+10:14:54 insert sucessful
+10:14:56 begin {} 772
+10:14:57 唐柏橋
+10:14:59 ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=599672327&amp;location=33" role="button">关注唐柏橋</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:14:59 一個能夠掌控自己命運的人，才是真正自由的人。
+民主大学 (Democracy Academy of China) - President (title)
+曾在 China Peace 担任 Chairman
+曾在 Columbia University 学习 International relations
+曾在 Hunan Normal University 学习 Political science
+曾经就读：Lingling No. 4 high school
+所在地：帕罗奥图
+已婚
+10:14:59 insert sucessful
+10:15:03 begin {} 773
+10:15:05 Pu Zhang
+10:15:07 ['"addFriendText">查看他与好友分享的内容，<']
+10:15:07 粉丝：29 人
+10:15:07 insert sucessful
+10:15:11 begin {} 774
+10:15:12 Bei Ling
+10:15:15 ['"addFriendText">查看他与好友分享的内容，<']
+10:15:15 傾向工作室 - 創辦人
+曾在 Brown Alumni Magazine 担任駐校作家
+曾经就读：Beijing International School
+所在地：台北市
+来自：北京市
+10:15:15 insert sucessful
+10:15:19 begin {} 775
+10:15:20 吾爾開希
+10:15:22 ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=618154490&amp;location=33" role="button">关注吾爾開希</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:15:22 自由主義者，民主制度推動者，民族自決擁躉者，劉曉波之友會發起人暨志工。
+所在地：台北市
+10:15:22 insert sucessful
+10:15:26 begin {} 776
+10:15:28 Thomas G Guo
+10:15:30 ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=613944422&amp;location=33" role="button">关注 Thomas G Guo</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:15:30 a fighter of liberty, freedom and justice
+曾在 comlumbia 学习 International Law & Human Rights
+曾在 Shanghai Maritime University 学习 Aviation Law, Marine Insurance, Cases & Law
+曾在 Wuhan University 学习 International Business & Economic Law
+曾在华东政法大学（East China University of Political Science and Law） 学习 Legal English translation
+曾经就读：Longyan No.3 High School
+所在地：温哥华
+离婚
+来自：上海
+粉丝：569 人
+10:15:30 insert sucessful
+10:15:35 begin {} 777
+10:15:38 殷問
+10:15:41 ['"addFriendText">查看他与好友分享的内容，<']
+10:15:41 國立政治大學 National Chengchi University (NCCU) - 資深米蟲
+曾经就读：國立政治大學 National Chengchi University (NCCU)
+10:15:41 insert sucessful
+10:15:43 begin {} 778
+10:15:45 Gioro Irgen Baturu
+10:15:47 ['"addFriendText">查看他与好友分享的内容，<']
+10:15:47 error 6 : 778 https://www.facebook.com/takeru.yamaguchi.1?fref=pb&hc_location=friends_tab
+10:15:47 778 Gioro Irgen Baturu list index out of range
+10:15:47 end
