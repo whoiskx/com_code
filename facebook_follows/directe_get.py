@@ -4,7 +4,7 @@ from random import randint
 from selenium import webdriver
 import json
 import re
-from setting import db, driver_facebook
+from setting import urun, driver_facebook
 from pyquery import PyQuery as pq
 
 def log(*args, **kwargs):
@@ -27,7 +27,7 @@ error_count = 0
 for count, d in enumerate(results):
     # link = "https://www.facebook.com/longson.chang/about?lst=1682293696%3A1816532918%3A1529546966"
     # driver.get(d.get("link", ''))
-    if count <= 700:
+    if count <= 00:
         log("skip {} {}".format(count, d.get('name')))
         continue
     log("begin {}", count)
@@ -80,13 +80,13 @@ for count, d in enumerate(results):
 
         account_name = d.get("name")
         home_page = link
-        db['facebook'].insert(
+        urun['facebook'].insert(
             {"account_name": account_name, 'home_page': home_page, 'location': location, 'come_form': come_form,
              "job": job, 'followers': follows,
              "degree": degree, "sex": sex, "is_get": True})
         log("insert sucessful")
         time.sleep(randint(2, 5))
-        if count >= 800:
+        if count >= 600:
             break
     except Exception as e:
         log(count, name, e)

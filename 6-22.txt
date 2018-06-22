@@ -1,4 +1,10 @@
 pycharm 设置默认代码
     File->Settings->Editor->File and Code Templetes
 
-数据导入excel
+数据导入excel   openpyxl
+
+selenium 可以 选择注释的html 元素
+    动态加载的 drive.page_source 也能拿到
+
+ facebook
+    500次服务器关闭远程连接

@@ -4,7 +4,7 @@ from random import randint
 from selenium import webdriver
 import json
 import re
-from setting import db, driver_facebook
+from setting import urun, driver_facebook
 from pyquery import PyQuery as pq
 
 # driver = webdriver.Chrome()
@@ -63,7 +63,7 @@ for count, d in enumerate(results):
     print("====")
     print(address, type(address))
     print(host, school, job)
-    db['facebook'].insert(
+    urun['facebook'].insert(
         {"host": host, 'school': school, 'job': job, 'url_profile': url_introduction[0], "name": d.get("name")})
     time.sleep(randint(1, 3))
     if count == 3:

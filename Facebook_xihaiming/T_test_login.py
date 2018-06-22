@@ -4,7 +4,7 @@ from random import randint
 from selenium import webdriver
 import json
 import re
-from setting import db, driver_facebook
+from setting import urun, driver_facebook
 from pyquery import PyQuery as pq
 
 # driver = webdriver.Chrome()
@@ -35,7 +35,7 @@ for count, d in enumerate(results):
 
         data_tab = re.findall(r'data-tab-key="about".*?>', index_html)
 
-        url_introduction = re.findall(r'https.*?"', data_tab[0])
+        url_introduction = re.findall(r'https.*?"', data_tab[-1])
         driver.get(url_introduction[0])
         print("url", url_introduction)
         introduction_html = driver.page_source
@@ -75,7 +75,7 @@ for count, d in enumerate(results):
         # print("====")
         # print(address, type(address))
         # print(host, school, job)
-        # db['facebook'].insert(
+        # urun['facebook'].insert(
         #     {"host": host, 'school': school, 'job': job, 'url_profile': url_introduction[0], "name": d.get("name")})
         # time.sleep(randint(1, 3))
         # if count == 3:
@@ -100,7 +100,7 @@ for count, d in enumerate(results):
                 come_form = item
         account_name = d.get("name")
         home_page.append(link)
-        db['facebook'].insert(
+        urun['facebook'].insert(
             {"account_name": account_name, 'home_page': home_page, 'location': location, 'come_form': come_form,
              "job": job,
              "degree": degree, "sex": sex, "is_get": True})

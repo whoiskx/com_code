@@ -1,10 +1,10 @@
-# -*- coding:utf-8 -*-
-from __future__ import unicode_literals
 import json
-
-from setting import db
+import pymongo
+from setting import urun
 
 # 备份集合
-# data = db.facebook
-# for i in data.find():
-#     db.backup_facebook.insert(i)
+facebook = urun.facebook
+conn = pymongo.MongoClient('127.0.0.1', 27017)
+backup = conn.backup
+for i in facebook.find():
+    backup.facebook.insert(i)

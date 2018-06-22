@@ -4,7 +4,7 @@ from random import randint
 from selenium import webdriver
 import json
 import re
-from setting import db, driver_facebook
+from setting import urun, driver_facebook
 from pyquery import PyQuery as pq
 
 driver = webdriver.Chrome()
@@ -47,7 +47,7 @@ for count, d in enumerate(results):
                 come_form = item
         account_name = d.get("name")
         home_page.append(link)
-        db['facebook'].insert(
+        urun['facebook'].insert(
             {"account_name": account_name, 'home_page': home_page, 'location': location, 'come_form': come_form,
              "job": job,
              "degree": degree, "is_get": True})

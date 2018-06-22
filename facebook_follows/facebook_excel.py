@@ -1,10 +1,10 @@
 from openpyxl import Workbook
-from setting import db
+from setting import urun
 
 wb = Workbook()
 sheet = wb.active
 
-data = db.facebook
+data = urun.facebook
 for i in data.find():
     i = [i.get("account_name"), i.get('home_page'), i.get('location'), i.get('come_form'), i.get('job'),
          i.get('followers'), i.get('degree'), i.get('sex'), ]

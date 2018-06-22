@@ -25,5 +25,5 @@ def driver_facebook():
 
 # pymongo
 conn = pymongo.MongoClient('127.0.0.1', 27017)
-db = conn.urun
+urun = conn.urun
 # db['uu'].insert({'name':"李白", "age":"30", "skill":"Python"})
