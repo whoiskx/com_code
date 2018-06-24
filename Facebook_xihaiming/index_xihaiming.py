@@ -19,9 +19,9 @@ url_xihaiming = "https://www.facebook.com/profile.php?id=100018160331338&lst=100
 driver.get(url_xihaiming)
 
 html = driver.find_element_by_tag_name("html")
-
-with open("index_xihaiming.txt", "w") as f:
-    f.write(driver.page_source)
+#
+# with open("index_xihaiming.txt", "w") as f:
+#     f.write(driver.page_source)
 
 e = pq(driver.page_source)
 name = e(".fsl fwb fcb")
