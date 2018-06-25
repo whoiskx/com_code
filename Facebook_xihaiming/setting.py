@@ -16,6 +16,8 @@ def log(*args, **kwargs):
 email = "live41@163.com"
 password = "cs-123456"
 
+email_urun = '18390553540@163.com'
+password_urun = 'jh123258456'
 # 启动driver
 def driver_facebook():
     driver = webdriver.Chrome()
@@ -23,9 +25,11 @@ def driver_facebook():
 
     email = driver.find_element_by_id("email")
     email.send_keys("live41@163.com")
+    # email.send_keys("18390553540@163.com")
+    # email.send_keys("574613576@qq.com")
     password = driver.find_element_by_id('pass')
     password.send_keys("cs-123456")
-
+    # password.send_keys("jh123258456")
     button = driver.find_element_by_id('loginbutton')
     button.click()
     return driver

@@ -14,8 +14,8 @@ error_count = 0
 for count, u in enumerate(results):
     # link = "https://www.facebook.com/longson.chang/about?lst=1682293696%3A1816532918%3A1529546966"
     # driver.get(d.get("link", ''))
-    if count <= 10:
-        log("skip {} {}".format(count, d.get('name')))
+    if count <= 634:
+        log("skip {} {}".format(count, u.get('name')))
         continue
     log("begin {}", count)
     try:
@@ -54,9 +54,9 @@ for count, u in enumerate(results):
 
         list_profile = all_profile.split("\n")
         for item in list_profile:
-            if "-" in item and job == '':
+            if "-" in item and job == '' and '曾' not in item and '所在' not in item and '来自' not in item:
                 job = item
-            elif "曾经" in item and degree == '':
+            elif "曾经" or '就读于' in item and degree == '':
                 degree = item
             elif "所在地" in item:
                 location = item
@@ -73,7 +73,7 @@ for count, u in enumerate(results):
              "degree": degree, "sex": sex, "is_get": True})
         log("insert sucessful")
         time.sleep(randint(2, 5))
-        if count >= 100:
+        if count >= 700:
             break
     except Exception as e:
         log(count, name, e)
