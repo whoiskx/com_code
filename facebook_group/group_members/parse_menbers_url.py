@@ -7,8 +7,8 @@ from pyquery import PyQuery as pq
 from setting import driver_facebook
 import re
 
-#
-#
+
+
 # with open("group_members.html", "r", encoding="utf-8") as f:
 #     html = f.read()
 
@@ -48,7 +48,7 @@ for member in all_members_div:
     results.append({"name": name, 'url': members_url})
 
 print(results)
-
+print(len(results))
 import json
 
 s = json.dumps(results, indent=2, ensure_ascii=False)
