@@ -3,3 +3,6 @@ f.write()
 
 json
     参数 indent = 2 ensure_ascii=False
+
+   error_count = 0
+        全局跟局部的区别？？
