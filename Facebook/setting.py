@@ -20,7 +20,16 @@ password = "cs-123456"
 
 # 启动driver
 def driver_facebook():
-    driver = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    prefs = {
+        'profile.default_content_setting_values':
+            {
+                'notifications': 2
+            }
+    }
+    options.add_experimental_option('prefs', prefs)
+    driver = webdriver.Chrome(chrome_options=options)
+
     driver.get("https://www.facebook.com/")
     email_text = driver.find_element_by_id("email")
     password_text = driver.find_element_by_id('pass')

@@ -43,3 +43,13 @@ work
 
 selenium
     JS弹窗 没有下拉条 无法下拉
+    屏蔽chrome弹出的通知
+
+for dynamic in dynamic_div('.fsm'):
+    迭代之后 是html对象
+
+selenium
+    浏览器driver 跳转页面不能立即查找元素  要等待 页面加载完成才能 查找
+
+https://www.facebook.com/profile.php?id=100023978830810
+    许知远

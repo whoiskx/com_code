@@ -63,7 +63,7 @@ def personal_data(index_html):
             post.come_form = item
         elif "粉丝" in item:
             post.followers = item
-        elif "-" in item and post.job == '':
+        elif "-" in item and post.job == '' and '曾经' not in item:
             post.job = item
     log('post', post)
     return post
