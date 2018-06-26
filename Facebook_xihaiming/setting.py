@@ -1,3 +1,4 @@
+from random import randint
 import pymongo
 from selenium import webdriver
 import time
@@ -28,6 +29,13 @@ def driver_facebook():
     button = driver.find_element_by_id('loginbutton')
     button.click()
     return driver
+
+
+def execute_times(driver, times=1):
+    for i in range(times):
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(randint(1, 3))
+        print('下拉第{}次，总共下拉{}次'.format(i + 1, times))
 
 
 # pymongo

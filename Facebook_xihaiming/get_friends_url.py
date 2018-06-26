@@ -1,16 +1,10 @@
-from setting import driver_facebook
+from setting import driver_facebook, execute_times
 from pyquery import PyQuery as pq
 import time
 from random import randint
 import re
 import json
 
-
-def execute_times(driver, times):
-    for i in range(times):
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(randint(1, 3))
-        print('下拉第{}次，总共下拉{}次'.format(i + 1, times))
 
 
 def obj_dumps(obj):
