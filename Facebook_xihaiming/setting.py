@@ -1,35 +1,30 @@
-import time
-
 import pymongo
 from selenium import webdriver
+import time
 
-"""live41@163.com
-cs-123456
-"""
+
 def log(*args, **kwargs):
-    format = '%H:%M:%S'
+    time_format = '%y-%m-%d %H:%M:%S'
     value = time.localtime(int(time.time()))
-    dt = time.strftime(format, value)
+    dt = time.strftime(time_format, value)
     with open('log.txt', 'a', encoding='utf-8') as f:
         print(dt, *args, file=f, **kwargs)
 
+
 email = "live41@163.com"
 password = "cs-123456"
+# email = '18390553540@163.com'
+# password_urun = 'jh123258456'
 
-email_urun = '18390553540@163.com'
-password_urun = 'jh123258456'
+
 # 启动driver
 def driver_facebook():
     driver = webdriver.Chrome()
     driver.get("https://www.facebook.com/")
-
-    email = driver.find_element_by_id("email")
-    email.send_keys("live41@163.com")
-    # email.send_keys("18390553540@163.com")
-    # email.send_keys("574613576@qq.com")
-    password = driver.find_element_by_id('pass')
-    password.send_keys("cs-123456")
-    # password.send_keys("jh123258456")
+    email_text = driver.find_element_by_id("email")
+    password_text = driver.find_element_by_id('pass')
+    email_text.send_keys(email)
+    password_text.send_keys(password)
     button = driver.find_element_by_id('loginbutton')
     button.click()
     return driver

@@ -1,4 +1,332 @@
-18:23:59 insert 洪耀南 sucessful
-18:24:03 insert 叶伟东 sucessful
-18:24:10 insert 李瑞鴻 sucessful
-18:24:17 insert 謝潤姿 sucessful
+10:23:19 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=755544233&amp;location=33" role="button">关注洪耀南</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:23:19 list_profile ['這是個人生活 吃喝玩樂的臉書', '所在地：台北市', '粉丝：2,937 人']
+10:23:19 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (粉丝：2,937 人)
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:23:19 insert 洪耀南 sucessful
+10:23:26 data_sex ['"addFriendText">查看他与好友分享的内容，<']
+10:23:26 list_profile ['照片', '聊天', '聊天']
+10:23:26 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (聊天)
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:23:26 insert 叶伟东 sucessful
+10:23:32 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100006688728123&amp;location=33" role="button">关注李瑞鴻</a>，在动态消息内查看她的公开帖</span>']
+10:23:32 list_profile ['粉丝：3,602 人']
+10:23:32 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (粉丝：3,602 人)
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:23:32 insert 李瑞鴻 sucessful
+10:23:37 data_sex ['"addFriendText">要查看她与好友分享的内容，<']
+10:23:37 list_profile ['已婚', '来自：嘉义市']
+10:23:37 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (来自：嘉义市)
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:23:37 insert 謝潤姿 sucessful
+10:23:42 data_sex ['"addFriendText">查看他与好友分享的内容，<']
+10:23:42 list_profile ['所在地：Sindian', "来自：Hsintien, T'Ai-Wan, Taiwan", '加入日期：2011年12月']
+10:23:42 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (加入日期：2011年12月)
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:23:42 insert 周一回 sucessful
+10:23:49 data_sex ['"addFriendText">查看他与好友分享的内容，<']
+10:23:49 list_profile ['曾在 Business 工作', '就读于國立北教大法研所碩士', '曾经就读：FJU', '曾经就读：國立成功大學', '曾经就读：台中一中', '所在地：台中市', '来自：台中市', '加入日期：2009年3月', '粉丝：965 人']
+10:23:49 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (粉丝：965 人)
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:23:49 insert 紀文清 sucessful
+10:23:55 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100003459084776&amp;location=33" role="button">关注朱孟庠</a>，在动态消息内查看她的公开帖</span>']
+10:23:55 list_profile ['曾经就读：國立師範大學美術系、美術研究所', '曾经就读：臺北市立師範專科學校', '加入日期：2012年1月', '粉丝：1,495 人']
+10:23:55 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (粉丝：1,495 人)
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:23:55 insert 朱孟庠 sucessful
+10:23:59 data_sex ['"addFriendText">查看他与好友分享的内容，<']
+10:23:59 list_profile ['所在地：Itabashi-ku, Tokyo, Japan', '来自：Itabashi-ku, Tokyo, Japan', '粉丝：215 人']
+10:23:59 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (粉丝：215 人)
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:23:59 insert Hamut Mahmut sucessful
+10:24:05 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100010273510106&amp;location=33" role="button">关注蔡瑛綺</a>，在动态消息内查看她的公开帖</span>']
+10:24:05 list_profile ['(知己朋友要交心)~~(害人之心不可有)做人要重情，義~知道感恩心~互相尊重心，我最討厭說慌的人，雙面人，會陷害朋友 出賣朋友都不是我的朋友。', '沒人要社團 - 機車PT', '就读于家裡蹲大學人力資源關理', '所在地：高雄市', '单身', '来自：高雄市']
+10:24:05 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (来自：高雄市)
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:24:05 insert 蔡瑛綺 sucessful
+10:24:13 data_sex ['"addFriendText">要查看她与好友分享的内容，<']
+10:24:13 list_profile ['大方無隅，大器晚成，大音希聲，大象無形。Activist / Buddhist / Coordinator / Interpreter / Jurist / Mensan / Yogini', 'Taiwan Grassroots Alliance for Peace (台灣和平草根聯盟) - 理事', '台灣公民媒體文化協會 - 常務監事', '曾在台灣公民參與協會 TCPA 担任理事', '曾在 Students for a Free Tibet 担任 Executive Supervisor of Taiwan Chapter', '曾在唐獎担任 Coordinator of the Tang Prize Selection Committee for the Rule of Law', '曾在さよなら原発京都．大阪集会担任 Public speaker', '曾在 Students for a Free Tibet - Taiwan 担任 Supervisor', '曾在太陽花運動國際部担任總擔當者之一', '曾在 Lawsuit against Nuclear Reactor Manufacturers, Tokyo, Japan 担任 Manager of Selecting 711 pieces of the Power of Attorney of Taiwan in one week', '曾在赴日本九州Turbo Blade簽約担任 Translator/Interpreter', '曾在 2012 美索參訪救援團担任領隊', '曾在 Walk For Tibet - Ambassadors for World Peace 担任 Translator/Interpreter', '曾在 Notre Dame Law School 学习 International Law & Human Rights', '曾在 University of Notre Dame 学习 International Human Rights Law', '所在地：台北市', '来自：台南市']
+10:24:13 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (来自：台南市)
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:24:13 insert Karen Cheng sucessful
+10:24:20 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100001807843041&amp;location=33" role="button">关注 Pui Lian</a>，在动态消息内查看她的公开帖</span>']
+10:24:20 list_profile ['粉丝：1,389 人']
+10:24:20 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: (粉丝：1,389 人)
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:24:20 insert Pui Lian sucessful
+10:27:06 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=755544233&amp;location=33" role="button">关注洪耀南</a>，在动态消息内直接查看他的公开发布内容</span>']
+10:27:06 list_profile ['這是個人生活 吃喝玩樂的臉書', '所在地：台北市', '粉丝：2,937 人']
+10:27:06 post < PostData
+account_name: ()
+location: (所在地：台北市)
+come_form: ()
+job: ()
+followers: (粉丝：2,937 人)
+degree: ()
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:27:06 insert 洪耀南 sucessful
+10:27:12 data_sex ['"addFriendText">查看他与好友分享的内容，<']
+10:27:12 list_profile ['照片', '聊天', '聊天']
+10:27:12 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: ()
+degree: ()
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:27:12 insert 叶伟东 sucessful
+10:27:18 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100006688728123&amp;location=33" role="button">关注李瑞鴻</a>，在动态消息内查看她的公开帖</span>']
+10:27:18 list_profile ['粉丝：3,602 人']
+10:27:18 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: (粉丝：3,602 人)
+degree: ()
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:27:18 insert 李瑞鴻 sucessful
+10:27:25 data_sex ['"addFriendText">要查看她与好友分享的内容，<']
+10:27:25 list_profile ['已婚', '来自：嘉义市']
+10:27:25 post < PostData
+account_name: ()
+location: ()
+come_form: (来自：嘉义市)
+job: ()
+followers: ()
+degree: ()
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:27:25 insert 謝潤姿 sucessful
+10:27:30 data_sex ['"addFriendText">查看他与好友分享的内容，<']
+10:27:30 list_profile ['所在地：Sindian', "来自：Hsintien, T'Ai-Wan, Taiwan", '加入日期：2011年12月']
+10:27:30 post < PostData
+account_name: ()
+location: (所在地：Sindian)
+come_form: (来自：Hsintien, T'Ai-Wan, Taiwan)
+job: ()
+followers: ()
+degree: ()
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:27:30 insert 周一回 sucessful
+10:27:36 data_sex ['"addFriendText">查看他与好友分享的内容，<']
+10:27:36 list_profile ['曾在 Business 工作', '就读于國立北教大法研所碩士', '曾经就读：FJU', '曾经就读：國立成功大學', '曾经就读：台中一中', '所在地：台中市', '来自：台中市', '加入日期：2009年3月', '粉丝：965 人']
+10:27:36 post < PostData
+account_name: ()
+location: (所在地：台中市)
+come_form: (来自：台中市)
+job: ()
+followers: (粉丝：965 人)
+degree: (就读于國立北教大法研所碩士)
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:27:36 insert 紀文清 sucessful
+10:27:41 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100003459084776&amp;location=33" role="button">关注朱孟庠</a>，在动态消息内查看她的公开帖</span>']
+10:27:41 list_profile ['曾经就读：國立師範大學美術系、美術研究所', '曾经就读：臺北市立師範專科學校', '加入日期：2012年1月', '粉丝：1,495 人']
+10:27:41 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: (粉丝：1,495 人)
+degree: (曾经就读：國立師範大學美術系、美術研究所)
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:27:41 insert 朱孟庠 sucessful
+10:27:47 data_sex ['"addFriendText">查看他与好友分享的内容，<']
+10:27:47 list_profile ['所在地：Itabashi-ku, Tokyo, Japan', '来自：Itabashi-ku, Tokyo, Japan', '粉丝：215 人']
+10:27:47 post < PostData
+account_name: ()
+location: (所在地：Itabashi-ku, Tokyo, Japan)
+come_form: (来自：Itabashi-ku, Tokyo, Japan)
+job: ()
+followers: (粉丝：215 人)
+degree: ()
+sex: (man)
+is_get: ()
+home_page: () 
+>
+
+10:27:47 insert Hamut Mahmut sucessful
+10:27:55 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100010273510106&amp;location=33" role="button">关注蔡瑛綺</a>，在动态消息内查看她的公开帖</span>']
+10:27:55 list_profile ['(知己朋友要交心)~~(害人之心不可有)做人要重情，義~知道感恩心~互相尊重心，我最討厭說慌的人，雙面人，會陷害朋友 出賣朋友都不是我的朋友。', '沒人要社團 - 機車PT', '就读于家裡蹲大學人力資源關理', '所在地：高雄市', '单身', '来自：高雄市']
+10:27:55 post < PostData
+account_name: ()
+location: (所在地：高雄市)
+come_form: (来自：高雄市)
+job: (沒人要社團 - 機車PT)
+followers: ()
+degree: (就读于家裡蹲大學人力資源關理)
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:27:55 insert 蔡瑛綺 sucessful
+10:28:00 data_sex ['"addFriendText">要查看她与好友分享的内容，<']
+10:28:00 list_profile ['大方無隅，大器晚成，大音希聲，大象無形。Activist / Buddhist / Coordinator / Interpreter / Jurist / Mensan / Yogini', 'Taiwan Grassroots Alliance for Peace (台灣和平草根聯盟) - 理事', '台灣公民媒體文化協會 - 常務監事', '曾在台灣公民參與協會 TCPA 担任理事', '曾在 Students for a Free Tibet 担任 Executive Supervisor of Taiwan Chapter', '曾在唐獎担任 Coordinator of the Tang Prize Selection Committee for the Rule of Law', '曾在さよなら原発京都．大阪集会担任 Public speaker', '曾在 Students for a Free Tibet - Taiwan 担任 Supervisor', '曾在太陽花運動國際部担任總擔當者之一', '曾在 Lawsuit against Nuclear Reactor Manufacturers, Tokyo, Japan 担任 Manager of Selecting 711 pieces of the Power of Attorney of Taiwan in one week', '曾在赴日本九州Turbo Blade簽約担任 Translator/Interpreter', '曾在 2012 美索參訪救援團担任領隊', '曾在 Walk For Tibet - Ambassadors for World Peace 担任 Translator/Interpreter', '曾在 Notre Dame Law School 学习 International Law & Human Rights', '曾在 University of Notre Dame 学习 International Human Rights Law', '所在地：台北市', '来自：台南市']
+10:28:00 post < PostData
+account_name: ()
+location: (所在地：台北市)
+come_form: (来自：台南市)
+job: (Taiwan Grassroots Alliance for Peace (台灣和平草根聯盟) - 理事)
+followers: ()
+degree: ()
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:28:00 insert Karen Cheng sucessful
+10:28:08 data_sex ['<span class="FollowLink"><span id="u_ps_0_0_0"><a rel="async-post" href="#" ajaxify="/ajax/follow/follow_profile.php?profile_id=100001807843041&amp;location=33" role="button">关注 Pui Lian</a>，在动态消息内查看她的公开帖</span>']
+10:28:08 list_profile ['粉丝：1,389 人']
+10:28:08 post < PostData
+account_name: ()
+location: ()
+come_form: ()
+job: ()
+followers: (粉丝：1,389 人)
+degree: ()
+sex: (woman)
+is_get: ()
+home_page: () 
+>
+
+10:28:08 insert Pui Lian sucessful
+18-38-26 10:38:39 1
+18-06-26 10:39:15 1

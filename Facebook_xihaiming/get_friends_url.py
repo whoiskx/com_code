@@ -52,3 +52,21 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    # 小 test
+    # fooo = '1'
+    # def foo():
+    #     # fooo += 'a'
+    #     print(fooo)
+    # foo()
+
+    # def log(*args, **kwargs):
+    #     time_format = '%y-%m-%d %H:%M:%S'
+    #     value = time.localtime(int(time.time()))
+    #     dt = time.strftime(time_format, value)
+    #     with open('log.txt', 'a', encoding='utf-8') as f:
+    #         print(dt, *args, file=f, **kwargs)
+    # log(1)
+
+    # from T_test_login import foo
+    # foo()
