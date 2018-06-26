@@ -34,7 +34,7 @@ def driver_facebook():
 def execute_times(driver, times=1):
     for i in range(times):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(randint(2, 4))
+        time.sleep(randint(1, 3))
         print('下拉第{}次，总共下拉{}次'.format(i + 1, times))
 
 
