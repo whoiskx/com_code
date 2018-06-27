@@ -22,4 +22,18 @@
 
 元素定位
     单一 元素 element
-    寻找多个元素（下列方法会返回一个list，其余使用方式相同）： find_elements_by_name find_elements_by_xpath find_elements_by_link_text find_elements_by_partial_link_text find_elements_by_tag_name find_elements_by_class_name * find_elements_by_css_selector
+    find_element_by_id
+    find_element_by_name
+    find_element_by_xpath
+    find_element_by_link_text
+    find_element_by_partial_
+    link_text find_element_by_tag_name
+    find_element_by_class_name
+    find_element_by_css_selector
+    寻找多个元素（下列方法会返回一个list，其余使用方式相同）： find_elements_by_name
+    find_elements_by_xpath
+    find_elements_by_link_text
+    find_elements_by_partial_link_text
+    find_elements_by_tag_name
+    find_elements_by_class_name *
+    find_elements_by_css_selector
