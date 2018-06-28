@@ -19,7 +19,7 @@ class PostData(object):
 def posts_index():
     driver = driver_facebook()
     driver.get("https://www.facebook.com/groups/southmongoliasupport//?ref=direct")
-    time.sleep(2)
+    time.sleep(4)
     execute_times(driver, 2000)
     posts_html = driver.page_source
     driver.close()

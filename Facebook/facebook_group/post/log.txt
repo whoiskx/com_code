@@ -1602,3 +1602,8 @@ Asian Alliance against RED CHINA success
 18-06-28 11:50:58 insert Buren Borjigin success
 18-06-28 11:50:58 result parse_posts_html{'account_name': 'Se Bayar', 'time': '2015年12月25日', 'praise': '4', 'share': '2次分享', 'content': 'Erdemten bagsh Shuurganii nairuulal\n查看翻译', 'year': '2015', 'month': '12', 'day': '25日'}
 18-06-28 11:50:58 insert Se Bayar success
+18-06-28 12:30:10 posts_html 10写入文件夹
+18-06-28 12:35:59 posts_html 100写入文件夹
+18-06-28 12:42:40 posts_html 200写入文件夹
+18-06-28 12:49:16 posts_html 300写入文件夹
+18-06-28 12:56:20 posts_html 400写入文件夹

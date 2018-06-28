@@ -22,7 +22,6 @@ def posts_index():
     time.sleep(2)
     execute_times(driver, 2000)
     posts_html = driver.page_source
-    driver.close()
 
     with open("posts_index.html", "w", encoding='utf-8') as f:
         f.write(posts_html)

@@ -196,3 +196,68 @@ Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpa
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1530162581031	geckodriver	INFO	geckodriver 0.21.0
+1530162581038	geckodriver	INFO	Listening on 127.0.0.1:57431
+1530162584091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\urun\\AppData\\Local\\Temp\\rust_mozprofile.RSAdhM3HP9UF"
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+1530162589876	Marionette	INFO	Listening on port 57440
+1530162590386	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11208, MediaPlayback #1] WARNING: 14e56e9e4c0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 359
+[Child 11208, MediaPlayback #2] WARNING: Decoder=14e6b26c100 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3746
+[Parent 7260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/[Parent 7260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+[Parent 16696, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16696, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16696, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16696, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+path
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+1530162926873	Marionette	INFO	Listening on port 58030
+1530162927865	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10992, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10992, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2688, Chro[Parent 10992, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ored for this session
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/xUO3u-4J58i.js, line 151: Error: Destroyed!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 3022: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIContentPermissionRequest.cancel]
+[Child 2120, MediaPlayback #1] WARNING: 1d3050cdac0 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 359
+[Child 2120, MediaPlayback #1] WARNING: Decoder=1d37fce6b60 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3746
+[Child 2120, MediaPlayback #2] WARNING: 1d35d8f9340 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 359
+[Child 2120, MediaPlayback #3] WARNING: Decoder=1d35d8e92e0 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3746
+[Child 2120, MediaPlayback #3] WARNING: 1d300d36400 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 359
+[Child 2120, MediaPlayback #2] WARNING: Decoder=1d35d8e92e0 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3746
+[Parent 4196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4196, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2120, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
