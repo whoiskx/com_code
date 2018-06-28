@@ -15,10 +15,13 @@ def log(*args, **kwargs):
 # email = "live41@163.com"
 # password = "cs-123456"
 
+#
+# email = '574613576@qq.com'
+# password = 'jh123258456'
 
-email = '574613576@qq.com'
-password = 'jh123258456'
 
+email = 'altantsetseg@post.com'
+password = 'Altantsetseg@123'
 
 # 启动driver
 def driver_facebook():
@@ -27,17 +30,17 @@ def driver_facebook():
     # options.add_argument('--headless')
     # options.add_argument('--disable-gpu')
 
-    # prefs = {
-    #     'profile.default_content_setting_values':
-    #         {
-    #             'notifications': 2
-    #         }
-    # }
-    # options = webdriver.ChromeOptions()
-    # options.add_experimental_option('prefs', prefs)
-    # driver = webdriver.Chrome(chrome_options=options)
-    #
-    driver = webdriver.Firefox()
+    prefs = {
+        'profile.default_content_setting_values':
+            {
+                'notifications': 2
+            }
+    }
+    options = webdriver.ChromeOptions()
+    options.add_experimental_option('prefs', prefs)
+    driver = webdriver.Chrome(chrome_options=options)
+
+    # driver = webdriver.Firefox()
     driver.implicitly_wait(120)
 
     driver.get("https://www.facebook.com/")
@@ -56,8 +59,7 @@ def execute_times(driver, times=1):
         # driver.execute_script("window.scrollBy(0,1000)")
         time.sleep(randint(3, 5))
         print('下拉第{}次，总共下拉{}次'.format(i + 1, times))
-        save_number = [10, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900,
-             1945]
+        save_number = [10, 400, 600, 800]
         if i in save_number:
             posts_html = driver.page_source
             with open("posts_index_{}.html".format(i), "w", encoding='utf-8') as f:

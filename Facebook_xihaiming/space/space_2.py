@@ -14,6 +14,7 @@ class SpaceData(object):
         self.year = ''
         self.month = ''
         self.day = ''
+        self.hours = ''
 
     def obj_to_dict(self):
         return self.__dict__
@@ -26,7 +27,7 @@ class SpaceData(object):
 # with open('index.html', 'w', encoding='utf-8') as f:
 #     f.write(html)
 
-with open('index.html', 'r', encoding='utf-8') as f:
+with open('posts_index_500.html', 'r', encoding='utf-8') as f:
     html = f.read()
 
 spacedata = SpaceData()
@@ -45,7 +46,7 @@ for dynamic_details in dynamic_div('.userContentWrapper'):
     if '分享' in title:
         original_or_not = '非原创'
         original_content = _e('._5pco').text()
-    time = _e('.timestampContent').text()
+    time = _e('.timestampContent').eq(0).text()
     content = _e('.userContent').text()
     spacedata.time = time
     spacedata.original = original_or_not
@@ -65,8 +66,13 @@ for dynamic_details in dynamic_div('.userContentWrapper'):
         comment_count = re.search('\d{1,5}', comment_more)
         if comment_count is not None:
             comment_sum += int(comment_count.group())
-    spacedata.praise = praise
-    spacedata.share = share
+    praise_number = (re.search('\d{1,5}', praise)).group() if (re.search('\d{1,5}', praise)) else 0
+    if '席海明' in praise:
+        praise_number = int(praise_number) + 1
+    if '、' in praise:
+        praise_number = int(praise_number) + 1
+    spacedata.praise = praise_number
+    spacedata.share =  (re.search('\d{1,5}', share)).group() if re.search('\d{1,5}', share) else ''
     spacedata.comment_sum = comment_sum
     print(praise, share, comment_sum, '==', )
 
@@ -79,11 +85,38 @@ for dynamic_details in dynamic_div('.userContentWrapper'):
         spacedata.month = spacedata.time.split("年")[-1].split('月')[0]
     elif '月' in spacedata.time:
         spacedata.month = spacedata.time.split('月')[0]
+    elif '月' not in spacedata.time:
+        spacedata.month = '6'
 
-    spacedata.day = spacedata.time.split("月")[-1]
+    if '日' in spacedata.time:
+        spacedata.day = spacedata.time.split('日')[0]
+        if '月' in spacedata.day:
+            spacedata.day = spacedata.day.split('月')[1]
+    elif '昨天' in spacedata.time:
+        spacedata.day = '27'
+    elif '小时' in spacedata.time:
+        spacedata.day = '28'
+
+    if '上午' in spacedata.time:
+        hour_raw = spacedata.time.split('午')[1]
+        spacedata.hours = hour_raw.split(':')[0]
+    if '下午' in spacedata.time:
+        hour_raw = spacedata.time.split('午')[1]
+        spacedata.hours = int(hour_raw.split(':')[0]) + 12
+
+    if '小时' in spacedata.time:
+        spacedata.hours = spacedata.time.split('小')[0]
+        spacedata.day = '28'
+        spacedata.month = '6'
+        spacedata.year = '2018'
+
+    if '分钟' in spacedata.time:
+        spacedata.day = '28'
+        spacedata.month = '6'
+        spacedata.year = '2018'
 
     post_dict = spacedata.obj_to_dict()
     if '_id' in post_dict:
         post_dict.pop("_id")
     log("result parse_posts_html{}".format(post_dict))
-    urun['spacedata2'].insert(post_dict)
+    urun['spacedata9'].insert(post_dict)
