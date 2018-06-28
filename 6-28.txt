@@ -1,0 +1,5 @@
+chrome 浏览器内存不够 selenium 模拟下拉 崩溃
+
+获取阅读数、点赞数模块   永久地址
+    其中read_num就是阅读数,like_num就是点赞数,
+    点进去再出来 <span id="readNum3">30311</span>

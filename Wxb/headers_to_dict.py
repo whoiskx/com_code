@@ -1,15 +1,9 @@
+headers = """r=0.9039583323000335&__biz=MjM5MTI2MTI0MA%3D%3D&appmsg_type=9&mid=2655142299&sn=e3e403a47fe694a0ec71ab765d0b2043&idx=2&scene=126&title=%25E4%25B8%2580%25E5%2591%25A8%25E6%25A6%259C%25E5%258D%2595%25EF%25BC%259A%25E7%25A6%2585%25E5%259F%258E%25E5%25BC%25A0%25E6%25A7%258E%25E5%258D%2595%25E7%259B%2598%25E5%25BC%2582%25E5%2586%259B%25E7%25AA%2581%25E8%25B5%25B7%2520%25E4%25B8%2589%25E6%25B0%25B4%25E9%25AB%2598%25E6%2598%258E%25E7%258B%25AC%25E5%258D%25A0%25E6%25A6%259C%25E5%258D%25956%25E5%25B8%25AD&ct=1530008232&abtest_cookie=BAABAAoACwAMABIACQA9ix4A44seAEKPHgCzlB4A%2BZQeAGWVHgB6lR4AgJUeAPCVHgAAAA%3D%3D&devicetype=android-26&version=26060739&is_need_ticket=0&is_need_ad=1&comment_id=342523003080310784&is_need_reward=1&both_ad=0&reward_uin_count=18&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=2812znOYhwcKXd2gXkA4QdeX&pass_ticket=a6RM70vbT%25252F1puB8hBNui9DI31hoKz7BRZdIrL7SuUwv5IYX7H4wgITOG3QJKceCD&is_temp_url=0&item_show_type=undefined&tmp_version=1"""
 
-headers = """Host: graph.facebook.com
-Connection: keep-alive
-Cache-Control: max-age=0
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
-Accept-Encoding: gzip, deflate, br
-Accept-Language: zh-CN,zh;q=0.9
-Cookie: datr=OxkjW4MYaIelucIws97V02xW; wd=1920x946; sb=_R0jWyoRctx7GnDrlLyCjFE2; c_user=100005036989194; xs=32%3Am5RP8dyGJGCEZg%3A2%3A1529028093%3A-1%3A-1; pl=n; fr=0ICeTuNMbW3ThPfuj.AWW3O-4qdU12Mkzlc15GCq9APr4.BbHxb1.s-.Fsj.0.0.BbIx39.; act=1529028586747%2F2"""
+
+
 items = headers.split("\n")
-print(items)
+# print(items)
 d = {}
 for item in items:
     k, v = item.split(": ", 1)

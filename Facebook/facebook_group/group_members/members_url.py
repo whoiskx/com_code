@@ -13,7 +13,7 @@ class MembersData(FacebookData):
 def members_html(url):
     driver = driver_facebook()
     driver.get(url)
-    execute_times(driver, 5)
+    execute_times(driver, 2000)
     html = driver.page_source
     # with open("group_members.html", "w", encoding="utf-8") as f:
     #     f.write(html)

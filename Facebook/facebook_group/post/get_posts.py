@@ -20,7 +20,7 @@ def posts_index():
     driver = driver_facebook()
     driver.get("https://www.facebook.com/groups/southmongoliasupport//?ref=direct")
     time.sleep(2)
-    execute_times(driver, 5)
+    execute_times(driver, 2000)
     posts_html = driver.page_source
     driver.close()
 
@@ -56,7 +56,7 @@ def parse_posts_html(posts_html):
         post.day = post.time.split("月")[-1]
         post_dict = post.obj_to_dict()
         log("result parse_posts_html{}".format(post_dict))
-        urun['test'].insert(post_dict)
+        urun['post'].insert(post_dict)
         log('insert {} success'.format(post.account_name))
 
 
