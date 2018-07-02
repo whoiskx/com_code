@@ -27,7 +27,7 @@ class SpaceData(object):
 # with open('index.html', 'w', encoding='utf-8') as f:
 #     f.write(html)
 
-with open('posts_index_500.html', 'r', encoding='utf-8') as f:
+with open('posts_index22_280.html', 'r', encoding='utf-8') as f:
     html = f.read()
 
 spacedata = SpaceData()
@@ -93,9 +93,9 @@ for dynamic_details in dynamic_div('.userContentWrapper'):
         if '月' in spacedata.day:
             spacedata.day = spacedata.day.split('月')[1]
     elif '昨天' in spacedata.time:
-        spacedata.day = '27'
-    elif '小时' in spacedata.time:
         spacedata.day = '28'
+    elif '小时' in spacedata.time:
+        spacedata.day = '29'
 
     if '上午' in spacedata.time:
         hour_raw = spacedata.time.split('午')[1]
@@ -105,13 +105,13 @@ for dynamic_details in dynamic_div('.userContentWrapper'):
         spacedata.hours = int(hour_raw.split(':')[0]) + 12
 
     if '小时' in spacedata.time:
-        spacedata.hours = spacedata.time.split('小')[0]
-        spacedata.day = '28'
+        spacedata.hours = spacedata.time.split('小')[0] + '小时前'  # 当前时间 （9:00)
+        spacedata.day = '29'
         spacedata.month = '6'
         spacedata.year = '2018'
 
     if '分钟' in spacedata.time:
-        spacedata.day = '28'
+        spacedata.day = '29'
         spacedata.month = '6'
         spacedata.year = '2018'
 
@@ -119,4 +119,4 @@ for dynamic_details in dynamic_div('.userContentWrapper'):
     if '_id' in post_dict:
         post_dict.pop("_id")
     log("result parse_posts_html{}".format(post_dict))
-    urun['spacedata9'].insert(post_dict)
+    urun['spacedata280'].insert(post_dict)

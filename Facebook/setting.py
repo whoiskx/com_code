@@ -33,7 +33,8 @@ def driver_facebook():
     prefs = {
         'profile.default_content_setting_values':
             {
-                'notifications': 2
+                'notifications': 2,
+                'images': 2,
             }
     }
     options = webdriver.ChromeOptions()
@@ -57,14 +58,24 @@ def execute_times(driver, times=1):
     for i in range(times):
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         # driver.execute_script("window.scrollBy(0,1000)")
-        time.sleep(randint(3, 5))
+        time.sleep(randint(2, 4))
+
         print('下拉第{}次，总共下拉{}次'.format(i + 1, times))
-        save_number = [10, 400, 600, 800]
+        save_number = [10, 200, 250, 280, 300, 350, 400, 440, 480, 550, 600, 700, 800, 900,1100, 1200,1500]
         if i in save_number:
+            time.sleep(10)
+            print('begin')
+            x = input(">....")
+            if x == 'skip':
+                continue
             posts_html = driver.page_source
-            with open("posts_index_{}.html".format(i), "w", encoding='utf-8') as f:
+            print('end')
+            time.sleep(20)
+            with open("posts_index22_{}.html".format(i), "w", encoding='utf-8') as f:
                 f.write(posts_html)
-            log('posts_html {}写入文件夹'.format(i))
+            log('posts_html_22_{}写入文件夹'.format(i))
+            time.sleep(15)
+
 
 
 # pymongo

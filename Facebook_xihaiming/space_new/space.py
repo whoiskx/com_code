@@ -23,12 +23,15 @@ try:
     driver = driver_facebook()
     driver.get('https://www.facebook.com/profile.php?id=100018160331338')
     time.sleep(3)
-    execute_times(driver, 2000)
+    execute_times(driver, 1500)
+    x = input('输入是否继续')
     html = driver.page_source
+    time.sleep(20)
     with open('index_xihaiming.html', 'w', encoding='utf-8') as f:
         f.write(html)
 except Exception as e:
     log('safdafas', e)
     html = driver.page_source
+    time.sleep(20)
     with open('index_xihaiming_error.html', 'w', encoding='utf-8') as f:
         f.write(html)
