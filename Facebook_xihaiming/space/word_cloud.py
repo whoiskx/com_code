@@ -22,7 +22,10 @@
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-text
+with open('merge_result.txt', 'r', encoding='utf-8') as f:
+    text_init = f.read()
+temp = text_init.replace('查看翻译', '')
+text = temp.replace('展开', '')
 
 # the font from github: https://github.com/adobe-fonts
 font = r'C:\Windows\Fonts\simfang.ttf'
@@ -32,4 +35,4 @@ plt.imshow(wc)
 plt.axis("off")
 plt.show()
 
-wc.to_file('show_Chinese.png')
+wc.to_file('show_xihaiming3.png')

@@ -15,13 +15,13 @@ def log(*args, **kwargs):
 # email = "live41@163.com"
 # password = "cs-123456"
 
-#
 # email = '574613576@qq.com'
 # password = 'jh123258456'
 
 
 email = 'altantsetseg@post.com'
 password = 'Altantsetseg@123'
+
 
 # 启动driver
 def driver_facebook():
@@ -61,7 +61,7 @@ def execute_times(driver, times=1):
         time.sleep(randint(2, 4))
 
         print('下拉第{}次，总共下拉{}次'.format(i + 1, times))
-        save_number = [10, 200, 250, 280, 300, 350, 400, 440, 480, 550, 600, 700, 800, 900,1100, 1200,1500]
+        save_number = [10, 200, 250, 280, 300, 350, 400, 440, 480, 550, 600, 700, 800, 900, 1100, 1200, 1500]
         if i in save_number:
             time.sleep(10)
             print('begin')
@@ -77,8 +77,8 @@ def execute_times(driver, times=1):
             time.sleep(15)
 
 
-
 # pymongo
 conn = pymongo.MongoClient('127.0.0.1', 27017)
 urun = conn.urun
+test = conn.test
 # db['uu'].insert({'name':"李白", "age":"30", "skill":"Python"})

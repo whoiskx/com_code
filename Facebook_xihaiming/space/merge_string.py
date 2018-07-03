@@ -1,6 +1,6 @@
 from setting import urun
 
-db = urun.spacedata2
+db = urun.spacedata_6666
 
 content_all = ''
 for i in db.find():
