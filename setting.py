@@ -2,7 +2,6 @@ from random import randint
 import pymongo
 from selenium import webdriver
 import time
-from setting import email, password
 
 
 def log(*args, **kwargs):
@@ -13,8 +12,15 @@ def log(*args, **kwargs):
         print(dt, *args, file=f, **kwargs)
 
 
-def time_sleep():
-    time.sleep(3)
+email = "live41@163.com"
+password = "cs-123456"
+
+# email = '574613576@qq.com'
+# password = 'jh123258456'
+
+
+# email = 'altantsetseg@post.com'
+# password = 'Altantsetseg@123'
 
 
 # 启动driver
@@ -28,7 +34,7 @@ def driver_facebook():
         'profile.default_content_setting_values':
             {
                 'notifications': 2,
-                # 'images': 2,
+                'images': 2,
             }
     }
     options = webdriver.ChromeOptions()
@@ -36,7 +42,7 @@ def driver_facebook():
     driver = webdriver.Chrome(chrome_options=options)
 
     # driver = webdriver.Firefox()
-    driver.implicitly_wait(60)
+    driver.implicitly_wait(120)
 
     driver.get("https://www.facebook.com/")
     email_text = driver.find_element_by_id("email")
@@ -55,23 +61,24 @@ def execute_times(driver, times=1):
         time.sleep(randint(2, 4))
 
         print('下拉第{}次，总共下拉{}次'.format(i + 1, times))
-        save_number = [10, 200, 250, 280, 300, 350]
+        save_number = [10, 200, 250, 280, 300, 350, 400, 440, 480, 550, 600, 700, 800, 900, 1100, 1200, 1500]
         if i in save_number:
+            time.sleep(10)
             print('begin')
             x = input(">....")
             if x == 'skip':
                 continue
             posts_html = driver.page_source
             print('end')
-            time.sleep(10)
-            name = driver.title
-            with open("{}_index_{}.html".format(name, i), "w", encoding='utf-8') as f:
+            time.sleep(20)
+            with open("posts_index22_{}.html".format(i), "w", encoding='utf-8') as f:
                 f.write(posts_html)
-            log('{}_html__{}写入文件夹'.format(name, i))
-            time.sleep(10)
+            log('posts_html_22_{}写入文件夹'.format(i))
+            time.sleep(15)
 
 
 # pymongo
 conn = pymongo.MongoClient('127.0.0.1', 27017)
 urun = conn.urun
 test = conn.test
+# db['uu'].insert({'name':"李白", "age":"30", "skill":"Python"})
