@@ -1,7 +1,6 @@
 # from sqlalchemy import create_engine
 #
 # engine = create_engine()
-import pymysql
 
 # MYSQL_HOST = 'localhost'
 # MYSQL_PORT = '3306'
@@ -17,7 +16,7 @@ MYSQL_HOST = 'localhost'
 MYSQL_PORT = 3306
 MYSQL_USER = 'root'
 MYSQL_PASSWORD = None
-MYSQL_DATABASE = 'db'
+MYSQL_DATABASE = 'mysql'
 MYSQL_PARAMS = {
     'host': MYSQL_HOST,
     'port': MYSQL_PORT,
@@ -26,7 +25,8 @@ MYSQL_PARAMS = {
     'database': MYSQL_DATABASE,
     'charset': MYSQL_ENCODING,
 }
-db_fb = pymysql.connect(host='localhost',user='root',  port=3306,  database='mysql', db='db')
+
+db_fb = pymysql.connect(host='localhost',user='root',  port=3306,  database='db', db='db')
 cursor = db_fb.cursor()
 # sql = 'SELECT * FROM db'
 # cursor.execute(sql)
@@ -34,6 +34,18 @@ cursor = db_fb.cursor()
 # cursor.execute('SELECT VERSION()')
 # data = cursor.fetchone()
 # print('Database version:', data)
+
+# create_sql = '''
+#        CREATE TABLE fuck(
+# id INT AUTO_INCREMENT PRIMARY KEY,
+# username VARCHAR(255) UNIQUE ,
+# nickname VARCHAR(255) NOT NULL ,
+# birthday DATE
+# )
+#         '''
+#
+# cursor.execute(create_sql)
+# db_fb.commit()
 
 sql = 'SELECT * FROM db'
 cursor.execute(sql)
