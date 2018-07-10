@@ -9,21 +9,9 @@ body = '__biz=MzI1MzUzNTc0NQ%3D%3D&mid=2247486136&sn=f90394101440c7f3939d250ae15
 
 # body = 'https://mp.weixin.qq.com/s?__biz=MjM5MTI2MTI0MA==&mid=2655142500&idx=1&sn=77fbb51f69117d7b573e17928f1a26ce&chksm=bd0ed5338a795c252d9f33b3cb267ef2554ed83e4373207c013d1da02401f5836765d45bbcba&scene=0&ascene=7&devicetype=android-26&version=26060739&nettype=WIFI&abtest_cookie=BAABAAoACwAMABIACgA%2Bix4A44seAEKPHgBllR4AepUeAICVHgDwlR4AOJYeAJ2WHgC1lh4AAAA%3D&lang=zh_CN&pass_ticket=lmz4dXv%2FWib0B0%2B0lpXZZ8VPthtTPqPnjpwYcH6p5usaQBW%2FdJNeVlTua%2FCMp8Ki&wx_header=1'
 
-headers = '''Host: mp.weixin.qq.com
-Connection: keep-alive
-Content-Length: 1083
-Origin: https://mp.weixin.qq.com
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Linux; Android 8.0; BKL-AL00 Build/HUAWEIBKL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044109 Mobile Safari/537.36 MicroMessenger/6.6.7.1321(0x26060739) NetType/WIFI Language/zh_CN
-Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-Accept: */*
-Referer: https://mp.weixin.qq.com/s?__biz=MjM5MTI2MTI0MA==&mid=2655142654&idx=1&sn=1c78ae506bdc7f93038e2e5e102c3dd5&chksm=bd0ed5a98a795cbfa5b18a8a4877c7e594521bb921f90717892ed5ae55f7f64e4032881b705f&scene=0&ascene=7&devicetype=android-26&version=26060739&nettype=WIFI&abtest_cookie=BAABAAoACwAMABIACQA%2Bix4AQo8eAGWVHgDwlR4AOJYeAJ2WHgC1lh4A%2BpYeACOXHgAAAA%3D%3D&lang=zh_CN&pass_ticket=cAFYV9ai%2F%2BGOMx6oOO3fr2uJmIowoWFHnW5fXkDNjmAL%2FwAGZxMszmpCjpOQq7sK&wx_header=1
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,en-US;q=0.8
-Cookie: rewardsn=; wxtokenkey=777; wxuin=1156918861; devicetype=android-26; version=26060739; lang=zh_CN; pass_ticket=cAFYV9ai/+GOMx6oOO3fr2uJmIowoWFHnW5fXkDNjmAL/wAGZxMszmpCjpOQq7sK; wap_sid2=CM3c1KcEElxBLTIzc1N6ZWNPd3hBRUdRUzFqLXp1TUdPa2FrT1hhQkNscHI4ZS1YaTRqQmw1Wk5PMERROTFjUVJaTTJORlgtU0VqRDY4MEJOSUtmRk9TOTJjQ3RrY1FEQUFBfjDPgPvZBTgNQAE=
-Q-UA2: QV=3&PL=ADR&PR=WX&PP=com.tencent.mm&PPVN=6.6.7&TBSVC=43610&CO=BK&COVC=044109&PB=GE&VE=GA&DE=PHONE&CHID=0&LCID=9422&MO= BKL-AL00 &RL=1080*2040&OS=8.0.0&API=26
-Q-GUID: c23b47cd4280ad4e1a425962102888cb
-Q-Auth: 31045b957cf33acf31e40be2f3e71c5217597676a9729f1b'''
+headers = '''method: GET
+path: /mmbizwap/zh_CN/htmledition/js/new_video/player.html3dd294.js,/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/touch34c264.js,/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/event34c264.js,/mmbizwap/zh_CN/htmledition/js/biz_wap/zepto/zepto34c264.js,/mmbizwap/zh_CN/htmledition/style/page/pages/video.css3de35e.js,/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm.html34f0d8.js,/mmbizwap/zh_CN/htmledition/style/widget/wx_profile_dialog_primary.css3de35e.js,/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js,/mmbizwap/zh_CN/htmledition/js/new_video/player3ea1c8.js,/mmbizwap/zh_CN/htmledition/js/a/appdialog_confirm34c32a.js,/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket34c264.js,/mmbizwap/zh_CN/htmledition/js/biz_common/jquery.md53518c6.js,/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/localstorage36c4f2.js,/mmbizwap/zh_CN/htmledition/js/appmsg/friend_comment_tpl.html3de35e.js,/mmbizwap/zh_CN/htmledition/js/appmsg/comment_tpl.html3de35e.js?v=1003
+scheme: https'''
 def body_to_row(body=''):
     if '?' in body:
         body = body.split('?')[-1]

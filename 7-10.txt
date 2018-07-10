@@ -1,0 +1,24 @@
+分别用2，3打开相应的py文档 py -2 -m yourpyfile py -3 -m yourpyfile 分别用 2，3 pip安装模块 py -2 -m pip install XXXX py -3 -m pip install XXXX
+
+但是爲了找准原因，查了查"pythonw.exe"和"python.exe"的區別：
+
+1）"pythonw.exe"執行時不會出現DOS窗口
+
+2）"pythonw.exe"執行時所有stdin和stdout都無效
+
+3）"pythonw.exe"執行時從原有的sdtin只會得到EOF
+
+.bat 批处理
+
+
+chrome network
+    请求少 点击ALL
+
+
+python 激活虚拟环境   尝试新的工具，而不用担心污染系统环境。
+    激活 Script\activate
+    退出 Script\deactivate
+
+
+程序和功能
+    卸载程序
