@@ -37,8 +37,8 @@ DOWNLOADER_MIDDLEWARES = {
 
 
 ITEM_PIPELINES = {
-    #'exts.pipelines.ZipfilePipelineWithFTP': 300,  # 文章
-    'exts.pipelines.WeiboPipelineWithFTP': 300,     # 微博
+    'exts.pipelines.ZipfilePipelineWithFTP': 300,  # 文章
+    # 'exts.pipelines.WeiboPipelineWithFTP': 300,     # 微博
 }
 
 # HTTP缓存
@@ -52,8 +52,8 @@ ITEM_PIPELINES = {
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 
-MYSQL_HOST = 'localhost'
-MYSQL_PORT = '3306'
-MYSQL_USER = ''
-MYSQL_PASSWORD = ''
+MYSQL_HOST = '192.168.1.2'
+MYSQL_PORT = '8001'
+MYSQL_USER = 'user'
+MYSQL_PASSWORD = 'ABCd1234'
 MYSQL_DATABASE = 'info_sct'

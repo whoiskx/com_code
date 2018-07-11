@@ -1,0 +1,67 @@
+import requests
+
+# 文章历史页
+# url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5MTI2MTI0MA==&scene=124&uin=MTE1NjkxODg2MQ%3D%3D&key=2b8ead67e993aeb0d9795e538ef36b6a4ce6a396c880187a7028c2591d2eac7527e3ba821fc5797c30f561914fd816652bb5707e891728461955e2b3e2d9f48c4e87f3a0c21b9f40b9653f582c5c5eb0&devicetype=Windows+10&version=6206034e&lang=zh_CN&a8scene=7&pass_ticket=qfmurfZbAC4qSD7eSmGtwUdqzK3fuORgmnVaG8H%2FQiwpPEdHqm%2Bh6%2FWwwHpFIMjO&winzoom=1'
+#
+# # url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4MjQxNjQzMA==&scene=124&uin=MTk3OTM0NzMxMQ%3D%3D&key=7cd4e1695f3283f87f06a6a5881f3ef6035e40752812145b7f25452bdbe8d70c3d9fd3cc168dffdb9f8ca95ce1f9e0515caa61ae0349030c9969d109cfdf095064717e098dd6cc479f669ea56da1350f'
+# url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4MjQxNjQzMA==&scene=124&uin=MTE1NjkxODg2MQ%3D%3D&key=2b8ead67e993aeb09d8386228d9746acac73e2508c4e3d254970e934c35536cb2e2bca3f42ba7c25a68be23d3d5f8149bada6ac2a43287d4cbe2a095261743bb6155c1817ce29ecf7ba2110e3cabb378&devicetype=Windows+10&version=6206034e&lang=zh_CN&a8scene=7&pass_ticket=qfmurfZbAC4qSD7eSmGtwUdqzK3fuORgmnVaG8H%2FQiwpPEdHqm%2Bh6%2FWwwHpFIMjO&winzoom=1'
+# url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4MjQxNjQzMA==&scene=124&uin=MTk3OTM0NzMxMQ%3D%3D&key=7cd4e1695f3283f87f06a6a5881f3ef6035e40752812145b7f25452bdbe8d70c3d9fd3cc168dffdb9f8ca95ce1f9e0515caa61ae0349030c9969d109cfdf095064717e098dd6cc479f669ea56da1350f'
+# resp = requests.get(url)
+# print(resp.text)
+# print(resp.cookies.get_dict())
+# 验证cookie通用
+#
+url = 'https://mp.weixin.qq.com/mp/getappmsgext?f=json&mock=&uin=777&key=777&pass_ticket=&wxtoken=777&devicetype=Windows10&clientversion=6206034e&appmsg_token=964_GvMX1oGLn8jbpP9TazYFdy3xrevr-pskWlbsC37GxOUT2b6R0j7y8q1Rh8wubMYE2cOtzF70X-kwtiny&x5=0&f=json'
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+    # 'Cookie': 'wap_sid2=CM3c1KcEElxIakg5WDV1XzdLMXpDOWlhVElrZzlLcEtYenc5OTUybGVKb1hJVlNBd3R4bllmSk91bkZ6Tk1QYTNISjlvZEpTLTloQ3RjcGZ1ZW5NZDRNc0JhMnpzY1FEQUFBfjDP2JXaBTgNQJVO',
+    'Cookie': 'wap_sid2=CM3c1KcEElxfYThPeHdiNXVIWXBkYzFpVHZESHE0ZWpwYzY0TmZGY3Zoek1oMTBOSGxRd2JOR3lrUFAzemhUUFVtYXB3clNNS2xQaGxDMkd0TTQ1bDY2ZVkxdmFuTVFEQUFBfjCf15XaBTgNQJVO'
+}
+
+# body = 'r=0.185553920756506&__biz=MjM5MTI2MTI0MA%3D%3D&appmsg_type=9&mid=2655142746&sn=9990a220c90b3f9f68bfb30355ea1b07&idx=3&scene=38&title=%25E5%25B9%25B4%25E5%2586%2585%25E9%25A6%2596%25E5%25AE%2597%25EF%25BC%25815612%25E5%2585%2583%252F%25E5%25B9%25B3%25E8%25B5%25B7%25E6%258B%258D%2520%25E9%25A1%25BA%25E5%25BE%25B7%25E6%259D%258F%25E5%259D%259B%25E6%258C%2582%25E7%2589%258C7.27%25E4%25B8%2587%25E5%25B9%25B3%25E5%2595%2586%25E4%25BD%258F%25E5%259C%25B0&ct=1531219559&abtest_cookie=&devicetype=Windows10&version=6206034e&is_need_ticket=0&is_need_ad=0&comment_id=362845696514097152&is_need_reward=1&both_ad=0&reward_uin_count=21&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=11108pkSguwVqdswA4DUV646&pass_ticket=&is_temp_url=0&item_show_type=undefined&tmp_version=1'
+#
+# body = 'r=0.1916231489740312&__biz=MjM5MTI2MTI0MA%3D%3D&appmsg_type=9&mid=2655142621&sn=85b0f5e31332087675c34a629125b228&idx=2&scene=38&title=%25E4%25B8%2580%25E5%2591%25A8%25E6%25A6%259C%25E5%258D%2595%25EF%25BC%259A%25E9%25AB%2598%25E6%2598%258E%25E8%25A5%25BF%25E6%25B1%259F%25E6%2596%25B0%25E5%259F%258E%25E5%2586%258D%25E5%25A4%25BA%25E9%25B3%258C%25E5%25A4%25B4%2520%25E4%25BD%259B%25E5%25B1%25B1%25E5%259B%259B%25E5%258C%25BA%25E6%25A5%25BC%25E7%259B%2598%25E5%25A4%259A%25E7%2582%25B9%25E5%25BC%2580%25E8%258A%25B1&ct=1530687638&abtest_cookie=&devicetype=android-19&version=26060532&is_need_ticket=0&is_need_ad=1&comment_id=353921535737626625&is_need_reward=1&both_ad=0&reward_uin_count=27&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=1110diJSzywxOIFlfx6dCiBo&pass_ticket=G3HKxGBvL6L9DFFtGkKlYPioxZUwnIbJ%25252FNHKCkzvaLSGyApev69JxRDFpFOrqybY&is_temp_url=0&item_show_type=undefined&tmp_version=1'
+#
+# body = 'r=0.878572152229026&__biz=MjM5MTI2MTI0MA%3D%3D&appmsg_type=9&mid=2655142605&sn=3ec8809b5d5eaf610feafb375e99c423&idx=2&scene=38&title=%25E5%258F%25B2%25E6%2597%25A0%25E5%2589%258D%25E4%25BE%258B%25EF%25BC%25811%25E5%2585%25AC%25E9%2587%258C1%25E6%2594%25B6%25E8%25B4%25B9%25E7%25AB%2599%25EF%25BC%2581%25E4%25BD%259B%25E5%25B1%25B1%25E4%25B8%2580%25E7%258E%25AF%25E6%2594%25B9%25E9%2580%25A0%25E5%2590%258E%25E5%25B0%2586%25E8%25AE%25BE141%25E4%25B8%25AA%25E6%2594%25B6%25E8%25B4%25B9%25E7%25AB%2599&ct=1530615621&abtest_cookie=&devicetype=android-19&version=26060532&is_need_ticket=0&is_need_ad=1&comment_id=352713289429450752&is_need_reward=0&both_ad=0&reward_uin_count=0&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=1110Zfd9mfsw5AgoY7SChexT&pass_ticket=G3HKxGBvL6L9DFFtGkKlYPioxZUwnIbJ%25252FNHKCkzvaLSGyApev69JxRDFpFOrqybY&is_temp_url=0&item_show_type=undefined&tmp_version=1'
+# body = 'r=0.878572152229026&__biz=MjM5MTI2MTI0MA%3D%3D&appmsg_type=9&mid=2655142605&sn=3ec8809b5d5eaf610feafb375e99c423&idx=2&scene=38&title=%25E5%258F%25B2%25E6%2597%25A0%25E5%2589%258D%25E4%25BE%258B%25EF%25BC%25811%25E5%2585%25AC%25E9%2587%258C1%25E6%2594%25B6%25E8%25B4%25B9%25E7%25AB%2599%25EF%25BC%2581%25E4%25BD%259B%25E5%25B1%25B1%25E4%25B8%2580%25E7%258E%25AF%25E6%2594%25B9%25E9%2580%25A0%25E5%2590%258E%25E5%25B0%2586%25E8%25AE%25BE141%25E4%25B8%25AA%25E6%2594%25B6%25E8%25B4%25B9%25E7%25AB%2599&ct=1530615621&abtest_cookie=&devicetype=android-19&version=26060532&is_need_ticket=0&is_need_ad=1&comment_id=352713289429450752&is_need_reward=0&both_ad=0&reward_uin_count=0&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=1110Zfd9mfsw5AgoY7SChexT&pass_ticket=G3HKxGBvL6L9DFFtGkKlYPioxZUwnIbJ%25252FNHKCkzvaLSGyApev69JxRDFpFOrqybY&is_temp_url=0&item_show_type=undefined&tmp_version=1'
+
+# body = 'r=0.7117862717714161&__biz=MjM5MTI2MTI0MA%3D%3D&appmsg_type=9&mid=2655142500&sn=1587120659937ae50548de668e60a1c2&idx=3&scene=38&title=%25E6%2589%2593%25E9%2580%25A0130%25E7%25B1%25B3%25E9%25AB%2598%25E6%25A5%25BC%25EF%25BC%2581%25E4%25B8%2587%25E7%25A7%2591%25E4%25BD%259B%25E5%25B1%25B1%25E6%2596%25B0%25E5%259F%258E%25E9%25A1%25B9%25E7%259B%25AE%25E8%25A7%2584%25E5%2588%2592%25E6%259D%25A5%25E4%25BA%2586%25EF%25BC%2581&ct=1530443859&abtest_cookie=&devicetype=android-19&version=26060532&is_need_ticket=0&is_need_ad=1&comment_id=349831598000078850&is_need_reward=1&both_ad=0&reward_uin_count=27&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=1110DOGlLCJKBGyIXm5rbBoK&pass_ticket=G3HKxGBvL6L9DFFtGkKlYPioxZUwnIbJ%25252FNHKCkzvaLSGyApev69JxRDFpFOrqybY&is_temp_url=0&item_show_type=undefined&tmp_version=1'
+# body = 'r=0.7197613941971213&__biz=MjM5MTI2MTI0MA%3D%3D&appmsg_type=9&mid=2655142500&sn=77fbb51f69117d7b573e17928f1a26ce&idx=1&scene=38&title=16%25E5%25A4%25A7%25E9%2587%258D%25E7%2582%25B9%25E9%25A1%25B9%25E7%259B%25AE%25E6%259B%259D%25E5%2585%2589%25EF%25BC%2581%25E4%25BD%259B%25E5%25B1%25B1%25E4%25B8%2589%25E6%2597%25A7%25E6%2594%25B9%25E9%2580%25A0%25E5%25AE%25A3%25E4%25BC%25A0%25E5%25A4%25A7%25E7%2589%2587%25E5%2587%25BA%25E7%2582%2589&ct=1530443859&abtest_cookie=&devicetype=android-19&version=26060532&is_need_ticket=0&is_need_ad=1&comment_id=349831597094109186&is_need_reward=0&both_ad=0&reward_uin_count=0&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=1110JW0WFLDeUjVyaOZS526r&pass_ticket=G3HKxGBvL6L9DFFtGkKlYPioxZUwnIbJ%25252FNHKCkzvaLSGyApev69JxRDFpFOrqybY&is_temp_url=0&item_show_type=undefined&tmp_version=1'
+#
+#
+# resp = requests.post(url, headers=headers, data=body)
+# print(resp.text)
+
+# url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4MjQxNjQzMA==&scene=124&uin=MTk3OTM0NzMxMQ%3D%3D&key=7cd4e1695f3283f87f06a6a5881f3ef6035e40752812145b7f25452bdbe8d70c3d9fd3cc168dffdb9f8ca95ce1f9e0515caa61ae0349030c9969d109cfdf095064717e098dd6cc479f669ea56da1350f'
+
+# url = 'https://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzIzMjM4OTI1NA==&devicetype=android-26&version=26060739&lang=zh_CN&nettype=WIFI&ascene=3&pass_ticket=%2B8U84OxS9W97ZH77wlwJFq8O%2FYUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8&wx_header=1'
+# headers = {'Host': 'mp.weixin.qq.com', 'Connection': 'keep-alive',
+#            'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0; BKL-AL00 Build/HUAWEIBKL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044109 Mobile Safari/537.36 MicroMessenger/6.6.7.1321(0x26060739) NetType/WIFI Language/zh_CN',
+#            'x-wechat-key': 'de80f4c34b520d0afdef9c743b96f4beb24a9255f55ce51922e332a9cfe1fc5935936a77941444c46a4f0aaa654d69b060adcaa94cdfaababdf9363f76cc623b5b393e3a6c7b0469e24e4ab173f71fa5',
+#            'x-wechat-uin': 'MTE1NjkxODg2MQ%3D%3D',
+#            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8',
+#            'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh-CN;q=0.8,en-US;q=0.6',
+#            'Cookie': 'rewardsn=; wxtokenkey=777; wxuin=1156918861; devicetype=android-26; version=26060739; lang=zh_CN; pass_ticket=+8U84OxS9W97ZH77wlwJFq8O/YUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8; wap_sid2=CM3c1KcEElxLdEhHU3ZRaWxzVktId1ktaGdLd3dBUW5VUGJPamZpTmVnWEItQ2hmWFliRXg5RnEtQ3VsSE1aM3htbDh2Tzk2YThBWXhaYjFyRHZzMDhfSnpnN2IyY1VEQUFBfjDGh5faBTgNQJVO',
+#            'Q-UA2': 'QV=3&PL=ADR&PR=WX&PP=com.tencent.mm&PPVN=6.6.7&TBSVC=43610&CO=BK&COVC=044109&PB=GE&VE=GA&DE=PHONE&CHID=0&LCID=9422&MO= BKL-AL00 &RL=1080*2040&OS=8.0.0&API=26',
+#            'Q-GUID': 'c23b47cd4280ad4e1a425962102888cb', 'Q-Auth': '31045b957cf33acf31e40be2f3e71c5217597676a9729f1b'}
+#
+# resp = requests.get(url, allow_redirects=False)
+# print(resp.history)
+# print(resp.status_code)
+# print(resp.text)
+# print(resp.cookies.get_dict())
+
+url = 'https://mp.weixin.qq.com/mp/getappmsgext?f=json&mock=&uin=777&key=777&pass_ticket=%25252B8U84OxS9W97ZH77wlwJFq8O%25252FYUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8&wxtoken=777&devicetype=android-26&clientversion=26060739&appmsg_token=965_T6W6kvM1g4yxAP4wOANOjZA3btprUoRNelS5Wvyh9nTkuIYOvvWW2_haGqXEgU0e_Jmvzet37b8uMeNL&x5=1&f=json'
+# url = 'https://mp.weixin.qq.com/mp/getappmsgext?f=json&mock=&uin=777&key=777&pass_ticket=%25252B8U84OxS9W97ZH77wlwJFq8O%25252FYUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8&wxtoken=777&devicetype=android-26&clientversion=26060739&appmsg_token=965_BcWYUqdONiaiSOYrQZmu6jfLiOcCTd_KSsGYBZdgE0PB0Tsj38OU_hikr2OdnIpLepOp7Urh4MWCMdiI&x5=1&f=json'
+headers = {
+    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+    # 'Cookie': 'wap_sid2=CM3c1KcEElxIakg5WDV1XzdLMXpDOWlhVElrZzlLcEtYenc5OTUybGVKb1hJVlNBd3R4bllmSk91bkZ6Tk1QYTNISjlvZEpTLTloQ3RjcGZ1ZW5NZDRNc0JhMnpzY1FEQUFBfjDP2JXaBTgNQJVO',
+    'Cookie': 'rewardsn=; wxtokenkey=777; wxuin=1156918861; devicetype=android-26; version=26060739; lang=zh_CN; pass_ticket=+8U84OxS9W97ZH77wlwJFq8O/YUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8; wap_sid2=CM3c1KcEElxQeVpCSVByNkVTN25zdGFfanZKNlFlYXdhaWZjXzhPeF9Edi1ZVk5ETjNMeENsR1paX1JRS3dxeU1RZ2JuN3hpN3VXXy1JWUd4eGRzaUFkSWtvQldtOFVEQUFBfjDWmpfaBTgNQAE=',
+    # 'Cookie': 'rewardsn=; wxtokenkey=777; wxuin=1156918861; devicetype=android-26; version=26060739; lang=zh_CN; pass_ticket=+8U84OxS9W97ZH77wlwJFq8O/YUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8; wap_sid2=CM3c1KcEElx6V1MwZUdaVldwdjhlU2dmN19GbWdtM1FiOWZBMnBsRDhyYXJ2TDZOMElud1I5NUlNaV9DZEhNLUdSd1RLYUVuaWZCYldaS0FMdVRlcnYyZTdNdXdVY1VEQUFBfjDim5faBTgNQAE=',
+}
+
+body = 'r=0.7668730206063279&__biz=MzA4MjQxNjQzMA%3D%3D&appmsg_type=9&mid=2768381792&sn=7c065bf7cce0a4d5e43f5e89a3c70c3a&idx=1&scene=126&title=%25E2%2580%259C%25E9%25AB%2598%25E5%258D%25A2%25E9%259B%2584%25E9%25B8%25A1%25E2%2580%259D%25E6%258C%25BA%25E8%25BF%259B%25E5%2586%25B3%25E8%25B5%259B%25EF%25BC%2581%25E5%258F%25AF%25E4%25BB%2596%25E5%258D%25B4%25E4%25B8%258D%25E8%2583%25BD%25E7%25AC%2591%25E2%2580%25A6%25E2%2580%25A6&ct=1531299992&abtest_cookie=BAABAAoACwAMABIACQA%2Bix4AQo8eALWWHgD6lh4AI5ceALqXHgDIlx4A5JceAHCYHgAAAA%3D%3D&devicetype=android-26&version=26060739&is_need_ticket=0&is_need_ad=1&comment_id=364195136701333506&is_need_reward=0&both_ad=0&reward_uin_count=0&send_time=&msg_daily_idx=3&is_original=0&is_only_read=1&req_id=1117BLDCOg72WDnuz6GKkR8y&pass_ticket=%25252B8U84OxS9W97ZH77wlwJFq8O%25252FYUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8&is_temp_url=0&item_show_type=undefined&tmp_version=1'
+body = 'r=0.24857674610806857&__biz=MzA5ODUzOTA0OQ%3D%3D&appmsg_type=9&mid=2651689360&sn=908192864256754414f852ff735072c6&idx=1&scene=126&title=%25E7%2594%25A8Python%25E6%259D%25A5%25E7%259C%258B3%25E5%25A4%25A9%25E7%25A0%25B410%25E4%25BA%25BF%25E7%259A%2584%25E3%2580%258A%25E6%2588%2591%25E4%25B8%258D%25E6%2598%25AF%25E8%258D%25AF%25E7%25A5%259E%25E3%2580%258B%25E5%2588%25B0%25E5%25BA%2595%25E7%25A5%259E%25E5%259C%25A8%25E5%2593%25AA%25EF%25BC%259F&ct=1531278070&abtest_cookie=BAABAAoACwAMABIACQA%2Bix4AQo8eALWWHgD6lh4AI5ceALqXHgDIlx4A5JceAHCYHgAAAA%3D%3D&devicetype=android-26&version=26060739&is_need_ticket=0&is_need_ad=1&comment_id=363827340633014272&is_need_reward=0&both_ad=0&reward_uin_count=0&send_time=&msg_daily_idx=1&is_original=0&is_only_read=1&req_id=1117Gi7BZ4f0ePDQCZ8XzSX0&pass_ticket=%25252B8U84OxS9W97ZH77wlwJFq8O%25252FYUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8&is_temp_url=0&item_show_type=undefined&tmp_version=1'
+resp = requests.post(url, headers=headers, data=body)
+print(resp.text)

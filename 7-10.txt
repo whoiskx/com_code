@@ -20,5 +20,17 @@ python 激活虚拟环境   尝试新的工具，而不用担心污染系统环�
     退出 Script\deactivate
 
 
+组件服务
+    管理服务
 程序和功能
     卸载程序
+
+下面的代码可保证显示视频时窗口上的帧可以一直进行更新。以下几行简单的代码可以显示一幅图像:
+
+import cv2
+import numpy as np
+
+img = cv2.imread('C://Users/yefci/Pictures/0.2.jpg')
+cv2.imshow('C://Users/yefci/Pictures/0.2.jpg',img)
+cv2.waitKey()
+cv2.destroyAllWindows()

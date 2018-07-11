@@ -31,7 +31,7 @@ def read_excel(file_name=''):
             "name": name,
             'url': url,
         }
-        urun.praise_7_10_2.insert(account)
+        urun.praise_7_11.insert(account)
 
     # 获取行和列
     # sheet.rows    生成器, 每一行的数据，tuple包裹。
@@ -48,25 +48,26 @@ def read_excel(file_name=''):
     #         print(cell)
 
 
-def load_excel():
+def load_excel(file_name=''):
     # 新建工作表
     wb = Workbook()
     # 获取工作表
     sheet = wb.active
-    data = urun.praise_7_8_praise_2
+    data = urun.praise_7_11_julei_praise_2
     for u in data.find():
         row = [u.get('name'), u.get("praise"), u.get('url')]
         # 写写入单元格  直接赋值：sheet['A1'] = 'good'
         sheet.append(row)
     # 保存文件
-    wb.save(r"D:\praise_7_8_praise_2.xlsx")
-
+    # wb.save(r"D:\praise_7_8_praise_2.xlsx")
+    wb.save(file_name)
 
 def main():
-    # file_name_read = 'facebook_julei20180710.xlsx'
+    # file_name_read = 'facebook_julei20180711.xlsx'
+    # file_name_read = 'facebook20180711.xlsx'
     # read_excel(file_name=file_name_read)
 
-    load_excel()
+    load_excel(file_name=r'D:\praise_7_11_ju.xlsx')
 
 
 if __name__ == '__main__':

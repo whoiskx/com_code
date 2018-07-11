@@ -1,0 +1,15 @@
+滑块验证
+
+FB  图像加载
+    点赞
+
+阅读 点赞
+
+现在比较流行的滑块验证码有 极验 和 网易云易盾，本篇博客以极验的滑块验证码为例
+
+
+scrapy 微博 文章
+
+    注释 ftp
+    在 scrapy-exts\scraper下
+        scrapy runspider scraper/spiders/master.py

@@ -157,21 +157,22 @@ class ZipfilePipelineWithFTP(ZipfilePipeline):
         xmlname = self._get_xmlname(item['url'])
         xmlcontent = self._get_xmlcontent(item['xmlcontent'])
         comment = self._get_comment(item['comment'])
-        ftp = self._get_ftp(item['ftp'])
+        # ftp = self._get_ftp(item['ftp'])
 
         # FIXME: send zip file without creating it locally
         zfname = "%s.zip" % uuid1()
         with zipfile.ZipFile(zfname, 'w', zipfile.ZIP_DEFLATED) as zf:
             zf.writestr(xmlname, xmlcontent)
+            # 文档说明
             zf.comment = comment
-        try:
-            with open(zfname, 'rb') as f:
-                ftp.storbinary("STOR `%s`" % zfname, f, 1024)
-        except Exception as e:
-            print(e)
-        finally:
-            os.remove(zfname)
-            ftp.close()
+        # try:
+        #     with open(zfname, 'rb') as f:
+        #         ftp.storbinary("STOR `%s`" % zfname, f, 1024)
+        # except Exception as e:
+        #     print(e)
+        # finally:
+        #     os.remove(zfname)
+        #     ftp.close()
 
         return item
 
