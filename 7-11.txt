@@ -10,6 +10,21 @@ FB  图像加载
 
 scrapy 微博 文章
 
-    注释 ftp
+如果你redis有任务，zip包就会在你的目录下生成
+
+    192.168.1.2  端口:8001
+    用户user    密码ABCd1234
+
+    不用配置ftp 注释 ftp
+
+    针对文章类的，也就是slave.py
+
+    本地主机同时模拟master和slave，master只要运行engine.py就可以了。slave还需要在settings 里面配置pipelines
+
+    zipPipelineWithFTP 文章  微博的是子类
+
     在 scrapy-exts\scraper下
         scrapy runspider scraper/spiders/master.py
+
+
+如果你redis有任务，zip包就会在你的目录下生成

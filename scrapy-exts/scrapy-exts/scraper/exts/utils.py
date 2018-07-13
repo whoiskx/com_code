@@ -11,6 +11,7 @@ def bytes_to_str(s, encoding='utf-8'):
 
 
 def sql_query():
+    #  info_sct 表 执行查询
     sqls = ("SELECT ge.id, ge.Name, ge.groupid, gr.name AS groupnmae, ge.url, c.template AS template, "
             "ge.overseas, ge.category, ge.language, ge.coverage, ge.weight, ge.homepage, ge.channel, "
             "ge.country FROM `group` gr, general ge, custom c WHERE ge.groupID = gr.ID AND ge.customid = c.id")

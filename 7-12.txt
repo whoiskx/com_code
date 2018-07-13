@@ -1,0 +1,28 @@
+ pip install opencv-python
+
+ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbf in position 0: invalid start byte
+    文件名 是中文
+
+看scrapy-exts代码
+    支持 微博 和文章 now  研究 文章
+
+    1. master  Spider 从mysql取数据 构建 请求
+
+        当Item在Spider中被收集之后，它将会被传递到Item Pipeline  一些组件会按照一定的顺序执行对Item的处理。
+
+    2. slave 执行爬取任务
+
+
+
+
+    更新 slave 多取一次
+        xml 文档 编码 utf-8.。。
+
+
+    说明 parse 函数返回 即item， spider 爬虫实例
+        {"url": response.url,      # use to generate md5 as xml file name
+                "xmlcontent": xmlcontent,        # content write to xml file
+                "comment": response.meta, # comment of zipfile 注释
+                "ftp": ftp} 文件上传服务器
+
+    meta 将数据从请求传到response

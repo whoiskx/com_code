@@ -109,6 +109,8 @@ class ZipfilePipeline(object):
         xmlcontent = self._get_xmlcontent(item['xmlcontent'])
         comment = self._get_comment(item['comment'])
 
+
+
         zfname = "%s.zip" % uuid1()
         with zipfile.ZipFile(zfname, mode='w') as zf:
             zf.writestr(xmlname, xmlcontent)

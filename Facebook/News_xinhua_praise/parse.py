@@ -5,7 +5,7 @@ from selenium import webdriver
 
 driver = webdriver.Chrome()
 
-urls = urun['praise_7_11_julei'].find()
+urls = urun['praise_7_12_julei'].find()
 error_count = 0
 for count, u in enumerate(urls) :
     try:

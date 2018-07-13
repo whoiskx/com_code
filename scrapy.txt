@@ -141,3 +141,9 @@ items正在item pipeline中被处理
 NotImplementedError	尚未实现的方法
 
 流是一种抽象概念，它代表了数据的无结构化传递。按照流的方式进行输入输出，数据被当成无结构的字节序或字符序列。从流中取得数据的操作称为提取操作，而向流中添加数据的操作称为插入操作。用来进行输入输出操作的流就称为IO流。换句话说，IO流就是以流的方式进行输入输出。
+
+
+scrapy  微博逻辑
+
+    启动 scrapy runspider  master.py (包含spider类：基类爬虫，所有spider都必须继承； 读mysql 和redis-队列相关； scrapy 爬虫框架)
+    Spider就是您定义爬取的动作及分析某个网页
