@@ -147,3 +147,5 @@ scrapy  微博逻辑
 
     启动 scrapy runspider  master.py (包含spider类：基类爬虫，所有spider都必须继承； 读mysql 和redis-队列相关； scrapy 爬虫框架)
     Spider就是您定义爬取的动作及分析某个网页
+
+    为了自己能够研究得更加深入和对爬虫有更全面的了解，自己动手去多做

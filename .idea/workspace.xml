@@ -2,181 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/7-12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/weibo_person_index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7-11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/7-11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/excel_read_and_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/excel_read_and_write.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180711.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180711.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180711.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180711.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9374e908-84d8-11e8-82c2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/937cd2f8-84d8-11e8-ab8a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93861b4c-84d8-11e8-b4b5-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93861b4d-84d8-11e8-93ea-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9386423e-84d8-11e8-9505-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/938b20e2-84d8-11e8-aff2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/938c589a-84d8-11e8-9598-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/938c589b-84d8-11e8-8b96-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93b17a74-84d8-11e8-86fd-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93b790b8-84d8-11e8-a517-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93b9b22f-84d8-11e8-a5bf-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93b9b230-84d8-11e8-bb68-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93bb37ba-84d8-11e8-9f8e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93be69da-84d8-11e8-85d1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c19bfe-84d8-11e8-8714-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c40b50-84d8-11e8-8046-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c40b51-84d8-11e8-8422-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c51c06-84d8-11e8-b088-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c51c07-84d8-11e8-aa83-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c51c08-84d8-11e8-94c4-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c67aa4-84d8-11e8-83ce-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93dd9c58-84d8-11e8-aa14-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93e08088-84d8-11e8-a2b7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93e53840-84d8-11e8-b772-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93e89158-84d8-11e8-8592-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93f72d64-84d8-11e8-bbcb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9401ad74-84d8-11e8-b0c5-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/940a5a18-84d8-11e8-ac20-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/940e0110-84d8-11e8-ab7e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/940e0111-84d8-11e8-a85a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9410e54c-84d8-11e8-83a2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94152846-84d8-11e8-8118-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9417be7a-84d8-11e8-8cf7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9419b8e2-84d8-11e8-84bb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9419dfe6-84d8-11e8-9163-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941b177a-84d8-11e8-93b1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941b3e80-84d8-11e8-8c89-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941ff628-84d8-11e8-a4e6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941ff629-84d8-11e8-838f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941ff62a-84d8-11e8-831e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94230154-84d8-11e8-a2b3-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9427b90a-84d8-11e8-a6e6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9427dffe-84d8-11e8-87a6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/942ee012-84d8-11e8-be03-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94382888-84d8-11e8-84b2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9458e094-84d8-11e8-a1bb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9462ed4c-84d8-11e8-9e59-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9464bf52-84d8-11e8-bbbb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9465f6fe-84d8-11e8-a6d7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9467a38c-84d8-11e8-915a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9467a38d-84d8-11e8-afa7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/946ad5a8-84d8-11e8-a7b6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/947be0fa-84d8-11e8-a2b2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/947ddc94-84d8-11e8-a5d3-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/948071be-84d8-11e8-bc3a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9481348c-84d8-11e8-bc21-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/948771d8-84d8-11e8-b2a9-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/948af1de-84d8-11e8-9f2a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/948b8db4-84d8-11e8-af70-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94982f40-84d8-11e8-bd45-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94a0400a-84d8-11e8-82e0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94a434f8-84d8-11e8-b46a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94ac1ecc-84d8-11e8-aab4-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94b0d682-84d8-11e8-ac6c-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94b8726c-84d8-11e8-bae4-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94bcb546-84d8-11e8-b050-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94bd5112-84d8-11e8-927a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94bf2498-84d8-11e8-ba37-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94c8461c-84d8-11e8-9113-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94d29f48-84d8-11e8-a32f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94e0787a-84d8-11e8-b94d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94f15cde-84d8-11e8-8c35-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94fdb07a-84d8-11e8-860d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500bbca-84d8-11e8-b9d4-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500e2a4-84d8-11e8-9bd7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500e2a5-84d8-11e8-b86a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500e2a6-84d8-11e8-9f0a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500e2a7-84d8-11e8-9a0e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9513c16e-84d8-11e8-9988-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9514d236-84d8-11e8-bb69-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/951594f0-84d8-11e8-a5f7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/951594f1-84d8-11e8-af7f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9521e89c-84d8-11e8-bbc0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/952cdd9c-84d8-11e8-adef-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/952d7964-84d8-11e8-93a1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95438a5a-84d8-11e8-971f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/954ecd46-84d8-11e8-91e5-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/955b20e2-84d8-11e8-92d0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95801bcc-84d8-11e8-a5e1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95801bcd-84d8-11e8-b7fe-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/958a74f4-84d8-11e8-a1b8-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/958a74f5-84d8-11e8-8677-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/958a74f6-84d8-11e8-94a0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959210e4-84d8-11e8-84ad-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95925eca-84d8-11e8-afeb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9594a72e-84d8-11e8-a016-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959653ba-84d8-11e8-8d48-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95989c1e-84d8-11e8-b719-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959cdee8-84d8-11e8-9e94-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959d05e4-84d8-11e8-ba24-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959d05e5-84d8-11e8-97c6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959d05e6-84d8-11e8-a36d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95a0ace2-84d8-11e8-ab67-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ab7af4-84d8-11e8-8080-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95b55f34-84d8-11e8-bb4e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95bb75b4-84d8-11e8-b34d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95cd1cb4-84d8-11e8-88c8-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d1fb5a-84d8-11e8-977e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d57b62-84d8-11e8-ba29-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d57b63-84d8-11e8-8063-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d57b64-84d8-11e8-8dfa-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d838a8-84d8-11e8-9997-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d838a9-84d8-11e8-8f59-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95daa812-84d8-11e8-a141-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95dcc968-84d8-11e8-808a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95e21cf0-84d8-11e8-adf0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ee9792-84d8-11e8-9d8c-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f23fca-84d8-11e8-9f9d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f4ade2-84d8-11e8-8785-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f4d4dc-84d8-11e8-981c-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f522c8-84d8-11e8-a369-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f570a8-84d8-11e8-b1f0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f93ea4-84d8-11e8-a31f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95faeb34-84d8-11e8-a933-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95faeb35-84d8-11e8-9442-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95fda868-84d8-11e8-b08f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ff2f58-84d8-11e8-ac3e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ff2f59-84d8-11e8-a993-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ff2f5a-84d8-11e8-b59d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96045a92-84d8-11e8-bda0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96045a93-84d8-11e8-8f7e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9605924c-84d8-11e8-84f6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9605b940-84d8-11e8-b5a2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/960d7c1c-84d8-11e8-b11c-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9610d528-84d8-11e8-8a73-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96125ad0-84d8-11e8-9018-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9614ca14-84d8-11e8-8bf6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/961cb3e6-84d8-11e8-8373-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/961deb92-84d8-11e8-8cb3-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/961fbf1e-84d8-11e8-861a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96264a42-84d8-11e8-9363-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9627f6de-84d8-11e8-923b-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/962c12b8-84d8-11e8-a056-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/962fb9b0-84d8-11e8-977d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96324ffe-84d8-11e8-95ff-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9648aedc-84d8-11e8-9902-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/964a3470-84d8-11e8-8ef1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/964aa954-84d8-11e8-bcba-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/965cc562-84d8-11e8-89ba-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96eeb690-84d8-11e8-8c31-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96f08a0c-84d8-11e8-8464-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96f14cda-84d8-11e8-9437-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96f2d262-84d8-11e8-a11d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/97138ab4-84d8-11e8-8dff-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9715d3da-84d8-11e8-80b1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/97164924-84d8-11e8-a83b-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/97166e88-84d8-11e8-97ef-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/97ff1dda-84d8-11e8-8d87-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server_temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/server_temp.py" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/7-14.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spider_learn/dingdian/dingdian/spiders/dingdian.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spider_learn/dingdian/dingdian/test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spider_learn/dingdian/entrypoint.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/DAYBYDAY/frame/scrapy.xmind" afterPath="$PROJECT_DIR$/DAYBYDAY/frame/scrapy.xmind" />
+      <change beforePath="$PROJECT_DIR$/scrapy.txt" afterPath="$PROJECT_DIR$/scrapy.txt" />
+      <change beforePath="$PROJECT_DIR$/setting.py" afterPath="$PROJECT_DIR$/settingss.py" />
+      <change beforePath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/items.py" afterPath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/items.py" />
+      <change beforePath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/doban_spider.py" afterPath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/doban_spider.py" />
+      <change beforePath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/xx.json" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -186,44 +22,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/com_code$login.coverage" NAME="login Coverage Results" MODIFIED="1529417392616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Facebook_api" />
+    <SUITE FILE_PATH="coverage/com_code$dingdian.coverage" NAME="dingdian Coverage Results" MODIFIED="1531549128034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_learn/dingdian/dingdian/spiders" />
     <SUITE FILE_PATH="coverage/com_code$dmoz_spider.coverage" NAME="dmoz_spider Coverage Results" MODIFIED="1528612527766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_learn/tutorial/tutorial/spiders" />
+    <SUITE FILE_PATH="coverage/com_code$test.coverage" NAME="test Coverage Results" MODIFIED="1531537796063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders" />
+    <SUITE FILE_PATH="coverage/com_code$T_test_login.coverage" NAME="T_test_login Coverage Results" MODIFIED="1529502631914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Facebook_xihaiming" />
+    <SUITE FILE_PATH="coverage/com_code$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1531663783790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_learn/dingdian/dingdian" />
+    <SUITE FILE_PATH="coverage/com_code$logger.coverage" NAME="logger Coverage Results" MODIFIED="1528596816085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_test" />
+    <SUITE FILE_PATH="coverage/com_code$login.coverage" NAME="login Coverage Results" MODIFIED="1529417392616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Facebook_api" />
     <SUITE FILE_PATH="coverage/com_code$wxb_rank.coverage" NAME="wxb_rank Coverage Results" MODIFIED="1528469373375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxb_rank" />
     <SUITE FILE_PATH="coverage/com_code$parse_profile.coverage" NAME="parse_profile Coverage Results" MODIFIED="1529509664515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/facebook_follows" />
     <SUITE FILE_PATH="coverage/com_code$T_redis.coverage" NAME="T_redis Coverage Results" MODIFIED="1528643566509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_test" />
-    <SUITE FILE_PATH="coverage/com_code$T_test_login.coverage" NAME="T_test_login Coverage Results" MODIFIED="1529502631914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Facebook_xihaiming" />
+    <SUITE FILE_PATH="coverage/com_code$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1531559010612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_learn/dingdian/dingdian" />
     <SUITE FILE_PATH="coverage/com_code$T_pyquery.coverage" NAME="T_pyquery Coverage Results" MODIFIED="1528636665359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_test" />
+    <SUITE FILE_PATH="coverage/com_code$settings.coverage" NAME="settings Coverage Results" MODIFIED="1531661238274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_learn/dingdian/dingdian" />
     <SUITE FILE_PATH="coverage/com_code$errorhandler.coverage" NAME="errorhandler Coverage Results" MODIFIED="1529411079636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote" />
-    <SUITE FILE_PATH="coverage/com_code$logger.coverage" NAME="logger Coverage Results" MODIFIED="1528596816085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_test" />
+    <SUITE FILE_PATH="coverage/com_code$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1531666609991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_learn/dingdian" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="7-6.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7-6.txt">
+      <file leaf-file-name="connection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/connection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="-3051">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
+      <file leaf-file-name="defaults.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/defaults.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrapy.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrapy.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+            <state relative-caret-position="69">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -231,60 +75,83 @@
       <file leaf-file-name="spiders.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="190" column="41" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-332">
+              <caret line="190" column="41" lean-forward="false" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/spiders/__init__.py">
+      <file leaf-file-name="dupefilter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/dupefilter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="-3435">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weibo_master.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_master.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="7-13.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7-13.txt">
+      <file leaf-file-name="picklecompat.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="-5283">
+              <caret line="109" column="52" lean-forward="false" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
+              <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="-1677">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1531537469133" expanded="true" signature="320:623" ph="SELECT ge.id... group" />
+                <marker date="1531537469133" expanded="true" signature="683:1043" ph="SELECT ge.id... group" />
+                <marker date="1531537469133" expanded="true" signature="3084:3196" ph="SELECT wb.Na... weibo" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weiboUtils.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1602">
+              <caret line="77" column="41" lean-forward="true" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3171">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scheduler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3775">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -347,15 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Facebook_xihaiming/space/merge_result.txt" />
-        <option value="$PROJECT_DIR$/Facebook_xihaiming/space/word_cloud.py" />
-        <option value="$PROJECT_DIR$/Facebook_xihaiming/space/space_2.py" />
-        <option value="$PROJECT_DIR$/Facebook_xihaiming/space/space.py" />
-        <option value="$PROJECT_DIR$/Facebook_xihaiming/space/space_get_html.py" />
-        <option value="$PROJECT_DIR$/7-1.txt" />
-        <option value="$PROJECT_DIR$/7-2.txt" />
-        <option value="$PROJECT_DIR$/WX/url_forever.py" />
-        <option value="$PROJECT_DIR$/WX/readme.txt" />
         <option value="$PROJECT_DIR$/Wxb/headers_to_dict.py" />
         <option value="$PROJECT_DIR$/WX/WX_repository/spider.py" />
         <option value="$PROJECT_DIR$/WX/login_test.py" />
@@ -398,6 +256,15 @@
         <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py" />
         <option value="$PROJECT_DIR$/7-13.txt" />
         <option value="$PROJECT_DIR$/scrapy.txt" />
+        <option value="$PROJECT_DIR$/spider_learn/doubang250/doubang250/items.py" />
+        <option value="$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/doban_spider.py" />
+        <option value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/entrypoint.py" />
+        <option value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/settings.py" />
+        <option value="$PROJECT_DIR$/7-14.txt" />
+        <option value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/pipelines.py" />
+        <option value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/test.py" />
+        <option value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/items.py" />
+        <option value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/spiders/dingdian.py" />
       </list>
     </option>
   </component>
@@ -411,16 +278,26 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-315" />
-    <option name="y" value="31" />
-    <option name="width" value="1210" />
+    <option name="x" value="529" />
+    <option name="y" value="36" />
+    <option name="width" value="1357" />
     <option name="height" value="946" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -431,6 +308,11 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook_token_login_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
@@ -485,6 +367,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,21 +375,21 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/com_code/facebook_group/group_members/members_url_filter.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="E:/解压文件包/163和qq的滑动验证码识别/ProxyPool" />
+    <property name="last_opened_file_path" value="D:/萧井陌" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\com_code\DAYBYDAY\6月" />
-      <recent name="D:\com_code\Facebook_xihaiming\space_new\temp" />
-      <recent name="D:\com_code\Facebook_xihaiming\space" />
-      <recent name="D:\com_code\Facebook" />
-      <recent name="D:\com_code\facebook_follows" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\com_code\Facebook\News_xinhua_praise" />
       <recent name="D:\com_code" />
       <recent name="D:\com_code\Facebook\praise_7-5" />
+      <recent name="D:\com_code\Facebook_xihaiming\space" />
+      <recent name="D:\com_code\Facebook" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\com_code\spider_learn\dingdian" />
+      <recent name="D:\com_code\DAYBYDAY\6月" />
+      <recent name="D:\com_code\Facebook_xihaiming\space_new\temp" />
       <recent name="D:\com_code\Facebook_xihaiming\space" />
       <recent name="D:\com_code\Facebook" />
     </key>
@@ -523,113 +406,121 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.weibo_person_index">
-    <configuration name="body_to_row" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
+  <component name="RunManager" selected="Python.entrypoint">
+    <configuration name="dingdian" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/spiders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WX/body_to_row.py" />
+      <module name="com_code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/spiders/dingdian.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="get_excel_one" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
+    <configuration name="entrypoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/News_xinhua_praise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_learn/dingdian" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_one.py" />
+      <module name="com_code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_learn/dingdian/entrypoint.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="read_praise_7_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
+    <configuration name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_learn/dingdian/dingdian" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WX/read_praise_7_11.py" />
+      <module name="com_code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/pipelines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="server_temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_learn/dingdian/dingdian" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/server_temp.py" />
+      <module name="com_code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="weibo_person_index" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_learn/dingdian/dingdian" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/weibo_person_index.py" />
+      <module name="com_code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_learn/dingdian/dingdian/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list>
-      <item itemvalue="Python.read_praise_7_11" />
-      <item itemvalue="Python.body_to_row" />
-      <item itemvalue="Python.server_temp" />
-      <item itemvalue="Python.get_excel_one" />
-      <item itemvalue="Python.weibo_person_index" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.entrypoint" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dingdian" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pipelines" />
+      <item index="3" class="java.lang.String" itemvalue="Python.settings" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.weibo_person_index" />
-        <item itemvalue="Python.server_temp" />
-        <item itemvalue="Python.get_excel_one" />
-        <item itemvalue="Python.read_praise_7_11" />
-        <item itemvalue="Python.body_to_row" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.entrypoint" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.settings" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pipelines" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dingdian" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -686,30 +577,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.29978925" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4680851" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.27340424" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.39361703" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="11" sideWeight="0.50052685" weight="0.46914893" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Messages" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.76216817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61504424" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.460177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21405579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6504425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -823,6 +713,16 @@
           <line>18</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/doban_spider.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/test.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -831,8 +731,9 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="77" />
+      <option name="time" value="81" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -848,6 +749,21 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>cur.fetchall()[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cur.fetchall()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cur</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>driver.find_element_by_class_name('WB_from').find_element_by_tag_name('a').text</expression-string>
         <language-id>Python</language-id>
@@ -878,323 +794,430 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>driver.page_source</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.html</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>driver.find_element_by_class_name('S_txt2').text</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WX/read_praise_7-10_加班.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/body_to_row.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/read_praise_7_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <caret line="21" column="127" lean-forward="true" selection-start-line="21" selection-start-column="127" selection-end-line="21" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/facebook_follows/all_friends.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/excel_read_and_write.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="39" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/flask/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAYBYDAY/web15/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAYBYDAY/web15/web15.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAYBYDAY/web15/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DAYBYDAY/web20板书/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" selection-start-line="37" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server_temp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/weibo_person_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/defaults.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/dupefilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2635" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2920" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3338">
-          <caret line="77" column="41" lean-forward="true" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/xml/dom/minidom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="5477" column="8" selection-start-line="5477" selection-start-column="8" selection-end-line="5477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/builtins.py" />
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/slave.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_slave.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://C:/Program Files/Python36/Lib/zipfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30685">
-          <caret line="1624" column="8" selection-start-line="1624" selection-start-column="8" selection-end-line="1624" selection-end-column="8" />
-          <folding>
-            <element signature="e#87#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="109" column="52" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
+          <caret line="1624" column="8" lean-forward="false" selection-start-line="1624" selection-start-column="8" selection-end-line="1624" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/engine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="876">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+          <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7-1_微博服务器部署.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="47" />
+          <caret line="65" column="35" lean-forward="false" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="47" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2074" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/7-10.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7-11.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7-12.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-9.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-5.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/7-6.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="360">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_master.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/7-13.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="408">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="192">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="190" column="41" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
+        <state relative-caret-position="216">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/xx.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/tem.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1874">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/doban_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#16#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="652" column="0" lean-forward="false" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="89" column="15" lean-forward="true" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="573" column="8" lean-forward="false" selection-start-line="573" selection-start-column="8" selection-end-line="573" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settingss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="56" column="7" lean-forward="false" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+        <state relative-caret-position="24">
+          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-14.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1531663485965" expanded="true" signature="125:153" ph="DROP TABLE I... " />
+            <marker date="1531663485965" expanded="true" signature="192:522" ph="CREATE TABLE... dd_name" />
+            <marker date="1531663485965" expanded="true" signature="598:661" ph="SELECT EXIST... " />
+            <marker date="1531663485965" expanded="true" signature="613:660" ph="SELECT 1 FRO... dd_name" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="112" selection-end-column="25" />
+          <folding>
+            <marker date="1531661261691" expanded="true" signature="3242:3270" ph="DROP TABLE I... " />
+            <marker date="1531661261691" expanded="true" signature="3309:3333" ph="CREATE TABLE... dd_name" />
+            <marker date="1531661261691" expanded="true" signature="3309:3639" ph="CREATE TABLE... dd_name" />
+            <marker date="1531661261691" expanded="true" signature="3309:3644" ph="CREATE TABLE... dd_name" />
+            <marker date="1531661261691" expanded="true" signature="3906:4037" ph="INSERT INTO dd_name... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/entrypoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-952">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#193#207#0" expanded="false" />
+            <marker date="1531662252910" expanded="true" signature="484:506" ph="SELECT * FRO... vendors" />
+            <marker date="1531662252910" expanded="true" signature="754:974" ph="INSERT INTO dd_name... " />
+            <marker date="1531662252910" expanded="true" signature="1183:1221" ph="INSERT INTO dd_name... " />
+            <marker date="1531662252910" expanded="true" signature="1183:1344" ph="INSERT INTO dd_name... " />
+            <marker date="1531662252910" expanded="true" signature="1571:1634" ph="SELECT EXIST... " />
+            <marker date="1531662252910" expanded="true" signature="1586:1633" ph="SELECT 1 FRO... dd_name" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="1806" column="0" lean-forward="false" selection-start-line="1806" selection-start-column="0" selection-end-line="1806" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_learn/dingdian/dingdian/spiders/dingdian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="95" column="64" lean-forward="false" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="46" column="49" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3051">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/defaults.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/dupefilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3435">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5283">
+          <caret line="109" column="52" lean-forward="false" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3171">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3775">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-332">
+          <caret line="190" column="41" lean-forward="false" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1677">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <marker date="1531537469133" expanded="true" signature="320:623" ph="SELECT ge.id... group" />
+            <marker date="1531537469133" expanded="true" signature="683:1043" ph="SELECT ge.id... group" />
+            <marker date="1531537469133" expanded="true" signature="3084:3196" ph="SELECT wb.Na... weibo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="77" column="41" lean-forward="true" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

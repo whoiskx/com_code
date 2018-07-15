@@ -1,0 +1,38 @@
+
+thread（在python3中改名为_thread）,threading,和 queue模块。
+
+thread和threading模块都可以用来创建和管理线程，而thread模块提供了基本的线程和锁支持。
+
+threading提供的是更高级的完全的线程管理。
+
+低级别的thread模块是推荐给高手用，一般应用程序推荐使用更高级的threading模块：
+
+1.它更先进，有完善的线程管理支持，此外，在thread模块的一些属性会和threading模块的这些属性冲突。
+
+2.thread模块有很少的（实际上是一个）同步原语，而threading却有很多。
+
+3.thread模块没有很好的控制，特别当你的进程退出时，
+
+比如：当主线程执行完退出时，其他的线程都会无警告，无保存的死亡，
+
+而threading会允许默认，重要的子线程完成后再退出，它可以特别指定daemon类型的线程。
+
+
+多线程类似于同时执行多个不同程序
+
+线程同步
+如果多个线程共同对某个数据修改，则可能出现不可预料的结果，为了保证数据的正确性，需要对多个线程进行同步。
+
+Python 2.6作为一个过渡版本，基本使用了Python 2.x的语法和库，同时考虑了向Python 3.0的迁移，允许使用部分Python 3.0的语法与函数。
+
+python2和3的区别
+    pirnt   3 是函数 2语句
+    Unicode 3 Unicode 和字节 byte和bytearrays  2 ascii 和 unicode
+    除法 3 1 / 2 >>0.5 ; floor //  舍去小数部分
+    异常  3 使用 as 作为关键字
+    range  3 range 生成器
+    不等式 3 !=
+    数据类型 3 byte和str  转换 编码和解码  整型就int
+    map、filter 和 reduce 返回生成器对象
+
+
