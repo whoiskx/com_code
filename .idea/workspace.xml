@@ -2,181 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/7-12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/weibo_person_index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7-11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/7-11.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/excel_read_and_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/excel_read_and_write.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180711.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180711.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180711.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180711.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9374e908-84d8-11e8-82c2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/937cd2f8-84d8-11e8-ab8a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93861b4c-84d8-11e8-b4b5-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93861b4d-84d8-11e8-93ea-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9386423e-84d8-11e8-9505-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/938b20e2-84d8-11e8-aff2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/938c589a-84d8-11e8-9598-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/938c589b-84d8-11e8-8b96-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93b17a74-84d8-11e8-86fd-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93b790b8-84d8-11e8-a517-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93b9b22f-84d8-11e8-a5bf-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93b9b230-84d8-11e8-bb68-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93bb37ba-84d8-11e8-9f8e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93be69da-84d8-11e8-85d1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c19bfe-84d8-11e8-8714-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c40b50-84d8-11e8-8046-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c40b51-84d8-11e8-8422-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c51c06-84d8-11e8-b088-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c51c07-84d8-11e8-aa83-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c51c08-84d8-11e8-94c4-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93c67aa4-84d8-11e8-83ce-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93dd9c58-84d8-11e8-aa14-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93e08088-84d8-11e8-a2b7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93e53840-84d8-11e8-b772-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93e89158-84d8-11e8-8592-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93f72d64-84d8-11e8-bbcb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9401ad74-84d8-11e8-b0c5-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/940a5a18-84d8-11e8-ac20-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/940e0110-84d8-11e8-ab7e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/940e0111-84d8-11e8-a85a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9410e54c-84d8-11e8-83a2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94152846-84d8-11e8-8118-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9417be7a-84d8-11e8-8cf7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9419b8e2-84d8-11e8-84bb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9419dfe6-84d8-11e8-9163-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941b177a-84d8-11e8-93b1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941b3e80-84d8-11e8-8c89-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941ff628-84d8-11e8-a4e6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941ff629-84d8-11e8-838f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/941ff62a-84d8-11e8-831e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94230154-84d8-11e8-a2b3-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9427b90a-84d8-11e8-a6e6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9427dffe-84d8-11e8-87a6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/942ee012-84d8-11e8-be03-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94382888-84d8-11e8-84b2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9458e094-84d8-11e8-a1bb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9462ed4c-84d8-11e8-9e59-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9464bf52-84d8-11e8-bbbb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9465f6fe-84d8-11e8-a6d7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9467a38c-84d8-11e8-915a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9467a38d-84d8-11e8-afa7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/946ad5a8-84d8-11e8-a7b6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/947be0fa-84d8-11e8-a2b2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/947ddc94-84d8-11e8-a5d3-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/948071be-84d8-11e8-bc3a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9481348c-84d8-11e8-bc21-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/948771d8-84d8-11e8-b2a9-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/948af1de-84d8-11e8-9f2a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/948b8db4-84d8-11e8-af70-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94982f40-84d8-11e8-bd45-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94a0400a-84d8-11e8-82e0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94a434f8-84d8-11e8-b46a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94ac1ecc-84d8-11e8-aab4-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94b0d682-84d8-11e8-ac6c-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94b8726c-84d8-11e8-bae4-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94bcb546-84d8-11e8-b050-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94bd5112-84d8-11e8-927a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94bf2498-84d8-11e8-ba37-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94c8461c-84d8-11e8-9113-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94d29f48-84d8-11e8-a32f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94e0787a-84d8-11e8-b94d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94f15cde-84d8-11e8-8c35-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/94fdb07a-84d8-11e8-860d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500bbca-84d8-11e8-b9d4-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500e2a4-84d8-11e8-9bd7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500e2a5-84d8-11e8-b86a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500e2a6-84d8-11e8-9f0a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9500e2a7-84d8-11e8-9a0e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9513c16e-84d8-11e8-9988-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9514d236-84d8-11e8-bb69-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/951594f0-84d8-11e8-a5f7-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/951594f1-84d8-11e8-af7f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9521e89c-84d8-11e8-bbc0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/952cdd9c-84d8-11e8-adef-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/952d7964-84d8-11e8-93a1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95438a5a-84d8-11e8-971f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/954ecd46-84d8-11e8-91e5-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/955b20e2-84d8-11e8-92d0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95801bcc-84d8-11e8-a5e1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95801bcd-84d8-11e8-b7fe-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/958a74f4-84d8-11e8-a1b8-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/958a74f5-84d8-11e8-8677-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/958a74f6-84d8-11e8-94a0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959210e4-84d8-11e8-84ad-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95925eca-84d8-11e8-afeb-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9594a72e-84d8-11e8-a016-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959653ba-84d8-11e8-8d48-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95989c1e-84d8-11e8-b719-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959cdee8-84d8-11e8-9e94-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959d05e4-84d8-11e8-ba24-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959d05e5-84d8-11e8-97c6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/959d05e6-84d8-11e8-a36d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95a0ace2-84d8-11e8-ab67-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ab7af4-84d8-11e8-8080-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95b55f34-84d8-11e8-bb4e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95bb75b4-84d8-11e8-b34d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95cd1cb4-84d8-11e8-88c8-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d1fb5a-84d8-11e8-977e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d57b62-84d8-11e8-ba29-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d57b63-84d8-11e8-8063-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d57b64-84d8-11e8-8dfa-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d838a8-84d8-11e8-9997-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95d838a9-84d8-11e8-8f59-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95daa812-84d8-11e8-a141-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95dcc968-84d8-11e8-808a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95e21cf0-84d8-11e8-adf0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ee9792-84d8-11e8-9d8c-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f23fca-84d8-11e8-9f9d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f4ade2-84d8-11e8-8785-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f4d4dc-84d8-11e8-981c-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f522c8-84d8-11e8-a369-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f570a8-84d8-11e8-b1f0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95f93ea4-84d8-11e8-a31f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95faeb34-84d8-11e8-a933-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95faeb35-84d8-11e8-9442-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95fda868-84d8-11e8-b08f-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ff2f58-84d8-11e8-ac3e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ff2f59-84d8-11e8-a993-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/95ff2f5a-84d8-11e8-b59d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96045a92-84d8-11e8-bda0-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96045a93-84d8-11e8-8f7e-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9605924c-84d8-11e8-84f6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9605b940-84d8-11e8-b5a2-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/960d7c1c-84d8-11e8-b11c-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9610d528-84d8-11e8-8a73-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96125ad0-84d8-11e8-9018-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9614ca14-84d8-11e8-8bf6-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/961cb3e6-84d8-11e8-8373-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/961deb92-84d8-11e8-8cb3-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/961fbf1e-84d8-11e8-861a-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96264a42-84d8-11e8-9363-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9627f6de-84d8-11e8-923b-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/962c12b8-84d8-11e8-a056-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/962fb9b0-84d8-11e8-977d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96324ffe-84d8-11e8-95ff-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9648aedc-84d8-11e8-9902-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/964a3470-84d8-11e8-8ef1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/964aa954-84d8-11e8-bcba-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/965cc562-84d8-11e8-89ba-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96eeb690-84d8-11e8-8c31-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96f08a0c-84d8-11e8-8464-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96f14cda-84d8-11e8-9437-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/96f2d262-84d8-11e8-a11d-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/97138ab4-84d8-11e8-8dff-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/9715d3da-84d8-11e8-80b1-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/97164924-84d8-11e8-a83b-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/97166e88-84d8-11e8-97ef-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/97ff1dda-84d8-11e8-8d87-fc017c3bd1b0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server_temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/server_temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy-exts/~$式爬虫系统交接文档.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -198,20 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="7-6.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7-6.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="master.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="114">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -219,19 +37,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrapy.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scrapy.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+            <state relative-caret-position="418">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_posts_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/get_posts_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_posts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/get_posts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geckodriver.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/geckodriver.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1190">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7-1_微博服务器部署.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7-1_微博服务器部署.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1413">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7-2.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7-2.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="spiders.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="3496">
               <caret line="190" column="41" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -245,46 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weibo_master.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_master.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="7-13.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7-13.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -431,55 +265,6 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scraper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scraper" type="462c0819:PsiDirectoryNode" />
-              <item name="exts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scraper" type="462c0819:PsiDirectoryNode" />
-              <item name="scraper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scraper" type="462c0819:PsiDirectoryNode" />
-              <item name="scraper" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -689,14 +474,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.29978925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.23867229" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.4680851" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32978722" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.5170213" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.27340424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.39361703" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.39361703" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="11" sideWeight="0.50052685" weight="0.46914893" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -896,30 +681,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WX/read_praise_7-10_加班.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/body_to_row.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/read_praise_7_11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-499">
-          <caret line="21" column="127" lean-forward="true" selection-start-line="21" selection-start-column="127" selection-end-line="21" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/facebook_follows/all_friends.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228" />
@@ -1056,9 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30685">
           <caret line="1624" column="8" selection-start-line="1624" selection-start-column="8" selection-end-line="1624" selection-end-column="8" />
-          <folding>
-            <element signature="e#87#96#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,16 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="876">
           <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-1_微博服务器部署.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1118,9 +866,6 @@
     <entry file="file://$PROJECT_DIR$/7-9.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/7-2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/7-4.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1138,9 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        <state relative-caret-position="665">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1173,7 +915,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="3496">
           <caret line="190" column="41" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -1183,8 +925,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
@@ -1193,10 +935,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+        <state relative-caret-position="418">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/get_posts_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/get_posts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1190">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-1_微博服务器部署.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1413">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
