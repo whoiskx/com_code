@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/7-14.txt" />
       <change beforePath="" afterPath="$PROJECT_DIR$/spider_learn/dingdian/dingdian/spiders/dingdian.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/spider_learn/dingdian/dingdian/test.py" />
@@ -13,6 +14,10 @@
       <change beforePath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/items.py" afterPath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/items.py" />
       <change beforePath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/doban_spider.py" afterPath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/spiders/doban_spider.py" />
       <change beforePath="$PROJECT_DIR$/spider_learn/doubang250/doubang250/xx.json" afterPath="" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapy-exts/~$式爬虫系统交接文档.docx" beforeDir="false" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,6 +57,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="connection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/connection.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,50 +74,97 @@
             <state relative-caret-position="69">
               <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="master.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="spiders.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-332">
               <caret line="190" column="41" lean-forward="false" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
               <folding />
+=======
+      <file leaf-file-name="scrapy.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="dupefilter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/dupefilter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-3435">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="get_posts_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/get_posts_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="picklecompat.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="get_posts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/get_posts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-5283">
               <caret line="109" column="52" lean-forward="false" selection-start-line="109" selection-start-column="52" selection-end-line="109" selection-end-column="52" />
               <folding />
+=======
+      <file leaf-file-name="geckodriver.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/geckodriver.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,21 +174,38 @@
                 <marker date="1531537469133" expanded="true" signature="320:623" ph="SELECT ge.id... group" />
                 <marker date="1531537469133" expanded="true" signature="683:1043" ph="SELECT ge.id... group" />
                 <marker date="1531537469133" expanded="true" signature="3084:3196" ph="SELECT wb.Na... weibo" />
+=======
+      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1190">
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="weiboUtils.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1602">
               <caret line="77" column="41" lean-forward="true" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
               <folding />
+=======
+      <file leaf-file-name="7-1_微博服务器部署.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7-1_微博服务器部署.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1413">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="queue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,6 +222,30 @@
             <state relative-caret-position="-3775">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="7-2.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7-2.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="spiders.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3496">
+              <caret line="190" column="41" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/spiders/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -309,6 +403,7 @@
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
@@ -363,6 +458,8 @@
               <item name="scraper" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
           </expand>
           <select />
         </subPane>
@@ -580,6 +677,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.76216817" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -600,6 +698,29 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.23867229" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4680851" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.5170213" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.27340424" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.39361703" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="11" sideWeight="0.50052685" weight="0.46914893" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,6 +918,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://C:/Program Files/Python36/Lib/xml/dom/minidom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -820,6 +942,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/engine.py">
+=======
+    <entry file="file://$PROJECT_DIR$/facebook_follows/all_friends.txt">
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="876">
           <caret line="68" column="29" lean-forward="false" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
@@ -1012,11 +1137,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settingss.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="32">
           <caret line="56" column="7" lean-forward="false" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="false" />
           </folding>
+=======
+        <state relative-caret-position="30685">
+          <caret line="1624" column="8" selection-start-line="1624" selection-start-column="8" selection-end-line="1624" selection-end-column="8" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
         </state>
       </provider>
     </entry>
@@ -1030,6 +1160,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7-14.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="360">
           <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
@@ -1060,6 +1191,10 @@
             <marker date="1531661261691" expanded="true" signature="3309:3644" ph="CREATE TABLE... dd_name" />
             <marker date="1531661261691" expanded="true" signature="3906:4037" ph="INSERT INTO dd_name... " />
           </folding>
+=======
+        <state relative-caret-position="876">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
         </state>
       </provider>
     </entry>
@@ -1113,6 +1248,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1128,6 +1264,10 @@
           <folding />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/7-4.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1147,9 +1287,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/defaults.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="69">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="325">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
         </state>
       </provider>
     </entry>
@@ -1179,9 +1324,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-3171">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="665">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
         </state>
       </provider>
     </entry>
@@ -1195,16 +1345,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-332">
           <caret line="190" column="41" lean-forward="false" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
           <folding />
+=======
+        <state relative-caret-position="3496">
+          <caret line="190" column="41" selection-start-line="190" selection-start-column="41" selection-end-line="190" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-1677">
           <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+=======
+        <state relative-caret-position="114">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
           <folding>
             <marker date="1531537469133" expanded="true" signature="320:623" ph="SELECT ge.id... group" />
             <marker date="1531537469133" expanded="true" signature="683:1043" ph="SELECT ge.id... group" />
@@ -1215,11 +1378,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1602">
           <caret line="77" column="41" lean-forward="true" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
           <folding />
+=======
+        <state relative-caret-position="418">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+>>>>>>> 5b91f86e3033be5e944203e255ec5c535e1d1e21
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/get_posts_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/get_posts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/facebook_group/post/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1190">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-1_微博服务器部署.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1413">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
