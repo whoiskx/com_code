@@ -18,19 +18,24 @@
 # menu.click()
 
 import time
-
-from selenium import webdriver
-from selenium.webdriver.common.action_chains import *
-driver = webdriver.Chrome()
-
-url = 'http://reg.163.com/'
-
-html = w
+import re
+# from selenium import webdriver
+# from selenium.webdriver.common.action_chains import *
+# driver = webdriver.Chrome()
+#
+# url = 'http://reg.163.com/'
+with open('wangyi.html', 'r', encoding='utf-8') as f:
+    html = f.read()
 time.sleep(5)
+from pyquery import PyQuery as pq
+# login = driver.find_element_by_xpath('//*[@id="auto-id-1531807695853"]')
+# print(login)e
+# article = driver.find_element_by_link_text('请依次点击')
+# ActionChains(driver).move_to_element(article).perform()
 
-login = driver.find_element_by_xpath('//*[@id="auto-id-1531807695853"]')
-print(login)
-article = driver.find_element_by_link_text('请依次点击')
-ActionChains(driver).move_to_element(article).perform()
+result = re.findall('<div class="yidun_tips".*?</div>', html)
+print(result)
+e = pq(html)
+characters = e.find(".yidun_tips")
 
-article.click()
+

@@ -10,3 +10,10 @@ git 冲突
 虚拟机和主机共享复制粘贴
     管理器 设置 高级 点击 双向
 
+
+
+保存文件
+    文件不存在 报错
+    open("img\xx.jpg", 'wb')  img 目录 必须存在
+    图片保存  r = requests.get()
+            f.write(r.content)
