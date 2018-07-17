@@ -11,9 +11,9 @@ import scrapy
 class Doubang250Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    print('Item')
+    print('Item_start')
     name = scrapy.Field()
     title = scrapy.Field()
     quote =scrapy.Field()
-
+    print("Item_end")
     pass

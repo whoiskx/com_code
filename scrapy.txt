@@ -148,10 +148,14 @@ scrapy  微博逻辑
     启动 scrapy runspider  master.py (包含spider类：基类爬虫，所有spider都必须继承； 读mysql 和redis-队列相关； scrapy 爬虫框架)
     Spider就是您定义爬取的动作及分析某个网页
 
+
 start_requests()
     返回一个可迭代对象(iterable)包含了spider用于爬取的第一个Request。
 
-当spider启动爬取并且未制定URL时，该方法被调用指定了URL时，make_requests_from_url() 将被调用来创建Request对象。 该方法仅仅会被Scrapy调用一次，因此您可以将其实现为生成器。
-该方法的默认实现是使用 start_urls 的url生成Request。
-parse(response)
-当response没有指定回调函数时，该方法是Scrapy处理下载的response的默认方法。
+    当spider启动爬取并且未制定URL时，该方法被调用指定了URL时，make_requests_from_url() 将被调用来创建Request对象。 该方法仅仅会被Scrapy调用一次，因此您可以将其实现为生成器。
+    该方法的默认实现是使用 start_urls 的url生成Request。
+    parse(response)
+    当response没有指定回调函数时，该方法是Scrapy处理下载的response的默认方法。
+
+    为了自己能够研究得更加深入和对爬虫有更全面的了解，自己动手去多做
+
