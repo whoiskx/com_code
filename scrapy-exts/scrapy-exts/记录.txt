@@ -1,0 +1,8 @@
+scrapy-exts 读源码
+    1. 读取记录
+        read_mysql 执行查询语句 得到 record; 将record 转为 dict 生成request 并将dict 用meta传给response
+    2. parse
+        template 为空 和ftp为最后一行
+        ItemLoader 作为一个容器，可以多个spider复用提取规则
+
+

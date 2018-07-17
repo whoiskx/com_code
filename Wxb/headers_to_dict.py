@@ -1,18 +1,9 @@
-headers = """Host: mp.weixin.qq.com
+headers = """Host: api.amemv.com
 Connection: keep-alive
-Content-Length: 931
-Origin: https://mp.weixin.qq.com
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Linux; Android 8.0; BKL-AL00 Build/HUAWEIBKL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044109 Mobile Safari/537.36 MicroMessenger/6.6.7.1321(0x26060739) NetType/WIFI Language/zh_CN
-Content-Type: application/x-www-form-urlencoded; charset=UTF-8
-Accept: */*
-Referer: https://mp.weixin.qq.com/s?__biz=MjM5MTI2MTI0MA==&mid=2655142500&idx=1&sn=77fbb51f69117d7b573e17928f1a26ce&chksm=bd0ed5338a795c252d9f33b3cb267ef2554ed83e4373207c013d1da02401f5836765d45bbcba&scene=0&ascene=7&devicetype=android-26&version=26060739&nettype=WIFI&abtest_cookie=BAABAAoACwAMABIACgA%2Bix4A44seAEKPHgBllR4AepUeAICVHgDwlR4AOJYeAJ2WHgC1lh4AAAA%3D&lang=zh_CN&pass_ticket=lmz4dXv%2FWib0B0%2B0lpXZZ8VPthtTPqPnjpwYcH6p5usaQBW%2FdJNeVlTua%2FCMp8Ki&wx_header=1
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,zh-CN;q=0.8,en-US;q=0.6
-Cookie: rewardsn=; wxtokenkey=777; wxuin=1156918861; devicetype=android-26; version=26060739; lang=zh_CN; pass_ticket=lmz4dXv/Wib0B0+0lpXZZ8VPthtTPqPnjpwYcH6p5usaQBW/dJNeVlTua/CMp8Ki; wap_sid2=CM3c1KcEElwzNkN1N1hyclZxcUVJdWRxcmx2VTJyZ3d6VEI4UWNJQ25CeUIwREdZYXBDNjVTbWtDYWhvRUhQZmNDVjR1QVBiQzRLa3g3ZGJUc3BpcHhLNEhKZzFPc01EQUFBfjDpm+vZBTgNQAE=
-Q-UA2: QV=3&PL=ADR&PR=WX&PP=com.tencent.mm&PPVN=6.6.7&TBSVC=43610&CO=BK&COVC=044109&PB=GE&VE=GA&DE=PHONE&CHID=0&LCID=9422&MO= BKL-AL00 &RL=1080*2040&OS=8.0.0&API=26
-Q-GUID: c23b47cd4280ad4e1a425962102888cb
-Q-Auth: 31045b957cf33acf31e40be2f3e71c5217597676a9729f1b"""
+Cookie: odin_tt=2a4afe1350f4815e63d3a1f26f6e2aea8ead562300b8980a371bbc52814828a1eaa47e8eb1b29a5a42b0e572ba474995; sid_guard=53672998a610a50910664e885e4990a9%7C1531016437%7C2592000%7CTue%2C+07-Aug-2018+02%3A20%3A37+GMT; uid_tt=e31e4f19e40e449c6be3a83f13c41347; sid_tt=53672998a610a50910664e885e4990a9; sessionid=53672998a610a50910664e885e4990a9; install_id=37927009090; ttreq=1$536f377876c0756f8cee3051d6204933f449fb07
+Accept-Encoding: gzip
+X-SS-REQ-TICKET: 1531726203497
+User-Agent: com.ss.android.ugc.aweme/200 (Linux; U; Android 8.0.0; zh_CN_#Hans; BKL-AL00; Build/HUAWEIBKL-AL00; Cronet/58.0.2991.0)"""
 
 
 

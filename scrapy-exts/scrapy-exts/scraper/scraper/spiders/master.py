@@ -6,8 +6,6 @@ from exts.spiders import MysqlRedisSpider
 from exts.utils import sql_template2xpath, sql_query_with_ftp, sql_tuple2dict_with_ftp
 
 
-
-
 class MasterSpider(MysqlRedisSpider):
     name = 'test'
     allowed_domains = ['test']
@@ -25,7 +23,7 @@ class MasterSpider(MysqlRedisSpider):
             self.mysql_cursor.execute(sql_query_with_ftp())
         # TODO: add support for reading a sql batch
         records = self.mysql_cursor.fetchmany(200)
-        
+
         if records:
             for record in records:
                 recordict = sql_tuple2dict_with_ftp(record)
@@ -45,12 +43,11 @@ class MasterSpider(MysqlRedisSpider):
                 loader.add_xpath(item, xpath)
         xmlcontent = loader.load_item()
         xmlcontent = self.get_title_if_not_exists(xmlcontent, response)
-        return {"url": response.url,      # use to generate md5 as xml file name
-                "xmlcontent": xmlcontent,        # content write to xml file
-                "comment": response.meta, # comment of zipfile
+        return {"url": response.url,  # use to generate md5 as xml file name
+                "xmlcontent": xmlcontent,  # content write to xml file
+                "comment": response.meta,  # comment of zipfile
                 "ftp": ftp}
-        
-    
+
     def get_title_if_not_exists(self, xmlcontent, response):
         """get title using css selector"""
         title = response.css("title::text").extract_first()
