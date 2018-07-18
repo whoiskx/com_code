@@ -1,9 +1,14 @@
-headers = """Host: api.amemv.com
+headers = """Host: www.qq.com
 Connection: keep-alive
-Cookie: odin_tt=2a4afe1350f4815e63d3a1f26f6e2aea8ead562300b8980a371bbc52814828a1eaa47e8eb1b29a5a42b0e572ba474995; sid_guard=53672998a610a50910664e885e4990a9%7C1531016437%7C2592000%7CTue%2C+07-Aug-2018+02%3A20%3A37+GMT; uid_tt=e31e4f19e40e449c6be3a83f13c41347; sid_tt=53672998a610a50910664e885e4990a9; sessionid=53672998a610a50910664e885e4990a9; install_id=37927009090; ttreq=1$536f377876c0756f8cee3051d6204933f449fb07
-Accept-Encoding: gzip
-X-SS-REQ-TICKET: 1531726203497
-User-Agent: com.ss.android.ugc.aweme/200 (Linux; U; Android 8.0.0; zh_CN_#Hans; BKL-AL00; Build/HUAWEIBKL-AL00; Cronet/58.0.2991.0)"""
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://www.google.com/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: RK=MUIUMx6lTY; ptcz=f2b39020fd87469fd087c0b7f7e37420d38e6d332b75bde23b0e4a4b61fd0cc3; pt2gguin=o0574613576; pgv_pvid=6211376896; pgv_pvi=7068666880; o_cookie=574613576; ts_uid=6350478752; pac_uid=1_574613576; ptui_loginuin=aaafaff@qq.com; ptisp=ctc; pgv_info=ssid=s8224135895; pgv_si=s5358602240; _qpsvr_localtk=0.08829715672984895; ts_refer=www.google.com/; ad_play_index=44; qv_als=PaRAhCkPrS05VjEEA11531798051Bzwiag==; uin=o0574613576; skey=@qrTkeSXfv; tvfe_boss_uuid=19cb1313d3f0ac88"""
 
 
 

@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/f_wei/qq/img_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f_wei/qq/login_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f_wei/qq/qq_action.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_wei/qq/qq.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_wei/qq/qq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_wei/wnagyi_163/wangyi.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_wei/wnagyi_163/wangyi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wxb/headers_to_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Wxb/headers_to_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_wei/qq/qq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_wei/qq/qq_frame_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/f_wei/qq/qq_frame_1.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,27 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wangyi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/wnagyi_163/wangyi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7-17.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7-17.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="img_requests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/f_wei/wnagyi_163/img_requests.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,8 +46,8 @@
       <file leaf-file-name="qq.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/f_wei/qq/qq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+            <state relative-caret-position="193">
+              <caret line="39" selection-end-line="113" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -72,7 +55,106 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="img_requests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qq_action.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_action.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qq_action_from_blog.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="e#17#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_requests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f_wei/qq/login_requests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logined.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/f_wei/qq/logined.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="197" column="100" selection-start-line="197" selection-start-column="100" selection-end-line="197" selection-end-column="100" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#74355#74361#0" expanded="true" />
+                <element signature="e#74385#74391#0" expanded="true" />
+                <element signature="e#74963#74969#0" expanded="true" />
+                <element signature="e#74993#74999#0" expanded="true" />
+                <element signature="e#75575#75581#0" expanded="true" />
+                <element signature="e#75617#75623#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#4;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#5;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#6;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#7;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#h2#0;n#div#0;n#div#1;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#h2#0;n#div#0;n#div#1;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#9;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#2;n#div#9;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#9;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#9;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headers_to_dict.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wxb/headers_to_dict.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action_chains.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/common/action_chains.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img_requests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/f_wei/qq/img_requests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
@@ -93,39 +175,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qq.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/qq/qq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="110" selection-start-line="7" selection-start-column="110" selection-end-line="7" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qq_frame_0.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_frame_0.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#ins#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qq_frame_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_frame_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="109" selection-start-column="109" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -138,8 +187,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Чулуунбат</find>
-      <find>Bor</find>
       <find>Borjigin</find>
       <find>Gerelmaa</find>
       <find>Пүрэвдорж</find>
@@ -166,8 +213,10 @@
       <find>process_item</find>
       <find>ZipfilePipelineWithFTP</find>
       <find>loginLinks</find>
-      <find />
+      <find>&lt;div class=&quot;yidun_tips</find>
       <find>请依次</find>
+      <find>loginGrayLayoutImg</find>
+      <find>get_c</find>
     </findStrings>
     <replaceStrings>
       <replace>u</replace>
@@ -184,9 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Facebook/praise_7-5/excel_to_mongo.py" />
-        <option value="$PROJECT_DIR$/Facebook_Python/setting.py" />
-        <option value="$PROJECT_DIR$/Facebook_Python/utils.py" />
         <option value="$PROJECT_DIR$/Facebook_Python/person_index.py" />
         <option value="$PROJECT_DIR$/my_test/orm/db_test.py" />
         <option value="$PROJECT_DIR$/WX/read_praise.py" />
@@ -222,7 +268,6 @@
         <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py" />
         <option value="$PROJECT_DIR$/server/server_temp.py" />
         <option value="$PROJECT_DIR$/7-16.txt" />
-        <option value="$PROJECT_DIR$/Wxb/headers_to_dict.py" />
         <option value="$PROJECT_DIR$/my_test/douyin/douyin_request.py" />
         <option value="$PROJECT_DIR$/my_test/douyin/mitm_douyin.py" />
         <option value="$PROJECT_DIR$/Twitter/login.py" />
@@ -235,6 +280,10 @@
         <option value="$PROJECT_DIR$/f_wei/wnagyi_163/wangyi.py" />
         <option value="$PROJECT_DIR$/f_wei/qq/qq.py" />
         <option value="$PROJECT_DIR$/f_wei/qq/img_requests.py" />
+        <option value="$PROJECT_DIR$/f_wei/qq/qq_action.py" />
+        <option value="$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py" />
+        <option value="$PROJECT_DIR$/Wxb/headers_to_dict.py" />
+        <option value="$PROJECT_DIR$/f_wei/qq/login_requests.py" />
       </list>
     </option>
   </component>
@@ -248,8 +297,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-45" />
-    <option name="y" value="35" />
+    <option name="x" value="-87" />
+    <option name="y" value="13" />
     <option name="width" value="1210" />
     <option name="height" value="946" />
   </component>
@@ -282,14 +331,12 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="f_wei" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="f_wei" type="462c0819:PsiDirectoryNode" />
-              <item name="wnagyi_163" type="462c0819:PsiDirectoryNode" />
+              <item name="Wxb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,8 +381,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.img_requests (1)">
-    <configuration name="bottom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.login_requests">
+    <configuration name="headers_to_dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,11 +390,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f_wei/wnagyi_163" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Wxb" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_wei/wnagyi_163/bottom.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Wxb/headers_to_dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,7 +418,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="img_requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="login_requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -379,11 +426,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f_wei/wnagyi_163" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f_wei/qq" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_wei/wnagyi_163/img_requests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_wei/qq/login_requests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -407,7 +454,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="wangyi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="qq_action_from_blog" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,30 +462,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f_wei/wnagyi_163" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f_wei/qq" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_wei/wnagyi_163/wangyi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.wangyi" />
-      <item itemvalue="Python.bottom" />
       <item itemvalue="Python.qq" />
-      <item itemvalue="Python.img_requests" />
       <item itemvalue="Python.img_requests (1)" />
+      <item itemvalue="Python.qq_action_from_blog" />
+      <item itemvalue="Python.login_requests" />
+      <item itemvalue="Python.headers_to_dict" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.login_requests" />
+        <item itemvalue="Python.headers_to_dict" />
+        <item itemvalue="Python.qq_action_from_blog" />
         <item itemvalue="Python.img_requests (1)" />
         <item itemvalue="Python.qq" />
-        <item itemvalue="Python.img_requests" />
-        <item itemvalue="Python.wangyi" />
-        <item itemvalue="Python.bottom" />
       </list>
     </recent_temporary>
   </component>
@@ -498,16 +545,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.23867229" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.34787235" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.27659574" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3698795" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.5170213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3927711" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="11" sideWeight="0.50052685" weight="0.38795182" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.39255318" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="11" sideWeight="0.50052685" weight="0.43829787" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -658,6 +706,26 @@
           <line>74</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/f_wei/qq/login_requests.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -666,7 +734,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="96" />
+      <option name="time" value="101" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -731,39 +799,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/twisted/internet/threads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -802,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wxb/headers_to_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -995,6 +1023,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/wnagyi_163/wangyi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/wnagyi_163/img_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="29" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/qq/img_qq/3KhsYV5ZQK_ahMq.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_frame_0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1029,20 +1080,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/wnagyi_163/wangyi.py">
+    <entry file="file://$PROJECT_DIR$/f_wei/qq/img_requests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/wnagyi_163/img_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="29" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="171">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1051,23 +1092,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/f_wei/qq/qq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+        <state relative-caret-position="193">
+          <caret line="39" selection-end-line="113" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/img_qq/3KhsYV5ZQK_ahMq.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/img_requests.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/common/action_chains.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="181">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wxb/headers_to_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#17#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/qq/login_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/qq/logined.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="197" column="100" selection-start-line="197" selection-start-column="100" selection-end-line="197" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#74355#74361#0" expanded="true" />
+            <element signature="e#74385#74391#0" expanded="true" />
+            <element signature="e#74963#74969#0" expanded="true" />
+            <element signature="e#74993#74999#0" expanded="true" />
+            <element signature="e#75575#75581#0" expanded="true" />
+            <element signature="e#75617#75623#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#5;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#6;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#7;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#7;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#h2#0;n#div#0;n#div#1;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#h2#0;n#div#0;n#div#1;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#8;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#9;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h2#0;n#div#0;n#div#2;n#div#9;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#9;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#9;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
