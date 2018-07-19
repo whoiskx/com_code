@@ -98,16 +98,10 @@ def load_excel(file_name='', db_praise=''):
 
 
 def main():
-    file_name_read = 'facebook_julei20180712.xlsx'
-    # file_name_read = 'facebook20180711.xlsx'
-    db_save = 'save_ju_12'
-    db_praise = 'praise_ju_12'
-    file_name_load = 'D:\praise_7_12_ju.xlsx'
-
-    file_name_read = 'facebook20180712.xlsx'
-    db_save = 'save_12'
-    db_praise = 'praise_12'
-    file_name_load = 'D:\praise_7_12.xlsx'
+    file_name_read = 'facebook_julei20180718.xlsx'
+    db_save = 'save_ju_18'
+    db_praise = 'praise_ju_18'
+    file_name_load = 'D:\praise_7_18_ju.xlsx'
 
     read_excel(file_name=file_name_read, db_save=db_save, db_praise=db_praise)
     load_excel(file_name=file_name_load, db_praise=db_praise)

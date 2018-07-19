@@ -3,7 +3,7 @@ from setting import urun
 
 
 # 读取excel文件
-def read_excel(file_name=''):
+def read_excel(file_name='', db_save='', db_praise=''):
     # 打开 默认可读写
     wb = load_workbook(file_name)
 
@@ -31,8 +31,8 @@ def read_excel(file_name=''):
             "name": name,
             'url': url,
         }
-        urun.praise_7_18.insert(account)
-
+        urun[db_save].insert(account)
+    print("get all excel")
     # 获取行和列
     # sheet.rows    生成器, 每一行的数据，tuple包裹。
     # sheet.columns
@@ -46,28 +46,71 @@ def read_excel(file_name=''):
     # for row_cell in sheet['A1':'B3']:
     #     for cell in row_cell:
     #         print(cell)
+    import time
+
+    from selenium import webdriver
+
+    driver = webdriver.Chrome()
+
+    urls = urun[db_save].find()
+    error_count = 0
+    for count, u in enumerate(urls):
+        try:
+            if count == 0:
+                continue
+            url = u.get("url")
+            print(url)
+            driver.get(url)
+            time.sleep(2)
+            praise = driver.find_element_by_class_name('_2u_j').text
+            if '次赞' in praise:
+                praise = praise.replace('次赞', '')
+            print('第{}次'.format(count), praise)
+            u.update({'praise': praise})
+            urun[db_praise].insert(u)
+            # if count == 3:
+            #     break
+        except Exception as e:
+            print("===========")
+            error_count += 1
+            print(error_count, e)
+            print(u)
+            u.update({'praise': 0})
+            urun[db_praise].insert(u)
+            continue
+    print('end')
 
 
-def load_excel(file_name=''):
+def load_excel(file_name='', db_praise=''):
     # 新建工作表
     wb = Workbook()
     # 获取工作表
     sheet = wb.active
-    data = urun.praise_7_11_julei_praise_2
+    data = urun[db_praise]
     for u in data.find():
         row = [u.get('name'), u.get("praise"), u.get('url')]
         # 写写入单元格  直接赋值：sheet['A1'] = 'good'
         sheet.append(row)
     # 保存文件
     # wb.save(r"D:\praise_7_8_praise_2.xlsx")
+    print('save')
     wb.save(file_name)
 
-def main():
-    file_name_read = 'facebook_julei20180718.xlsx'
-    # file_name_read = 'facebook20180711.xlsx'
-    read_excel(file_name=file_name_read)
 
-    load_excel(file_name=r'D:\praise_7_11_ju.xlsx')
+def main():
+    file_name_read = 'facebook_julei20180712.xlsx'
+    # file_name_read = 'facebook20180711.xlsx'
+    db_save = 'save_ju_12'
+    db_praise = 'praise_ju_12'
+    file_name_load = 'D:\praise_7_12_ju.xlsx'
+
+    file_name_read = 'facebook20180718.xlsx'
+    db_save = 'save_18'
+    db_praise = 'praise_18'
+    file_name_load = 'D:\praise_7_18.xlsx'
+
+    read_excel(file_name=file_name_read, db_save=db_save, db_praise=db_praise)
+    load_excel(file_name=file_name_load, db_praise=db_praise)
 
 
 if __name__ == '__main__':
