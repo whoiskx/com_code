@@ -20,7 +20,7 @@ def run():
     while 1:
         try:
             print('start app...1')
-            app.run(port=8356, debug=True)
+            app.run(port=8356, host='0.0.0.0', debug=True)
         except Exception as e:
             print(e)
             print('sleep...')

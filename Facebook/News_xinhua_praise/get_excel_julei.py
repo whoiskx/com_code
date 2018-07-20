@@ -98,10 +98,11 @@ def load_excel(file_name='', db_praise=''):
 
 
 def main():
-    file_name_read = 'facebook_julei20180718.xlsx'
-    db_save = 'save_ju_18'
-    db_praise = 'praise_ju_18'
-    file_name_load = 'D:\praise_7_18_ju.xlsx'
+    day = 9
+    file_name_read = 'facebook_julei2018071{}.xlsx'.format(day)
+    db_save = 'save_ju_1{}'.format(day)
+    db_praise = 'praise_ju_1{}'.format(day)
+    file_name_load = 'D:\praise_7_1{}_ju.xlsx'.format(day)
 
     read_excel(file_name=file_name_read, db_save=db_save, db_praise=db_praise)
     load_excel(file_name=file_name_load, db_praise=db_praise)

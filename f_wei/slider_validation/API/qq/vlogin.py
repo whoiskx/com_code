@@ -33,6 +33,7 @@ def vlogin_qq(user='', password=''):
     url = 'https://xui.ptlogin2.qq.com/cgi-bin/xlogin?&low_login=0&appid=636014201&target=self&border_radius=1&maskOpacity=40&s_url=http%3A//www.qq.com/qq2012/loginSuccess.htm'
     # driver = webdriver.Chrome()
     # driver.delete_all_cookies()
+
     driver = webdriver.PhantomJS()
     print('start cookies', driver.get_cookies())
 
