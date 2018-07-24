@@ -1,0 +1,22 @@
+doc.writexml(fp, indent='\t', addindent='\t', newl='\n', encoding="utf-8")
+    第一个 indent 指第二行
+
+文件写入编码问题  open('xx', encoding=utf-8)
+
+消息队列技术是分布式应用间交换信息的一种技术。消息队列可驻留在内存或磁盘上, 队列存储消息直到它们被应用程序读走
+https://www.ibm.com/developerworks/cn/opensource/os-cn-kafka/index.html
+
+redis
+    得到所有key(表)  r.keys()
+    得到所有键值对
+    r.hset()  用于字典  重复 -> 替换
+    r.hsetall() 所有
+
+
+python xml 生成
+
+md5 生成  创建md5对象 加密 显示
+m = hashlib.md5()
+m.update(str.encode(encoding='utf-8'))
+m.hexdigest()
+

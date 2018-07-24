@@ -29,7 +29,9 @@ def print_time(thread_name, delay, counter):
 thread_1 = MyThreading(1, 'Thread-1', 1)
 thread_2 = MyThreading(2, "Thread-2", 2)
 
+print("create success")
 thread_1.start()
 thread_2.start()
+thread_1.start()
 
 print("exit main thread")

@@ -150,6 +150,6 @@ def vlogin_qq(user='', password=''):
 
 
 if __name__ == '__main__':
-    user = '1047851980@qq.com'
-    password ='jh123258456'
+    user = ''
+    password =''
     vlogin_qq(user=user, password=password)
