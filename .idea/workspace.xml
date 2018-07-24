@@ -2,18 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/7-19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180719.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180719.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_test/driver_page_source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/bd5c29ba399f21f5bc8893b41c7e145d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/post_nologin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/xml/9988f801a9ec0a8a982a8a90ac235b74.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/xml/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/xml/producter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_test/FB_not_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/threding_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180718.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180718.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_wei/slider_validation/API/ghostdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/f_wei/slider_validation/API/ghostdriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_wei/slider_validation/API/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_wei/slider_validation/API/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook_to_Python/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook_to_Python/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wxb/headers_to_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Wxb/headers_to_dict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/find_all_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/find_all_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/thread_test/thread_instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/thread_test/thread_instance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/thread_test/threading" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/thread_test/threading" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/thread_test/threading_instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/thread_test/threading_instance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/thread_test/yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/thread_test/yield.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/space" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,20 +55,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="7-19.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/7-19.txt">
+      <file leaf-file-name="example.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="589">
+              <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/setting.py">
+      <file leaf-file-name="post_nologin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/post_nologin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="428">
+              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+              <folding>
+                <element signature="e#316#349#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,69 +88,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="to_mongo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/to_mongo.py">
+      <file leaf-file-name="FB_xml.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="238">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="17" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FB_xml.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9988f801a9ec0a8a982a8a90ac235b74.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/9988f801a9ec0a8a982a8a90ac235b74.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="136" column="38" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="38" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#321#335#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/group.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="group.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/upload/group.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="json_file.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/upload/json_file.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="qq_action_from_blog.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py">
+      <file leaf-file-name="producter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/producter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2318">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
-              <folding>
-                <element signature="e#17#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver_page_source.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_test/driver_page_source.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drive_html_0.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_test/drive_html_0.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#54#77#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -181,24 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my_test/zip.py" />
-        <option value="$PROJECT_DIR$/WX/read_praise_7-10.py" />
-        <option value="$PROJECT_DIR$/7-10.txt" />
-        <option value="$PROJECT_DIR$/WX/body_to_row.py" />
-        <option value="$PROJECT_DIR$/WX/read_praise_7_11.py" />
-        <option value="$PROJECT_DIR$/7-11.txt" />
-        <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/parse.py" />
-        <option value="$PROJECT_DIR$/server/weibo_url.py" />
-        <option value="$PROJECT_DIR$/server/weibo_person_index.py" />
-        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/slave.py" />
-        <option value="$PROJECT_DIR$/7-12.txt" />
-        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py" />
-        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py" />
-        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py" />
-        <option value="$PROJECT_DIR$/7-13.txt" />
-        <option value="$PROJECT_DIR$/7-5.txt" />
-        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py" />
-        <option value="$PROJECT_DIR$/scrapy.txt" />
         <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/记录.txt" />
         <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py" />
         <option value="$PROJECT_DIR$/server/server_temp.py" />
@@ -216,7 +211,6 @@
         <option value="$PROJECT_DIR$/f_wei/qq/qq.py" />
         <option value="$PROJECT_DIR$/f_wei/qq/img_requests.py" />
         <option value="$PROJECT_DIR$/f_wei/qq/qq_action.py" />
-        <option value="$PROJECT_DIR$/Wxb/headers_to_dict.py" />
         <option value="$PROJECT_DIR$/f_wei/qq/login_requests.py" />
         <option value="$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py" />
         <option value="$PROJECT_DIR$/f_wei/slider_validation/API.py" />
@@ -226,12 +220,31 @@
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/excel_read_and_write.py" />
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_one.py" />
         <option value="$PROJECT_DIR$/7-18.txt" />
-        <option value="$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py" />
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" />
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" />
         <option value="$PROJECT_DIR$/f_wei/slider_validation/API/main.py" />
         <option value="$PROJECT_DIR$/my_test/driver_page_source.py" />
         <option value="$PROJECT_DIR$/7-19.txt" />
+        <option value="$PROJECT_DIR$/my_test/find_all_file.py" />
+        <option value="$PROJECT_DIR$/7-21.txt" />
+        <option value="$PROJECT_DIR$/my_test/thread_test/thread_instance.py" />
+        <option value="$PROJECT_DIR$/my_test/thread_test/threading_instance.py" />
+        <option value="$PROJECT_DIR$/my_test/thread_test/threading" />
+        <option value="$PROJECT_DIR$/my_test/thread_test/yield.py" />
+        <option value="$PROJECT_DIR$/server/weibo_person_index.py" />
+        <option value="$PROJECT_DIR$/server/threding_server.py" />
+        <option value="$PROJECT_DIR$/Wxb/headers_to_dict.py" />
+        <option value="$PROJECT_DIR$/my_test/FB_not_login.py" />
+        <option value="$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py" />
+        <option value="$PROJECT_DIR$/Facebook/rewrite/fff.py" />
+        <option value="$PROJECT_DIR$/Facebook_to_Python/utils.py" />
+        <option value="$PROJECT_DIR$/Facebook/rewrite/utils.py" />
+        <option value="$PROJECT_DIR$/Facebook/rewrite/xml/example.py" />
+        <option value="$PROJECT_DIR$/Facebook/rewrite/xml/Manager.xml" />
+        <option value="$PROJECT_DIR$/Facebook/rewrite/xml/producter.py" />
+        <option value="$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py" />
+        <option value="$PROJECT_DIR$/7-24.txt" />
+        <option value="$PROJECT_DIR$/Facebook/rewrite/post_nologin.py" />
       </list>
     </option>
   </component>
@@ -244,8 +257,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="247" />
+    <option name="y" value="91" />
     <option name="width" value="1210" />
     <option name="height" value="946" />
   </component>
@@ -267,7 +281,68 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="my_test" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="rewrite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="rewrite" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="93a46506-84d8-11e8-82fd-fc017c3bd1b0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="exts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,21 +356,21 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/com_code/f_wei/slider_validation/API/qq/vlogin.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="E:/ProxyPool_old" />
+    <property name="last_opened_file_path" value="E:/境外社交交接" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\com_code\Facebook\rewrite\xml" />
+      <recent name="D:\com_code\Facebook\News_xinhua_praise" />
+      <recent name="D:\com_code" />
+      <recent name="D:\com_code\Facebook\praise_7-5" />
+      <recent name="D:\com_code\Facebook_xihaiming\space" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\com_code\f_wei\slider_validation\API" />
       <recent name="D:\com_code\DAYBYDAY\6月" />
       <recent name="D:\com_code\Facebook_xihaiming\space_new\temp" />
-      <recent name="D:\com_code\Facebook_xihaiming\space" />
-      <recent name="D:\com_code\Facebook" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\com_code\Facebook\News_xinhua_praise" />
-      <recent name="D:\com_code" />
-      <recent name="D:\com_code\Facebook\praise_7-5" />
       <recent name="D:\com_code\Facebook_xihaiming\space" />
       <recent name="D:\com_code\Facebook" />
     </key>
@@ -312,8 +387,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.driver_page_source">
-    <configuration name="driver_page_source" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.post_nologin">
+    <configuration name="FB_xml" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,17 +396,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite/xml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test/driver_page_source.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="get_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,17 +414,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/News_xinhua_praise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite/xml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/xml/example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="get_excel_julei" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fff" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,17 +432,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/News_xinhua_praise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" />
+      <option name="SCRIPT_NAME" value="D:\com_code\Facebook\rewrite\post_nologin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="get_excel_one" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="post_nologin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,17 +450,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/News_xinhua_praise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\com_code\Facebook\News_xinhua_praise\get_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/post_nologin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="producter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -393,30 +468,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f_wei/slider_validation/API" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite/xml" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_wei/slider_validation/API/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/xml/producter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.get_excel_one" />
-      <item itemvalue="Python.get_excel_julei" />
-      <item itemvalue="Python.get_excel" />
-      <item itemvalue="Python.driver_page_source" />
+      <item itemvalue="Python.fff" />
+      <item itemvalue="Python.post_nologin" />
+      <item itemvalue="Python.producter" />
+      <item itemvalue="Python.example" />
+      <item itemvalue="Python.FB_xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.driver_page_source" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.get_excel_julei" />
-        <item itemvalue="Python.get_excel" />
-        <item itemvalue="Python.get_excel_one" />
+        <item itemvalue="Python.post_nologin" />
+        <item itemvalue="Python.FB_xml" />
+        <item itemvalue="Python.producter" />
+        <item itemvalue="Python.example" />
+        <item itemvalue="Python.fff" />
       </list>
     </recent_temporary>
   </component>
@@ -481,19 +556,19 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.23867229" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3698795" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.5170213" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.4319149" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3698795" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.5170213" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.35" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.39255318" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35851064" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="11" sideWeight="0.50052685" weight="0.4670213" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.4670213" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Messages" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
@@ -672,6 +747,11 @@
           <line>9</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/my_test/FB_not_login.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -680,7 +760,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="108" />
+      <option name="time" value="110" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -698,351 +778,82 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>driver.page_source</expression-string>
+        <expression-string>driver.find_element_by_class_name('_5pbx').text</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.get_cookies()</expression-string>
+        <expression-string>driver.find_elements_by_class_name('_2u_j')[1].text</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.find_element_by_id('slideBkg').get_attribute('src')</expression-string>
+        <expression-string>driver.find_elements_by_class_name('_2u_j')[1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.find_element_by_id('slideBkg')</expression-string>
+        <expression-string>driver.find_elements_by_class_name('_2u_j').text</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.switch_to.frame(0)</expression-string>
+        <expression-string>driver.find_elements_by_class_name('_2u_j')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.switch_to.frame(2)</expression-string>
+        <expression-string>driver.find_elements_by_class_name('scaledImageFitWidth')[1].get_attribute('outerHTML')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.switch_to.frame(1)</expression-string>
+        <expression-string>driver.find_elements_by_class_name('scaledImageFitWidth')[1].get_attribute('innerHTML')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.find_elements_by_id('slideBkg')</expression-string>
+        <expression-string>driver.find_elements_by_class_name('scaledImageFitWidth')[1].html</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>driver.find_elements_by_tag_name('img')</expression-string>
+        <expression-string>driver.find_elements_by_class_name('scaledImageFitWidth')[1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/f_wei/wnagyi_163/wangyi.py">
+    <entry file="file://$PROJECT_DIR$/my_test/thread_test/threading_instance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/wnagyi_163/img_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="29" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/img_qq/3KhsYV5ZQK_ahMq.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_frame_0.html" />
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_frame_1.html" />
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/qq.html" />
-    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/img_requests.py">
+    <entry file="file://$PROJECT_DIR$/my_test/thread_test/yield.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/qq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="39" selection-end-line="113" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/my_test/verification_code/1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/common/action_chains.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/my_test/verification_code/cut.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/my_test/verification_code/full.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wxb/headers_to_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/login_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/logined.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="197" column="100" selection-start-line="197" selection-start-column="100" selection-end-line="197" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API.py" />
-    <entry file="file://$PROJECT_DIR$/7-16.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-14.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-13.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-12.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-11.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-10.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-9.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-6.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/socketserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="1993" selection-start-line="1993" selection-end-line="1993" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/werkzeug/debug/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="283" selection-start-line="283" selection-end-line="283" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/http/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="417" selection-start-line="417" selection-end-line="417" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/werkzeug/serving.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="227" selection-start-line="227" selection-end-line="227" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/excel_post.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/excel_read_and_write.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/parse.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-17.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-18.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/qq/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="116" column="26" lean-forward="true" selection-start-line="108" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="101" column="63" lean-forward="true" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#54#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/to_mongo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/group.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/upload/group.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/upload/json_file.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/qq/qq_action_from_blog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-          <folding>
-            <element signature="e#17#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/drive_html_0.html">
+    <entry file="file://$PROJECT_DIR$/my_test/verification_code/huxiu.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/my_test/driver_page_source.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -1050,10 +861,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7-19.txt">
+    <entry file="file://$PROJECT_DIR$/my_test/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/logger.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/T_doban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/T_mitmproxy.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/T_mitmproxy_add.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/T_mitmproxy_weixin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/T_pyquery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/T_re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/T_request_wx.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/T_yield.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/zip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/drive_html_0.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/wechat_spider-master/url_manager.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/threding_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/wechat_spider-master/spider_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1693">
+          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/FB_not_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wxb/6_7_cookies.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wxb/headers_to_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/find_all_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server_temp.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/weibo_person_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2774">
+          <caret line="152" column="12" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/qq/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="84" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_to_Python/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/Manager.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/tel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93a46506-84d8-11e8-82fd-fc017c3bd1b0/704184f390fc6b68e02fe37b3e3a4cc0.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/517a09b96cca746e511cd08a6415d524.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/bd5c29ba399f21f5bc8893b41c7e145d.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-24.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/9988f801a9ec0a8a982a8a90ac235b74.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="136" column="38" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="38" />
+          <folding>
+            <element signature="e#321#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/producter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/post_nologin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="74" />
         </state>
       </provider>
     </entry>

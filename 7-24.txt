@@ -1,0 +1,4 @@
+doc.writexml(fp, indent='\t', addindent='\t', newl='\n', encoding="utf-8")
+    第一个 indent 指第二行
+
+文件写入编码问题  open('xx', encoding=utf-8)
