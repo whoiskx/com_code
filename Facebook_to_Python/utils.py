@@ -36,7 +36,7 @@ def driver_facebook():
     driver = webdriver.Chrome(chrome_options=options)
 
     # driver = webdriver.Firefox()
-    driver.implicitly_wait(15)
+    driver.implicitly_wait(5)
 
     driver.get("https://www.facebook.com/")
     email_text = driver.find_element_by_id("email")

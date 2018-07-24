@@ -42,13 +42,13 @@ def get_post_details(url):
 
 
     xml_node_dict = {
-                        "author": Author,
-                        "portraitUrl": PortraitUrl,
-                        "imageUrl": ImageUrl,
-                        "praises": Praises,
-                        "comments": Comments,
-                        "transmits": Transmits,
-                        "content": Content,
+            "author": Author,
+            "portraitUrl": PortraitUrl,
+            "imageUrl": ImageUrl,
+            "praises": Praises,
+            "comments": Comments,
+            "transmits": Transmits,
+            "content": Content,
     }
     xml_sample = ['site', 'content', 'author', 'time', 'url', 'authorID', 'imageUrl', 'transtmis', 'comments', 'hash',
              'blogid', 'uid', 'imgCounts', 'source', 'qimgCounts']
@@ -57,11 +57,15 @@ def get_post_details(url):
     root = doc.createElement('Blog')
     doc.appendChild(root)
     for node in xml_sample:
+        node_append = doc.createElement(node)
         if node in xml_node_dict.keys():
             node_xml = doc.createElement(node)
-            text = xml_node_dict[node_xml]
-            node.crea
-        root.appendChild(node_xml)
+            text = xml_node_dict[node]
+            node_text = doc.createTextNode(text)
+            node_xml.appendChild(node_text)
+            root.appendChild(node_xml)
+            continue
+        root.appendChild(node_append)
 
     import hashlib
     import time

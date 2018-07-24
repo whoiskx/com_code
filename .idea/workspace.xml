@@ -2,38 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/7-21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/bd5c29ba399f21f5bc8893b41c7e145d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/post_nologin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/xml/9988f801a9ec0a8a982a8a90ac235b74.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/xml/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/xml/producter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_test/FB_not_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/threding_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/kafka/kafka_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/kafka/kafka_producter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/kafka/redis_examplt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/kafka/redis_insert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facebook/rewrite/count.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-24.txt" beforeDir="false" afterPath="$PROJECT_DIR$/7-24.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAYBYDAY/frame/redis.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/DAYBYDAY/frame/redis.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/rewrite/post_nologin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/rewrite/post_nologin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facebook_to_Python/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook_to_Python/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wxb/headers_to_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Wxb/headers_to_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/find_all_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/find_all_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/sougou_search/sougou_9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/thread_test/thread_instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/thread_test/thread_instance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/thread_test/threading" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/thread_test/threading" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/thread_test/threading_instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/thread_test/threading_instance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/thread_test/yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/thread_test/yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/space" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,83 +33,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="example.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/example.py">
+      <file leaf-file-name="weiboUtils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="74" />
+            <state relative-caret-position="-5413" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scheduler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="connection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/connection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2373" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis_examplt.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/kafka/redis_examplt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_nologin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/post_nologin.py">
+      <file leaf-file-name="redis_insert.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Facebook/kafka/redis_insert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-              <folding>
-                <element signature="e#316#349#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="scrapy.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrapy.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="FB_xml.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="17" selection-end-column="66" />
-            </state>
-          </provider>
+      <file leaf-file-name="7-21.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7-21.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="FB_xml.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="9988f801a9ec0a8a982a8a90ac235b74.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/9988f801a9ec0a8a982a8a90ac235b74.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="136" column="38" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="38" />
-              <folding>
-                <element signature="e#321#335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="producter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/producter.py">
+      <file leaf-file-name="7-24.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7-24.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="29" />
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/redis/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="1378" column="17" selection-start-line="1378" selection-start-column="8" selection-end-line="1378" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -148,7 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Borjigin</find>
       <find>Gerelmaa</find>
       <find>Пүрэвдорж</find>
       <find>results</find>
@@ -178,6 +144,7 @@
       <find>请依次</find>
       <find>loginGrayLayoutImg</find>
       <find>get_c</find>
+      <find>pop</find>
     </findStrings>
     <replaceStrings>
       <replace>u</replace>
@@ -194,12 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/记录.txt" />
-        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py" />
-        <option value="$PROJECT_DIR$/server/server_temp.py" />
-        <option value="$PROJECT_DIR$/7-16.txt" />
-        <option value="$PROJECT_DIR$/my_test/douyin/douyin_request.py" />
-        <option value="$PROJECT_DIR$/my_test/douyin/mitm_douyin.py" />
         <option value="$PROJECT_DIR$/Twitter/login.py" />
         <option value="$PROJECT_DIR$/my_test/verification_code/huxiu.py" />
         <option value="$PROJECT_DIR$/f_wei/wnagyi_163/test.py" />
@@ -237,14 +198,20 @@
         <option value="$PROJECT_DIR$/my_test/FB_not_login.py" />
         <option value="$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py" />
         <option value="$PROJECT_DIR$/Facebook/rewrite/fff.py" />
-        <option value="$PROJECT_DIR$/Facebook_to_Python/utils.py" />
         <option value="$PROJECT_DIR$/Facebook/rewrite/utils.py" />
         <option value="$PROJECT_DIR$/Facebook/rewrite/xml/example.py" />
         <option value="$PROJECT_DIR$/Facebook/rewrite/xml/Manager.xml" />
         <option value="$PROJECT_DIR$/Facebook/rewrite/xml/producter.py" />
         <option value="$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py" />
-        <option value="$PROJECT_DIR$/7-24.txt" />
+        <option value="$PROJECT_DIR$/Facebook_to_Python/utils.py" />
+        <option value="$PROJECT_DIR$/Facebook/rewrite/count.py" />
         <option value="$PROJECT_DIR$/Facebook/rewrite/post_nologin.py" />
+        <option value="$PROJECT_DIR$/Facebook/kafka/kafka.py" />
+        <option value="$PROJECT_DIR$/Facebook/kafka/kafka_producter.py" />
+        <option value="$PROJECT_DIR$/Facebook/kafka/kafka_example.py" />
+        <option value="$PROJECT_DIR$/7-24.txt" />
+        <option value="$PROJECT_DIR$/Facebook/kafka/redis_examplt.py" />
+        <option value="$PROJECT_DIR$/Facebook/kafka/redis_insert.py" />
       </list>
     </option>
   </component>
@@ -257,7 +224,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="247" />
     <option name="y" value="91" />
     <option name="width" value="1210" />
@@ -287,14 +254,7 @@
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
               <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="rewrite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-              <item name="rewrite" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
@@ -344,6 +304,15 @@
               <item name="scraper" type="462c0819:PsiDirectoryNode" />
               <item name="scraper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="scraper" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -387,44 +356,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.post_nologin">
-    <configuration name="FB_xml" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite/xml" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite/xml" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/xml/example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="fff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.redis_insert">
+    <configuration name="count" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -436,13 +369,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\com_code\Facebook\rewrite\post_nologin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/count.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="post_nologin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kafka_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -450,17 +383,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/kafka" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/post_nologin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/kafka/kafka_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="producter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kafka_producter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -468,30 +401,66 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/rewrite/xml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/kafka" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/rewrite/xml/producter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/kafka/kafka_producter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="redis_examplt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/kafka" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/kafka/redis_examplt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="redis_insert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/kafka" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/kafka/redis_insert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.fff" />
-      <item itemvalue="Python.post_nologin" />
-      <item itemvalue="Python.producter" />
-      <item itemvalue="Python.example" />
-      <item itemvalue="Python.FB_xml" />
+      <item itemvalue="Python.count" />
+      <item itemvalue="Python.kafka_producter" />
+      <item itemvalue="Python.kafka_example" />
+      <item itemvalue="Python.redis_examplt" />
+      <item itemvalue="Python.redis_insert" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.post_nologin" />
-        <item itemvalue="Python.FB_xml" />
-        <item itemvalue="Python.producter" />
-        <item itemvalue="Python.example" />
-        <item itemvalue="Python.fff" />
+        <item itemvalue="Python.redis_insert" />
+        <item itemvalue="Python.redis_examplt" />
+        <item itemvalue="Python.kafka_example" />
+        <item itemvalue="Python.kafka_producter" />
+        <item itemvalue="Python.count" />
       </list>
     </recent_temporary>
   </component>
@@ -551,18 +520,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.23867229" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.23867229" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3698795" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.5074468" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5170213" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.35" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.48829788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.35851064" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.4670213" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.6670213" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -760,7 +728,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="110" />
+      <option name="time" value="111" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -777,6 +745,11 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>xml_node_dict.keys()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>driver.find_element_by_class_name('_5pbx').text</expression-string>
         <language-id>Python</language-id>
@@ -817,165 +790,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>driver.find_elements_by_class_name('scaledImageFitWidth')[1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my_test/thread_test/threading_instance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/thread_test/yield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/verification_code/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/verification_code/cut.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/verification_code/full.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/verification_code/huxiu.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/driver_page_source.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/logger.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_doban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1265" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_mitmproxy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_mitmproxy_add.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_mitmproxy_weixin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_pyquery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_request_wx.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/T_yield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/zip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/drive_html_0.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/wechat_spider-master/url_manager.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/threding_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/wechat_spider-master/spider_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1693">
-          <caret line="271" selection-start-line="271" selection-end-line="271" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/FB_not_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wxb/6_7_cookies.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wxb/headers_to_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/find_all_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server_temp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/weibo_person_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/qq/vlogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2774">
-          <caret line="152" column="12" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/f_wei/slider_validation/API/ghostdriver.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1001,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook_to_Python/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/rewrite/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1024,32 +834,6 @@
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/93a46506-84d8-11e8-82fd-fc017c3bd1b0/704184f390fc6b68e02fe37b3e3a4cc0.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/517a09b96cca746e511cd08a6415d524.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/bd5c29ba399f21f5bc8893b41c7e145d.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-24.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/9988f801a9ec0a8a982a8a90ac235b74.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1064,12 +848,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="74" lean-forward="true" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/FB_xml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="133">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="17" selection-end-column="66" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/xml/dom/minidom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook_to_Python/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/517a09b96cca746e511cd08a6415d524.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/bd5c29ba399f21f5bc8893b41c7e145d.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/producter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/f66366b34ce78d675b00b53804570d8e.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/dca0ffcf996555e197feee36ebd683b7.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="18" column="136" selection-start-line="18" selection-start-column="136" selection-end-line="18" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/post_nologin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/kafka/kafka_producter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/kafka/kafka_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/defaults.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/dupefilter.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/picklecompat.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1081,27 +985,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/producter.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_slave.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/weibo_master.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/scrapy/loader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="113" column="41" selection-start-line="113" selection-start-column="41" selection-end-line="113" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/post_nologin.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/_io.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="205">
+          <caret line="1277" column="8" selection-start-line="1277" selection-start-column="8" selection-end-line="1277" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/master.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="44" column="70" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/spiders/slave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/queue.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/spiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2534">
+          <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
           <folding>
-            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/xml/example.py">
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="74" />
+        <state relative-caret-position="1406">
+          <caret line="74" column="15" lean-forward="true" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2373" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-21.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-24.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/weiboUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5413" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/redis/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1378" column="17" selection-start-line="1378" selection-start-column="8" selection-end-line="1378" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/kafka/redis_examplt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/kafka/redis_insert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
