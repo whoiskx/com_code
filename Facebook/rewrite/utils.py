@@ -15,13 +15,6 @@ def log(*args, **kwargs):
 email = "live41@163.com"
 password = "cs-123456"
 
-# email = '574613576@qq.com'
-# password = 'jh123258456'
-
-
-# email = 'altantsetseg@post.com'
-# password = 'Altantsetseg@123'
-
 
 # 启动driver
 def driver_facebook():
@@ -82,3 +75,25 @@ conn = pymongo.MongoClient('127.0.0.1', 27017)
 urun = conn.urun
 test = conn.test
 # db['uu'].insert({'name':"李白", "age":"30", "skill":"Python"})
+
+# test host
+MYSQL_HOST = 'localhost'
+MYSQL_PORT = 3306
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = ''
+MYSQL_DATABASE = 'comm'
+
+config_mysql = {
+    'host': MYSQL_HOST,
+    'port': MYSQL_PORT,
+    'user': MYSQL_USER,
+    'db': MYSQL_DATABASE,
+
+
+
+}
+
+import pymysql
+
+db_mysql = pymysql.connect(**config_mysql)
+

@@ -1,6 +1,12 @@
 from openpyxl import load_workbook, Workbook
-from setting import urun
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
+
+import pymongo
+conn = pymongo.MongoClient('127.0.0.1', 27017)
+urun = conn.fb_praise
 
 # 读取excel文件
 def read_excel(file_name='', db_save='', db_praise=''):
@@ -61,7 +67,8 @@ def read_excel(file_name='', db_save='', db_praise=''):
             url = u.get("url")
             print(url)
             driver.get(url)
-            time.sleep(2)
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.CLASS_NAME, "_2u_j")))
             praise = driver.find_element_by_class_name('_2u_j').text
             if '次赞' in praise:
                 praise = praise.replace('次赞', '')
@@ -98,11 +105,11 @@ def load_excel(file_name='', db_praise=''):
 
 
 def main():
-    day = 9
-    file_name_read = 'facebook_julei2018071{}.xlsx'.format(day)
-    db_save = 'save_ju_1{}'.format(day)
-    db_praise = 'praise_ju_1{}'.format(day)
-    file_name_load = 'D:\praise_7_1{}_ju.xlsx'.format(day)
+    day = 25
+    file_name_read = 'facebook_julei201807{}.xlsx'.format(day)
+    db_save = 'save_ju_{}'.format(day)
+    db_praise = 'praise_ju_{}'.format(day)
+    file_name_load = 'D:\praise_7_{}_ju.xlsx'.format(day)
 
     read_excel(file_name=file_name_read, db_save=db_save, db_praise=db_praise)
     load_excel(file_name=file_name_load, db_praise=db_praise)

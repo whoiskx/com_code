@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 # TODO: Rename class to RedisDupeFilter.
 class RFPDupeFilter(BaseDupeFilter):
-    """Redis-based request duplicates filter.
+    """Redis-based request duplicatesduplicates filter.
 
     This class can also be used with default Scrapy's scheduler.
 

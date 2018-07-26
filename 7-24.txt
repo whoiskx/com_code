@@ -20,3 +20,7 @@ m = hashlib.md5()
 m.update(str.encode(encoding='utf-8'))
 m.hexdigest()
 
+软件开发工具包（外语首字母缩写：SDK
+
+redis
+    里面的数据是二进制

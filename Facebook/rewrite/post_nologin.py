@@ -78,8 +78,6 @@ def get_post_details(url):
         doc.writexml(f, addindent='\t', newl='\n', encoding="utf-8")
 
 
-
-
 if __name__ == '__main__':
     url = 'https://www.facebook.com/permalink.php?story_fbid=2163264660369593&id=188533647842714'
     get_post_details(url)
