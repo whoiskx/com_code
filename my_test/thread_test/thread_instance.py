@@ -16,6 +16,8 @@ try:
 except Exception as e:
     print(e)
 
-time.sleep(22)
+
+time.sleep(100)
+
 
 print('end')
