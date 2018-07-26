@@ -88,9 +88,6 @@ config_mysql = {
     'port': MYSQL_PORT,
     'user': MYSQL_USER,
     'db': MYSQL_DATABASE,
-
-
-
 }
 
 import pymysql

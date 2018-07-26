@@ -1,9 +1,12 @@
 from utils import db_mysql
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 cursor = db_mysql.cursor()
 
 mysql_find_all = """
-        SELECT * FROM task_fb
+        SELECT * FROM task_2
 """
 cursor.execute(mysql_find_all)
 

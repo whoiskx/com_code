@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Blog>
+	<site/>
+	<content/>
+	<author/>
+	<time/>
+	<url/>
+	<authorID/>
+	<imageUrl/>
+	<transtmis/>
+	<comments/>
+	<hash/>
+	<blogid/>
+	<uid/>
+	<imgCounts/>
+	<source/>
+	<qimgCounts/>
+	<User>
+		<fans/>
+		<favourites/>
+		<follows/>
+		<headurl/>
+		<name/>
+		<posts/>
+		<sex/>
+		<site/>
+		<uid/>
+		<verified_type/>
+	</User>
+	<phrase/>
+	<attitudes_count/>
+	<favorite_count/>
+	<favorite_count/>
+	<atSomeone/>
+	<isComments/>
+</Blog>

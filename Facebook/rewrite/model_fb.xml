@@ -27,14 +27,10 @@
 		<uid/>
 		<verified_type/>
 	</User>
-	<fans/>
-	<favourites/>
-	<follows/>
-	<headurl/>
-	<name/>
-	<posts/>
-	<sex/>
-	<site/>
-	<uid/>
-	<verified_type/>
+	<phrase/>
+	<attitudes_count/>
+	<favorite_count/>
+	<favorite_count/>
+	<atSomeone/>
+	<isComments/>
 </Blog>
