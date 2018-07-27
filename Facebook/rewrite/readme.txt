@@ -14,3 +14,13 @@ FB weibotask  / task 任务表 字段  ftp 上传服务器
     CustomerID  0000
     Oversea     0
     Tag         0
+
+
+内容	    Content
+转载数	Transmits
+评论数	Comments
+点赞数	Praises
+图片链接	ImageUrl
+博主ID	UID
+博主名	Author
+博主头像链接	PortraitUrl

@@ -61,3 +61,5 @@ pyquery  和 driver
 
 历史文件
     消息吉拉拉  点选文件
+
+  pyquery 选择器 多重选择 类只能找类
