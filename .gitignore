@@ -3,3 +3,5 @@ scrapy_exts
 virual
 venv_proxyPool
 .*
+
+*.jpg
