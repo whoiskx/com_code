@@ -87,11 +87,11 @@ def handle(task):
     WebDriverWait(driver, 5).until(
         EC.presence_of_element_located((By.TAG_NAME, 'title')))
     time.sleep(0.5)
-    html = driver.page_source
-    name = url.split('com')[-1]
-    with open('page/{}.html'.format(name), 'w', encoding='utf-8') as f:
-        f.write(html)
-    parse_post(html)
+    # html = driver.page_source
+    # name = url.split('com')[-1]
+    # with open('page/{}.html'.format(name), 'w', encoding='utf-8') as f:
+    #     f.write(html)
+    # parse_post(html)
 
 
 def main():

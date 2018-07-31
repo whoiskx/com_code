@@ -1,0 +1,8 @@
+e 选择标签会有问题， 选择类比较好？？？？
+
+统计某字符串 的次数
+    str.count(sub, start= 0,end=len(string))
+
+
+香港
+    互联先锋  15
