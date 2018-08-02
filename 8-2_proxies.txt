@@ -21,3 +21,14 @@ with open('orm\\read.txt', 'r') as f:
 print(html)
 
 读写目录下的文件 正反斜杠都可以， 反斜杠要转义
+
+
+selenium css 复合类
+    .css来定位class属性的元素前面加个点（.）就行,然后空格变成点（.）
+
+     1.串联寻找
+        print driver.find_element_by_id('B').find_element_by_tag_name('div').text
+     driver 和 pq  text 的区别 driver的text不带()
+
+     获取html
+        element.get_attribute('innerhtml')  or outerhtml

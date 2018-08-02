@@ -19,8 +19,6 @@ password = "cs-123456"
 # password = 'jh123258456'
 
 
-# email = 'altantsetseg@post.com'
-# password = 'Altantsetseg@123'
 
 
 # 启动driver
