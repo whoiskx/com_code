@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 def main(url):
     driver = webdriver.Chrome()
     driver.get(url)
@@ -39,7 +40,16 @@ def main(url):
 
 
 if __name__ == '__main__':
+    # 地方性商家
     url = 'https://www.facebook.com/pages/%E8%81%96%E5%A3%AB%E6%8F%90%E5%8F%8D%E7%81%A3%E6%B3%B3%E7%81%98/143105012420920?rf=313544202035563'
     url = 'https://www.facebook.com/pages/International-Baptist-Church-of-Manila/196088797103440?rf=214379858603733'
     url = 'https://www.facebook.com/pages/Shatin-Inn%E6%B2%99%E7%94%B0%E8%8C%B5%E9%A4%90%E5%BB%B3/362695797132037?rf=102294283185641'
+
+    # 群组
+    # https://www.facebook.com/107597712639350
+    url = "https://www.facebook.com/CityHospitalBd/?rf=523780141030593"
+
+    url = 'https://www.facebook.com/AeroportoLisboa/?rf=107597712639350'
+    # 点赞评论很多
+    url = 'https://www.facebook.com/pg/AeroportoLisboa/posts/?ref=page_internal'
     main(url)
