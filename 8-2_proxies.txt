@@ -32,3 +32,6 @@ selenium css 复合类
 
      获取html
         element.get_attribute('innerhtml')  or outerhtml
+
+E:\境外社交交接\境外社交交接\全局数据采集程序\Crawler_twitter_facebook_new\Crawler\src\main\java\com\urun\commons\model\barfoo
+    关键词解释

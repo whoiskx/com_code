@@ -24,3 +24,41 @@ FB weibotask  / task 任务表 字段  ftp 上传服务器
 博主ID	UID
 博主名	Author
 博主头像链接	PortraitUrl
+
+
+<Blog>
+    <site>5</site>      # 微博类型 1.新浪 2.腾讯 5 推特
+    <content>https://t.co/718kJ57JPy presents: "AcA" https://t.co/q9iFBtU04L https://t.co/j6IZ9IG0Bb</content>  # 内容
+    <author>Wikibuda</author>
+    <time>2018-01-03T06:38:21+08:00</time>
+    <url>https://twitter.com/WikiBuda/status/948322601348235266</url>
+    <authorID>e1134c9b2066781bcb242f1c30cc23ce</authorID>
+    <imageUrl>http://pbs.twimg.com/profile_images/563757977086070784/2t0rRp12_normal.jpeg</imageUrl>
+    <transtmis>0</transtmis>
+    <comments>0</comments>
+    <hash>cc3af9e7cda8cd648ef6945ddc252da8</hash>
+    <blogid>948322601348235266</blogid>
+    <uid>WikiBuda</uid>
+    <imgUrl>http://pbs.twimg.com/media/DSkeYTFWAAEhajr.jpg</imgUrl>
+    <imgCounts>1</imgCounts>
+    <qimgCounts>0</qimgCounts>
+    <source>IFTTT</source>
+    <User>
+        <fans>0</fans>
+        <favourites>0</favourites>
+        <follows>0</follows>
+        <headurl>http://pbs.twimg.com/profile_images/563757977086070784/2t0rRp12_normal.jpeg</headurl>
+        <name>Wikibuda</name>
+        <posts>0</posts>
+        <sex>0</sex>
+        <site>5</site>
+        <uid>WikiBuda</uid>
+        <verified_type>0</verified_type>
+    </User>
+    <phrase/>
+    <attitudes_count>1</attitudes_count>
+    <favorite_count>0</favorite_count>
+    <md5s/>
+    <atSomeone/>
+    <isComments>0</isComments>
+</Blog>
