@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pymysql
 from setting import test, log
+import random
 
 MYSQL_HOST = 'localhost'
 MYSQL_PORT = 3306
@@ -24,13 +25,13 @@ db = pymysql.connect(**config_mysql)
 cursor = db.cursor()
 cursor.execute('select * FROM imagefail')
 count = 0
-urls = cursor.fetchmany(707)
-urls = cursor.fetchmany(878)
+urls = cursor.fetchmany(2707)
+urls = cursor.fetchmany(448)
 while True:
     # if count < 2:
     #     count += 1
     #     continue
-    urls = cursor.fetchmany(1133)
+    urls = cursor.fetchmany(500)
     driver = webdriver.Chrome()
     for url_tuple in urls:
         numb, post_id, _ = url_tuple
@@ -40,6 +41,8 @@ while True:
         driver.get(url)
         try:
             WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, 'inputtext')))
+            t = random.random() * 2
+            time.sleep(t)
             try:
                 header_url_person_div = driver.find_element_by_css_selector('.scaledImageFitWidth.img')
                 header_url_person = header_url_person_div.get_attribute('src')

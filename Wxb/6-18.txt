@@ -1,1 +1,0 @@
-从C＃运行Python脚本可以使用C＃项目中引用的IronPython dll并使用IronPython.Hosting库来完成; 或者通过启动执行Python程序的进程。后面的优点是，脚本可以用任何Python风格编写，只要您安装了与脚本兼容的Python shell。

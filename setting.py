@@ -8,6 +8,7 @@ def log(*args, **kwargs):
     time_format = '%y-%m-%d %H:%M:%S'
     value = time.localtime(int(time.time()))
     dt = time.strftime(time_format, value)
+    print(dt, *args, **kwargs)
     with open('log.txt', 'a', encoding='utf-8') as f:
         print(dt, *args, file=f, **kwargs)
 
@@ -17,10 +18,6 @@ password = "cs-123456"
 
 # email = '574613576@qq.com'
 # password = 'jh123258456'
-
-
-# email = 'altantsetseg@post.com'
-# password = 'Altantsetseg@123'
 
 
 # 启动driver
@@ -34,7 +31,7 @@ def driver_facebook():
         'profile.default_content_setting_values':
             {
                 'notifications': 2,
-                'images': 2,
+                'images': 2,  # 禁止图片
             }
     }
     options = webdriver.ChromeOptions()
@@ -51,6 +48,11 @@ def driver_facebook():
     password_text.send_keys(password)
     button = driver.find_element_by_id('loginbutton')
     button.click()
+    return driver
+
+
+def driver_chrome():
+    driver = webdriver.Chrome()
     return driver
 
 

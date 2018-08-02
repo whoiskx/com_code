@@ -5,3 +5,7 @@ venv_proxyPool
 .*
 
 *.jpg
+*.zip
+*.png
+
+

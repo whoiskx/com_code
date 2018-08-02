@@ -7,7 +7,7 @@
   from selenium.webdriver.common.keys import Keys   Keys类提供了键盘的代码（回车,ALT,F1等等）
   driver.get方法会导向给定的URL的页面，WebDriver会等待页面完全加载完(就是onload函数被触发了),才把程序的控制权交给你的测试或者脚本
   elem.send_keys(Keys.RETURN)  发送了一些字符，类似于用键盘直接输入 按下回车
-  浏览器关闭，调用quit方法来代替close，区别在于quit会退出整个浏览器，而close只会关闭一个标签，但是如果浏览器只有一个标签，那么一样
+  浏览器关闭，quit close，quit会退出整个浏览器，close  关闭一个标签，但是如果浏览器只有一个标签，那么一样
 
  remote WebDriver
 
