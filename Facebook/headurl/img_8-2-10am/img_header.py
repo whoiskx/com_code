@@ -16,7 +16,7 @@ for index, item in enumerate(test['img_header_url_8000'].find()):
             test['save'].insert({'id': id, 'header_url': ''})
             continue
         resp = requests.get(url, proxies=proxies)
-        with open('img_8444/{}.png'.format(blogger_id), 'wb') as f:
+        with open('img_mysql/{}.png'.format(blogger_id), 'wb') as f:
             f.write(resp.content)
         test['save_7149'].insert({'id':id, 'header_url': url})
         print('save {}'.format(id))
