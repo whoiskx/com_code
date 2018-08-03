@@ -26,12 +26,12 @@ cursor = db.cursor()
 cursor.execute('select * FROM imagefail')
 count = 0
 urls = cursor.fetchmany(2707)
-urls = cursor.fetchmany(448)
+urls = cursor.fetchmany(1243)
 while True:
     # if count < 2:
     #     count += 1
     #     continue
-    urls = cursor.fetchmany(500)
+    urls = cursor.fetchmany(988)
     driver = webdriver.Chrome()
     for url_tuple in urls:
         numb, post_id, _ = url_tuple
@@ -68,7 +68,7 @@ while True:
                 'post_id': post_id,
             }
 
-            test['img_header_url_8000'].insert(d)
+            test['img_header_url_10000'].insert(d)
             count += 1
             log('{} 已保存'.format(numb))
         except Exception as e:

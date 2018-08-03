@@ -1,5 +1,5 @@
 from xml.etree.ElementTree import ElementTree, Element
-
+import zipfile
 
 def read_xml(in_path):
     '''读取并解析xml文件
@@ -15,7 +15,9 @@ def write_xml(tree, out_path):
        tree: xml树
        out_path: 写出路径'''
     tree.write(out_path, encoding="utf-8", xml_declaration=True)
-
+    zip_name = out_path.replace('.xml', '.zip')
+    z = zipfile.ZipFile(zip_name, mode='w')
+    z.write(out_path)
 
 # ---------------search -----
 def find_nodes(tree, path):
@@ -47,7 +49,7 @@ def write_data_to_xml(data):
     tree = read_xml("model_fb.xml")
     for d in data.keys():
         nodes_add_text(tree, d, data.get(d))
-        write_xml(tree, "new_fb.xml")
+        write_xml(tree, "new_fb_test.xml")
 
 
 def main():

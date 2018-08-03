@@ -48,8 +48,7 @@ if __name__ == '__main__':
     # 群组
     # https://www.facebook.com/107597712639350
     url = "https://www.facebook.com/CityHospitalBd/?rf=523780141030593"
-
-    url = 'https://www.facebook.com/AeroportoLisboa/?rf=107597712639350'
     # 点赞评论很多
-    url = 'https://www.facebook.com/AeroportoLisboa/?ref=page_internal'
+    url = 'https://www.facebook.com/AeroportoLisboa/?rf=107597712639350'
+
     main(url)
