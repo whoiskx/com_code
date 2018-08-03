@@ -1,0 +1,4 @@
+qq服务器部署
+
+pip install flask
+Pillow

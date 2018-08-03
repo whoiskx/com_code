@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Blog>
+	<site />
+	<content>Já renovaste a tua candidatura?
+Para mais informações consulta o nosso site. https://goo.gl/QJqKHU #AeroportoLisboa #VINCIAirports</content>
+	<author>Aeroporto de Lisboa</author>
+	<time />
+	<url />
+	<authorID />
+	<imageUrl />
+	<transtmis>1</transtmis>
+	<comments />
+	<hash />
+	<blogid />
+	<uid />
+	<imgCounts />
+	<source />
+	<qimgCounts />
+	<User>
+		<fans />
+		<favourites />
+		<follows />
+		<headurl />
+		<name />
+		<posts />
+		<sex />
+		<site />
+		<uid />
+		<verified_type />
+	</User>
+	<phrase />
+	<attitudes_count />
+	<favorite_count />
+	<favorite_count />
+	<atSomeone />
+	<isComments />
+</Blog>

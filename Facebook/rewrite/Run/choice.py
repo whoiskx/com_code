@@ -136,7 +136,7 @@ def group(driver):
         print(praise, share, comment_sum, '==', )
 
         spacedata.headurl = headurl
-        # todo 一张图和多张图
+        # todo 一张图和多张图(内容中附带的图片)
         spacedata.imgurl = e('.scaledImageFitWidth').html()
 
         post_dict = spacedata.obj_to_dict()
@@ -144,3 +144,16 @@ def group(driver):
 
         test['post-8-2'].insert(post_dict)
 
+        xml_node_dict = {
+            "author": spacedata.author,
+            "portraitUrl": spacedata.headurl,
+            "imageUrl": spacedata.imgurl,
+            "praises": spacedata.praise,
+            "comments": spacedata.comment_sum,
+            "transtmis": spacedata.share,
+            "content": spacedata.content,
+            "headurl": spacedata.headurl,
+        }
+        import write_xml
+        write_xml.write_data_to_xml(xml_node_dict)
+        return xml_node_dict

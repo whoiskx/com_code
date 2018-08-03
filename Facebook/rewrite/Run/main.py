@@ -51,5 +51,5 @@ if __name__ == '__main__':
 
     url = 'https://www.facebook.com/AeroportoLisboa/?rf=107597712639350'
     # 点赞评论很多
-    url = 'https://www.facebook.com/pg/AeroportoLisboa/posts/?ref=page_internal'
+    url = 'https://www.facebook.com/AeroportoLisboa/?ref=page_internal'
     main(url)

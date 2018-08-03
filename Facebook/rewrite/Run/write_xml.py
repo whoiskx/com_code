@@ -11,9 +11,9 @@ def read_xml(in_path):
 
 
 def write_xml(tree, out_path):
-    """将xml文件写出
+    '''将xml文件写出
        tree: xml树
-       out_path: 写出路径"""
+       out_path: 写出路径'''
     tree.write(out_path, encoding="utf-8", xml_declaration=True)
 
 
@@ -43,15 +43,17 @@ def nodes_add_text(tree, node, content):
     change_node_text(text_nodes, content)
 
 
-if __name__ == "__main__":
-    # 1. 读取xml文件
+def write_data_to_xml(data):
     tree = read_xml("model_fb.xml")
+    for d in data.keys():
+        nodes_add_text(tree, d, data.get(d))
+        write_xml(tree, "new_fb.xml")
 
-    # 5. 修改节点文本
-    # 定位节点
-    # text_nodes = find_nodes(tree, "content")
-    # change_node_text(text_nodes, "new text")
-    nodes_add_text(tree, 'User', "afsdfsafsdaf")
 
-    # 6. 输出到结果文件
-    write_xml(tree, "new_fb.xml")
+def main():
+    data = {}
+    write_data_to_xml(data)
+
+
+if __name__ == '__main__':
+    main()
