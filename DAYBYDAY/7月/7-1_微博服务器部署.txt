@@ -113,3 +113,10 @@ exit
 138，
 
 127
+
+
+8-7 补充
+    history | grep scrapy 微博爬虫
+    38台slave，一台master
+    scrapy runspider weibo_slave.py
+    启动爬虫。。 先启动虚拟环境

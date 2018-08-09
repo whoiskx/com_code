@@ -8,6 +8,7 @@ import pymongo
 conn = pymongo.MongoClient('127.0.0.1', 27017)
 urun = conn.fb_praise
 
+
 # 读取excel文件
 def read_excel(file_name='', db_save='', db_praise=''):
     # 打开 默认可读写
@@ -105,7 +106,7 @@ def load_excel(file_name='', db_praise=''):
 
 
 def main():
-    day = '02'
+    day = '09'
     file_name_read = 'facebook_julei201808{}.xlsx'.format(day)
     db_save = 'save_ju_{}'.format(day)
     db_praise = 'praise_ju_{}'.format(day)

@@ -62,10 +62,10 @@ for count, item in enumerate(items):
 	praise_num = (item.find_element_by_css_selector('.wxAti-info').find_elements_by_tag_name('span'))[-1].text
 	print(url, read_num, praise_num)
 
-html = driver.page_source
-print(html)
-with open('xx.html', 'w', encoding='utf-8') as f:
-	f.write(html)
+# html = driver.page_source
+# print(html)
+# with open('xx.html', 'w', encoding='utf-8') as f:
+# 	f.write(html)
 
 
 import urllib.parse

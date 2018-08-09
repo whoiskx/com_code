@@ -1,0 +1,42 @@
+6，7加班到8点
+
+
+java 配置环境变量
+    第三步，也是最重要的一步，配置Path变量，这里win10和其他的不同就出来了，win的path变量，要用jdk的绝对路径，而不能用%JAVA_HOME%这一类的，计算机识别不了。
+path=
+C:\ProgramFiles\Java\jdk1.7.0_67\bin;C:\Program Files\Java\jdk1.7.0_67\bin\jre\bin;
+
+pycharm 分屏  Split
+
+C#
+	Thread.Sleep(1000)
+	DateTime.Now 		6/19/2015 10:35:50 AM, Local
+
+	use 命名空间
+	namespace 名称空间  多个类
+	class 数据和方法
+	Main 入口
+		实例化,然后执行类方法
+
+> import urllib.parse
+>>> urllib.parse.quote('川北医学院')
+
+driver
+    标签相关
+    切换标签
+        all_handles = driver.window_handles   #获取到当前所有的句柄,所有的句柄存放在列表当中
+        print(all_handles)  #打印句柄
+        '''获取非最初打开页面的句柄'''
+        for handles in all_handles:
+            if now_handle != handles:
+                driver.switch_to_window(handles)
+    关闭当前标签 driver.close()
+    清楚文本  xx.clear()
+
+  6. 设置缩进符为制表符“Tab”
+
+  File -> Default Settings -> Code Style
+
+  -> General -> 勾选“Use tab character”
+
+  -> Python -> 勾选“Use tab character”

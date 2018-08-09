@@ -1,0 +1,23 @@
+%m %d   %H%M%S
+
+用了try语句 解释器报异常，
+    要么 异常再 try语句外，要么 在 try语句 后面的except 块
+
+select all
+    Edit 所有缩进
+
+当前文件是否存在
+    os.path.exists('xx')
+
+目前难点
+    多线程模式
+    相关包
+文件读写
+    写入 会更新显示
+
+解压跟文件后缀名有关系
+
+
+PhantomJS 安装error
+    sudo apt-get install  libfontconfig1
+    phantomjs  -v

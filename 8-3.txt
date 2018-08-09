@@ -1,7 +1,9 @@
 qq服务器部署
 
 pip install flask
-Pillow
+            Pillow
+pip install numpy
+
 
 
 WebDriverWait(driver,10).until(EC.presence_of_element_located(locator))
@@ -11,3 +13,26 @@ WebDriverWait(driver,10).until(EC.presence_of_element_located(locator))
     mongo 8912
 
     sheyanren   sheyanren射阳四明镇罗家儿子大街
+
+zip文件对象
+   >>> import zipfile
+>>> newZip = zipfile.ZipFile(‘new.zip’, ‘w’)
+>>> newZip.write(‘spam.txt’, compress_type=zipfile.ZIP_DEFLATED)
+>>> newZip.close()
+
+以上第二行代码新建了一个名为 new.zip 的压缩文件，并以写模式打开。第三行中用 ZipFile 对象的 write() 方法添加文件到压缩包中，
+该方法的第一个参数为需要添加进去的文件名，第二个参数为压缩算法，通常使用如上代码中的 ZIP_DEFLATED 即可。需要注意的是，
+类似于文件的写操作，如果目录中已存在同名的压缩文件，则原有文件将会被重写！如果需要继续添加文件到已有的压缩文件中，则在实例化 ZipFile 对象时，使
+用 ‘a’ 作为第二个参数即可。
+
+exampleZip.extractall()
+extractall() 方法没有被传入参数，因为文件被解压到当前的工作目
+可以特定解压
+
+    ZipFile 对象拥有一个名为 namelist() 的方法，该方法返回一个所含该压缩包所有文件及文件夹的字符串列表。可以把返回的列表中的字符串传递到 getinfo() 方法中，
+    以获取特定文件或文件夹的更多信息。getinfo() 方法还拥有以下属性：
+file_size 可获得原文件或文件夹大小
+compress_size 或获得压缩后的文件或文件夹大小
+
+pip freeze > requirements.txtpip freeze > requirements.txt
+    pip生成整个环境中的包
