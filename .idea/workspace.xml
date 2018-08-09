@@ -6,26 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/8-7_加班.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180808.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180809.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180808.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180809.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qq_wangyi/wnagyi_163/wangyi163.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/8-3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/8-8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAYBYDAY/7月/7-1_微博服务器部署.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DAYBYDAY/7月/7-1_微博服务器部署.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAYBYDAY/frame/FB 图谱API.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/DAYBYDAY/frame/FB 图谱API.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/Graph_API/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/Graph_API/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/qingbo.py" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/qingbo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qq_wangyi/wnagyi_163/wangyi_frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/wnagyi_163/wangyi_frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,23 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="8-8.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="8-8.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8-8.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img_requests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qq_wangyi/wnagyi_163/img_requests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -92,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_name.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_name.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_name.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="153" column="21" lean-forward="true" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+            <state relative-caret-position="-741">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -107,8 +79,15 @@
       <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="180" column="47" lean-forward="true" selection-start-line="180" selection-start-column="27" selection-end-line="180" selection-end-column="47" />
+            <state relative-caret-position="-45102" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8-7_加班.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8-7_加班.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -145,8 +124,8 @@
       <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="25" selection-start-line="25" selection-end-line="39" selection-end-column="53" />
+            <state relative-caret-position="342">
+              <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -260,11 +239,11 @@
         <option value="$PROJECT_DIR$/WX/WX_qingbo/request.py" />
         <option value="$PROJECT_DIR$/setting.py" />
         <option value="$PROJECT_DIR$/qq_wangyi/wnagyi_163/wangyi163.py" />
-        <option value="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" />
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" />
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" />
-        <option value="$PROJECT_DIR$/WX/WX_qingbo/log.txt" />
         <option value="$PROJECT_DIR$/8-8.txt" />
+        <option value="$PROJECT_DIR$/WX/WX_qingbo/log.txt" />
+        <option value="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" />
       </list>
     </option>
   </component>
@@ -278,10 +257,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-19" />
-    <option name="y" value="14" />
+    <option name="x" value="-4" />
     <option name="width" value="1168" />
-    <option name="height" value="997" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -515,19 +493,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="14" width="1168" height="997" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="0" width="1168" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.24909747" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.24909747" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32978722" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.32122588" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.3039742" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.39893618" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.31382978" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.37797958" />
+      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.37701395" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -747,7 +724,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WX/WX_qingbo/get_name.py</url>
-          <line>153</line>
+          <line>169</line>
           <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
@@ -758,7 +735,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="142" />
+      <option name="time" value="148" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -775,6 +752,16 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>public_div.find_element_by_id('nickname')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>public_divs</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>self.driver.current_url</expression-string>
         <language-id>Python</language-id>
@@ -807,16 +794,6 @@
       </expression>
       <expression>
         <expression-string>post_details.get_attribute('outerHTML')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>post_details.get_attribute('outHTML')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>post_details.get_attribute('innerHTML')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -999,13 +976,6 @@
     <entry file="file://$PROJECT_DIR$/DAYBYDAY/web15/routes/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/8-7_加班.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1113,16 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="25" selection-start-line="25" selection-end-line="39" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/parse.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1146,20 +1106,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_name.py">
+    <entry file="file://$PROJECT_DIR$/setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="153" column="21" lean-forward="true" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+        <state relative-caret-position="342">
+          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="31" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="180" column="47" lean-forward="true" selection-start-line="180" selection-start-column="27" selection-end-line="180" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1167,6 +1120,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8-7_加班.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

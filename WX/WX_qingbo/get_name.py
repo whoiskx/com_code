@@ -68,58 +68,71 @@ class PublicDetails(object):
         button.click()
         time.sleep(2)
 
-    def get_numb(self, name):
+    def get_numb(self, name, count):
+        # 50次重新定位到搜索主页
+        # current_time = time.strftime(':%M:%S', time.localtime(int(time.time())))
+        if count % 50 == 0:
+            self.driver.get("http://www.gsdata.cn/query/wx?q=%E5%95%8A")
+            print("重置主页")
+            time.sleep(3)
+        # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
         # search_input.send_keys('富翁俱乐部 ')
+        # name = '红太阳'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
         search_button.click()
         time.sleep(2.5)
 
-        gxh = self.driver.find_element_by_xpath('//*[@id="nickname"]')
-        gxh.click()
-        time.sleep(2)
-        all_handles = self.driver.window_handles  # 获取到当前所有的句柄,所有的句柄存放在列表当中
-        # print(all_handles)
-        '''获取非最初打开页面的句柄'''
-        for index, handles in enumerate(all_handles):
-            if index == 1:
-                self.driver.switch_to_window(handles)
-        time.sleep(2)
-        for i in range(2):
-            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(0.5)
+        public_divs = self.driver.find_elements_by_css_selector('.clearfix.list_query')
+        for public_div in public_divs:
+            if '提交入库' not in public_div.text:
+                gxh = public_div.find_element_by_id('nickname')
+                gxh.click()
+                time.sleep(2)
 
-        # html = self.driver.page_source
-        # print(html)
+                all_handles = self.driver.window_handles  # 获取到当前所有的句柄,所有的句柄存放在列表当中
+                # print(all_handles)
+                '''获取非最初打开页面的句柄'''
+                if len(all_handles) > 1:
+                    for index, handles in enumerate(all_handles):
+                        if index == 1:
+                            self.driver.switch_to_window(handles)
+                    time.sleep(2)
+                    for i in range(2):
+                        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                        time.sleep(0.5)
+                    # html = self.driver.page_source
+                    # print(html)
+                    # 得到所有文章并解析
+                    data_all = self.driver.find_elements_by_css_selector('.wxDetail.bgff')
+                    datas = data_all[-1]
+                    items = datas.find_elements_by_class_name('clearfix')
+                    for count, item in enumerate(items):
+                        if count == 0:
+                            continue
+                        url = item.find_element_by_tag_name('a').get_attribute('href')
+                        read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name('span').text
+                        praise_num = (item.find_element_by_css_selector('.wxAti-info').find_elements_by_tag_name('span'))[-1].text
+                        print(name, read_num, praise_num)
+                        save_all = {
+                            'url': url,
+                            'read_num': read_num,
+                            'praise_num': praise_num,
+                            'name': name,
+                            'public_url': self.driver.current_url,
+                            'insert_time': time.strftime('%m-%d %H:%M', time.localtime(int(time.time())))
+                        }
+                        urun['read_praise_num_details'].insert(save_all)
 
-        data_all = self.driver.find_elements_by_css_selector('.wxDetail.bgff')
-        datas = data_all[-1]
-        items = datas.find_elements_by_class_name('clearfix')
-        for count, item in enumerate(items):
-            if count == 0:
-                continue
-            url = item.find_element_by_tag_name('a').get_attribute('href')
-            read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name('span').text
-            praise_num = (item.find_element_by_css_selector('.wxAti-info').find_elements_by_tag_name('span'))[-1].text
-            # print(url, read_num, praise_num)
-
-
-            save_all = {
-                'url': url,
-                'read_num': read_num,
-                'praise_num': praise_num,
-                'name': name,
-                'public_url': self.driver.current_url,
-                'insert_time': time.strftime('%m-%d %H:%M', time.localtime(int(time.time())))
-            }
-            urun['read_praise_num_details'].insert(save_all)
-
-        self.driver.close()
-        for index, handles in enumerate(all_handles):
-            if index == 0:
-                self.driver.switch_to_window(handles)
+                    self.driver.close()
+                    for index, handles in enumerate(all_handles):
+                        if index == 0:
+                            self.driver.switch_to_window(handles)
+            else:
+                print('not found available public')
+                return 'not found'
 
     def run(self):
         self.login_website()
@@ -131,11 +144,13 @@ class PublicDetails(object):
                 for name in self.name_list:
                     try:
                         log('start name {}'.format(name))
-                        self.get_numb(name)
+                        self.get_numb(name, count)
+                        count += 1
                     except Exception as e:
                         log(e)
+                        count += 1
                         continue
-                time.sleep(5)
+                time.sleep(3)
                 count += 1
             except Exception as e:
                 log('error afsdfadfsd')
@@ -150,6 +165,7 @@ class PublicDetails(object):
                 # self.driver = webdriver.Chrome(chrome_options=options)
                 self.driver = webdriver.Chrome()
                 self.login_website()
+                count += 1
                 continue
         print('haha')
 
