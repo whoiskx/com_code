@@ -1,3 +1,5 @@
+import datetime
+
 import requests
 import json
 import time
@@ -5,18 +7,40 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import pymongo
 import urllib.parse
-
+import os
+import pymysql
 # conn = pymongo.MongoClient('127.0.0.1', 27017)
 # urun = conn.urun
+
+current_dir = os.getcwd()
+log_dir = os.path.join(current_dir, 'wx_log.txt')
+
+
+MYSQL_HOST = '192.168.1.21'
+MYSQL_PORT = 8001
+MYSQL_USER = 'user'
+MYSQL_PASSWORD = 'ABCd1234'
+MYSQL_DATABASE = 'mysql'
+
+config_mysql = {
+    'host': MYSQL_HOST,
+    'port': MYSQL_PORT,
+    'user': MYSQL_USER,
+    'db': MYSQL_DATABASE,
+    'passwd': MYSQL_PASSWORD
+}
+
+db = pymysql.connect(**config_mysql)
+cursor = db.cursor()
 
 
 def log(*args, **kwargs):
     time_format = '%y-%m-%d %H:%M:%S'
     value = time.localtime(int(time.time()))
     dt = time.strftime(time_format, value)
-    # print(dt, *args, **kwargs)
-    # with open('log.txt', 'a', encoding='utf-8') as f:
-    #     print(dt, *args, file=f, **kwargs)
+    print(dt, *args, **kwargs)
+    with open(log_dir, 'a', encoding='utf-8') as f:
+        print(dt, *args, file=f, **kwargs)
 
 
 class PublicDetails(object):
@@ -35,9 +59,8 @@ class PublicDetails(object):
         name_list = []
         for d in datas:
             name = d.get('name')
-            # print(name)
             name_list.append(name)
-        # print(name_list)
+        log('name_list', name_list)
         return name_list
 
     def login_website(self):
@@ -47,6 +70,7 @@ class PublicDetails(object):
             # options.add_argument('--headless')
             # # options.add_argument('--disable-gpu')
             # self.driver = webdriver.Chrome(chrome_options=options)
+            # self.driver = webdriver.PhantomJS()
             self.driver = webdriver.Chrome()
         url = "http://www.gsdata.cn"
         self.driver.get(url)
@@ -72,14 +96,25 @@ class PublicDetails(object):
     def get_numb(self, name, count):
         # 50次重新定位到搜索主页
         # current_time = time.strftime(':%M:%S', time.localtime(int(time.time())))
-        if count % 50 == 0:
-            self.driver.get("http://www.gsdata.cn/query/wx?q=%E5%95%8A")
+        if count % 100 == 0:
             print("重置主页")
+            if self.driver is not None:
+                log(self.driver.current_url)
+                # log(self.driver.page_source)
+                self.driver.quit()
+            # 使用headless无界面浏览器模式
+            # options = Options()
+            # options.add_argument('--headless')
+            # # options.add_argument('--disable-gpu')
+            # self.driver = webdriver.Chrome(chrome_options=options)
+            # self.driver = webdriver.PhantomJS()
+            self.driver = webdriver.Chrome()
+            self.login_website()
             time.sleep(3)
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
         # search_input.send_keys('富翁俱乐部 ')
-        name = '红太阳'
+        # name = 'cube'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -114,29 +149,35 @@ class PublicDetails(object):
                         if count == 0:
                             continue
                         url = item.find_element_by_tag_name('a').get_attribute('href')
+                        title = item.find_element_by_class_name('cr30').text
                         read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name('span').text
                         praise_num = (item.find_element_by_css_selector('.wxAti-info').find_elements_by_tag_name('span'))[-1].text
-                        print(name, read_num, praise_num)
+                        log(name, read_num, praise_num)
                         save_all = {
                             'url': url,
                             'read_num': read_num,
                             'praise_num': praise_num,
-                            'name': name,
+                            'title': title,
                             'public_url': self.driver.current_url,
-                            'insert_time': time.strftime('%m-%d %H:%M', time.localtime(int(time.time())))
+                            'insert_time': datetime.datetime.now()
                         }
                         parsed_url = urllib.parse.quote(url)
-                        print(parsed_url)
+                        # print(parsed_url)
                         upload_url = 'http://183.131.241.60:38011/InsetUrl?url={}&views={}&praises={}'.format(parsed_url, read_num, praise_num)
                         requests.get(upload_url)
-                        # urun['read_praise_num_details'].insert(save_all)
+                        cursor.execute(
+                            "INSERT INTO wechat_qingbo(current_url, article_url, read_num, praise_num,  insert_time) VALUES (%s, %s,%s, %s,  %s)",
+                            (self.driver.current_url, url, read_num, praise_num,  datetime.datetime.now()))
+                        db.commit()
+                        # cursor.execute("INSERT INTO wechat_qingbo VALUES (?, ?, ?)")
+                        # urun['read_praise_num_details_temp'].insert(save_all)
 
                     self.driver.close()
                     for index, handles in enumerate(all_handles):
                         if index == 0:
                             self.driver.switch_to_window(handles)
             else:
-                print('not found available public')
+                log('not found available public')
                 return 'not found'
 
     def run(self):
@@ -150,9 +191,11 @@ class PublicDetails(object):
                     try:
                         log('start name {}'.format(name))
                         self.get_numb(name, count)
-                        count += 1
                     except Exception as e:
                         log(e)
+                        if 'timeout' in str(e):
+                            self.driver.get('http://www.gsdata.cn/query/wx?q=%E5%BC%80%E8%AF%9A%E5%BF%AB%E5%8D%B0')
+                            time.sleep(1)
                         count += 1
                         continue
                 time.sleep(3)
@@ -161,7 +204,7 @@ class PublicDetails(object):
                 log('error afsdfadfsd')
                 if self.driver is not None:
                     log(self.driver.current_url)
-                    log(self.driver.page_source)
+                    # log(self.driver.page_source)
                     self.driver.quit()
                 # 使用headless无界面浏览器模式
                 # options = Options()

@@ -21,3 +21,27 @@ select all
 PhantomJS 安装error
     sudo apt-get install  libfontconfig1
     phantomjs  -v
+
+
+urunadm+ 37809 34954  1 11:54 pts/0    00:00:04 python3 get_more_public.py
+    第一个 37809 是进程
+
+更改代码  运行前要想想跟什么东西相关，没有会不会出错
+
+要跟踪名为 accounts 的文件的增长情况，请输入以下命令：
+tail -f accounts
+
+2、os.path.join()函数
+注：第一个绝对路径之前的参数将被忽略
+
+os.getcwd() 当前目录
+
+Mysql 表 字段不能用-???
+
+try
+except Exception as e
+    e 是class  str(e) or e.message 打印error字符串
+
+filezilla
+    协议不对（SFTP -> FTP） 首行选择适合的协议
+    FTP 文件传输协议 支持不同OS 操作系统  使用tcp/ip协议传输  上传跟下载
