@@ -6882,3 +6882,20 @@
 18-08-10 19:56:10 name_list ['莎莎专柜', '暨南大学华文学院团委&middot;学生会', '歇歇设计屋', '法学论衡', '如皋金桥职校']
 18-08-10 19:56:10 start name 莎莎专柜
 18-08-10 19:56:20 cube 1121 9
+18-08-10 20:57:38 request count 0
+18-08-10 20:57:38 error afsdfadfsd
+18-08-10 20:57:38 http://www.gsdata.cn/custom/myrank
+18-08-10 20:58:00 request count 1
+18-08-10 20:58:00 error afsdfadfsd
+18-08-10 20:58:00 http://www.gsdata.cn/custom/myrank
+18-08-10 20:58:23 request count 2
+18-08-10 20:58:23 error afsdfadfsd
+18-08-10 20:58:23 http://www.gsdata.cn/custom/myrank
+18-08-10 20:59:45 request count 0
+18-08-10 20:59:45 error afsdfadfsd
+18-08-10 20:59:45 'PublicDetails' object has no attribute 'get_public_name'
+18-08-10 20:59:45 http://www.gsdata.cn/custom/myrank
+18-08-10 21:00:47 request count 0
+18-08-10 21:00:47 name_list ['人生无限大', '小煤球在线', '王子名猫', '赣县微生活', '今日揭西']
+18-08-10 21:00:47 start name 人生无限大
+18-08-10 21:00:59 cube 1121 9
