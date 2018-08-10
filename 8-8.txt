@@ -45,3 +45,23 @@ except Exception as e
 filezilla
     协议不对（SFTP -> FTP） 首行选择适合的协议
     FTP 文件传输协议 支持不同OS 操作系统  使用tcp/ip协议传输  上传跟下载
+nano 保存 ^O  退出 ^X
+
+grep --color=auto python
+grep最后一行
+    是该命令本身
+
+
+
+AWK是一种处理文本文件
+
+
+杀死进程名称中包含qemu的所有进程
+
+ps p aux|grep qemu|awk '{print $2}'|xargs kill -9
+
+# 浏览器窗口切换
+def switch_tab(self, num):
+    driver = self.driver
+    handles = driver.window_handles           # 获取当前窗口句柄集合（列表类型）
+    driver.switch_to.window(handles[num-1])

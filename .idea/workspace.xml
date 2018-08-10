@@ -6,13 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_test/mongodb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_test/try_except.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WX/WX_qingbo/public_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WX/WX_qingbo/wx_log22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_test/json_init.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/8-8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/8-8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_test/try_except.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/try_except.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,18 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="7-1_微博服务器部署.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DAYBYDAY/7月/7-1_微博服务器部署.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1910" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_more_public.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_more_public.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="99" column="25" lean-forward="true" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+            <state relative-caret-position="673">
+              <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -54,44 +48,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="try_except.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_test/try_except.py">
+      <file leaf-file-name="public_html.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/public_html.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="133">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log.txt">
+      <file leaf-file-name="wx.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70443" />
+            <state relative-caret-position="-171">
+              <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json_init.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_test/json_init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="try_except.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_test/try_except.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="8-8.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8-8.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="436">
+              <caret line="63" selection-start-line="63" selection-end-line="66" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx_log22.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log22.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="8372" column="71" lean-forward="true" selection-start-line="8372" selection-start-column="71" selection-end-line="8372" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="wx_log.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="1930" column="12" selection-start-line="1930" selection-start-column="12" selection-end-line="1930" selection-end-column="34" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="get_name.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_name.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="939">
               <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -103,33 +122,10 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="167">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img_header.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/headurl/img_header.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql_FB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/headurl/mysql_FB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="32" selection-start-line="32" selection-end-line="36" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,9 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Facebook/catch_post/test.py" />
-        <option value="$PROJECT_DIR$/Facebook/headurl/header_url.py" />
-        <option value="$PROJECT_DIR$/Facebook/headurl/test.py" />
         <option value="$PROJECT_DIR$/Facebook/headurl/img_header/mysql_FB.py" />
         <option value="$PROJECT_DIR$/Facebook/headurl/mysql_FB.py" />
         <option value="$PROJECT_DIR$/Facebook/headurl/img_header.py" />
@@ -242,10 +235,13 @@
         <option value="$PROJECT_DIR$/WX/WX_qingbo/log.txt" />
         <option value="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" />
         <option value="$PROJECT_DIR$/my_test/mongodb.py" />
-        <option value="$PROJECT_DIR$/my_test/try_except.py" />
         <option value="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" />
         <option value="$PROJECT_DIR$/8-8.txt" />
+        <option value="$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py" />
+        <option value="$PROJECT_DIR$/my_test/try_except.py" />
         <option value="$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py" />
+        <option value="$PROJECT_DIR$/my_test/json_init.py" />
+        <option value="$PROJECT_DIR$/WX/WX_qingbo/public_html.py" />
       </list>
     </option>
   </component>
@@ -259,10 +255,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="878" />
-    <option name="y" value="163" />
-    <option name="width" value="1047" />
-    <option name="height" value="642" />
+    <option name="x" value="823" />
+    <option name="y" value="134" />
+    <option name="width" value="1067" />
+    <option name="height" value="866" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -282,38 +278,7 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="Facebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
               <item name="my_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scraper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy-exts" type="462c0819:PsiDirectoryNode" />
-              <item name="scraper" type="462c0819:PsiDirectoryNode" />
-              <item name="exts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
@@ -369,25 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_more_public">
-    <configuration name="get_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Facebook/News_xinhua_praise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.public_html">
     <configuration name="get_more_public" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -406,7 +353,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="get_name" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="json_init" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,11 +361,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WX/WX_qingbo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WX/WX_qingbo/get_name.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test/json_init.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,6 +384,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_test/mongodb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="public_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WX/WX_qingbo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WX/WX_qingbo/public_html.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -461,19 +426,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.get_name" />
-      <item itemvalue="Python.get_excel" />
       <item itemvalue="Python.get_more_public" />
       <item itemvalue="Python.mongodb" />
       <item itemvalue="Python.try_except" />
+      <item itemvalue="Python.json_init" />
+      <item itemvalue="Python.public_html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.public_html" />
+        <item itemvalue="Python.json_init" />
         <item itemvalue="Python.get_more_public" />
         <item itemvalue="Python.try_except" />
         <item itemvalue="Python.mongodb" />
-        <item itemvalue="Python.get_name" />
-        <item itemvalue="Python.get_excel" />
       </list>
     </recent_temporary>
   </component>
@@ -539,12 +504,12 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32978722" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.30638298" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.22446808" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.39893618" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.31276596" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.44042554" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.41382977" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -779,8 +744,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py</url>
-          <line>218</line>
+          <line>206</line>
           <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -793,11 +763,25 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="158" />
+      <option name="time" value="160" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>cursor.execute(
+                            &quot;INSERT INTO wechat_qingbo_copy_copy(current_url, article_url, read_num, praise_num, insert_time) VALUES (%s, %s, %s, %s, %s, %s)&quot;,
+                            (self.driver.current_url, url, title, read_num, praise_num, datetime.datetime.now()))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cursor.execute(
+                            &quot;INSERT INTO wechat_qingbo_copy_copy(current_url, article_url, read_num, praise_num, insert_time) VALUES (%s, %s, %s, %s, %s, %s)&quot;,
+                            (self.driver.current_url, url, read_num, praise_num, datetime.datetime.now()))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string />
         <language-id>Python</language-id>
@@ -810,6 +794,11 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>cursor.execute(                             &quot;INSERT INTO wechat_qingbo_copy_copy(current_url, article_url, article_title, read_num, praise_num, insert_time) VALUES (%s, %s, %s, %s %s, %s)&quot;,                             (self.driver.current_url, url, title, read_num, praise_num, datetime.datetime.now()))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>str(e)</expression-string>
         <language-id>Python</language-id>
@@ -850,35 +839,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>cursor.execute( &quot;INSERT INTO wechat_qingbo(read_num) VALUES (%s)&quot;, (praise_num))</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library_git/WechatSogou-master/wechatsogou/api.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_git/WechatSogou-master/wechatsogou/exceptions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_git/WechatSogou-master/wechatsogou/identify_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1655" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_git/WechatSogou-master/wechatsogou/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2377" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_git/WechatSogou-master/wechatsogou/structuring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library_git/WechatSogou-master/wechatsogou/tools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1197" />
@@ -979,11 +942,6 @@
         <state relative-caret-position="779">
           <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log_dir">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WX/test.py">
@@ -1107,45 +1065,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70443" />
+        <state relative-caret-position="-70345" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_test/try_except.py">
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log_dir">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log22.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="39">
+          <caret line="8372" column="71" lean-forward="true" selection-start-line="8372" selection-start-column="71" selection-end-line="8372" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8-8.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="1930" column="12" selection-start-line="1930" selection-start-column="12" selection-end-line="1930" selection-end-column="34" />
+        <state relative-caret-position="436">
+          <caret line="63" selection-start-line="63" selection-end-line="66" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_name.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="939">
           <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -1153,13 +1103,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/exts/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/try_except.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_test/json_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="99" column="25" lean-forward="true" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+        <state relative-caret-position="673">
+          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/public_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
         </state>
       </provider>
     </entry>
