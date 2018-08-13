@@ -120,7 +120,7 @@ class PublicDetails(object):
             time.sleep(3)
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
-        name = '射阳论坛'
+        name = '红太阳'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -129,17 +129,7 @@ class PublicDetails(object):
 
         # 发包列表
 
-        backpack_list = [
-            {
-                "headers": {
-                    "topic": "datacenter",
-                    "key": None,
-                    "timestamp": int(time.time())
-                },
-                "body": "{}"
-            }
-        ]
-        body = []
+        backpack_list = []
         public_divs = self.driver.find_elements_by_css_selector('.clearfix.list_query')
         for public_div in public_divs:
             if '提交入库' not in public_div.text:
@@ -182,6 +172,7 @@ class PublicDetails(object):
                         for count, item in enumerate(items):
                             if count == 0:
                                 continue
+
                             url = item.find_element_by_tag_name('a').get_attribute('href')
                             title = item.find_element_by_class_name('cr30').text
                             read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name(
@@ -253,16 +244,25 @@ class PublicDetails(object):
 
                                 'AddOn': wx_entity.addon + '000'
                             }
-                            body.append(wx_dict)
 
-                            urun['wx_http'].insert(wx_dict)
+                            # 构造并发包
+                            send_http_body = {
+                                "headers": {
+                                    "topic": "datacenter",
+                                    "key": wx_entity.id,
+                                    "timestamp": int(time.time())
+                                }
+                            }
+                            send_http_body.update({'body': wx_dict})
+                            backpack_list.append(send_http_body)
+                            # urun['wx_http2'].insert(wx_dict)
                     except Exception as e:
-                        log(e)
+                        log('error send', e)
                         self.driver.close()
                         # for index, handles in enumerate(all_handles):
                         #     if index == 0:
                         self.driver.switch_to.window(all_handles[0])
-                        return 'error windows'
+                        return 'error read'
 
                     self.driver.close()
                     # for index, handles in enumerate(all_handles):
@@ -271,11 +271,19 @@ class PublicDetails(object):
 
             else:
                 log('not found available public')
-                return 'not found'
+        send_http = {
+            "headers": {
+                "topic": "datacenter", "key": "",
+                "timestamp": str(int(time.time()))},
+            "body": backpack_list
+        }
+        requests.post('')
+        print("haha")
 
-        # 构造并发包
-        backpack_list[0].get(body).format(body)
-        print(backpack_list)
+        # # 构造并发包
+        # if body != []:
+        #     backpack_list[0].get(body).format(body)
+        #     print(backpack_list)
 
     def run(self):
         self.login_website()
