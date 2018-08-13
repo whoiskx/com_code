@@ -1,4 +1,5 @@
 import datetime
+import re
 
 import requests
 import json
@@ -12,8 +13,8 @@ import pymysql
 from send_backpack import JsonEntity, Acount, Article
 from pyquery import PyQuery as pq
 
-# conn = pymongo.MongoClient('127.0.0.1', 27017)
-# urun = conn.urun
+conn = pymongo.MongoClient('127.0.0.1', 27017)
+urun = conn.urun
 
 current_dir = os.getcwd()
 log_dir = os.path.join(current_dir, 'wx_log.txt')
@@ -119,7 +120,7 @@ class PublicDetails(object):
             time.sleep(3)
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
-        name = 'cube'
+        name = '射阳论坛'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -154,113 +155,127 @@ class PublicDetails(object):
                     #     if index == 1:
                     self.driver.switch_to.window(all_handles[1])
                     time.sleep(0.5)
+                    try:
+                        # 获取公众号 ID, 名称, 微信号
+                        account = Acount()
+                        account.name = self.driver.find_element_by_class_name('fs22').text
+                        wx_num = self.driver.find_element_by_class_name('info-li').text.split('\n')[0]
+                        account.account = wx_num.split("：")[-1]
+                        get_account_id_url = 'http://60.190.238.178:38010/search/common/wxaccount/select?token=9ef358ed-b766-4eb3-8fde-a0ccf84659db&account={}'.format(
+                            account.account)
+                        url_resp = requests.get(get_account_id_url)
+                        json_obj = json.loads(url_resp.text)
+                        results = json_obj.get('results')
+                        account.account_id = ''
+                        for i in results:
+                            account.account_id = i.get('AccountID')
+                            break
 
-                    # 获取公众号 ID, 名称, 微信号
-                    account = Acount()
-                    account.name = self.driver.find_element_by_class_name('fs22').text
+                        for i in range(2):
+                            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                            time.sleep(0.5)
 
-                    wx_num = self.driver.find_element_by_class_name('info-li').text.split('\n')[0]
-                    account.wx_account = wx_num.split("：")[-1]
-                    get_account_id_url = 'http://60.190.238.178:38010/search/common/wxaccount/select?token=9ef358ed-b766-4eb3-8fde-a0ccf84659db&account={}'.format(
-                        account.wx_account)
-                    url_resp = requests.get(get_account_id_url)
-                    json_obj = json.loads(url_resp.text)
-                    results = json_obj.get('results')
-                    account.account_id = ''
-                    for i in results:
-                        account.account_id = i.get('AccountID')
-                        break
+                        # 得到所有文章并解析
+                        data_all = self.driver.find_elements_by_css_selector('.wxDetail.bgff')
+                        datas = data_all[-1]
+                        items = datas.find_elements_by_class_name('clearfix')
+                        for count, item in enumerate(items):
+                            if count == 0:
+                                continue
+                            url = item.find_element_by_tag_name('a').get_attribute('href')
+                            title = item.find_element_by_class_name('cr30').text
+                            read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name(
+                                'span').text
+                            praise_num = \
+                                (item.find_element_by_css_selector('.wxAti-info').find_elements_by_tag_name('span'))[
+                                    -1].text
+                            article_time = item.find_element_by_class_name('fr').text
+                            log(name, read_num, praise_num)
+                            # save_all = {
+                            #     'url': url,
+                            #     'read_num': read_num,
+                            #     'praise_num': praise_num,
+                            #     'title': title,
+                            #     'public_url': self.driver.current_url,
+                            #     'insert_time': datetime.datetime.now()
+                            # }
+                            # 发送到队列
+                            # parsed_url = urllib.parse.quote(url)
+                            # upload_url = 'http://183.131.241.60:38011/InsetUrl?url={}&views={}&praises={}'.format(
+                            #     parsed_url, read_num, praise_num)
+                            # requests.get(upload_url)
 
-                    for i in range(2):
-                        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                        time.sleep(0.5)
-                    # 得到所有文章并解析
-                    data_all = self.driver.find_elements_by_css_selector('.wxDetail.bgff')
-                    datas = data_all[-1]
-                    items = datas.find_elements_by_class_name('clearfix')
-                    for count, item in enumerate(items):
-                        if count == 0:
-                            continue
-                        url = item.find_element_by_tag_name('a').get_attribute('href')
-                        title = item.find_element_by_class_name('cr30').text
-                        read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name(
-                            'span').text
-                        praise_num = \
-                            (item.find_element_by_css_selector('.wxAti-info').find_elements_by_tag_name('span'))[
-                                -1].text
-                        article_time = item.find_element_by_class_name('fr').text
-                        log(name, read_num, praise_num)
-                        save_all = {
-                            'url': url,
-                            'read_num': read_num,
-                            'praise_num': praise_num,
-                            'title': title,
-                            'public_url': self.driver.current_url,
-                            'insert_time': datetime.datetime.now()
-                        }
-                        # 发送到队列
-                        # parsed_url = urllib.parse.quote(url)
-                        # upload_url = 'http://183.131.241.60:38011/InsetUrl?url={}&views={}&praises={}'.format(
-                        #     parsed_url, read_num, praise_num)
-                        # requests.get(upload_url)
+                            cursor.execute(
+                                "INSERT INTO wechat_qingbo_copy(current_url, article_url, read_num, praise_num, insert_time) VALUES (%s, %s, %s, %s, %s)",
+                                (self.driver.current_url, url, read_num, praise_num, datetime.datetime.now()))
+                            db.commit()
 
-                        cursor.execute(
-                            "INSERT INTO wechat_qingbo_copy(current_url, article_url, read_num, praise_num, insert_time) VALUES (%s, %s, %s, %s, %s)",
-                            (self.driver.current_url, url, read_num, praise_num, datetime.datetime.now()))
-                        db.commit()
+                            # 文章解析
+                            article = Article()
+                            resp = requests.get(url)
+                            article_html = resp.text
+                            article_timestramp_before = re.search('var ct=".*?"', article_html).group()
+                            article_timestramp = re.search('\d+', article_timestramp_before).group()
+                            e = pq(article_html)
+                            # account = e("#js_name")
+                            article_content = e("#js_content").text()
+                            # article_author = e("")
 
-                        # 文章解析
-                        article = Article()
-                        resp = requests.get(url)
-                        e = pq(resp.text)
-                        # account = e("#js_name")
-                        article_content = e("#js_content").text()
-                        # article_author = e("")
+                            article.url = url
+                            article.title = title
+                            article.content = article_content.replace('\n', '')
+                            article.author = account.name
+                            article.From = account.name
+                            article.time = article_timestramp + '000'
 
-                        article.url = url
-                        article.title = title
-                        article.content = article_content
-                        article.author = account.wx_account
-                        article.From = account.wx_account
-                        article.time = self.date_to_timestamp(article_time)
+                            wx_entity = JsonEntity(article, account)
+                            wx_dict = {
+                                'ID': wx_entity.id,
+                                'Account': wx_entity.account,
+                                'TaskID': wx_entity.task_id,
+                                'TaskName': wx_entity.task_name,
+                                'AccountID': wx_entity.account_id,
+                                # GroupName
+                                'SiteID': wx_entity.site_id,
+                                'TopicID': 0,
+                                'Url': wx_entity.url,
+                                'Title': wx_entity.title,
+                                'Content': wx_entity.content,
+                                'Author': wx_entity.author,
+                                'Praises': praise_num,
+                                'Views': read_num,
 
-                        wx_entity = JsonEntity(article, account)
-                        wx_dict = {
-                            'ID': wx_entity.id,
-                            'Account': wx_entity.account,
-                            'TaskID': wx_entity.task_id,
-                            'TaskName': wx_entity.task_name,
-                            'AccountID': wx_entity.account_id,
-                            # GroupName
-                            'SiteID': wx_entity.site_id,
+                                # "From": None,
+                                'Time': wx_entity.time,
 
-                            'Url': wx_entity.url,
-                            'Title': wx_entity.title,
-                            'Content': wx_entity.content,
-                            'Author': wx_entity.author,
-                            # "From": None,
-                            'Time': wx_entity.time,
+                                # \"Views\\\":0,\\\"Praises\\\":0,
+                                #  "Hash\\\":\\\"
 
-                            # \"Views\\\":0,\\\"Praises\\\":0,
-                            #  "Hash\\\":\\\"
+                                'AddOn': wx_entity.addon + '000'
+                            }
+                            body.append(wx_dict)
 
-                            'AddOn': wx_entity.addon
-                        }
-                        body.append(wx_dict)
-
-                        # urun['read_praise_num_details_temp'].insert(save_all)
+                            urun['wx_http'].insert(wx_dict)
+                    except Exception as e:
+                        log(e)
+                        self.driver.close()
+                        # for index, handles in enumerate(all_handles):
+                        #     if index == 0:
+                        self.driver.switch_to.window(all_handles[0])
+                        return 'error windows'
 
                     self.driver.close()
                     # for index, handles in enumerate(all_handles):
                     #     if index == 0:
                     self.driver.switch_to.window(all_handles[0])
+
             else:
                 log('not found available public')
                 return 'not found'
 
         # 构造并发包
         backpack_list[0].get(body).format(body)
-
+        print(backpack_list)
 
     def run(self):
         self.login_website()

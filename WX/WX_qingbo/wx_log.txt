@@ -6899,3 +6899,262 @@
 18-08-10 21:00:47 name_list ['人生无限大', '小煤球在线', '王子名猫', '赣县微生活', '今日揭西']
 18-08-10 21:00:47 start name 人生无限大
 18-08-10 21:00:59 cube 1121 9
+18-08-13 09:48:07 request count 0
+18-08-13 09:48:07 name_list ['古典诗词古典文学', '宅男公会', '环球阅览', '形影不离酵素', '夏津政务服务']
+18-08-13 09:48:07 start name 古典诗词古典文学
+18-08-13 09:48:17 cube 1135 9
+18-08-13 10:14:49 request count 0
+18-08-13 10:14:49 name_list ['歇歇设计屋', '封神英雄榜', '张家港市公安消防大队', '凉脍川味地道凉菜', '人生无限大']
+18-08-13 10:14:49 start name 歇歇设计屋
+18-08-13 10:14:58 射阳论坛 1219 2
+18-08-13 10:14:58 'Acount' object has no attribute 'wx_account'
+18-08-13 10:14:58 start name 封神英雄榜
+18-08-13 10:15:05 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 10:15:05 start name 张家港市公安消防大队
+18-08-13 10:15:12 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 10:15:12 start name 凉脍川味地道凉菜
+18-08-13 10:16:44 request count 0
+18-08-13 10:16:44 name_list ['能量创造奇迹', '吉安市交警支队', '芝加哥肯特', '吃遍青岛', 'HI吃茶去']
+18-08-13 10:16:44 start name 能量创造奇迹
+18-08-13 10:17:54 射阳论坛 1219 2
+18-08-13 10:22:38 request count 0
+18-08-13 10:22:38 name_list ['莎莎专柜', '漳浦论坛', '陪伴你成长的故事', '仓鼠那些事', '法学论衡']
+18-08-13 10:22:38 start name 莎莎专柜
+18-08-13 10:22:47 射阳论坛 1219 2
+18-08-13 11:08:27 request count 0
+18-08-13 11:08:27 name_list ['没有什么不可能', '川北医学院', '松果集装箱建筑', '小煤球在线', '如皋金桥职校']
+18-08-13 11:08:27 start name 没有什么不可能
+18-08-13 11:08:36 射阳论坛 1219 2
+18-08-13 11:20:50 request count 0
+18-08-13 11:20:50 name_list ['村村通欢乐谷', '中国影视广告', '立达就业培训', '吉利区人力资源公共服务中心', '沈阳铁路局锦州工务段']
+18-08-13 11:20:50 start name 村村通欢乐谷
+18-08-13 11:20:59 射阳论坛 1219 2
+18-08-13 11:35:35 request count 0
+18-08-13 11:35:35 name_list ['环球阅览', '封神英雄榜', '张家港市公安消防大队', '中国影视广告', '立达就业培训']
+18-08-13 11:35:35 start name 环球阅览
+18-08-13 11:35:51 射阳论坛 1219 2
+18-08-13 11:35:51 'NoneType' object has no attribute 'group'
+18-08-13 11:35:51 start name 封神英雄榜
+18-08-13 11:35:59 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 11:35:59 start name 张家港市公安消防大队
+18-08-13 11:36:05 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 11:36:05 start name 中国影视广告
+18-08-13 11:36:12 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 11:36:12 start name 立达就业培训
+18-08-13 11:36:19 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 11:36:33 request count 0
+18-08-13 11:36:33 name_list ['古典诗词古典文学', '宅男公会', '舟山天目艺校', '村村通欢乐谷', '仓鼠那些事']
+18-08-13 11:36:33 start name 古典诗词古典文学
+18-08-13 11:36:43 射阳论坛 1219 2
+18-08-13 11:36:43 'NoneType' object has no attribute 'group'
+18-08-13 11:36:43 start name 宅男公会
+18-08-13 11:36:51 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 11:36:51 start name 舟山天目艺校
+18-08-13 11:38:12 request count 0
+18-08-13 11:38:12 name_list ['莎莎专柜', '闽北人', '吉安市交警支队', '沁园春风', 'HI吃茶去']
+18-08-13 11:38:12 start name 莎莎专柜
+18-08-13 11:38:21 射阳论坛 1219 2
+18-08-13 11:52:21 request count 0
+18-08-13 11:52:21 name_list ['漳浦论坛', '罗米的曼联博客', '凉脍川味地道凉菜', '川北医学院', '职场心学指南']
+18-08-13 11:52:21 start name 漳浦论坛
+18-08-13 11:52:30 射阳论坛 1219 2
+18-08-13 12:17:30 request count 0
+18-08-13 12:17:31 name_list ['暨南大学华文学院团委&middot;学生会', '一汽森雅佳宝宜昌店', '松果集装箱建筑', '屯垦戍边唱大风', '北理工戴尔课戴表']
+18-08-13 12:17:31 start name 暨南大学华文学院团委&middot;学生会
+18-08-13 12:17:41 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:17:41 start name 一汽森雅佳宝宜昌店
+18-08-13 12:17:44 unhashable type: 'list'
+18-08-13 12:17:44 start name 松果集装箱建筑
+18-08-13 12:17:50 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:17:50 start name 屯垦戍边唱大风
+18-08-13 12:17:58 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:17:58 start name 北理工戴尔课戴表
+18-08-13 12:18:07 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:10 request count 6
+18-08-13 12:18:10 name_list ['散文诗理论', '歙县网祖宗', '微型码头', '法学论衡', '沈阳铁路局锦州工务段']
+18-08-13 12:18:10 start name 散文诗理论
+18-08-13 12:18:18 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:18 start name 歙县网祖宗
+18-08-13 12:18:25 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:25 start name 微型码头
+18-08-13 12:18:31 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:31 start name 法学论衡
+18-08-13 12:18:40 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:40 start name 沈阳铁路局锦州工务段
+18-08-13 12:18:49 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:52 request count 12
+18-08-13 12:18:52 name_list ['能量创造奇迹', '夏津政务服务', '芝加哥肯特', '吃遍青岛', '吉利区人力资源公共服务中心']
+18-08-13 12:18:52 start name 能量创造奇迹
+18-08-13 12:18:52 Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:52 start name 夏津政务服务
+18-08-13 12:18:52 Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:52 start name 芝加哥肯特
+18-08-13 12:18:52 Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:52 start name 吃遍青岛
+18-08-13 12:18:52 Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:18:52 start name 吉利区人力资源公共服务中心
+18-08-13 12:18:52 Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:21:44 request count 0
+18-08-13 12:21:44 name_list ['衍生', '如皋金桥职校', '钢之家论坛', '王子名猫', '郸城123']
+18-08-13 12:21:44 start name 衍生
+18-08-13 12:21:54 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:21:54 start name 如皋金桥职校
+18-08-13 12:21:57 unhashable type: 'list'
+18-08-13 12:21:57 start name 钢之家论坛
+18-08-13 12:22:02 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:22:02 start name 王子名猫
+18-08-13 12:22:08 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:22:08 start name 郸城123
+18-08-13 12:22:16 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 12:22:19 request count 6
+18-08-13 12:22:19 name_list ['歇歇设计屋', '陪伴你成长的故事', '优胜者资讯', '人生无限大', '聚财']
+18-08-13 12:22:19 start name 歇歇设计屋
+18-08-13 12:24:35 request count 0
+18-08-13 12:24:35 name_list ['形影不离酵素', '没有什么不可能', '麦秆科技丶陈蛟龙', '兴城华联商厦', '杭州移动']
+18-08-13 12:24:35 start name 形影不离酵素
+18-08-13 12:25:29 射阳论坛 1219 2
+18-08-13 12:25:56 unsupported operand type(s) for +: 'int' and 'str'
+18-08-13 12:27:16 request count 0
+18-08-13 12:27:16 name_list ['小煤球在线', '淘taobao宝网首页', '莱西市环境保护局', '新城控股', '北京朗酷科技咨询有限公司']
+18-08-13 12:27:16 start name 小煤球在线
+18-08-13 12:27:37 射阳论坛 1219 2
+18-08-13 12:27:37 射阳论坛 1833 19
+18-08-13 12:27:38 射阳论坛 1829 --
+18-08-13 12:27:39 射阳论坛 917 --
+18-08-13 12:27:39 射阳论坛 2166 --
+18-08-13 12:27:40 射阳论坛 1479 1
+18-08-13 12:27:40 射阳论坛 1810 9
+18-08-13 12:27:41 射阳论坛 8014 23
+18-08-13 12:27:41 射阳论坛 1786 1
+18-08-13 12:27:42 射阳论坛 1904 3
+18-08-13 12:27:43 not found available public
+18-08-13 12:27:43 start name 淘taobao宝网首页
+18-08-13 12:27:53 射阳论坛 1219 2
+18-08-13 12:27:54 射阳论坛 1833 19
+18-08-13 12:27:54 射阳论坛 1829 --
+18-08-13 12:27:55 射阳论坛 917 --
+18-08-13 12:27:56 射阳论坛 2166 --
+18-08-13 12:27:57 射阳论坛 1479 1
+18-08-13 12:27:57 射阳论坛 1810 9
+18-08-13 12:27:58 射阳论坛 8014 23
+18-08-13 12:27:58 射阳论坛 1786 1
+18-08-13 12:27:59 射阳论坛 1904 3
+18-08-13 12:28:00 not found available public
+18-08-13 12:28:00 start name 莱西市环境保护局
+18-08-13 12:28:14 射阳论坛 1219 2
+18-08-13 12:28:15 射阳论坛 1833 19
+18-08-13 12:28:15 射阳论坛 1829 --
+18-08-13 12:28:16 射阳论坛 917 --
+18-08-13 12:28:16 射阳论坛 1479 1
+18-08-13 12:28:17 射阳论坛 2166 --
+18-08-13 12:28:18 射阳论坛 1810 9
+18-08-13 12:28:19 射阳论坛 8014 23
+18-08-13 12:28:19 射阳论坛 1786 1
+18-08-13 12:28:20 射阳论坛 1904 3
+18-08-13 12:28:20 not found available public
+18-08-13 12:28:20 start name 新城控股
+18-08-13 12:28:33 射阳论坛 1219 2
+18-08-13 12:28:34 射阳论坛 1833 19
+18-08-13 12:28:34 射阳论坛 1829 --
+18-08-13 12:28:35 射阳论坛 917 --
+18-08-13 12:28:35 射阳论坛 1479 1
+18-08-13 12:28:36 射阳论坛 2166 --
+18-08-13 12:28:36 射阳论坛 1810 9
+18-08-13 12:28:37 射阳论坛 8014 23
+18-08-13 12:28:38 射阳论坛 1786 1
+18-08-13 12:28:38 射阳论坛 1904 3
+18-08-13 12:28:39 not found available public
+18-08-13 12:28:39 start name 北京朗酷科技咨询有限公司
+18-08-13 14:19:44 request count 0
+18-08-13 14:19:44 name_list ['古典诗词古典文学', '宅男公会', '闽北人', '漳浦论坛', '没有什么不可能']
+18-08-13 14:19:44 start name 古典诗词古典文学
+18-08-13 14:19:54 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 14:19:54 start name 宅男公会
+18-08-13 14:20:04 Message: no such element: Unable to locate element: {"method":"class name","selector":"fs22"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-13 14:20:04 start name 闽北人

@@ -20,9 +20,9 @@ class Acount(object):
         # 接口取
         self.account_id = None
         # account.account
-        # 微信号
-        self.wx_account = ''
-        # 公众号名称
+        # 微信号(英文)
+        self.account = ''
+        # 公众号(中文)
         self.name = ''
 
 
@@ -32,6 +32,7 @@ class JsonEntity(object):
         self.url = article.url
         self.title = article.title
         self.content = article.content
+        # 公总号名字
         self.author = article.author
         self.From = article.author
         self.time = article.time
@@ -42,12 +43,13 @@ class JsonEntity(object):
         self.account_id = str(account.account_id)
         self.site_id = account.account_id
         self.topic_id = 0
-        self.addon = int(time.time())
+        # 采集时间
+        self.addon = str(int(time.time()))
 
         self.task_id = str(account.account_id)
-        self.task_name = account.name
+        self.task_name = '微信_' + account.name
 
-        self.account = account.wx_account
+        self.account = account.account
         self.id = self.hash_md5(article.title + self.time)
 
     @staticmethod
