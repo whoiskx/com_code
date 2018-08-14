@@ -120,7 +120,7 @@ class PublicDetails(object):
             time.sleep(3)
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
-        name = '张家港市公安消防大队'
+        name = '红星云'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -172,8 +172,8 @@ class PublicDetails(object):
                         for count, item in enumerate(items):
                             if count == 0:
                                 continue
-                            if count == 3:
-                                break
+                            # if count == 6:
+                            #     break
                             url = item.find_element_by_tag_name('a').get_attribute('href')
                             title = item.find_element_by_class_name('cr30').text
                             read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name(
@@ -240,7 +240,9 @@ class PublicDetails(object):
                                     "timestamp": int(time.time()),
                                 }
                             }
+                            # send_http_body.update({'body': json.dumps(wx_dict)})
                             send_http_body.update({'body': wx_dict})
+
                             backpack_list.append(send_http_body)
                             # urun['wx_http2'].insert(wx_dict)
                     except Exception as e:
