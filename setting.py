@@ -1,5 +1,6 @@
 from random import randint
 import pymongo
+import pymysql
 from selenium import webdriver
 import time
 
@@ -79,9 +80,35 @@ def execute_times(driver, times=1):
             log('posts_html_22_{}写入文件夹'.format(i))
             time.sleep(15)
 
+def hash_md5(s):
+    import hashlib
+    m = hashlib.md5()
+    m.update(s.encode(encoding='utf-8'))
+    return m.hexdigest()
 
 # pymongo
 conn = pymongo.MongoClient('127.0.0.1', 27017)
 urun = conn.urun
 test = conn.test
 # db['uu'].insert({'name':"李白", "age":"30", "skill":"Python"})
+
+MYSQL_HOST = 'localhost'
+
+MYSQL_PORT = 3306
+MYSQL_USER = 'root'
+# MYSQL_PASSWORD = 'Yunrun2015!@#'
+MYSQL_DATABASE = 'comm'
+
+config_mysql = {
+    'host': MYSQL_HOST,
+    'port': MYSQL_PORT,
+    'user': MYSQL_USER,
+    'db': MYSQL_DATABASE,
+    # 'passwd': MYSQL_PASSWORD
+    'charset': 'utf8',
+}
+
+db = pymysql.connect(**config_mysql)
+cursor = db.cursor()
+
+print(1)

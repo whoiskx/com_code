@@ -200,7 +200,7 @@ class PublicDetails(object):
                             # article_author = e("")
 
                             article.url = url
-                            article.title = title
+                            article.title = title.replace(' ', '')
                             article.content = article_content.replace('\n', '')
                             article.author = account.name
                             article.From = account.name
@@ -214,7 +214,7 @@ class PublicDetails(object):
                                 'TaskName': wx_entity.task_name,
                                 'AccountID': wx_entity.account_id,
                                 # GroupName
-                                'SiteID': wx_entity.site_id,
+                                'SiteID': int(wx_entity.site_id),
                                 'TopicID': 0,
                                 'Url': wx_entity.url,
                                 'Title': wx_entity.title,
@@ -224,22 +224,20 @@ class PublicDetails(object):
                                 # 'Views': read_num,
 
                                 # "From": None,
-                                'Time': wx_entity.time,
+                                'Time': int(wx_entity.time),
 
                                 # \"Views\\\":0,\\\"Praises\\\":0,
                                 #  "Hash\\\":\\\"
 
-                                'AddOn': wx_entity.addon + '000',
-                                'Version': 'Python',
+                                'AddOn': int(wx_entity.addon + '000'),
                             }
 
                             # 构造并发包
                             send_http_body = {
                                 "headers": {
-                                    "topic": "datacenter",
+                                    "topic": "weixin",
                                     "key": wx_entity.id,
                                     "timestamp": int(time.time()),
-                                    "ip": '115.231.251.252:26016|60.190.238.168:38015'
                                 }
                             }
                             send_http_body.update({'body': wx_dict})
@@ -261,13 +259,13 @@ class PublicDetails(object):
             else:
                 log('not found available public')
 
-        send_http = {
-            "headers": {
-                "topic": "datacenter", "key": "",
-                "timestamp": str(int(time.time()))},
-            "body": backpack_list
-        }
-        # requests.post('')
+        #
+        # requests.post('') send_http = {
+        #             "headers": {
+        #                 "topic": "datacenter", "key": "",
+        #                 "timestamp": str(int(time.time()))},
+        #             "body": backpack_list
+        #         }
         print("haha")
 
         # # 构造并发包
