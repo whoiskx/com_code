@@ -39,3 +39,5 @@ mysql 连接 中文
 
     #执行参数化查询  避免注入
 row_count=cursor.execute("select user,pass from tb7 where user=%s and pass=%s",(user,passwd))
+ping 连接 查看域名
+    域名切换需要时间

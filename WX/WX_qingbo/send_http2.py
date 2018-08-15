@@ -14,9 +14,9 @@ body_one = [{'headers': {'topic': 'weixin', 'key': '2acaeb6539ff729a3dc32eccd110
 url0 = 'http://101.71.28.12:12007/'
 url1 = 'http://115.231.251.252:26016/'
 url2 = 'http://60.190.238.168:38015/'
-# body = json.dumps(body_one)
+body = json.dumps(body_one)
 
-body = body_one
+# body = body_one
 print(body)
 
 r = requests.post(url0, data=body)
