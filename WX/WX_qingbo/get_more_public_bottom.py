@@ -120,7 +120,7 @@ class PublicDetails(object):
             time.sleep(3)
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
-        name = '什么值得吃'
+        name = '陳大惠'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -156,6 +156,8 @@ class PublicDetails(object):
                         url_resp = requests.get(get_account_id_url)
                         json_obj = json.loads(url_resp.text)
                         results = json_obj.get('results')
+                        if results == []:
+                            continue
                         account.account_id = ''
                         for i in results:
                             account.account_id = i.get('AccountID')

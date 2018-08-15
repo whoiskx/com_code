@@ -1,2 +1,6 @@
 SaveBatchTaskForModifyingDomainDns	提交批量修改域名dns任务
     域名API的服务接入地址为：domain.aliyuncs.com
+
+    逻辑 2个程序
+        1个 主切 备  一个 备切主
+        数据结构 用字典 {域名 主 备}

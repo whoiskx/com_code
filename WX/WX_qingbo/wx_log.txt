@@ -7846,3 +7846,1148 @@ from unknown error: web view not found
 18-08-15 10:54:55 什么值得吃 24520 124
 18-08-15 10:54:56 什么值得吃 88623 363
 18-08-15 10:54:56 什么值得吃 79417 519
+18-08-15 17:20:46 request count 0
+18-08-15 17:20:47 name_list ['笑一笑不会怀孕', '固阳生活向导广告', '郑州市中原永兴辅导学校', '十二星座天蝎座吧', '梦传奇&mdash;富翁俱乐部']
+18-08-15 17:20:47 start name 笑一笑不会怀孕
+18-08-15 17:20:57 小年糕 10W+ 857
+18-08-15 17:20:57 error send invalid literal for int() with base 10: ''
+18-08-15 17:20:58 start name 固阳生活向导广告
+18-08-15 17:21:08 小年糕 10W+ 857
+18-08-15 17:21:08 error send invalid literal for int() with base 10: ''
+18-08-15 17:21:08 start name 郑州市中原永兴辅导学校
+18-08-15 17:21:18 小年糕 10W+ 857
+18-08-15 17:21:18 error send invalid literal for int() with base 10: ''
+18-08-15 17:21:18 start name 十二星座天蝎座吧
+18-08-15 17:21:28 小年糕 10W+ 857
+18-08-15 17:21:28 error send invalid literal for int() with base 10: ''
+18-08-15 17:21:28 start name 梦传奇&mdash;富翁俱乐部
+18-08-15 17:21:38 小年糕 10W+ 857
+18-08-15 17:21:38 error send invalid literal for int() with base 10: ''
+18-08-15 17:22:19 request count 0
+18-08-15 17:22:19 name_list ['沈阳铁路局锦州工务段', '郸城123', '佛山市郁南商会', '微沅江', '机密大爆炸']
+18-08-15 17:22:19 start name 沈阳铁路局锦州工务段
+18-08-15 17:22:29 小年糕 10W+ 857
+18-08-15 17:22:29 error send invalid literal for int() with base 10: ''
+18-08-15 17:25:10 request count 0
+18-08-15 17:25:10 name_list ['王子名猫', '四川三河职业学院', '杭州移动', '音乐時光', 'littlestar']
+18-08-15 17:25:10 start name 王子名猫
+18-08-15 17:25:20 小年糕 10W+ 857
+18-08-15 17:30:59 request count 0
+18-08-15 17:31:00 name_list ['内黄人人', '沙县知道', '新城控股', '湖南潇湘新晟国际影城', '爱生活爱自己']
+18-08-15 17:31:00 start name 内黄人人
+18-08-15 17:31:10 开车大神 10W+ 7403
+18-08-15 17:31:11 开车大神 10W+ 15105
+18-08-15 17:31:11 开车大神 10W+ 8324
+18-08-15 17:31:12 开车大神 10W+ 16688
+18-08-15 17:31:12 开车大神 10W+ 17824
+18-08-15 17:31:13 开车大神 10W+ 11537
+18-08-15 17:31:13 request count 0
+18-08-15 17:31:13 name_list ['今日揭西', '跌停板', '美食菜谱', '星云大师佛学智慧', '非银观点']
+18-08-15 17:31:13 start name 今日揭西
+18-08-15 17:31:13 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:13 start name 跌停板
+18-08-15 17:31:13 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:13 start name 美食菜谱
+18-08-15 17:31:13 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:13 start name 星云大师佛学智慧
+18-08-15 17:31:13 开车大神 10W+ 18406
+18-08-15 17:31:13 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:13 start name 非银观点
+18-08-15 17:31:13 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:14 开车大神 10W+ 5362
+18-08-15 17:31:14 开车大神 10W+ 16910
+18-08-15 17:31:14 开车大神 10W+ 15219
+18-08-15 17:31:16 request count 6
+18-08-15 17:31:16 name_list ['北理工戴尔课戴表', '聊大青春创业社', '襄州环保', '柳州锋尚', '北京农业']
+18-08-15 17:31:16 start name 北理工戴尔课戴表
+18-08-15 17:31:16 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:16 start name 聊大青春创业社
+18-08-15 17:31:16 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:16 start name 襄州环保
+18-08-15 17:31:16 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:16 start name 柳州锋尚
+18-08-15 17:31:18 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:18 start name 北京农业
+18-08-15 17:31:18 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:21 request count 12
+18-08-15 17:31:21 name_list ['淘taobao宝网首页', '赣县微生活', '股票涨停板龙头实盘实战超级短线王', '红梅凌风', '天天福伴']
+18-08-15 17:31:21 start name 淘taobao宝网首页
+18-08-15 17:31:21 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:22 start name 赣县微生活
+18-08-15 17:31:22 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:22 start name 股票涨停板龙头实盘实战超级短线王
+18-08-15 17:31:22 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:22 start name 红梅凌风
+18-08-15 17:31:22 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:22 start name 天天福伴
+18-08-15 17:31:22 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:25 request count 18
+18-08-15 17:31:25 name_list ['心灵栖息地', '爱上那点事', '每日电影推荐', '理想神州', '百万富翁入门之路']
+18-08-15 17:31:25 start name 心灵栖息地
+18-08-15 17:31:25 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:25 start name 爱上那点事
+18-08-15 17:31:25 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:25 start name 每日电影推荐
+18-08-15 17:31:25 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:25 start name 理想神州
+18-08-15 17:31:25 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:25 start name 百万富翁入门之路
+18-08-15 17:31:25 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:28 request count 24
+18-08-15 17:31:28 name_list ['爱格森空气净化', '文登圈', '行之悦旅行', '每天学点生活小妙招', '每日教你穿衣打扮']
+18-08-15 17:31:28 start name 爱格森空气净化
+18-08-15 17:31:28 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:28 start name 文登圈
+18-08-15 17:31:28 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:28 start name 行之悦旅行
+18-08-15 17:31:28 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:28 start name 每天学点生活小妙招
+18-08-15 17:31:28 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:28 start name 每日教你穿衣打扮
+18-08-15 17:31:28 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:31 request count 30
+18-08-15 17:31:31 name_list ['五河在线', '北京朗酷科技咨询有限公司', '南陵商家那点事儿', '凤凰卫视冷暖人生', '堵城']
+18-08-15 17:31:31 start name 五河在线
+18-08-15 17:31:31 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:31 start name 北京朗酷科技咨询有限公司
+18-08-15 17:31:31 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:31 start name 南陵商家那点事儿
+18-08-15 17:31:31 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:31 start name 凤凰卫视冷暖人生
+18-08-15 17:31:31 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:31 start name 堵城
+18-08-15 17:31:31 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:34 request count 36
+18-08-15 17:31:34 name_list ['新商业领袖联盟', '中国囧事排行榜', '眺看人生', '嘉丽豪家居', '五哥']
+18-08-15 17:31:34 start name 新商业领袖联盟
+18-08-15 17:31:35 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:35 start name 中国囧事排行榜
+18-08-15 17:31:36 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:36 start name 眺看人生
+18-08-15 17:31:36 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:36 start name 嘉丽豪家居
+18-08-15 17:31:36 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:36 start name 五哥
+18-08-15 17:31:36 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:39 request count 42
+18-08-15 17:31:39 name_list ['Bobby机器人教室', '笑话哥', '福存传媒', '上坐香茶', '景鸿盈泰武清分公司']
+18-08-15 17:31:39 start name Bobby机器人教室
+18-08-15 17:31:39 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:39 start name 笑话哥
+18-08-15 17:31:39 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:39 start name 福存传媒
+18-08-15 17:31:39 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:39 start name 上坐香茶
+18-08-15 17:31:39 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:39 start name 景鸿盈泰武清分公司
+18-08-15 17:31:39 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:42 request count 48
+18-08-15 17:31:42 name_list ['无锡百得胜', 'sweetbabyok', '全球时尚部落', '佳合代理', '佳合公司']
+18-08-15 17:31:42 start name 无锡百得胜
+18-08-15 17:31:42 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:42 start name sweetbabyok
+18-08-15 17:31:42 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:42 start name 全球时尚部落
+18-08-15 17:31:42 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:42 start name 佳合代理
+18-08-15 17:31:42 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:42 start name 佳合公司
+18-08-15 17:31:42 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:45 request count 54
+18-08-15 17:31:45 name_list ['苏州鑫恒盈泰铁板烧设备', '马博士石家庄万达广场旗舰店', '全球时尚部落', '解州小宝贝孕婴时代广场', '小小恐龙人']
+18-08-15 17:31:45 start name 苏州鑫恒盈泰铁板烧设备
+18-08-15 17:31:45 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:45 start name 马博士石家庄万达广场旗舰店
+18-08-15 17:31:45 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:45 start name 全球时尚部落
+18-08-15 17:31:45 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:45 start name 解州小宝贝孕婴时代广场
+18-08-15 17:31:45 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:45 start name 小小恐龙人
+18-08-15 17:31:45 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:48 request count 60
+18-08-15 17:31:48 name_list ['佳合果蔬精品超市', '艾媚时尚部落时尚女鞋童鞋批发零售', '恐龙小小营运君', '爱度金银珠宝', '永州百得胜衣柜']
+18-08-15 17:31:48 start name 佳合果蔬精品超市
+18-08-15 17:31:48 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:48 start name 艾媚时尚部落时尚女鞋童鞋批发零售
+18-08-15 17:31:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:49 start name 恐龙小小营运君
+18-08-15 17:31:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:49 start name 爱度金银珠宝
+18-08-15 17:31:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:49 start name 永州百得胜衣柜
+18-08-15 17:31:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:52 request count 66
+18-08-15 17:31:52 name_list ['北京佳合', '时代报I宝贝', '包头百得胜衣柜', '马博士婴幼儿孕婴馆', '依美佳时尚部落']
+18-08-15 17:31:52 start name 北京佳合
+18-08-15 17:31:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:52 start name 时代报I宝贝
+18-08-15 17:31:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:52 start name 包头百得胜衣柜
+18-08-15 17:31:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:52 start name 马博士婴幼儿孕婴馆
+18-08-15 17:31:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:52 start name 依美佳时尚部落
+18-08-15 17:31:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:55 request count 72
+18-08-15 17:31:55 name_list ['佳合艺术培训中心', '卡斯波时尚部落', '君城国瑞盈泰商贸', '百得胜衣柜', '马博士绿地中央广场店']
+18-08-15 17:31:55 start name 佳合艺术培训中心
+18-08-15 17:31:55 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:55 start name 卡斯波时尚部落
+18-08-15 17:31:55 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:55 start name 君城国瑞盈泰商贸
+18-08-15 17:31:55 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:55 start name 百得胜衣柜
+18-08-15 17:31:55 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:55 start name 马博士绿地中央广场店
+18-08-15 17:31:55 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:58 request count 78
+18-08-15 17:31:58 name_list ['魅时尚部落', '爱度斯特像素图', '广州市佳合通讯配件商行', '马博士婴幼儿游泳馆长沙店', '靖江世纪宝贝儿童摄影']
+18-08-15 17:31:58 start name 魅时尚部落
+18-08-15 17:31:58 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:58 start name 爱度斯特像素图
+18-08-15 17:31:58 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:58 start name 广州市佳合通讯配件商行
+18-08-15 17:31:58 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:58 start name 马博士婴幼儿游泳馆长沙店
+18-08-15 17:31:58 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:31:58 start name 靖江世纪宝贝儿童摄影
+18-08-15 17:31:58 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:01 request count 84
+18-08-15 17:32:01 name_list ['盈泰首饰', '爱度视觉传媒', '得胜法务', '马博士婴儿游泳馆保定店', '婴姿坊安徽办']
+18-08-15 17:32:01 start name 盈泰首饰
+18-08-15 17:32:02 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:02 start name 爱度视觉传媒
+18-08-15 17:32:02 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:02 start name 得胜法务
+18-08-15 17:32:02 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:02 start name 马博士婴儿游泳馆保定店
+18-08-15 17:32:02 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:02 start name 婴姿坊安徽办
+18-08-15 17:32:02 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:05 request count 90
+18-08-15 17:32:05 name_list ['x15339367187', '时尚搭配部落', '盈泰车险', '世纪宝贝母婴生活馆', '微好丽友']
+18-08-15 17:32:05 start name x15339367187
+18-08-15 17:32:05 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:05 start name 时尚搭配部落
+18-08-15 17:32:05 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:05 start name 盈泰车险
+18-08-15 17:32:05 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:05 start name 世纪宝贝母婴生活馆
+18-08-15 17:32:05 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:05 start name 微好丽友
+18-08-15 17:32:05 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:08 request count 96
+18-08-15 17:32:08 name_list ['贺州两岸咖啡', '徐福记藏玩', '好丽友HLY', '海鸥商行徐福记喜铺', '好丽友暑假实践']
+18-08-15 17:32:08 start name 贺州两岸咖啡
+18-08-15 17:32:08 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:08 start name 徐福记藏玩
+18-08-15 17:32:08 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:08 start name 好丽友HLY
+18-08-15 17:32:08 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:08 start name 海鸥商行徐福记喜铺
+18-08-15 17:32:08 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:08 start name 好丽友暑假实践
+18-08-15 17:32:08 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:11 request count 102
+18-08-15 17:32:11 name_list ['好丽友本部RS支援', '好丽友辽宁A区行动派', '云南天然老树核桃', '深圳龙岗老树咖啡', '老树瓷艺']
+18-08-15 17:32:11 start name 好丽友本部RS支援
+18-08-15 17:32:11 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:11 start name 好丽友辽宁A区行动派
+18-08-15 17:32:11 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:11 start name 云南天然老树核桃
+18-08-15 17:32:12 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:12 start name 深圳龙岗老树咖啡
+18-08-15 17:32:12 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:12 start name 老树瓷艺
+18-08-15 17:32:12 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:15 request count 108
+18-08-15 17:32:15 name_list ['九芝堂黑龙江办', '青浦稻香村商业广场', '两岸咖啡西餐厅', '老树咖啡龙岗店', '老树水果']
+18-08-15 17:32:15 start name 九芝堂黑龙江办
+18-08-15 17:32:15 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:15 start name 青浦稻香村商业广场
+18-08-15 17:32:15 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:15 start name 两岸咖啡西餐厅
+18-08-15 17:32:15 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:15 start name 老树咖啡龙岗店
+18-08-15 17:32:15 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:15 start name 老树水果
+18-08-15 17:32:15 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:18 request count 114
+18-08-15 17:32:18 name_list ['武康两岸咖啡', '稻香村微广播', '燕之家', '老树coffee', '邯郸九芝堂']
+18-08-15 17:32:18 start name 武康两岸咖啡
+18-08-15 17:32:24 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:24 start name 稻香村微广播
+18-08-15 17:32:30 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:30 start name 燕之家
+18-08-15 17:32:36 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:36 start name 老树coffee
+18-08-15 17:32:42 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:42 start name 邯郸九芝堂
+18-08-15 17:32:48 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:52 request count 120
+18-08-15 17:32:52 name_list ['永康两岸咖啡', '河北稻香村食品有限公司', '老树咖啡【上河店】', '老行家燕窝', '九芝堂重庆分公司']
+18-08-15 17:32:52 start name 永康两岸咖啡
+18-08-15 17:32:58 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:32:58 start name 河北稻香村食品有限公司
+18-08-15 17:33:04 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:04 start name 老树咖啡【上河店】
+18-08-15 17:33:10 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:10 start name 老行家燕窝
+18-08-15 17:33:16 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:16 start name 九芝堂重庆分公司
+18-08-15 17:33:22 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:25 request count 126
+18-08-15 17:33:25 name_list ['稻香村加工坊', '潍坊两岸咖啡', '重庆两岸咖啡', '老树新花', '九芝堂四川分公司']
+18-08-15 17:33:25 start name 稻香村加工坊
+18-08-15 17:33:31 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:31 start name 潍坊两岸咖啡
+18-08-15 17:33:37 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:37 start name 重庆两岸咖啡
+18-08-15 17:33:43 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:43 start name 老树新花
+18-08-15 17:33:49 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:49 start name 九芝堂四川分公司
+18-08-15 17:33:55 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:33:58 request count 132
+18-08-15 17:33:58 name_list ['两岸咖啡-常山店', '花园老树Cafe', '九芝堂甘青宁西分公司', '两岸咖啡西餐厅', '咖啡陪你晋城旗舰店']
+18-08-15 17:33:58 start name 两岸咖啡-常山店
+18-08-15 17:34:04 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:04 start name 花园老树Cafe
+18-08-15 17:34:10 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:10 start name 九芝堂甘青宁西分公司
+18-08-15 17:34:16 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:16 start name 两岸咖啡西餐厅
+18-08-15 17:34:22 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:22 start name 咖啡陪你晋城旗舰店
+18-08-15 17:34:28 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:31 request count 138
+18-08-15 17:34:31 name_list ['好丽友食品', '九芝堂湖北分公司', '两岸咖啡西溪店', '梅林', '宜兴龙池山稻香村农家乐']
+18-08-15 17:34:31 start name 好丽友食品
+18-08-15 17:34:37 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:37 start name 九芝堂湖北分公司
+18-08-15 17:34:43 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:43 start name 两岸咖啡西溪店
+18-08-15 17:34:50 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:50 start name 梅林
+18-08-15 17:34:56 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:34:56 start name 宜兴龙池山稻香村农家乐
+18-08-15 17:35:02 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:05 request count 144
+18-08-15 17:35:05 name_list ['两岸咖啡永川店', '书香梅林', '两岸咖啡宿州店', '杨老树庄园', '烟台东阿阿胶直营店']
+18-08-15 17:35:05 start name 两岸咖啡永川店
+18-08-15 17:35:11 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:11 start name 书香梅林
+18-08-15 17:35:17 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:17 start name 两岸咖啡宿州店
+18-08-15 17:35:23 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:23 start name 杨老树庄园
+18-08-15 17:35:29 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:29 start name 烟台东阿阿胶直营店
+18-08-15 17:35:35 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:38 request count 150
+18-08-15 17:35:38 name_list ['九芝堂福建分公司', '老树茶坊', '两岸咖啡盐城店', '稻香村代理', '燕之家']
+18-08-15 17:35:38 start name 九芝堂福建分公司
+18-08-15 17:35:44 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:44 start name 老树茶坊
+18-08-15 17:35:50 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:50 start name 两岸咖啡盐城店
+18-08-15 17:35:56 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:35:56 start name 稻香村代理
+18-08-15 17:36:02 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:02 start name 燕之家
+18-08-15 17:36:08 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:11 request count 156
+18-08-15 17:36:11 name_list ['稻香村美食城', '老树普洱茶', '九芝堂广西分公司', '燕之家', '北京稻香村']
+18-08-15 17:36:11 start name 稻香村美食城
+18-08-15 17:36:17 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:17 start name 老树普洱茶
+18-08-15 17:36:23 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:23 start name 九芝堂广西分公司
+18-08-15 17:36:29 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:29 start name 燕之家
+18-08-15 17:36:35 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:35 start name 北京稻香村
+18-08-15 17:36:41 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:44 request count 162
+18-08-15 17:36:45 name_list ['玲玲家的老树核桃', '九芝堂铁皮石斛代理', '燕之家鲜', '北京稻香村糕点', '陕西九芝堂胶原滋养面膜']
+18-08-15 17:36:45 start name 玲玲家的老树核桃
+18-08-15 17:36:51 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:51 start name 九芝堂铁皮石斛代理
+18-08-15 17:36:57 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:36:57 start name 燕之家鲜
+18-08-15 17:37:03 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:03 start name 北京稻香村糕点
+18-08-15 17:37:09 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:09 start name 陕西九芝堂胶原滋养面膜
+18-08-15 17:37:15 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:18 request count 168
+18-08-15 17:37:18 name_list ['北京稻香村', '风雅老树咖啡', '两岸咖啡香河店', '东阿阿胶小铺', '正宗稻香村']
+18-08-15 17:37:18 start name 北京稻香村
+18-08-15 17:37:24 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:24 start name 风雅老树咖啡
+18-08-15 17:37:30 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:30 start name 两岸咖啡香河店
+18-08-15 17:37:36 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:36 start name 东阿阿胶小铺
+18-08-15 17:37:42 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:42 start name 正宗稻香村
+18-08-15 17:37:48 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:51 request count 174
+18-08-15 17:37:51 name_list ['梅林国际', '片仔癀九芝堂山西晋城', '老树人', '焦作两岸咖啡', '九芝堂']
+18-08-15 17:37:51 start name 梅林国际
+18-08-15 17:37:57 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:37:57 start name 片仔癀九芝堂山西晋城
+18-08-15 17:38:03 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:03 start name 老树人
+18-08-15 17:38:09 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:09 start name 焦作两岸咖啡
+18-08-15 17:38:15 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:15 start name 九芝堂
+18-08-15 17:38:21 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:24 request count 180
+18-08-15 17:38:24 name_list ['河南稻香村', '咖啡陪你沈阳奥体万达店', '东阿阿胶浆水泉路店', '九芝堂', '稻香村糕点聊城专营店']
+18-08-15 17:38:24 start name 河南稻香村
+18-08-15 17:38:30 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:30 start name 咖啡陪你沈阳奥体万达店
+18-08-15 17:38:37 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:37 start name 东阿阿胶浆水泉路店
+18-08-15 17:38:43 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:43 start name 九芝堂
+18-08-15 17:38:49 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:49 start name 稻香村糕点聊城专营店
+18-08-15 17:38:55 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:38:58 request count 186
+18-08-15 17:38:58 name_list ['水宝宝喷雾防嗮', '凯里两岸咖啡', '咖啡陪你交大东南门店', '攀枝花两岸咖啡', '咖啡陪你东北区域']
+18-08-15 17:38:58 start name 水宝宝喷雾防嗮
+18-08-15 17:39:04 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:04 start name 凯里两岸咖啡
+18-08-15 17:39:10 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:10 start name 咖啡陪你交大东南门店
+18-08-15 17:39:16 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:16 start name 攀枝花两岸咖啡
+18-08-15 17:39:22 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:22 start name 咖啡陪你东北区域
+18-08-15 17:39:28 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:31 request count 192
+18-08-15 17:39:31 name_list ['柏氏摇摇粉官网', '柏氏摇摇粉', '柏氏摇摇粉经销商', '柏氏瘦身养身中心', '柏氏']
+18-08-15 17:39:31 start name 柏氏摇摇粉官网
+18-08-15 17:39:37 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:37 start name 柏氏摇摇粉
+18-08-15 17:39:43 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:43 start name 柏氏摇摇粉经销商
+18-08-15 17:39:45 request count 0
+18-08-15 17:39:45 name_list ['柏氏', '鸣谦村美肤宝法兰琳卡专卖', '兰瑟国际', '淘宝韩国人直营化妆品 爱丽小屋', '爱丽小屋体验馆']
+18-08-15 17:39:45 start name 柏氏
+18-08-15 17:39:49 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:49 start name 柏氏瘦身养身中心
+18-08-15 17:39:55 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:39:55 start name 柏氏
+18-08-15 17:39:57 陳大惠 -- --
+18-08-15 17:39:58 陳大惠 -- --
+18-08-15 17:39:58 陳大惠 -- --
+18-08-15 17:39:59 陳大惠 -- --
+18-08-15 17:39:59 陳大惠 41259 469
+18-08-15 17:39:59 陳大惠 7253 161
+18-08-15 17:40:00 陳大惠 53883 785
+18-08-15 17:40:00 陳大惠 49968 636
+18-08-15 17:40:01 陳大惠 10W+ 1405
+18-08-15 17:40:01 陳大惠 10W+ 2478
+18-08-15 17:40:01 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:04 request count 198
+18-08-15 17:40:04 name_list ['蘭瑟文化', '柏氏', '秦皇岛爱丽小屋', '兰瑟设计', '柏氏化妆品']
+18-08-15 17:40:04 start name 蘭瑟文化
+18-08-15 17:40:10 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:10 start name 柏氏
+18-08-15 17:40:16 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:16 start name 秦皇岛爱丽小屋
+18-08-15 17:40:23 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:23 start name 兰瑟设计
+18-08-15 17:40:29 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:29 start name 柏氏化妆品
+18-08-15 17:40:35 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:38 request count 204
+18-08-15 17:40:38 name_list ['爱丽的小屋', '韩国爱丽小屋通辽专柜', '兰瑟平台', '杭州湾法兰琳卡', '平舆韩国爱丽小屋']
+18-08-15 17:40:38 start name 爱丽的小屋
+18-08-15 17:40:44 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:44 start name 韩国爱丽小屋通辽专柜
+18-08-15 17:40:50 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:50 start name 兰瑟平台
+18-08-15 17:40:56 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:40:56 start name 杭州湾法兰琳卡
+18-08-15 17:41:02 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:02 start name 平舆韩国爱丽小屋
+18-08-15 17:41:08 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:11 request count 210
+18-08-15 17:41:11 name_list ['兰瑟总代宗合', '浙江法兰琳卡', '爱丽肤小屋', '安婕妤美之匙商城', '一峰广场丶法兰琳卡']
+18-08-15 17:41:11 start name 兰瑟总代宗合
+18-08-15 17:41:17 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:17 start name 浙江法兰琳卡
+18-08-15 17:41:23 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:23 start name 爱丽肤小屋
+18-08-15 17:41:29 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:29 start name 安婕妤美之匙商城
+18-08-15 17:41:35 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:35 start name 一峰广场丶法兰琳卡
+18-08-15 17:41:41 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:44 request count 216
+18-08-15 17:41:44 name_list ['梦妆魔法韩妆团队', '建阳520爱丽小屋', '美国水宝宝正品代购店', '梵洁诗FANJEIS', '彩彩的爱丽小屋']
+18-08-15 17:41:44 start name 梦妆魔法韩妆团队
+18-08-15 17:41:50 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:50 start name 建阳520爱丽小屋
+18-08-15 17:41:57 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:41:57 start name 美国水宝宝正品代购店
+18-08-15 17:42:03 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:03 start name 梵洁诗FANJEIS
+18-08-15 17:42:09 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:09 start name 彩彩的爱丽小屋
+18-08-15 17:42:15 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:18 request count 222
+18-08-15 17:42:18 name_list ['安婕妤', '小小法兰琳卡', '竹兰梦妆', '梵洁诗日化连锁店', '朵美水宝宝']
+18-08-15 17:42:18 start name 安婕妤
+18-08-15 17:42:24 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:24 start name 小小法兰琳卡
+18-08-15 17:42:30 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:30 start name 竹兰梦妆
+18-08-15 17:42:36 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:36 start name 梵洁诗日化连锁店
+18-08-15 17:42:42 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:42 start name 朵美水宝宝
+18-08-15 17:42:48 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:51 request count 228
+18-08-15 17:42:51 name_list ['指爱丽美甲小屋', '凯伊秀瑞丰恒业专卖店', 'Anglee安婕妤', '梵洁诗幻彩EE总代', '梦妆']
+18-08-15 17:42:51 start name 指爱丽美甲小屋
+18-08-15 17:42:57 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:42:57 start name 凯伊秀瑞丰恒业专卖店
+18-08-15 17:43:03 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:03 start name Anglee安婕妤
+18-08-15 17:43:09 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:09 start name 梵洁诗幻彩EE总代
+18-08-15 17:43:15 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:15 start name 梦妆
+18-08-15 17:43:21 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:24 request count 234
+18-08-15 17:43:24 name_list ['板芙法兰琳卡护肤体验店', '梦妆', '安婕妤美体', '罗丽姿法兰琳卡护肤体验店', '梦妆']
+18-08-15 17:43:24 start name 板芙法兰琳卡护肤体验店
+18-08-15 17:43:30 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:30 start name 梦妆
+18-08-15 17:43:36 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:36 start name 安婕妤美体
+18-08-15 17:43:43 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:43 start name 罗丽姿法兰琳卡护肤体验店
+18-08-15 17:43:49 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:49 start name 梦妆
+18-08-15 17:43:55 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:43:58 request count 240
+18-08-15 17:43:58 name_list ['富诚安婕妤', '梦妆日化', '牛埠法兰琳卡护肤体验店', '梵洁诗吧', '梦妆日化官网']
+18-08-15 17:43:58 start name 富诚安婕妤
+18-08-15 17:44:04 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:44:04 start name 梦妆日化
+18-08-15 17:44:10 Message: chrome not reachable
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 17:44:10 start name 牛埠法兰琳卡护肤体验店
