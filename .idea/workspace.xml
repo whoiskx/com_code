@@ -6,13 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/WX/WX_qingbo/send_http_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX/WX_qingbo/send_http_file_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/域名修改" beforeDir="false" afterPath="$PROJECT_DIR$/域名修改" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,20 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_more_public_bottom.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_more_public_bottom.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="257" selection-start-line="257" selection-end-line="257" />
+            <state relative-caret-position="-12">
+              <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send_http_file_2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="send_http_file_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http_file_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="646">
+              <caret line="40" lean-forward="true" selection-start-line="25" selection-end-line="40" />
               <folding>
                 <element signature="e#17#28#0" expanded="true" />
               </folding>
@@ -249,8 +245,8 @@
         <option value="$PROJECT_DIR$/WX/WX_qingbo/send_http_4.py" />
         <option value="$PROJECT_DIR$/域名修改" />
         <option value="$PROJECT_DIR$/WX/WX_qingbo/send_http_file.py" />
-        <option value="$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py" />
         <option value="$PROJECT_DIR$/WX/WX_qingbo/send_http_file_2.py" />
+        <option value="$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py" />
       </list>
     </option>
   </component>
@@ -342,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.send_http_file_2">
+  <component name="RunManager" selected="Python.get_more_public_bottom">
     <configuration name="get_more_public_bottom" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -442,8 +438,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.send_http_file_2" />
         <item itemvalue="Python.get_more_public_bottom" />
+        <item itemvalue="Python.send_http_file_2" />
         <item itemvalue="Python.send_http_file" />
         <item itemvalue="Python.send_http_3" />
         <item itemvalue="Python.send_http2" />
@@ -514,11 +510,11 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.20957446" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.44787234" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.44787234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.20319149" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.53404254" />
+      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.3893617" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -762,23 +758,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py</url>
-          <line>308</line>
+          <line>327</line>
           <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py</url>
-          <line>272</line>
-          <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Facebook/bukong/fb_mysql.py</url>
           <line>18</line>
           <option name="timeStamp" value="185" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py</url>
-          <line>257</line>
-          <option name="timeStamp" value="195" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1296,20 +1282,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http_file_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="646">
+          <caret line="40" lean-forward="true" selection-start-line="25" selection-end-line="40" />
           <folding>
             <element signature="e#17#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="281" column="9" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
         </state>
       </provider>
     </entry>

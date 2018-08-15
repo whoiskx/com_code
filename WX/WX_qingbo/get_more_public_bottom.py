@@ -120,7 +120,7 @@ class PublicDetails(object):
             time.sleep(3)
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
-        name = '陳大惠'
+        # name = '陳大惠'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -246,6 +246,7 @@ class PublicDetails(object):
                             # send_http_body.update({'body': wx_dict})
 
                             backpack_list.append(send_http_body)
+
                             # urun['wx_http2'].insert(wx_dict)
                     except Exception as e:
                         log('error send', e)
@@ -254,6 +255,24 @@ class PublicDetails(object):
                         #     if index == 0:
                         self.driver.switch_to.window(all_handles[0])
                         return 'error read'
+
+                    # 发包
+                    url1 = 'http://115.231.251.252:26016/'
+                    url2 = 'http://60.190.238.168:38015/'
+                    body = json.dumps(backpack_list)
+                    count = 0
+                    while True:
+                        if count > 2:
+                            break
+                        try:
+                            print('start uploads')
+                            r = requests.post(url1, data=body)
+
+                            r2 = requests.post(url2, data=body)
+                            print(count)
+                        except Exception as e:
+                            print(e, 'send http error')
+                        count += 1
 
                     self.driver.close()
                     # for index, handles in enumerate(all_handles):
