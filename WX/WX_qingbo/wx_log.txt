@@ -7684,3 +7684,165 @@ from unknown error: web view not found
 18-08-14 17:55:11 红星云 34921 307
 18-08-14 17:55:11 红星云 4810 85
 18-08-14 17:55:12 红星云 27304 334
+18-08-15 10:20:38 request count 0
+18-08-15 10:20:38 name_list ['古典诗词古典文学', '宅男公会', '闽北人', '封神英雄榜', '沁园春风']
+18-08-15 10:20:38 start name 古典诗词古典文学
+18-08-15 10:20:47 经典流行好音乐 -- --
+18-08-15 10:20:48 经典流行好音乐 -- --
+18-08-15 10:20:48 经典流行好音乐 -- --
+18-08-15 10:20:48 经典流行好音乐 -- --
+18-08-15 10:20:49 经典流行好音乐 -- --
+18-08-15 10:20:49 经典流行好音乐 -- --
+18-08-15 10:20:50 经典流行好音乐 -- --
+18-08-15 10:20:50 经典流行好音乐 -- --
+18-08-15 10:20:50 经典流行好音乐 23227 180
+18-08-15 10:20:51 经典流行好音乐 20346 362
+18-08-15 10:45:36 request count 0
+18-08-15 10:45:36 name_list ['村村通欢乐谷', '张家港市公安消防大队', '凉脍川味地道凉菜', '仓鼠那些事', '小煤球在线']
+18-08-15 10:45:36 start name 村村通欢乐谷
+18-08-15 10:45:46 什么值得吃 21716 92
+18-08-15 10:45:47 什么值得吃 82839 581
+18-08-15 10:45:47 什么值得吃 18899 4
+18-08-15 10:45:47 什么值得吃 87772 303
+18-08-15 10:45:48 什么值得吃 87731 320
+18-08-15 10:45:48 什么值得吃 37572 173
+18-08-15 10:45:49 什么值得吃 92793 419
+18-08-15 10:45:49 request count 0
+18-08-15 10:45:49 name_list ['微型码头', '莎莎专柜', '暨南大学华文学院团委&middot;学生会', 'HI吃茶去', '赵州发布']
+18-08-15 10:45:49 start name 微型码头
+18-08-15 10:45:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:49 start name 莎莎专柜
+18-08-15 10:45:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:49 start name 暨南大学华文学院团委&middot;学生会
+18-08-15 10:45:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:49 start name HI吃茶去
+18-08-15 10:45:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:49 start name 赵州发布
+18-08-15 10:45:49 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:49 什么值得吃 24520 124
+18-08-15 10:45:50 什么值得吃 88623 363
+18-08-15 10:45:50 什么值得吃 79417 519
+18-08-15 10:45:52 request count 6
+18-08-15 10:45:52 name_list ['衍生', '环球阅览', '漳浦论坛', '吃遍青岛', '人生无限大']
+18-08-15 10:45:52 start name 衍生
+18-08-15 10:45:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:52 start name 环球阅览
+18-08-15 10:45:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:52 start name 漳浦论坛
+18-08-15 10:45:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:52 start name 吃遍青岛
+18-08-15 10:45:52 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:52 start name 人生无限大
+18-08-15 10:45:53 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:56 request count 12
+18-08-15 10:45:56 name_list ['散文诗理论', '歙县网祖宗', '能量创造奇迹', '陪伴你成长的故事', '法学论衡']
+18-08-15 10:45:56 start name 散文诗理论
+18-08-15 10:45:56 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:56 start name 歙县网祖宗
+18-08-15 10:45:56 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:56 start name 能量创造奇迹
+18-08-15 10:45:56 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:56 start name 陪伴你成长的故事
+18-08-15 10:45:56 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:45:56 start name 法学论衡
+18-08-15 10:45:56 Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="search_input"]"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+18-08-15 10:46:41 request count 0
+18-08-15 10:46:41 name_list ['形影不离酵素', '歇歇设计屋', '夏津政务服务', '中国影视广告', '立达就业培训']
+18-08-15 10:46:41 start name 形影不离酵素
+18-08-15 10:46:51 什么值得吃 21716 92
+18-08-15 10:46:51 什么值得吃 82839 581
+18-08-15 10:46:52 什么值得吃 18899 4
+18-08-15 10:46:52 什么值得吃 87772 303
+18-08-15 10:46:53 什么值得吃 87731 320
+18-08-15 10:46:53 什么值得吃 37572 173
+18-08-15 10:46:54 什么值得吃 92793 419
+18-08-15 10:46:54 什么值得吃 24520 124
+18-08-15 10:46:55 什么值得吃 88623 363
+18-08-15 10:46:55 什么值得吃 79417 519
+18-08-15 10:50:53 request count 0
+18-08-15 10:50:53 name_list ['舟山天目艺校', '芝加哥肯特', '职场心学指南', '松果集装箱建筑', '麦秆科技丶陈蛟龙']
+18-08-15 10:50:53 start name 舟山天目艺校
+18-08-15 10:51:02 什么值得吃 21716 92
+18-08-15 10:51:02 什么值得吃 82839 581
+18-08-15 10:51:03 什么值得吃 18899 4
+18-08-15 10:51:03 什么值得吃 87772 303
+18-08-15 10:51:04 什么值得吃 87731 320
+18-08-15 10:51:04 什么值得吃 37572 173
+18-08-15 10:51:05 什么值得吃 92793 419
+18-08-15 10:51:05 什么值得吃 24520 124
+18-08-15 10:51:05 什么值得吃 88623 363
+18-08-15 10:51:06 什么值得吃 79417 519
+18-08-15 10:51:35 request count 0
+18-08-15 10:51:35 name_list ['罗米的曼联博客', '优胜者资讯', '吉利区人力资源公共服务中心', '钢之家论坛', '莱西市环境保护局']
+18-08-15 10:51:35 start name 罗米的曼联博客
+18-08-15 10:51:44 什么值得吃 21716 92
+18-08-15 10:51:45 什么值得吃 82839 581
+18-08-15 10:51:45 什么值得吃 18899 4
+18-08-15 10:51:46 什么值得吃 87772 303
+18-08-15 10:51:46 什么值得吃 87731 320
+18-08-15 10:51:47 什么值得吃 37572 173
+18-08-15 10:51:47 什么值得吃 92793 419
+18-08-15 10:51:47 什么值得吃 24520 124
+18-08-15 10:51:48 什么值得吃 88623 363
+18-08-15 10:51:48 什么值得吃 79417 519
+18-08-15 10:54:01 request count 0
+18-08-15 10:54:01 name_list ['吉安市交警支队', '没有什么不可能', '川北医学院', '一汽森雅佳宝宜昌店', '屯垦戍边唱大风']
+18-08-15 10:54:01 start name 吉安市交警支队
+18-08-15 10:54:43 request count 0
+18-08-15 10:54:43 name_list ['如皋金桥职校', '忍不住开了家服装店', '聚财', '兴城华联商厦', '上海市徐汇区体育局']
+18-08-15 10:54:43 start name 如皋金桥职校
+18-08-15 10:54:52 什么值得吃 21716 92
+18-08-15 10:54:52 什么值得吃 82839 581
+18-08-15 10:54:53 什么值得吃 18899 4
+18-08-15 10:54:53 什么值得吃 87772 303
+18-08-15 10:54:54 什么值得吃 87731 320
+18-08-15 10:54:54 什么值得吃 37572 173
+18-08-15 10:54:55 什么值得吃 92793 419
+18-08-15 10:54:55 什么值得吃 24520 124
+18-08-15 10:54:56 什么值得吃 88623 363
+18-08-15 10:54:56 什么值得吃 79417 519

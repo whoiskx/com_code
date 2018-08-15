@@ -120,7 +120,7 @@ class PublicDetails(object):
             time.sleep(3)
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
-        name = '红星云'
+        name = '什么值得吃'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -240,8 +240,8 @@ class PublicDetails(object):
                                     "timestamp": int(time.time()),
                                 }
                             }
-                            # send_http_body.update({'body': json.dumps(wx_dict)})
-                            send_http_body.update({'body': wx_dict})
+                            send_http_body.update({'body': json.dumps(wx_dict)})
+                            # send_http_body.update({'body': wx_dict})
 
                             backpack_list.append(send_http_body)
                             # urun['wx_http2'].insert(wx_dict)
