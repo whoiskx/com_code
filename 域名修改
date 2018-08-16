@@ -4,3 +4,8 @@ SaveBatchTaskForModifyingDomainDns	提交批量修改域名dns任务
     逻辑 2个程序
         1个 主切 备  一个 备切主
         数据结构 用字典 {域名 主 备}
+
+
+     TTL，即Time to Life，解析生效时间。
+
+     selenium 可以直接请求网页 不用点击跳转

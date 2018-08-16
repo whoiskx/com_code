@@ -7,7 +7,6 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import pymongo
-import urllib.parse
 import os
 import pymysql
 from send_backpack import JsonEntity, Acount, Article
@@ -23,14 +22,15 @@ MYSQL_HOST = '192.168.1.21'
 MYSQL_PORT = 8001
 MYSQL_USER = 'user'
 MYSQL_PASSWORD = 'ABCd1234'
-MYSQL_DATABASE = 'mysql'
+MYSQL_DATABASE = 'info_sct'
 
 config_mysql = {
     'host': MYSQL_HOST,
     'port': MYSQL_PORT,
     'user': MYSQL_USER,
+    'passwd': MYSQL_PASSWORD,
     'db': MYSQL_DATABASE,
-    'passwd': MYSQL_PASSWORD
+    'charset': 'utf8'
 }
 
 db = pymysql.connect(**config_mysql)
@@ -54,8 +54,7 @@ class PublicDetails(object):
         self.praise = ''
         self.name_list = []
 
-    @staticmethod
-    def get_driver():
+    def get_driver(self):
         # 使用headless无界面浏览器模式
         # options = Options()
         # options.add_argument('--headless')
@@ -65,6 +64,13 @@ class PublicDetails(object):
         driver = webdriver.Chrome()
         # driver = webdriver.PhantomJS()
         return driver
+
+    def restart_driver(self):
+        if self.driver is not None:
+            self.driver.quit()
+        self.driver = self.get_driver()
+        self.login_website()
+        time.sleep(2)
 
     @staticmethod
     def date_to_timestamp(before_time):
@@ -108,19 +114,120 @@ class PublicDetails(object):
         button.click()
         time.sleep(2)
 
-    def get_numb(self, name, count):
-        # 50次重新定位到搜索主页
-        if count % 500 == 0 and count != 0:
-            print("重置主页")
-            if self.driver is not None:
-                log(self.driver.current_url)
-                self.driver.quit()
+    def parse_articles(self):
+        backpack_list = []
+        try:
+            # 获取公众号 ID, 名称, 微信号
+            account = Acount()
+            account.name = self.driver.find_element_by_class_name('fs22').text
+            wx_num = self.driver.find_element_by_class_name('info-li').text.split('\n')[0]
+            account.account = wx_num.split("：")[-1]
+            get_account_id_url = 'http://60.190.238.178:38010/search/common/wxaccount/select?token=9ef358ed-b766-4eb3-8fde-a0ccf84659db&account={}'.format(
+                account.account)
+            url_resp = requests.get(get_account_id_url)
+            json_obj = json.loads(url_resp.text)
+            results = json_obj.get('results')
+            if results == []:
+                return ''
+            account.account_id = ''
+            for i in results:
+                account.account_id = i.get('AccountID')
+                break
+
+            for i in range(2):
+                self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                time.sleep(0.5)
+
+            # 得到所有文章并解析存储
+            data_all = self.driver.find_elements_by_css_selector('.wxDetail.bgff')
+            datas = data_all[-1]
+            items = datas.find_elements_by_class_name('clearfix')
+            for count, item in enumerate(items):
+                if count == 0:
+                    continue
+                # if count == 6:
+                #     break
+                url = item.find_element_by_tag_name('a').get_attribute('href')
+                title = item.find_element_by_class_name('cr30').text
+                read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name(
+                    'span').text
+                praise_num = \
+                    (item.find_element_by_css_selector('.wxAti-info').find_elements_by_tag_name('span'))[
+                        -1].text
+                log(account.name, read_num, praise_num)
+
+                # 文章解析
+                article = Article()
+                resp = requests.get(url)
+                article_html = resp.text
+                article_timestramp_before = re.search('var ct=".*?"', article_html).group()
+                article_timestramp = re.search('\d+', article_timestramp_before).group()
+                e = pq(article_html)
+                article_content = e("#js_content").text()
+
+                article.url = url
+                article.title = title.replace(' ', '')
+                article.content = article_content.replace('\n', '')
+                article.author = account.name
+                article.From = account.name
+                article.time = article_timestramp + '000'
+
+                wx_entity = JsonEntity(article, account)
+                wx_dict = {
+                    'ID': wx_entity.id,
+                    'Account': wx_entity.account,
+                    'TaskID': wx_entity.task_id,
+                    'TaskName': wx_entity.task_name,
+                    'AccountID': wx_entity.account_id,
+                    'SiteID': int(wx_entity.site_id),
+                    'TopicID': 0,
+                    'Url': wx_entity.url,
+                    'Title': wx_entity.title,
+                    'Content': wx_entity.content,
+                    'Author': wx_entity.author,
+                    'Praises': praise_num,
+                    'Views': read_num,
+                    'Time': int(wx_entity.time),
+                    'AddOn': int(wx_entity.addon + '000'),
+                }
+
+                # 构造并发包
+                send_http_body = {
+                    "headers": {
+                        "topic": "weixin",
+                        "key": wx_entity.id,
+                        "timestamp": int(time.time()),
+                    }
+                }
+                send_http_body.update({'body': json.dumps(wx_dict)})
+                backpack_list.append(send_http_body)
+
+                # 上传数据库
+                cursor.execute(
+                    "INSERT INTO wechat_qingbo(current_url, article_url, read_num, praise_num, addon, account, account_id, author, id, title) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s,%s)",
+                    (self.driver.current_url, url, read_num, praise_num, datetime.datetime.now(),
+                     wx_entity.account, wx_entity.account_id, wx_entity.author, wx_entity.id, wx_entity.title))
+                db.commit()
+                # urun['wx_http2'].insert(wx_dict)
+        except Exception as e:
+            log('error send', e)
+            self.driver.quit()
             self.driver = self.get_driver()
             self.login_website()
-            time.sleep(3)
+            time.sleep(2)
+            return ''
+
+        return backpack_list
+
+
+    def get_numb(self, name, count):
+        # 50次重新定位到搜索主页
+        if count % 100 == 0 and count != 0:
+            log("重启浏览器")
+            self.restart_driver()
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
-        # name = '陳大惠'
+        name = '陳大惠'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -128,7 +235,6 @@ class PublicDetails(object):
         time.sleep(2.5)
 
         # 发包列表
-
         backpack_list = []
         public_divs = self.driver.find_elements_by_css_selector('.clearfix.list_query')
         for public_div in public_divs:
@@ -143,158 +249,37 @@ class PublicDetails(object):
                 if len(all_handles) > 1:
                     # for index, handles in enumerate(all_handles):
                     #     if index == 1:
-                    self.driver.switch_to.window(all_handles[1])
+                    self.driver.switch_to.window(all_handles[-1])
                     time.sleep(0.5)
-                    try:
-                        # 获取公众号 ID, 名称, 微信号
-                        account = Acount()
-                        account.name = self.driver.find_element_by_class_name('fs22').text
-                        wx_num = self.driver.find_element_by_class_name('info-li').text.split('\n')[0]
-                        account.account = wx_num.split("：")[-1]
-                        get_account_id_url = 'http://60.190.238.178:38010/search/common/wxaccount/select?token=9ef358ed-b766-4eb3-8fde-a0ccf84659db&account={}'.format(
-                            account.account)
-                        url_resp = requests.get(get_account_id_url)
-                        json_obj = json.loads(url_resp.text)
-                        results = json_obj.get('results')
-                        if results == []:
-                            continue
-                        account.account_id = ''
-                        for i in results:
-                            account.account_id = i.get('AccountID')
-                            break
+                    backpack_list = self.parse_articles()
+                    log(backpack_list)
+                    # 发包
+                    if backpack_list != '':
+                        url1 = 'http://115.231.251.252:26016/'
+                        url2 = 'http://60.190.238.168:38015/'
+                        body = json.dumps(backpack_list)
+                        count = 0
 
-                        for i in range(2):
-                            self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-                            time.sleep(0.5)
+                        while True:
+                            if count > 2:
+                                break
+                            try:
+                                print('start uploads')
+                                r = requests.post(url1, data=body)
+                                r2 = requests.post(url2, data=body)
+                                print(count)
+                                break
+                            except Exception as e:
+                                print(e, 'send http error')
+                            count += 1
 
-                        # 得到所有文章并解析
-                        data_all = self.driver.find_elements_by_css_selector('.wxDetail.bgff')
-                        datas = data_all[-1]
-                        items = datas.find_elements_by_class_name('clearfix')
-                        for count, item in enumerate(items):
-                            if count == 0:
-                                continue
-                            # if count == 6:
-                            #     break
-                            url = item.find_element_by_tag_name('a').get_attribute('href')
-                            title = item.find_element_by_class_name('cr30').text
-                            read_num = item.find_element_by_css_selector('.wxAti-info').find_element_by_tag_name(
-                                'span').text
-                            praise_num = \
-                                (item.find_element_by_css_selector('.wxAti-info').find_elements_by_tag_name('span'))[
-                                    -1].text
-                            log(name, read_num, praise_num)
-
-                            cursor.execute(
-                                "INSERT INTO wechat_qingbo_copy(current_url, article_url, read_num, praise_num, insert_time) VALUES (%s, %s, %s, %s, %s)",
-                                (self.driver.current_url, url, read_num, praise_num, datetime.datetime.now()))
-                            db.commit()
-
-                            # 文章解析
-                            article = Article()
-                            resp = requests.get(url)
-                            article_html = resp.text
-                            article_timestramp_before = re.search('var ct=".*?"', article_html).group()
-                            article_timestramp = re.search('\d+', article_timestramp_before).group()
-                            e = pq(article_html)
-                            # account = e("#js_name")
-                            article_content = e("#js_content").text()
-                            # article_author = e("")
-
-                            article.url = url
-                            article.title = title.replace(' ', '')
-                            article.content = article_content.replace('\n', '')
-                            article.author = account.name
-                            article.From = account.name
-                            article.time = article_timestramp + '000'
-
-                            wx_entity = JsonEntity(article, account)
-                            wx_dict = {
-                                'ID': wx_entity.id,
-                                'Account': wx_entity.account,
-                                'TaskID': wx_entity.task_id,
-                                'TaskName': wx_entity.task_name,
-                                'AccountID': wx_entity.account_id,
-                                # GroupName
-                                'SiteID': int(wx_entity.site_id),
-                                'TopicID': 0,
-                                'Url': wx_entity.url,
-                                'Title': wx_entity.title,
-                                'Content': wx_entity.content,
-                                'Author': wx_entity.author,
-                                # 'Praises': praise_num,
-                                # 'Views': read_num,
-
-                                # "From": None,
-                                'Time': int(wx_entity.time),
-
-                                # \"Views\\\":0,\\\"Praises\\\":0,
-                                #  "Hash\\\":\\\"
-
-                                'AddOn': int(wx_entity.addon + '000'),
-                            }
-
-                            # 构造并发包
-                            send_http_body = {
-                                "headers": {
-                                    "topic": "weixin",
-                                    "key": wx_entity.id,
-                                    "timestamp": int(time.time()),
-                                }
-                            }
-                            send_http_body.update({'body': json.dumps(wx_dict)})
-                            # send_http_body.update({'body': wx_dict})
-
-                            backpack_list.append(send_http_body)
-
-                            # urun['wx_http2'].insert(wx_dict)
-                    except Exception as e:
-                        log('error send', e)
                         self.driver.close()
                         # for index, handles in enumerate(all_handles):
                         #     if index == 0:
                         self.driver.switch_to.window(all_handles[0])
-                        return 'error read'
-
-                    # 发包
-                    url1 = 'http://115.231.251.252:26016/'
-                    url2 = 'http://60.190.238.168:38015/'
-                    body = json.dumps(backpack_list)
-                    count = 0
-                    while True:
-                        if count > 2:
-                            break
-                        try:
-                            print('start uploads')
-                            r = requests.post(url1, data=body)
-
-                            r2 = requests.post(url2, data=body)
-                            print(count)
-                        except Exception as e:
-                            print(e, 'send http error')
-                        count += 1
-
-                    self.driver.close()
-                    # for index, handles in enumerate(all_handles):
-                    #     if index == 0:
-                    self.driver.switch_to.window(all_handles[0])
-
             else:
                 log('not found available public')
-
-        #
-        # requests.post('') send_http = {
-        #             "headers": {
-        #                 "topic": "datacenter", "key": "",
-        #                 "timestamp": str(int(time.time()))},
-        #             "body": backpack_list
-        #         }
         print("haha")
-
-        # # 构造并发包
-        # if body != []:
-        #     backpack_list[0].get(body).format(body)
-        #     print(backpack_list)
 
     def run(self):
         self.login_website()
@@ -303,27 +288,22 @@ class PublicDetails(object):
             try:
                 log('request count {}'.format(count))
                 self.name_list = self.public_name()
+                count += 1
                 for name in self.name_list:
                     try:
                         log('start name {}'.format(name))
                         self.get_numb(name, count)
                     except Exception as e:
-                        log(e)
+                        log('get_numb', e)
                         if 'timeout' in str(e):
-                            self.driver.get('http://www.gsdata.cn/query/wx?q=%E5%BC%80%E8%AF%9A%E5%BF%AB%E5%8D%B0')
+                            url = 'http://www.gsdata.cn/query/wx?q=%E5%BC%80%E8%AF%9A%E5%BF%AB%E5%8D%B0'
+                            self.driver.get(url)
                             time.sleep(1)
-                    count += 1
-                time.sleep(3)
-                count += 1
+                        else:
+                            self.restart_driver()
             except Exception as e:
-                log('error afsdfadfsd')
-                log(e)
-                if self.driver is not None:
-                    log(self.driver.current_url)
-                    self.driver.quit()
-                self.driver = self.get_driver()
-                self.login_website()
-                count += 1
+                log('run error', e)
+                self.restart_driver()
                 continue
         print('haha')
 

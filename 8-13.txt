@@ -41,3 +41,8 @@ mysql 连接 中文
 row_count=cursor.execute("select user,pass from tb7 where user=%s and pass=%s",(user,passwd))
 ping 连接 查看域名
     域名切换需要时间
+
+xls to xlsx
+    人工自动用wps转
+
+空列表也能迭代
