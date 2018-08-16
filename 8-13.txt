@@ -46,3 +46,12 @@ xls to xlsx
     人工自动用wps转
 
 空列表也能迭代
+
+
+RuntimeError: cryptography requires setuptools 18.5 or newer, please upgrade to a newer version of setuptools
+    sudo pip3 install pymysql
+    sudo pip3 install -U setuptools 更新
+
+  Pyhton pip can't proceed with requirement 'Pillow' due to a pre-existing build directory
+    更新pip 即可
+    pip insatll -U pip

@@ -128,7 +128,8 @@ class PublicDetails(object):
             json_obj = json.loads(url_resp.text)
             results = json_obj.get('results')
             if results == []:
-                return ''
+                log('account_id is None')
+                return None
             account.account_id = ''
             for i in results:
                 account.account_id = i.get('AccountID')
@@ -141,6 +142,8 @@ class PublicDetails(object):
             # 得到所有文章并解析存储
             data_all = self.driver.find_elements_by_css_selector('.wxDetail.bgff')
             datas = data_all[-1]
+            if '该公众号暂无数据' in datas.text:
+                return None
             items = datas.find_elements_by_class_name('clearfix')
             for count, item in enumerate(items):
                 if count == 0:
@@ -160,6 +163,9 @@ class PublicDetails(object):
                 article = Article()
                 resp = requests.get(url)
                 article_html = resp.text
+                # 文章可能被删除
+                if '该内容已被发布者删除 ' in article_html:
+                    continue
                 article_timestramp_before = re.search('var ct=".*?"', article_html).group()
                 article_timestramp = re.search('\d+', article_timestramp_before).group()
                 e = pq(article_html)
@@ -211,14 +217,10 @@ class PublicDetails(object):
                 # urun['wx_http2'].insert(wx_dict)
         except Exception as e:
             log('error send', e)
-            self.driver.quit()
-            self.driver = self.get_driver()
-            self.login_website()
-            time.sleep(2)
-            return ''
+
+            return None
 
         return backpack_list
-
 
     def get_numb(self, name, count):
         # 50次重新定位到搜索主页
@@ -227,7 +229,7 @@ class PublicDetails(object):
             self.restart_driver()
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
-        name = '陳大惠'
+        name = '冰河'
         search_input.clear()
         search_input.send_keys(name)
         search_button = self.driver.find_element_by_class_name('search_wx')
@@ -235,7 +237,6 @@ class PublicDetails(object):
         time.sleep(2.5)
 
         # 发包列表
-        backpack_list = []
         public_divs = self.driver.find_elements_by_css_selector('.clearfix.list_query')
         for public_div in public_divs:
             if '提交入库' not in public_div.text:
@@ -247,14 +248,17 @@ class PublicDetails(object):
                 all_handles = self.driver.window_handles  # 获取到当前所有的句柄,所有的句柄存放在列表当中
                 '''获取非最初打开页面的句柄'''
                 if len(all_handles) > 1:
+                    if len(all_handles) > 2:
+                        self.restart_driver()
+                        return None
                     # for index, handles in enumerate(all_handles):
                     #     if index == 1:
                     self.driver.switch_to.window(all_handles[-1])
                     time.sleep(0.5)
                     backpack_list = self.parse_articles()
-                    log(backpack_list)
+                    # log('backpack_list', backpack_list)
                     # 发包
-                    if backpack_list != '':
+                    if backpack_list is not None:
                         url1 = 'http://115.231.251.252:26016/'
                         url2 = 'http://60.190.238.168:38015/'
                         body = json.dumps(backpack_list)
@@ -266,9 +270,15 @@ class PublicDetails(object):
                             try:
                                 print('start uploads')
                                 r = requests.post(url1, data=body)
+                                if r.status_code == 200:
+                                    print('ok1')
+                            except Exception as e:
+                                print('send http error', e)
+                            try:
                                 r2 = requests.post(url2, data=body)
-                                print(count)
-                                break
+                                if r2.status_code == 200:
+                                    print('ok2')
+                                    break
                             except Exception as e:
                                 print(e, 'send http error')
                             count += 1
@@ -277,9 +287,15 @@ class PublicDetails(object):
                         # for index, handles in enumerate(all_handles):
                         #     if index == 0:
                         self.driver.switch_to.window(all_handles[0])
+
+                    else:
+                        log('backpack_list is None')
+                        self.driver.close()
+                        # for index, handles in enumerate(all_handles):
+                        #     if index == 0:
+                        self.driver.switch_to.window(all_handles[0])
             else:
                 log('not found available public')
-        print("haha")
 
     def run(self):
         self.login_website()

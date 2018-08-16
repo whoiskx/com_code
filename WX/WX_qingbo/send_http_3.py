@@ -23,9 +23,6 @@ body = json.dumps(body_one)
 # body = body_one
 print(body)
 
-r = requests.post(url0, data=body)
-print(r.status_code)
-print(r.text)
 
 url = 'http://27.17.18.131:38072'
 r = requests.post(url1, data=body)
