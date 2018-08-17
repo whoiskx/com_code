@@ -17,3 +17,7 @@ SaveBatchTaskForModifyingDomainDns	提交批量修改域名dns任务
      # 问题: 故障判断
             切换结果    切换之后下次不再管
             字段定义
+
+
+      多线程模式
+        等所有循环结束 开启下一轮域名轮询

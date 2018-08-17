@@ -1,4 +1,3 @@
-from datetime import datetime
 import time
 import requests
 from selenium import webdriver
@@ -76,11 +75,13 @@ class IpSwith(object):
              'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
              'is_change': False, 'end_time': None, 'current_domain': '61.164.49.130'}
 
-        domain_list = [d, d, d, d, d, d, d]
+        domain_list = [d, d, d, d, d]
+        error_max = 3
         while True:
             # 拿到所有域名
             # 迭代并判断故障域名
             # 修改为备用IP, 切换完成设置保护时间
+            print("domain loop start")
             for domain_detail in domain_list:
                 now = int(time.time())
                 test_url = domain_detail.get('monitor')
@@ -99,25 +100,35 @@ class IpSwith(object):
                     is_change = domain_detail.get('is_change')
                     if is_change is False:
                         # 确保切换主到备3分钟内没有执行修改到备用的操作
-                        try:
-                            resp.status_code = 406
-                            resp = requests.get(test_url)
-                            if resp.status_code >= 400:
+                        count = 0
+                        while True:
+                            try:
+                                raise 1 == 2
+                                resp = requests.get(test_url)
+                                if resp.status_code >= 400:
+                                    # self.login()
+                                    # self.swich_ip()
+                                    count += 1
+                                    if count == error_max:
+                                        print('切换到备用IP')
+                                        domain_detail = self.swich_ip_test(backup_ip, domain_detail)
+                                        domain_detail = self.save_change(domain_detail)
+                                        count = 0
+                                    print('server fault: code error')
+                                break
+                                print('server normal')
+                            except Exception as e:
                                 # self.login()
                                 # self.swich_ip()
+                                count += 1
 
-                                domain_detail = self.swich_ip_test(backup_ip, domain_detail)
-                                domain_detail = self.save_change(domain_detail)
-                                print('server fault: code error')
-                            print('server normal')
-                        except Exception as e:
-                            # self.login()
-                            # self.swich_ip()
-                            domain_detail = self.swich_ip_test(backup_ip, domain_detail)
-                            domain_detail = self.save_change(domain_detail)
+                                if count == error_max:
+                                    print('切换到备用IP')
+                                    domain_detail = self.swich_ip_test(backup_ip, domain_detail)
+                                    domain_detail = self.save_change(domain_detail)
+                                    break
 
-                            print('server fault: request error')
-
+                                print('server fault: request error')
                     else:
                         change_deadline = domain_detail.get('end_time')
                         if change_deadline is not None:
@@ -125,25 +136,32 @@ class IpSwith(object):
                             if time_difference > 5:
                                 domain_detail['is_change'] = False
                             else:
-                                # continue
-                                break
+                                continue
 
                 elif current_ip == backup_ip:
                     # 备切主 当前IP是备用服务器
                     is_change = domain_detail.get('is_change')
                     if is_change is not True:
                         main_url = test_url.replace(parsed_domain, main_ip)
-                        try:
-                            resp = requests.get(main_url)
-                            if resp.status_code < 400:
-                                # self.login()
-                                # self.swich_ip(main_ip)
-                                domain_detail = self.swich_ip_test(main_ip, domain_detail)
-                                domain_detail = self.save_change(domain_detail)
+                        count = 0
+                        while True:
+                            try:
+                                resp = requests.get(main_url)
+                                if resp.status_code < 400:
 
-                                print('server main normal')
-                        except Exception as e:
-                            pass
+                                    count += 1
+                                    if count >= error_max:
+                                        print('切换到主IP')
+                                        # self.login()
+                                        # self.swich_ip(main_ip)
+                                        domain_detail = self.swich_ip_test(main_ip, domain_detail)
+                                        domain_detail = self.save_change(domain_detail)
+                                        break
+
+                                    print('server main normal')
+                            except Exception as e:
+                                count += 1
+                                pass
 
                     else:
                         change_deadline = domain_detail.get('end_time')
@@ -152,8 +170,9 @@ class IpSwith(object):
                             if time_difference > 5:
                                 domain_detail['is_change'] = False
                             else:
-                                # continue
-                                break
+                                continue
+            time.sleep(5)
+            print("domain loop over")
 
 
 if __name__ == '__main__':

@@ -6,8 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/aliyun/domain_to_ip.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/domain_to_ip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliyun/ip_switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/域名修改" beforeDir="false" afterPath="$PROJECT_DIR$/域名修改" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +34,29 @@
       <file leaf-file-name="ip_switch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+            <state relative-caret-position="314">
+              <caret line="174" column="37" lean-forward="true" selection-start-line="174" selection-start-column="37" selection-end-line="174" selection-end-column="37" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8-13.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8-13.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="域名修改" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/域名修改">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -59,27 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Facebook_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/Facebook_xihaiming/Facebook_data.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="domain_to_ip.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliyun/domain_to_ip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver_page_source.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_test/driver_page_source.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -187,7 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DefinedSite</find>
       <find>self._</find>
       <find>site</find>
       <find>;</find>
@@ -217,6 +220,7 @@
       <find>backpack_list is None</find>
       <find>fs22</find>
       <find>datetime.now()</find>
+      <find>domain_to_ip</find>
     </findStrings>
     <replaceStrings>
       <replace>u</replace>
@@ -290,10 +294,10 @@
         <option value="$PROJECT_DIR$/selenium.txt" />
         <option value="$PROJECT_DIR$/8-13.txt" />
         <option value="$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py" />
-        <option value="$PROJECT_DIR$/域名修改" />
         <option value="$PROJECT_DIR$/WX/readme.txt" />
         <option value="$PROJECT_DIR$/my_test/FB_not_login.py" />
         <option value="$PROJECT_DIR$/aliyun/domain_to_ip.py" />
+        <option value="$PROJECT_DIR$/域名修改" />
         <option value="$PROJECT_DIR$/aliyun/ip_switch.py" />
       </list>
     </option>
@@ -546,12 +550,12 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.28829786" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.27978724" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.4638298" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.14148936" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2287234" />
-      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.42978725" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2606383" />
+      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.53404254" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -831,8 +835,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/aliyun/ip_switch.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="216" />
+          <line>86</line>
+          <option name="timeStamp" value="217" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -845,7 +849,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="217" />
+      <option name="time" value="218" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -895,6 +899,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>resp</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>resp.text</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -931,11 +940,6 @@
       </expression>
       <expression>
         <expression-string>driver.find_element_by_class_name('c-tips-container')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>article_timestramp</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1054,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8-13.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1125,13 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54650">
           <caret line="4779" column="39" selection-start-line="4779" selection-start-column="18" selection-end-line="4779" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/域名修改">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1298,13 +1288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/domain_to_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="689">
@@ -1319,12 +1302,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/8-13.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/域名修改">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/domain_to_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+        <state relative-caret-position="314">
+          <caret line="174" column="37" lean-forward="true" selection-start-line="174" selection-start-column="37" selection-end-line="174" selection-end-column="37" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
