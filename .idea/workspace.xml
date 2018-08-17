@@ -6,14 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/aliyun/domain_to_ip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WX/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliyun/ip_switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_test/FB_not_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_test/FB_not_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/域名修改" beforeDir="false" afterPath="$PROJECT_DIR$/域名修改" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +32,8 @@
       <file leaf-file-name="ip_switch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="69" column="71" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+            <state relative-caret-position="99">
+              <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -47,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
+      <file leaf-file-name="parse.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/urllib/parse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="310" selection-start-line="310" selection-end-line="310" />
+            <state relative-caret-position="162">
+              <caret line="374" selection-start-line="374" selection-end-line="374" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WX/readme.txt">
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="689">
+              <caret line="310" selection-start-line="310" selection-end-line="310" />
             </state>
           </provider>
         </entry>
@@ -552,12 +546,12 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.25638297" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.20957446" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.28829786" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.27978724" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34680852" />
-      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.42021278" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2287234" />
+      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.42978725" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -837,8 +831,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/aliyun/ip_switch.py</url>
-          <line>76</line>
-          <option name="timeStamp" value="215" />
+          <line>89</line>
+          <option name="timeStamp" value="216" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -851,7 +845,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="216" />
+      <option name="time" value="217" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -901,6 +895,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>resp.text</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>parsed_url.netloc</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -936,11 +935,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>resp.text</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>article_timestramp</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -948,13 +942,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Facebook/bukong/fb_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/bukong/uploads.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1320,15 +1307,22 @@
     </entry>
     <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="689">
           <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="374" selection-start-line="374" selection-end-line="374" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="69" column="71" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+        <state relative-caret-position="99">
+          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

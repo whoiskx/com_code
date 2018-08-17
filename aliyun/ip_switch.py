@@ -55,13 +55,13 @@ class IpSwith(object):
         time.sleep(50)
         self.driver.quit()
 
-    def domain_to_ip(self, domain):
-        ip = socket.gethostbyname(domain)
-        return ip
-
     def save_change(self, domain_detail):
         domain_detail['is_change'] = True
         domain_detail['end_time'] = int(time.time())
+        return domain_detail
+
+    def swich_ip_test(self, ip, domain_detail):
+        domain_detail['current_domain'] = ip
         return domain_detail
 
     def run(self):
@@ -73,10 +73,10 @@ class IpSwith(object):
                         'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
                         'is_change': False, 'end_time': None}]
         d = {'name': 'test', 'domain': 'test.yunrunyunqing.com', 'main_ip': '61.164.49.130',
-         'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
-         'is_change': False, 'end_time': None}
+             'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
+             'is_change': False, 'end_time': None, 'current_domain': '61.164.49.130'}
 
-        domain_list = [d, d, d, d]
+        domain_list = [d, d, d, d, d, d, d]
         while True:
             # 拿到所有域名
             # 迭代并判断故障域名
@@ -89,26 +89,33 @@ class IpSwith(object):
                 domain_port = parsed_url.netloc
                 parsed_domain = domain_port.split(':')[0]
 
-                current_ip = self.domain_to_ip(parsed_domain)
+                # current_ip = socket.gethostbyname(parsed_domain)
                 main_ip = domain_detail.get('main_ip')
+                backup_ip = domain_detail.get('backup_ip')
 
+                current_ip = domain_detail.get('current_domain')
                 if current_ip == main_ip:
+                    # 当前IP是主IP
                     is_change = domain_detail.get('is_change')
-                    if not is_change:
-                        # 确保修主到备3分钟内没有执行修改到备用的操作
+                    if is_change is False:
+                        # 确保切换主到备3分钟内没有执行修改到备用的操作
                         try:
-                            # resp = requests.get(test_url)
                             resp.status_code = 406
+                            resp = requests.get(test_url)
                             if resp.status_code >= 400:
                                 # self.login()
                                 # self.swich_ip()
-                                self.save_change(domain_detail)
+
+                                domain_detail = self.swich_ip_test(backup_ip, domain_detail)
+                                domain_detail = self.save_change(domain_detail)
                                 print('server fault: code error')
                             print('server normal')
                         except Exception as e:
                             # self.login()
                             # self.swich_ip()
-                            self.save_change(domain_detail)
+                            domain_detail = self.swich_ip_test(backup_ip, domain_detail)
+                            domain_detail = self.save_change(domain_detail)
+
                             print('server fault: request error')
 
                     else:
@@ -118,52 +125,35 @@ class IpSwith(object):
                             if time_difference > 5:
                                 domain_detail['is_change'] = False
                             else:
-                                continue
-                                # break
+                                # continue
+                                break
 
+                elif current_ip == backup_ip:
+                    # 备切主 当前IP是备用服务器
+                    is_change = domain_detail.get('is_change')
+                    if is_change is not True:
+                        main_url = test_url.replace(parsed_domain, main_ip)
+                        try:
+                            resp = requests.get(main_url)
+                            if resp.status_code < 400:
+                                # self.login()
+                                # self.swich_ip(main_ip)
+                                domain_detail = self.swich_ip_test(main_ip, domain_detail)
+                                domain_detail = self.save_change(domain_detail)
 
+                                print('server main normal')
+                        except Exception as e:
+                            pass
 
-                else:
-                    # 判断备用服务器
-                    # 怎么知道主IP是好的？？
-                    resp = requests.get(test_url)
-                    if resp.status_code >= 400:
-                        # self.login()
-                        # self.swich_ip()
-                        print('server fault')
-                        pass
-
-            # url = 'http://test.yunrunyuqing.com:19002/test.html'
-            # main_url = 'http://61.164.49.130:19002/test.html'
-            # backup_url = 'http://124.239.144.163:19002/test.html'
-            # ip = {
-            #     'main': '61.164.49.130',
-            #     'back_up': '124.239.144.163'
-            # }
-            count = 0
-            try:
-                resp = requests.get(url)
-                print(resp.status_code)
-                count = 0
-            except Exception as e:
-                if count == 3:
-                    # self.login()
-                    # self.swich_ip(ip.get('back_up'))
-                    time.sleep(100)
-                count += 1
-
-            # if resp.status_code > 400:
-            #     r2 = requests.get(url)
-            #     print(resp.status_code)
-            #     time.sleep(1)
-            #     r3 = requests.get(url)
-            #     time.sleep(1)
-            #     print(resp.status_code)
-            #
-            #     if r2.status_code > 400 and r3.status_code > 400:
-            #         login_and_swich_ip(ip.get('back_up'))
-
-            # time.sleep(60)
+                    else:
+                        change_deadline = domain_detail.get('end_time')
+                        if change_deadline is not None:
+                            time_difference = now - change_deadline
+                            if time_difference > 5:
+                                domain_detail['is_change'] = False
+                            else:
+                                # continue
+                                break
 
 
 if __name__ == '__main__':
