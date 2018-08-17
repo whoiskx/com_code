@@ -16,4 +16,3 @@ e = pq(resp.text)
 
 print(e(".profileLink").text())
 print(e('.timestampContent').text())
-e

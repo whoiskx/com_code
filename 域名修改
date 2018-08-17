@@ -9,3 +9,11 @@ SaveBatchTaskForModifyingDomainDns	提交批量修改域名dns任务
      TTL，即Time to Life，解析生效时间。
 
      selenium 可以直接请求网页 不用点击跳转
+
+
+
+     域名  主IP  备IP xxx
+
+     # 问题: 故障判断
+            切换结果    切换之后下次不再管
+            字段定义
