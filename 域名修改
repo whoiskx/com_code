@@ -21,3 +21,8 @@ SaveBatchTaskForModifyingDomainDns	提交批量修改域名dns任务
 
       多线程模式
         等所有循环结束 开启下一轮域名轮询
+
+     字段
+     监控url  域名
+
+     监控备用服务器

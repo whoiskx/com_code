@@ -55,7 +55,7 @@ class IpSwith(object):
         self.driver.quit()
 
     def save_change(self, domain_detail):
-        domain_detail['is_change'] = True
+        domain_detail['changing'] = True
         domain_detail['end_time'] = int(time.time())
         return domain_detail
 
@@ -63,86 +63,104 @@ class IpSwith(object):
         domain_detail['current_domain'] = ip
         return domain_detail
 
-    def run(self):
-        domain_list = [{'name': 'test', 'domain': 'test.yunrunyunqing.com', 'main_ip': '61.164.49.130',
-                        'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
-                        'is_change': True, 'end_time': int(time.time())}]
+    def protect_period(self, domain_detail, now):
+        change_deadline = domain_detail.get('end_time')
+        if change_deadline is not None:
+            time_difference = now - change_deadline
+            if time_difference > 5:
+                domain_detail['changing'] = False
+            else:
+                return None
 
-        domain_list = [{'name': 'test', 'domain': 'test.yunrunyunqing.com', 'main_ip': '61.164.49.130',
+    def run(self):
+        domain_info = [{'name': 'test', 'domain': 'test.yunrunyunqing.com', 'main_ip': '61.164.49.130',
                         'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
-                        'is_change': False, 'end_time': None}]
+                        'changing': True, 'end_time': int(time.time()), 'close': False}]
+
+        domain_info = [{'name': 'test', 'domain': 'test.yunrunyunqing.com', 'main_ip': '61.164.49.130',
+                        'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
+                        'changing': False, 'end_time': None}]
         d = {'name': 'test', 'domain': 'test.yunrunyunqing.com', 'main_ip': '61.164.49.130',
              'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
-             'is_change': False, 'end_time': None, 'current_domain': '61.164.49.130'}
+             'changing': False, 'end_time': None, 'current_domain': '61.164.49.130', 'close': False}
 
-        domain_list = [d, d, d, d, d]
-        error_max = 3
+        domain_info = [d, d, d, d, ]
+        error_max = 4
         while True:
             # 拿到所有域名
             # 迭代并判断故障域名
             # 修改为备用IP, 切换完成设置保护时间
             print("domain loop start")
-            for domain_detail in domain_list:
+            for domain_detail in domain_info:
                 now = int(time.time())
+                # 发送请求 根据响应判断服务器是否故障
                 test_url = domain_detail.get('monitor')
                 # url = 'http://test.yunrunyuqing.com:19002/test.html'
-                parsed_url = urlparse(test_url)
-                domain_port = parsed_url.netloc
-                parsed_domain = domain_port.split(':')[0]
+                # 解析出域名
+                # 一
+                # parsed_url = urlparse(test_url)
+                # domain_port = parsed_url.netloc
+                # parsed_domain = domain_port.split(':')[0]
 
+                # 二
+                domain = domain_detail.get("domain")
                 # current_ip = socket.gethostbyname(parsed_domain)
                 main_ip = domain_detail.get('main_ip')
                 backup_ip = domain_detail.get('backup_ip')
-
                 current_ip = domain_detail.get('current_domain')
                 if current_ip == main_ip:
                     # 当前IP是主IP
-                    is_change = domain_detail.get('is_change')
-                    if is_change is False:
+                    print('当前是主IP{}'.format(current_ip))
+                    changing = domain_detail.get('changing')
+                    if changing is False:
                         # 确保切换主到备3分钟内没有执行修改到备用的操作
                         count = 0
                         while True:
                             try:
-                                raise 1 == 2
+                                # raise RuntimeError
                                 resp = requests.get(test_url)
                                 if resp.status_code >= 400:
                                     # self.login()
                                     # self.swich_ip()
                                     count += 1
                                     if count == error_max:
-                                        print('切换到备用IP')
+                                        print('切换到备用IP, 当前IP{}'.format(current_ip))
                                         domain_detail = self.swich_ip_test(backup_ip, domain_detail)
                                         domain_detail = self.save_change(domain_detail)
                                         count = 0
+                                        break
                                     print('server fault: code error')
-                                break
-                                print('server normal')
+                                else:
+                                    break
+                                print('{} normal '.format(domain))
                             except Exception as e:
                                 # self.login()
                                 # self.swich_ip()
                                 count += 1
 
-                                if count == error_max:
-                                    print('切换到备用IP')
+                                if count >= error_max:
+                                    print('切换到备用IP, 当前IP{}'.format(current_ip))
                                     domain_detail = self.swich_ip_test(backup_ip, domain_detail)
                                     domain_detail = self.save_change(domain_detail)
                                     break
-
-                                print('server fault: request error')
+                                print('server fault: requests get error')
                     else:
-                        change_deadline = domain_detail.get('end_time')
-                        if change_deadline is not None:
-                            time_difference = now - change_deadline
-                            if time_difference > 5:
-                                domain_detail['is_change'] = False
-                            else:
-                                continue
+                        # change_deadline = domain_detail.get('end_time')
+                        # if change_deadline is not None:
+                        #     time_difference = now - change_deadline
+                        #     if time_difference > 5:
+                        #         domain_detail['changing'] = False
+                        #     else:
+                        #         continue
+                        self.protect_period(domain_detail, now)
 
                 elif current_ip == backup_ip:
                     # 备切主 当前IP是备用服务器
-                    is_change = domain_detail.get('is_change')
-                    if is_change is not True:
-                        main_url = test_url.replace(parsed_domain, main_ip)
+                    print('当前是备用IP{}'.format(current_ip))
+                    changing = domain_detail.get('changing')
+                    if changing is False:
+                        main_url = test_url.replace(domain, main_ip)
+                        print("main_url {}".format(main_url))
                         count = 0
                         while True:
                             try:
@@ -151,7 +169,7 @@ class IpSwith(object):
 
                                     count += 1
                                     if count >= error_max:
-                                        print('切换到主IP')
+                                        print('切换到主IP, 当前{}'.format(current_ip))
                                         # self.login()
                                         # self.swich_ip(main_ip)
                                         domain_detail = self.swich_ip_test(main_ip, domain_detail)
@@ -160,19 +178,21 @@ class IpSwith(object):
 
                                     print('server main normal')
                             except Exception as e:
-                                count += 1
-                                pass
+                                print("backup server requests get error")
+                                break
 
                     else:
-                        change_deadline = domain_detail.get('end_time')
-                        if change_deadline is not None:
-                            time_difference = now - change_deadline
-                            if time_difference > 5:
-                                domain_detail['is_change'] = False
-                            else:
-                                continue
+                        # change_deadline = domain_detail.get('end_time')
+                        # if change_deadline is not None:
+                        #     time_difference = now - change_deadline
+                        #     if time_difference > 5:
+                        #         domain_detail['changing'] = False
+                        #     else:
+                        #         continue
+                        self.protect_period(domain_detail, now)
             time.sleep(5)
             print("domain loop over")
+            # break
 
 
 if __name__ == '__main__':
