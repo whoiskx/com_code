@@ -35,30 +35,6 @@ class IpSwith(object):
         time.sleep(1)
         self.driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div[1]/i[1]').click()
         time.sleep(3)
-        # 得到100页
-        self.driver.find_element_by_class_name('ant-select-selection__rendered').click()
-        choice = self.driver.find_elements_by_class_name('ant-select-dropdown-menu-item')
-        choice[-1].click()
-        time.sleep(1)
-
-        # 匹配域名
-        records_info = self.driver.find_elements_by_class_name('ant-table-row')
-        for record in records_info:
-            domain_name = record.find_elements_by_class_name('ant-table-column-has-filters')[1].text
-            if domain_name == 'test':
-                change_div = record.find_elements_by_class_name('_3VmUbwgp')
-                change_div.click()
-                time.sleep(1)
-                ip_input = self.driver.find_element_by_xpath('//*[@id="value"]')
-                ip_input.clear()
-                #    ip_input.send_keys('1.1.1.1')
-                ip_input.send_keys(ip)
-                time.sleep(0.5)
-                self.driver.find_element_by_xpath(
-                    '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
-                time.sleep(50)
-                self.driver.quit()
-
         domin_yun = self.driver.find_element_by_xpath(
             '//*[@id="container"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[3]/td[2]/span[2]/div[1]/a')
         domin_yun.click()
@@ -75,7 +51,7 @@ class IpSwith(object):
         ip_input.send_keys(ip)
         time.sleep(0.5)
         self.driver.find_element_by_xpath('/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
-        time.sleep(50)
+        time.sleep(3)
         self.driver.quit()
 
     def save_change(self, domain_detail):
@@ -91,9 +67,11 @@ class IpSwith(object):
         change_deadline = domain_detail.get('end_time')
         if change_deadline is not None:
             time_difference = now - change_deadline
-            if time_difference > 5:
+            if time_difference > 130:
+                print("not in  protect period")
                 domain_detail['changing'] = False
             else:
+                print("in protect period")
                 return None
 
     def run(self):
@@ -101,10 +79,10 @@ class IpSwith(object):
                         'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
                         'changing': True, 'end_time': int(time.time()), 'close': False}]
 
-        domain_info = [{'name': 'test', 'domain': 'test.yunrunyunqing.com', 'main_ip': '61.164.49.130',
+        domain_info = [{'name': 'test', 'domain': 'test.yunrunyuqing.com', 'main_ip': '61.164.49.130',
                         'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
                         'changing': False, 'end_time': None}]
-        d = {'name': 'test', 'domain': 'test.yunrunyunqing.com', 'main_ip': '61.164.49.130',
+        d = {'name': 'test', 'domain': 'test.yunrunyuqing.com', 'main_ip': '61.164.49.130',
              'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
              'changing': False, 'end_time': None, 'current_domain': '61.164.49.130', 'close': False}
 
@@ -128,10 +106,10 @@ class IpSwith(object):
 
                 # 二
                 domain = domain_detail.get("domain")
-                # current_ip = socket.gethostbyname(parsed_domain)
+                current_ip = socket.gethostbyname(domain)
                 main_ip = domain_detail.get('main_ip')
                 backup_ip = domain_detail.get('backup_ip')
-                current_ip = domain_detail.get('current_domain')
+                # current_ip = domain_detail.get('current_domain')
                 if current_ip == main_ip:
                     # 当前IP是主IP
                     print('当前是主IP{}'.format(current_ip))
@@ -141,7 +119,7 @@ class IpSwith(object):
                         count = 0
                         while True:
                             try:
-                                # raise RuntimeError
+                                raise RuntimeError
                                 resp = requests.get(test_url)
                                 if resp.status_code >= 400:
                                     # self.login()
@@ -149,7 +127,9 @@ class IpSwith(object):
                                     count += 1
                                     if count == error_max:
                                         print('切换到备用IP, 当前IP{}'.format(current_ip))
-                                        domain_detail = self.swich_ip_test(backup_ip, domain_detail)
+                                        self.login()
+                                        self.swich_ip(backup_ip)
+                                        # domain_detail = self.swich_ip_test(backup_ip, domain_detail)
                                         domain_detail = self.save_change(domain_detail)
                                         count = 0
                                         break
@@ -164,7 +144,9 @@ class IpSwith(object):
 
                                 if count >= error_max:
                                     print('切换到备用IP, 当前IP{}'.format(current_ip))
-                                    domain_detail = self.swich_ip_test(backup_ip, domain_detail)
+                                    self.login()
+                                    self.swich_ip(backup_ip)
+                                    # domain_detail = self.swich_ip_test(backup_ip, domain_detail)
                                     domain_detail = self.save_change(domain_detail)
                                     break
                                 print('server fault: requests get error')
@@ -194,9 +176,9 @@ class IpSwith(object):
                                     count += 1
                                     if count >= error_max:
                                         print('切换到主IP, 当前{}'.format(current_ip))
-                                        # self.login()
-                                        # self.swich_ip(main_ip)
-                                        domain_detail = self.swich_ip_test(main_ip, domain_detail)
+                                        self.login()
+                                        self.swich_ip(main_ip)
+                                        # domain_detail = self.swich_ip_test(main_ip, domain_detail)
                                         domain_detail = self.save_change(domain_detail)
                                         break
 
@@ -221,6 +203,4 @@ class IpSwith(object):
 
 if __name__ == '__main__':
     test = IpSwith()
-    # test.run()
-    test.login()
-    test.swich_ip('0.0.0.0')
+    test.run()
