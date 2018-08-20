@@ -3,6 +3,9 @@ import requests
 from selenium import webdriver
 from urllib.parse import urlparse
 import socket
+from setting import log
+
+print = log
 
 
 class IpSwith(object):
@@ -10,8 +13,7 @@ class IpSwith(object):
         self.driver = None
 
     def login(self):
-        if self.driver is None:
-            self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome()
         url = 'https://signin.aliyun.com/1604195877004448/login.htm?callback=https%3A%2F%2Fdns.console.aliyun.com%2F'
         self.driver.get(url)
         time.sleep(1)
@@ -67,7 +69,7 @@ class IpSwith(object):
         change_deadline = domain_detail.get('end_time')
         if change_deadline is not None:
             time_difference = now - change_deadline
-            if time_difference > 130:
+            if time_difference > 620:
                 print("not in  protect period")
                 domain_detail['changing'] = False
             else:
@@ -88,6 +90,8 @@ class IpSwith(object):
 
         domain_info = [d, d, d, d, ]
         error_max = 4
+
+        test_main = 0
         while True:
             # 拿到所有域名
             # 迭代并判断故障域名
@@ -106,7 +110,7 @@ class IpSwith(object):
 
                 # 二
                 domain = domain_detail.get("domain")
-                current_ip = socket.gethostbyname(domain)
+                current_ip = socket.getho stbyname(domain)
                 main_ip = domain_detail.get('main_ip')
                 backup_ip = domain_detail.get('backup_ip')
                 # current_ip = domain_detail.get('current_domain')
@@ -119,7 +123,9 @@ class IpSwith(object):
                         count = 0
                         while True:
                             try:
-                                raise RuntimeError
+                                if test_main <= 5:
+                                    test_main += 1
+                                    raise RuntimeError
                                 resp = requests.get(test_url)
                                 if resp.status_code >= 400:
                                     # self.login()

@@ -10,8 +10,7 @@ class IpSwith(object):
         self.driver = None
 
     def login(self):
-        if self.driver is None:
-            self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome()
         url = 'https://signin.aliyun.com/1604195877004448/login.htm?callback=https%3A%2F%2Fdns.console.aliyun.com%2F'
         self.driver.get(url)
         time.sleep(1)
@@ -28,6 +27,7 @@ class IpSwith(object):
         button = self.driver.find_element_by_xpath('//*[@id="u22"]/input')
         button.click()
         time.sleep(1)
+
         # 登录完成
 
     def swich_ip(self, ip):
@@ -35,20 +35,17 @@ class IpSwith(object):
         time.sleep(1)
         self.driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div[1]/i[1]').click()
         time.sleep(3)
-
-        # 匹配域名
+        #进入域名管理页面
         domin_yun = self.driver.find_element_by_xpath(
             '//*[@id="container"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[3]/td[2]/span[2]/div[1]/a')
         domin_yun.click()
         time.sleep(2)
-
         # 得到100页
         self.driver.find_element_by_class_name('ant-select-selection__rendered').click()
         choice = self.driver.find_elements_by_class_name('ant-select-dropdown-menu-item')
         choice[-1].click()
         time.sleep(1)
-
-
+        # 匹配域名
         records_info = self.driver.find_elements_by_class_name('ant-table-row')
         for record in records_info:
             domain_name = record.find_elements_by_class_name('ant-table-column-has-filters')[1].text
@@ -63,7 +60,7 @@ class IpSwith(object):
                 time.sleep(0.5)
                 self.driver.find_element_by_xpath(
                     '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
-                time.sleep(50)
+                time.sleep(3)
                 self.driver.quit()
         # change_button = self.driver.find_element_by_xpath(
         #     '//*[@id="container"]/div/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[1]/td[9]/span/span[1]')
