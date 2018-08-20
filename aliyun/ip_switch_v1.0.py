@@ -82,6 +82,7 @@ class IpSwith(object):
         return domain_detail
 
     def protect_period(self, domain_detail, now):
+        # 主到备 10分钟内禁止再次修改
         change_deadline = domain_detail.get('end_time')
         if change_deadline is not None:
             time_difference = now - change_deadline
@@ -104,7 +105,7 @@ class IpSwith(object):
              'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
              'changing': False, 'end_time': None, 'current_domain': '61.164.49.130', 'close': False}
 
-        domain_info = [d, d, d, d, ]
+        domains_info = [d, d, d, d, ]
         error_max = 4
 
         test_main = 0
@@ -114,7 +115,7 @@ class IpSwith(object):
             # 修改为备用IP, 切换完成设置保护时间
             start = int(time.time())
             print("domain loop start")
-            for domain_detail in domain_info:
+            for domain_detail in domains_info:
                 now = int(time.time())
                 # 发送请求 根据响应判断服务器是否故障
                 test_url = domain_detail.get('monitor')
@@ -136,13 +137,12 @@ class IpSwith(object):
                     print('当前是主IP{}'.format(current_ip))
                     changing = domain_detail.get('changing')
                     if changing is False:
-                        # 确保切换主到备3分钟内没有执行修改到备用的操作
                         count = 0
                         while True:
                             try:
-                                if test_main <= 5:
-                                    test_main += 1
-                                    raise RuntimeError
+                                # if test_main <= 5:
+                                #     test_main += 1
+                                #     raise RuntimeError
                                 resp = requests.get(test_url)
                                 if resp.status_code >= 400:
                                     # self.login()
@@ -219,12 +219,10 @@ class IpSwith(object):
                                         # domain_detail = self.swich_ip_test(main_ip, domain_detail)
                                         domain_detail = self.save_change(domain_detail)
                                         break
-
                                     print('server main normal')
                             except Exception as e:
                                 print("backup server requests get error")
                                 break
-
                     else:
                         # change_deadline = domain_detail.get('end_time')
                         # if change_deadline is not None:

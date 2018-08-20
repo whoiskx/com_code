@@ -32,3 +32,5 @@ SaveBatchTaskForModifyingDomainDns	提交批量修改域名dns任务
 
      ping  测试网络通畅 (测试你到某一个ip之间的网络是否通畅。)
          192.168.1.1 这就是ping你到猫  ping 网站  网络OK 就是电脑问题
+
+     ipconfig/flushdns
