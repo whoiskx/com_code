@@ -35,18 +35,25 @@ class IpSwith(object):
         time.sleep(1)
         self.driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div[1]/i[1]').click()
         time.sleep(3)
+
+        # 匹配域名
+        domin_yun = self.driver.find_element_by_xpath(
+            '//*[@id="container"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[3]/td[2]/span[2]/div[1]/a')
+        domin_yun.click()
+        time.sleep(2)
+
         # 得到100页
         self.driver.find_element_by_class_name('ant-select-selection__rendered').click()
         choice = self.driver.find_elements_by_class_name('ant-select-dropdown-menu-item')
         choice[-1].click()
         time.sleep(1)
 
-        # 匹配域名
+
         records_info = self.driver.find_elements_by_class_name('ant-table-row')
         for record in records_info:
             domain_name = record.find_elements_by_class_name('ant-table-column-has-filters')[1].text
             if domain_name == 'test':
-                change_div = record.find_elements_by_class_name('_3VmUbwgp')
+                change_div = record.find_element_by_class_name('_3VmUbwgp')
                 change_div.click()
                 time.sleep(1)
                 ip_input = self.driver.find_element_by_xpath('//*[@id="value"]')
@@ -58,25 +65,19 @@ class IpSwith(object):
                     '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
                 time.sleep(50)
                 self.driver.quit()
-
-        domin_yun = self.driver.find_element_by_xpath(
-            '//*[@id="container"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[3]/td[2]/span[2]/div[1]/a')
-        domin_yun.click()
-        time.sleep(2)
-
-        change_button = self.driver.find_element_by_xpath(
-            '//*[@id="container"]/div/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[1]/td[9]/span/span[1]')
-        change_button.click()
-
-        # 清空并输入新IP
-        ip_input = self.driver.find_element_by_xpath('//*[@id="value"]')
-        ip_input.clear()
-        #    ip_input.send_keys('1.1.1.1')
-        ip_input.send_keys(ip)
-        time.sleep(0.5)
-        self.driver.find_element_by_xpath('/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
-        time.sleep(50)
-        self.driver.quit()
+        # change_button = self.driver.find_element_by_xpath(
+        #     '//*[@id="container"]/div/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[1]/td[9]/span/span[1]')
+        # change_button.click()
+        #
+        # # 清空并输入新IP
+        # ip_input = self.driver.find_element_by_xpath('//*[@id="value"]')
+        # ip_input.clear()
+        # #    ip_input.send_keys('1.1.1.1')
+        # ip_input.send_keys(ip)
+        # time.sleep(0.5)
+        # self.driver.find_element_by_xpath('/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
+        # time.sleep(50)
+        # self.driver.quit()
 
     def save_change(self, domain_detail):
         domain_detail['changing'] = True
