@@ -32,29 +32,41 @@ class IpSwith(object):
         time.sleep(1)
         # 登录完成
 
-    def swich_ip(self, ip):
+    def swich_ip(self, ip, domain):
         # 进入阿里云
         time.sleep(1)
         self.driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div[2]/div[1]/i[1]').click()
         time.sleep(3)
+        #进入域名管理页面
         domin_yun = self.driver.find_element_by_xpath(
             '//*[@id="container"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[3]/td[2]/span[2]/div[1]/a')
         domin_yun.click()
         time.sleep(2)
-
-        change_button = self.driver.find_element_by_xpath(
-            '//*[@id="container"]/div/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr[1]/td[9]/span/span[1]')
-        change_button.click()
-
-        # 清空并输入新IP
-        ip_input = self.driver.find_element_by_xpath('//*[@id="value"]')
-        ip_input.clear()
-        #    ip_input.send_keys('1.1.1.1')
-        ip_input.send_keys(ip)
-        time.sleep(0.5)
-        self.driver.find_element_by_xpath('/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
-        time.sleep(3)
-        self.driver.quit()
+        # 得到100页
+        self.driver.find_element_by_class_name('ant-select-selection__rendered').click()
+        choice = self.driver.find_elements_by_class_name('ant-select-dropdown-menu-item')
+        choice[-1].click()
+        time.sleep(1)
+        # 匹配域名
+        records_info = self.driver.find_elements_by_class_name('ant-table-row')
+        for record in records_info:
+            domain_aliyun = record.find_elements_by_class_name('ant-table-column-has-filters')[1].text
+            if domain_aliyun == domain:
+                change_div = record.find_element_by_class_name('_3VmUbwgp')
+                change_div.click()
+                time.sleep(1)
+                # 更改IP
+                ip_input = self.driver.find_element_by_xpath('//*[@id="value"]')
+                ip_input.clear()
+                #    ip_input.send_keys('1.1.1.1')
+                ip_input.send_keys(ip)
+                time.sleep(0.5)
+                self.driver.find_element_by_xpath(
+                    '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
+                time.sleep(3)
+                self.driver.quit()
+            else:
+                print("not find domain for aliyun")
 
     def save_change(self, domain_detail):
         domain_detail['changing'] = True
@@ -110,7 +122,7 @@ class IpSwith(object):
 
                 # 二
                 domain = domain_detail.get("domain")
-                current_ip = socket.getho stbyname(domain)
+                current_ip = socket.gethostbyname(domain)
                 main_ip = domain_detail.get('main_ip')
                 backup_ip = domain_detail.get('backup_ip')
                 # current_ip = domain_detail.get('current_domain')
@@ -134,7 +146,7 @@ class IpSwith(object):
                                     if count == error_max:
                                         print('切换到备用IP, 当前IP{}'.format(current_ip))
                                         self.login()
-                                        self.swich_ip(backup_ip)
+                                        self.swich_ip(backup_ip, domain)
                                         # domain_detail = self.swich_ip_test(backup_ip, domain_detail)
                                         domain_detail = self.save_change(domain_detail)
                                         count = 0
@@ -151,7 +163,7 @@ class IpSwith(object):
                                 if count >= error_max:
                                     print('切换到备用IP, 当前IP{}'.format(current_ip))
                                     self.login()
-                                    self.swich_ip(backup_ip)
+                                    self.swich_ip(backup_ip, domain)
                                     # domain_detail = self.swich_ip_test(backup_ip, domain_detail)
                                     domain_detail = self.save_change(domain_detail)
                                     break
@@ -183,7 +195,7 @@ class IpSwith(object):
                                     if count >= error_max:
                                         print('切换到主IP, 当前{}'.format(current_ip))
                                         self.login()
-                                        self.swich_ip(main_ip)
+                                        self.swich_ip(main_ip, domain)
                                         # domain_detail = self.swich_ip_test(main_ip, domain_detail)
                                         domain_detail = self.save_change(domain_detail)
                                         break

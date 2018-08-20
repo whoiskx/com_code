@@ -6,12 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/aliyun/driver_tes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliyun/ip_switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_v1.0.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/域名修改" beforeDir="false" afterPath="$PROJECT_DIR$/域名修改" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +33,8 @@
       <file leaf-file-name="ip_switch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-989">
-              <caret line="74" column="57" lean-forward="true" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+            <state relative-caret-position="75">
+              <caret line="34" selection-start-line="34" selection-end-line="63" selection-end-column="34" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -54,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ip_switch_v1.0.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ip_switch_v1.0.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+            <state relative-caret-position="389">
+              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -66,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_socket.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_socket.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/_socket.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13475">
+            <state relative-caret-position="-13421">
               <caret line="7" column="39" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
@@ -247,8 +244,8 @@
         <option value="$PROJECT_DIR$/aliyun/driver_tes.py" />
         <option value="$PROJECT_DIR$/aliyun/ip_switch.py" />
         <option value="$PROJECT_DIR$/aliyun/log.txt" />
-        <option value="$PROJECT_DIR$/aliyun/ip_switch_v1.0.py" />
         <option value="$PROJECT_DIR$/域名修改" />
+        <option value="$PROJECT_DIR$/aliyun/ip_switch_v1.0.py" />
       </list>
     </option>
   </component>
@@ -494,16 +491,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.14699684" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.14699684" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.64893615" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.40851063" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.2638298" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33085108" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33085108" />
       <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.5170213" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -799,7 +797,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py</url>
-          <line>125</line>
+          <line>137</line>
           <option name="timeStamp" value="227" />
         </line-breakpoint>
       </breakpoints>
@@ -1270,16 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-989">
-          <caret line="74" column="57" lean-forward="true" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/driver_tes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1299,20 +1287,30 @@
         <state relative-caret-position="-159" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/_socket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+        <state relative-caret-position="-13421">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="34" selection-start-line="34" selection-end-line="63" selection-end-column="34" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/_socket.py">
+    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13475">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="389">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
