@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_v1.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +33,8 @@
       <file leaf-file-name="ip_switch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="34" selection-start-line="34" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="417">
+              <caret line="106" column="65" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="65" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -54,11 +54,20 @@
       <file leaf-file-name="ip_switch_v1.0.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="266">
+              <caret line="156" column="74" selection-start-line="156" selection-start-column="74" selection-end-line="156" selection-end-column="74" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webelement.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="677" selection-start-line="677" selection-end-line="677" />
             </state>
           </provider>
         </entry>
@@ -97,20 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="8-20.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8-20.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="域名修改" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/域名修改">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+            <state relative-caret-position="266">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -136,8 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>publish_time</find>
-      <find>Acount</find>
       <find>Acount.id</find>
       <find>article</find>
       <find>wx_acc</find>
@@ -166,6 +164,8 @@
       <find>domain_list</find>
       <find>is_change</find>
       <find>qie</find>
+      <find>swich_ip(self</find>
+      <find>swich_ip</find>
     </findStrings>
     <replaceStrings>
       <replace>u</replace>
@@ -327,7 +327,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.driver_tes">
+  <component name="RunManager" selected="Python.ip_switch_v1.0">
     <configuration name="domain_to_ip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -427,8 +427,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.driver_tes" />
         <item itemvalue="Python.ip_switch_v1.0" />
+        <item itemvalue="Python.driver_tes" />
         <item itemvalue="Python.ip_switch" />
         <item itemvalue="Python.domain_to_ip" />
         <item itemvalue="Python.get_more_public_bottom" />
@@ -493,16 +493,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.14699684" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.14699684" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.40851063" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.34042552" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.2638298" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33085108" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.5170213" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33085108" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.4425532" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -797,8 +797,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py</url>
-          <line>137</line>
-          <option name="timeStamp" value="227" />
+          <line>141</line>
+          <option name="timeStamp" value="234" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -811,7 +811,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="228" />
+      <option name="time" value="235" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -876,6 +876,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>domain.split('.')[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>self.driver.find_element_by_class_name('ant-select-dropdown-menu-item')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -915,22 +920,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>self.driver.find_elemenst_by_xpath('//*[@id=&quot;container&quot;]/div/div[2]/div/div/div[2]/div/div/div[2]/div[3]/ul/li[11]/div[2]/div/div/div/ul/li[4]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self.driver.find_element_by_xpath('//*[@id=&quot;container&quot;]/div/div[2]/div/div/div[2]/div/div/div[2]/div[3]/ul/li[11]/div[2]/div/div/div/ul/li[4]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/parse.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/xls_to_xlsx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1275,13 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/域名修改">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-159" />
@@ -1294,20 +1279,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="677" selection-start-line="677" selection-end-line="677" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="34" selection-start-line="34" selection-end-line="63" selection-end-column="34" />
+        <state relative-caret-position="417">
+          <caret line="106" column="65" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="65" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/域名修改">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="266">
+          <caret line="156" column="74" selection-start-line="156" selection-start-column="74" selection-end-line="156" selection-end-column="74" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

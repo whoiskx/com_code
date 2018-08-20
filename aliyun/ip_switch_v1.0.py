@@ -51,7 +51,8 @@ class IpSwith(object):
         records_info = self.driver.find_elements_by_class_name('ant-table-row')
         for record in records_info:
             domain_aliyun = record.find_elements_by_class_name('ant-table-column-has-filters')[1].text
-            if domain_aliyun == domain:
+
+            if domain_aliyun == domain.split('.')[0]:
                 change_div = record.find_element_by_class_name('_3VmUbwgp')
                 change_div.click()
                 time.sleep(1)
@@ -65,8 +66,11 @@ class IpSwith(object):
                     '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
                 time.sleep(3)
                 self.driver.quit()
+                break
             else:
                 print("not find domain for aliyun")
+        print('warning not match domain driver n ')
+        self.driver.quit()
 
     def save_change(self, domain_detail):
         domain_detail['changing'] = True
@@ -108,6 +112,7 @@ class IpSwith(object):
             # 拿到所有域名
             # 迭代并判断故障域名
             # 修改为备用IP, 切换完成设置保护时间
+            start = int(time.time())
             print("domain loop start")
             for domain_detail in domain_info:
                 now = int(time.time())
@@ -143,13 +148,27 @@ class IpSwith(object):
                                     # self.login()
                                     # self.swich_ip()
                                     count += 1
-                                    if count == error_max:
+                                    if count >= error_max:
+
+                                        # 判断备用服务器是否OK
+                                        backup_url = test_url.replace(domain, backup_ip)
+                                        print("backup_ip {}".format(backup_ip))
+                                        try:
+                                            resp = requests.get(backup_url)
+                                            if resp.status_code >= 400:
+                                                print("backup server error1")
+                                                continue
+                                        except Exception as e:
+                                            print("backup server error2")
+                                            continue
+
                                         print('切换到备用IP, 当前IP{}'.format(current_ip))
                                         self.login()
                                         self.swich_ip(backup_ip, domain)
                                         # domain_detail = self.swich_ip_test(backup_ip, domain_detail)
                                         domain_detail = self.save_change(domain_detail)
                                         count = 0
+                                        print('切换成功')
                                         break
                                     print('server fault: code error')
                                 else:
@@ -158,6 +177,7 @@ class IpSwith(object):
                             except Exception as e:
                                 # self.login()
                                 # self.swich_ip()
+                                print('requests', e)
                                 count += 1
 
                                 if count >= error_max:
@@ -216,6 +236,8 @@ class IpSwith(object):
                         self.protect_period(domain_detail, now)
             time.sleep(5)
             print("domain loop over")
+            end = int(time.time())
+            print(start - end)
             # break
 
 
