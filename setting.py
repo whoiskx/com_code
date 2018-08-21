@@ -111,4 +111,3 @@ config_mysql = {
 db = pymysql.connect(**config_mysql)
 cursor = db.cursor()
 
-print(1)
