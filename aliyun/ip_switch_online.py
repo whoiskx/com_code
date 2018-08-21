@@ -2,14 +2,23 @@ import time
 import requests
 from selenium import webdriver
 import socket
-from setting import log
 import pymongo
 
 conn = pymongo.MongoClient()
 
 urun = conn.urun
 
-print = log
+
+def log(*args, **kwargs):
+    time_format = '%y-%m-%d %H:%M:%S'
+    value = time.localtime(int(time.time()))
+    dt = time.strftime(time_format, value)
+    if '12:49:47' in dt:
+        with open('log.txt', 'w', encoding='utf-8') as f:
+            f.truncate()
+    print(dt, *args, **kwargs)
+    with open('log.txt', 'a', encoding='utf-8') as f:
+        print(dt, *args, file=f, **kwargs)
 
 
 class IpSwith(object):
@@ -17,8 +26,10 @@ class IpSwith(object):
         self.driver = None
 
     def login(self):
-        # self.driver = webdriver.PhantomJS()
-        self.driver = webdriver.Chrome()
+        if self.driver:
+            self.driver.quit()
+        self.driver = webdriver.PhantomJS()
+        # self.driver = webdriver.Chrome()
         url = 'https://signin.aliyun.com/1604195877004448/login.htm?callback=https%3A%2F%2Fdns.console.aliyun.com%2F'
         self.driver.get(url)
         time.sleep(1)
@@ -71,10 +82,10 @@ class IpSwith(object):
                     '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
                 time.sleep(3)
                 self.driver.quit()
-                break
+                return None
             else:
-                print("not find domain for aliyun")
-        print('warning not match domain driver')
+                log("not find domain for aliyun")
+        log('warning not match domain driver')
         self.driver.quit()
 
     def save_change(self, domain_detail):
@@ -90,23 +101,24 @@ class IpSwith(object):
         if change_deadline is not None:
             time_difference = now - change_deadline
             if time_difference > 620:
-                print("not in  protect period")
+                log("not in  protect period")
                 domain_detail['changing'] = False
+                urun['aliyun_dns'].update({'domain': domain_detail.get('domain')},
+                                          {'$set': {'changing': False}})
             else:
-                print("in protect period")
-                return None
+                log("in protect period", time_difference)
 
     def backup_server_status(self, monitor_url, domain, backup_ip):
         # 判断备用服务器是否OK
         backup_url = monitor_url.replace(domain, backup_ip)
-        print("backup_ip {}".format(backup_ip))
+        log("backup_ip {}".format(backup_ip))
         try:
             resp = requests.get(backup_url)
             if resp.status_code >= 400:
-                print("backup server error1")
+                log("backup server error1")
                 return False
         except Exception as e:
-            print("backup server error2")
+            log("backup server error2")
             return False
         return True
 
@@ -118,8 +130,12 @@ class IpSwith(object):
             # 迭代并判断故障域名
             # 修改为备用IP, 切换完成设置保护时间
             start = int(time.time())
-            print("domain loop start")
+            log("domain loop start")
             for domain_detail in urun['aliyun_dns'].find():
+                # 关闭域名检测
+                if domain_detail.get('close') is True:
+                    continue
+
                 now = int(time.time())
                 # 发送请求 根据响应判断服务器是否故障
                 monitor_url = domain_detail.get('monitor')
@@ -129,7 +145,7 @@ class IpSwith(object):
                 backup_ip = domain_detail.get('backup_ip')
                 if current_ip == main_ip:
                     # 当前IP是主IP
-                    print('当前是主IP{}'.format(current_ip))
+                    log('当前是主IP{}'.format(current_ip))
                     changing = domain_detail.get('changing')
                     if changing is False:
                         count = 0
@@ -144,40 +160,46 @@ class IpSwith(object):
                                     if count >= error_max:
                                         status = self.backup_server_status(monitor_url, domain, backup_ip)
                                         if status:
-                                            print('切换到备用IP, 当前IP{}'.format(current_ip))
-                                            self.login()
-                                            self.swich_ip(backup_ip, domain)
-                                            self.save_change(domain_detail)
-                                            count = 0
-                                            print('切换成功')
+                                            log('切换到备用IP, 当前IP{}'.format(current_ip))
+                                            try:
+                                                self.login()
+                                                self.swich_ip(backup_ip, domain)
+                                                self.save_change(domain_detail)
+                                            except Exception as e:
+                                                self.driver.quit()
+                                            log('切换成功')
                                             break
-                                    print('server fault: status code over 400')
+                                    log('server fault: status code over 400')
                                 else:
                                     break
-                                print('{} normal '.format(domain))
+                                log('{} normal '.format(domain))
                             except Exception as e:
-                                print('requests', e)
+                                log('requests', e)
                                 count += 1
 
                                 if count >= error_max:
                                     status = self.backup_server_status(monitor_url, domain, backup_ip)
                                     if status:
-                                        print('切换到备用IP, 当前IP{}'.format(current_ip))
-                                        self.login()
-                                        self.swich_ip(backup_ip, domain)
-                                        self.save_change(domain_detail)
+                                        log('切换到备用IP, 当前IP{}'.format(current_ip))
+                                        try:
+                                            self.login()
+                                            self.swich_ip(backup_ip, domain)
+                                            self.save_change(domain_detail)
+                                        except Exception as e:
+                                            self.driver.quit()
+                                        log('切换成功')
                                         break
-                                print('server fault: requests get error')
+                                log('server fault: requests get error')
                     else:
                         self.protect_period(domain_detail, now)
 
                 elif current_ip == backup_ip:
                     # 备切主 当前IP是备用服务器
-                    print('当前是备用IP{}'.format(current_ip))
+                    log('当前是备用IP{}'.format(current_ip))
                     changing = domain_detail.get('changing')
                     if changing is False:
                         main_url = monitor_url.replace(domain, main_ip)
-                        print("main_url {}".format(main_url))
+                        log("main_url {}".format(main_url))
                         count = 0
                         while True:
                             try:
@@ -186,19 +208,19 @@ class IpSwith(object):
 
                                     count += 1
                                     if count >= error_max:
-                                        print('切换到主IP, 当前{}'.format(current_ip))
+                                        log('切换到主IP, 当前{}'.format(current_ip))
                                         self.login()
                                         self.swich_ip(main_ip, domain)
                                         self.save_change(domain_detail)
                                         break
-                                    print('server main normal')
+                                    log('server main normal')
                             except Exception as e:
-                                print("backup server requests get error")
+                                log("backup server requests get error")
                                 break
                     else:
                         self.protect_period(domain_detail, now)
             end = int(time.time())
-            print("domain loop over", (end - start))
+            log("domain loop over", (end - start))
             time.sleep(5)
             # break
 
