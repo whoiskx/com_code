@@ -1,12 +1,26 @@
 import time
 import requests
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import socket
 import pymongo
 
-conn = pymongo.MongoClient()
+produce_env = True
+develop_env = False
+if produce_env:
+    conn = pymongo.MongoClient()
+    urun = conn.urun
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    # web_driver = webdriver.Chrome(chrome_options=chrome_options)
+    web_driver = webdriver.Chrome()
 
-urun = conn.urun
+if develop_env:
+    conn = pymongo.MongoClient('mongodb://120.78.237.213:27017')
+    urun = conn.taskDnsSwitch
+    # web_driver = webdriver.Chrome
+
+    web_driver = webdriver.PhantomJS()
 
 
 def log(*args, **kwargs):
@@ -28,7 +42,7 @@ class IpSwith(object):
     def login(self):
         if self.driver:
             self.driver.quit()
-        self.driver = webdriver.PhantomJS()
+        self.driver = web_driver
         # self.driver = webdriver.Chrome()
         url = 'https://signin.aliyun.com/1604195877004448/login.htm?callback=https%3A%2F%2Fdns.console.aliyun.com%2F'
         self.driver.get(url)
@@ -151,8 +165,8 @@ class IpSwith(object):
                         count = 0
                         while True:
                             try:
+                                test_main += 1
                                 if test_main <= 5 or test_main >= 15:
-                                    test_main += 1
                                     raise RuntimeError
                                 resp = requests.get(monitor_url)
                                 if resp.status_code >= 400:

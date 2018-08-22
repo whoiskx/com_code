@@ -106,7 +106,7 @@ def load_excel(file_name='', db_praise=''):
 
 def main():
 
-    day = '16'
+    day = '22'
     file_name_read = 'facebook201808{}.xlsx'.format(day)
     db_save = 'save_{}'.format(day)
     db_praise = 'praise_{}'.format(day)

@@ -224,7 +224,7 @@ class PublicDetails(object):
 
     def get_numb(self, name, count):
         # 50次重新定位到搜索主页
-        if count % 100 == 0 and count != 0:
+        if count % 400 == 0 and count != 0:
             log("重启浏览器")
             self.restart_driver()
         # 点击搜索
@@ -312,19 +312,19 @@ class PublicDetails(object):
             try:
                 log('request count {}'.format(count))
                 self.name_list = self.public_name()
-                count += 1
                 for name in self.name_list:
                     try:
+                        count += 1
                         log('start name {}'.format(name))
                         self.get_numb(name, count)
                     except Exception as e:
                         log('get_numb error', e)
-                        if 'timeout' in str(e):
-                            url = 'http://www.gsdata.cn/query/wx?q=%E5%BC%80%E8%AF%9A%E5%BF%AB%E5%8D%B0'
-                            self.driver.get(url)
-                            time.sleep(1)
-                        else:
-                            self.restart_driver()
+                        # if 'timeout' in str(e):
+                        #     url = 'http://www.gsdata.cn/query/wx?q=%E5%BC%80%E8%AF%9A%E5%BF%AB%E5%8D%B0'
+                        #     self.driver.get(url)
+                        #     time.sleep(1)
+                        # else:
+                        self.restart_driver()
             except Exception as e:
                 log('run error', e)
                 self.restart_driver()
