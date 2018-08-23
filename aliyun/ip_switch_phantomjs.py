@@ -47,6 +47,9 @@ class IpSwith(object):
         # web_driver = webdriver.Chrome
         web_driver = webdriver.PhantomJS
         self.driver = web_driver()
+        self.driver.set_window_size(1920, 1080)
+
+
 
         # self.driver = webdriver.Chrome()
         url = 'https://signin.aliyun.com/1604195877004448/login.htm?callback=https%3A%2F%2Fdns.console.aliyun.com%2F'

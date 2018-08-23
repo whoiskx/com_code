@@ -39,3 +39,7 @@
     find_elements_by_css_selector
 
   找不到元素 会异常
+
+
+使用phantomJS替换 Chrome
+    窗口太小报错
