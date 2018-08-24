@@ -44,8 +44,8 @@ class IpSwith(object):
         chrome_options = Options()
         chrome_options.add_argument('--headless')
         # web_driver = webdriver.Chrome(chrome_options=chrome_options)
-        # web_driver = webdriver.Chrome
-        web_driver = webdriver.PhantomJS
+        web_driver = webdriver.Chrome
+        # web_driver = webdriver.PhantomJS
         self.driver = web_driver()
         self.driver.set_window_size(1920, 1080)
 
@@ -159,7 +159,8 @@ class IpSwith(object):
                 # 关闭域名检测
                 if domain_detail.get('close') is True:
                     continue
-
+                name = domain_detail.get('name')
+                log("start test {}".format(name))
                 now = int(time.time())
                 # 发送请求 根据响应判断服务器是否故障
                 monitor_url = domain_detail.get('monitor')
@@ -177,8 +178,11 @@ class IpSwith(object):
                             try:
                                 test_main += 1
                                 if test_main <= 5 or test_main >= 15:
-                                    raise RuntimeError
+                                    if name == 'test':
+                                        raise RuntimeError
                                 resp = requests.get(monitor_url)
+                                if resp.status_code < 400:
+                                    break
                                 if resp.status_code >= 400:
                                     count += 1
                                     if count >= error_max:
@@ -189,9 +193,10 @@ class IpSwith(object):
                                                 self.login()
                                                 self.swich_ip(backup_ip, domain)
                                                 self.save_change(domain_detail)
+                                                log('切换成功')
                                             except Exception as e:
                                                 self.driver.quit()
-                                            log('切换成功')
+                                                log('切换失败', e)
                                             break
                                     log('server fault: status code over 400')
                                 else:
@@ -209,9 +214,10 @@ class IpSwith(object):
                                             self.login()
                                             self.swich_ip(backup_ip, domain)
                                             self.save_change(domain_detail)
+                                            log('切换成功')
                                         except Exception as e:
                                             self.driver.quit()
-                                        log('切换成功')
+                                            log('切换失败', e)
                                         break
                                 log('server fault: requests get error')
                     else:

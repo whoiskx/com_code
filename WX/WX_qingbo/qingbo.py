@@ -58,8 +58,9 @@ class PublicDetails(object):
         # driver = webdriver.Chrome(chrome_options=options)
         if self.driver:
             self.driver.quit()
-        self.driver = webdriver.Chrome()
-        # driver = webdriver.PhantomJS()
+        # self.driver = webdriver.Chrome()
+        self.driver = webdriver.PhantomJS()
+        self.driver.maximize_window()
         return self.driver
 
     def restart_driver(self):
@@ -224,9 +225,9 @@ class PublicDetails(object):
 
     def get_numb(self, name, count):
         # 50次重新定位到搜索主页
-        if count % 400 == 0 and count != 0:
-            log("重启浏览器")
-            self.restart_driver()
+        # if count % 400 == 0 and count != 0:
+        #     log("重启浏览器")
+        #     self.restart_driver()
         # 点击搜索
         search_input = self.driver.find_element_by_xpath('//*[@id="search_input"]')
         # name = '杭州解百ALT专卖店'
@@ -304,7 +305,8 @@ class PublicDetails(object):
             self.login_website()
         except Exception as e:
             log('login error')
-            self.driver.quit()
+            if self.driver:
+                self.driver.quit()
             return None
 
         count = 0

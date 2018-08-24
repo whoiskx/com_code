@@ -11,9 +11,13 @@ print(conn_product.database_names)
 #     print(i)
 
 # 'current_domain': '61.164.49.130',
-d = {'name': 'test', 'domain': 'test.yunrunyuqing.com', 'main_ip': '61.164.49.130',
-             'backup_ip': '124.239.144.163', 'monitor': "http://test.yunrunyuqing.com:19002/test.html",
+twitter = {'name': 'hd.twitter', 'domain': 'hd.twitter.yunrunyuqing.com', 'main_ip': '60.190.238.166',
+             'backup_ip': '120.78.237.190', 'monitor': "http://hd.twitter.yunrunyuqing.com:38010/hadoop_change_hosts.html",
+             'changing': False, 'end_time': None,  'close': False}
+
+article = {'name': 'hd.comment', 'domain': 'hd.comment.yunrunyuqing.com', 'main_ip': '60.190.238.166',
+             'backup_ip': '120.78.237.190', 'monitor': "http://hd.comment.yunrunyuqing.com:38010/hadoop_change_hosts.html",
              'changing': False, 'end_time': None,  'close': False}
 
 # urun['aliyun_dns'].insert(d)
-conn_product['taskDnsSwitch']['aliyun'].insert(d)
+conn_product['taskDnsSwitch']['aliyun_dns'].insert(article)
