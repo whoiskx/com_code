@@ -43,12 +43,12 @@ class IpSwith(object):
             self.driver.quit()
         chrome_options = Options()
         chrome_options.add_argument('--headless')
-        # web_driver = webdriver.Chrome(chrome_options=chrome_options)
-        web_driver = webdriver.Chrome
+        web_driver = webdriver.Chrome(chrome_options=chrome_options)
+        # web_driver = webdriver.Chrome
         # web_driver = webdriver.PhantomJS
-        self.driver = web_driver()
+        self.driver = web_driver
         # self.driver.set_window_size(1920, 1080)
-        self.driver.maximize_window()
+        # self.driver.maximize_window()
 
 
         # self.driver = webdriver.Chrome()
@@ -92,7 +92,7 @@ class IpSwith(object):
         for record in records_info:
             domain_aliyun = record.find_elements_by_class_name('ant-table-column-has-filters')[1].text
 
-            if domain_aliyun == domain.split('.')[0]:
+            if domain_aliyun == domain.replace('.yunrunyuqing.com', ''):
                 change_div = record.find_element_by_class_name('_3VmUbwgp')
                 change_div.click()
                 time.sleep(1)
@@ -102,14 +102,12 @@ class IpSwith(object):
                 #    ip_input.send_keys('1.1.1.1')
                 ip_input.send_keys(ip)
                 time.sleep(0.5)
-                self.driver.find_element_by_xpath(
-                    '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
+                # self.driver.find_element_by_xpath(
+                #     '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
                 time.sleep(3)
                 self.driver.quit()
                 return None
-            else:
-                log("not find domain for aliyun")
-        log('warning not match domain driver')
+        log('warning 不能匹配所以域名')
         self.driver.quit()
 
     def save_change(self, domain_detail):
@@ -177,8 +175,8 @@ class IpSwith(object):
                         while True:
                             try:
                                 test_main += 1
-                                if test_main <= 5 or test_main >= 15:
-                                    if name == 'test':
+                                if test_main <= 50:
+                                    # if name == 'test':
                                         raise RuntimeError
                                 resp = requests.get(monitor_url)
                                 if resp.status_code < 400:
@@ -216,7 +214,9 @@ class IpSwith(object):
                                             self.save_change(domain_detail)
                                             log('切换成功')
                                         except Exception as e:
-                                            self.driver.quit()
+                                            if self.driver:
+
+                                                self.driver.quit()
                                             log('切换失败', e)
                                         break
                                 log('server fault: requests get error')
