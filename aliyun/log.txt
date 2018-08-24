@@ -16232,3 +16232,4032 @@ Screenshot: available via screen
 18-08-24 18:21:42 当前运行hd.comment 主IP60.190.238.166
 18-08-24 18:21:42 in protect period 50
 18-08-24 18:21:42 domain loop over 0
+18-08-24 18:21:47 domain loop start
+18-08-24 18:21:47 start test test
+18-08-24 18:21:47 当前运行test, 备用IP124.239.144.163
+18-08-24 18:21:47 in protect period 112
+18-08-24 18:21:47 start test hd.twitter
+18-08-24 18:21:47 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:21:47 in protect period 80
+18-08-24 18:21:47 start test hd.comment
+18-08-24 18:21:47 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:21:47 in protect period 55
+18-08-24 18:21:47 domain loop over 0
+18-08-24 18:21:52 domain loop start
+18-08-24 18:21:52 start test test
+18-08-24 18:21:52 当前运行test, 备用IP124.239.144.163
+18-08-24 18:21:52 in protect period 117
+18-08-24 18:21:52 start test hd.twitter
+18-08-24 18:21:52 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:21:52 in protect period 85
+18-08-24 18:21:52 start test hd.comment
+18-08-24 18:21:52 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:21:52 in protect period 60
+18-08-24 18:21:52 domain loop over 0
+18-08-24 18:21:57 domain loop start
+18-08-24 18:21:57 start test test
+18-08-24 18:21:57 当前运行test, 备用IP124.239.144.163
+18-08-24 18:21:57 in protect period 122
+18-08-24 18:21:57 start test hd.twitter
+18-08-24 18:21:57 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:21:57 in protect period 90
+18-08-24 18:21:57 start test hd.comment
+18-08-24 18:21:57 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:21:57 in protect period 65
+18-08-24 18:21:57 domain loop over 0
+18-08-24 18:22:02 domain loop start
+18-08-24 18:22:02 start test test
+18-08-24 18:22:02 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:02 in protect period 127
+18-08-24 18:22:02 start test hd.twitter
+18-08-24 18:22:02 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:02 in protect period 95
+18-08-24 18:22:02 start test hd.comment
+18-08-24 18:22:02 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:02 in protect period 70
+18-08-24 18:22:02 domain loop over 0
+18-08-24 18:22:07 domain loop start
+18-08-24 18:22:07 start test test
+18-08-24 18:22:07 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:07 in protect period 132
+18-08-24 18:22:07 start test hd.twitter
+18-08-24 18:22:07 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:07 in protect period 100
+18-08-24 18:22:07 start test hd.comment
+18-08-24 18:22:07 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:07 in protect period 75
+18-08-24 18:22:07 domain loop over 0
+18-08-24 18:22:12 domain loop start
+18-08-24 18:22:12 start test test
+18-08-24 18:22:12 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:12 in protect period 137
+18-08-24 18:22:12 start test hd.twitter
+18-08-24 18:22:13 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:13 in protect period 106
+18-08-24 18:22:13 start test hd.comment
+18-08-24 18:22:13 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:13 in protect period 81
+18-08-24 18:22:13 domain loop over 1
+18-08-24 18:22:18 domain loop start
+18-08-24 18:22:18 start test test
+18-08-24 18:22:18 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:18 in protect period 143
+18-08-24 18:22:18 start test hd.twitter
+18-08-24 18:22:18 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:18 in protect period 111
+18-08-24 18:22:18 start test hd.comment
+18-08-24 18:22:18 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:18 in protect period 86
+18-08-24 18:22:18 domain loop over 0
+18-08-24 18:22:23 domain loop start
+18-08-24 18:22:23 start test test
+18-08-24 18:22:23 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:23 in protect period 148
+18-08-24 18:22:23 start test hd.twitter
+18-08-24 18:22:23 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:23 in protect period 116
+18-08-24 18:22:23 start test hd.comment
+18-08-24 18:22:23 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:23 in protect period 91
+18-08-24 18:22:23 domain loop over 0
+18-08-24 18:22:28 domain loop start
+18-08-24 18:22:28 start test test
+18-08-24 18:22:28 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:28 in protect period 153
+18-08-24 18:22:28 start test hd.twitter
+18-08-24 18:22:28 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:28 in protect period 121
+18-08-24 18:22:28 start test hd.comment
+18-08-24 18:22:28 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:28 in protect period 96
+18-08-24 18:22:28 domain loop over 0
+18-08-24 18:22:33 domain loop start
+18-08-24 18:22:33 start test test
+18-08-24 18:22:33 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:33 in protect period 158
+18-08-24 18:22:33 start test hd.twitter
+18-08-24 18:22:33 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:33 in protect period 126
+18-08-24 18:22:33 start test hd.comment
+18-08-24 18:22:33 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:33 in protect period 101
+18-08-24 18:22:33 domain loop over 0
+18-08-24 18:22:38 domain loop start
+18-08-24 18:22:38 start test test
+18-08-24 18:22:38 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:38 in protect period 163
+18-08-24 18:22:38 start test hd.twitter
+18-08-24 18:22:38 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:38 in protect period 131
+18-08-24 18:22:38 start test hd.comment
+18-08-24 18:22:38 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:38 in protect period 106
+18-08-24 18:22:38 domain loop over 0
+18-08-24 18:22:43 domain loop start
+18-08-24 18:22:43 start test test
+18-08-24 18:22:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:43 in protect period 168
+18-08-24 18:22:43 start test hd.twitter
+18-08-24 18:22:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:43 in protect period 136
+18-08-24 18:22:43 start test hd.comment
+18-08-24 18:22:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:43 in protect period 111
+18-08-24 18:22:43 domain loop over 0
+18-08-24 18:22:48 domain loop start
+18-08-24 18:22:48 start test test
+18-08-24 18:22:48 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:48 in protect period 173
+18-08-24 18:22:48 start test hd.twitter
+18-08-24 18:22:48 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:48 in protect period 141
+18-08-24 18:22:48 start test hd.comment
+18-08-24 18:22:48 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:48 in protect period 116
+18-08-24 18:22:48 domain loop over 0
+18-08-24 18:22:53 domain loop start
+18-08-24 18:22:53 start test test
+18-08-24 18:22:53 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:53 in protect period 178
+18-08-24 18:22:53 start test hd.twitter
+18-08-24 18:22:53 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:53 in protect period 146
+18-08-24 18:22:53 start test hd.comment
+18-08-24 18:22:53 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:53 in protect period 121
+18-08-24 18:22:53 domain loop over 0
+18-08-24 18:22:58 domain loop start
+18-08-24 18:22:58 start test test
+18-08-24 18:22:58 当前运行test, 备用IP124.239.144.163
+18-08-24 18:22:58 in protect period 183
+18-08-24 18:22:58 start test hd.twitter
+18-08-24 18:22:58 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:22:58 in protect period 151
+18-08-24 18:22:58 start test hd.comment
+18-08-24 18:22:58 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:22:58 in protect period 126
+18-08-24 18:22:58 domain loop over 0
+18-08-24 18:23:03 domain loop start
+18-08-24 18:23:03 start test test
+18-08-24 18:23:03 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:03 in protect period 188
+18-08-24 18:23:03 start test hd.twitter
+18-08-24 18:23:03 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:03 in protect period 156
+18-08-24 18:23:03 start test hd.comment
+18-08-24 18:23:03 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:03 in protect period 131
+18-08-24 18:23:03 domain loop over 0
+18-08-24 18:23:08 domain loop start
+18-08-24 18:23:08 start test test
+18-08-24 18:23:08 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:08 in protect period 193
+18-08-24 18:23:08 start test hd.twitter
+18-08-24 18:23:08 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:08 in protect period 161
+18-08-24 18:23:08 start test hd.comment
+18-08-24 18:23:08 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:08 in protect period 136
+18-08-24 18:23:08 domain loop over 0
+18-08-24 18:23:13 domain loop start
+18-08-24 18:23:13 start test test
+18-08-24 18:23:13 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:13 in protect period 198
+18-08-24 18:23:13 start test hd.twitter
+18-08-24 18:23:13 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:13 in protect period 166
+18-08-24 18:23:13 start test hd.comment
+18-08-24 18:23:13 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:13 in protect period 141
+18-08-24 18:23:13 domain loop over 0
+18-08-24 18:23:18 domain loop start
+18-08-24 18:23:18 start test test
+18-08-24 18:23:18 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:18 in protect period 203
+18-08-24 18:23:18 start test hd.twitter
+18-08-24 18:23:18 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:18 in protect period 171
+18-08-24 18:23:18 start test hd.comment
+18-08-24 18:23:18 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:18 in protect period 146
+18-08-24 18:23:18 domain loop over 0
+18-08-24 18:23:23 domain loop start
+18-08-24 18:23:23 start test test
+18-08-24 18:23:23 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:23 in protect period 208
+18-08-24 18:23:23 start test hd.twitter
+18-08-24 18:23:23 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:23 in protect period 176
+18-08-24 18:23:23 start test hd.comment
+18-08-24 18:23:23 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:23 in protect period 151
+18-08-24 18:23:23 domain loop over 0
+18-08-24 18:23:28 domain loop start
+18-08-24 18:23:28 start test test
+18-08-24 18:23:28 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:28 in protect period 213
+18-08-24 18:23:28 start test hd.twitter
+18-08-24 18:23:28 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:28 in protect period 181
+18-08-24 18:23:28 start test hd.comment
+18-08-24 18:23:28 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:28 in protect period 156
+18-08-24 18:23:28 domain loop over 0
+18-08-24 18:23:33 domain loop start
+18-08-24 18:23:33 start test test
+18-08-24 18:23:33 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:33 in protect period 218
+18-08-24 18:23:33 start test hd.twitter
+18-08-24 18:23:33 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:33 in protect period 186
+18-08-24 18:23:33 start test hd.comment
+18-08-24 18:23:33 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:33 in protect period 161
+18-08-24 18:23:33 domain loop over 0
+18-08-24 18:23:38 domain loop start
+18-08-24 18:23:38 start test test
+18-08-24 18:23:38 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:38 in protect period 223
+18-08-24 18:23:38 start test hd.twitter
+18-08-24 18:23:38 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:38 in protect period 191
+18-08-24 18:23:38 start test hd.comment
+18-08-24 18:23:38 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:38 in protect period 166
+18-08-24 18:23:38 domain loop over 0
+18-08-24 18:23:43 domain loop start
+18-08-24 18:23:43 start test test
+18-08-24 18:23:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:43 in protect period 228
+18-08-24 18:23:43 start test hd.twitter
+18-08-24 18:23:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:43 in protect period 196
+18-08-24 18:23:43 start test hd.comment
+18-08-24 18:23:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:43 in protect period 171
+18-08-24 18:23:43 domain loop over 0
+18-08-24 18:23:48 domain loop start
+18-08-24 18:23:48 start test test
+18-08-24 18:23:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:49 in protect period 234
+18-08-24 18:23:49 start test hd.twitter
+18-08-24 18:23:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:49 in protect period 202
+18-08-24 18:23:49 start test hd.comment
+18-08-24 18:23:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:49 in protect period 177
+18-08-24 18:23:49 domain loop over 1
+18-08-24 18:23:54 domain loop start
+18-08-24 18:23:54 start test test
+18-08-24 18:23:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:54 in protect period 239
+18-08-24 18:23:54 start test hd.twitter
+18-08-24 18:23:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:54 in protect period 207
+18-08-24 18:23:54 start test hd.comment
+18-08-24 18:23:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:54 in protect period 182
+18-08-24 18:23:54 domain loop over 0
+18-08-24 18:23:59 domain loop start
+18-08-24 18:23:59 start test test
+18-08-24 18:23:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:23:59 in protect period 244
+18-08-24 18:23:59 start test hd.twitter
+18-08-24 18:23:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:23:59 in protect period 212
+18-08-24 18:23:59 start test hd.comment
+18-08-24 18:23:59 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:23:59 in protect period 187
+18-08-24 18:23:59 domain loop over 0
+18-08-24 18:24:04 domain loop start
+18-08-24 18:24:04 start test test
+18-08-24 18:24:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:04 in protect period 249
+18-08-24 18:24:04 start test hd.twitter
+18-08-24 18:24:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:04 in protect period 217
+18-08-24 18:24:04 start test hd.comment
+18-08-24 18:24:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:04 in protect period 192
+18-08-24 18:24:04 domain loop over 0
+18-08-24 18:24:09 domain loop start
+18-08-24 18:24:09 start test test
+18-08-24 18:24:09 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:09 in protect period 254
+18-08-24 18:24:09 start test hd.twitter
+18-08-24 18:24:09 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:09 in protect period 222
+18-08-24 18:24:09 start test hd.comment
+18-08-24 18:24:09 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:09 in protect period 197
+18-08-24 18:24:09 domain loop over 0
+18-08-24 18:24:14 domain loop start
+18-08-24 18:24:14 start test test
+18-08-24 18:24:14 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:14 in protect period 259
+18-08-24 18:24:14 start test hd.twitter
+18-08-24 18:24:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:14 in protect period 227
+18-08-24 18:24:14 start test hd.comment
+18-08-24 18:24:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:14 in protect period 202
+18-08-24 18:24:14 domain loop over 0
+18-08-24 18:24:19 domain loop start
+18-08-24 18:24:19 start test test
+18-08-24 18:24:19 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:19 in protect period 264
+18-08-24 18:24:19 start test hd.twitter
+18-08-24 18:24:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:19 in protect period 232
+18-08-24 18:24:19 start test hd.comment
+18-08-24 18:24:19 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:19 in protect period 207
+18-08-24 18:24:19 domain loop over 0
+18-08-24 18:24:24 domain loop start
+18-08-24 18:24:24 start test test
+18-08-24 18:24:24 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:24 in protect period 269
+18-08-24 18:24:24 start test hd.twitter
+18-08-24 18:24:24 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:24 in protect period 237
+18-08-24 18:24:24 start test hd.comment
+18-08-24 18:24:24 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:24 in protect period 212
+18-08-24 18:24:24 domain loop over 0
+18-08-24 18:24:29 domain loop start
+18-08-24 18:24:29 start test test
+18-08-24 18:24:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:29 in protect period 274
+18-08-24 18:24:29 start test hd.twitter
+18-08-24 18:24:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:29 in protect period 242
+18-08-24 18:24:29 start test hd.comment
+18-08-24 18:24:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:29 in protect period 217
+18-08-24 18:24:29 domain loop over 0
+18-08-24 18:24:34 domain loop start
+18-08-24 18:24:34 start test test
+18-08-24 18:24:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:34 in protect period 279
+18-08-24 18:24:34 start test hd.twitter
+18-08-24 18:24:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:34 in protect period 247
+18-08-24 18:24:34 start test hd.comment
+18-08-24 18:24:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:34 in protect period 222
+18-08-24 18:24:34 domain loop over 0
+18-08-24 18:24:39 domain loop start
+18-08-24 18:24:39 start test test
+18-08-24 18:24:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:39 in protect period 284
+18-08-24 18:24:39 start test hd.twitter
+18-08-24 18:24:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:39 in protect period 252
+18-08-24 18:24:39 start test hd.comment
+18-08-24 18:24:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:39 in protect period 227
+18-08-24 18:24:39 domain loop over 0
+18-08-24 18:24:44 domain loop start
+18-08-24 18:24:44 start test test
+18-08-24 18:24:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:44 in protect period 289
+18-08-24 18:24:44 start test hd.twitter
+18-08-24 18:24:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:44 in protect period 257
+18-08-24 18:24:44 start test hd.comment
+18-08-24 18:24:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:44 in protect period 232
+18-08-24 18:24:44 domain loop over 0
+18-08-24 18:24:49 domain loop start
+18-08-24 18:24:49 start test test
+18-08-24 18:24:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:49 in protect period 294
+18-08-24 18:24:49 start test hd.twitter
+18-08-24 18:24:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:49 in protect period 262
+18-08-24 18:24:49 start test hd.comment
+18-08-24 18:24:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:49 in protect period 237
+18-08-24 18:24:49 domain loop over 0
+18-08-24 18:24:54 domain loop start
+18-08-24 18:24:54 start test test
+18-08-24 18:24:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:54 in protect period 299
+18-08-24 18:24:54 start test hd.twitter
+18-08-24 18:24:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:54 in protect period 267
+18-08-24 18:24:54 start test hd.comment
+18-08-24 18:24:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:54 in protect period 242
+18-08-24 18:24:54 domain loop over 0
+18-08-24 18:24:59 domain loop start
+18-08-24 18:24:59 start test test
+18-08-24 18:24:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:24:59 in protect period 304
+18-08-24 18:24:59 start test hd.twitter
+18-08-24 18:24:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:24:59 in protect period 272
+18-08-24 18:24:59 start test hd.comment
+18-08-24 18:24:59 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:24:59 in protect period 247
+18-08-24 18:24:59 domain loop over 0
+18-08-24 18:25:04 domain loop start
+18-08-24 18:25:04 start test test
+18-08-24 18:25:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:25:04 in protect period 309
+18-08-24 18:25:04 start test hd.twitter
+18-08-24 18:25:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:25:04 in protect period 277
+18-08-24 18:25:04 start test hd.comment
+18-08-24 18:25:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:25:04 in protect period 252
+18-08-24 18:25:04 domain loop over 0
+18-08-24 18:25:09 domain loop start
+18-08-24 18:25:09 start test test
+18-08-24 18:25:09 当前运行test, 备用IP124.239.144.163
+18-08-24 18:25:09 in protect period 314
+18-08-24 18:25:09 start test hd.twitter
+18-08-24 18:25:09 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:25:09 in protect period 282
+18-08-24 18:25:09 start test hd.comment
+18-08-24 18:25:09 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:25:09 in protect period 257
+18-08-24 18:25:09 domain loop over 0
+18-08-24 18:29:37 domain loop start
+18-08-24 18:29:37 start test test
+18-08-24 18:29:37 当前运行test, 备用IP124.239.144.163
+18-08-24 18:29:37 main_url http://61.164.49.130:19002/test.html
+18-08-24 18:29:37 server main normal
+18-08-24 18:29:37 server main normal
+18-08-24 18:29:38 server main normal
+18-08-24 18:29:38 切换到主IP, 当前IP 124.239.144.163
+18-08-24 18:30:10 登录成功
+18-08-24 18:30:25 切换成功
+18-08-24 18:30:25 start test hd.twitter
+18-08-24 18:30:25 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:30:25 in protect period 221
+18-08-24 18:30:25 start test hd.comment
+18-08-24 18:30:25 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:30:25 in protect period 190
+18-08-24 18:30:25 domain loop over 48
+18-08-24 18:30:30 domain loop start
+18-08-24 18:30:30 start test test
+18-08-24 18:30:30 当前运行test, 备用IP124.239.144.163
+18-08-24 18:30:30 in protect period 5
+18-08-24 18:30:30 start test hd.twitter
+18-08-24 18:30:30 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:30:30 in protect period 226
+18-08-24 18:30:30 start test hd.comment
+18-08-24 18:30:30 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:30:30 in protect period 195
+18-08-24 18:30:30 domain loop over 0
+18-08-24 18:30:35 domain loop start
+18-08-24 18:30:35 start test test
+18-08-24 18:30:35 当前运行test, 备用IP124.239.144.163
+18-08-24 18:30:35 in protect period 10
+18-08-24 18:30:35 start test hd.twitter
+18-08-24 18:30:35 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:30:35 in protect period 231
+18-08-24 18:30:35 start test hd.comment
+18-08-24 18:30:35 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:30:35 in protect period 200
+18-08-24 18:30:35 domain loop over 0
+18-08-24 18:30:40 domain loop start
+18-08-24 18:30:40 start test test
+18-08-24 18:30:40 当前运行test, 备用IP124.239.144.163
+18-08-24 18:30:40 in protect period 15
+18-08-24 18:30:40 start test hd.twitter
+18-08-24 18:30:40 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:30:40 in protect period 236
+18-08-24 18:30:40 start test hd.comment
+18-08-24 18:30:40 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:30:40 in protect period 205
+18-08-24 18:30:40 domain loop over 0
+18-08-24 18:30:45 domain loop start
+18-08-24 18:30:45 start test test
+18-08-24 18:30:45 当前运行test, 备用IP124.239.144.163
+18-08-24 18:30:45 in protect period 20
+18-08-24 18:30:45 start test hd.twitter
+18-08-24 18:30:45 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:30:45 in protect period 241
+18-08-24 18:30:45 start test hd.comment
+18-08-24 18:30:45 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:30:45 in protect period 210
+18-08-24 18:30:45 domain loop over 0
+18-08-24 18:30:50 domain loop start
+18-08-24 18:30:50 start test test
+18-08-24 18:30:50 当前运行test, 备用IP124.239.144.163
+18-08-24 18:30:50 in protect period 25
+18-08-24 18:30:50 start test hd.twitter
+18-08-24 18:30:50 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:30:50 in protect period 246
+18-08-24 18:30:50 start test hd.comment
+18-08-24 18:30:50 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:30:50 in protect period 215
+18-08-24 18:30:50 domain loop over 0
+18-08-24 18:30:55 domain loop start
+18-08-24 18:30:55 start test test
+18-08-24 18:30:55 当前运行test, 备用IP124.239.144.163
+18-08-24 18:30:55 in protect period 30
+18-08-24 18:30:55 start test hd.twitter
+18-08-24 18:30:55 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:30:55 in protect period 251
+18-08-24 18:30:55 start test hd.comment
+18-08-24 18:30:55 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:30:55 in protect period 220
+18-08-24 18:30:55 domain loop over 0
+18-08-24 18:31:00 domain loop start
+18-08-24 18:31:00 start test test
+18-08-24 18:31:00 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:00 in protect period 35
+18-08-24 18:31:00 start test hd.twitter
+18-08-24 18:31:00 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:00 in protect period 256
+18-08-24 18:31:00 start test hd.comment
+18-08-24 18:31:00 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:00 in protect period 225
+18-08-24 18:31:00 domain loop over 0
+18-08-24 18:31:05 domain loop start
+18-08-24 18:31:05 start test test
+18-08-24 18:31:05 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:05 in protect period 40
+18-08-24 18:31:05 start test hd.twitter
+18-08-24 18:31:05 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:05 in protect period 261
+18-08-24 18:31:05 start test hd.comment
+18-08-24 18:31:05 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:05 in protect period 230
+18-08-24 18:31:05 domain loop over 0
+18-08-24 18:31:10 domain loop start
+18-08-24 18:31:10 start test test
+18-08-24 18:31:10 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:10 in protect period 45
+18-08-24 18:31:10 start test hd.twitter
+18-08-24 18:31:10 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:10 in protect period 266
+18-08-24 18:31:10 start test hd.comment
+18-08-24 18:31:10 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:10 in protect period 235
+18-08-24 18:31:10 domain loop over 0
+18-08-24 18:31:15 domain loop start
+18-08-24 18:31:15 start test test
+18-08-24 18:31:15 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:15 in protect period 50
+18-08-24 18:31:15 start test hd.twitter
+18-08-24 18:31:15 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:15 in protect period 271
+18-08-24 18:31:15 start test hd.comment
+18-08-24 18:31:15 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:15 in protect period 240
+18-08-24 18:31:15 domain loop over 0
+18-08-24 18:31:20 domain loop start
+18-08-24 18:31:20 start test test
+18-08-24 18:31:20 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:20 in protect period 55
+18-08-24 18:31:20 start test hd.twitter
+18-08-24 18:31:20 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:20 in protect period 276
+18-08-24 18:31:20 start test hd.comment
+18-08-24 18:31:20 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:20 in protect period 245
+18-08-24 18:31:20 domain loop over 0
+18-08-24 18:31:25 domain loop start
+18-08-24 18:31:25 start test test
+18-08-24 18:31:25 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:25 in protect period 60
+18-08-24 18:31:25 start test hd.twitter
+18-08-24 18:31:25 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:25 in protect period 281
+18-08-24 18:31:25 start test hd.comment
+18-08-24 18:31:25 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:25 in protect period 250
+18-08-24 18:31:25 domain loop over 0
+18-08-24 18:31:30 domain loop start
+18-08-24 18:31:31 start test test
+18-08-24 18:31:31 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:31 in protect period 66
+18-08-24 18:31:31 start test hd.twitter
+18-08-24 18:31:31 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:31 in protect period 287
+18-08-24 18:31:31 start test hd.comment
+18-08-24 18:31:31 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:31 in protect period 256
+18-08-24 18:31:31 domain loop over 1
+18-08-24 18:31:36 domain loop start
+18-08-24 18:31:36 start test test
+18-08-24 18:31:36 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:36 in protect period 71
+18-08-24 18:31:36 start test hd.twitter
+18-08-24 18:31:36 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:36 in protect period 292
+18-08-24 18:31:36 start test hd.comment
+18-08-24 18:31:36 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:36 in protect period 261
+18-08-24 18:31:36 domain loop over 0
+18-08-24 18:31:41 domain loop start
+18-08-24 18:31:41 start test test
+18-08-24 18:31:41 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:41 in protect period 76
+18-08-24 18:31:41 start test hd.twitter
+18-08-24 18:31:41 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:41 in protect period 297
+18-08-24 18:31:41 start test hd.comment
+18-08-24 18:31:41 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:41 in protect period 266
+18-08-24 18:31:41 domain loop over 0
+18-08-24 18:31:46 domain loop start
+18-08-24 18:31:46 start test test
+18-08-24 18:31:46 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:46 in protect period 81
+18-08-24 18:31:46 start test hd.twitter
+18-08-24 18:31:46 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:46 in protect period 302
+18-08-24 18:31:46 start test hd.comment
+18-08-24 18:31:46 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:46 in protect period 271
+18-08-24 18:31:46 domain loop over 0
+18-08-24 18:31:51 domain loop start
+18-08-24 18:31:51 start test test
+18-08-24 18:31:51 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:51 in protect period 86
+18-08-24 18:31:51 start test hd.twitter
+18-08-24 18:31:51 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:51 in protect period 307
+18-08-24 18:31:51 start test hd.comment
+18-08-24 18:31:51 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:51 in protect period 276
+18-08-24 18:31:51 domain loop over 0
+18-08-24 18:31:56 domain loop start
+18-08-24 18:31:56 start test test
+18-08-24 18:31:56 当前运行test, 备用IP124.239.144.163
+18-08-24 18:31:56 in protect period 91
+18-08-24 18:31:56 start test hd.twitter
+18-08-24 18:31:56 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:31:56 in protect period 312
+18-08-24 18:31:56 start test hd.comment
+18-08-24 18:31:56 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:31:56 in protect period 281
+18-08-24 18:31:56 domain loop over 0
+18-08-24 18:32:01 domain loop start
+18-08-24 18:32:01 start test test
+18-08-24 18:32:01 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:01 in protect period 96
+18-08-24 18:32:01 start test hd.twitter
+18-08-24 18:32:01 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:01 in protect period 317
+18-08-24 18:32:01 start test hd.comment
+18-08-24 18:32:01 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:01 in protect period 286
+18-08-24 18:32:01 domain loop over 0
+18-08-24 18:32:06 domain loop start
+18-08-24 18:32:06 start test test
+18-08-24 18:32:06 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:06 in protect period 101
+18-08-24 18:32:06 start test hd.twitter
+18-08-24 18:32:06 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:06 in protect period 322
+18-08-24 18:32:06 start test hd.comment
+18-08-24 18:32:06 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:06 in protect period 291
+18-08-24 18:32:06 domain loop over 0
+18-08-24 18:32:11 domain loop start
+18-08-24 18:32:11 start test test
+18-08-24 18:32:11 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:11 in protect period 106
+18-08-24 18:32:11 start test hd.twitter
+18-08-24 18:32:11 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:11 in protect period 327
+18-08-24 18:32:11 start test hd.comment
+18-08-24 18:32:11 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:11 in protect period 296
+18-08-24 18:32:11 domain loop over 0
+18-08-24 18:32:16 domain loop start
+18-08-24 18:32:16 start test test
+18-08-24 18:32:16 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:16 in protect period 111
+18-08-24 18:32:16 start test hd.twitter
+18-08-24 18:32:16 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:16 in protect period 332
+18-08-24 18:32:16 start test hd.comment
+18-08-24 18:32:16 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:16 in protect period 301
+18-08-24 18:32:16 domain loop over 0
+18-08-24 18:32:21 domain loop start
+18-08-24 18:32:21 start test test
+18-08-24 18:32:21 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:21 in protect period 116
+18-08-24 18:32:21 start test hd.twitter
+18-08-24 18:32:21 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:21 in protect period 337
+18-08-24 18:32:21 start test hd.comment
+18-08-24 18:32:21 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:21 in protect period 306
+18-08-24 18:32:21 domain loop over 0
+18-08-24 18:32:26 domain loop start
+18-08-24 18:32:26 start test test
+18-08-24 18:32:26 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:26 in protect period 121
+18-08-24 18:32:26 start test hd.twitter
+18-08-24 18:32:26 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:26 in protect period 342
+18-08-24 18:32:26 start test hd.comment
+18-08-24 18:32:26 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:26 in protect period 311
+18-08-24 18:32:26 domain loop over 0
+18-08-24 18:32:31 domain loop start
+18-08-24 18:32:31 start test test
+18-08-24 18:32:31 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:31 in protect period 126
+18-08-24 18:32:31 start test hd.twitter
+18-08-24 18:32:31 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:31 in protect period 347
+18-08-24 18:32:31 start test hd.comment
+18-08-24 18:32:31 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:31 in protect period 316
+18-08-24 18:32:31 domain loop over 0
+18-08-24 18:32:36 domain loop start
+18-08-24 18:32:36 start test test
+18-08-24 18:32:36 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:36 in protect period 131
+18-08-24 18:32:36 start test hd.twitter
+18-08-24 18:32:36 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:36 in protect period 352
+18-08-24 18:32:36 start test hd.comment
+18-08-24 18:32:36 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:36 in protect period 321
+18-08-24 18:32:36 domain loop over 0
+18-08-24 18:32:41 domain loop start
+18-08-24 18:32:41 start test test
+18-08-24 18:32:41 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:41 in protect period 136
+18-08-24 18:32:41 start test hd.twitter
+18-08-24 18:32:41 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:41 in protect period 357
+18-08-24 18:32:41 start test hd.comment
+18-08-24 18:32:41 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:41 in protect period 326
+18-08-24 18:32:41 domain loop over 0
+18-08-24 18:32:46 domain loop start
+18-08-24 18:32:46 start test test
+18-08-24 18:32:46 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:46 in protect period 141
+18-08-24 18:32:46 start test hd.twitter
+18-08-24 18:32:46 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:46 in protect period 362
+18-08-24 18:32:46 start test hd.comment
+18-08-24 18:32:46 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:46 in protect period 331
+18-08-24 18:32:46 domain loop over 0
+18-08-24 18:32:51 domain loop start
+18-08-24 18:32:51 start test test
+18-08-24 18:32:51 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:51 in protect period 146
+18-08-24 18:32:51 start test hd.twitter
+18-08-24 18:32:51 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:51 in protect period 367
+18-08-24 18:32:51 start test hd.comment
+18-08-24 18:32:51 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:51 in protect period 336
+18-08-24 18:32:51 domain loop over 0
+18-08-24 18:32:56 domain loop start
+18-08-24 18:32:56 start test test
+18-08-24 18:32:56 当前运行test, 备用IP124.239.144.163
+18-08-24 18:32:56 in protect period 151
+18-08-24 18:32:56 start test hd.twitter
+18-08-24 18:32:56 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:32:56 in protect period 372
+18-08-24 18:32:56 start test hd.comment
+18-08-24 18:32:56 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:32:56 in protect period 341
+18-08-24 18:32:56 domain loop over 0
+18-08-24 18:33:01 domain loop start
+18-08-24 18:33:01 start test test
+18-08-24 18:33:01 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:01 in protect period 156
+18-08-24 18:33:01 start test hd.twitter
+18-08-24 18:33:01 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:01 in protect period 377
+18-08-24 18:33:01 start test hd.comment
+18-08-24 18:33:01 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:02 in protect period 346
+18-08-24 18:33:02 domain loop over 1
+18-08-24 18:33:07 domain loop start
+18-08-24 18:33:07 start test test
+18-08-24 18:33:07 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:07 in protect period 162
+18-08-24 18:33:07 start test hd.twitter
+18-08-24 18:33:07 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:07 in protect period 383
+18-08-24 18:33:07 start test hd.comment
+18-08-24 18:33:07 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:07 in protect period 352
+18-08-24 18:33:07 domain loop over 0
+18-08-24 18:33:12 domain loop start
+18-08-24 18:33:12 start test test
+18-08-24 18:33:12 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:12 in protect period 167
+18-08-24 18:33:12 start test hd.twitter
+18-08-24 18:33:12 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:12 in protect period 388
+18-08-24 18:33:12 start test hd.comment
+18-08-24 18:33:12 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:12 in protect period 357
+18-08-24 18:33:12 domain loop over 0
+18-08-24 18:33:17 domain loop start
+18-08-24 18:33:17 start test test
+18-08-24 18:33:17 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:17 in protect period 172
+18-08-24 18:33:17 start test hd.twitter
+18-08-24 18:33:17 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:17 in protect period 393
+18-08-24 18:33:17 start test hd.comment
+18-08-24 18:33:17 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:17 in protect period 362
+18-08-24 18:33:17 domain loop over 0
+18-08-24 18:33:22 domain loop start
+18-08-24 18:33:22 start test test
+18-08-24 18:33:22 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:22 in protect period 177
+18-08-24 18:33:22 start test hd.twitter
+18-08-24 18:33:22 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:22 in protect period 398
+18-08-24 18:33:22 start test hd.comment
+18-08-24 18:33:22 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:22 in protect period 367
+18-08-24 18:33:22 domain loop over 0
+18-08-24 18:33:27 domain loop start
+18-08-24 18:33:27 start test test
+18-08-24 18:33:27 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:27 in protect period 182
+18-08-24 18:33:27 start test hd.twitter
+18-08-24 18:33:27 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:27 in protect period 403
+18-08-24 18:33:27 start test hd.comment
+18-08-24 18:33:27 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:27 in protect period 372
+18-08-24 18:33:27 domain loop over 0
+18-08-24 18:33:32 domain loop start
+18-08-24 18:33:32 start test test
+18-08-24 18:33:32 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:32 in protect period 187
+18-08-24 18:33:32 start test hd.twitter
+18-08-24 18:33:32 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:32 in protect period 408
+18-08-24 18:33:32 start test hd.comment
+18-08-24 18:33:32 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:32 in protect period 377
+18-08-24 18:33:32 domain loop over 0
+18-08-24 18:33:37 domain loop start
+18-08-24 18:33:37 start test test
+18-08-24 18:33:37 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:37 in protect period 192
+18-08-24 18:33:37 start test hd.twitter
+18-08-24 18:33:37 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:37 in protect period 413
+18-08-24 18:33:37 start test hd.comment
+18-08-24 18:33:37 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:37 in protect period 382
+18-08-24 18:33:37 domain loop over 0
+18-08-24 18:33:42 domain loop start
+18-08-24 18:33:42 start test test
+18-08-24 18:33:42 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:42 in protect period 197
+18-08-24 18:33:42 start test hd.twitter
+18-08-24 18:33:42 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:42 in protect period 418
+18-08-24 18:33:42 start test hd.comment
+18-08-24 18:33:42 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:42 in protect period 387
+18-08-24 18:33:42 domain loop over 0
+18-08-24 18:33:47 domain loop start
+18-08-24 18:33:47 start test test
+18-08-24 18:33:47 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:47 in protect period 202
+18-08-24 18:33:47 start test hd.twitter
+18-08-24 18:33:47 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:47 in protect period 423
+18-08-24 18:33:47 start test hd.comment
+18-08-24 18:33:47 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:47 in protect period 392
+18-08-24 18:33:47 domain loop over 0
+18-08-24 18:33:52 domain loop start
+18-08-24 18:33:52 start test test
+18-08-24 18:33:52 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:52 in protect period 207
+18-08-24 18:33:52 start test hd.twitter
+18-08-24 18:33:52 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:52 in protect period 428
+18-08-24 18:33:52 start test hd.comment
+18-08-24 18:33:52 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:52 in protect period 397
+18-08-24 18:33:52 domain loop over 0
+18-08-24 18:33:57 domain loop start
+18-08-24 18:33:57 start test test
+18-08-24 18:33:57 当前运行test, 备用IP124.239.144.163
+18-08-24 18:33:57 in protect period 212
+18-08-24 18:33:57 start test hd.twitter
+18-08-24 18:33:57 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:33:57 in protect period 433
+18-08-24 18:33:57 start test hd.comment
+18-08-24 18:33:57 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:33:57 in protect period 402
+18-08-24 18:33:57 domain loop over 0
+18-08-24 18:34:02 domain loop start
+18-08-24 18:34:02 start test test
+18-08-24 18:34:02 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:02 in protect period 217
+18-08-24 18:34:02 start test hd.twitter
+18-08-24 18:34:02 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:02 in protect period 438
+18-08-24 18:34:02 start test hd.comment
+18-08-24 18:34:02 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:02 in protect period 407
+18-08-24 18:34:02 domain loop over 0
+18-08-24 18:34:07 domain loop start
+18-08-24 18:34:07 start test test
+18-08-24 18:34:07 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:07 in protect period 222
+18-08-24 18:34:07 start test hd.twitter
+18-08-24 18:34:07 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:07 in protect period 443
+18-08-24 18:34:07 start test hd.comment
+18-08-24 18:34:07 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:07 in protect period 412
+18-08-24 18:34:07 domain loop over 0
+18-08-24 18:34:12 domain loop start
+18-08-24 18:34:12 start test test
+18-08-24 18:34:12 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:12 in protect period 227
+18-08-24 18:34:12 start test hd.twitter
+18-08-24 18:34:12 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:12 in protect period 448
+18-08-24 18:34:12 start test hd.comment
+18-08-24 18:34:12 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:12 in protect period 417
+18-08-24 18:34:12 domain loop over 0
+18-08-24 18:34:17 domain loop start
+18-08-24 18:34:17 start test test
+18-08-24 18:34:17 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:17 in protect period 232
+18-08-24 18:34:17 start test hd.twitter
+18-08-24 18:34:17 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:17 in protect period 453
+18-08-24 18:34:17 start test hd.comment
+18-08-24 18:34:17 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:17 in protect period 422
+18-08-24 18:34:17 domain loop over 0
+18-08-24 18:34:22 domain loop start
+18-08-24 18:34:22 start test test
+18-08-24 18:34:22 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:22 in protect period 237
+18-08-24 18:34:22 start test hd.twitter
+18-08-24 18:34:22 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:22 in protect period 458
+18-08-24 18:34:22 start test hd.comment
+18-08-24 18:34:22 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:22 in protect period 427
+18-08-24 18:34:22 domain loop over 0
+18-08-24 18:34:27 domain loop start
+18-08-24 18:34:27 start test test
+18-08-24 18:34:27 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:27 in protect period 242
+18-08-24 18:34:27 start test hd.twitter
+18-08-24 18:34:27 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:27 in protect period 463
+18-08-24 18:34:27 start test hd.comment
+18-08-24 18:34:27 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:27 in protect period 432
+18-08-24 18:34:27 domain loop over 0
+18-08-24 18:34:32 domain loop start
+18-08-24 18:34:32 start test test
+18-08-24 18:34:32 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:32 in protect period 247
+18-08-24 18:34:32 start test hd.twitter
+18-08-24 18:34:32 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:32 in protect period 468
+18-08-24 18:34:32 start test hd.comment
+18-08-24 18:34:32 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:32 in protect period 437
+18-08-24 18:34:32 domain loop over 0
+18-08-24 18:34:37 domain loop start
+18-08-24 18:34:37 start test test
+18-08-24 18:34:37 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:37 in protect period 252
+18-08-24 18:34:37 start test hd.twitter
+18-08-24 18:34:37 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:37 in protect period 473
+18-08-24 18:34:37 start test hd.comment
+18-08-24 18:34:37 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:37 in protect period 442
+18-08-24 18:34:37 domain loop over 0
+18-08-24 18:34:42 domain loop start
+18-08-24 18:34:43 start test test
+18-08-24 18:34:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:43 in protect period 258
+18-08-24 18:34:43 start test hd.twitter
+18-08-24 18:34:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:43 in protect period 479
+18-08-24 18:34:43 start test hd.comment
+18-08-24 18:34:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:43 in protect period 448
+18-08-24 18:34:43 domain loop over 1
+18-08-24 18:34:48 domain loop start
+18-08-24 18:34:48 start test test
+18-08-24 18:34:48 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:48 in protect period 263
+18-08-24 18:34:48 start test hd.twitter
+18-08-24 18:34:48 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:48 in protect period 484
+18-08-24 18:34:48 start test hd.comment
+18-08-24 18:34:48 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:48 in protect period 453
+18-08-24 18:34:48 domain loop over 0
+18-08-24 18:34:53 domain loop start
+18-08-24 18:34:53 start test test
+18-08-24 18:34:53 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:53 in protect period 268
+18-08-24 18:34:53 start test hd.twitter
+18-08-24 18:34:53 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:53 in protect period 489
+18-08-24 18:34:53 start test hd.comment
+18-08-24 18:34:53 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:53 in protect period 458
+18-08-24 18:34:53 domain loop over 0
+18-08-24 18:34:58 domain loop start
+18-08-24 18:34:58 start test test
+18-08-24 18:34:58 当前运行test, 备用IP124.239.144.163
+18-08-24 18:34:58 in protect period 273
+18-08-24 18:34:58 start test hd.twitter
+18-08-24 18:34:58 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:34:58 in protect period 494
+18-08-24 18:34:58 start test hd.comment
+18-08-24 18:34:58 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:34:58 in protect period 463
+18-08-24 18:34:58 domain loop over 0
+18-08-24 18:35:03 domain loop start
+18-08-24 18:35:03 start test test
+18-08-24 18:35:03 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:03 in protect period 278
+18-08-24 18:35:03 start test hd.twitter
+18-08-24 18:35:03 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:03 in protect period 499
+18-08-24 18:35:03 start test hd.comment
+18-08-24 18:35:03 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:03 in protect period 468
+18-08-24 18:35:03 domain loop over 0
+18-08-24 18:35:08 domain loop start
+18-08-24 18:35:08 start test test
+18-08-24 18:35:08 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:08 in protect period 283
+18-08-24 18:35:08 start test hd.twitter
+18-08-24 18:35:08 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:08 in protect period 504
+18-08-24 18:35:08 start test hd.comment
+18-08-24 18:35:08 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:08 in protect period 473
+18-08-24 18:35:08 domain loop over 0
+18-08-24 18:35:13 domain loop start
+18-08-24 18:35:13 start test test
+18-08-24 18:35:13 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:13 in protect period 288
+18-08-24 18:35:13 start test hd.twitter
+18-08-24 18:35:13 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:13 in protect period 509
+18-08-24 18:35:13 start test hd.comment
+18-08-24 18:35:13 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:13 in protect period 478
+18-08-24 18:35:13 domain loop over 0
+18-08-24 18:35:18 domain loop start
+18-08-24 18:35:18 start test test
+18-08-24 18:35:18 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:18 in protect period 293
+18-08-24 18:35:18 start test hd.twitter
+18-08-24 18:35:18 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:18 in protect period 514
+18-08-24 18:35:18 start test hd.comment
+18-08-24 18:35:18 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:18 in protect period 483
+18-08-24 18:35:18 domain loop over 0
+18-08-24 18:35:23 domain loop start
+18-08-24 18:35:23 start test test
+18-08-24 18:35:23 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:23 in protect period 298
+18-08-24 18:35:23 start test hd.twitter
+18-08-24 18:35:23 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:23 in protect period 519
+18-08-24 18:35:23 start test hd.comment
+18-08-24 18:35:23 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:23 in protect period 488
+18-08-24 18:35:23 domain loop over 0
+18-08-24 18:35:28 domain loop start
+18-08-24 18:35:28 start test test
+18-08-24 18:35:28 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:28 in protect period 303
+18-08-24 18:35:28 start test hd.twitter
+18-08-24 18:35:28 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:28 in protect period 524
+18-08-24 18:35:28 start test hd.comment
+18-08-24 18:35:28 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:28 in protect period 493
+18-08-24 18:35:28 domain loop over 0
+18-08-24 18:35:33 domain loop start
+18-08-24 18:35:33 start test test
+18-08-24 18:35:33 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:33 in protect period 308
+18-08-24 18:35:33 start test hd.twitter
+18-08-24 18:35:33 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:33 in protect period 529
+18-08-24 18:35:33 start test hd.comment
+18-08-24 18:35:33 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:33 in protect period 498
+18-08-24 18:35:33 domain loop over 0
+18-08-24 18:35:38 domain loop start
+18-08-24 18:35:38 start test test
+18-08-24 18:35:38 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:38 in protect period 313
+18-08-24 18:35:38 start test hd.twitter
+18-08-24 18:35:38 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:38 in protect period 534
+18-08-24 18:35:38 start test hd.comment
+18-08-24 18:35:38 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:38 in protect period 503
+18-08-24 18:35:38 domain loop over 0
+18-08-24 18:35:43 domain loop start
+18-08-24 18:35:43 start test test
+18-08-24 18:35:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:43 in protect period 318
+18-08-24 18:35:43 start test hd.twitter
+18-08-24 18:35:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:43 in protect period 539
+18-08-24 18:35:43 start test hd.comment
+18-08-24 18:35:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:43 in protect period 508
+18-08-24 18:35:43 domain loop over 0
+18-08-24 18:35:48 domain loop start
+18-08-24 18:35:48 start test test
+18-08-24 18:35:48 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:48 in protect period 323
+18-08-24 18:35:48 start test hd.twitter
+18-08-24 18:35:48 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:48 in protect period 544
+18-08-24 18:35:48 start test hd.comment
+18-08-24 18:35:48 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:48 in protect period 513
+18-08-24 18:35:48 domain loop over 0
+18-08-24 18:35:53 domain loop start
+18-08-24 18:35:53 start test test
+18-08-24 18:35:53 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:53 in protect period 328
+18-08-24 18:35:53 start test hd.twitter
+18-08-24 18:35:53 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:53 in protect period 549
+18-08-24 18:35:53 start test hd.comment
+18-08-24 18:35:53 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:53 in protect period 518
+18-08-24 18:35:53 domain loop over 0
+18-08-24 18:35:58 domain loop start
+18-08-24 18:35:58 start test test
+18-08-24 18:35:58 当前运行test, 备用IP124.239.144.163
+18-08-24 18:35:58 in protect period 333
+18-08-24 18:35:58 start test hd.twitter
+18-08-24 18:35:58 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:35:58 in protect period 554
+18-08-24 18:35:58 start test hd.comment
+18-08-24 18:35:58 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:35:58 in protect period 523
+18-08-24 18:35:58 domain loop over 0
+18-08-24 18:36:03 domain loop start
+18-08-24 18:36:03 start test test
+18-08-24 18:36:03 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:03 in protect period 338
+18-08-24 18:36:03 start test hd.twitter
+18-08-24 18:36:03 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:03 in protect period 559
+18-08-24 18:36:03 start test hd.comment
+18-08-24 18:36:03 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:03 in protect period 528
+18-08-24 18:36:03 domain loop over 0
+18-08-24 18:36:08 domain loop start
+18-08-24 18:36:08 start test test
+18-08-24 18:36:08 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:08 in protect period 343
+18-08-24 18:36:08 start test hd.twitter
+18-08-24 18:36:08 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:08 in protect period 564
+18-08-24 18:36:08 start test hd.comment
+18-08-24 18:36:08 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:08 in protect period 533
+18-08-24 18:36:08 domain loop over 0
+18-08-24 18:36:13 domain loop start
+18-08-24 18:36:13 start test test
+18-08-24 18:36:13 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:14 in protect period 348
+18-08-24 18:36:14 start test hd.twitter
+18-08-24 18:36:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:14 in protect period 570
+18-08-24 18:36:14 start test hd.comment
+18-08-24 18:36:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:14 in protect period 539
+18-08-24 18:36:14 domain loop over 1
+18-08-24 18:36:19 domain loop start
+18-08-24 18:36:19 start test test
+18-08-24 18:36:19 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:19 in protect period 354
+18-08-24 18:36:19 start test hd.twitter
+18-08-24 18:36:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:19 in protect period 575
+18-08-24 18:36:19 start test hd.comment
+18-08-24 18:36:19 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:19 in protect period 544
+18-08-24 18:36:19 domain loop over 0
+18-08-24 18:36:24 domain loop start
+18-08-24 18:36:24 start test test
+18-08-24 18:36:24 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:24 in protect period 359
+18-08-24 18:36:24 start test hd.twitter
+18-08-24 18:36:24 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:24 in protect period 580
+18-08-24 18:36:24 start test hd.comment
+18-08-24 18:36:24 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:24 in protect period 549
+18-08-24 18:36:24 domain loop over 0
+18-08-24 18:36:29 domain loop start
+18-08-24 18:36:29 start test test
+18-08-24 18:36:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:29 in protect period 364
+18-08-24 18:36:29 start test hd.twitter
+18-08-24 18:36:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:29 in protect period 585
+18-08-24 18:36:29 start test hd.comment
+18-08-24 18:36:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:29 in protect period 554
+18-08-24 18:36:29 domain loop over 0
+18-08-24 18:36:34 domain loop start
+18-08-24 18:36:34 start test test
+18-08-24 18:36:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:34 in protect period 369
+18-08-24 18:36:34 start test hd.twitter
+18-08-24 18:36:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:34 in protect period 590
+18-08-24 18:36:34 start test hd.comment
+18-08-24 18:36:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:34 in protect period 559
+18-08-24 18:36:34 domain loop over 0
+18-08-24 18:36:39 domain loop start
+18-08-24 18:36:39 start test test
+18-08-24 18:36:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:39 in protect period 374
+18-08-24 18:36:39 start test hd.twitter
+18-08-24 18:36:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:39 in protect period 595
+18-08-24 18:36:39 start test hd.comment
+18-08-24 18:36:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:39 in protect period 564
+18-08-24 18:36:39 domain loop over 0
+18-08-24 18:36:44 domain loop start
+18-08-24 18:36:44 start test test
+18-08-24 18:36:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:44 in protect period 379
+18-08-24 18:36:44 start test hd.twitter
+18-08-24 18:36:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:36:44 in protect period 600
+18-08-24 18:36:44 start test hd.comment
+18-08-24 18:36:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:36:44 in protect period 569
+18-08-24 18:36:44 domain loop over 0
+18-08-24 18:36:49 domain loop start
+18-08-24 18:36:49 start test test
+18-08-24 18:36:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:49 main_url http://61.164.49.130:19002/test.html
+18-08-24 18:36:49 server main normal
+18-08-24 18:36:49 server main normal
+18-08-24 18:36:49 server main normal
+18-08-24 18:36:49 切换到主IP, 当前IP 124.239.144.163
+18-08-24 18:36:51 domain loop start
+18-08-24 18:36:51 start test test
+18-08-24 18:36:51 当前运行test, 备用IP124.239.144.163
+18-08-24 18:36:51 main_url http://61.164.49.130:19002/test.html
+18-08-24 18:36:51 server main normal
+18-08-24 18:36:51 server main normal
+18-08-24 18:36:51 server main normal
+18-08-24 18:36:52 切换到主IP, 当前IP 124.239.144.163
+18-08-24 18:37:01 登录成功
+18-08-24 18:37:05 登录成功
+18-08-24 18:37:15 切换成功
+18-08-24 18:37:15 start test hd.twitter
+18-08-24 18:37:15 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:37:15 not in  protect period
+18-08-24 18:37:15 start test hd.comment
+18-08-24 18:37:15 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:37:15 in protect period 600
+18-08-24 18:37:15 domain loop over 26
+18-08-24 18:37:19 切换成功
+18-08-24 18:37:19 start test hd.twitter
+18-08-24 18:37:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:37:20 not in  protect period
+18-08-24 18:37:20 start test hd.comment
+18-08-24 18:37:20 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:37:20 in protect period 605
+18-08-24 18:37:20 domain loop over 29
+18-08-24 18:37:20 domain loop start
+18-08-24 18:37:20 start test test
+18-08-24 18:37:20 当前运行test, 备用IP124.239.144.163
+18-08-24 18:37:20 in protect period 1
+18-08-24 18:37:20 start test hd.twitter
+18-08-24 18:37:20 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:37:20 requests 
+18-08-24 18:37:20 server fault: requests get error
+18-08-24 18:37:20 requests 
+18-08-24 18:37:20 server fault: requests get error
+18-08-24 18:37:20 requests 
+18-08-24 18:37:20 server fault: requests get error
+18-08-24 18:37:20 requests 
+18-08-24 18:37:20 backup_ip 120.78.237.190
+18-08-24 18:37:20 切换到备用IP, 当前IP60.190.238.166
+18-08-24 18:37:25 domain loop start
+18-08-24 18:37:25 start test test
+18-08-24 18:37:25 当前运行test, 备用IP124.239.144.163
+18-08-24 18:37:25 in protect period 6
+18-08-24 18:37:25 start test hd.twitter
+18-08-24 18:37:25 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:37:25 requests 
+18-08-24 18:37:25 server fault: requests get error
+18-08-24 18:37:25 requests 
+18-08-24 18:37:25 server fault: requests get error
+18-08-24 18:37:25 requests 
+18-08-24 18:37:25 server fault: requests get error
+18-08-24 18:37:25 requests 
+18-08-24 18:37:25 backup_ip 120.78.237.190
+18-08-24 18:37:25 切换到备用IP, 当前IP60.190.238.166
+18-08-24 18:37:31 登录成功
+18-08-24 18:37:47 切换成功
+18-08-24 18:37:47 start test hd.comment
+18-08-24 18:37:47 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:37:47 not in  protect period
+18-08-24 18:37:47 domain loop over 27
+18-08-24 18:37:50 登录成功
+18-08-24 18:37:52 domain loop start
+18-08-24 18:37:52 start test test
+18-08-24 18:37:52 当前运行test, 备用IP124.239.144.163
+18-08-24 18:37:52 in protect period 33
+18-08-24 18:37:52 start test hd.twitter
+18-08-24 18:37:52 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:37:52 in protect period 5
+18-08-24 18:37:52 start test hd.comment
+18-08-24 18:37:52 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:37:52 requests 
+18-08-24 18:37:52 server fault: requests get error
+18-08-24 18:37:52 requests 
+18-08-24 18:37:52 server fault: requests get error
+18-08-24 18:37:52 requests 
+18-08-24 18:37:52 server fault: requests get error
+18-08-24 18:37:52 requests 
+18-08-24 18:37:52 backup_ip 120.78.237.190
+18-08-24 18:37:52 切换到备用IP, 当前IP60.190.238.166
+18-08-24 18:38:03 登录成功
+18-08-24 18:38:06 切换成功
+18-08-24 18:38:06 start test hd.comment
+18-08-24 18:38:06 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:06 not in  protect period
+18-08-24 18:38:06 domain loop over 41
+18-08-24 18:38:11 domain loop start
+18-08-24 18:38:11 start test test
+18-08-24 18:38:11 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:11 in protect period 52
+18-08-24 18:38:11 start test hd.twitter
+18-08-24 18:38:11 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:11 in protect period 5
+18-08-24 18:38:11 start test hd.comment
+18-08-24 18:38:11 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:11 requests 
+18-08-24 18:38:11 server fault: requests get error
+18-08-24 18:38:11 requests 
+18-08-24 18:38:11 server fault: requests get error
+18-08-24 18:38:11 requests 
+18-08-24 18:38:11 server fault: requests get error
+18-08-24 18:38:11 requests 
+18-08-24 18:38:11 backup_ip 120.78.237.190
+18-08-24 18:38:11 切换到备用IP, 当前IP60.190.238.166
+18-08-24 18:38:19 切换成功
+18-08-24 18:38:19 domain loop over 27
+18-08-24 18:38:22 登录成功
+18-08-24 18:38:24 domain loop start
+18-08-24 18:38:24 start test test
+18-08-24 18:38:24 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:24 in protect period 65
+18-08-24 18:38:24 start test hd.twitter
+18-08-24 18:38:24 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:24 in protect period 18
+18-08-24 18:38:24 start test hd.comment
+18-08-24 18:38:24 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:24 in protect period 5
+18-08-24 18:38:24 domain loop over 0
+18-08-24 18:38:29 domain loop start
+18-08-24 18:38:29 start test test
+18-08-24 18:38:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:29 in protect period 70
+18-08-24 18:38:29 start test hd.twitter
+18-08-24 18:38:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:29 in protect period 23
+18-08-24 18:38:29 start test hd.comment
+18-08-24 18:38:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:29 in protect period 10
+18-08-24 18:38:29 domain loop over 0
+18-08-24 18:38:34 domain loop start
+18-08-24 18:38:34 start test test
+18-08-24 18:38:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:34 in protect period 75
+18-08-24 18:38:34 start test hd.twitter
+18-08-24 18:38:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:34 in protect period 28
+18-08-24 18:38:34 start test hd.comment
+18-08-24 18:38:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:34 in protect period 15
+18-08-24 18:38:34 domain loop over 0
+18-08-24 18:38:38 切换成功
+18-08-24 18:38:38 domain loop over 27
+18-08-24 18:38:39 domain loop start
+18-08-24 18:38:39 start test test
+18-08-24 18:38:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:39 in protect period 80
+18-08-24 18:38:39 start test hd.twitter
+18-08-24 18:38:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:39 in protect period 33
+18-08-24 18:38:39 start test hd.comment
+18-08-24 18:38:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:39 in protect period 1
+18-08-24 18:38:39 domain loop over 0
+18-08-24 18:38:43 domain loop start
+18-08-24 18:38:43 start test test
+18-08-24 18:38:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:43 in protect period 84
+18-08-24 18:38:43 start test hd.twitter
+18-08-24 18:38:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:43 in protect period 37
+18-08-24 18:38:43 start test hd.comment
+18-08-24 18:38:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:43 in protect period 5
+18-08-24 18:38:43 domain loop over 0
+18-08-24 18:38:44 domain loop start
+18-08-24 18:38:44 start test test
+18-08-24 18:38:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:44 in protect period 85
+18-08-24 18:38:44 start test hd.twitter
+18-08-24 18:38:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:44 in protect period 38
+18-08-24 18:38:44 start test hd.comment
+18-08-24 18:38:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:44 in protect period 6
+18-08-24 18:38:44 domain loop over 0
+18-08-24 18:38:48 domain loop start
+18-08-24 18:38:48 start test test
+18-08-24 18:38:48 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:48 in protect period 89
+18-08-24 18:38:48 start test hd.twitter
+18-08-24 18:38:48 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:48 in protect period 42
+18-08-24 18:38:48 start test hd.comment
+18-08-24 18:38:48 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:48 in protect period 10
+18-08-24 18:38:48 domain loop over 0
+18-08-24 18:38:49 domain loop start
+18-08-24 18:38:49 start test test
+18-08-24 18:38:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:49 in protect period 90
+18-08-24 18:38:49 start test hd.twitter
+18-08-24 18:38:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:49 in protect period 43
+18-08-24 18:38:49 start test hd.comment
+18-08-24 18:38:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:49 in protect period 11
+18-08-24 18:38:49 domain loop over 0
+18-08-24 18:38:53 domain loop start
+18-08-24 18:38:53 start test test
+18-08-24 18:38:53 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:53 in protect period 94
+18-08-24 18:38:53 start test hd.twitter
+18-08-24 18:38:53 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:53 in protect period 47
+18-08-24 18:38:53 start test hd.comment
+18-08-24 18:38:53 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:53 in protect period 15
+18-08-24 18:38:53 domain loop over 0
+18-08-24 18:38:54 domain loop start
+18-08-24 18:38:54 start test test
+18-08-24 18:38:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:54 in protect period 95
+18-08-24 18:38:54 start test hd.twitter
+18-08-24 18:38:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:54 in protect period 48
+18-08-24 18:38:54 start test hd.comment
+18-08-24 18:38:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:54 in protect period 16
+18-08-24 18:38:54 domain loop over 0
+18-08-24 18:38:58 domain loop start
+18-08-24 18:38:58 start test test
+18-08-24 18:38:58 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:58 in protect period 99
+18-08-24 18:38:58 start test hd.twitter
+18-08-24 18:38:58 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:58 in protect period 52
+18-08-24 18:38:58 start test hd.comment
+18-08-24 18:38:58 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:58 in protect period 20
+18-08-24 18:38:58 domain loop over 0
+18-08-24 18:38:59 domain loop start
+18-08-24 18:38:59 start test test
+18-08-24 18:38:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:38:59 in protect period 100
+18-08-24 18:38:59 start test hd.twitter
+18-08-24 18:38:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:38:59 in protect period 53
+18-08-24 18:38:59 start test hd.comment
+18-08-24 18:38:59 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:38:59 in protect period 21
+18-08-24 18:38:59 domain loop over 0
+18-08-24 18:39:03 domain loop start
+18-08-24 18:39:03 start test test
+18-08-24 18:39:03 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:03 in protect period 104
+18-08-24 18:39:03 start test hd.twitter
+18-08-24 18:39:03 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:03 in protect period 57
+18-08-24 18:39:03 start test hd.comment
+18-08-24 18:39:03 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:03 in protect period 25
+18-08-24 18:39:03 domain loop over 0
+18-08-24 18:39:04 domain loop start
+18-08-24 18:39:04 start test test
+18-08-24 18:39:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:04 in protect period 105
+18-08-24 18:39:04 start test hd.twitter
+18-08-24 18:39:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:04 in protect period 58
+18-08-24 18:39:04 start test hd.comment
+18-08-24 18:39:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:04 in protect period 26
+18-08-24 18:39:04 domain loop over 0
+18-08-24 18:39:08 domain loop start
+18-08-24 18:39:08 start test test
+18-08-24 18:39:08 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:09 in protect period 109
+18-08-24 18:39:09 start test hd.twitter
+18-08-24 18:39:09 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:09 in protect period 63
+18-08-24 18:39:09 start test hd.comment
+18-08-24 18:39:09 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:09 in protect period 31
+18-08-24 18:39:09 domain loop over 1
+18-08-24 18:39:09 domain loop start
+18-08-24 18:39:09 start test test
+18-08-24 18:39:09 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:09 in protect period 110
+18-08-24 18:39:09 start test hd.twitter
+18-08-24 18:39:09 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:09 in protect period 63
+18-08-24 18:39:09 start test hd.comment
+18-08-24 18:39:09 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:09 in protect period 31
+18-08-24 18:39:09 domain loop over 0
+18-08-24 18:39:14 domain loop start
+18-08-24 18:39:14 start test test
+18-08-24 18:39:14 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:14 in protect period 115
+18-08-24 18:39:14 start test hd.twitter
+18-08-24 18:39:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:14 in protect period 68
+18-08-24 18:39:14 start test hd.comment
+18-08-24 18:39:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:14 in protect period 36
+18-08-24 18:39:14 domain loop over 0
+18-08-24 18:39:14 domain loop start
+18-08-24 18:39:14 start test test
+18-08-24 18:39:14 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:14 in protect period 115
+18-08-24 18:39:14 start test hd.twitter
+18-08-24 18:39:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:14 in protect period 68
+18-08-24 18:39:14 start test hd.comment
+18-08-24 18:39:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:14 in protect period 36
+18-08-24 18:39:14 domain loop over 0
+18-08-24 18:39:19 domain loop start
+18-08-24 18:39:19 start test test
+18-08-24 18:39:19 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:19 in protect period 120
+18-08-24 18:39:19 start test hd.twitter
+18-08-24 18:39:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:19 in protect period 73
+18-08-24 18:39:19 start test hd.comment
+18-08-24 18:39:19 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:19 in protect period 41
+18-08-24 18:39:19 domain loop over 0
+18-08-24 18:39:19 domain loop start
+18-08-24 18:39:19 start test test
+18-08-24 18:39:19 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:19 in protect period 120
+18-08-24 18:39:19 start test hd.twitter
+18-08-24 18:39:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:19 in protect period 73
+18-08-24 18:39:19 start test hd.comment
+18-08-24 18:39:19 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:19 in protect period 41
+18-08-24 18:39:19 domain loop over 0
+18-08-24 18:39:24 domain loop start
+18-08-24 18:39:24 start test test
+18-08-24 18:39:24 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:24 in protect period 125
+18-08-24 18:39:24 start test hd.twitter
+18-08-24 18:39:24 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:24 in protect period 78
+18-08-24 18:39:24 start test hd.comment
+18-08-24 18:39:24 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:24 in protect period 46
+18-08-24 18:39:24 domain loop over 0
+18-08-24 18:39:24 domain loop start
+18-08-24 18:39:24 start test test
+18-08-24 18:39:24 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:24 in protect period 125
+18-08-24 18:39:24 start test hd.twitter
+18-08-24 18:39:24 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:24 in protect period 78
+18-08-24 18:39:24 start test hd.comment
+18-08-24 18:39:24 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:24 in protect period 46
+18-08-24 18:39:24 domain loop over 0
+18-08-24 18:39:29 domain loop start
+18-08-24 18:39:29 start test test
+18-08-24 18:39:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:29 in protect period 130
+18-08-24 18:39:29 start test hd.twitter
+18-08-24 18:39:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:29 in protect period 83
+18-08-24 18:39:29 start test hd.comment
+18-08-24 18:39:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:29 in protect period 51
+18-08-24 18:39:29 domain loop over 0
+18-08-24 18:39:29 domain loop start
+18-08-24 18:39:29 start test test
+18-08-24 18:39:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:29 in protect period 130
+18-08-24 18:39:29 start test hd.twitter
+18-08-24 18:39:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:29 in protect period 83
+18-08-24 18:39:29 start test hd.comment
+18-08-24 18:39:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:30 in protect period 51
+18-08-24 18:39:30 domain loop over 1
+18-08-24 18:39:34 domain loop start
+18-08-24 18:39:34 start test test
+18-08-24 18:39:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:34 in protect period 135
+18-08-24 18:39:34 start test hd.twitter
+18-08-24 18:39:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:34 in protect period 88
+18-08-24 18:39:34 start test hd.comment
+18-08-24 18:39:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:34 in protect period 56
+18-08-24 18:39:34 domain loop over 0
+18-08-24 18:39:35 domain loop start
+18-08-24 18:39:35 start test test
+18-08-24 18:39:35 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:35 in protect period 136
+18-08-24 18:39:35 start test hd.twitter
+18-08-24 18:39:35 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:35 in protect period 89
+18-08-24 18:39:35 start test hd.comment
+18-08-24 18:39:35 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:35 in protect period 57
+18-08-24 18:39:35 domain loop over 0
+18-08-24 18:39:39 domain loop start
+18-08-24 18:39:39 start test test
+18-08-24 18:39:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:39 in protect period 140
+18-08-24 18:39:39 start test hd.twitter
+18-08-24 18:39:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:39 in protect period 93
+18-08-24 18:39:39 start test hd.comment
+18-08-24 18:39:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:39 in protect period 61
+18-08-24 18:39:39 domain loop over 0
+18-08-24 18:39:40 domain loop start
+18-08-24 18:39:40 start test test
+18-08-24 18:39:40 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:40 in protect period 141
+18-08-24 18:39:40 start test hd.twitter
+18-08-24 18:39:40 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:40 in protect period 94
+18-08-24 18:39:40 start test hd.comment
+18-08-24 18:39:40 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:40 in protect period 62
+18-08-24 18:39:40 domain loop over 0
+18-08-24 18:39:44 domain loop start
+18-08-24 18:39:44 start test test
+18-08-24 18:39:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:44 in protect period 145
+18-08-24 18:39:44 start test hd.twitter
+18-08-24 18:39:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:44 in protect period 98
+18-08-24 18:39:44 start test hd.comment
+18-08-24 18:39:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:44 in protect period 66
+18-08-24 18:39:44 domain loop over 0
+18-08-24 18:39:45 domain loop start
+18-08-24 18:39:45 start test test
+18-08-24 18:39:45 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:45 in protect period 146
+18-08-24 18:39:45 start test hd.twitter
+18-08-24 18:39:45 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:45 in protect period 99
+18-08-24 18:39:45 start test hd.comment
+18-08-24 18:39:45 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:45 in protect period 67
+18-08-24 18:39:45 domain loop over 0
+18-08-24 18:39:49 domain loop start
+18-08-24 18:39:49 start test test
+18-08-24 18:39:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:49 in protect period 150
+18-08-24 18:39:49 start test hd.twitter
+18-08-24 18:39:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:49 in protect period 103
+18-08-24 18:39:49 start test hd.comment
+18-08-24 18:39:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:49 in protect period 71
+18-08-24 18:39:49 domain loop over 0
+18-08-24 18:39:50 domain loop start
+18-08-24 18:39:50 start test test
+18-08-24 18:39:50 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:50 in protect period 151
+18-08-24 18:39:50 start test hd.twitter
+18-08-24 18:39:50 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:50 in protect period 104
+18-08-24 18:39:50 start test hd.comment
+18-08-24 18:39:50 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:50 in protect period 72
+18-08-24 18:39:50 domain loop over 0
+18-08-24 18:39:54 domain loop start
+18-08-24 18:39:54 start test test
+18-08-24 18:39:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:54 in protect period 155
+18-08-24 18:39:54 start test hd.twitter
+18-08-24 18:39:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:54 in protect period 108
+18-08-24 18:39:54 start test hd.comment
+18-08-24 18:39:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:54 in protect period 76
+18-08-24 18:39:54 domain loop over 0
+18-08-24 18:39:55 domain loop start
+18-08-24 18:39:55 start test test
+18-08-24 18:39:55 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:55 in protect period 156
+18-08-24 18:39:55 start test hd.twitter
+18-08-24 18:39:55 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:55 in protect period 109
+18-08-24 18:39:55 start test hd.comment
+18-08-24 18:39:55 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:55 in protect period 77
+18-08-24 18:39:55 domain loop over 0
+18-08-24 18:39:59 domain loop start
+18-08-24 18:39:59 start test test
+18-08-24 18:39:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:39:59 in protect period 160
+18-08-24 18:39:59 start test hd.twitter
+18-08-24 18:39:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:39:59 in protect period 113
+18-08-24 18:39:59 start test hd.comment
+18-08-24 18:39:59 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:39:59 in protect period 81
+18-08-24 18:39:59 domain loop over 0
+18-08-24 18:40:00 domain loop start
+18-08-24 18:40:00 start test test
+18-08-24 18:40:00 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:00 in protect period 161
+18-08-24 18:40:00 start test hd.twitter
+18-08-24 18:40:00 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:00 in protect period 114
+18-08-24 18:40:00 start test hd.comment
+18-08-24 18:40:00 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:00 in protect period 82
+18-08-24 18:40:00 domain loop over 0
+18-08-24 18:40:04 domain loop start
+18-08-24 18:40:04 start test test
+18-08-24 18:40:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:04 in protect period 165
+18-08-24 18:40:04 start test hd.twitter
+18-08-24 18:40:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:04 in protect period 118
+18-08-24 18:40:04 start test hd.comment
+18-08-24 18:40:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:04 in protect period 86
+18-08-24 18:40:04 domain loop over 0
+18-08-24 18:40:05 domain loop start
+18-08-24 18:40:05 start test test
+18-08-24 18:40:05 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:05 in protect period 166
+18-08-24 18:40:05 start test hd.twitter
+18-08-24 18:40:05 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:05 in protect period 119
+18-08-24 18:40:05 start test hd.comment
+18-08-24 18:40:05 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:05 in protect period 87
+18-08-24 18:40:05 domain loop over 0
+18-08-24 18:40:09 domain loop start
+18-08-24 18:40:09 start test test
+18-08-24 18:40:10 domain loop start
+18-08-24 18:40:10 start test test
+18-08-24 18:40:12 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:12 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:12 in protect period 171
+18-08-24 18:40:12 in protect period 170
+18-08-24 18:40:12 start test hd.twitter
+18-08-24 18:40:12 start test hd.twitter
+18-08-24 18:40:12 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:12 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:12 in protect period 126
+18-08-24 18:40:12 in protect period 126
+18-08-24 18:40:12 start test hd.comment
+18-08-24 18:40:12 start test hd.comment
+18-08-24 18:40:12 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:12 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:12 in protect period 94
+18-08-24 18:40:12 in protect period 94
+18-08-24 18:40:12 domain loop over 2
+18-08-24 18:40:12 domain loop over 3
+18-08-24 18:40:17 domain loop start
+18-08-24 18:40:17 start test test
+18-08-24 18:40:17 start test test
+18-08-24 18:40:17 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:17 in protect period 178
+18-08-24 18:40:17 in protect period 178
+18-08-24 18:40:17 start test hd.twitter
+18-08-24 18:40:17 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:17 in protect period 131
+18-08-24 18:40:17 start test hd.comment
+18-08-24 18:40:17 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:17 in protect period 99
+18-08-24 18:40:17 domain loop over 0
+18-08-24 18:40:17 domain loop over 0
+18-08-24 18:40:22 domain loop start
+18-08-24 18:40:22 start test test
+18-08-24 18:40:22 start test test
+18-08-24 18:40:22 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:22 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:22 in protect period 183
+18-08-24 18:40:22 in protect period 183
+18-08-24 18:40:22 start test hd.twitter
+18-08-24 18:40:22 start test hd.twitter
+18-08-24 18:40:22 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:22 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:22 in protect period 136
+18-08-24 18:40:22 in protect period 136
+18-08-24 18:40:22 start test hd.comment
+18-08-24 18:40:22 start test hd.comment
+18-08-24 18:40:22 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:22 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:22 in protect period 104
+18-08-24 18:40:22 in protect period 104
+18-08-24 18:40:22 domain loop over 0
+18-08-24 18:40:22 domain loop over 0
+18-08-24 18:40:27 domain loop start
+18-08-24 18:40:27 domain loop start
+18-08-24 18:40:27 start test test
+18-08-24 18:40:27 start test test
+18-08-24 18:40:27 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:27 in protect period 188
+18-08-24 18:40:27 start test hd.twitter
+18-08-24 18:40:27 start test hd.twitter
+18-08-24 18:40:27 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:27 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:27 in protect period 141
+18-08-24 18:40:27 in protect period 141
+18-08-24 18:40:27 start test hd.comment
+18-08-24 18:40:27 start test hd.comment
+18-08-24 18:40:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:29 in protect period 109
+18-08-24 18:40:29 in protect period 109
+18-08-24 18:40:29 domain loop over 2
+18-08-24 18:40:29 domain loop over 2
+18-08-24 18:40:34 domain loop start
+18-08-24 18:40:34 domain loop start
+18-08-24 18:40:34 start test test
+18-08-24 18:40:34 start test test
+18-08-24 18:40:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:34 in protect period 195
+18-08-24 18:40:34 start test hd.twitter
+18-08-24 18:40:34 start test hd.twitter
+18-08-24 18:40:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:34 in protect period 148
+18-08-24 18:40:34 in protect period 148
+18-08-24 18:40:34 start test hd.comment
+18-08-24 18:40:34 start test hd.comment
+18-08-24 18:40:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:34 in protect period 116
+18-08-24 18:40:34 in protect period 116
+18-08-24 18:40:34 domain loop over 0
+18-08-24 18:40:34 domain loop over 0
+18-08-24 18:40:39 domain loop start
+18-08-24 18:40:39 start test test
+18-08-24 18:40:39 start test test
+18-08-24 18:40:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:39 in protect period 200
+18-08-24 18:40:39 in protect period 200
+18-08-24 18:40:39 start test hd.twitter
+18-08-24 18:40:39 start test hd.twitter
+18-08-24 18:40:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:39 in protect period 153
+18-08-24 18:40:39 in protect period 153
+18-08-24 18:40:39 start test hd.comment
+18-08-24 18:40:39 start test hd.comment
+18-08-24 18:40:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:39 in protect period 121
+18-08-24 18:40:39 in protect period 121
+18-08-24 18:40:39 domain loop over 0
+18-08-24 18:40:39 domain loop over 0
+18-08-24 18:40:44 domain loop start
+18-08-24 18:40:44 domain loop start
+18-08-24 18:40:44 start test test
+18-08-24 18:40:44 start test test
+18-08-24 18:40:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:44 in protect period 205
+18-08-24 18:40:44 in protect period 205
+18-08-24 18:40:44 start test hd.twitter
+18-08-24 18:40:44 start test hd.twitter
+18-08-24 18:40:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:44 in protect period 158
+18-08-24 18:40:44 in protect period 158
+18-08-24 18:40:44 start test hd.comment
+18-08-24 18:40:44 start test hd.comment
+18-08-24 18:40:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:44 in protect period 126
+18-08-24 18:40:44 in protect period 126
+18-08-24 18:40:44 domain loop over 0
+18-08-24 18:40:44 domain loop over 0
+18-08-24 18:40:49 domain loop start
+18-08-24 18:40:49 domain loop start
+18-08-24 18:40:49 start test test
+18-08-24 18:40:49 start test test
+18-08-24 18:40:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:49 in protect period 210
+18-08-24 18:40:49 in protect period 210
+18-08-24 18:40:49 start test hd.twitter
+18-08-24 18:40:49 start test hd.twitter
+18-08-24 18:40:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:49 in protect period 163
+18-08-24 18:40:49 in protect period 163
+18-08-24 18:40:49 start test hd.comment
+18-08-24 18:40:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:49 in protect period 131
+18-08-24 18:40:49 domain loop over 0
+18-08-24 18:40:49 domain loop over 0
+18-08-24 18:40:54 domain loop start
+18-08-24 18:40:54 start test test
+18-08-24 18:40:54 start test test
+18-08-24 18:40:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:54 in protect period 215
+18-08-24 18:40:54 in protect period 215
+18-08-24 18:40:54 start test hd.twitter
+18-08-24 18:40:54 start test hd.twitter
+18-08-24 18:40:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:54 in protect period 168
+18-08-24 18:40:54 in protect period 168
+18-08-24 18:40:54 start test hd.comment
+18-08-24 18:40:54 start test hd.comment
+18-08-24 18:40:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:54 in protect period 136
+18-08-24 18:40:54 domain loop over 0
+18-08-24 18:40:54 domain loop over 0
+18-08-24 18:40:59 domain loop start
+18-08-24 18:40:59 domain loop start
+18-08-24 18:40:59 start test test
+18-08-24 18:40:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:40:59 in protect period 220
+18-08-24 18:40:59 start test hd.twitter
+18-08-24 18:40:59 start test hd.twitter
+18-08-24 18:40:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:40:59 in protect period 173
+18-08-24 18:40:59 in protect period 173
+18-08-24 18:40:59 start test hd.comment
+18-08-24 18:40:59 start test hd.comment
+18-08-24 18:40:59 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:40:59 in protect period 141
+18-08-24 18:40:59 in protect period 141
+18-08-24 18:40:59 domain loop over 0
+18-08-24 18:40:59 domain loop over 0
+18-08-24 18:41:04 domain loop start
+18-08-24 18:41:04 start test test
+18-08-24 18:41:04 start test test
+18-08-24 18:41:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:04 in protect period 225
+18-08-24 18:41:04 start test hd.twitter
+18-08-24 18:41:04 start test hd.twitter
+18-08-24 18:41:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:04 in protect period 178
+18-08-24 18:41:04 start test hd.comment
+18-08-24 18:41:04 start test hd.comment
+18-08-24 18:41:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:04 in protect period 146
+18-08-24 18:41:04 domain loop over 0
+18-08-24 18:41:04 domain loop over 0
+18-08-24 18:41:09 domain loop start
+18-08-24 18:41:09 domain loop start
+18-08-24 18:41:09 start test test
+18-08-24 18:41:09 start test test
+18-08-24 18:41:09 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:09 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:09 in protect period 230
+18-08-24 18:41:09 in protect period 230
+18-08-24 18:41:09 start test hd.twitter
+18-08-24 18:41:09 start test hd.twitter
+18-08-24 18:41:09 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:09 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:09 in protect period 183
+18-08-24 18:41:09 start test hd.comment
+18-08-24 18:41:09 start test hd.comment
+18-08-24 18:41:09 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:09 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:09 in protect period 151
+18-08-24 18:41:09 in protect period 151
+18-08-24 18:41:09 domain loop over 0
+18-08-24 18:41:09 domain loop over 0
+18-08-24 18:41:14 domain loop start
+18-08-24 18:41:14 domain loop start
+18-08-24 18:41:14 start test test
+18-08-24 18:41:14 start test test
+18-08-24 18:41:14 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:14 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:14 in protect period 235
+18-08-24 18:41:14 start test hd.twitter
+18-08-24 18:41:14 start test hd.twitter
+18-08-24 18:41:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:14 in protect period 188
+18-08-24 18:41:14 start test hd.comment
+18-08-24 18:41:14 start test hd.comment
+18-08-24 18:41:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:14 in protect period 156
+18-08-24 18:41:14 in protect period 156
+18-08-24 18:41:14 domain loop over 0
+18-08-24 18:41:14 domain loop over 0
+18-08-24 18:41:19 domain loop start
+18-08-24 18:41:19 domain loop start
+18-08-24 18:41:19 start test test
+18-08-24 18:41:19 start test test
+18-08-24 18:41:19 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:19 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:19 in protect period 240
+18-08-24 18:41:19 in protect period 240
+18-08-24 18:41:19 start test hd.twitter
+18-08-24 18:41:19 start test hd.twitter
+18-08-24 18:41:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:19 in protect period 193
+18-08-24 18:41:19 start test hd.comment
+18-08-24 18:41:19 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:19 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:19 in protect period 161
+18-08-24 18:41:19 domain loop over 0
+18-08-24 18:41:19 domain loop over 0
+18-08-24 18:41:24 domain loop start
+18-08-24 18:41:24 domain loop start
+18-08-24 18:41:24 start test test
+18-08-24 18:41:24 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:24 in protect period 245
+18-08-24 18:41:24 start test hd.twitter
+18-08-24 18:41:24 start test hd.twitter
+18-08-24 18:41:24 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:24 in protect period 198
+18-08-24 18:41:24 start test hd.comment
+18-08-24 18:41:24 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:24 in protect period 166
+18-08-24 18:41:24 domain loop over 0
+18-08-24 18:41:29 domain loop start
+18-08-24 18:41:29 domain loop start
+18-08-24 18:41:29 start test test
+18-08-24 18:41:29 start test test
+18-08-24 18:41:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:29 in protect period 250
+18-08-24 18:41:29 in protect period 250
+18-08-24 18:41:29 start test hd.twitter
+18-08-24 18:41:29 start test hd.twitter
+18-08-24 18:41:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:29 in protect period 203
+18-08-24 18:41:29 in protect period 203
+18-08-24 18:41:29 start test hd.comment
+18-08-24 18:41:29 start test hd.comment
+18-08-24 18:41:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:29 in protect period 171
+18-08-24 18:41:29 domain loop over 0
+18-08-24 18:41:29 domain loop over 0
+18-08-24 18:41:34 domain loop start
+18-08-24 18:41:34 start test test
+18-08-24 18:41:34 start test test
+18-08-24 18:41:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:34 in protect period 255
+18-08-24 18:41:34 start test hd.twitter
+18-08-24 18:41:34 start test hd.twitter
+18-08-24 18:41:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:34 in protect period 208
+18-08-24 18:41:34 in protect period 208
+18-08-24 18:41:34 start test hd.comment
+18-08-24 18:41:34 start test hd.comment
+18-08-24 18:41:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:34 in protect period 176
+18-08-24 18:41:34 in protect period 176
+18-08-24 18:41:34 domain loop over 0
+18-08-24 18:41:34 domain loop over 0
+18-08-24 18:41:39 domain loop start
+18-08-24 18:41:39 start test test
+18-08-24 18:41:39 start test test
+18-08-24 18:41:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:39 in protect period 260
+18-08-24 18:41:39 start test hd.twitter
+18-08-24 18:41:39 start test hd.twitter
+18-08-24 18:41:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:39 in protect period 213
+18-08-24 18:41:39 in protect period 213
+18-08-24 18:41:39 start test hd.comment
+18-08-24 18:41:39 start test hd.comment
+18-08-24 18:41:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:39 in protect period 181
+18-08-24 18:41:39 domain loop over 0
+18-08-24 18:41:39 domain loop over 0
+18-08-24 18:41:44 domain loop start
+18-08-24 18:41:44 start test test
+18-08-24 18:41:44 start test test
+18-08-24 18:41:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:44 in protect period 265
+18-08-24 18:41:44 in protect period 265
+18-08-24 18:41:44 start test hd.twitter
+18-08-24 18:41:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:44 in protect period 218
+18-08-24 18:41:44 start test hd.comment
+18-08-24 18:41:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:44 in protect period 186
+18-08-24 18:41:44 in protect period 186
+18-08-24 18:41:44 domain loop over 0
+18-08-24 18:41:44 domain loop over 0
+18-08-24 18:41:49 domain loop start
+18-08-24 18:41:49 start test test
+18-08-24 18:41:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:49 in protect period 270
+18-08-24 18:41:49 start test hd.twitter
+18-08-24 18:41:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:49 in protect period 223
+18-08-24 18:41:49 start test hd.comment
+18-08-24 18:41:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:50 in protect period 191
+18-08-24 18:41:50 domain loop over 1
+18-08-24 18:41:55 domain loop start
+18-08-24 18:41:55 start test test
+18-08-24 18:41:55 当前运行test, 备用IP124.239.144.163
+18-08-24 18:41:55 in protect period 276
+18-08-24 18:41:55 start test hd.twitter
+18-08-24 18:41:55 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:41:55 in protect period 229
+18-08-24 18:41:55 start test hd.comment
+18-08-24 18:41:55 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:41:55 in protect period 197
+18-08-24 18:41:55 domain loop over 0
+18-08-24 18:42:00 domain loop start
+18-08-24 18:42:00 start test test
+18-08-24 18:42:00 当前运行test, 备用IP124.239.144.163
+18-08-24 18:42:00 main_url http://61.164.49.130:19002/test.html
+18-08-24 18:42:00 server main normal
+18-08-24 18:42:00 server main normal
+18-08-24 18:42:00 server main normal
+18-08-24 18:42:00 切换到主IP, 当前IP 124.239.144.163
+18-08-24 18:42:33 登录成功
+18-08-24 18:42:47 切换成功
+18-08-24 18:42:47 start test hd.twitter
+18-08-24 18:42:47 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:42:47 in protect period 281
+18-08-24 18:42:47 start test hd.comment
+18-08-24 18:42:47 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:42:47 in protect period 249
+18-08-24 18:42:47 domain loop over 47
+18-08-24 18:42:52 domain loop start
+18-08-24 18:42:52 start test test
+18-08-24 18:42:52 当前运行test, 备用IP124.239.144.163
+18-08-24 18:42:52 in protect period 5
+18-08-24 18:42:52 start test hd.twitter
+18-08-24 18:42:52 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:42:52 in protect period 286
+18-08-24 18:42:52 start test hd.comment
+18-08-24 18:42:52 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:42:52 in protect period 254
+18-08-24 18:42:52 domain loop over 0
+18-08-24 18:42:57 domain loop start
+18-08-24 18:42:57 start test test
+18-08-24 18:42:57 当前运行test, 备用IP124.239.144.163
+18-08-24 18:42:57 in protect period 10
+18-08-24 18:42:57 start test hd.twitter
+18-08-24 18:42:57 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:42:57 in protect period 291
+18-08-24 18:42:57 start test hd.comment
+18-08-24 18:42:57 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:42:57 in protect period 259
+18-08-24 18:42:57 domain loop over 0
+18-08-24 18:43:02 domain loop start
+18-08-24 18:43:02 start test test
+18-08-24 18:43:02 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:02 in protect period 15
+18-08-24 18:43:02 start test hd.twitter
+18-08-24 18:43:02 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:02 in protect period 296
+18-08-24 18:43:02 start test hd.comment
+18-08-24 18:43:02 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:02 in protect period 264
+18-08-24 18:43:02 domain loop over 0
+18-08-24 18:43:07 domain loop start
+18-08-24 18:43:07 start test test
+18-08-24 18:43:07 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:07 in protect period 20
+18-08-24 18:43:07 start test hd.twitter
+18-08-24 18:43:07 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:07 in protect period 301
+18-08-24 18:43:07 start test hd.comment
+18-08-24 18:43:07 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:07 in protect period 269
+18-08-24 18:43:07 domain loop over 0
+18-08-24 18:43:12 domain loop start
+18-08-24 18:43:12 start test test
+18-08-24 18:43:12 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:12 in protect period 25
+18-08-24 18:43:12 start test hd.twitter
+18-08-24 18:43:12 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:12 in protect period 306
+18-08-24 18:43:12 start test hd.comment
+18-08-24 18:43:12 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:12 in protect period 274
+18-08-24 18:43:12 domain loop over 0
+18-08-24 18:43:17 domain loop start
+18-08-24 18:43:17 start test test
+18-08-24 18:43:17 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:17 in protect period 30
+18-08-24 18:43:17 start test hd.twitter
+18-08-24 18:43:17 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:17 in protect period 311
+18-08-24 18:43:17 start test hd.comment
+18-08-24 18:43:17 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:17 in protect period 279
+18-08-24 18:43:17 domain loop over 0
+18-08-24 18:43:22 domain loop start
+18-08-24 18:43:22 start test test
+18-08-24 18:43:22 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:22 in protect period 35
+18-08-24 18:43:22 start test hd.twitter
+18-08-24 18:43:22 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:22 in protect period 316
+18-08-24 18:43:22 start test hd.comment
+18-08-24 18:43:22 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:22 in protect period 284
+18-08-24 18:43:22 domain loop over 0
+18-08-24 18:43:27 domain loop start
+18-08-24 18:43:27 start test test
+18-08-24 18:43:27 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:27 in protect period 40
+18-08-24 18:43:27 start test hd.twitter
+18-08-24 18:43:27 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:27 in protect period 321
+18-08-24 18:43:27 start test hd.comment
+18-08-24 18:43:27 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:27 in protect period 289
+18-08-24 18:43:27 domain loop over 0
+18-08-24 18:43:32 domain loop start
+18-08-24 18:43:32 start test test
+18-08-24 18:43:32 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:32 in protect period 45
+18-08-24 18:43:32 start test hd.twitter
+18-08-24 18:43:32 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:32 in protect period 326
+18-08-24 18:43:32 start test hd.comment
+18-08-24 18:43:32 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:32 in protect period 294
+18-08-24 18:43:32 domain loop over 0
+18-08-24 18:43:37 domain loop start
+18-08-24 18:43:37 start test test
+18-08-24 18:43:37 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:37 in protect period 50
+18-08-24 18:43:37 start test hd.twitter
+18-08-24 18:43:37 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:37 in protect period 331
+18-08-24 18:43:37 start test hd.comment
+18-08-24 18:43:37 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:37 in protect period 299
+18-08-24 18:43:37 domain loop over 0
+18-08-24 18:43:42 domain loop start
+18-08-24 18:43:43 start test test
+18-08-24 18:43:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:43 in protect period 56
+18-08-24 18:43:43 start test hd.twitter
+18-08-24 18:43:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:43 in protect period 337
+18-08-24 18:43:43 start test hd.comment
+18-08-24 18:43:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:43 in protect period 305
+18-08-24 18:43:43 domain loop over 1
+18-08-24 18:43:48 domain loop start
+18-08-24 18:43:48 start test test
+18-08-24 18:43:48 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:48 in protect period 61
+18-08-24 18:43:48 start test hd.twitter
+18-08-24 18:43:48 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:48 in protect period 342
+18-08-24 18:43:48 start test hd.comment
+18-08-24 18:43:48 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:48 in protect period 310
+18-08-24 18:43:48 domain loop over 0
+18-08-24 18:43:53 domain loop start
+18-08-24 18:43:53 start test test
+18-08-24 18:43:53 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:53 in protect period 66
+18-08-24 18:43:53 start test hd.twitter
+18-08-24 18:43:53 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:53 in protect period 347
+18-08-24 18:43:53 start test hd.comment
+18-08-24 18:43:53 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:53 in protect period 315
+18-08-24 18:43:53 domain loop over 0
+18-08-24 18:43:58 domain loop start
+18-08-24 18:43:58 start test test
+18-08-24 18:43:58 当前运行test, 备用IP124.239.144.163
+18-08-24 18:43:58 in protect period 71
+18-08-24 18:43:58 start test hd.twitter
+18-08-24 18:43:58 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:43:58 in protect period 352
+18-08-24 18:43:58 start test hd.comment
+18-08-24 18:43:58 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:43:58 in protect period 320
+18-08-24 18:43:58 domain loop over 0
+18-08-24 18:44:03 domain loop start
+18-08-24 18:44:03 start test test
+18-08-24 18:44:03 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:03 in protect period 76
+18-08-24 18:44:03 start test hd.twitter
+18-08-24 18:44:03 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:03 in protect period 357
+18-08-24 18:44:03 start test hd.comment
+18-08-24 18:44:03 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:03 in protect period 325
+18-08-24 18:44:03 domain loop over 0
+18-08-24 18:44:08 domain loop start
+18-08-24 18:44:08 start test test
+18-08-24 18:44:08 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:08 in protect period 81
+18-08-24 18:44:08 start test hd.twitter
+18-08-24 18:44:08 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:08 in protect period 362
+18-08-24 18:44:08 start test hd.comment
+18-08-24 18:44:08 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:08 in protect period 330
+18-08-24 18:44:08 domain loop over 0
+18-08-24 18:44:13 domain loop start
+18-08-24 18:44:13 start test test
+18-08-24 18:44:13 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:13 in protect period 86
+18-08-24 18:44:13 start test hd.twitter
+18-08-24 18:44:13 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:13 in protect period 367
+18-08-24 18:44:13 start test hd.comment
+18-08-24 18:44:13 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:13 in protect period 335
+18-08-24 18:44:13 domain loop over 0
+18-08-24 18:44:18 domain loop start
+18-08-24 18:44:18 start test test
+18-08-24 18:44:18 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:18 in protect period 91
+18-08-24 18:44:18 start test hd.twitter
+18-08-24 18:44:18 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:18 in protect period 372
+18-08-24 18:44:18 start test hd.comment
+18-08-24 18:44:18 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:18 in protect period 340
+18-08-24 18:44:18 domain loop over 0
+18-08-24 18:44:23 domain loop start
+18-08-24 18:44:23 start test test
+18-08-24 18:44:23 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:23 in protect period 96
+18-08-24 18:44:23 start test hd.twitter
+18-08-24 18:44:23 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:23 in protect period 377
+18-08-24 18:44:23 start test hd.comment
+18-08-24 18:44:23 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:23 in protect period 345
+18-08-24 18:44:23 domain loop over 0
+18-08-24 18:44:28 domain loop start
+18-08-24 18:44:28 start test test
+18-08-24 18:44:28 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:28 in protect period 101
+18-08-24 18:44:28 start test hd.twitter
+18-08-24 18:44:28 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:28 in protect period 382
+18-08-24 18:44:28 start test hd.comment
+18-08-24 18:44:28 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:28 in protect period 350
+18-08-24 18:44:28 domain loop over 0
+18-08-24 18:44:33 domain loop start
+18-08-24 18:44:33 start test test
+18-08-24 18:44:33 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:33 in protect period 106
+18-08-24 18:44:33 start test hd.twitter
+18-08-24 18:44:33 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:33 in protect period 387
+18-08-24 18:44:33 start test hd.comment
+18-08-24 18:44:33 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:33 in protect period 355
+18-08-24 18:44:33 domain loop over 0
+18-08-24 18:44:38 domain loop start
+18-08-24 18:44:38 start test test
+18-08-24 18:44:38 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:38 in protect period 111
+18-08-24 18:44:38 start test hd.twitter
+18-08-24 18:44:38 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:38 in protect period 392
+18-08-24 18:44:38 start test hd.comment
+18-08-24 18:44:38 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:38 in protect period 360
+18-08-24 18:44:38 domain loop over 0
+18-08-24 18:44:43 domain loop start
+18-08-24 18:44:43 start test test
+18-08-24 18:44:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:43 in protect period 116
+18-08-24 18:44:43 start test hd.twitter
+18-08-24 18:44:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:43 in protect period 397
+18-08-24 18:44:43 start test hd.comment
+18-08-24 18:44:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:43 in protect period 365
+18-08-24 18:44:43 domain loop over 0
+18-08-24 18:44:48 domain loop start
+18-08-24 18:44:48 start test test
+18-08-24 18:44:48 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:48 in protect period 121
+18-08-24 18:44:48 start test hd.twitter
+18-08-24 18:44:48 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:48 in protect period 402
+18-08-24 18:44:48 start test hd.comment
+18-08-24 18:44:48 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:48 in protect period 370
+18-08-24 18:44:48 domain loop over 0
+18-08-24 18:44:53 domain loop start
+18-08-24 18:44:53 start test test
+18-08-24 18:44:53 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:53 in protect period 126
+18-08-24 18:44:53 start test hd.twitter
+18-08-24 18:44:53 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:53 in protect period 407
+18-08-24 18:44:53 start test hd.comment
+18-08-24 18:44:53 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:53 in protect period 375
+18-08-24 18:44:53 domain loop over 0
+18-08-24 18:44:58 domain loop start
+18-08-24 18:44:58 start test test
+18-08-24 18:44:58 当前运行test, 备用IP124.239.144.163
+18-08-24 18:44:58 in protect period 131
+18-08-24 18:44:58 start test hd.twitter
+18-08-24 18:44:58 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:44:58 in protect period 412
+18-08-24 18:44:58 start test hd.comment
+18-08-24 18:44:58 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:44:58 in protect period 380
+18-08-24 18:44:58 domain loop over 0
+18-08-24 18:45:03 domain loop start
+18-08-24 18:45:03 start test test
+18-08-24 18:45:03 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:03 in protect period 136
+18-08-24 18:45:03 start test hd.twitter
+18-08-24 18:45:03 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:03 in protect period 417
+18-08-24 18:45:03 start test hd.comment
+18-08-24 18:45:03 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:03 in protect period 385
+18-08-24 18:45:03 domain loop over 0
+18-08-24 18:45:08 domain loop start
+18-08-24 18:45:08 start test test
+18-08-24 18:45:08 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:08 in protect period 141
+18-08-24 18:45:08 start test hd.twitter
+18-08-24 18:45:08 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:08 in protect period 422
+18-08-24 18:45:08 start test hd.comment
+18-08-24 18:45:08 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:08 in protect period 390
+18-08-24 18:45:08 domain loop over 0
+18-08-24 18:45:13 domain loop start
+18-08-24 18:45:13 start test test
+18-08-24 18:45:14 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:14 in protect period 147
+18-08-24 18:45:14 start test hd.twitter
+18-08-24 18:45:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:14 in protect period 428
+18-08-24 18:45:14 start test hd.comment
+18-08-24 18:45:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:14 in protect period 396
+18-08-24 18:45:14 domain loop over 1
+18-08-24 18:45:19 domain loop start
+18-08-24 18:45:19 start test test
+18-08-24 18:45:19 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:19 in protect period 152
+18-08-24 18:45:19 start test hd.twitter
+18-08-24 18:45:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:19 in protect period 433
+18-08-24 18:45:19 start test hd.comment
+18-08-24 18:45:19 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:19 in protect period 401
+18-08-24 18:45:19 domain loop over 0
+18-08-24 18:45:24 domain loop start
+18-08-24 18:45:24 start test test
+18-08-24 18:45:24 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:24 in protect period 157
+18-08-24 18:45:24 start test hd.twitter
+18-08-24 18:45:24 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:24 in protect period 438
+18-08-24 18:45:24 start test hd.comment
+18-08-24 18:45:24 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:24 in protect period 406
+18-08-24 18:45:24 domain loop over 0
+18-08-24 18:45:29 domain loop start
+18-08-24 18:45:29 start test test
+18-08-24 18:45:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:29 in protect period 162
+18-08-24 18:45:29 start test hd.twitter
+18-08-24 18:45:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:29 in protect period 443
+18-08-24 18:45:29 start test hd.comment
+18-08-24 18:45:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:29 in protect period 411
+18-08-24 18:45:29 domain loop over 0
+18-08-24 18:45:34 domain loop start
+18-08-24 18:45:34 start test test
+18-08-24 18:45:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:34 in protect period 167
+18-08-24 18:45:34 start test hd.twitter
+18-08-24 18:45:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:34 in protect period 448
+18-08-24 18:45:34 start test hd.comment
+18-08-24 18:45:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:34 in protect period 416
+18-08-24 18:45:34 domain loop over 0
+18-08-24 18:45:39 domain loop start
+18-08-24 18:45:39 start test test
+18-08-24 18:45:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:39 in protect period 172
+18-08-24 18:45:39 start test hd.twitter
+18-08-24 18:45:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:39 in protect period 453
+18-08-24 18:45:39 start test hd.comment
+18-08-24 18:45:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:39 in protect period 421
+18-08-24 18:45:39 domain loop over 0
+18-08-24 18:45:44 domain loop start
+18-08-24 18:45:44 start test test
+18-08-24 18:45:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:44 in protect period 177
+18-08-24 18:45:44 start test hd.twitter
+18-08-24 18:45:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:44 in protect period 458
+18-08-24 18:45:44 start test hd.comment
+18-08-24 18:45:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:44 in protect period 426
+18-08-24 18:45:44 domain loop over 0
+18-08-24 18:45:49 domain loop start
+18-08-24 18:45:49 start test test
+18-08-24 18:45:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:49 in protect period 182
+18-08-24 18:45:49 start test hd.twitter
+18-08-24 18:45:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:49 in protect period 463
+18-08-24 18:45:49 start test hd.comment
+18-08-24 18:45:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:49 in protect period 431
+18-08-24 18:45:49 domain loop over 0
+18-08-24 18:45:54 domain loop start
+18-08-24 18:45:54 start test test
+18-08-24 18:45:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:54 in protect period 187
+18-08-24 18:45:54 start test hd.twitter
+18-08-24 18:45:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:54 in protect period 468
+18-08-24 18:45:54 start test hd.comment
+18-08-24 18:45:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:54 in protect period 436
+18-08-24 18:45:54 domain loop over 0
+18-08-24 18:45:59 domain loop start
+18-08-24 18:45:59 start test test
+18-08-24 18:45:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:45:59 in protect period 192
+18-08-24 18:45:59 start test hd.twitter
+18-08-24 18:45:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:45:59 in protect period 473
+18-08-24 18:45:59 start test hd.comment
+18-08-24 18:45:59 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:45:59 in protect period 441
+18-08-24 18:45:59 domain loop over 0
+18-08-24 18:46:04 domain loop start
+18-08-24 18:46:04 start test test
+18-08-24 18:46:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:04 in protect period 197
+18-08-24 18:46:04 start test hd.twitter
+18-08-24 18:46:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:04 in protect period 478
+18-08-24 18:46:04 start test hd.comment
+18-08-24 18:46:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:04 in protect period 446
+18-08-24 18:46:04 domain loop over 0
+18-08-24 18:46:09 domain loop start
+18-08-24 18:46:09 start test test
+18-08-24 18:46:09 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:09 main_url http://61.164.49.130:19002/test.html
+18-08-24 18:46:09 server main normal
+18-08-24 18:46:09 server main normal
+18-08-24 18:46:09 server main normal
+18-08-24 18:46:09 切换到主IP, 当前IP 124.239.144.163
+18-08-24 18:46:10 domain loop start
+18-08-24 18:46:11 start test test
+18-08-24 18:46:11 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:11 main_url http://61.164.49.130:19002/test.html
+18-08-24 18:46:11 server main normal
+18-08-24 18:46:11 server main normal
+18-08-24 18:46:11 server main normal
+18-08-24 18:46:11 切换到主IP, 当前IP 124.239.144.163
+18-08-24 18:46:25 登录成功
+18-08-24 18:46:25 登录成功
+18-08-24 18:46:39 切换成功
+18-08-24 18:46:39 start test hd.twitter
+18-08-24 18:46:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:39 in protect period 513
+18-08-24 18:46:39 start test hd.comment
+18-08-24 18:46:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:39 in protect period 481
+18-08-24 18:46:40 domain loop over 31
+18-08-24 18:46:40 切换成功
+18-08-24 18:46:40 start test hd.twitter
+18-08-24 18:46:40 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:40 in protect period 514
+18-08-24 18:46:40 start test hd.comment
+18-08-24 18:46:40 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:40 in protect period 482
+18-08-24 18:46:40 domain loop over 30
+18-08-24 18:46:45 domain loop start
+18-08-24 18:46:45 start test test
+18-08-24 18:46:45 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:45 in protect period 5
+18-08-24 18:46:45 start test hd.twitter
+18-08-24 18:46:45 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:45 in protect period 519
+18-08-24 18:46:45 start test hd.comment
+18-08-24 18:46:45 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:45 in protect period 487
+18-08-24 18:46:45 domain loop over 0
+18-08-24 18:46:45 domain loop start
+18-08-24 18:46:45 start test test
+18-08-24 18:46:45 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:45 in protect period 5
+18-08-24 18:46:45 start test hd.twitter
+18-08-24 18:46:45 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:45 in protect period 519
+18-08-24 18:46:45 start test hd.comment
+18-08-24 18:46:45 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:45 in protect period 487
+18-08-24 18:46:45 domain loop over 0
+18-08-24 18:46:50 domain loop start
+18-08-24 18:46:50 start test test
+18-08-24 18:46:50 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:50 in protect period 10
+18-08-24 18:46:50 start test hd.twitter
+18-08-24 18:46:50 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:50 in protect period 524
+18-08-24 18:46:50 start test hd.comment
+18-08-24 18:46:50 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:50 in protect period 492
+18-08-24 18:46:50 domain loop over 0
+18-08-24 18:46:50 domain loop start
+18-08-24 18:46:50 start test test
+18-08-24 18:46:50 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:50 in protect period 10
+18-08-24 18:46:50 start test hd.twitter
+18-08-24 18:46:50 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:50 in protect period 524
+18-08-24 18:46:50 start test hd.comment
+18-08-24 18:46:50 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:50 in protect period 492
+18-08-24 18:46:50 domain loop over 0
+18-08-24 18:46:55 domain loop start
+18-08-24 18:46:55 start test test
+18-08-24 18:46:55 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:55 in protect period 15
+18-08-24 18:46:55 start test hd.twitter
+18-08-24 18:46:55 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:55 in protect period 529
+18-08-24 18:46:55 start test hd.comment
+18-08-24 18:46:55 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:55 in protect period 497
+18-08-24 18:46:55 domain loop over 0
+18-08-24 18:46:55 domain loop start
+18-08-24 18:46:55 start test test
+18-08-24 18:46:55 当前运行test, 备用IP124.239.144.163
+18-08-24 18:46:55 in protect period 15
+18-08-24 18:46:55 start test hd.twitter
+18-08-24 18:46:55 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:46:55 in protect period 529
+18-08-24 18:46:55 start test hd.comment
+18-08-24 18:46:55 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:46:55 in protect period 497
+18-08-24 18:46:55 domain loop over 0
+18-08-24 18:47:00 domain loop start
+18-08-24 18:47:00 start test test
+18-08-24 18:47:00 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:00 in protect period 20
+18-08-24 18:47:00 start test hd.twitter
+18-08-24 18:47:00 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:00 in protect period 534
+18-08-24 18:47:00 start test hd.comment
+18-08-24 18:47:00 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:00 in protect period 502
+18-08-24 18:47:00 domain loop over 0
+18-08-24 18:47:00 domain loop start
+18-08-24 18:47:00 start test test
+18-08-24 18:47:00 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:00 in protect period 20
+18-08-24 18:47:00 start test hd.twitter
+18-08-24 18:47:00 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:00 in protect period 534
+18-08-24 18:47:00 start test hd.comment
+18-08-24 18:47:00 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:00 in protect period 502
+18-08-24 18:47:00 domain loop over 0
+18-08-24 18:47:05 domain loop start
+18-08-24 18:47:05 start test test
+18-08-24 18:47:05 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:05 in protect period 25
+18-08-24 18:47:05 start test hd.twitter
+18-08-24 18:47:05 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:05 in protect period 539
+18-08-24 18:47:05 start test hd.comment
+18-08-24 18:47:05 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:05 in protect period 507
+18-08-24 18:47:05 domain loop over 0
+18-08-24 18:47:05 domain loop start
+18-08-24 18:47:05 start test test
+18-08-24 18:47:05 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:05 in protect period 25
+18-08-24 18:47:05 start test hd.twitter
+18-08-24 18:47:05 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:05 in protect period 539
+18-08-24 18:47:05 start test hd.comment
+18-08-24 18:47:05 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:05 in protect period 507
+18-08-24 18:47:05 domain loop over 0
+18-08-24 18:47:10 domain loop start
+18-08-24 18:47:10 start test test
+18-08-24 18:47:10 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:10 in protect period 30
+18-08-24 18:47:10 start test hd.twitter
+18-08-24 18:47:10 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:10 in protect period 544
+18-08-24 18:47:10 start test hd.comment
+18-08-24 18:47:10 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:10 in protect period 512
+18-08-24 18:47:10 domain loop over 0
+18-08-24 18:47:10 domain loop start
+18-08-24 18:47:10 start test test
+18-08-24 18:47:10 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:10 in protect period 30
+18-08-24 18:47:10 start test hd.twitter
+18-08-24 18:47:10 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:10 in protect period 544
+18-08-24 18:47:10 start test hd.comment
+18-08-24 18:47:10 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:10 in protect period 512
+18-08-24 18:47:10 domain loop over 0
+18-08-24 18:47:15 domain loop start
+18-08-24 18:47:15 start test test
+18-08-24 18:47:15 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:15 in protect period 35
+18-08-24 18:47:15 start test hd.twitter
+18-08-24 18:47:15 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:15 in protect period 549
+18-08-24 18:47:15 start test hd.comment
+18-08-24 18:47:15 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:15 in protect period 517
+18-08-24 18:47:15 domain loop over 0
+18-08-24 18:47:15 domain loop start
+18-08-24 18:47:15 start test test
+18-08-24 18:47:15 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:15 in protect period 35
+18-08-24 18:47:15 start test hd.twitter
+18-08-24 18:47:15 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:15 in protect period 549
+18-08-24 18:47:15 start test hd.comment
+18-08-24 18:47:15 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:15 in protect period 517
+18-08-24 18:47:15 domain loop over 0
+18-08-24 18:47:20 domain loop start
+18-08-24 18:47:20 start test test
+18-08-24 18:47:20 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:20 in protect period 40
+18-08-24 18:47:20 start test hd.twitter
+18-08-24 18:47:20 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:20 in protect period 554
+18-08-24 18:47:20 start test hd.comment
+18-08-24 18:47:20 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:20 in protect period 522
+18-08-24 18:47:20 domain loop over 0
+18-08-24 18:47:20 domain loop start
+18-08-24 18:47:20 start test test
+18-08-24 18:47:20 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:20 in protect period 40
+18-08-24 18:47:20 start test hd.twitter
+18-08-24 18:47:20 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:20 in protect period 554
+18-08-24 18:47:20 start test hd.comment
+18-08-24 18:47:20 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:21 in protect period 522
+18-08-24 18:47:21 domain loop over 1
+18-08-24 18:47:25 domain loop start
+18-08-24 18:47:25 start test test
+18-08-24 18:47:25 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:25 in protect period 45
+18-08-24 18:47:25 start test hd.twitter
+18-08-24 18:47:25 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:25 in protect period 559
+18-08-24 18:47:25 start test hd.comment
+18-08-24 18:47:25 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:25 in protect period 527
+18-08-24 18:47:25 domain loop over 0
+18-08-24 18:47:26 domain loop start
+18-08-24 18:47:26 start test test
+18-08-24 18:47:26 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:26 in protect period 46
+18-08-24 18:47:26 start test hd.twitter
+18-08-24 18:47:26 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:26 in protect period 560
+18-08-24 18:47:26 start test hd.comment
+18-08-24 18:47:26 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:26 in protect period 528
+18-08-24 18:47:26 domain loop over 0
+18-08-24 18:47:30 domain loop start
+18-08-24 18:47:30 start test test
+18-08-24 18:47:30 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:30 in protect period 50
+18-08-24 18:47:30 start test hd.twitter
+18-08-24 18:47:30 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:30 in protect period 564
+18-08-24 18:47:30 start test hd.comment
+18-08-24 18:47:30 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:30 in protect period 532
+18-08-24 18:47:30 domain loop over 0
+18-08-24 18:47:31 domain loop start
+18-08-24 18:47:31 start test test
+18-08-24 18:47:31 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:31 in protect period 51
+18-08-24 18:47:31 start test hd.twitter
+18-08-24 18:47:31 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:31 in protect period 565
+18-08-24 18:47:31 start test hd.comment
+18-08-24 18:47:31 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:31 in protect period 533
+18-08-24 18:47:31 domain loop over 0
+18-08-24 18:47:35 domain loop start
+18-08-24 18:47:35 start test test
+18-08-24 18:47:35 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:35 in protect period 55
+18-08-24 18:47:35 start test hd.twitter
+18-08-24 18:47:35 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:35 in protect period 569
+18-08-24 18:47:35 start test hd.comment
+18-08-24 18:47:35 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:35 in protect period 537
+18-08-24 18:47:35 domain loop over 0
+18-08-24 18:47:36 domain loop start
+18-08-24 18:47:36 start test test
+18-08-24 18:47:36 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:36 in protect period 56
+18-08-24 18:47:36 start test hd.twitter
+18-08-24 18:47:36 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:36 in protect period 570
+18-08-24 18:47:36 start test hd.comment
+18-08-24 18:47:36 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:36 in protect period 538
+18-08-24 18:47:36 domain loop over 0
+18-08-24 18:47:40 domain loop start
+18-08-24 18:47:40 start test test
+18-08-24 18:47:40 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:40 in protect period 60
+18-08-24 18:47:40 start test hd.twitter
+18-08-24 18:47:40 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:40 in protect period 574
+18-08-24 18:47:40 start test hd.comment
+18-08-24 18:47:40 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:40 in protect period 542
+18-08-24 18:47:40 domain loop over 0
+18-08-24 18:47:41 domain loop start
+18-08-24 18:47:41 start test test
+18-08-24 18:47:41 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:41 in protect period 61
+18-08-24 18:47:41 start test hd.twitter
+18-08-24 18:47:41 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:41 in protect period 575
+18-08-24 18:47:41 start test hd.comment
+18-08-24 18:47:41 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:41 in protect period 543
+18-08-24 18:47:41 domain loop over 0
+18-08-24 18:47:45 domain loop start
+18-08-24 18:47:45 start test test
+18-08-24 18:47:45 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:45 in protect period 65
+18-08-24 18:47:45 start test hd.twitter
+18-08-24 18:47:45 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:45 in protect period 579
+18-08-24 18:47:45 start test hd.comment
+18-08-24 18:47:45 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:45 in protect period 547
+18-08-24 18:47:45 domain loop over 0
+18-08-24 18:47:46 domain loop start
+18-08-24 18:47:46 start test test
+18-08-24 18:47:46 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:46 in protect period 66
+18-08-24 18:47:46 start test hd.twitter
+18-08-24 18:47:46 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:46 in protect period 580
+18-08-24 18:47:46 start test hd.comment
+18-08-24 18:47:46 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:46 in protect period 548
+18-08-24 18:47:46 domain loop over 0
+18-08-24 18:47:50 domain loop start
+18-08-24 18:47:50 start test test
+18-08-24 18:47:50 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:50 in protect period 70
+18-08-24 18:47:50 start test hd.twitter
+18-08-24 18:47:50 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:50 in protect period 584
+18-08-24 18:47:50 start test hd.comment
+18-08-24 18:47:50 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:50 in protect period 552
+18-08-24 18:47:50 domain loop over 0
+18-08-24 18:47:51 domain loop start
+18-08-24 18:47:51 start test test
+18-08-24 18:47:51 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:51 in protect period 71
+18-08-24 18:47:51 start test hd.twitter
+18-08-24 18:47:51 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:51 in protect period 585
+18-08-24 18:47:51 start test hd.comment
+18-08-24 18:47:51 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:51 in protect period 553
+18-08-24 18:47:51 domain loop over 0
+18-08-24 18:47:55 domain loop start
+18-08-24 18:47:55 start test test
+18-08-24 18:47:55 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:55 in protect period 75
+18-08-24 18:47:55 start test hd.twitter
+18-08-24 18:47:55 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:55 in protect period 589
+18-08-24 18:47:55 start test hd.comment
+18-08-24 18:47:55 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:55 in protect period 557
+18-08-24 18:47:55 domain loop over 0
+18-08-24 18:47:56 domain loop start
+18-08-24 18:47:56 start test test
+18-08-24 18:47:56 当前运行test, 备用IP124.239.144.163
+18-08-24 18:47:56 in protect period 76
+18-08-24 18:47:56 start test hd.twitter
+18-08-24 18:47:56 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:47:56 in protect period 590
+18-08-24 18:47:56 start test hd.comment
+18-08-24 18:47:56 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:47:56 in protect period 558
+18-08-24 18:47:56 domain loop over 0
+18-08-24 18:48:00 domain loop start
+18-08-24 18:48:00 start test test
+18-08-24 18:48:00 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:00 in protect period 80
+18-08-24 18:48:00 start test hd.twitter
+18-08-24 18:48:00 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:00 in protect period 594
+18-08-24 18:48:00 start test hd.comment
+18-08-24 18:48:00 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:00 in protect period 562
+18-08-24 18:48:00 domain loop over 0
+18-08-24 18:48:01 domain loop start
+18-08-24 18:48:01 start test test
+18-08-24 18:48:01 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:01 in protect period 81
+18-08-24 18:48:01 start test hd.twitter
+18-08-24 18:48:01 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:01 in protect period 595
+18-08-24 18:48:01 start test hd.comment
+18-08-24 18:48:01 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:01 in protect period 563
+18-08-24 18:48:01 domain loop over 0
+18-08-24 18:48:05 domain loop start
+18-08-24 18:48:05 start test test
+18-08-24 18:48:05 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:05 in protect period 85
+18-08-24 18:48:05 start test hd.twitter
+18-08-24 18:48:05 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:05 in protect period 599
+18-08-24 18:48:05 start test hd.comment
+18-08-24 18:48:05 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:05 in protect period 567
+18-08-24 18:48:05 domain loop over 0
+18-08-24 18:48:06 domain loop start
+18-08-24 18:48:06 start test test
+18-08-24 18:48:06 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:06 in protect period 86
+18-08-24 18:48:06 start test hd.twitter
+18-08-24 18:48:06 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:06 in protect period 600
+18-08-24 18:48:06 start test hd.comment
+18-08-24 18:48:06 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:06 in protect period 568
+18-08-24 18:48:06 domain loop over 0
+18-08-24 18:48:10 domain loop start
+18-08-24 18:48:10 start test test
+18-08-24 18:48:10 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:10 in protect period 90
+18-08-24 18:48:10 start test hd.twitter
+18-08-24 18:48:10 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:10 in protect period 604
+18-08-24 18:48:10 start test hd.comment
+18-08-24 18:48:10 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:10 in protect period 572
+18-08-24 18:48:10 domain loop over 0
+18-08-24 18:48:11 domain loop start
+18-08-24 18:48:11 start test test
+18-08-24 18:48:11 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:11 in protect period 91
+18-08-24 18:48:11 start test hd.twitter
+18-08-24 18:48:11 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:11 in protect period 605
+18-08-24 18:48:11 start test hd.comment
+18-08-24 18:48:11 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:11 in protect period 573
+18-08-24 18:48:11 domain loop over 0
+18-08-24 18:48:15 domain loop start
+18-08-24 18:48:15 start test test
+18-08-24 18:48:15 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:15 in protect period 95
+18-08-24 18:48:15 start test hd.twitter
+18-08-24 18:48:15 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:16 in protect period 609
+18-08-24 18:48:16 start test hd.comment
+18-08-24 18:48:16 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:16 in protect period 578
+18-08-24 18:48:16 domain loop over 1
+18-08-24 18:48:16 domain loop start
+18-08-24 18:48:16 start test test
+18-08-24 18:48:16 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:16 in protect period 96
+18-08-24 18:48:16 start test hd.twitter
+18-08-24 18:48:16 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:16 in protect period 610
+18-08-24 18:48:16 start test hd.comment
+18-08-24 18:48:16 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:16 in protect period 578
+18-08-24 18:48:16 domain loop over 0
+18-08-24 18:48:21 domain loop start
+18-08-24 18:48:21 start test test
+18-08-24 18:48:21 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:21 in protect period 101
+18-08-24 18:48:21 start test hd.twitter
+18-08-24 18:48:21 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:21 in protect period 615
+18-08-24 18:48:21 start test hd.comment
+18-08-24 18:48:21 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:21 in protect period 583
+18-08-24 18:48:21 domain loop over 0
+18-08-24 18:48:21 domain loop start
+18-08-24 18:48:21 start test test
+18-08-24 18:48:21 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:21 in protect period 101
+18-08-24 18:48:21 start test hd.twitter
+18-08-24 18:48:21 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:21 in protect period 615
+18-08-24 18:48:21 start test hd.comment
+18-08-24 18:48:21 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:21 in protect period 583
+18-08-24 18:48:21 domain loop over 0
+18-08-24 18:48:26 domain loop start
+18-08-24 18:48:26 start test test
+18-08-24 18:48:26 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:26 in protect period 106
+18-08-24 18:48:26 start test hd.twitter
+18-08-24 18:48:26 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:26 in protect period 620
+18-08-24 18:48:26 start test hd.comment
+18-08-24 18:48:26 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:26 in protect period 588
+18-08-24 18:48:26 domain loop over 0
+18-08-24 18:48:26 domain loop start
+18-08-24 18:48:26 start test test
+18-08-24 18:48:26 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:26 in protect period 106
+18-08-24 18:48:26 start test hd.twitter
+18-08-24 18:48:26 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:26 in protect period 620
+18-08-24 18:48:26 start test hd.comment
+18-08-24 18:48:26 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:26 in protect period 588
+18-08-24 18:48:26 domain loop over 0
+18-08-24 18:48:31 domain loop start
+18-08-24 18:48:31 start test test
+18-08-24 18:48:31 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:31 in protect period 111
+18-08-24 18:48:31 start test hd.twitter
+18-08-24 18:48:31 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:31 not in  protect period
+18-08-24 18:48:31 start test hd.comment
+18-08-24 18:48:31 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:48:31 in protect period 593
+18-08-24 18:48:31 domain loop over 0
+18-08-24 18:48:31 domain loop start
+18-08-24 18:48:31 start test test
+18-08-24 18:48:31 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:31 in protect period 111
+18-08-24 18:48:31 start test hd.twitter
+18-08-24 18:48:31 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:31 requests 
+18-08-24 18:48:31 server fault: requests get error
+18-08-24 18:48:31 requests 
+18-08-24 18:48:31 server fault: requests get error
+18-08-24 18:48:31 requests 
+18-08-24 18:48:31 server fault: requests get error
+18-08-24 18:48:31 requests 
+18-08-24 18:48:31 backup_ip 120.78.237.190
+18-08-24 18:48:31 切换到备用IP, 当前IP60.190.238.166
+18-08-24 18:48:36 domain loop start
+18-08-24 18:48:36 start test test
+18-08-24 18:48:36 当前运行test, 备用IP124.239.144.163
+18-08-24 18:48:36 in protect period 116
+18-08-24 18:48:36 start test hd.twitter
+18-08-24 18:48:36 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:48:36 requests 
+18-08-24 18:48:36 server fault: requests get error
+18-08-24 18:48:36 requests 
+18-08-24 18:48:36 server fault: requests get error
+18-08-24 18:48:36 requests 
+18-08-24 18:48:36 server fault: requests get error
+18-08-24 18:48:36 requests 
+18-08-24 18:48:36 backup_ip 120.78.237.190
+18-08-24 18:48:36 切换到备用IP, 当前IP60.190.238.166
+18-08-24 18:48:46 登录成功
+18-08-24 18:49:01 切换成功
+18-08-24 18:49:01 start test hd.comment
+18-08-24 18:49:01 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:49:01 not in  protect period
+18-08-24 18:49:01 domain loop over 25
+18-08-24 18:49:06 domain loop start
+18-08-24 18:49:06 start test test
+18-08-24 18:49:06 当前运行test, 备用IP124.239.144.163
+18-08-24 18:49:06 in protect period 146
+18-08-24 18:49:06 start test hd.twitter
+18-08-24 18:49:06 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:49:06 in protect period 5
+18-08-24 18:49:06 start test hd.comment
+18-08-24 18:49:06 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:49:06 requests 
+18-08-24 18:49:06 server fault: requests get error
+18-08-24 18:49:06 requests 
+18-08-24 18:49:06 server fault: requests get error
+18-08-24 18:49:06 requests 
+18-08-24 18:49:06 server fault: requests get error
+18-08-24 18:49:06 requests 
+18-08-24 18:49:06 backup_ip 120.78.237.190
+18-08-24 18:49:06 切换到备用IP, 当前IP60.190.238.166
+18-08-24 18:49:16 登录成功
+18-08-24 18:49:31 切换成功
+18-08-24 18:49:31 domain loop over 25
+18-08-24 18:49:36 domain loop start
+18-08-24 18:49:36 start test test
+18-08-24 18:49:36 当前运行test, 备用IP124.239.144.163
+18-08-24 18:49:36 in protect period 176
+18-08-24 18:49:36 start test hd.twitter
+18-08-24 18:49:36 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:49:36 in protect period 35
+18-08-24 18:49:36 start test hd.comment
+18-08-24 18:49:36 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:49:36 in protect period 5
+18-08-24 18:49:36 domain loop over 0
+18-08-24 18:49:41 domain loop start
+18-08-24 18:49:41 start test test
+18-08-24 18:49:41 当前运行test, 备用IP124.239.144.163
+18-08-24 18:49:41 in protect period 181
+18-08-24 18:49:41 start test hd.twitter
+18-08-24 18:49:41 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:49:41 in protect period 40
+18-08-24 18:49:41 start test hd.comment
+18-08-24 18:49:41 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:49:41 in protect period 10
+18-08-24 18:49:41 domain loop over 0
+18-08-24 18:49:46 domain loop start
+18-08-24 18:49:46 start test test
+18-08-24 18:49:46 当前运行test, 备用IP124.239.144.163
+18-08-24 18:49:46 in protect period 186
+18-08-24 18:49:46 start test hd.twitter
+18-08-24 18:49:46 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:49:46 in protect period 45
+18-08-24 18:49:46 start test hd.comment
+18-08-24 18:49:46 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:49:46 in protect period 15
+18-08-24 18:49:46 domain loop over 0
+18-08-24 18:49:51 domain loop start
+18-08-24 18:49:51 start test test
+18-08-24 18:49:51 当前运行test, 备用IP124.239.144.163
+18-08-24 18:49:51 in protect period 191
+18-08-24 18:49:51 start test hd.twitter
+18-08-24 18:49:51 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:49:51 in protect period 50
+18-08-24 18:49:51 start test hd.comment
+18-08-24 18:49:52 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:49:52 in protect period 20
+18-08-24 18:49:52 domain loop over 1
+18-08-24 18:49:57 domain loop start
+18-08-24 18:49:57 start test test
+18-08-24 18:49:57 当前运行test, 备用IP124.239.144.163
+18-08-24 18:49:57 in protect period 197
+18-08-24 18:49:57 start test hd.twitter
+18-08-24 18:49:57 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:49:57 in protect period 56
+18-08-24 18:49:57 start test hd.comment
+18-08-24 18:49:57 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:49:57 in protect period 26
+18-08-24 18:49:57 domain loop over 0
+18-08-24 18:50:02 domain loop start
+18-08-24 18:50:02 start test test
+18-08-24 18:50:02 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:02 in protect period 202
+18-08-24 18:50:02 start test hd.twitter
+18-08-24 18:50:02 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:02 in protect period 61
+18-08-24 18:50:02 start test hd.comment
+18-08-24 18:50:02 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:02 in protect period 31
+18-08-24 18:50:02 domain loop over 0
+18-08-24 18:50:07 domain loop start
+18-08-24 18:50:07 start test test
+18-08-24 18:50:07 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:07 in protect period 207
+18-08-24 18:50:07 start test hd.twitter
+18-08-24 18:50:07 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:07 in protect period 66
+18-08-24 18:50:07 start test hd.comment
+18-08-24 18:50:07 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:07 in protect period 36
+18-08-24 18:50:07 domain loop over 0
+18-08-24 18:50:12 domain loop start
+18-08-24 18:50:12 start test test
+18-08-24 18:50:12 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:12 in protect period 212
+18-08-24 18:50:12 start test hd.twitter
+18-08-24 18:50:12 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:12 in protect period 71
+18-08-24 18:50:12 start test hd.comment
+18-08-24 18:50:12 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:12 in protect period 41
+18-08-24 18:50:12 domain loop over 0
+18-08-24 18:50:17 domain loop start
+18-08-24 18:50:17 start test test
+18-08-24 18:50:17 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:17 in protect period 217
+18-08-24 18:50:17 start test hd.twitter
+18-08-24 18:50:17 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:17 in protect period 76
+18-08-24 18:50:17 start test hd.comment
+18-08-24 18:50:17 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:17 in protect period 46
+18-08-24 18:50:17 domain loop over 0
+18-08-24 18:50:22 domain loop start
+18-08-24 18:50:22 start test test
+18-08-24 18:50:22 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:22 in protect period 222
+18-08-24 18:50:22 start test hd.twitter
+18-08-24 18:50:22 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:22 in protect period 81
+18-08-24 18:50:22 start test hd.comment
+18-08-24 18:50:22 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:22 in protect period 51
+18-08-24 18:50:22 domain loop over 0
+18-08-24 18:50:27 domain loop start
+18-08-24 18:50:27 start test test
+18-08-24 18:50:27 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:27 in protect period 227
+18-08-24 18:50:27 start test hd.twitter
+18-08-24 18:50:27 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:27 in protect period 86
+18-08-24 18:50:27 start test hd.comment
+18-08-24 18:50:27 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:27 in protect period 56
+18-08-24 18:50:27 domain loop over 0
+18-08-24 18:50:32 domain loop start
+18-08-24 18:50:32 start test test
+18-08-24 18:50:32 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:32 in protect period 232
+18-08-24 18:50:32 start test hd.twitter
+18-08-24 18:50:32 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:32 in protect period 91
+18-08-24 18:50:32 start test hd.comment
+18-08-24 18:50:32 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:32 in protect period 61
+18-08-24 18:50:32 domain loop over 0
+18-08-24 18:50:37 domain loop start
+18-08-24 18:50:37 start test test
+18-08-24 18:50:37 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:37 in protect period 237
+18-08-24 18:50:37 start test hd.twitter
+18-08-24 18:50:37 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:37 in protect period 96
+18-08-24 18:50:37 start test hd.comment
+18-08-24 18:50:37 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:37 in protect period 66
+18-08-24 18:50:37 domain loop over 0
+18-08-24 18:50:42 domain loop start
+18-08-24 18:50:42 start test test
+18-08-24 18:50:42 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:42 in protect period 242
+18-08-24 18:50:42 start test hd.twitter
+18-08-24 18:50:42 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:42 in protect period 101
+18-08-24 18:50:42 start test hd.comment
+18-08-24 18:50:42 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:42 in protect period 71
+18-08-24 18:50:42 domain loop over 0
+18-08-24 18:50:47 domain loop start
+18-08-24 18:50:47 start test test
+18-08-24 18:50:47 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:47 in protect period 247
+18-08-24 18:50:47 start test hd.twitter
+18-08-24 18:50:47 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:47 in protect period 106
+18-08-24 18:50:47 start test hd.comment
+18-08-24 18:50:47 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:47 in protect period 76
+18-08-24 18:50:47 domain loop over 0
+18-08-24 18:50:52 domain loop start
+18-08-24 18:50:52 start test test
+18-08-24 18:50:52 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:52 in protect period 252
+18-08-24 18:50:52 start test hd.twitter
+18-08-24 18:50:52 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:52 in protect period 111
+18-08-24 18:50:52 start test hd.comment
+18-08-24 18:50:52 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:52 in protect period 81
+18-08-24 18:50:52 domain loop over 0
+18-08-24 18:50:57 domain loop start
+18-08-24 18:50:57 start test test
+18-08-24 18:50:57 当前运行test, 备用IP124.239.144.163
+18-08-24 18:50:57 in protect period 257
+18-08-24 18:50:57 start test hd.twitter
+18-08-24 18:50:57 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:50:57 in protect period 116
+18-08-24 18:50:57 start test hd.comment
+18-08-24 18:50:57 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:50:57 in protect period 86
+18-08-24 18:50:57 domain loop over 0
+18-08-24 18:51:02 domain loop start
+18-08-24 18:51:02 start test test
+18-08-24 18:51:02 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:02 in protect period 262
+18-08-24 18:51:02 start test hd.twitter
+18-08-24 18:51:02 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:02 in protect period 121
+18-08-24 18:51:02 start test hd.comment
+18-08-24 18:51:02 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:02 in protect period 91
+18-08-24 18:51:02 domain loop over 0
+18-08-24 18:51:07 domain loop start
+18-08-24 18:51:07 start test test
+18-08-24 18:51:07 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:07 in protect period 267
+18-08-24 18:51:07 start test hd.twitter
+18-08-24 18:51:07 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:07 in protect period 126
+18-08-24 18:51:07 start test hd.comment
+18-08-24 18:51:07 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:07 in protect period 96
+18-08-24 18:51:07 domain loop over 0
+18-08-24 18:51:12 domain loop start
+18-08-24 18:51:12 start test test
+18-08-24 18:51:12 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:12 in protect period 272
+18-08-24 18:51:12 start test hd.twitter
+18-08-24 18:51:13 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:13 in protect period 132
+18-08-24 18:51:13 start test hd.comment
+18-08-24 18:51:13 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:13 in protect period 102
+18-08-24 18:51:13 domain loop over 1
+18-08-24 18:51:18 domain loop start
+18-08-24 18:51:18 start test test
+18-08-24 18:51:18 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:18 in protect period 278
+18-08-24 18:51:18 start test hd.twitter
+18-08-24 18:51:18 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:18 in protect period 137
+18-08-24 18:51:18 start test hd.comment
+18-08-24 18:51:18 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:18 in protect period 107
+18-08-24 18:51:18 domain loop over 0
+18-08-24 18:51:23 domain loop start
+18-08-24 18:51:23 start test test
+18-08-24 18:51:23 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:23 in protect period 283
+18-08-24 18:51:23 start test hd.twitter
+18-08-24 18:51:23 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:23 in protect period 142
+18-08-24 18:51:23 start test hd.comment
+18-08-24 18:51:23 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:23 in protect period 112
+18-08-24 18:51:23 domain loop over 0
+18-08-24 18:51:28 domain loop start
+18-08-24 18:51:28 start test test
+18-08-24 18:51:28 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:28 in protect period 288
+18-08-24 18:51:28 start test hd.twitter
+18-08-24 18:51:28 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:28 in protect period 147
+18-08-24 18:51:28 start test hd.comment
+18-08-24 18:51:28 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:28 in protect period 117
+18-08-24 18:51:28 domain loop over 0
+18-08-24 18:51:33 domain loop start
+18-08-24 18:51:33 start test test
+18-08-24 18:51:33 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:33 in protect period 293
+18-08-24 18:51:33 start test hd.twitter
+18-08-24 18:51:33 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:33 in protect period 152
+18-08-24 18:51:33 start test hd.comment
+18-08-24 18:51:33 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:33 in protect period 122
+18-08-24 18:51:33 domain loop over 0
+18-08-24 18:51:38 domain loop start
+18-08-24 18:51:38 start test test
+18-08-24 18:51:38 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:38 in protect period 298
+18-08-24 18:51:38 start test hd.twitter
+18-08-24 18:51:38 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:38 in protect period 157
+18-08-24 18:51:38 start test hd.comment
+18-08-24 18:51:38 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:38 in protect period 127
+18-08-24 18:51:38 domain loop over 0
+18-08-24 18:51:43 domain loop start
+18-08-24 18:51:43 start test test
+18-08-24 18:51:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:43 in protect period 303
+18-08-24 18:51:43 start test hd.twitter
+18-08-24 18:51:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:43 in protect period 162
+18-08-24 18:51:43 start test hd.comment
+18-08-24 18:51:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:43 in protect period 132
+18-08-24 18:51:43 domain loop over 0
+18-08-24 18:51:48 domain loop start
+18-08-24 18:51:48 start test test
+18-08-24 18:51:48 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:48 in protect period 308
+18-08-24 18:51:48 start test hd.twitter
+18-08-24 18:51:48 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:48 in protect period 167
+18-08-24 18:51:48 start test hd.comment
+18-08-24 18:51:48 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:48 in protect period 137
+18-08-24 18:51:48 domain loop over 0
+18-08-24 18:51:53 domain loop start
+18-08-24 18:51:53 start test test
+18-08-24 18:51:53 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:53 in protect period 313
+18-08-24 18:51:53 start test hd.twitter
+18-08-24 18:51:53 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:53 in protect period 172
+18-08-24 18:51:53 start test hd.comment
+18-08-24 18:51:53 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:53 in protect period 142
+18-08-24 18:51:53 domain loop over 0
+18-08-24 18:51:58 domain loop start
+18-08-24 18:51:58 start test test
+18-08-24 18:51:58 当前运行test, 备用IP124.239.144.163
+18-08-24 18:51:58 in protect period 318
+18-08-24 18:51:58 start test hd.twitter
+18-08-24 18:51:58 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:51:58 in protect period 177
+18-08-24 18:51:58 start test hd.comment
+18-08-24 18:51:58 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:51:58 in protect period 147
+18-08-24 18:51:58 domain loop over 0
+18-08-24 18:52:03 domain loop start
+18-08-24 18:52:03 start test test
+18-08-24 18:52:03 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:03 in protect period 323
+18-08-24 18:52:03 start test hd.twitter
+18-08-24 18:52:03 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:03 in protect period 182
+18-08-24 18:52:03 start test hd.comment
+18-08-24 18:52:03 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:03 in protect period 152
+18-08-24 18:52:03 domain loop over 0
+18-08-24 18:52:08 domain loop start
+18-08-24 18:52:08 start test test
+18-08-24 18:52:08 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:08 in protect period 328
+18-08-24 18:52:08 start test hd.twitter
+18-08-24 18:52:08 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:08 in protect period 187
+18-08-24 18:52:08 start test hd.comment
+18-08-24 18:52:08 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:08 in protect period 157
+18-08-24 18:52:08 domain loop over 0
+18-08-24 18:52:13 domain loop start
+18-08-24 18:52:13 start test test
+18-08-24 18:52:13 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:13 in protect period 333
+18-08-24 18:52:13 start test hd.twitter
+18-08-24 18:52:13 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:13 in protect period 192
+18-08-24 18:52:13 start test hd.comment
+18-08-24 18:52:13 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:13 in protect period 162
+18-08-24 18:52:13 domain loop over 0
+18-08-24 18:52:18 domain loop start
+18-08-24 18:52:18 start test test
+18-08-24 18:52:18 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:18 in protect period 338
+18-08-24 18:52:18 start test hd.twitter
+18-08-24 18:52:18 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:18 in protect period 197
+18-08-24 18:52:18 start test hd.comment
+18-08-24 18:52:18 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:18 in protect period 167
+18-08-24 18:52:18 domain loop over 0
+18-08-24 18:52:23 domain loop start
+18-08-24 18:52:23 start test test
+18-08-24 18:52:23 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:23 in protect period 343
+18-08-24 18:52:23 start test hd.twitter
+18-08-24 18:52:23 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:23 in protect period 202
+18-08-24 18:52:23 start test hd.comment
+18-08-24 18:52:23 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:23 in protect period 172
+18-08-24 18:52:23 domain loop over 0
+18-08-24 18:52:28 domain loop start
+18-08-24 18:52:28 start test test
+18-08-24 18:52:28 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:28 in protect period 348
+18-08-24 18:52:28 start test hd.twitter
+18-08-24 18:52:28 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:28 in protect period 207
+18-08-24 18:52:28 start test hd.comment
+18-08-24 18:52:28 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:28 in protect period 177
+18-08-24 18:52:28 domain loop over 0
+18-08-24 18:52:33 domain loop start
+18-08-24 18:52:33 start test test
+18-08-24 18:52:33 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:33 in protect period 353
+18-08-24 18:52:33 start test hd.twitter
+18-08-24 18:52:33 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:33 in protect period 212
+18-08-24 18:52:33 start test hd.comment
+18-08-24 18:52:33 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:33 in protect period 182
+18-08-24 18:52:33 domain loop over 0
+18-08-24 18:52:38 domain loop start
+18-08-24 18:52:38 start test test
+18-08-24 18:52:38 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:38 in protect period 358
+18-08-24 18:52:38 start test hd.twitter
+18-08-24 18:52:38 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:38 in protect period 217
+18-08-24 18:52:38 start test hd.comment
+18-08-24 18:52:38 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:38 in protect period 187
+18-08-24 18:52:38 domain loop over 0
+18-08-24 18:52:43 domain loop start
+18-08-24 18:52:43 start test test
+18-08-24 18:52:43 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:43 in protect period 363
+18-08-24 18:52:43 start test hd.twitter
+18-08-24 18:52:43 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:43 in protect period 222
+18-08-24 18:52:43 start test hd.comment
+18-08-24 18:52:43 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:43 in protect period 192
+18-08-24 18:52:43 domain loop over 0
+18-08-24 18:52:48 domain loop start
+18-08-24 18:52:49 start test test
+18-08-24 18:52:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:49 in protect period 369
+18-08-24 18:52:49 start test hd.twitter
+18-08-24 18:52:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:49 in protect period 228
+18-08-24 18:52:49 start test hd.comment
+18-08-24 18:52:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:49 in protect period 198
+18-08-24 18:52:49 domain loop over 1
+18-08-24 18:52:54 domain loop start
+18-08-24 18:52:54 start test test
+18-08-24 18:52:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:54 in protect period 374
+18-08-24 18:52:54 start test hd.twitter
+18-08-24 18:52:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:54 in protect period 233
+18-08-24 18:52:54 start test hd.comment
+18-08-24 18:52:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:54 in protect period 203
+18-08-24 18:52:54 domain loop over 0
+18-08-24 18:52:59 domain loop start
+18-08-24 18:52:59 start test test
+18-08-24 18:52:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:52:59 in protect period 379
+18-08-24 18:52:59 start test hd.twitter
+18-08-24 18:52:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:52:59 in protect period 238
+18-08-24 18:52:59 start test hd.comment
+18-08-24 18:52:59 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:52:59 in protect period 208
+18-08-24 18:52:59 domain loop over 0
+18-08-24 18:53:04 domain loop start
+18-08-24 18:53:04 start test test
+18-08-24 18:53:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:04 in protect period 384
+18-08-24 18:53:04 start test hd.twitter
+18-08-24 18:53:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:04 in protect period 243
+18-08-24 18:53:04 start test hd.comment
+18-08-24 18:53:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:04 in protect period 213
+18-08-24 18:53:04 domain loop over 0
+18-08-24 18:53:09 domain loop start
+18-08-24 18:53:09 start test test
+18-08-24 18:53:09 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:09 in protect period 389
+18-08-24 18:53:09 start test hd.twitter
+18-08-24 18:53:09 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:09 in protect period 248
+18-08-24 18:53:09 start test hd.comment
+18-08-24 18:53:09 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:09 in protect period 218
+18-08-24 18:53:09 domain loop over 0
+18-08-24 18:53:14 domain loop start
+18-08-24 18:53:14 start test test
+18-08-24 18:53:14 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:14 in protect period 394
+18-08-24 18:53:14 start test hd.twitter
+18-08-24 18:53:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:14 in protect period 253
+18-08-24 18:53:14 start test hd.comment
+18-08-24 18:53:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:14 in protect period 223
+18-08-24 18:53:14 domain loop over 0
+18-08-24 18:53:19 domain loop start
+18-08-24 18:53:19 start test test
+18-08-24 18:53:19 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:19 in protect period 399
+18-08-24 18:53:19 start test hd.twitter
+18-08-24 18:53:19 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:19 in protect period 258
+18-08-24 18:53:19 start test hd.comment
+18-08-24 18:53:19 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:19 in protect period 228
+18-08-24 18:53:19 domain loop over 0
+18-08-24 18:53:24 domain loop start
+18-08-24 18:53:24 start test test
+18-08-24 18:53:24 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:24 in protect period 404
+18-08-24 18:53:24 start test hd.twitter
+18-08-24 18:53:24 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:24 in protect period 263
+18-08-24 18:53:24 start test hd.comment
+18-08-24 18:53:24 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:24 in protect period 233
+18-08-24 18:53:24 domain loop over 0
+18-08-24 18:53:29 domain loop start
+18-08-24 18:53:29 start test test
+18-08-24 18:53:29 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:29 in protect period 409
+18-08-24 18:53:29 start test hd.twitter
+18-08-24 18:53:29 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:29 in protect period 268
+18-08-24 18:53:29 start test hd.comment
+18-08-24 18:53:29 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:29 in protect period 238
+18-08-24 18:53:29 domain loop over 0
+18-08-24 18:53:34 domain loop start
+18-08-24 18:53:34 start test test
+18-08-24 18:53:34 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:34 in protect period 414
+18-08-24 18:53:34 start test hd.twitter
+18-08-24 18:53:34 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:34 in protect period 273
+18-08-24 18:53:34 start test hd.comment
+18-08-24 18:53:34 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:34 in protect period 243
+18-08-24 18:53:34 domain loop over 0
+18-08-24 18:53:39 domain loop start
+18-08-24 18:53:39 start test test
+18-08-24 18:53:39 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:39 in protect period 419
+18-08-24 18:53:39 start test hd.twitter
+18-08-24 18:53:39 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:39 in protect period 278
+18-08-24 18:53:39 start test hd.comment
+18-08-24 18:53:39 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:39 in protect period 248
+18-08-24 18:53:39 domain loop over 0
+18-08-24 18:53:44 domain loop start
+18-08-24 18:53:44 start test test
+18-08-24 18:53:44 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:44 in protect period 424
+18-08-24 18:53:44 start test hd.twitter
+18-08-24 18:53:44 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:44 in protect period 283
+18-08-24 18:53:44 start test hd.comment
+18-08-24 18:53:44 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:44 in protect period 253
+18-08-24 18:53:44 domain loop over 0
+18-08-24 18:53:49 domain loop start
+18-08-24 18:53:49 start test test
+18-08-24 18:53:49 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:49 in protect period 429
+18-08-24 18:53:49 start test hd.twitter
+18-08-24 18:53:49 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:49 in protect period 288
+18-08-24 18:53:49 start test hd.comment
+18-08-24 18:53:49 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:49 in protect period 258
+18-08-24 18:53:49 domain loop over 0
+18-08-24 18:53:54 domain loop start
+18-08-24 18:53:54 start test test
+18-08-24 18:53:54 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:54 in protect period 434
+18-08-24 18:53:54 start test hd.twitter
+18-08-24 18:53:54 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:54 in protect period 293
+18-08-24 18:53:54 start test hd.comment
+18-08-24 18:53:54 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:54 in protect period 263
+18-08-24 18:53:54 domain loop over 0
+18-08-24 18:53:59 domain loop start
+18-08-24 18:53:59 start test test
+18-08-24 18:53:59 当前运行test, 备用IP124.239.144.163
+18-08-24 18:53:59 in protect period 439
+18-08-24 18:53:59 start test hd.twitter
+18-08-24 18:53:59 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:53:59 in protect period 298
+18-08-24 18:53:59 start test hd.comment
+18-08-24 18:53:59 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:53:59 in protect period 268
+18-08-24 18:53:59 domain loop over 0
+18-08-24 18:54:04 domain loop start
+18-08-24 18:54:04 start test test
+18-08-24 18:54:04 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:04 in protect period 444
+18-08-24 18:54:04 start test hd.twitter
+18-08-24 18:54:04 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:04 in protect period 303
+18-08-24 18:54:04 start test hd.comment
+18-08-24 18:54:04 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:04 in protect period 273
+18-08-24 18:54:04 domain loop over 0
+18-08-24 18:54:09 domain loop start
+18-08-24 18:54:09 start test test
+18-08-24 18:54:09 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:09 in protect period 449
+18-08-24 18:54:09 start test hd.twitter
+18-08-24 18:54:09 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:09 in protect period 308
+18-08-24 18:54:09 start test hd.comment
+18-08-24 18:54:09 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:09 in protect period 278
+18-08-24 18:54:09 domain loop over 0
+18-08-24 18:54:14 domain loop start
+18-08-24 18:54:14 start test test
+18-08-24 18:54:14 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:14 in protect period 454
+18-08-24 18:54:14 start test hd.twitter
+18-08-24 18:54:14 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:14 in protect period 313
+18-08-24 18:54:14 start test hd.comment
+18-08-24 18:54:14 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:14 in protect period 283
+18-08-24 18:54:14 domain loop over 0
+18-08-24 18:54:19 domain loop start
+18-08-24 18:54:19 start test test
+18-08-24 18:54:20 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:20 in protect period 460
+18-08-24 18:54:20 start test hd.twitter
+18-08-24 18:54:20 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:20 in protect period 319
+18-08-24 18:54:20 start test hd.comment
+18-08-24 18:54:20 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:20 in protect period 289
+18-08-24 18:54:20 domain loop over 1
+18-08-24 18:54:25 domain loop start
+18-08-24 18:54:25 start test test
+18-08-24 18:54:25 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:25 in protect period 465
+18-08-24 18:54:25 start test hd.twitter
+18-08-24 18:54:25 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:25 in protect period 324
+18-08-24 18:54:25 start test hd.comment
+18-08-24 18:54:25 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:25 in protect period 294
+18-08-24 18:54:25 domain loop over 0
+18-08-24 18:54:30 domain loop start
+18-08-24 18:54:30 start test test
+18-08-24 18:54:30 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:30 in protect period 470
+18-08-24 18:54:30 start test hd.twitter
+18-08-24 18:54:30 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:30 in protect period 329
+18-08-24 18:54:30 start test hd.comment
+18-08-24 18:54:30 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:30 in protect period 299
+18-08-24 18:54:30 domain loop over 0
+18-08-24 18:54:35 domain loop start
+18-08-24 18:54:35 start test test
+18-08-24 18:54:35 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:35 in protect period 475
+18-08-24 18:54:35 start test hd.twitter
+18-08-24 18:54:35 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:35 in protect period 334
+18-08-24 18:54:35 start test hd.comment
+18-08-24 18:54:35 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:35 in protect period 304
+18-08-24 18:54:35 domain loop over 0
+18-08-24 18:54:40 domain loop start
+18-08-24 18:54:40 start test test
+18-08-24 18:54:40 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:40 in protect period 480
+18-08-24 18:54:40 start test hd.twitter
+18-08-24 18:54:40 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:40 in protect period 339
+18-08-24 18:54:40 start test hd.comment
+18-08-24 18:54:40 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:40 in protect period 309
+18-08-24 18:54:40 domain loop over 0
+18-08-24 18:54:45 domain loop start
+18-08-24 18:54:45 start test test
+18-08-24 18:54:45 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:45 in protect period 485
+18-08-24 18:54:45 start test hd.twitter
+18-08-24 18:54:45 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:45 in protect period 344
+18-08-24 18:54:45 start test hd.comment
+18-08-24 18:54:45 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:45 in protect period 314
+18-08-24 18:54:45 domain loop over 0
+18-08-24 18:54:50 domain loop start
+18-08-24 18:54:50 start test test
+18-08-24 18:54:50 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:50 in protect period 490
+18-08-24 18:54:50 start test hd.twitter
+18-08-24 18:54:50 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:50 in protect period 349
+18-08-24 18:54:50 start test hd.comment
+18-08-24 18:54:50 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:50 in protect period 319
+18-08-24 18:54:50 domain loop over 0
+18-08-24 18:54:55 domain loop start
+18-08-24 18:54:55 start test test
+18-08-24 18:54:55 当前运行test, 备用IP124.239.144.163
+18-08-24 18:54:55 in protect period 495
+18-08-24 18:54:55 start test hd.twitter
+18-08-24 18:54:55 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:54:55 in protect period 354
+18-08-24 18:54:55 start test hd.comment
+18-08-24 18:54:55 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:54:55 in protect period 324
+18-08-24 18:54:55 domain loop over 0
+18-08-24 18:55:00 domain loop start
+18-08-24 18:55:00 start test test
+18-08-24 18:55:00 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:00 in protect period 500
+18-08-24 18:55:00 start test hd.twitter
+18-08-24 18:55:00 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:00 in protect period 359
+18-08-24 18:55:00 start test hd.comment
+18-08-24 18:55:00 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:00 in protect period 329
+18-08-24 18:55:00 domain loop over 0
+18-08-24 18:55:05 domain loop start
+18-08-24 18:55:05 start test test
+18-08-24 18:55:05 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:05 in protect period 505
+18-08-24 18:55:05 start test hd.twitter
+18-08-24 18:55:05 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:05 in protect period 364
+18-08-24 18:55:05 start test hd.comment
+18-08-24 18:55:05 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:05 in protect period 334
+18-08-24 18:55:05 domain loop over 0
+18-08-24 18:55:10 domain loop start
+18-08-24 18:55:10 start test test
+18-08-24 18:55:10 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:10 in protect period 510
+18-08-24 18:55:10 start test hd.twitter
+18-08-24 18:55:10 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:10 in protect period 369
+18-08-24 18:55:10 start test hd.comment
+18-08-24 18:55:10 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:10 in protect period 339
+18-08-24 18:55:10 domain loop over 0
+18-08-24 18:55:15 domain loop start
+18-08-24 18:55:15 start test test
+18-08-24 18:55:15 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:15 in protect period 515
+18-08-24 18:55:15 start test hd.twitter
+18-08-24 18:55:15 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:15 in protect period 374
+18-08-24 18:55:15 start test hd.comment
+18-08-24 18:55:15 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:15 in protect period 344
+18-08-24 18:55:15 domain loop over 0
+18-08-24 18:55:20 domain loop start
+18-08-24 18:55:20 start test test
+18-08-24 18:55:20 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:20 in protect period 520
+18-08-24 18:55:20 start test hd.twitter
+18-08-24 18:55:20 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:20 in protect period 379
+18-08-24 18:55:20 start test hd.comment
+18-08-24 18:55:20 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:20 in protect period 349
+18-08-24 18:55:20 domain loop over 0
+18-08-24 18:55:25 domain loop start
+18-08-24 18:55:25 start test test
+18-08-24 18:55:25 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:25 in protect period 525
+18-08-24 18:55:25 start test hd.twitter
+18-08-24 18:55:25 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:25 in protect period 384
+18-08-24 18:55:25 start test hd.comment
+18-08-24 18:55:25 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:25 in protect period 354
+18-08-24 18:55:25 domain loop over 0
+18-08-24 18:55:30 domain loop start
+18-08-24 18:55:30 start test test
+18-08-24 18:55:30 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:30 in protect period 530
+18-08-24 18:55:30 start test hd.twitter
+18-08-24 18:55:30 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:30 in protect period 389
+18-08-24 18:55:30 start test hd.comment
+18-08-24 18:55:30 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:30 in protect period 359
+18-08-24 18:55:30 domain loop over 0
+18-08-24 18:55:35 domain loop start
+18-08-24 18:55:35 start test test
+18-08-24 18:55:35 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:35 in protect period 535
+18-08-24 18:55:35 start test hd.twitter
+18-08-24 18:55:35 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:35 in protect period 394
+18-08-24 18:55:35 start test hd.comment
+18-08-24 18:55:35 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:35 in protect period 364
+18-08-24 18:55:35 domain loop over 0
+18-08-24 18:55:40 domain loop start
+18-08-24 18:55:40 start test test
+18-08-24 18:55:40 当前运行test, 备用IP124.239.144.163
+18-08-24 18:55:40 in protect period 540
+18-08-24 18:55:40 start test hd.twitter
+18-08-24 18:55:40 当前运行hd.twitter 主IP60.190.238.166
+18-08-24 18:55:40 in protect period 399
+18-08-24 18:55:40 start test hd.comment
+18-08-24 18:55:40 当前运行hd.comment 主IP60.190.238.166
+18-08-24 18:55:40 in protect period 369
+18-08-24 18:55:40 domain loop over 0

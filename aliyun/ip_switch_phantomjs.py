@@ -43,10 +43,10 @@ class IpSwith(object):
             self.driver.quit()
         chrome_options = Options()
         chrome_options.add_argument('--headless')
-        web_driver = webdriver.Chrome(chrome_options=chrome_options)
-        # web_driver = webdriver.Chrome
+        # web_driver = webdriver.Chrome(chrome_options=chrome_options)
+        web_driver = webdriver.Chrome
         # web_driver = webdriver.PhantomJS
-        self.driver = web_driver
+        self.driver = web_driver()
         # self.driver.set_window_size(1920, 1080)
         # self.driver.maximize_window()
 
@@ -107,7 +107,7 @@ class IpSwith(object):
                 time.sleep(3)
                 self.driver.quit()
                 return None
-        log('warning 不能匹配所以域名')
+        log('warning 未能匹配域名')
         self.driver.quit()
 
     def save_change(self, domain_detail):
@@ -193,7 +193,8 @@ class IpSwith(object):
                                                 self.save_change(domain_detail)
                                                 log('切换成功')
                                             except Exception as e:
-                                                self.driver.quit()
+                                                if self.driver:
+                                                    self.driver.quit()
                                                 log('切换失败', e)
                                             break
                                     log('server fault: status code over 400')
@@ -215,7 +216,6 @@ class IpSwith(object):
                                             log('切换成功')
                                         except Exception as e:
                                             if self.driver:
-
                                                 self.driver.quit()
                                             log('切换失败', e)
                                         break
@@ -239,10 +239,15 @@ class IpSwith(object):
                                     count += 1
                                     if count >= error_max:
                                         log('切换到主IP, 当前IP {}'.format(current_ip))
-                                        self.login()
-                                        self.swich_ip(main_ip, domain)
-                                        self.save_change(domain_detail)
-                                        log('切换成功')
+                                        try:
+                                            self.login()
+                                            self.swich_ip(main_ip, domain)
+                                            self.save_change(domain_detail)
+                                            log('切换成功')
+                                        except Exception as e:
+                                            if self.driver:
+                                                self.driver.quit()
+                                            log('切换失败', e)
                                         break
                                     log('server main normal')
                             except Exception as e:
