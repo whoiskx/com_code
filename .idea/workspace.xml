@@ -6,18 +6,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/8-24-linux下安装chrome.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium_wx/driver_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/ghostdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/ghostdriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/qingbo.py" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/qingbo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/get_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/log_dir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/parse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/public_html.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/send_http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/send_http_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/send_http_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/send_http_file_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/send_http_file_8-16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/wx.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/WX_qingbo/wx_log22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/login_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/praise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/read_praise_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/read_praise_7-10_加班.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/read_praise_7-9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/read_praise_7_11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/url_find.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX/url_forever.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/aliyun/ghostdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ghostdriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_phantomjs.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_phantomjs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliyun/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliyun/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium_wx/tt.py" beforeDir="false" afterPath="$PROJECT_DIR$/appium_wx/tt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selenium.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,82 +54,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ip_switch_online.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_online.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4392">
-              <caret line="246" column="25" lean-forward="true" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ip_switch_phantomjs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_phantomjs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="8-24-linux下安装chrome.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8-24-linux下安装chrome.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="domain_to_ip.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aliyun/domain_to_ip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qingbo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/qingbo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-703">
-              <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/json/__init__.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitter/index.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="driver_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium_wx/driver_test.py">
+      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/log.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="server_temp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/server_temp.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="threding_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/threding_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state>
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ip_switch.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
+      <file leaf-file-name="weibo_person_index.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/weibo_person_index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="微信转PY.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/微信转PY.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="域名修改" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/域名修改">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="selenium.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selenium.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ip_switch_phantomjs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_phantomjs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="168" column="7" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -122,22 +122,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aliyun/utils.py">
+      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitter/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver_tes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aliyun/driver_tes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state>
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,8 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>%s</find>
-      <find>'%s'</find>
       <find>11709b44801b75a99898d202160e7a06</find>
       <find>int</find>
       <find>driver</find>
@@ -185,6 +173,8 @@
       <find>log</find>
       <find>print</find>
       <find>backup server requests</find>
+      <find>requests</find>
+      <find>server fault: requests get error</find>
     </findStrings>
     <replaceStrings>
       <replace>u</replace>
@@ -260,13 +250,13 @@
         <option value="$PROJECT_DIR$/appium_wx/appium_details" />
         <option value="$PROJECT_DIR$/aliyun/ip_switch_online.py" />
         <option value="$PROJECT_DIR$/aliyun/driver_tes.py" />
-        <option value="$PROJECT_DIR$/selenium.txt" />
         <option value="$PROJECT_DIR$/appium_wx/tt.py" />
         <option value="$PROJECT_DIR$/appium_wx/driver_test.py" />
         <option value="$PROJECT_DIR$/aliyun/utils.py" />
         <option value="$PROJECT_DIR$/WX/WX_qingbo/qingbo.py" />
-        <option value="$PROJECT_DIR$/aliyun/ip_switch_phantomjs.py" />
         <option value="$PROJECT_DIR$/8-24-linux下安装chrome.txt" />
+        <option value="$PROJECT_DIR$/selenium.txt" />
+        <option value="$PROJECT_DIR$/aliyun/ip_switch_phantomjs.py" />
       </list>
     </option>
   </component>
@@ -304,22 +294,6 @@
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
               <item name="aliyun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="appium_wx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="WX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="WX" type="462c0819:PsiDirectoryNode" />
-              <item name="WX_qingbo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -401,6 +375,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="parse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WX/WX_qingbo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WX/WX_qingbo/parse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="qingbo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -414,24 +406,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WX/WX_qingbo/qingbo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium_wx" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium_wx/tt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -456,19 +430,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.tt" />
       <item itemvalue="Python.ip_switch_phantomjs" />
       <item itemvalue="Python.driver_test" />
       <item itemvalue="Python.qingbo" />
       <item itemvalue="Python.utils" />
+      <item itemvalue="Python.parse" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ip_switch_phantomjs" />
+        <item itemvalue="Python.parse" />
         <item itemvalue="Python.utils" />
         <item itemvalue="Python.qingbo" />
         <item itemvalue="Python.driver_test" />
-        <item itemvalue="Python.tt" />
       </list>
     </recent_temporary>
   </component>
@@ -528,13 +502,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.14699684" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.14699684" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.42765957" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30319148" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.4925532" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.48723406" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32659575" />
@@ -550,7 +524,6 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,11 +619,6 @@
           <url>file://$PROJECT_DIR$/WX/body_to_row.py</url>
           <line>52</line>
           <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/WX/read_praise_2.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/qq_wangyi/wnagyi_163/test.py</url>
@@ -853,9 +821,10 @@
           <option name="timeStamp" value="244" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aliyun/ip_switch_phantomjs.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="245" />
+          <url>file://$PROJECT_DIR$/WX/WX_qingbo/send_http2.py</url>
+          <line>1</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="246" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -868,7 +837,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="246" />
+      <option name="time" value="247" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -980,34 +949,201 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WB/scrapy-exts/scraper/exts/queue.py">
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/xx.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
+        <state relative-caret-position="-18987" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WB/scrapy-exts/scraper/exts/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-674">
-          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WB/scrapy-exts/scraper/exts/__init__.py">
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log22.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/engine.py">
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1016" />
+        <state relative-caret-position="-3651" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/scraper/scraper/settings.py">
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <folding>
+            <element signature="e#17#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy-exts/scrapy-exts/记录.txt">
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http_3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http_4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http_file_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3477" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http_file_8-16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1938" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/temp.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_http_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/request.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_backpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-671" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/public_html.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/parse.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log_dir">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="12183" lean-forward="true" selection-start-line="12183" selection-end-line="12183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_json.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="257" column="57" selection-start-line="257" selection-start-column="57" selection-end-line="257" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/qingbo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1159">
+          <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/url_forever.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/url_find.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/read_praise_2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/read_praise_7-9.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/read_praise_7-10_加班.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/read_praise_7_11.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/login_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/praise.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/resp.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/record">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1005" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/read_praise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/body_to_row.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/wechat_crawler-master/图片/获取更多页面.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/wechat_crawler-master/图片/获取点赞数.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/wechat_crawler-master/图片/运行日志.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/server/log.txt">
@@ -1016,262 +1152,43 @@
     <entry file="file://$PROJECT_DIR$/server/server_temp.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/weibo_person_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-503" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/Graph_API/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_git/新建文件夹/crawl_wechat-master/new_crawl_wechat.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library_git/new_crawl_wechat.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/database.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/count.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/post_nologin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/redis_consumer.py">
+    <entry file="file://$PROJECT_DIR$/server/threding_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/Facebook_xihaiming/Facebook_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/Run/FB_xml.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/Run/choice.py">
+    <entry file="file://$PROJECT_DIR$/server/weibo_person_index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="28" />
+        <state>
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8-21-配置VS code.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/get_more_public_bottom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2201">
-          <caret line="257" column="57" selection-start-line="257" selection-start-column="57" selection-end-line="257" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/temp.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log22.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pymongo/mongo_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18352">
-          <caret line="1497" column="4" selection-start-line="1497" selection-start-column="4" selection-end-line="1497" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/tlog.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/log.txt">
+    <entry file="file://$PROJECT_DIR$/微信转PY.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/域名修改">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tip.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="119" column="8" selection-start-line="119" selection-start-column="8" selection-end-line="119" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_wx/appium_details">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/iframe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="42" selection-end-line="267" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_wx/tt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/wx_log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="12183" lean-forward="true" selection-start-line="12183" selection-end-line="12183" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appium_wx/driver_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_online.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4392">
-          <caret line="246" column="25" lean-forward="true" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8-24-linux下安装chrome.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="800">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_phantomjs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        <state relative-caret-position="278">
+          <caret line="168" column="7" selection-start-line="200" selection-start-column="36" selection-end-line="200" selection-end-column="39" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/domain_to_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/driver_tes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/qingbo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="68" column="39" lean-forward="true" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

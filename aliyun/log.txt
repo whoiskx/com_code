@@ -12803,3 +12803,116 @@
 18-08-24 12:06:56 start test hd.twitter
 18-08-24 12:06:56 当前是主IP60.190.238.166
 18-08-24 12:06:56 start test hd.comment
+18-08-24 14:48:07 domain loop start
+18-08-24 14:48:07 start test test
+18-08-24 14:48:07 当前是主IP61.164.49.130
+18-08-24 14:48:07 not in  protect period
+18-08-24 14:48:07 start test hd.twitter
+18-08-24 14:48:07 当前是主IP60.190.238.166
+18-08-24 14:48:08 start test hd.comment
+18-08-24 14:48:08 当前是主IP60.190.238.166
+18-08-24 14:48:08 domain loop over 1
+18-08-24 14:48:13 domain loop start
+18-08-24 14:48:13 start test test
+18-08-24 14:48:13 当前是主IP61.164.49.130
+18-08-24 14:48:13 requests 
+18-08-24 14:48:13 server fault: requests get error
+18-08-24 14:48:13 requests 
+18-08-24 14:48:13 server fault: requests get error
+18-08-24 14:48:13 requests 
+18-08-24 14:48:13 server fault: requests get error
+18-08-24 14:48:13 start test hd.twitter
+18-08-24 14:48:13 当前是主IP60.190.238.166
+18-08-24 14:48:13 start test hd.comment
+18-08-24 14:48:13 当前是主IP60.190.238.166
+18-08-24 14:48:13 domain loop over 0
+18-08-24 14:48:18 domain loop start
+18-08-24 14:48:18 start test test
+18-08-24 14:48:18 当前是主IP61.164.49.130
+18-08-24 14:48:18 start test hd.twitter
+18-08-24 14:48:18 当前是主IP60.190.238.166
+18-08-24 14:48:19 start test hd.comment
+18-08-24 14:48:19 当前是主IP60.190.238.166
+18-08-24 14:48:19 domain loop over 1
+18-08-24 14:48:24 domain loop start
+18-08-24 14:48:24 start test test
+18-08-24 14:48:24 当前是主IP61.164.49.130
+18-08-24 14:48:24 start test hd.twitter
+18-08-24 14:48:24 当前是主IP60.190.238.166
+18-08-24 14:48:24 start test hd.comment
+18-08-24 14:48:24 当前是主IP60.190.238.166
+18-08-24 14:48:24 domain loop over 0
+18-08-24 14:48:29 domain loop start
+18-08-24 14:48:29 start test test
+18-08-24 14:48:29 当前是主IP61.164.49.130
+18-08-24 14:48:29 requests 
+18-08-24 14:48:29 server fault: requests get error
+18-08-24 14:48:29 requests 
+18-08-24 14:48:29 server fault: requests get error
+18-08-24 14:48:29 requests 
+18-08-24 14:48:29 server fault: requests get error
+18-08-24 14:48:29 requests 
+18-08-24 14:48:29 backup_ip 124.239.144.163
+18-08-24 14:48:29 切换到备用IP, 当前IP61.164.49.130
+18-08-24 14:48:44 登录成功
+18-08-24 14:48:53 切换失败 Message: {"errorMessage":"Unable to find element with xpath '//*[@id=\"value\"]'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"102","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:50019","User-Agent":"selenium/3.12.0 (python windows)"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"value\": \"//*[@id=\\\"value\\\"]\", \"sessionId\": \"b96af7c0-a769-11e8-b555-114bcd2a3cb9\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/b96af7c0-a769-11e8-b555-114bcd2a3cb9/element"}}
+Screenshot: available via screen
+
+18-08-24 14:48:53 start test hd.twitter
+18-08-24 14:48:53 当前是主IP60.190.238.166
+18-08-24 14:48:53 start test hd.comment
+18-08-24 14:48:53 当前是主IP60.190.238.166
+18-08-24 14:48:53 domain loop over 24
+18-08-24 14:48:58 domain loop start
+18-08-24 14:48:58 start test test
+18-08-24 14:48:58 当前是主IP61.164.49.130
+18-08-24 14:48:58 requests 
+18-08-24 14:48:58 server fault: requests get error
+18-08-24 14:48:58 requests 
+18-08-24 14:48:58 server fault: requests get error
+18-08-24 14:48:58 requests 
+18-08-24 14:48:58 server fault: requests get error
+18-08-24 14:48:58 requests 
+18-08-24 14:48:58 backup_ip 124.239.144.163
+18-08-24 14:56:25 domain loop start
+18-08-24 14:56:25 start test test
+18-08-24 14:56:25 当前是test 主IP61.164.49.130
+18-08-24 14:56:25 requests 
+18-08-24 14:56:25 server fault: requests get error
+18-08-24 14:56:25 requests 
+18-08-24 14:56:25 server fault: requests get error
+18-08-24 14:56:25 requests 
+18-08-24 14:56:25 server fault: requests get error
+18-08-24 14:56:25 requests 
+18-08-24 14:56:25 backup_ip 124.239.144.163
+18-08-24 14:56:25 切换到备用IP, 当前IP61.164.49.130
+18-08-24 14:56:36 登录成功
+18-08-24 14:56:46 切换失败 Message: {"errorMessage":"Unable to find element with xpath '//*[@id=\"value\"]'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"102","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:50776","User-Agent":"selenium/3.12.0 (python windows)"},"httpVersion":"1.1","method":"POST","post":"{\"using\": \"xpath\", \"value\": \"//*[@id=\\\"value\\\"]\", \"sessionId\": \"d36195c0-a76a-11e8-ba5f-6199b58b2220\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/d36195c0-a76a-11e8-ba5f-6199b58b2220/element"}}
+Screenshot: available via screen
+
+18-08-24 14:56:46 start test hd.twitter
+18-08-24 14:56:46 当前是hd.twitter 主IP60.190.238.166
+18-08-24 14:56:46 start test hd.comment
+18-08-24 14:56:46 当前是hd.comment 主IP60.190.238.166
+18-08-24 14:56:46 domain loop over 21
+18-08-24 14:56:51 domain loop start
+18-08-24 14:56:51 start test test
+18-08-24 14:56:51 当前是test 主IP61.164.49.130
+18-08-24 14:56:51 start test hd.twitter
+18-08-24 14:56:51 当前是hd.twitter 主IP60.190.238.166
+18-08-24 14:56:51 start test hd.comment
+18-08-24 14:56:51 当前是hd.comment 主IP60.190.238.166
+18-08-24 14:56:51 domain loop over 0
+18-08-24 14:57:39 domain loop start
+18-08-24 14:57:39 start test test
+18-08-24 14:57:39 当前是test 主IP61.164.49.130
+18-08-24 14:57:39 requests 
+18-08-24 14:57:39 server fault: requests get error
+18-08-24 14:57:39 requests 
+18-08-24 14:57:39 server fault: requests get error
+18-08-24 14:57:39 requests 
+18-08-24 14:57:39 server fault: requests get error
+18-08-24 14:57:39 requests 
+18-08-24 14:57:39 backup_ip 124.239.144.163
+18-08-24 14:57:39 切换到备用IP, 当前IP61.164.49.130
+18-08-24 14:58:01 登录成功

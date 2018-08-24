@@ -47,8 +47,8 @@ class IpSwith(object):
         web_driver = webdriver.Chrome
         # web_driver = webdriver.PhantomJS
         self.driver = web_driver()
-        self.driver.set_window_size(1920, 1080)
-
+        # self.driver.set_window_size(1920, 1080)
+        self.driver.maximize_window()
 
 
         # self.driver = webdriver.Chrome()
@@ -170,7 +170,7 @@ class IpSwith(object):
                 backup_ip = domain_detail.get('backup_ip')
                 if current_ip == main_ip:
                     # 当前IP是主IP
-                    log('当前是主IP{}'.format(current_ip))
+                    log('当前运行{} 主IP{}'.format(name, current_ip))
                     changing = domain_detail.get('changing')
                     if changing is False:
                         count = 0
@@ -225,7 +225,7 @@ class IpSwith(object):
 
                 elif current_ip == backup_ip:
                     # 备切主 当前IP是备用服务器
-                    log('当前是备用IP{}'.format(current_ip))
+                    log('当前运行{}, 备用IP{}'.format(name, current_ip))
                     changing = domain_detail.get('changing')
                     if changing is False:
                         main_url = monitor_url.replace(domain, main_ip)

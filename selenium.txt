@@ -43,3 +43,5 @@
 
 使用phantomJS替换 Chrome
     窗口太小报错
+    set_window_size(800, 600)
+    maximize_window
