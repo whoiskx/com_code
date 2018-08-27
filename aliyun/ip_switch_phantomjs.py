@@ -43,10 +43,12 @@ class IpSwith(object):
             self.driver.quit()
         chrome_options = Options()
         chrome_options.add_argument('--headless')
-        # web_driver = webdriver.Chrome(chrome_options=chrome_options)
-        web_driver = webdriver.Chrome
+        chrome_options.add_argument("--no-sandbox")
+        web_driver = webdriver.Chrome(chrome_options=chrome_options)
+        self.driver = web_driver
+        # web_driver = webdriver.Chrome
         # web_driver = webdriver.PhantomJS
-        self.driver = web_driver()
+        # self.driver = web_driver()
         # self.driver.set_window_size(1920, 1080)
         # self.driver.maximize_window()
 
@@ -177,7 +179,7 @@ class IpSwith(object):
                                 test_main += 1
                                 if test_main <= 50:
                                     # if name == 'test':
-                                        raise RuntimeError
+                                    raise RuntimeError
                                 resp = requests.get(monitor_url)
                                 if resp.status_code < 400:
                                     break
