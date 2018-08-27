@@ -52,15 +52,14 @@ class PublicDetails(object):
 
     def get_driver(self):
         # 使用headless无界面浏览器模式
-        # options = Options()
-        # options.add_argument('--headless')
+        options = Options()
+        options.add_argument('--headless')
         # options.add_argument('--disable-gpu')
-        # driver = webdriver.Chrome(chrome_options=options)
         if self.driver:
             self.driver.quit()
-        # self.driver = webdriver.Chrome()
-        self.driver = webdriver.PhantomJS()
-        self.driver.maximize_window()
+        self.driver = webdriver.Chrome(chrome_options=options)
+        # self.driver = webdriver.PhantomJS()
+        # self.driver.maximize_window()
         return self.driver
 
     def restart_driver(self):

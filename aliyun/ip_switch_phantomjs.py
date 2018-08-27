@@ -44,11 +44,11 @@ class IpSwith(object):
         chrome_options = Options()
         chrome_options.add_argument('--headless')
         chrome_options.add_argument("--no-sandbox")
-        web_driver = webdriver.Chrome(chrome_options=chrome_options)
-        self.driver = web_driver
-        # web_driver = webdriver.Chrome
+        # web_driver = webdriver.Chrome(chrome_options=chrome_options)
+        # self.driver = web_driver
+        web_driver = webdriver.Chrome
         # web_driver = webdriver.PhantomJS
-        # self.driver = web_driver()
+        self.driver = web_driver()
         # self.driver.set_window_size(1920, 1080)
         # self.driver.maximize_window()
 

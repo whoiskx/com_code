@@ -33758,3 +33758,99 @@ Screenshot: available via screen
 18-08-24 21:03:34 domain loop over 0
 18-08-24 21:03:39 domain loop start
 18-08-24 21:03:39 start test test
+18-08-27 10:43:35 domain loop start
+18-08-27 10:43:35 start test test
+18-08-27 10:43:35 当前运行test 主IP61.164.49.130
+18-08-27 10:43:35 not in  protect period
+18-08-27 10:43:35 start test hd.twitter
+18-08-27 10:43:35 当前运行hd.twitter 主IP60.190.238.166
+18-08-27 10:43:35 not in  protect period
+18-08-27 10:43:35 start test hd.comment
+18-08-27 10:43:42 当前运行hd.comment 主IP60.190.238.166
+18-08-27 10:43:42 not in  protect period
+18-08-27 10:43:42 domain loop over 7
+18-08-27 10:43:47 domain loop start
+18-08-27 10:43:47 start test test
+18-08-27 10:43:47 当前运行test 主IP61.164.49.130
+18-08-27 10:43:47 requests 
+18-08-27 10:43:47 server fault: requests get error
+18-08-27 10:43:47 requests 
+18-08-27 10:43:47 server fault: requests get error
+18-08-27 10:43:47 requests 
+18-08-27 10:43:47 server fault: requests get error
+18-08-27 10:43:47 requests 
+18-08-27 10:43:47 backup_ip 124.239.144.163
+18-08-27 10:43:48 切换到备用IP, 当前IP61.164.49.130
+18-08-27 10:44:01 登录成功
+18-08-27 10:44:15 切换成功
+18-08-27 10:44:15 start test hd.twitter
+18-08-27 10:44:15 当前运行hd.twitter 主IP60.190.238.166
+18-08-27 10:44:15 requests 
+18-08-27 10:44:15 server fault: requests get error
+18-08-27 10:44:15 requests 
+18-08-27 10:44:15 server fault: requests get error
+18-08-27 10:44:15 requests 
+18-08-27 10:44:15 server fault: requests get error
+18-08-27 10:44:15 requests 
+18-08-27 10:44:15 backup_ip 120.78.237.190
+18-08-27 10:44:15 切换到备用IP, 当前IP60.190.238.166
+18-08-27 10:44:26 登录成功
+18-08-27 10:44:47 切换成功
+18-08-27 10:44:47 start test hd.comment
+18-08-27 10:44:47 当前运行hd.comment 主IP60.190.238.166
+18-08-27 10:44:47 requests 
+18-08-27 10:44:47 server fault: requests get error
+18-08-27 10:44:47 requests 
+18-08-27 10:44:47 server fault: requests get error
+18-08-27 10:44:47 requests 
+18-08-27 10:44:47 server fault: requests get error
+18-08-27 10:44:47 requests 
+18-08-27 10:44:47 backup_ip 120.78.237.190
+18-08-27 10:44:47 切换到备用IP, 当前IP60.190.238.166
+18-08-27 10:44:56 登录成功
+18-08-27 10:45:12 切换成功
+18-08-27 10:45:12 domain loop over 85
+18-08-27 10:45:17 domain loop start
+18-08-27 10:45:17 start test test
+18-08-27 10:45:17 当前运行test 主IP61.164.49.130
+18-08-27 10:45:17 in protect period 62
+18-08-27 10:45:17 start test hd.twitter
+18-08-27 10:45:17 当前运行hd.twitter 主IP60.190.238.166
+18-08-27 10:45:17 in protect period 30
+18-08-27 10:45:17 start test hd.comment
+18-08-27 10:45:17 当前运行hd.comment 主IP60.190.238.166
+18-08-27 10:45:17 in protect period 5
+18-08-27 10:45:17 domain loop over 0
+18-08-27 10:45:22 domain loop start
+18-08-27 10:45:22 start test test
+18-08-27 10:45:22 当前运行test 主IP61.164.49.130
+18-08-27 10:45:22 in protect period 67
+18-08-27 10:45:22 start test hd.twitter
+18-08-27 10:45:22 当前运行hd.twitter 主IP60.190.238.166
+18-08-27 10:45:22 in protect period 35
+18-08-27 10:45:22 start test hd.comment
+18-08-27 10:45:22 当前运行hd.comment 主IP60.190.238.166
+18-08-27 10:45:22 in protect period 10
+18-08-27 10:45:22 domain loop over 0
+18-08-27 10:45:27 domain loop start
+18-08-27 10:45:27 start test test
+18-08-27 10:45:27 当前运行test 主IP61.164.49.130
+18-08-27 10:45:27 in protect period 72
+18-08-27 10:45:27 start test hd.twitter
+18-08-27 10:45:27 当前运行hd.twitter 主IP60.190.238.166
+18-08-27 10:45:27 in protect period 40
+18-08-27 10:45:27 start test hd.comment
+18-08-27 10:45:27 当前运行hd.comment 主IP60.190.238.166
+18-08-27 10:45:27 in protect period 15
+18-08-27 10:45:27 domain loop over 0
+18-08-27 10:45:32 domain loop start
+18-08-27 10:45:32 start test test
+18-08-27 10:45:32 当前运行test 主IP61.164.49.130
+18-08-27 10:45:32 in protect period 77
+18-08-27 10:45:32 start test hd.twitter
+18-08-27 10:45:32 当前运行hd.twitter 主IP60.190.238.166
+18-08-27 10:45:32 in protect period 45
+18-08-27 10:45:32 start test hd.comment
+18-08-27 10:45:32 当前运行hd.comment 主IP60.190.238.166
+18-08-27 10:45:32 in protect period 20
+18-08-27 10:45:32 domain loop over 0
