@@ -36,13 +36,13 @@ cursor_save = db.cursor()
 
 cursor.execute('select * FROM imagefail')
 count = 0
-urls = cursor.fetchmany(14707)
-# urls = cursor.fetchmany(89)
+urls = cursor.fetchmany(4707)
+urls = cursor.fetchmany(9186)
 while True:
     # if count < 2:
     #     count += 1
     #     continue
-    urls = cursor.fetchmany(12000)
+    urls = cursor.fetchmany(880)
     driver = webdriver.Chrome()
     for url_tuple in urls:
         numb, post_id, _ = url_tuple
@@ -76,7 +76,7 @@ while True:
                 'header_url': header_url,
                 'post_id': post_id,
             }
-            cursor_save.execute('INSERT INTO imagefail_header_url_xin VALUES("%s", "%s", "%s", "%s")' % (numb, post_id, 4, header_url))
+            cursor_save.execute('INSERT INTO imagefail_header_url VALUES("%s", "%s", "%s", "%s")' % (numb, post_id, 4, header_url))
             # test['img_header_url_10000'].insert(d)
             db.commit()
             count += 1

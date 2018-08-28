@@ -34,21 +34,22 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    cursor.execute('SELECT * FROM tag_site WHERE LENGTH(SignID)>0 AND TagType=2 AND Enabled=1')
+    cursor.execute('SELECT TagCode, SignID FROM tag_site WHERE LENGTH(SignID)>0 AND TagType=2 AND Enabled=1')
+    items = cursor.fetchall()
     all_tag_site = []
-    items = cursor.fetchmany(10)
+    resp = ''
     for item in items:
         test = EntityTagSite()
-        test.site_id = item[15]
-        test.tag_code = item[4]
+        test.tag_code = item[0]
+        test.site_id = item[1]
         print(test.to_dict())
         all_tag_site.append(test.to_dict())
-
     site_id = request.args.get('site_id')
     for tag_site in all_tag_site:
         if site_id == tag_site.get('site_id'):
-            return tag_site.get('tag_code')
-    return 'not find'
+            resp += tag_site.get('tag_code') + ','
+
+    return resp[:-1]
 
 
 if __name__ == '__main__':
