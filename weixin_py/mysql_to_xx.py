@@ -16,6 +16,7 @@ config_mysql = {
     'charset': 'utf8',
 }
 
+# 问题：每次请求连接还是一直连接
 db = pymysql.connect(**config_mysql)
 cursor = db.cursor()
 

@@ -106,3 +106,18 @@ raise RuntimeError
     触发异常
 
 网关的IP地址是具有路由功能的设备的IP地址，具有路由功能的设备有路由器、启用了路由协议的服务器（实质上相当于一台路由器）
+
+
+pip install whl 文件
+    not a supported wheel on this platform.
+    whl文件不应该有 (1) (2)
+
+连接SQL Server
+    Navicat 连接主机端口 , 分开
+    pymssql  连接
+
+flask
+    flask.form.to_dict()
+
+    post 参数 data(字典)  解析 form
+

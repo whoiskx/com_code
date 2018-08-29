@@ -81,8 +81,8 @@ class IpSwith(object):
                 #    ip_input.send_keys('1.1.1.1')
                 ip_input.send_keys(ip)
                 time.sleep(0.5)
-                # self.driver.find_element_by_xpath(
-                #     '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
+                self.driver.find_element_by_xpath(
+                    '/html/body/div[5]/div/div[2]/div/div[1]/div[3]/div/button[2]').click()
                 time.sleep(3)
                 self.driver.quit()
                 log('域名修改成功')
@@ -154,10 +154,10 @@ class IpSwith(object):
                         count = 0
                         while True:
                             try:
-                                test_main += 1
-                                if test_main <= 50:
-                                    # if name == 'test':
-                                    raise RuntimeError
+                                # test_main += 1
+                                # if test_main <= 50:
+                                #     # if name == 'test':
+                                #     raise RuntimeError
                                 resp = requests.get(monitor_url)
                                 if resp.status_code < 400:
                                     break

@@ -34,10 +34,10 @@ db = pymysql.connect(**config_mysql)
 cursor = db.cursor()
 cursor_save = db.cursor()
 
-cursor.execute('select * FROM imagefail_header_url_xin')
+cursor.execute('select * FROM imagefail_header_url')
 count = 0
-urls = cursor.fetchmany(475)
-# urls = cursor.fetchmany(89)
+urls = cursor.fetchmany(5776)
+urls = cursor.fetchmany(2000)
 proxies = {"https": "http://localhost:1080", }
 
 for index, url_tuple in enumerate(urls):
@@ -48,13 +48,12 @@ for index, url_tuple in enumerate(urls):
             continue
         print(url)
         resp = requests.get(url, proxies=proxies)
-        with open('img_header_xin/{}.png'.format(post_id), 'wb') as f:
+        with open('img_header/{}.png'.format(post_id), 'wb') as f:
             f.write(resp.content)
         test['save_img_mysql'].insert({'id':numb, 'header_url': url, 'blogger_id': id})
         # print('save {}'.format(id))
-        log('{} save {}'.format(index, id))
+        log('第{}次 save {} {}'.format(index, numb, id))
     except Exception as e:
         log(e)
         log('=============')
         log(index, post_id)
-

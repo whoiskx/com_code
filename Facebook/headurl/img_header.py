@@ -9,7 +9,7 @@ for index, item in enumerate(test['img_header_url_8000'].find()):
         blogger_id = item.get('post_id')
         url = item.get('header_url')
         id = item.get('id')
-        if int(id) < 5976:
+        if int(id) < 15000:
             continue
         print(id, url)
         if not url:
