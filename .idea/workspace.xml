@@ -6,24 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180829.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180829.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py/send_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py/sougou_http.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py/sougou_weixin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py/sql_server_to_xx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/headurl/img_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/headurl/img_header.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/headurl/mysql_img/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/headurl/mysql_img/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/headurl/mysql_img/read_mysql.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/headurl/mysql_img/read_mysql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_v2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_v2.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliyun/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tip.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py/mysql_to_xx.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/mysql_to_xx.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +44,7 @@
       <file leaf-file-name="sql_server_to_xx.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_py/sql_server_to_xx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="-1528">
               <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -84,10 +68,22 @@
       <file leaf-file-name="mysql_to_xx.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_py/mysql_to_xx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="-35">
               <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qingbo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/qingbo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,22 +94,10 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="example.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/Graph_API/example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1045">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_py/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="255">
               <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
             </state>
           </provider>
@@ -179,15 +163,15 @@
       <find>10:56:54</find>
       <find>dafasdf</find>
       <find>current_domain</find>
-      <find />
+      <find>Bad file descriptor</find>
       <find>重启</find>
       <find>切换到备用IP</find>
       <find>useinfo</find>
       <find>log</find>
       <find>print</find>
-      <find />
+      <find>backup server requests</find>
       <find>requests</find>
-      <find />
+      <find>server fault: requests get error</find>
       <find>//*[@id=\&quot;value\</find>
       <find>当前是</find>
       <find>xpath</find>
@@ -320,6 +304,17 @@
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
               <item name="weixin_py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="WX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="WX" type="462c0819:PsiDirectoryNode" />
+              <item name="WX_qingbo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -530,14 +525,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.15173867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.15173867" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.35531914" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.48723406" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.48723406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35744682" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35744682" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.63404256" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -904,7 +899,7 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>driver is None</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1151,13 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/qingbo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5434">
-          <caret line="297" column="45" selection-start-line="297" selection-start-column="36" selection-end-line="297" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5890">
@@ -1301,16 +1289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py/mysql_to_xx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weixin_py/send_requests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1331,9 +1309,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weixin_py/sql_server_to_xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="-1528">
           <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -1341,10 +1326,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py/test.py">
+    <entry file="file://$PROJECT_DIR$/weixin_py/mysql_to_xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        <state relative-caret-position="-35">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/qingbo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
