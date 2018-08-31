@@ -1,7 +1,11 @@
 import pymssql
-import json
-from flask import Flask, request, jsonify
+from flask import (
+    Flask,
+    request,
+    jsonify,
+)
 
+# 微信旧库
 MYSQL_HOST = '183.131.241.60'
 MYSQL_PORT = 38019
 MYSQL_USER = 'oofraBnimdA_gz'
@@ -14,14 +18,14 @@ config_mysql = {
     'user': MYSQL_USER,
     'database': MYSQL_DATABASE,
     'password': MYSQL_PASSWORD,
-    # 'charset': 'utf8',
+    'charset': 'utf8',
 }
 
 # 问题：每次请求连接还是一直连接
 db = pymssql.connect(**config_mysql)
 cursor = db.cursor()
-cursor.execute("select * from WXAccount")
-details = cursor.fetchmany(10)
+# cursor.execute("select * from WXAccount")
+# details = cursor.fetchmany(10)
 
 
 class Account(object):
@@ -52,17 +56,16 @@ class Account(object):
 
 
 app = Flask(__name__)
-
 path = '/search/common/wxaccount/select'
 
 
 @app.route(path, methods=['GET', 'POST'])
 def index():
+    details = []
     items = details
     all_accounts = []
-    resp = ''
     if request.method == 'GET':
-        account_query = request.args.get("account")
+        query_name = request.args.get("account")
         for item in items:
             account = Account()
             # 自增字段
@@ -93,36 +96,34 @@ def index():
             all_accounts.append(account.to_dict())
 
         print(all_accounts)
-        for one_account in all_accounts:
-            if account_query == one_account.get('account'):
-                return jsonify(one_account)
+        for account_info in all_accounts:
+            if query_name == account_info.get('account'):
+                return jsonify(account_info)
 
     if request.method == 'POST':
         # 插入数据  ?? 需要判重么
         account_insert = request.form.to_dict()
-
-        account_init = Account()
-
-        account_init.id = account_insert.get('id')
-        account_init.name = account_insert.get('name')
-        account_init.url = account_insert.get('url')
-        account_init.account = account_insert.get('account')
-        account_init.features = account_insert.get('features')
-        account_init.certified = account_insert.get('certified')
-        account_init.pause = account_insert.get('pause')
-        account_init.logourl = account_insert.get('logourl')
-        account_init.codeurl = account_insert.get('codeurl')
-        account_init.number = account_insert.get('number')
-        account_init.imageUrl = account_insert.get('imageUrl')
-        account_init.origin = account_insert.get('origin')
-        account_init.NND = account_insert.get('NND')
-        account_init.total = account_insert.gettotal('total')
-        account_init.collectiontime = account_insert.get('collectiontime')
-        account_init.interval = account_insert.get('interval')
-        account_init.maxupdatecount = account_insert.get('maxupdatecount')
-        account_init.articleinterval = account_insert.get('articleinterval')
-        account_init.label = account_insert.get('label')
-        account_init.biz = account_insert.get('biz')
+        account_add = Account()
+        account_add.id = account_insert.get('id')
+        account_add.name = account_insert.get('name')
+        account_add.url = account_insert.get('url')
+        account_add.account = account_insert.get('account')
+        account_add.features = account_insert.get('features')
+        account_add.certified = account_insert.get('certified')
+        account_add.pause = account_insert.get('pause')
+        account_add.logourl = account_insert.get('logourl')
+        account_add.codeurl = account_insert.get('codeurl')
+        account_add.number = account_insert.get('number')
+        account_add.imageUrl = account_insert.get('imageUrl')
+        account_add.origin = account_insert.get('origin')
+        account_add.NND = account_insert.get('NND')
+        account_add.total = account_insert.get('total')
+        account_add.collectiontime = account_insert.get('collectiontime')
+        account_add.interval = account_insert.get('interval')
+        account_add.maxupdatecount = account_insert.get('maxupdatecount')
+        account_add.articleinterval = account_insert.get('articleinterval')
+        account_add.label = account_insert.get('label')
+        account_add.biz = account_insert.get('biz')
 
         # "id": 50000000,
         # "name": "音乐 ",
@@ -132,14 +133,21 @@ def index():
         # "collectiontime": "2018/8/2 12:30:00",
         #  "biz": "MzA5NTExOTIzNQ=="
         print(account_insert)
-        cursor.execute(
-            "INSERT INTO WXAccount_copy(id, name, url, account, features, certified, pause, logourl, codeurl, number, imageUrl, Origin, NND, total, collectiontime, interval, maxupdatecount, articleinterval, label, biz "
-            "VALUES(%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s)",
-            (account_init.id, account_init.name, account_init.url, account_init.account, account_init.features,
-             account_init.certified, account_init.pause, account_init.logourl, account_init.codeurl,
-             account_init.number, account_init.imageUrl, account_init.origin, account_init.NND, account_init.total,
-             account_init.collectiontime, account_init.interval, account_init.maxupdatecount,
-             account_init.articleinterval, account_init.label, account_init.biz,))
+        # cursor.execute(
+        #     "INSERT INTO WXAccount_copy(id, name, url, account, features, certified, pause, logourl, codeurl, number, imageUrl, Origin, NND, total, collectiontime, interval, maxupdatecount, articleinterval, label, biz "
+        #     "VALUES(%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s,%s, %s)",
+        #     (account_add.id, account_add.name, account_add.url, account_add.account, account_add.features,
+        #      account_add.certified, account_add.pause, account_add.logourl, account_add.codeurl,
+        #      account_add.number, account_add.imageUrl, account_add.origin, account_add.NND, account_add.total,
+        #      account_add.collectiontime, account_add.interval, account_add.maxupdatecount,
+        #      account_add.articleinterval, account_add.label, account_add.biz,))
+
+        # cursor.execute("INSERT INTO WXAccount_copy(name) VALUES({})".format(123))
+        cursor.execute("insert into WXAccount_copy(name, url) VALUES({}, {})".format('afdaasfasdfadf', 'dafadfdafadfasf'))
+
+        # cursor.execute("select * from WXAccount")
+        # print(cursor.fetchmany(2))
+        # cursor.fetchmany(10)
         return 'ok'
 
 

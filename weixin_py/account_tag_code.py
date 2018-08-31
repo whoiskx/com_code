@@ -1,6 +1,7 @@
 import pymysql
 from flask import Flask, request
 
+# 接口
 MYSQL_HOST = '120.78.237.213'
 MYSQL_PORT = 8002
 MYSQL_USER = 'yunrun'
@@ -33,8 +34,13 @@ class EntityTagSite(object):
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/tag_code')
 def index():
+    """
+    input: site_id
+    output: tag_code
+    :return:
+    """
     cursor.execute('SELECT TagCode, SignID FROM tag_site WHERE LENGTH(SignID)>0 AND TagType=2 AND Enabled=1')
     items = cursor.fetchall()
     all_tag_site = []
@@ -43,10 +49,10 @@ def index():
         test = EntityTagSite()
         test.tag_code = item[0]
         test.site_id = item[1]
-        print(test.to_dict())
         all_tag_site.append(test.to_dict())
     site_id = request.args.get('site_id')
     for tag_site in all_tag_site:
+        # 多个tag_site 例如 XHSXHSD
         if site_id == tag_site.get('site_id'):
             resp += tag_site.get('tag_code') + ','
 

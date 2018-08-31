@@ -2,7 +2,8 @@ import re
 import time
 
 import requests
-
+import json
+from setting import log
 
 name = '大鼎豫剧'
 url = 'https://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_='.format(name)
@@ -20,8 +21,6 @@ resp = requests.get(account_linke)
 
 html = resp.text
 items = re.findall('"content_url":".*?,"copyright_stat"', html)
-
-
 for item in items:
     url_last = item[15:-18].replace('amp;', '')
     # print(url)
@@ -31,4 +30,6 @@ for item in items:
     print(r("h2").text())
     time.sleep(1)
 
-# e = pq(resp.text)
+
+
+

@@ -9,18 +9,16 @@ body = '__biz=MzI1MzUzNTc0NQ%3D%3D&mid=2247486136&sn=f90394101440c7f3939d250ae15
 
 # body = 'https://mp.weixin.qq.com/s?__biz=MjM5MTI2MTI0MA==&mid=2655142500&idx=1&sn=77fbb51f69117d7b573e17928f1a26ce&chksm=bd0ed5338a795c252d9f33b3cb267ef2554ed83e4373207c013d1da02401f5836765d45bbcba&scene=0&ascene=7&devicetype=android-26&version=26060739&nettype=WIFI&abtest_cookie=BAABAAoACwAMABIACgA%2Bix4A44seAEKPHgBllR4AepUeAICVHgDwlR4AOJYeAJ2WHgC1lh4AAAA%3D&lang=zh_CN&pass_ticket=lmz4dXv%2FWib0B0%2B0lpXZZ8VPthtTPqPnjpwYcH6p5usaQBW%2FdJNeVlTua%2FCMp8Ki&wx_header=1'
 
-headers = '''Host: mp.weixin.qq.com
+headers = '''Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cache-Control: no-cache
 Connection: keep-alive
-User-Agent: Mozilla/5.0 (Linux; Android 8.0; BKL-AL00 Build/HUAWEIBKL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/6.2 TBS/044109 Mobile Safari/537.36 MicroMessenger/6.6.7.1321(0x26060739) NetType/WIFI Language/zh_CN
-x-wechat-key: de80f4c34b520d0afdef9c743b96f4beb24a9255f55ce51922e332a9cfe1fc5935936a77941444c46a4f0aaa654d69b060adcaa94cdfaababdf9363f76cc623b5b393e3a6c7b0469e24e4ab173f71fa5
-x-wechat-uin: MTE1NjkxODg2MQ%3D%3D
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/wxpic,image/sharpp,image/apng,*/*;q=0.8
-Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,zh-CN;q=0.8,en-US;q=0.6
-Cookie: rewardsn=; wxtokenkey=777; wxuin=1156918861; devicetype=android-26; version=26060739; lang=zh_CN; pass_ticket=+8U84OxS9W97ZH77wlwJFq8O/YUH80wuGEmOrTnQUKYBXmiGahtgtF16amwReaK8; wap_sid2=CM3c1KcEElxLdEhHU3ZRaWxzVktId1ktaGdLd3dBUW5VUGJPamZpTmVnWEItQ2hmWFliRXg5RnEtQ3VsSE1aM3htbDh2Tzk2YThBWXhaYjFyRHZzMDhfSnpnN2IyY1VEQUFBfjDGh5faBTgNQJVO
-Q-UA2: QV=3&PL=ADR&PR=WX&PP=com.tencent.mm&PPVN=6.6.7&TBSVC=43610&CO=BK&COVC=044109&PB=GE&VE=GA&DE=PHONE&CHID=0&LCID=9422&MO= BKL-AL00 &RL=1080*2040&OS=8.0.0&API=26
-Q-GUID: c23b47cd4280ad4e1a425962102888cb
-Q-Auth: 31045b957cf33acf31e40be2f3e71c5217597676a9729f1b'''
+Cookie: SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; sct=132; SNUID=568165754F4B3BFC4E8ADF104FB7AB4F; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw
+Host: weixin.sogou.com
+Pragma: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'''
 def body_to_row(body=''):
     if '?' in body:
         body = body.split('?')[-1]
