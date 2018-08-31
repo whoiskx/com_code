@@ -71,11 +71,11 @@ class AccountHttp(object):
             resp_article = requests.get(article.url)
             e_aritile = pq(resp_article.text)
             article.title = e_aritile('.rich_media_title').text().replace(' ', '')
-            article.content = e_aritile("#js_content").text()
+            article.content = e_aritile("#js_content").text().replace('\n', '')
             article.author = name
             article_timestramp_before = re.search('var ct=".*?"', resp_article.text).group()
             article_timestramp = re.search('\d+', article_timestramp_before).group()
-            article.time = article_timestramp
+            article.time = article_timestramp + '000'
 
             # "ID": "2acaeb6539ff729a3dc32eccd110d151",
             # "Account": "smzdc2015",
@@ -124,7 +124,7 @@ class AccountHttp(object):
                 'Author': wx_entity.author,
                 # 'Praises': praise_num,
                 # 'Views': read_num,
-                'Time': int(wx_entity.time + "000"),
+                'Time': int(wx_entity.time),
                 'AddOn': int(wx_entity.addon + '000'),
             }
 
@@ -146,8 +146,8 @@ class AccountHttp(object):
                  wx_entity.account, wx_entity.account_id, wx_entity.author, wx_entity.id, wx_entity.title))
             db.commit()
             time.sleep(1)
-            if page_count == 10:
-                break
+            # if page_count == 10:
+            #     break
 
         log("发包")
         if backpack_list is not None:

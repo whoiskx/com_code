@@ -58,3 +58,4 @@ class JsonEntity(object):
         m = hashlib.md5()
         m.update(s.encode(encoding='utf-8'))
         return m.hexdigest()
+
