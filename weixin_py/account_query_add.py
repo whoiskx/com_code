@@ -24,10 +24,6 @@ config_mysql = {
 # 问题：每次请求连接还是一直连接
 db = pymssql.connect(**config_mysql)
 cursor = db.cursor()
-cursor.execute("select * from WXAccount_copy")
-
-# 先查表 再返回
-details = cursor.fetchmany(100)
 
 
 class Account(object):
@@ -63,12 +59,12 @@ path = '/search/common/wxaccount/select'
 
 @app.route(path, methods=['GET', 'POST'])
 def index():
-    # details = []
-    items = details
-    all_accounts = []
     if request.method == 'GET':
         query_name = request.args.get("account")
-        for item in items:
+        cursor.execute("select * from WXAccount_copy where Account='{}'".format(query_name))
+        # for item in items:
+        item = cursor.fetchone()
+        if item:
             account = Account()
             # 自增字段
             account.id = item[0]
@@ -95,13 +91,17 @@ def index():
             account.biz = item[23]
 
             print(account.to_dict())
-            all_accounts.append(account.to_dict())
+            return jsonify(account.to_dict())
+        else:
+            return '{}'
 
-        print(all_accounts)
-        for account_info in all_accounts:
-            if query_name == account_info.get('account'):
-                return jsonify(account_info)
-        return "not find"
+        # all_accounts.append(account.to_dict())
+        #
+        # print(all_accounts)
+        # for account_info in all_accounts:
+        #     if query_name == account_info.get('account'):
+        #         return jsonify(account_info)
+        # return "{}"
 
     if request.method == 'POST':
         # 插入数据  ?? 需要判重么
@@ -147,14 +147,15 @@ def index():
 
         # cursor.execute("INSERT INTO WXAccount_copy(name) VALUES({})".format(123))
         # cursor.execute("insert into WXAccount_copy(name, url) VALUES({}, {})".format('afdaasfasdfadf', 'dafadfdafadfasf'))
+        id = account_add.id
         name = account_add.name
         account = account_add.account
         url = account_add.url
-        collectiontime = account_add.collectiontime
+        collectiontime = '' #and account_add.collectiontime
         biz = account_add.biz
 
-        insert_sql = """INSERT INTO WXAccount_copy(Name,Account,Url,CollectionTime,Biz)
-                        VALUES ('{}','{}','{}','{}','{}')""".format(name, account, url, collectiontime, biz)
+        insert_sql = """INSERT INTO WXAccount_copy(ID, Name,Account,Url,CollectionTime,Biz)
+                        VALUES ('{}', '{}','{}','{}','{}','{}')""".format(id, name, account, url, collectiontime, biz)
         print("======")
         cursor.execute(insert_sql)
         db.commit()

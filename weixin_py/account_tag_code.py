@@ -17,10 +17,6 @@ config_mysql = {
     'charset': 'utf8',
 }
 
-# 问题：每次请求连接还是一直连接
-db = pymysql.connect(**config_mysql)
-cursor = db.cursor()
-
 
 class EntityTagSite(object):
     def __init__(self):
@@ -41,22 +37,35 @@ def index():
     output: tag_code
     :return:
     """
-    cursor.execute('SELECT TagCode, SignID FROM tag_site WHERE LENGTH(SignID)>0 AND TagType=2 AND Enabled=1')
-    items = cursor.fetchall()
-    all_tag_site = []
+    # 问题：每次请求连接还是一直连接
+    db = pymysql.connect(**config_mysql)
+    cursor = db.cursor()
     resp = ''
-    for item in items:
-        test = EntityTagSite()
-        test.tag_code = item[0]
-        test.site_id = item[1]
-        all_tag_site.append(test.to_dict())
-    site_id = request.args.get('site_id')
-    for tag_site in all_tag_site:
-        # 多个tag_site 例如 XHSXHSD
-        if site_id == tag_site.get('site_id'):
-            resp += tag_site.get('tag_code') + ','
-
+    try:
+        cursor.execute('SELECT TagCode, SignID FROM tag_site WHERE LENGTH(SignID)>0 AND TagType=2 AND Enabled=1')
+        items = cursor.fetchall()
+        all_tag_site = []
+        for item in items:
+            test = EntityTagSite()
+            test.tag_code = item[0]
+            test.site_id = item[1]
+            all_tag_site.append(test.to_dict())
+        site_id = request.args.get('site_id')
+        for tag_site in all_tag_site:
+            # 多个tag_site 例如 XHSXHSD
+            if site_id == tag_site.get('site_id'):
+                resp += tag_site.get('tag_code') + ','
+    except Exception as e:
+        print(e)
+    finally:
+        cursor.close()
+        db.close()
     return resp[:-1]
+
+    # if resp:
+    #     return resp[:-1]
+    # else:
+    #     return 'not find site_id'
 
 
 if __name__ == '__main__':
