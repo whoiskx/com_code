@@ -96,17 +96,23 @@ s = """ account_init.id = account_insert.get('id')
 # print(hash_md5(s))
 
 # 解析
-s = {
-"status": 0,
-"msg": "成功",
-"data": "{\"id\":50519673,\"name\":\"襄阳市科技馆\",\"account\":\"xykjgdyh\",\"biz\":\"MzA4MTU2OTYwMw\\u003d\\u003d\",\"url\":\"http://weixin.sogou.com/gzh?openid\\u003doIWsFt6j5gSIDk5QfPMHPtdLg8hw\",\"scheduleID\":1,\"interval\":50,\"labelID\":1,\"destinationID\":1,\"authentication\":\"“绿色消费,你行动了吗?”vrT\",\"introduction\":\"想知道科技馆最新活动吗?想知道最潮流的科普小贴士吗?想对科技馆说悄悄话吗?快来关注我们吧!\",\"logoPath\":\"Images/50519/50519673.jpg\",\"weight\":0,\"pause\":0,\"collectiontime\":\"2018-08-24 00:08:58.0\",\"outtime\":1535133336920,\"ipid\":\"\"}"
-}
-data_json = s.get('data')
-import json
-data = json.loads(data_json)
-print(data)
+# s = {
+# "status": 0,
+# "msg": "成功",
+# "data": "{\"id\":50519673,\"name\":\"襄阳市科技馆\",\"account\":\"xykjgdyh\",\"biz\":\"MzA4MTU2OTYwMw\\u003d\\u003d\",\"url\":\"http://weixin.sogou.com/gzh?openid\\u003doIWsFt6j5gSIDk5QfPMHPtdLg8hw\",\"scheduleID\":1,\"interval\":50,\"labelID\":1,\"destinationID\":1,\"authentication\":\"“绿色消费,你行动了吗?”vrT\",\"introduction\":\"想知道科技馆最新活动吗?想知道最潮流的科普小贴士吗?想对科技馆说悄悄话吗?快来关注我们吧!\",\"logoPath\":\"Images/50519/50519673.jpg\",\"weight\":0,\"pause\":0,\"collectiontime\":\"2018-08-24 00:08:58.0\",\"outtime\":1535133336920,\"ipid\":\"\"}"
+# }
+# data_json = s.get('data')
+# import json
+# data = json.loads(data_json)
+# print(data)
+#
+# name = data.get('name')
+# print(name)
+# ss = json.loads('1')
+# print(ss)
 
-name = data.get('name')
-print(name)
-ss = json.loads('1')
+s = 'mp.weixin.qq.com\\\\/s?__biz=MjEwNjI0NzM4MQ==&amp;mid=2670247197&amp;idx=4&amp;sn=2486c64c051c62270bbf44b550415315&amp;chksm=4f6922a7781eabb19203b3809b816a26b42bb1330f3e4b69414bbcc5e2b18014cbd04e88825b&amp;scene=27#wechat_redirect'
+s = 'mp.weixin.qq.com\\\\/s?__biz=MzA5ODUzOTA0OQ==&amp;mid=2651689502&amp;idx=1&amp;sn=03b19580985efae3703bd302e5945c47&amp;chksm=8b693158bc1eb84e73f780d00ff41a1dd727cd99330b19c072702c13649a2349b0db7202a61a&amp;scene=27#wechat_redirect'
+s = '__biz=MzA5ODUzOTA0OQ==&amp;mid=2651689518&amp;idx=1&amp;sn=e94911c2b408a742367abfb36ea1552a&amp;chksm=8b693168bc1eb87e86d2ccd90b89db8bda87aec7e1135822605c68bda96324e9e793d1de1224&amp;scene=27#wechat_redirect'
+ss = s.replace('amp;', '')
 print(ss)

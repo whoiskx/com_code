@@ -48,7 +48,6 @@ Mac下通常是:
 "/Applications/WeChat.app/Contents/MacOS/WeChat" --remote-debugging-port=9222
 按照步骤1打开历史消息页。
 
-使用Chrome浏览器打开URL  http://127.0.0.1:9222/json。
 
 
 
