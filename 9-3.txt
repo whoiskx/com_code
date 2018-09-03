@@ -1,0 +1,3 @@
+py链接数据库 提交之后 navicat刷新 不了
+
+cursor.fetchall()  error

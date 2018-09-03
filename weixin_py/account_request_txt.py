@@ -54,14 +54,9 @@ class AccountHttp(object):
         return homepage.text, account
 
     def get_name(self):
-        url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
-        resp = requests.get(url)
-        # data 可能为空
-        data_json = resp.text.get('data')
-        data = json.loads(data_json)
-        name = data.get('name')
-        print(name)
-        return name
+        with open('name.txt', 'w', encoding='utf-8') as f:
+            name_all = f.read()
+
 
     def run(self):
         name = self.get_name()

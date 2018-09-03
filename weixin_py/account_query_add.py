@@ -24,8 +24,10 @@ config_mysql = {
 # 问题：每次请求连接还是一直连接
 db = pymssql.connect(**config_mysql)
 cursor = db.cursor()
-# cursor.execute("select * from WXAccount")
-# details = cursor.fetchmany(10)
+cursor.execute("select * from WXAccount_copy")
+
+# 先查表 再返回
+details = cursor.fetchmany(100)
 
 
 class Account(object):
@@ -61,7 +63,7 @@ path = '/search/common/wxaccount/select'
 
 @app.route(path, methods=['GET', 'POST'])
 def index():
-    details = []
+    # details = []
     items = details
     all_accounts = []
     if request.method == 'GET':
@@ -99,6 +101,7 @@ def index():
         for account_info in all_accounts:
             if query_name == account_info.get('account'):
                 return jsonify(account_info)
+        return "not find"
 
     if request.method == 'POST':
         # 插入数据  ?? 需要判重么
@@ -143,8 +146,18 @@ def index():
         #      account_add.articleinterval, account_add.label, account_add.biz,))
 
         # cursor.execute("INSERT INTO WXAccount_copy(name) VALUES({})".format(123))
-        cursor.execute("insert into WXAccount_copy(name, url) VALUES({}, {})".format('afdaasfasdfadf', 'dafadfdafadfasf'))
+        # cursor.execute("insert into WXAccount_copy(name, url) VALUES({}, {})".format('afdaasfasdfadf', 'dafadfdafadfasf'))
+        name = account_add.name
+        account = account_add.account
+        url = account_add.url
+        collectiontime = account_add.collectiontime
+        biz = account_add.biz
 
+        insert_sql = """INSERT INTO WXAccount_copy(Name,Account,Url,CollectionTime,Biz)
+                        VALUES ('{}','{}','{}','{}','{}')""".format(name, account, url, collectiontime, biz)
+        print("======")
+        cursor.execute(insert_sql)
+        db.commit()
         # cursor.execute("select * from WXAccount")
         # print(cursor.fetchmany(2))
         # cursor.fetchmany(10)
