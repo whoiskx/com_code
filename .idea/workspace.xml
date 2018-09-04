@@ -6,16 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/weixin_py/ids.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py/account_query_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/account_query_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py/account_request_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/account_request_txt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py/account_tag_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/account_tag_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/account_request_txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/ids_read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/account_request_v2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/account_request_v2.0.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py/mobile.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/mobile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py/send_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/send_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/send_backpack.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py/send_backpack.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,35 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="account_query_add.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_py/account_query_add.py">
+      <file leaf-file-name="ids_read.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py/ids_read.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account_tag_code.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_py/account_tag_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account_request_txt.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weixin_py/account_request_txt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+            <state relative-caret-position="-1353">
+              <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -76,8 +48,8 @@
       <file leaf-file-name="send_backpack.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_backpack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="419">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -132,6 +104,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="send_backpack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py/send_backpack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account_request_v2.0.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weixin_py/account_request_v2.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -144,9 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Bad file descriptor</find>
-      <find>重启</find>
-      <find>切换到备用IP</find>
       <find>useinfo</find>
       <find>log</find>
       <find>print</find>
@@ -174,6 +167,9 @@
       <find>count</find>
       <find>';</find>
       <find>account_alp</find>
+      <find>name</find>
+      <find>send_http_body</find>
+      <find>backpack_list</find>
     </findStrings>
     <replaceStrings>
       <replace>u</replace>
@@ -202,6 +198,9 @@
       <replace>account_add</replace>
       <replace>ariticle</replace>
       <replace>article</replace>
+      <replace>self.name</replace>
+      <replace>uploads_body</replace>
+      <replace>backpack</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\com_code\WechatSogou-master\wechatsogou</dir>
@@ -248,10 +247,8 @@
         <option value="$PROJECT_DIR$/weixin_py/readme.txt" />
         <option value="$PROJECT_DIR$/weixin_py/tests_search.py" />
         <option value="$PROJECT_DIR$/WX/WX_qingbo/mobile_key.py" />
-        <option value="$PROJECT_DIR$/weixin_py/send_backpack.py" />
         <option value="$PROJECT_DIR$/9-3.txt.py" />
         <option value="$PROJECT_DIR$/9-3.txt" />
-        <option value="$PROJECT_DIR$/weixin_py/account_request_v2.0.py" />
         <option value="$PROJECT_DIR$/WX/body_to_row.py" />
         <option value="$PROJECT_DIR$/weixin_py/mobile.html" />
         <option value="$PROJECT_DIR$/DAYBYDAY/6月/6-13_加班.txt" />
@@ -265,6 +262,8 @@
         <option value="$PROJECT_DIR$/weixin_py/log.txt" />
         <option value="$PROJECT_DIR$/weixin_py/ids.txt" />
         <option value="$PROJECT_DIR$/weixin_py/account_request_txt.py" />
+        <option value="$PROJECT_DIR$/weixin_py/send_backpack.py" />
+        <option value="$PROJECT_DIR$/weixin_py/account_request_v2.0.py" />
       </list>
     </option>
   </component>
@@ -374,7 +373,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.account_request_txt">
+  <component name="RunManager" selected="Python.account_request_v2.0">
     <configuration name="account_query_add" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -405,7 +404,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py/account_request_txt.py" />
+      <option name="SCRIPT_NAME" value="D:\com_code\weixin_py\ids_read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="account_request_v2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixin_py" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py/account_request_v2.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -424,24 +441,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py/account_tag_code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="mobile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixin_py" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py/mobile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -466,19 +465,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.mobile" />
       <item itemvalue="Python.account_tag_code" />
       <item itemvalue="Python.account_query_add" />
       <item itemvalue="Python.send_requests" />
       <item itemvalue="Python.account_request_txt" />
+      <item itemvalue="Python.account_request_v2.0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.account_request_v2.0" />
         <item itemvalue="Python.account_request_txt" />
         <item itemvalue="Python.send_requests" />
         <item itemvalue="Python.account_query_add" />
         <item itemvalue="Python.account_tag_code" />
-        <item itemvalue="Python.mobile" />
       </list>
     </recent_temporary>
   </component>
@@ -549,7 +548,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.31914893" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.3106383" />
+      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.44361702" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -898,16 +897,6 @@
           <option name="timeStamp" value="283" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/weixin_py/account_request_v2.0.py</url>
-          <line>187</line>
-          <option name="timeStamp" value="288" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/weixin_py/account_request_v2.0.py</url>
-          <line>162</line>
-          <option name="timeStamp" value="289" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/weixin_py/account_query_add.py</url>
           <line>159</line>
           <option name="timeStamp" value="290" />
@@ -918,9 +907,14 @@
           <option name="timeStamp" value="299" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/weixin_py/account_request_txt.py</url>
+          <url>file://$PROJECT_DIR$/weixin_py/ids_read.py</url>
           <line>73</line>
           <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/account_request_v2.0.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="303" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -933,7 +927,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="302" />
+      <option name="time" value="304" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1145,13 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py/send_backpack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -1273,23 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py/account_request_v2.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1420">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weixin_py/account_tag_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="761">
@@ -1341,17 +1311,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_backpack.py">
+    <entry file="file://$PROJECT_DIR$/weixin_py/ids_read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="-1353">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py/account_request_txt.py">
+    <entry file="file://$PROJECT_DIR$/weixin_py/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        <state relative-caret-position="361">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/WX_qingbo/send_backpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/send_backpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/account_request_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>

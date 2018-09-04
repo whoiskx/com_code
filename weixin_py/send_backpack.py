@@ -1,4 +1,7 @@
+import json
 import time
+import requests
+from setting import log
 
 
 class Article(object):
@@ -58,4 +61,32 @@ class JsonEntity(object):
         m = hashlib.md5()
         m.update(s.encode(encoding='utf-8'))
         return m.hexdigest()
+
+    def uploads(self, backpack_list):
+        if backpack_list:
+            sever1 = 'http://115.231.251.252:26016/'
+            sever2 = 'http://60.190.238.168:38015/'
+            body = json.dumps(backpack_list)
+            # 保证发送成功
+            count = 0
+            while True:
+                if count > 2:
+                    break
+                try:
+                    log('start uploads')
+                    r = requests.post(sever1, data=body)
+                    if r.status_code == 200:
+                        log('uploads server1 successful')
+                except Exception as e:
+                    log('uploads http error1', e)
+                try:
+                    r2 = requests.post(sever2, data=body)
+                    if r2.status_code == 200:
+                        log('uploads server2 successful')
+                        break
+                except Exception as e:
+                    log('uploads http error2', e)
+                count += 1
+            print('uploads over')
+
 
