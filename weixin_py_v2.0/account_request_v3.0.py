@@ -1,15 +1,13 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 import datetime
 import re
-import time
-import pymysql
 import requests
 import json
 from setting import log
 from pyquery import PyQuery as pq
 from send_backpack import JsonEntity, Article, Acount, Backpack
 from config import get_mysql_new, log
-
+from utils import uploads_mysql
 
 config_mysql = get_mysql_new()
 
@@ -18,15 +16,15 @@ class AccountHttp(object):
     def __init__(self):
         self.url = 'https://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_='
         self.account = ''
-        self.name = '' or '大鼎豫剧'
+        self.name = '田坝微讯' or '大鼎豫剧'
 
     def account_homepage(self):
         # 搜索并进入公众号主页
         search_url = self.url.format(self.name)
-        headers = {
-            'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; sct=132; SNUID=568165754F4B3BFC4E8ADF104FB7AB4F; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw'
-        }
-        resp_search = requests.get(search_url, headers=headers)
+        # headers = {
+        #     'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; sct=132; SNUID=568165754F4B3BFC4E8ADF104FB7AB4F; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw'
+        # }
+        resp_search = requests.get(search_url)
         e = pq(resp_search.text)
         account_link = e(".tit").find('a').attr('href')
 
@@ -68,24 +66,23 @@ class AccountHttp(object):
             backpack_list.append(backpack.create_backpack())
 
             # 上传数据库
-            db = pymysql.connect(**config_mysql)
-            cursor = db.cursor()
-            cursor.execute(
-                ''' INSERT INTO 
+            sql = '''   
+                    INSERT INTO 
                         account_http(article_url, addon, account, account_id, author, id, title) 
                     VALUES 
-                        (%s, %s, %s, %s, %s, %s, %s)''',
-                (article.url, datetime.datetime.now(), entity.account,
-                 entity.account_id, entity.author, entity.id, entity.title))
-            db.commit()
-            cursor.close()
-            db.close()
+                        (%s, %s, %s, %s, %s, %s, %s)
+            '''
+            _tuple = (
+                article.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author, entity.id,
+                entity.title
+            )
+            uploads_mysql(config_mysql, sql, _tuple)
             if page_count == 30:
                 break
 
         log("发包")
         if entity:
-            entity.uploads(backpack)
+            entity.uploads(backpack_list)
 
 
 if __name__ == '__main__':
