@@ -4,6 +4,8 @@ from flask import (
     request,
     jsonify,
 )
+from utils import get_mysql_old
+
 
 # 微信旧库
 MYSQL_HOST = '183.131.241.60'
@@ -20,10 +22,6 @@ config_mysql = {
     'password': MYSQL_PASSWORD,
     'charset': 'utf8',
 }
-
-# 问题：每次请求连接还是一直连接
-db = pymssql.connect(**config_mysql)
-cursor = db.cursor()
 
 
 class Account(object):
@@ -55,15 +53,19 @@ class Account(object):
 
 app = Flask(__name__)
 path = '/search/common/wxaccount/select'
-
+config_mysql
 
 @app.route(path, methods=['GET', 'POST'])
 def index():
+    db = pymssql.connect(**config_mysql)
+    cursor = db.cursor()
     if request.method == 'GET':
         query_name = request.args.get("account")
         cursor.execute("select * from WXAccount_copy where Account='{}'".format(query_name))
         # for item in items:
         item = cursor.fetchone()
+        cursor.close()
+        db.close()
         if item:
             account = Account()
             # 自增字段
@@ -151,14 +153,19 @@ def index():
         name = account_add.name
         account = account_add.account
         url = account_add.url
-        collectiontime = '' #and account_add.collectiontime
+        collectiontime = account_add.collectiontime
         biz = account_add.biz
 
-        insert_sql = """INSERT INTO WXAccount_copy(ID, Name,Account,Url,CollectionTime,Biz)
-                        VALUES ('{}', '{}','{}','{}','{}','{}')""".format(id, name, account, url, collectiontime, biz)
+        # insert_sql = """INSERT INTO WXAccount_copy(ID, Name,Account,Url,CollectionTime,Biz)
+        #                 VALUES ('{}', '{}','{}','{}','{}','{}')""".format(id, name, account, url, collectiontime, biz)
+        insert_sql = """INSERT INTO WXAccount_copy(Name,Account,Url,CollectionTime,Biz)
+                        VALUES ('{}','{}','{}','{}','{}')""".format(name, account, url, collectiontime, biz)
         print("======")
+        print(insert_sql)
         cursor.execute(insert_sql)
         db.commit()
+        cursor.close()
+        db.close()
         # cursor.execute("select * from WXAccount")
         # print(cursor.fetchmany(2))
         # cursor.fetchmany(10)

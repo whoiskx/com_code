@@ -2,6 +2,8 @@ import json
 import time
 import requests
 from setting import log
+import re
+from pyquery import PyQuery as pq
 
 
 class Article(object):
@@ -17,6 +19,22 @@ class Article(object):
         self.readnum = ''
         self.likenum = ''
 
+    def create(self, url, name):
+        self.url = url
+        # self.url = 'https://mp.weixin.qq.com/s?timestamp=1535704373&src=3&ver=1&signature=uulJZSS6rD01od4FwW9jJf2U85LjnH9BxezUEyuqJOWmCkhhmv1z22W2vK**KA0II-A-KBkXwdm6ZE0d46Jx3v-mh3U56Ee*i5V5ur7Fil*hJscU-9mjLyHiUZNKr-cFjXdO1pzSzdqdevKPuUh4rTLy-hJCb4FTTWu6nxAVH0c='
+        resp = requests.get(self.url)
+        e = pq(resp.text)
+        self.title = e('.rich_media_title').text().replace(' ', '')
+        self.content = e("#js_content").text().replace('\n', '')
+        self.author = name
+        try:
+            get_timestramp = re.search('var ct=".*?"', resp.text).group()
+            timestramp = re.search('\d+', get_timestramp).group()
+        except Exception as e:
+            print(e)
+            return ''
+        self.time = timestramp + '000'
+
 
 class Acount(object):
     def __init__(self):
@@ -27,6 +45,18 @@ class Acount(object):
         self.account = ''
         # 公众号(中文)
         self.name = ''
+
+    def get_account_id(self):
+        get_account_id = 'http://60.190.238.178:38010/search/common/wxaccount/select?token=9ef358ed-b766-4eb3-8fde-a0ccf84659db&account={}'.format(
+            self.account)
+        url_resp = requests.get(get_account_id)
+        json_obj = json.loads(url_resp.text)
+        results = json_obj.get('results')
+        if results:
+            # todo 没有accountID 怎么做
+            for i in results:
+                self.account_id = i.get('AccountID')
+                break
 
 
 class JsonEntity(object):
@@ -90,3 +120,47 @@ class JsonEntity(object):
             print('uploads over')
 
 
+class Backpack(object):
+    def __init__(self):
+        self.ID = ''
+        self.Account = ''
+        self.TaskID = ''
+        self.TaskName = ''
+        self.AccountID = ''
+        self.SiteID = ''
+        self.TopicID = ''
+        self.Url = ''
+        self.Title = ''
+        self.Content = ''
+        self.Author = ''
+        self.Time = ''
+        self.AddOn = ''
+
+    def create(self, entity):
+        self.ID = entity.id
+        self.Account = entity.account
+        self.TaskID = entity.task_id
+        self.TaskName = entity.task_name
+        self.AccountID = entity.account_id
+        self.SiteID = int(entity.site_id)
+        self.TopicID = 0
+        self.Url = entity.url
+        self.Title = entity.title
+        self.Content = entity.content
+        self.Author = entity.author
+        self.Time = int(entity.time)
+        self.AddOn = int(entity.addon + '000')
+
+    def to_dict(self):
+        return self.__dict__
+
+    def create_backpack(self):
+        uploads_body = {
+            "headers": {
+                "topic": "weixin",
+                "key": self.ID,
+                "timestamp": int(time.time()),
+            }
+        }
+        uploads_body.update({'body': json.dumps(self.to_dict())})
+        return uploads_body
