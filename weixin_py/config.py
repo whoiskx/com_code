@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import time
 
 
 def mysql_tag_code():
@@ -57,3 +58,13 @@ def get_mysql_new():
         'charset': 'utf8'
     }
     return config_mysql
+
+
+# 简单日志
+def log(*args, **kwargs):
+    time_format = '%y-%m-%d %H:%M:%S'
+    value = time.localtime(int(time.time()))
+    dt = time.strftime(time_format, value)
+    print(dt, *args, **kwargs)
+    with open('log.txt', 'a', encoding='utf-8') as f:
+        print(dt, *args, file=f, **kwargs)
