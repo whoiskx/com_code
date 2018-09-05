@@ -8,9 +8,19 @@ from utils import uploads_mysql
 config_mysql = get_mysql_new()
 
 
+def log(*args, **kwargs):
+    time_format = '%y-%m-%d %H:%M:%S'
+    value = time.localtime(int(time.time()))
+    dt = time.strftime(time_format, value)
+    print(dt, *args, **kwargs)
+    with open('mobile_log.txt', 'a', encoding='utf-8') as f:
+        print(dt, *args, file=f, **kwargs)
+
+
 class Mobile(object):
     def __init__(self):
-        self.url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz={}&uin={}&key={}'
+        self.url = ''
+        self.url_match = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz={}&uin={}&key={}'
         self._biz = ''
         self.uin = ''
         self.key = ''
@@ -21,7 +31,7 @@ class Mobile(object):
         }
 
     def create_url(self):
-        self.url = self.url.format(self._biz, self.uin, self.key)
+        self.url = self.url_match.format(self._biz, self.uin, self.key)
         log('账号主页', self.url)
 
     @staticmethod
@@ -41,8 +51,9 @@ class Mobile(object):
             key_uin = r.text.split('|')
             if len(key_uin) == 2:
                 self.uin, self.key = key_uin
-                self.url = self.url.format(self._biz, self.uin, self.key)
                 log('取到key')
+                log(self.key)
+                log(self.uin)
                 break
             else:
                 log('取不到key')
@@ -92,7 +103,7 @@ class Mobile(object):
                             try:
                                 backpack.create(entity)
                             except Exception as e:
-                                log(e)
+                                log('share error', e)
                                 continue
                             backpack_list.append(backpack.create_backpack())
 
@@ -118,12 +129,13 @@ class Mobile(object):
                             entity.uploads(backpack_list)
                             log("uploads successful")
                     except Exception as e:
-                        log(e)
+                        log('account error', e)
                         continue
 
 
 def main():
     test = Mobile()
+    # print(test.biz_list())
     test.run()
 
 

@@ -82,21 +82,23 @@ class AccountHttp(object):
                 url_last = item[15:-18].replace('amp;', '')
                 url = 'https://mp.weixin.qq.com' + url_last
                 article = Article()
-                article.create(url, self.name)
+                article.create(url)
+                if article.is_share is True:
+                    continue
                 log("catch {}".format(article.title))
                 account = Acount()
                 # account 读文件跟信源搜索不一样
                 account.name = article.author
-                account.account = self.name
+                account.account = article.account
                 account.get_account_id()
                 entity = JsonEntity(article, account)
                 backpack = Backpack()
                 # 文章为分享
-                try:
-                    backpack.create(entity)
-                except Exception as e:
-                    log(e)
-                    continue
+                # try:
+                backpack.create(entity)
+                # except Exception as e:
+                #     log(e)
+                #     continue
                 backpack_list.append(backpack.create_backpack())
 
                 # 上传数据库

@@ -18,11 +18,15 @@ class Article(object):
         self.time = ''
         self.readnum = ''
         self.likenum = ''
+        self.is_share = False
 
     def create(self, url, name=''):
         self.url = url
         # self.url = 'https://mp.weixin.qq.com/s?timestamp=1535704373&src=3&ver=1&signature=uulJZSS6rD01od4FwW9jJf2U85LjnH9BxezUEyuqJOWmCkhhmv1z22W2vK**KA0II-A-KBkXwdm6ZE0d46Jx3v-mh3U56Ee*i5V5ur7Fil*hJscU-9mjLyHiUZNKr-cFjXdO1pzSzdqdevKPuUh4rTLy-hJCb4FTTWu6nxAVH0c='
         resp = requests.get(self.url)
+        if 'var ct=' not in resp.text:
+            self.is_share = True
+            return
         e = pq(resp.text)
         self.account = e('.profile_meta_value').eq(0).text()
         self.title = e('.rich_media_title').text().replace(' ', '')
