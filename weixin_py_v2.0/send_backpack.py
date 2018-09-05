@@ -9,30 +9,27 @@ from pyquery import PyQuery as pq
 class Article(object):
     def __init__(self):
         self.url = ''
+        self.account = ''
         self.title = ''
         self.content = ''
         # 作者即公众号名称name
         self.author = ''
-        self.From = ''
+        self._from = ''
         self.time = ''
-
         self.readnum = ''
         self.likenum = ''
 
-    def create(self, url, name):
+    def create(self, url, name=''):
         self.url = url
         # self.url = 'https://mp.weixin.qq.com/s?timestamp=1535704373&src=3&ver=1&signature=uulJZSS6rD01od4FwW9jJf2U85LjnH9BxezUEyuqJOWmCkhhmv1z22W2vK**KA0II-A-KBkXwdm6ZE0d46Jx3v-mh3U56Ee*i5V5ur7Fil*hJscU-9mjLyHiUZNKr-cFjXdO1pzSzdqdevKPuUh4rTLy-hJCb4FTTWu6nxAVH0c='
         resp = requests.get(self.url)
         e = pq(resp.text)
+        self.account = e('.profile_meta_value').eq(0).text()
         self.title = e('.rich_media_title').text().replace(' ', '')
         self.content = e("#js_content").text().replace('\n', '')
         self.author = e('.profile_nickname').text()
-        try:
-            get_timestramp = re.search('var ct=".*?"', resp.text).group()
-            timestramp = re.search('\d+', get_timestramp).group()
-        except Exception as e:
-            print(e)
-            return ''
+        get_timestramp = re.search('var ct=".*?"', resp.text).group()
+        timestramp = re.search('\d+', get_timestramp).group()
         self.time = timestramp + '000'
 
 
@@ -67,7 +64,7 @@ class JsonEntity(object):
         self.content = article.content
         # 公总号名字
         self.author = article.author
-        self.From = article.author
+        self._from = article.author
         self.time = article.time
 
         self.views = article.readnum
@@ -117,10 +114,11 @@ class JsonEntity(object):
                 except Exception as e:
                     log('uploads http error2', e)
                 count += 1
-            print('uploads over')
+            log('uploads over')
 
 
 class Backpack(object):
+    # 首字母大写兼容发包字段
     def __init__(self):
         self.ID = ''
         self.Account = ''

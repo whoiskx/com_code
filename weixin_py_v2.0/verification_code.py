@@ -1,82 +1,40 @@
 # -*- coding: utf-8 -*-
-
-# 处理验证码
-import datetime
 import hashlib
+import random
+import re
+
 import requests
-import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from PIL import Image
-from io import BytesIO
+import datetime
 
-
-def crack_sougou(self, url):
-    print('------开始处理未成功的URL------')
-    self.browser.get(url)
-    time.sleep(3)
-    try:
-        img = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
-        print('------出现验证码页面------')
-        location = img.location
-        size = img.size
-        left = location['x']
-        top = location['y']
-        right = location['x'] + size['width']
-        bottom = location['y'] + size['height']
-        screenshot = self.browser.get_screenshot_as_png()
-        screenshot = Image.open(BytesIO(screenshot))
-        captcha = screenshot.crop((left, top, right, bottom))
-        captcha.save('captcha.png')
-        with open("captcha.png", "rb") as f:
-            filebytes = f.read()
-        captch_result = self.captch_upload_image(filebytes)
-        captch_input = captch_result.get('Result')
-        print('------验证码：{}------'.format(captch_input))
-        if captch_input:
-            input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
-            input_text.clear()
-            input_text.send_keys(captch_input)
-            submit = self.wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
-            submit.click()
-            try:
-                print('------输入验证码------')
-                error_tips = self.wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
-                if len(error_tips):
-                    print('------验证码输入错误------')
-                    return
-                self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
-                print('------验证码正确------')
-                cookies = self.browser.get_cookies()
-                new_cookie = {}
-                for items in cookies:
-                    new_cookie[items.get('name')] = items.get('value')
-                self.cookies = new_cookie
-                print('------cookies已更新------')
-                return new_cookie
-            except:
-                print('------验证码输入错误------')
-    except:
-        print('------未跳转到验证码页面，跳转到首页，忽略------')
+# 打码平台参数配置
+# 接口URL
+DYTRY_APIURL = 'http://api.dytry.com/ocr.json'
+# 用户名
+DYTRY_USERNAME = 'uruntest'
+# 用户密码
+DYTRY_PASSWORD = '0763!@#'
+# 题目类型
+DYTRY_TYPEID = 9999
+# 软件ID
+DYTRY_SOFTID = 1107
+# 软件KEY
+DYTRY_SOFTKEY = '34af19d2ee35e938dbbdc0336eb730cb'
 
 
 # 识别验证码
-def captch_upload_image(self, filebytes):
-    url = 'http://api.dytry.com/ocr.json'
-    paramKeys = ['username',
-                 'password',
-                 'typeid',
-                 'softid',
-                 'softkey'
-                 ]
+def captch_upload_image(filebytes):
+    """
+    :param filebytes: 待识别图像的二进制数据
+    :return: 验证码识别后的字符串
+    """
+
+    paramKeys = ['username', 'password', 'typeid', 'softid', 'softkey']
     paramDict = {
-        "username": "uruntest",
-        "password": "0763!@#",
-        "typeid": 9999,
-        "softid": 1107,
-        "softkey": "34af19d2ee35e938dbbdc0336eb730cb"
+        "username": DYTRY_USERNAME,
+        "password": DYTRY_PASSWORD,
+        "typeid": DYTRY_TYPEID,
+        "softid": DYTRY_SOFTID,
+        "softkey": DYTRY_SOFTKEY,
     }
 
     timestr = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S').encode('utf-8')
@@ -103,6 +61,35 @@ def captch_upload_image(self, filebytes):
                'Connection': 'Keep-Alive',
                'Expect': '100-continue',
                }
-    response = requests.post(url, params='', data=bs, headers=headers)
+    response = requests.post(url=DYTRY_APIURL, params='', data=bs, headers=headers)
     requests.utils.dict_from_cookiejar(response.cookies)
-    return response.json()
+    captch_input = response.json().get('Result')
+    return captch_input
+
+url = 'http://mp.weixin.qq.com/profile?src=3&timestamp=1536113209&ver=1&signature=HsNYMYa2L5cZcVHzJPWjpzwqd1S6Uh0ATodp-fz7bGSuLtCft8DYPb0fJSG-yDKIPgAuJxk6XO2s4uMTX*V8WQ=='
+
+headers = {
+    'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw; SNUID=22DB3E2F151060E72907EDED151C0C72; sct=147'
+}
+r = requests.get(url, headers=headers)
+print('------开始处理微信验证码------')
+print('微信验证码URL:', url)
+cert = random.random()
+s = requests
+image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
+respones1 = s.get(image_url)
+with open('code1.txt', 'w', encoding='utf-8') as f:
+    f.write(respones1.text)
+captch_input = captch_upload_image(respones1.content)
+print('------验证码：{}------'.format(captch_input))
+data = {
+    'cert': cert,
+    'input': captch_input
+}
+respones = s.post(image_url, headers=headers, data=data)
+print(respones.status_code)
+print(respones.cookies)
+print('e')
+# print('respones.cookies', respones.cookies)
+# print('------cookies已更新------')
+

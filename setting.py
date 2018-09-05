@@ -13,7 +13,6 @@ def log(*args, **kwargs):
     with open('log.txt', 'a', encoding='utf-8') as f:
         print(dt, *args, file=f, **kwargs)
 
-
 email = "live41@163.com"
 password = "cs-123456"
 

@@ -66,11 +66,14 @@ class AccountHttp(object):
         name_list = self.get_name()
         for name in name_list:
             # name = '大鼎豫剧'
+            log('start {}'.format(name))
             self.name = name
             _tuple = self.account_homepage(name)
+            # 跳过 搜索不到的公众号
             if _tuple:
                 html, _account = self.account_homepage(name)
             else:
+                log('not find {}'.format(self.name))
                 continue
             # 所有文章链接
             items = re.findall('"content_url":".*?,"copyright_stat"', html)
@@ -80,6 +83,7 @@ class AccountHttp(object):
                 url = 'https://mp.weixin.qq.com' + url_last
                 article = Article()
                 article.create(url, self.name)
+                log("catch {}".format(article.title))
                 account = Acount()
                 # account 读文件跟信源搜索不一样
                 account.name = article.author
@@ -87,9 +91,13 @@ class AccountHttp(object):
                 account.get_account_id()
                 entity = JsonEntity(article, account)
                 backpack = Backpack()
-                backpack.create(entity)
+                # 文章为分享
+                try:
+                    backpack.create(entity)
+                except Exception as e:
+                    log(e)
+                    continue
                 backpack_list.append(backpack.create_backpack())
-                log('catch {} successul'.format(account.name))
 
                 # 上传数据库
                 sql = '''   
@@ -105,6 +113,7 @@ class AccountHttp(object):
                 uploads_mysql(config_mysql, sql, _tuple)
                 if page_count == 30:
                     break
+            log('catch {} successul 共{}条文章'.format(self.name, page_count))
 
             log("发包")
             if entity:
