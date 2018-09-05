@@ -7,8 +7,6 @@ def uploads_mysql(config_mysql, sql, _tuple):
     cursor = db.cursor()
     cursor.execute(sql, _tuple)
     db.commit()
-    cursor.close()
-    db.close()
 
 # 微信旧库
 import pymssql
