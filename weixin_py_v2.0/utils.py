@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import pymysql
+import pymssql
 
 
 def uploads_mysql(config_mysql, sql, _tuple):
@@ -7,10 +8,11 @@ def uploads_mysql(config_mysql, sql, _tuple):
     cursor = db.cursor()
     cursor.execute(sql, _tuple)
     db.commit()
+    cursor.close()
+    db.close()
+
 
 # 微信旧库
-import pymssql
-
 MYSQL_HOST = '183.131.241.60'
 MYSQL_PORT = 38019
 MYSQL_USER = 'oofraBnimdA_gz'

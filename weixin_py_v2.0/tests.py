@@ -22,7 +22,23 @@
 # info_list= json.loads(info_str)
 # for info in info_list:
 #     _biz = info.get('biz')
-
-s = 'content_url":"http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzIzMDQyMjcxOA==&amp;mid=2247486157&amp;idx=1&amp;sn=6c582fa94c4a0da0821a0fc624dd17cc&amp;chksm=e8b2eb1cdfc5620ac7edbd655113f0725875b4fbcdb5777e4bacaa40c57993535985112742d0&amp;scene=27#wechat_redirect'
-url = s.replace('amp;', '').replace('content_url":"http:\\/\\/mp.weixin.qq.com\\/s?', '')
-print(url)
+# 
+# s = 'content_url":"http:\\/\\/mp.weixin.qq.com\\/s?__biz=MzIzMDQyMjcxOA==&amp;mid=2247486157&amp;idx=1&amp;sn=6c582fa94c4a0da0821a0fc624dd17cc&amp;chksm=e8b2eb1cdfc5620ac7edbd655113f0725875b4fbcdb5777e4bacaa40c57993535985112742d0&amp;scene=27#wechat_redirect'
+# url = s.replace('amp;', '').replace('content_url":"http:\\/\\/mp.weixin.qq.com\\/s?', '')
+# print(url)
+import requests
+url = 'http://183.131.241.60:38011/outkey'
+_biz = ''
+while True:
+    r = requests.get(url)
+    print(r.text)
+    key_uin = r.text.split('|')
+    if len(key_uin) == 2:
+        uin, key = key_uin
+        url = 'https://mp.weixin.qq.com/mp/profile_ext?' \
+                   'action=home&__biz={}&uin={}&key={}'.format(_biz, uin, key)
+        break
+    else:
+        print('none')
+        uin = ''
+        key = ''
