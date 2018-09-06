@@ -73,10 +73,11 @@ class Mobile(object):
                         resp = requests.get(self.url, headers=self.headers)
                         # 响应结果为空即key失效
                         if len(resp.text) == 0:
+                            log('key失效，获取新的链接', self.url)
                             self.set_key_uin()
                             resp = requests.get(self.url, headers=self.headers)
                         else:
-                            log('新的key链接', self.url)
+                            log('key有效，链接', self.url)
                         match_url = re.search('var msgList =.*?\';', resp.text).group()
                         escape_url = html.unescape(match_url)
 
@@ -122,7 +123,7 @@ class Mobile(object):
                             uploads_mysql(config_mysql, sql, _tuple)
                             # # if article_count == 30:
                             # #     break
-                        log('采集{}成功，共{}条文章'.format(self.name, article_count + 1))
+                        log('采集账号：{} 所有文章完毕，共{}条文章'.format(self.name, article_count + 1))
 
                         log("发包")
                         if entity:

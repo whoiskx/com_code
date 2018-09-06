@@ -5,3 +5,6 @@ cursor.fetchall()  error
 
 不返回值
 return
+
+Linux ssh会话关闭 相关进程都被杀死
+    nohup xx
