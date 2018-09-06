@@ -4497,3 +4497,9 @@
 18-09-06 10:35:54 采集账号： 所有文章完毕，共27条文章
 18-09-06 10:35:54 发包
 18-09-06 10:35:54 uploads successful
+18-09-06 11:44:34 key有效，当前链接 https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4OTEwNDUwMA==&uin=MTE1NjkxODg2MQ==&key=2e15abc1cc63c6472b3f9e24b445b1c19bb7dcee55cf4eb76c5363872c0f2f760899356828e84a3aeeb272cb0565257c52ac612c186648dbb4226484e2f04530a140a103860689fe7656df0d53f08ab5
+18-09-06 11:45:48 文章标题 【今日头条】“移动人梯”救助乡亲--《人民日报》也为茂名点赞！
+18-09-06 11:48:06 文章链接 https://mp.weixin.qq.com/s?__biz=MzA4OTEwNDUwMA==&mid=2657356901&idx=1&sn=ecca7c5fdb4fd4e1eba2ef75d4751f7e&chksm=8bb0a57ebcc72c68cdfce21e5c2ddca03859db65db7adc07efdb27d90a723f3fd3527faa749d&scene=27#wechat_redirect
+18-09-06 11:48:13 文章标题 【今日头条】“移动人梯”救助乡亲--《人民日报》也为茂名点赞！
+18-09-06 11:48:24 share error int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+18-09-06 11:48:25 文章链接 https://mp.weixin.qq.com/s?__biz=MzA4OTEwNDUwMA==&mid=2657356901&idx=2&sn=76f7b6bdff278ad7dafd9f2b1fc1d405&chksm=8bb0a57ebcc72c6873828439256cabba6d79c0ffe61493d00d1b040c9f58895a58abc152c751&scene=27#wechat_redirect

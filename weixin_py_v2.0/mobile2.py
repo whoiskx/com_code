@@ -61,6 +61,18 @@ class Mobile(object):
                 self.uin = ''
                 self.key = ''
 
+    def urls_article(self, resp):
+        match_url = re.search('var msgList =.*?\';', resp.text).group()
+        escape_url = html.unescape(match_url)
+        urls_serach = re.findall('content_url.*?mp.weixin.qq.com.*?#wechat_redirect', escape_url)
+        prefix = 'https://mp.weixin.qq.com/s?'
+        urls = []
+        for url in urls_serach:
+            url = prefix + url.replace('amp;', '').replace(r'content_url":'
+                                                           r'"http:\\/\\/mp.weixin.qq.com\\/s?', '')
+            urls.append(url)
+        return urls
+
     def run(self):
         self.set_key_uin()
         while True:
@@ -70,33 +82,33 @@ class Mobile(object):
                     try:
                         self._biz = biz
                         self.create_url()
+                        # self.url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4OTEwNDUwMA==&uin=MTE1NjkxODg2MQ==&key=2e15abc1cc63c6472b3f9e24b445b1c19bb7dcee55cf4eb76c5363872c0f2f760899356828e84a3aeeb272cb0565257c52ac612c186648dbb4226484e2f04530a140a103860689fe7656df0d53f08ab5'
                         resp = requests.get(self.url, headers=self.headers)
                         # 响应结果为空即key失效
                         if len(resp.text) == 0:
-                            log('key失效，获取新的链接', self.url)
+                            log('key失效，获取新的key', self.url)
                             self.set_key_uin()
                             resp = requests.get(self.url, headers=self.headers)
                         else:
-                            log('key有效，链接', self.url)
-                        match_url = re.search('var msgList =.*?\';', resp.text).group()
-                        escape_url = html.unescape(match_url)
+                            log('key有效，当前链接', self.url)
+                        urls = self.urls_article(resp)
 
-                        urls = re.findall('content_url.*?mp.weixin.qq.com.*?#wechat_redirect', escape_url)
-                        prefix = 'https://mp.weixin.qq.com/s?'
+                        # 构建account
+                        article = Article()
+                        article.create(urls[0])
+                        log("文章标题 {}".format(article.title))
+                        account = Acount()
+                        account.name = article.author
+                        account.account = article.account
+                        account.get_account_id()
+
                         backpack_list = []
                         article_count = 0
                         for article_count, url in enumerate(urls):
-                            url = prefix + url.replace('amp;', '').replace(r'content_url":'
-                                                                           r'"http:\\/\\/mp.weixin.qq.com\\/s?', '')
                             log('文章链接', url)
                             article = Article()
                             article.create(url)
                             log("文章标题 {}".format(article.title))
-                            account = Acount()
-                            # account 读文件跟信源搜索不一样
-                            account.name = article.author
-                            account.account = article.account
-                            account.get_account_id()
                             entity = JsonEntity(article, account)
                             backpack = Backpack()
 

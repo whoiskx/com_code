@@ -6,15 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180906.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180906.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/mobile_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9-3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/mobile_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/mobile_log.txt" afterDir="false" />
     </list>
@@ -41,8 +33,8 @@
       <file leaf-file-name="mobile2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="95" column="46" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -53,8 +45,8 @@
       <file leaf-file-name="mobile_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-741">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="396">
+              <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -65,10 +57,22 @@
       <file leaf-file-name="mobile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+            <state relative-caret-position="-46">
+              <caret line="50" column="62" lean-forward="true" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send_backpack.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/send_backpack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +114,8 @@
       <file leaf-file-name="ids_read.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/ids_read.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="268">
+              <caret line="78" column="74" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="74" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -119,30 +123,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38979" />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mobile_log.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile_log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="4439" column="22" selection-start-line="4439" selection-start-column="18" selection-end-line="4439" selection-end-column="22" />
+            <state relative-caret-position="297">
+              <caret line="3934" column="6" lean-forward="true" selection-start-line="3934" selection-start-column="6" selection-end-line="3934" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send_backpack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/send_backpack.py">
+      <file leaf-file-name="server_temp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/server_temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -159,7 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>zhejiangzhisheng</find>
       <find>755461291165338</find>
       <find>415429415135237</find>
       <find>''</find>
@@ -189,6 +182,7 @@
       <find>config_mysql</find>
       <find>self.url</find>
       <find>采集账号</find>
+      <find>key</find>
     </findStrings>
     <replaceStrings>
       <replace>self.driver</replace>
@@ -233,7 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weixin_py/sougou_weixin.py" />
         <option value="$PROJECT_DIR$/weixin_py/mysql_to_xx.py" />
         <option value="$PROJECT_DIR$/weixin_py/daff.py" />
         <option value="$PROJECT_DIR$/Facebook/headurl/img_header.py" />
@@ -273,7 +266,6 @@
         <option value="$PROJECT_DIR$/weixin_py/tests_search.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/verification_code.py" />
         <option value="$PROJECT_DIR$/setting.py" />
-        <option value="$PROJECT_DIR$/weixin_py_v2.0/mobile.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/tests.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/utils.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/ids.txt" />
@@ -282,8 +274,10 @@
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" />
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" />
         <option value="$PROJECT_DIR$/9-3.txt" />
-        <option value="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/mobile_test.py" />
+        <option value="$PROJECT_DIR$/server/server_temp.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/mobile.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" />
       </list>
     </option>
   </component>
@@ -365,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mobile_test">
+  <component name="RunManager" selected="Python.mobile2">
     <configuration name="get_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -465,10 +459,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mobile2" />
         <item itemvalue="Python.mobile_test" />
         <item itemvalue="Python.get_excel" />
         <item itemvalue="Python.get_excel_julei" />
-        <item itemvalue="Python.mobile2" />
         <item itemvalue="Python.ids_read" />
       </list>
     </recent_temporary>
@@ -531,16 +525,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.15173867" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.15173867" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.29787233" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39468086" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.29787233" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3638298" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32234043" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.3531915" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2638298" />
+      <window_info active="true" anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.3531915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -945,8 +939,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/weixin_py_v2.0/mobile2.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="343" />
+          <line>84</line>
+          <option name="timeStamp" value="344" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -959,7 +953,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="344" />
+      <option name="time" value="345" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1081,15 +1075,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1325,29 +1310,9 @@
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/requests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/send_backpack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38979" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/ids_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py">
@@ -1377,37 +1342,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile.py">
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile_log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="3934" column="6" lean-forward="true" selection-start-line="3934" selection-start-column="6" selection-end-line="3934" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server_temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="396">
+          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile_log.txt">
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/send_backpack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="4439" column="22" selection-start-line="4439" selection-start-column="18" selection-end-line="4439" selection-end-column="22" />
+        <state relative-caret-position="214">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/ids_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="78" column="74" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="74" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="50" column="62" lean-forward="true" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/mobile2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="95" column="46" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+        <state relative-caret-position="34">
+          <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
