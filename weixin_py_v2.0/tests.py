@@ -27,18 +27,32 @@
 # url = s.replace('amp;', '').replace('content_url":"http:\\/\\/mp.weixin.qq.com\\/s?', '')
 # print(url)
 import requests
-url = 'http://183.131.241.60:38011/outkey'
-_biz = ''
-while True:
-    r = requests.get(url)
-    print(r.text)
-    key_uin = r.text.split('|')
-    if len(key_uin) == 2:
-        uin, key = key_uin
-        url = 'https://mp.weixin.qq.com/mp/profile_ext?' \
-                   'action=home&__biz={}&uin={}&key={}'.format(_biz, uin, key)
-        break
-    else:
-        print('none')
-        uin = ''
-        key = ''
+# url = 'http://183.131.241.60:38011/outkey'
+# _biz = ''
+# while True:
+#     r = requests.get(url)
+#     print(r.text)
+#     key_uin = r.text.split('|')
+#     if len(key_uin) == 2:
+#         uin, key = key_uin
+#         url = 'https://mp.weixin.qq.com/mp/profile_ext?' \
+#                    'action=home&__biz={}&uin={}&key={}'.format(_biz, uin, key)
+#         break
+#     else:
+#         print('none')
+#         uin = ''
+#         key = ''
+# for i in range(2):
+#     s = requests.Session()
+#     r = s.get('https://mp.weixin.qq.com/profile?src=3&timestamp=1536203019&ver=1&signature=NHsz0BdTJaHizbwPPaEODtFV*unABNSLtg*PGevDLZ4dk6dzGAcREd9LbWW3pKjIwCc9Oq8evkihia9XfLP6Xg==')
+#     with open('code.html', 'w', encoding='utf-8') as f:
+#         f.write(r.text)
+#     if '验证码' in r.text:
+#         print('find')
+#     cc = r.cookies.get_dict()
+#     print(cc)
+
+with open('ids.txt', 'r', encoding='utf-8') as f:
+    name_all = f.read()
+id_list = name_all.split("\n")
+print(id_list)

@@ -84,6 +84,7 @@ class AccountHttp(object):
                         '骄阳图画本', '郑州一中主体课堂', '至尊银座浙皖汇', '湛江幼专中文系', '北京市大兴区长子营镇中心卫生院', '钟吟在线', '快乐将至ing', '方糖老妖日记',
                         '一木之中', '周庄庄', 'zhangsy', '千奇百货', '折中折', '4K', '微凉子珍', '可乐主人', '转转赚', '鱼丸米线的工作室', '鱼丸米线的小窝',
                         '漫长的白日梦', 'ZZZZZZpc', '壮壮壮果屋', '折中哲华北区', '折中哲华东区']
+        account_list = ['宁夏新闻网']
         for name in account_list:
             self.name = name
             html_account = self.account_homepage()
@@ -111,6 +112,10 @@ class AccountHttp(object):
                 backpack_list.append(backpack.create_backpack())
 
                 # 上传数据库
+                import pymongo
+                db = pymongo.MongoClient()
+                backpack.data = datetime.datetime.now()
+                db['test']['wx'].insert(backpack.to_dict())
                 sql = '''   
                         INSERT INTO 
                             account_http(article_url, addon, account, account_id, author, id, title) 

@@ -19,8 +19,8 @@ config_mysql = mysql_tag_code()
 @app.route('/tag_code')
 def index():
     """
-    input: site_id
-    output: tag_code
+    param: site_id
+    return: tag_code
     """
     db = pymysql.connect(**config_mysql)
     cursor = db.cursor()
