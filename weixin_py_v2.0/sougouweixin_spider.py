@@ -21,9 +21,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-IMAGE_DIR = os.path.join(BASE_DIR, 'images')
-CAPTCHA_NAME = 'captcha.png'
 
 class SougouWexin(object):
     def __init__(self, url):

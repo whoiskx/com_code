@@ -6,7 +6,7 @@ import time
 
 import requests
 import json
-from setting import log
+from setting import log, hash_md5
 from pyquery import PyQuery as pq
 from send_backpack import JsonEntity, Article, Acount, Backpack
 from config import get_mysql_new, log
@@ -41,16 +41,18 @@ class AccountHttp(object):
         }
         self.cookies = {}
 
+        self.db = ''
+
     def account_homepage(self):
         # 搜索并进入公众号主页
         search_url = self.url.format(self.name)
         resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
 
-        if 'class="b404-box" id="noresult_part1_container"' in resp_search.text:
+        if '相关的官方认证订阅号' in resp_search.text:
             log("找不到该公众号: {}".format(self.name))
             return
         e = pq(resp_search.text)
-        if e(".tit").eq(0).text() == self.name:
+        if self.name in e(".info").eq(0).text():
             account_link = e(".tit").find('a').attr('href')
         elif len(e(".tit").eq(0).text()) > 1:
             log("不能匹配正确的公众号: {}".format(self.name))
@@ -106,78 +108,72 @@ class AccountHttp(object):
             urls.append(url)
         return urls
 
-    def run(self):
+    def run(self, db=''):
         # self.set_name()
         # while True:
-        account_list = ['大数据发布', '上海港湾集团', '绿盟365', '酌梦录', '瞄了个喵', '豪德通讯', '魔都娱乐1', '大侠的小宇宙', '澳洲梦', '盛世路跑', '佛系金融女',
-                        '中卫今日热点', '金华社区居委会', '昕说法', '华农海洋研会', '尘埃一生', '革镇堡街道普法', '速度车行', '七分钟高清视频', '摘星少女酱',
-                        '青海省格尔木市健桥医院', '乐用好车', '最强省钱喵喵君', '石柱港航', '荣盛物业长沙花语馨苑客服中心', '汕头超声集团', '中奥吴郡半岛', '隽永人生',
-                        '飞鸿影视传媒', 'RGSE义乌雨具遮阳及防护用品展']
-
         articles = []
-        from setting import hash_md5
-        ID = hash_md5(self.name + str(int(time.time())))
+        self.db = db
+        # data = db['newMedia'].find({'account': self.name})
+        # for name in account_list:
+        #     if len(name) == 0:
+        #         continue
+        #     self.name = name
+        html_account = self.account_homepage()
+        if html_account:
+            html, account_of_homepage = html_account
+        else:
+            return
+        log('start 公众号: ', self.name)
+        urls_article = self.urls_article(html)
 
-        for name in account_list:
-            if len(name) == 0:
-                continue
-            self.name = name
+        account = Acount()
+        account.name = self.name
+        account.account = account_of_homepage
+        account.get_account_id()
 
-            html_account = self.account_homepage()
-            if html_account:
-                html, account_of_homepage = html_account
-            else:
-                continue
-            log('start 公众号: ', self.name)
-            urls_article = self.urls_article(html)
+        backpack_list = []
+        for page_count, url in enumerate(urls_article):
+            # if page_count < 35:
+            #     continue
+            article = Article()
+            article.create(url, self.name)
+            log('文章标题:', article.title)
+            log("第{}条".format(page_count))
 
-            account = Acount()
-            account.name = self.name
-            account.account = account_of_homepage
-            account.get_account_id()
+            entity = JsonEntity(article, account)
+            backpack = Backpack()
+            backpack.create(entity)
+            backpack_list.append(backpack.create_backpack())
 
-            backpack_list = []
-            for page_count, url in enumerate(urls_article):
-                # if page_count < 35:
-                #     continue
-                article = Article()
-                article.create(url, self.name)
-                log('文章标题:', article.title)
-                log("第{}条".format(page_count))
+            # 所有文章
+            article_info = backpack.to_dict()
 
-                entity = JsonEntity(article, account)
-                backpack = Backpack()
-                backpack.create(entity)
-                backpack_list.append(backpack.create_backpack())
+            articles.append(article_info)
 
-                # 所有文章
-                article_info = backpack.to_dict()
-                articles.append({ID: article_info})
-
-                # import pymongo
-                # conn = pymongo.MongoClient('120.78.237.213', 27017)
-                # db = conn.WeChat
-                # db['account'].insert(articles)
-
-                # 上传数据库
-                import pymongo
-                conn = pymongo.MongoClient('120.78.237.213', 27017)
-                sql = '''
-                        INSERT INTO
-                            account_http(article_url, addon, account, account_id, author, id, title)
-                        VALUES
-                            (%s, %s, %s, %s, %s, %s, %s)
-                '''
-                _tuple = (
-                    article.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author, entity.id,
-                    entity.title
-                )
-                uploads_mysql(config_mysql, sql, _tuple)
-                # if page_count == 5:
-                #     break
+            # 上传数据库
+            # import pymongo
+            # conn = pymongo.MongoClient('120.78.237.213', 27017)
+            # conn['newMedia'].insert()
+            sql = '''
+                    INSERT INTO
+                        account_http(article_url, addon, account, account_id, author, id, title)
+                    VALUES
+                        (%s, %s, %s, %s, %s, %s, %s)
+            '''
+            _tuple = (
+                article.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author, entity.id,
+                entity.title
+            )
+            uploads_mysql(config_mysql, sql, _tuple)
+            # if page_count == 5:
+            #     break
+        import pymongo
+        conn = pymongo.MongoClient('120.78.237.213', 27017)
+        db = conn.WeChat
+        db['newMedia'].update({'account': self.name}, {'$set': {'data': articles}})
 
         log("发包")
-        if entity:
+        if backpack_list:
             entity.uploads(backpack_list)
 
     def crack_sougou(self, url):
