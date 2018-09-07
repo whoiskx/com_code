@@ -11,6 +11,9 @@ from pyquery import PyQuery as pq
 from send_backpack import JsonEntity, Article, Acount, Backpack
 from config import get_mysql_new, log
 from utils import uploads_mysql
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 config_mysql = get_mysql_new()
 
@@ -19,14 +22,14 @@ class AccountHttp(object):
     def __init__(self):
         self.url = 'https://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_='
         self.account = ''
-        self.name = '田坝微讯' or '大鼎豫剧'
-
+        self.name = ''
         self.s = requests.Session()
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-            'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw; LSTMV=0%2C0; LCLKINT=235; SNUID=9A638690ABAEDE83070339C3ACDDE1AD; sct=168'
+            # 'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw; LSTMV=0%2C0; LCLKINT=235; SNUID=9A638690ABAEDE83070339C3ACDDE1AD; sct=168'
+            'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; LSTMV=0%2C0; LCLKINT=235; SNUID=9A638690ABAEDE83070339C3ACDDE1AD; sct=179; SUIR=9A638690ABAEDE83070339C3ACDDE1AD'
         }
 
     def account_homepage(self):
@@ -34,16 +37,20 @@ class AccountHttp(object):
         search_url = self.url.format(self.name)
         resp_search = self.s.get(search_url, headers=self.headers)
 
-
         if 'class="b404-box" id="noresult_part1_container"' in resp_search.text:
             log("找不到该公众号: {}".format(self.name))
             return
         e = pq(resp_search.text)
         if e(".tit").eq(0).text() == self.name:
             account_link = e(".tit").find('a').attr('href')
-        else:
+        elif len(e(".tit").eq(0).text()) > 1:
             log("不能匹配正确的公众号: {}".format(self.name))
+        else:
+            # 处理验证码
             return
+        account_match = re.search(r'微信号：\w*', e.text())
+        account_search = account_match.group().replace('微信号：', '') if account_match else ''
+
         homepage = self.s.get(account_link)
         if '<title>请输入验证码 </title>' in homepage.text:
             print("出现验码")
@@ -64,7 +71,8 @@ class AccountHttp(object):
             homepage = self.s.get(account_link)
             print('破解验证码之后')
         account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
-        return homepage.text, account
+        # 搜索页面有account，公众号主页有account，确保找到account
+        return homepage.text, account or account_search
 
     def set_name(self):
         url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
@@ -76,63 +84,85 @@ class AccountHttp(object):
         # print(self.name)
         # return self.name
 
+    def urls_article(self, html):
+        items = re.findall('"content_url":".*?,"copyright_stat"', html)
+        urls = []
+        for item in items:
+            url_last = item[15:-18].replace('amp;', '')
+            url = 'https://mp.weixin.qq.com' + url_last
+            urls.append(url)
+        return urls
+
     def run(self):
         # self.set_name()
         # while True:
-        account_list = ['云中燕', '律动青春',
-                        '长岭宝宝乐母婴生活馆', '上海足之源足浴用品有限公司', '私人资源杂货铺', 'zz燕子呀', '中浙油', '金欧莱总代', '神秘电影巨星', '郑州幼儿师范高等专科学校招就办',
-                        '骄阳图画本', '郑州一中主体课堂', '至尊银座浙皖汇', '湛江幼专中文系', '北京市大兴区长子营镇中心卫生院', '钟吟在线', '快乐将至ing', '方糖老妖日记',
-                        '一木之中', '周庄庄', 'zhangsy', '千奇百货', '折中折', '4K', '微凉子珍', '可乐主人', '转转赚', '鱼丸米线的工作室', '鱼丸米线的小窝',
-                        '漫长的白日梦', 'ZZZZZZpc', '壮壮壮果屋', '折中哲华北区', '折中哲华东区']
-        account_list = ['宁夏新闻网']
+        account_list = ['晚聊伴夜',
+                        '氢氪财经', '菲迪克智慧工程企业管理平台', '山西同乡群', '筱猫影视', '沈阳南动车运用所', '潇湘茶', '众智睿赢企业管理咨询有限公司', '微景相册', '书悦堂',
+                        '分享好宝贝', '民艺旅舍', '女王Dcup', '轻松定位美丽', '乐清市红辣椒越剧艺苑', '畅舞馆', '人禾健康产业', '常州格物斯坦机器人创客中心', '千秋妃子',
+                        '崇左航博']
+        articles = []
+        from setting import hash_md5
+        ID = hash_md5(self.name + str(int(time.time())))
+
         for name in account_list:
             self.name = name
             html_account = self.account_homepage()
             if html_account:
-                html, account_alp = html_account
+                html, account_of_homepage = html_account
             else:
                 continue
-            log('start', self.name)
-            items = re.findall('"content_url":".*?,"copyright_stat"', html)
+            log('start 公众号: ', self.name)
+            urls_article = self.urls_article(html)
+
+            account = Acount()
+            account.name = self.name
+            account.account = account_of_homepage
+            account.get_account_id()
+
             backpack_list = []
-            for page_count, item in enumerate(items):
-                url_last = item[15:-18].replace('amp;', '')
-                url = 'https://mp.weixin.qq.com' + url_last
+            for page_count, url in enumerate(urls_article):
+                # if page_count < 35:
+                #     continue
                 article = Article()
                 article.create(url, self.name)
                 log('文章标题:', article.title)
-                account = Acount()
-                account.name = self.name
-                account.account = account_alp
-                account.get_account_id()
+                log("第{}条".format(page_count))
 
                 entity = JsonEntity(article, account)
                 backpack = Backpack()
                 backpack.create(entity)
                 backpack_list.append(backpack.create_backpack())
 
-                # 上传数据库
-                import pymongo
-                db = pymongo.MongoClient()
-                backpack.data = datetime.datetime.now()
-                db['test']['wx'].insert(backpack.to_dict())
-                sql = '''   
-                        INSERT INTO 
-                            account_http(article_url, addon, account, account_id, author, id, title) 
-                        VALUES 
-                            (%s, %s, %s, %s, %s, %s, %s)
-                '''
-                _tuple = (
-                    article.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author, entity.id,
-                    entity.title
-                )
-                uploads_mysql(config_mysql, sql, _tuple)
-                # if page_count == 5:
-                #     break
+                # 所有文章
+                article_info = backpack.to_dict()
+                articles.append({ID:article_info})
 
-        log("发包")
-        if entity:
-            entity.uploads(backpack_list)
+        import pymongo
+        conn = pymongo.MongoClient('120.78.237.213', 27017)
+        db = conn.WeChat
+        db['account'].insert(articles)
+
+
+        #         # 上传数据库
+        #         import pymongo
+        #         conn = pymongo.MongoClient('120.78.237.213', 27017)
+        #         sql = '''
+        #                 INSERT INTO
+        #                     account_http(article_url, addon, account, account_id, author, id, title)
+        #                 VALUES
+        #                     (%s, %s, %s, %s, %s, %s, %s)
+        #         '''
+        #         _tuple = (
+        #             article.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author, entity.id,
+        #             entity.title
+        #         )
+        #         uploads_mysql(config_mysql, sql, _tuple)
+        #         # if page_count == 5:
+        #         #     break
+        #
+        # log("发包")
+        # if entity:
+        #     entity.uploads(backpack_list)
 
 
 if __name__ == '__main__':

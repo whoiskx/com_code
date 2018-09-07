@@ -19,14 +19,14 @@ class AccountHttp(object):
     def __init__(self):
         self.url = 'https://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_='
         self.account = ''
-        self.name = '田坝微讯' or '大鼎豫剧'
-
+        self.name = ''
         self.s = requests.Session()
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
-            'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw; LSTMV=0%2C0; LCLKINT=235; SNUID=9A638690ABAEDE83070339C3ACDDE1AD; sct=168'
+            # 'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw; LSTMV=0%2C0; LCLKINT=235; SNUID=9A638690ABAEDE83070339C3ACDDE1AD; sct=168'
+            'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; LSTMV=0%2C0; LCLKINT=235; SNUID=9A638690ABAEDE83070339C3ACDDE1AD; sct=179; SUIR=9A638690ABAEDE83070339C3ACDDE1AD'
         }
 
     def account_homepage(self):
@@ -91,7 +91,7 @@ class AccountHttp(object):
     def run(self):
         # self.set_name()
         # while True:
-        account_list = ['文柏讲堂', '李氏家亲', '花开花谢云起云落', '德衡济宁律师事务所', '酒姹怪记', '芣苢FY', '解压皮先生', '波波文学', '晚聊伴夜',
+        account_list = ['晚聊伴夜',
                         '氢氪财经', '菲迪克智慧工程企业管理平台', '山西同乡群', '筱猫影视', '沈阳南动车运用所', '潇湘茶', '众智睿赢企业管理咨询有限公司', '微景相册', '书悦堂',
                         '分享好宝贝', '民艺旅舍', '女王Dcup', '轻松定位美丽', '乐清市红辣椒越剧艺苑', '畅舞馆', '人禾健康产业', '常州格物斯坦机器人创客中心', '千秋妃子',
                         '崇左航博']
@@ -113,17 +113,20 @@ class AccountHttp(object):
 
             backpack_list = []
             for page_count, url in enumerate(urls_article):
-                if page_count == 2:
-                    continue
+                # if page_count < 35:
+                #     continue
                 article = Article()
                 article.create(url, self.name)
                 log('文章标题:', article.title)
+                log("第{}条".format(page_count))
 
                 entity = JsonEntity(article, account)
                 backpack = Backpack()
                 backpack.create(entity)
                 backpack_list.append(backpack.create_backpack())
 
+                import pymongo
+                conn = pymongo.MongoClient('mongo')
                 # 上传数据库
                 sql = '''   
                         INSERT INTO 

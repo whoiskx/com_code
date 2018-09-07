@@ -22,21 +22,24 @@ class Article(object):
 
     def create(self, url, name=''):
         self.url = url
-        # self.url = 'https://mp.weixin.qq.com/s?timestamp=1535704373&src=3&ver=1&signature=uulJZSS6rD01od4FwW9jJf2U85LjnH9BxezUEyuqJOWmCkhhmv1z22W2vK**KA0II-A-KBkXwdm6ZE0d46Jx3v-mh3U56Ee*i5V5ur7Fil*hJscU-9mjLyHiUZNKr-cFjXdO1pzSzdqdevKPuUh4rTLy-hJCb4FTTWu6nxAVH0c='
         resp = requests.get(self.url)
         e = pq(resp.text)
-
-        # 处理分享文章
+        # 匹配分享的文章 好像失效
         if 'var ct=' not in resp.text:
+            # 第一次看到嫂子的就是她的 晚聊伴夜
+            if '此内容因违规无法查看' in e('.title').text():
+                self.title = '此内容因违规无法查看'
+                return
             self.is_share = True
-            self.tilte = e("title").text()
+            self.title = e("title").text()
             self.content = e(".share_notice").text()
-            time_find =  re.search('createDate=new Date\("\d*', resp.text)
+            time_find = re.search('createDate=new Date\("\d*', resp.text)
             self.time = time_find.group() if time_find else ''
-        else:
-            get_timestramp = re.search('var ct=.*?"', resp.text).group()
-            timestramp = re.search('\d+', get_timestramp).group()
-            self.time = timestramp + '000'
+            return
+
+        get_timestramp = re.search('var ct=".*?"', resp.text).group()
+        timestramp = re.search('\d+', get_timestramp).group()
+        self.time = timestramp + '000'
         self.account = e('.profile_meta_value').eq(0).text()
         self.title = e('.rich_media_title').text().replace(' ', '')
         self.content = e("#js_content").text().replace('\n', '')
@@ -157,7 +160,7 @@ class Backpack(object):
         self.Title = entity.title
         self.Content = entity.content
         self.Author = entity.author
-        self.Time = int(entity.time)
+        self.Time = int(entity.time) if entity.time else ''
         self.AddOn = int(entity.addon + '000')
 
     def to_dict(self):
