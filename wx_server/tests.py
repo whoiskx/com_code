@@ -41,14 +41,12 @@ day_conut = []
 now = datetime.datetime.now()
 for i in range(7):
     day_conut.append({
-        'date': str((day - datetime.timedelta(days=i)).date()),
-        'count': 0,
+        str((day - datetime.timedelta(days=i)).date()): 0,
     })
 
 print(day_conut)
 
-
-d = {}
+d = []
 
 for info in article_in_seven:
     article_datetime = info.get("Time")
@@ -56,18 +54,27 @@ for info in article_in_seven:
     article_date = datetime.datetime.fromtimestamp(int(article_datetime))
     # print(article_date)
     _date = str(article_date.date())
-    print(_date, type(_date))
-    if len(d) == 0:
-        dd['date'] = _date
-        dd['count'] = 0
-        d.append(dd)
-    for dd in d:
-        if dd.get('date') == _date:
-            t = int(dd.get('count'))
-            t += 1
-            dd['count'] = t
-        else:
-            dd['date'] = _date
-            dd['count'] = 0
-            d.append(dd)
+    d.append(_date)
+    from collections import Counter
+
+    x = Counter(d)
 print(d)
+print(x)
+
+day_conut = []
+now = datetime.datetime.now()
+for i in range(7):
+    day_conut.append({
+        str((day - datetime.timedelta(days=i)).date()): 0,
+    })
+day_conut = []
+
+
+for i in x.keys():
+    print(i)
+    print(x[i])
+    day_conut.append({
+        'date': i,
+        'count': int(x[i])
+    })
+print(day_conut)

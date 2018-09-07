@@ -34,7 +34,6 @@ class AccountHttp(object):
         search_url = self.url.format(self.name)
         resp_search = self.s.get(search_url, headers=self.headers)
 
-
         if 'class="b404-box" id="noresult_part1_container"' in resp_search.text:
             log("找不到该公众号: {}".format(self.name))
             return
@@ -44,6 +43,9 @@ class AccountHttp(object):
         else:
             log("不能匹配正确的公众号: {}".format(self.name))
             return
+        account_match = re.search(r'微信号：\w*', e.text())
+        account_search = account_match.group().replace('微信号：', '') if account_match else ''
+
         homepage = self.s.get(account_link)
         if '<title>请输入验证码 </title>' in homepage.text:
             print("出现验码")
@@ -64,7 +66,8 @@ class AccountHttp(object):
             homepage = self.s.get(account_link)
             print('破解验证码之后')
         account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
-        return homepage.text, account
+        # 搜索页面有account，公众号主页有account，确保找到account
+        return homepage.text, account or account_search
 
     def set_name(self):
         url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
@@ -76,34 +79,45 @@ class AccountHttp(object):
         # print(self.name)
         # return self.name
 
+    def urls_article(self, html):
+        items = re.findall('"content_url":".*?,"copyright_stat"', html)
+        urls = []
+        for item in items:
+            url_last = item[15:-18].replace('amp;', '')
+            url = 'https://mp.weixin.qq.com' + url_last
+            urls.append(url)
+        return urls
+
     def run(self):
         # self.set_name()
         # while True:
-        account_list = ['云中燕', '律动青春',
-                        '长岭宝宝乐母婴生活馆', '上海足之源足浴用品有限公司', '私人资源杂货铺', 'zz燕子呀', '中浙油', '金欧莱总代', '神秘电影巨星', '郑州幼儿师范高等专科学校招就办',
-                        '骄阳图画本', '郑州一中主体课堂', '至尊银座浙皖汇', '湛江幼专中文系', '北京市大兴区长子营镇中心卫生院', '钟吟在线', '快乐将至ing', '方糖老妖日记',
-                        '一木之中', '周庄庄', 'zhangsy', '千奇百货', '折中折', '4K', '微凉子珍', '可乐主人', '转转赚', '鱼丸米线的工作室', '鱼丸米线的小窝',
-                        '漫长的白日梦', 'ZZZZZZpc', '壮壮壮果屋', '折中哲华北区', '折中哲华东区']
+        account_list = ['文柏讲堂', '李氏家亲', '花开花谢云起云落', '德衡济宁律师事务所', '酒姹怪记', '芣苢FY', '解压皮先生', '波波文学', '晚聊伴夜',
+                        '氢氪财经', '菲迪克智慧工程企业管理平台', '山西同乡群', '筱猫影视', '沈阳南动车运用所', '潇湘茶', '众智睿赢企业管理咨询有限公司', '微景相册', '书悦堂',
+                        '分享好宝贝', '民艺旅舍', '女王Dcup', '轻松定位美丽', '乐清市红辣椒越剧艺苑', '畅舞馆', '人禾健康产业', '常州格物斯坦机器人创客中心', '千秋妃子',
+                        '崇左航博']
+
         for name in account_list:
             self.name = name
             html_account = self.account_homepage()
             if html_account:
-                html, account_alp = html_account
+                html, account_of_homepage = html_account
             else:
                 continue
-            log('start', self.name)
-            items = re.findall('"content_url":".*?,"copyright_stat"', html)
+            log('start 公众号: ', self.name)
+            urls_article = self.urls_article(html)
+
+            account = Acount()
+            account.name = self.name
+            account.account = account_of_homepage
+            account.get_account_id()
+
             backpack_list = []
-            for page_count, item in enumerate(items):
-                url_last = item[15:-18].replace('amp;', '')
-                url = 'https://mp.weixin.qq.com' + url_last
+            for page_count, url in enumerate(urls_article):
+                if page_count == 2:
+                    continue
                 article = Article()
                 article.create(url, self.name)
                 log('文章标题:', article.title)
-                account = Acount()
-                account.name = self.name
-                account.account = account_alp
-                account.get_account_id()
 
                 entity = JsonEntity(article, account)
                 backpack = Backpack()

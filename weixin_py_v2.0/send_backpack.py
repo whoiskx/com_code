@@ -24,17 +24,24 @@ class Article(object):
         self.url = url
         # self.url = 'https://mp.weixin.qq.com/s?timestamp=1535704373&src=3&ver=1&signature=uulJZSS6rD01od4FwW9jJf2U85LjnH9BxezUEyuqJOWmCkhhmv1z22W2vK**KA0II-A-KBkXwdm6ZE0d46Jx3v-mh3U56Ee*i5V5ur7Fil*hJscU-9mjLyHiUZNKr-cFjXdO1pzSzdqdevKPuUh4rTLy-hJCb4FTTWu6nxAVH0c='
         resp = requests.get(self.url)
+        e = pq(resp.text)
+
+        # 处理分享文章
         if 'var ct=' not in resp.text:
             self.is_share = True
-            return
-        e = pq(resp.text)
+            self.tilte = e("title").text()
+            self.content = e(".share_notice").text()
+            time_find =  re.search('createDate=new Date\("\d*', resp.text)
+            self.time = time_find.group() if time_find else ''
+        else:
+            get_timestramp = re.search('var ct=.*?"', resp.text).group()
+            timestramp = re.search('\d+', get_timestramp).group()
+            self.time = timestramp + '000'
         self.account = e('.profile_meta_value').eq(0).text()
         self.title = e('.rich_media_title').text().replace(' ', '')
         self.content = e("#js_content").text().replace('\n', '')
         self.author = e('.profile_nickname').text()
-        get_timestramp = re.search('var ct=".*?"', resp.text).group()
-        timestramp = re.search('\d+', get_timestramp).group()
-        self.time = timestramp + '000'
+
 
 
 class Acount(object):
@@ -144,7 +151,7 @@ class Backpack(object):
         self.TaskID = entity.task_id
         self.TaskName = entity.task_name
         self.AccountID = entity.account_id
-        self.SiteID = int(entity.site_id)
+        self.SiteID = int(entity.site_id) if entity.site_id else ''
         self.TopicID = 0
         self.Url = entity.url
         self.Title = entity.title

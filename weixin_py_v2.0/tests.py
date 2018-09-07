@@ -52,7 +52,12 @@ import requests
 #     cc = r.cookies.get_dict()
 #     print(cc)
 
-with open('ids.txt', 'r', encoding='utf-8') as f:
-    name_all = f.read()
-id_list = name_all.split("\n")
-print(id_list)
+# with open('ids.txt', 'r', encoding='utf-8') as f:
+#     name_all = f.read()
+# id_list = name_all.split("\n")
+# print(id_list)
+
+import pymongo
+
+conn = pymongo.MongoClient('mongodb://120.78.237.213:27017')
+urun = conn.weCaht
