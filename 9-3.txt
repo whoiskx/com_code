@@ -8,3 +8,7 @@ return
 
 Linux ssh会话关闭 相关进程都被杀死
     nohup xx
+
+字节转字符  encoding=''
+
+sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn jieba

@@ -10,7 +10,7 @@ from setting import log
 from pyquery import PyQuery as pq
 from send_backpack import JsonEntity, Article, Acount, Backpack
 from config import get_mysql_new, log
-from utils import uploads_mysql
+from utils import uploads_mysql, hash_md5
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -115,8 +115,7 @@ class AccountHttp(object):
                         '飞鸿影视传媒', 'RGSE义乌雨具遮阳及防护用品展']
 
         articles = []
-        from setting import hash_md5
-        ID = hash_md5(self.name + str(int(time.time())))
+        ID = hash_md5(self.name)
 
         for name in account_list:
             if len(name) == 0:

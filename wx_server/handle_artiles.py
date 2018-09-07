@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 
-import pymongo
 import datetime
-
-conn = pymongo.MongoClient()
-db = conn['test']
 
 results = {
     'Success': '',
@@ -17,10 +13,10 @@ results = {
 }
 
 
-def all_artcle():
+def all_artcle(article_mongo):
     # 得到7天内的文章
     articles = []
-    for info in db['wx'].find({}, {'Time': 1, '_id': 0}):
+    for info in article_mongo:
         article_datetime = str(info.get('Time'))[:-3]
         article_date = datetime.datetime.fromtimestamp(int(article_datetime))
         day_diff = datetime.datetime.now() - article_date
@@ -82,16 +78,17 @@ def counter_time_range(articles):
     return data
 
 
-def main():
+def handle(article_mongo=''):
     # 按天
-    articles = all_artcle()
+    articles = all_artcle(article_mongo)
     count = len(articles)
     date_info = date_count(articles)
     time_info = counter_time_range(articles)
     results.update({'ArtPubInfo': date_info, 'count': count, 'ActiveDegree': time_info})
-    print(results, type(results))
-    print(json.dumps(results))
+    # print(results, type(results))
+    # print(json.dumps(results))
+    return results
 
 
 if __name__ == '__main__':
-    main()
+    handle()

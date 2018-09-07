@@ -1,14 +1,25 @@
 # -*- coding: utf-8 -*-
 import pymongo
-
 import time
-
 import redis
 from flask import Flask, request
 from setting import hash_md5
+import json
+from handle_artiles import handle
+from utils import db
 
-conn = pymongo.MongoClient('120.78.237.213', 27017)
-db = conn.WeChat
+
+app = Flask(__name__)
+error_results = {
+    'Success': False,
+    'Account': "NF_Dail",
+    'Message': "account not found",
+    'count': 0,
+    'ArtPubInfo': None,
+    'ActiveDegree': None,
+    'ArtPosNeg': None,
+    'KeyWord': None
+}
 
 
 class Task(object):
@@ -22,8 +33,7 @@ class Task(object):
             from analyse_new_media import AccountHttp
             account = AccountHttp()
             account.name = account_char.decode(encoding="utf-8")
-            account.run(db)
-
+            account.run()
             print("Task get", account_char)
 
     def prodcons(self, account):
@@ -32,35 +42,28 @@ class Task(object):
         return "ok"
 
 
-app = Flask(__name__)
-
-
 @app.route('/WeiXinArt/AddAccount')
 def add_account():
     account = request.args.get('account')
     task = Task()
     task.prodcons(account)
     _id = hash_md5(account + str(int(time.time())))
-
     db['newMedia'].insert({'id': _id, 'account': account})
     return _id
 
 
 @app.route('/WeiXinArt/PublishTimes')
 def find_account():
-    print("af")
     accountid = request.args.get('accountid')
-
-    result = db['newMedia'].find({'id': accountid, })
-    print(list(result))
-    articles = result.get('data')
-
-    return 'ok'
-
-
-def main():
-    consumer = Task()
-    consumer.listen_task()
+    print('find', accountid)
+    item = list(db['newMedia'].find_one({'id': accountid, }))
+    # print(list(result))
+    if item:
+        articles = item[0].get('data')
+        r = handle(articles)
+        return json.dumps(r)
+    else:
+        return json.dumps(error_results)
 
 
 if __name__ == '__main__':

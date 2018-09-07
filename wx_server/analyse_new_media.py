@@ -20,6 +20,7 @@ from io import BytesIO
 import os
 
 from verification_code import captch_upload_image
+from utils import db
 
 config_mysql = get_mysql_new()
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -41,7 +42,7 @@ class AccountHttp(object):
         }
         self.cookies = {}
 
-        self.db = ''
+        self.db = db
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -109,15 +110,7 @@ class AccountHttp(object):
         return urls
 
     def run(self, db=''):
-        # self.set_name()
-        # while True:
-        articles = []
         self.db = db
-        # data = db['newMedia'].find({'account': self.name})
-        # for name in account_list:
-        #     if len(name) == 0:
-        #         continue
-        #     self.name = name
         html_account = self.account_homepage()
         if html_account:
             html, account_of_homepage = html_account
@@ -131,6 +124,7 @@ class AccountHttp(object):
         account.account = account_of_homepage
         account.get_account_id()
 
+        articles = []
         backpack_list = []
         for page_count, url in enumerate(urls_article):
             # if page_count < 35:
@@ -147,13 +141,8 @@ class AccountHttp(object):
 
             # 所有文章
             article_info = backpack.to_dict()
-
             articles.append(article_info)
-
             # 上传数据库
-            # import pymongo
-            # conn = pymongo.MongoClient('120.78.237.213', 27017)
-            # conn['newMedia'].insert()
             sql = '''
                     INSERT INTO
                         account_http(article_url, addon, account, account_id, author, id, title)
@@ -167,9 +156,6 @@ class AccountHttp(object):
             uploads_mysql(config_mysql, sql, _tuple)
             # if page_count == 5:
             #     break
-        import pymongo
-        conn = pymongo.MongoClient('120.78.237.213', 27017)
-        db = conn.WeChat
         db['newMedia'].update({'account': self.name}, {'$set': {'data': articles}})
 
         log("发包")
@@ -229,21 +215,7 @@ class AccountHttp(object):
                     print('------验证码输入错误------')
         except:
             print('------未跳转到验证码页面，跳转到首页，忽略------')
-        # elif 'mp\.weixin\.qq\.com' in url:
-        #     print('------开始处理微信验证码------')
-        #     cert = random.random()
-        #     image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
-        #     respones = self.s.get(image_url, cookies=self.cookies)
-        #     captch_input = captch_upload_image(respones.content)
-        #     print('------验证码：{}------'.format(captch_input))
-        #     data = {
-        #         'cert': cert,
-        #         'input': captch_input
-        #     }
-        #     respones = self.s.post(image_url, cookies=self.cookies, data=data)
-        #     self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
-        #     print('微信cookies:', self.cookies)
-        #     print('------cookies已更新------')
+
 
 
 if __name__ == '__main__':
