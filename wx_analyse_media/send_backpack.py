@@ -40,6 +40,9 @@ class Article(object):
             if '此内容因违规无法查看' in e('.title').text():
                 self.title = '此内容因违规无法查看'
                 return
+            if '此内容被投诉且经审核涉嫌侵权，无法查看。' in e('.title').text():
+                self.title = '此内容被投诉且经审核涉嫌侵权，无法查看。'
+                return
             self.is_share = True
             self.title = e("title").text()
             self.content = e(".share_notice").text()
@@ -55,7 +58,7 @@ class Article(object):
         self.author = e('.profile_nickname').text()
 
 
-class Acount(object):
+class Account(object):
     def __init__(self):
         # 接口取
         self.account_id = None

@@ -7,7 +7,7 @@ import time
 import requests
 import json
 from pyquery import PyQuery as pq
-from send_backpack import JsonEntity, Article, Acount, Backpack
+from send_backpack import JsonEntity, Article, Account, Backpack
 from config import get_mysql_new
 from utils import log
 from utils import uploads_mysql
@@ -18,6 +18,7 @@ from selenium import webdriver
 from PIL import Image
 from io import BytesIO
 import os
+from handle_artiles import handle
 
 from verification_code import captch_upload_image
 from utils import db
@@ -129,7 +130,7 @@ class AccountHttp(object):
         log('start 公众号: ', self.name)
         urls_article = self.urls_article(html)
 
-        account = Acount()
+        account = Account()
         account.name = self.name
         account.account = account_of_homepage
         account.get_account_id()
@@ -137,13 +138,19 @@ class AccountHttp(object):
         articles = []
         backpack_list = []
         for page_count, url in enumerate(urls_article):
-            # if page_count < 42:
+            # if page_count < 33:
             #     continue
             article = Article()
             log('url:', url)
             article.create(url, self.name)
             log('文章标题:', article.title)
             log("第{}条".format(page_count))
+
+            # 超过9天不管
+            article_date = datetime.datetime.fromtimestamp(int(article.time[:-3]))
+            day_diff = datetime.datetime.now() - article_date
+            if day_diff.days > 9:
+                break
 
             entity = JsonEntity(article, account)
             backpack = Backpack()
@@ -165,8 +172,8 @@ class AccountHttp(object):
                 entity.title
             )
             uploads_mysql(config_mysql, sql, _tuple)
-        from handle_artiles import handle
         result = handle(articles)
+        print(self.name)
         db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
         log('数据抓取完成')
 
