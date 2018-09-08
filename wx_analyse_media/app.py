@@ -14,8 +14,8 @@ from analyse_new_media import AccountHttp
 app = Flask(__name__)
 error_result = {
     'Success': False,
-    'Account': "NF_Dail",
-    'Message': "accountid not found",
+    'Account': None,
+    'Message': "",
     'count': 0,
     'ArtPubInfo': None,
     'ActiveDegree': None,
@@ -32,7 +32,7 @@ class Task(object):
     @async
     def listen_task(self):
         while True:
-            account_char = self.rcon.blpop(self.queue, 0)[1]
+            account_char = self.rcon.brpop(self.queue, 0)[1]
             account = AccountHttp()
             account.name = account_char.decode(encoding="utf-8")
             account.run()
@@ -50,7 +50,7 @@ def add_account():
     task.prodcons(account)
     _id = hash_md5(account)
     add_on = datetime.datetime.now()
-    db['newMedia'].update({'id': _id}, {'$set': {'id': _id, 'account': account, 'add_on': add_on}, }, True)
+    db['newMedia'].update({'id': _id}, {'$set': {'id': _id, 'Account': account, 'add_on': add_on}, }, True)
     return _id
 
 
@@ -60,13 +60,14 @@ def find_account():
     print('find', accountid)
     item = db['newMedia'].find_one({'id': accountid, })
     if item:
-        result = item.get('data', '未完成')
+        result = item.get('data', 'unfinished')
         return json.dumps(result)
     else:
+        error_result.update({'Message': "account not found"})
         return json.dumps(error_result)
 
 
 if __name__ == '__main__':
     t = Task()
     t.listen_task()
-    app.run(port=8009)
+    app.run(host='0.0.0.0', port=8008)

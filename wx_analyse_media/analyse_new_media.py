@@ -8,7 +8,8 @@ import requests
 import json
 from pyquery import PyQuery as pq
 from send_backpack import JsonEntity, Article, Acount, Backpack
-from config import get_mysql_new, log
+from config import get_mysql_new
+from utils import log
 from utils import uploads_mysql
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -105,7 +106,16 @@ class AccountHttp(object):
         urls = []
         for item in items:
             url_last = item[15:-18].replace('amp;', '')
+            # 部分是永久链接
+            if '_biz' in url_last:
+                url = re.search('http://mp.weixin.qq.*?wechat_redirect', url_last).group()
+                urls.append(url)
+                continue
             url = 'https://mp.weixin.qq.com' + url_last
+            # # 再次匹配
+            # if len(url) > 260:
+            #     item = re.search('"content_url":".*?wechat_redirect', url).group()
+            #     url = item[15:].replace('amp;', '')
             urls.append(url)
         return urls
 
@@ -127,9 +137,10 @@ class AccountHttp(object):
         articles = []
         backpack_list = []
         for page_count, url in enumerate(urls_article):
-            # if page_count < 35:
+            # if page_count < 42:
             #     continue
             article = Article()
+            log('url:', url)
             article.create(url, self.name)
             log('文章标题:', article.title)
             log("第{}条".format(page_count))
@@ -156,7 +167,7 @@ class AccountHttp(object):
             uploads_mysql(config_mysql, sql, _tuple)
         from handle_artiles import handle
         result = handle(articles)
-        db['newMedia'].update({'account': self.name}, {'$set': {'data': result}})
+        db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
         log('数据抓取完成')
 
     def crack_sougou(self, url):

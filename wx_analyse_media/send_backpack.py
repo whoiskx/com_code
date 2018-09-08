@@ -20,6 +20,16 @@ class Article(object):
         self.likenum = ''
         self.is_share = False
 
+    def set_time(self, resp, type=''):
+        if type == 'article':
+            get_timestramp = re.search('var ct=".*?"', resp.text).group()
+            timestramp = re.search('\d+', get_timestramp).group()
+            self.time = timestramp + '000'
+        if type == 'video':
+            get_timestramp = re.search('create_time = ".*?"', resp.text).group()
+            timestramp = re.search('\d+', get_timestramp).group()
+            self.time = timestramp + '000'
+
     def create(self, url, name=''):
         self.url = url
         resp = requests.get(self.url)
@@ -35,16 +45,14 @@ class Article(object):
             self.content = e(".share_notice").text()
             time_find = re.search('createDate=new Date\("\d*', resp.text)
             self.time = time_find.group() if time_find else ''
+            if '视频' == self.title:
+                self.set_time(resp, type='video')
             return
-
-        get_timestramp = re.search('var ct=".*?"', resp.text).group()
-        timestramp = re.search('\d+', get_timestramp).group()
-        self.time = timestramp + '000'
+        self.set_time(resp, type='article')
         self.account = e('.profile_meta_value').eq(0).text()
         self.title = e('.rich_media_title').text().replace(' ', '')
         self.content = e("#js_content").text().replace('\n', '')
         self.author = e('.profile_nickname').text()
-
 
 
 class Acount(object):

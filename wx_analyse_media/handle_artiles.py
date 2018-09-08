@@ -2,6 +2,7 @@
 import json
 
 import datetime
+import time
 
 results = {
     'Success': '',
@@ -18,6 +19,8 @@ def all_artcle(article_mongo):
     articles = []
     for info in article_mongo:
         article_datetime = str(info.get('Time'))[:-3]
+        if len(article_datetime) == 0:
+            time.sleep(1000)
         article_date = datetime.datetime.fromtimestamp(int(article_datetime))
         day_diff = datetime.datetime.now() - article_date
         if day_diff.days <= 6:
