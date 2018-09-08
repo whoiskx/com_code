@@ -40,73 +40,79 @@ class AccountHttp(object):
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
         self.headers = {
+            # 'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw; LSTMV=0%2C0; LCLKINT=235; SNUID=9A638690ABAEDE83070339C3ACDDE1AD; sct=168',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
         }
         self.cookies = {
-            # 'Cookie': 'ABTEST=1|1536377782|v1; IPLOC=CN4401; SUID=14CF2A3B4942910A000000005B9343B6; PHPSESSID=0i2egbahl0a29bib6m8nlkv5u4; SUIR=1536377782; SUID=14CF2A3B5118910A000000005B9343B6; SUV=00A441143B2ACF145B9343B68CDBD709; seccodeErrorCount=1|Sat, 08 Sep 2018 03:41:25 GMT; SNUID=B3688D9CA7A3D3F573B5A4E5A779F874; seccodeRight=success; successCount=1|Sat, 08 Sep 2018 03:41:40 GMT; JSESSIONID=aaaP-Ms4ef_ccaVEgGBv'
+            # 'Cookie': 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; JSESSIONID=aaa4lX2_fZMdr5Xv3ABvw; LSTMV=0%2C0; LCLKINT=235; SNUID=9A638690ABAEDE83070339C3ACDDE1AD; sct=168',
+            # 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+
         }
 
         self.db = db
 
-    def crack_sougou(self, url):
-        print('------开始处理未成功的URL：{}'.format(url))
-        # if 'weixin\.sogou\.com' in url:
-        print('------开始处理搜狗验证码------')
-        chrome_options = webdriver.ChromeOptions()
-        # chrome_options.add_argument('--headless')
-        browser = webdriver.Chrome(chrome_options=chrome_options)
-        browser.get(url)
-        time.sleep(2)
-        try:
-            wait = WebDriverWait(browser, 10)
-            img = wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
-            print('------出现验证码页面------')
-            location = img.location
-            size = img.size
-            left = location['x']
-            top = location['y']
-            right = location['x'] + size['width']
-            bottom = location['y'] + size['height']
-            screenshot = browser.get_screenshot_as_png()
-            screenshot = Image.open(BytesIO(screenshot))
-            captcha = screenshot.crop((left, top, right, bottom))
-            captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
-            captcha.save(captcha_path)
-            with open(captcha_path, "rb") as f:
-                filebytes = f.read()
-            captch_input = captch_upload_image(filebytes)
-            print('------验证码：{}------'.format(captch_input))
-            if captch_input:
-                input_text = wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
-                input_text.clear()
-                input_text.send_keys(captch_input)
-                submit = wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
-                submit.click()
-                try:
-                    print('------输入验证码------')
-                    error_tips = wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
-                    if len(error_tips):
-                        print('------验证码输入错误------')
-                        return
-                    wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
-                    print('------验证码正确------')
-                    cookies = browser.get_cookies()
-                    new_cookie = {}
-                    for items in cookies:
-                        new_cookie[items.get('name')] = items.get('value')
-                    self.cookies = new_cookie
-                    print('------cookies已更新------')
-                    # if browser:
-                    #     browser.close()
-                    return new_cookie
-                except:
-                    print('------验证码输入错误------')
-                    # if browser:
-                    #     browser.close()
-        except:
-            # if browser:
-            #     browser.close()
-            print('------未跳转到验证码页面，跳转到首页，忽略------')
+        self.browser = ''
+        self.wait = ''
+
+    # def crack_sougou(self, url):
+    #     print('------开始处理未成功的URL：{}'.format(url))
+    #     # if 'weixin\.sogou\.com' in url:
+    #     print('------开始处理搜狗验证码------')
+    #     chrome_options = webdriver.ChromeOptions()
+    #     # chrome_options.add_argument('--headless')
+    #     browser = webdriver.Chrome(chrome_options=chrome_options)
+    #     browser.get(url)
+    #     time.sleep(2)
+    #     try:
+    #         wait = WebDriverWait(browser, 10)
+    #         img = wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
+    #         print('------出现验证码页面------')
+    #         location = img.location
+    #         size = img.size
+    #         left = location['x']
+    #         top = location['y']
+    #         right = location['x'] + size['width']
+    #         bottom = location['y'] + size['height']
+    #         screenshot = browser.get_screenshot_as_png()
+    #         screenshot = Image.open(BytesIO(screenshot))
+    #         captcha = screenshot.crop((left, top, right, bottom))
+    #         captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
+    #         captcha.save(captcha_path)
+    #         with open(captcha_path, "rb") as f:
+    #             filebytes = f.read()
+    #         captch_input = captch_upload_image(filebytes)
+    #         print('------验证码：{}------'.format(captch_input))
+    #         if captch_input:
+    #             input_text = wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
+    #             input_text.clear()
+    #             input_text.send_keys(captch_input)
+    #             submit = wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
+    #             submit.click()
+    #             try:
+    #                 print('------输入验证码------')
+    #                 error_tips = wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
+    #                 if len(error_tips):
+    #                     print('------验证码输入错误------')
+    #                     return
+    #                 wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
+    #                 print('------验证码正确------')
+    #                 cookies = browser.get_cookies()
+    #                 new_cookie = {}
+    #                 for items in cookies:
+    #                     new_cookie[items.get('name')] = items.get('value')
+    #                 self.cookies = new_cookie
+    #                 print('------cookies已更新------')
+    #                 # if browser:
+    #                 #     browser.close()
+    #                 return new_cookie
+    #             except:
+    #                 print('------验证码输入错误------')
+    #                 # if browser:
+    #                 #     browser.close()
+    #     except:
+    #         # if browser:
+    #         #     browser.close()
+    #         print('------未跳转到验证码页面，跳转到首页，忽略------')
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -134,7 +140,6 @@ class AccountHttp(object):
         homepage = self.s.get(account_link, cookies=self.cookies)
         if '<title>请输入验证码 </title>' in homepage.text:
             print("出现验码")
-            from verification_code import captch_upload_image
             print('------开始处理微信验证码------')
             cert = random.random()
             image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
@@ -272,6 +277,60 @@ class AccountHttp(object):
         #     'status': 3,
         # }
         # requests.get(status_url, params=params)
+
+    def crack_sougou(self, url):
+        print('------开始处理搜狗验证码------')
+        chrome_options = webdriver.ChromeOptions()
+        # chrome_options.add_argument('--headless')
+        self.browser = webdriver.Chrome(chrome_options=chrome_options)
+        self.wait = WebDriverWait(self.browser, 5)
+
+        self.browser.get(url)
+        time.sleep(2)
+        try:
+            img = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
+            print('------出现验证码页面------')
+            location = img.location
+            size = img.size
+            left = location['x']
+            top = location['y']
+            right = location['x'] + size['width']
+            bottom = location['y'] + size['height']
+            screenshot = self.browser.get_screenshot_as_png()
+            screenshot = Image.open(BytesIO(screenshot))
+            captcha = screenshot.crop((left, top, right, bottom))
+            captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
+            captcha.save(captcha_path)
+            with open(captcha_path, "rb") as f:
+                filebytes = f.read()
+            captch_input = captch_upload_image(filebytes)
+            print('------验证码：{}------'.format(captch_input))
+            if captch_input:
+                input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
+                input_text.clear()
+                input_text.send_keys(captch_input)
+                submit = self.wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
+                submit.click()
+                try:
+                    # print('------输入验证码------')
+                    # error_tips = self.wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
+                    # print('aaaaaaaaaaaaaa', error_tips, 'aaaaaaaaa')
+                    # if len(error_tips):
+                    #     print('------验证码输入错误------')
+                    #     return
+                    self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
+                    print('------验证码正确------')
+                    cookies = self.browser.get_cookies()
+                    new_cookie = {}
+                    for items in cookies:
+                        new_cookie[items.get('name')] = items.get('value')
+                    self.cookies = new_cookie
+                    print('------cookies已更新------')
+                    return new_cookie
+                except:
+                    print('------验证码输入错误------')
+        except:
+            print('------未跳转到验证码页面，跳转到首页，忽略------')
 
 
 if __name__ == '__main__':

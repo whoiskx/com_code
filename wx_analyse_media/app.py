@@ -36,6 +36,7 @@ class Task(object):
             account = AccountHttp()
             account.name = account_char.decode(encoding="utf-8")
             account.run()
+            # account.browser.close()
             print("Task get", account_char)
 
     def prodcons(self, account):
