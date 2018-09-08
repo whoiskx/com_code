@@ -24,6 +24,18 @@ error_result = {
 }
 
 
+class Singleton(object):
+    def __new__(cls, *args, **kwargs):
+        if not hasattr(cls, '_instance'):
+            cls._instance = super(Singleton, cls).__new__(cls, *args, **kwargs)
+        return cls._instance
+
+
+class SaveCookie(Singleton):
+    def __init__(self):
+        self.cookie = {}
+
+
 class Task(object):
     def __init__(self):
         self.rcon = redis.StrictRedis(db=8)
@@ -31,11 +43,12 @@ class Task(object):
 
     @async
     def listen_task(self):
+        one_cookies = SaveCookie()
         while True:
             account_char = self.rcon.brpop(self.queue, 0)[1]
             account = AccountHttp()
             account.name = account_char.decode(encoding="utf-8")
-            account.run()
+            account.run(one_cookies)
             # account.browser.close()
             print("Task get", account_char)
 

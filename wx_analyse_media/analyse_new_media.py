@@ -30,6 +30,7 @@ IMAGE_DIR = os.path.join(BASE_DIR, 'images')
 CAPTCHA_NAME = 'captcha.png'
 
 
+
 class AccountHttp(object):
     def __init__(self):
         self.url = 'https://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_='
@@ -114,7 +115,7 @@ class AccountHttp(object):
     #         #     browser.close()
     #         print('------未跳转到验证码页面，跳转到首页，忽略------')
 
-    def account_homepage(self):
+    def account_homepage(self, one_cookie):
         # 搜索并进入公众号主页
         search_url = self.url.format(self.name)
         resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
@@ -130,7 +131,7 @@ class AccountHttp(object):
             return
         else:
             # 处理验证码
-            self.crack_sougou(search_url)
+            self.crack_sougou(search_url, one_cookie)
             print("验证完毕")
             # 被跳过的公众号要不要抓取  大概 4次
             return
@@ -186,10 +187,12 @@ class AccountHttp(object):
             urls.append(url)
         return urls
 
-    def run(self):
+    def run(self, one_cookie):
+        self.cookies = one_cookie
+        print(one_cookie.cookie)
         self.db = db
         article_detaile = db['newMedia'].find_one({'Account': self.name})
-        html_account = self.account_homepage()
+        html_account = self.account_homepage(one_cookie.cookie)
         if html_account:
             html, account_of_homepage = html_account
         else:
@@ -205,8 +208,8 @@ class AccountHttp(object):
         articles = []
         backpack_list = []
         for page_count, url in enumerate(urls_article):
-            # if page_count < 33:
-            #     continue
+            if page_count > 2:
+                break
             article = Article()
             log('url:', url)
             article.create(url, self.name)
@@ -278,7 +281,7 @@ class AccountHttp(object):
         # }
         # requests.get(status_url, params=params)
 
-    def crack_sougou(self, url):
+    def crack_sougou(self, url, one_cookie):
         print('------开始处理搜狗验证码------')
         chrome_options = webdriver.ChromeOptions()
         # chrome_options.add_argument('--headless')
@@ -325,6 +328,8 @@ class AccountHttp(object):
                     for items in cookies:
                         new_cookie[items.get('name')] = items.get('value')
                     self.cookies = new_cookie
+                    one_cookie.cookie = new_cookie
+                    # db['cookie'].de(new_cookie)
                     print('------cookies已更新------')
                     return new_cookie
                 except:
