@@ -3,6 +3,7 @@ import datetime
 import random
 import re
 import time
+from collections import Counter
 
 import requests
 import json
@@ -19,7 +20,7 @@ from PIL import Image
 from io import BytesIO
 import os
 from handle_artiles import handle
-
+import jieba
 from verification_code import captch_upload_image
 from utils import db
 
@@ -122,6 +123,7 @@ class AccountHttp(object):
 
     def run(self):
         self.db = db
+        article_detaile = db['newMedia'].find_one({'Account': self.name})
         html_account = self.account_homepage()
         if html_account:
             html, account_of_homepage = html_account
@@ -172,72 +174,104 @@ class AccountHttp(object):
                 entity.title
             )
             uploads_mysql(config_mysql, sql, _tuple)
+
+        content_all_list = ''
+        for article in articles:
+            content_all_list += article.get('Content')
+        # 分词处理
+        key_words_list = []
+        seg_list = jieba.cut(''.join(content_all_list), cut_all=False)
+        for i in seg_list:
+            if len(i) >= 2 and re.match('[\u4e00-\u9fff]+', i):
+                key_words_list.append(i)
+
+        # 返回前10个出现频率最高的词
+        key_words_counter = Counter(key_words_list).most_common(10)
+        key_word = dict()
+        key_word['list'] = []
+        for k in key_words_counter:
+            key_word['list'].append(
+                {
+                    "times": k[1],
+                    "keyword": k[0]
+                }
+            )
         result = handle(articles)
+        result['KeyWord'] = key_word
         print(self.name)
         db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
         log('数据抓取完成')
 
-    def crack_sougou(self, url):
-        print('------开始处理未成功的URL：{}'.format(url))
-        # if 'weixin\.sogou\.com' in url:
-        print('------开始处理搜狗验证码------')
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless')
-        browser = webdriver.Chrome(chrome_options=chrome_options)
-        browser.get(url)
-        time.sleep(2)
-        try:
-            wait = WebDriverWait(browser, 10)
-            img = wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
-            print('------出现验证码页面------')
-            location = img.location
-            size = img.size
-            left = location['x']
-            top = location['y']
-            right = location['x'] + size['width']
-            bottom = location['y'] + size['height']
-            screenshot = browser.get_screenshot_as_png()
-            screenshot = Image.open(BytesIO(screenshot))
-            captcha = screenshot.crop((left, top, right, bottom))
-            captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
-            captcha.save(captcha_path)
-            with open(captcha_path, "rb") as f:
-                filebytes = f.read()
-            captch_input = captch_upload_image(filebytes)
-            print('------验证码：{}------'.format(captch_input))
-            if captch_input:
-                input_text = wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
-                input_text.clear()
-                input_text.send_keys(captch_input)
-                submit = wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
-                submit.click()
-                try:
-                    print('------输入验证码------')
-                    error_tips = wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
-                    if len(error_tips):
+        # 向前端发送成功请求
+        account_id = article_detaile.get('id')
+        status_url = '/api/drafts/updateAnalysisStatusByAnalysisId'
+        params = {
+            'type': 3,
+            'analysisId': account_id,
+            'status': 3,
+        }
+        requests.get(status_url, params=params)
+
+        def crack_sougou(self, url):
+            print('------开始处理未成功的URL：{}'.format(url))
+            # if 'weixin\.sogou\.com' in url:
+            print('------开始处理搜狗验证码------')
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_argument('--headless')
+            browser = webdriver.Chrome(chrome_options=chrome_options)
+            browser.get(url)
+            time.sleep(2)
+            try:
+                wait = WebDriverWait(browser, 10)
+                img = wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
+                print('------出现验证码页面------')
+                location = img.location
+                size = img.size
+                left = location['x']
+                top = location['y']
+                right = location['x'] + size['width']
+                bottom = location['y'] + size['height']
+                screenshot = browser.get_screenshot_as_png()
+                screenshot = Image.open(BytesIO(screenshot))
+                captcha = screenshot.crop((left, top, right, bottom))
+                captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
+                captcha.save(captcha_path)
+                with open(captcha_path, "rb") as f:
+                    filebytes = f.read()
+                captch_input = captch_upload_image(filebytes)
+                print('------验证码：{}------'.format(captch_input))
+                if captch_input:
+                    input_text = wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
+                    input_text.clear()
+                    input_text.send_keys(captch_input)
+                    submit = wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
+                    submit.click()
+                    try:
+                        print('------输入验证码------')
+                        error_tips = wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
+                        if len(error_tips):
+                            print('------验证码输入错误------')
+                            return
+                        wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
+                        print('------验证码正确------')
+                        cookies = browser.get_cookies()
+                        new_cookie = {}
+                        for items in cookies:
+                            new_cookie[items.get('name')] = items.get('value')
+                        self.cookies = new_cookie
+                        print('------cookies已更新------')
+                        if browser:
+                            browser.close()
+                        return new_cookie
+                    except:
                         print('------验证码输入错误------')
-                        return
-                    wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
-                    print('------验证码正确------')
-                    cookies = browser.get_cookies()
-                    new_cookie = {}
-                    for items in cookies:
-                        new_cookie[items.get('name')] = items.get('value')
-                    self.cookies = new_cookie
-                    print('------cookies已更新------')
-                    if browser:
-                        browser.close()
-                    return new_cookie
-                except:
-                    print('------验证码输入错误------')
-                    if browser:
-                        browser.close()
-        except:
-            if browser:
-                browser.close()
-            print('------未跳转到验证码页面，跳转到首页，忽略------')
+                        if browser:
+                            browser.close()
+            except:
+                if browser:
+                    browser.close()
+                print('------未跳转到验证码页面，跳转到首页，忽略------')
 
-
-if __name__ == '__main__':
-    test = AccountHttp()
-    test.run()
+    if __name__ == '__main__':
+        test = AccountHttp()
+        test.run()

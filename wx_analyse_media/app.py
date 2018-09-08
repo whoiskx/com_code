@@ -61,6 +61,9 @@ def find_account():
     item = db['newMedia'].find_one({'id': accountid, })
     if item:
         result = item.get('data', 'unfinished')
+        result['Success'] = True
+        result['Account'] = item.get('Account')
+        result['Message'] = ''
         return json.dumps(result)
     else:
         error_result.update({'Message': "account not found"})
