@@ -79,7 +79,7 @@ def captch_upload_image(filebytes):
     return captch_input
 
 
-def crack_sougou(self, url):
+def crack_sougous(self, url):
     print('------开始处理未成功的URL：{}'.format(url))
     if re.search('weixin\.sogou\.com', url):
         print('------开始处理搜狗验证码------')
