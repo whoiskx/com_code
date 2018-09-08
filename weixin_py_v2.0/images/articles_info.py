@@ -26,6 +26,7 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 IMAGE_DIR = os.path.join(BASE_DIR, 'images')
 CAPTCHA_NAME = 'captcha.png'
 
+print = log
 
 class AccountHttp(object):
     def __init__(self):
@@ -152,12 +153,6 @@ class AccountHttp(object):
                 # 所有文章
                 article_info = backpack.to_dict()
                 articles.append({ID: article_info})
-
-                # import pymongo
-                # conn = pymongo.MongoClient('120.78.237.213', 27017)
-                # db = conn.WeChat
-                # db['account'].insert(articles)
-
                 # 上传数据库
                 import pymongo
                 conn = pymongo.MongoClient('120.78.237.213', 27017)
@@ -232,21 +227,6 @@ class AccountHttp(object):
                     print('------验证码输入错误------')
         except:
             print('------未跳转到验证码页面，跳转到首页，忽略------')
-        # elif 'mp\.weixin\.qq\.com' in url:
-        #     print('------开始处理微信验证码------')
-        #     cert = random.random()
-        #     image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
-        #     respones = self.s.get(image_url, cookies=self.cookies)
-        #     captch_input = captch_upload_image(respones.content)
-        #     print('------验证码：{}------'.format(captch_input))
-        #     data = {
-        #         'cert': cert,
-        #         'input': captch_input
-        #     }
-        #     respones = self.s.post(image_url, cookies=self.cookies, data=data)
-        #     self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
-        #     print('微信cookies:', self.cookies)
-        #     print('------cookies已更新------')
 
 
 if __name__ == '__main__':

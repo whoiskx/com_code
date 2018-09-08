@@ -6,7 +6,6 @@ import time
 
 import requests
 import json
-from setting import log, hash_md5
 from pyquery import PyQuery as pq
 from send_backpack import JsonEntity, Article, Acount, Backpack
 from config import get_mysql_new, log
@@ -41,7 +40,7 @@ class AccountHttp(object):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
         }
         self.cookies = {
-            'Cookie': 'ABTEST=1|1536377782|v1; IPLOC=CN4401; SUID=14CF2A3B4942910A000000005B9343B6; PHPSESSID=0i2egbahl0a29bib6m8nlkv5u4; SUIR=1536377782; SUID=14CF2A3B5118910A000000005B9343B6; SUV=00A441143B2ACF145B9343B68CDBD709; seccodeErrorCount=1|Sat, 08 Sep 2018 03:41:25 GMT; SNUID=B3688D9CA7A3D3F573B5A4E5A779F874; seccodeRight=success; successCount=1|Sat, 08 Sep 2018 03:41:40 GMT; JSESSIONID=aaaP-Ms4ef_ccaVEgGBv'
+            # 'Cookie': 'ABTEST=1|1536377782|v1; IPLOC=CN4401; SUID=14CF2A3B4942910A000000005B9343B6; PHPSESSID=0i2egbahl0a29bib6m8nlkv5u4; SUIR=1536377782; SUID=14CF2A3B5118910A000000005B9343B6; SUV=00A441143B2ACF145B9343B68CDBD709; seccodeErrorCount=1|Sat, 08 Sep 2018 03:41:25 GMT; SNUID=B3688D9CA7A3D3F573B5A4E5A779F874; seccodeRight=success; successCount=1|Sat, 08 Sep 2018 03:41:40 GMT; JSESSIONID=aaaP-Ms4ef_ccaVEgGBv'
         }
 
         self.db = db
@@ -95,7 +94,6 @@ class AccountHttp(object):
     def set_name(self):
         url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
         resp = self.s.get(url)
-        # data 可能为空
         data_json = resp.text.get('data')
         if len(data_json) == 0:
             return ''
@@ -156,8 +154,6 @@ class AccountHttp(object):
                 entity.title
             )
             uploads_mysql(config_mysql, sql, _tuple)
-            # if page_count == 5:
-            #     break
         from handle_artiles import handle
         result = handle(articles)
         db['newMedia'].update({'account': self.name}, {'$set': {'data': result}})
@@ -168,7 +164,7 @@ class AccountHttp(object):
         # if 'weixin\.sogou\.com' in url:
         print('------开始处理搜狗验证码------')
         chrome_options = webdriver.ChromeOptions()
-        # chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--headless')
         browser = webdriver.Chrome(chrome_options=chrome_options)
         browser.get(url)
         time.sleep(2)
@@ -211,10 +207,16 @@ class AccountHttp(object):
                         new_cookie[items.get('name')] = items.get('value')
                     self.cookies = new_cookie
                     print('------cookies已更新------')
+                    if browser:
+                        browser.close()
                     return new_cookie
                 except:
                     print('------验证码输入错误------')
+                    if browser:
+                        browser.close()
         except:
+            if browser:
+                browser.close()
             print('------未跳转到验证码页面，跳转到首页，忽略------')
 
 

@@ -5,10 +5,10 @@ import pymongo
 import time
 import redis
 from flask import Flask, request
-from setting import hash_md5
+from utils import hash_md5
 import json
 from handle_artiles import handle
-from utils import db, async
+from utils import db, async, hash_md5
 from analyse_new_media import AccountHttp
 
 app = Flask(__name__)
@@ -69,4 +69,4 @@ def find_account():
 if __name__ == '__main__':
     t = Task()
     t.listen_task()
-    app.run(port=38015)
+    app.run(port=8009)

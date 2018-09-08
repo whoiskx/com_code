@@ -1,7 +1,7 @@
 import json
 import time
 import requests
-from setting import log
+from utils import log
 import re
 from pyquery import PyQuery as pq
 
