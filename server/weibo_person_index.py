@@ -21,7 +21,8 @@ def hello_world():
     query = request.args
     log(query)
     url = query.get('url')
-    driver.get(url)
+    driver.get\
+        (url)
     time.sleep(5)
     log(driver.title)
     first_post_time = driver.find_element_by_class_name('WB_from').find_element_by_tag_name('a').text

@@ -40,7 +40,9 @@ class AccountHttp(object):
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
         }
-        self.cookies = {}
+        self.cookies = {
+            'Cookie': 'ABTEST=1|1536377782|v1; IPLOC=CN4401; SUID=14CF2A3B4942910A000000005B9343B6; PHPSESSID=0i2egbahl0a29bib6m8nlkv5u4; SUIR=1536377782; SUID=14CF2A3B5118910A000000005B9343B6; SUV=00A441143B2ACF145B9343B68CDBD709; seccodeErrorCount=1|Sat, 08 Sep 2018 03:41:25 GMT; SNUID=B3688D9CA7A3D3F573B5A4E5A779F874; seccodeRight=success; successCount=1|Sat, 08 Sep 2018 03:41:40 GMT; JSESSIONID=aaaP-Ms4ef_ccaVEgGBv'
+        }
 
         self.db = db
 
@@ -95,10 +97,10 @@ class AccountHttp(object):
         resp = self.s.get(url)
         # data 可能为空
         data_json = resp.text.get('data')
+        if len(data_json) == 0:
+            return ''
         data = json.loads(data_json)
         self.name = data.get('name')
-        # print(self.name)
-        # return self.name
 
     def urls_article(self, html):
         items = re.findall('"content_url":".*?,"copyright_stat"', html)
@@ -109,7 +111,7 @@ class AccountHttp(object):
             urls.append(url)
         return urls
 
-    def run(self, db=''):
+    def run(self):
         self.db = db
         html_account = self.account_homepage()
         if html_account:
@@ -156,11 +158,10 @@ class AccountHttp(object):
             uploads_mysql(config_mysql, sql, _tuple)
             # if page_count == 5:
             #     break
-        db['newMedia'].update({'account': self.name}, {'$set': {'data': articles}})
-
-        log("发包")
-        if backpack_list:
-            entity.uploads(backpack_list)
+        from handle_artiles import handle
+        result = handle(articles)
+        db['newMedia'].update({'account': self.name}, {'$set': {'data': result}})
+        log('数据抓取完成')
 
     def crack_sougou(self, url):
         print('------开始处理未成功的URL：{}'.format(url))
@@ -215,7 +216,6 @@ class AccountHttp(object):
                     print('------验证码输入错误------')
         except:
             print('------未跳转到验证码页面，跳转到首页，忽略------')
-
 
 
 if __name__ == '__main__':

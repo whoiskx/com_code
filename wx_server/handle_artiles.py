@@ -78,9 +78,9 @@ def counter_time_range(articles):
     return data
 
 
-def handle(article_mongo=''):
+def handle(articles_info):
     # 按天
-    articles = all_artcle(article_mongo)
+    articles = all_artcle(articles_info)
     count = len(articles)
     date_info = date_count(articles)
     time_info = counter_time_range(articles)

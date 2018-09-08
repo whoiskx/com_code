@@ -12,3 +12,4 @@ Linux ssh会话关闭 相关进程都被杀死
 字节转字符  encoding=''
 
 sudo pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn jieba
+find_one()查询得到的是单个结果，find()
