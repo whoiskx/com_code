@@ -94,6 +94,10 @@ class AccountHttp(object):
             return
         else:
             # 处理验证码
+            print(search_url)
+            print(resp_search.text)
+            print('adfasdfasf', self.cookies)
+
             self.crack_sougou(search_url)
             print("验证完毕")
             time.sleep(2)
@@ -329,11 +333,11 @@ class AccountHttp(object):
                     submit = self.wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
                     submit.click()
                     try:
-                        print('------输入验证码------')
-                        error_tips = self.wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
-                        if len(error_tips):
-                            print('---1111111---验证码输入错误------')
-                            return
+                        # print('------输入验证码------')
+                        # error_tips = self.wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
+                        # if len(error_tips):
+                        #     print('---1111111---验证码输入错误------')
+                        #     return
                         self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
                         print('------验证码正确------')
                         cookies = self.browser.get_cookies()
