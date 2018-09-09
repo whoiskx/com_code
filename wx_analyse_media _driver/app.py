@@ -51,17 +51,11 @@ class AccountHttp(object):
         self.account = ''
         self.name = ''
         self.db = db
-        self.s = requests.session()
+        self.s = requests.Session()
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
         self.headers = {
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Encoding': 'gzip, deflate',
-            'Accept-Language': 'zh-CN,zh;q=0.9',
-            'Connection': 'keep-alive',
-            'Host': 'weixin.sogou.com',
-            'Upgrade-Insecure-Requests': '1',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
         }
         self.cookies = {}
         # self.browser = ''
@@ -69,7 +63,7 @@ class AccountHttp(object):
         chrome_options = webdriver.ChromeOptions()
         # chrome_options.add_argument('--headless')
         self.browser = webdriver.Chrome(chrome_options=chrome_options)
-        self.wait = WebDriverWait(self.browser, 4)
+        self.wait = WebDriverWait(self.browser, 10)
 
         self.rcon = redis.StrictRedis(db=8)
         self.queue = 'analyse'
@@ -87,18 +81,8 @@ class AccountHttp(object):
     def account_homepage(self):
         # 搜索并进入公众号主页
         search_url = self.url.format(self.name)
-
-        params = {
-            'query': self.name,
-        }
-        referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(self.name)
-        print(referer)
-        self.headers['Referer'] = referer
-        self.url = 'http://weixin.sogou.com/weixin?query={}'.format(self.name)
-        resp_search = self.s.get(self.url, headers=self.headers, cookies=self.cookies)
-        # print(resp_search.text)
         # 这里cookie必须要
-        # resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
+        resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
 
         if '相关的官方认证订阅号' in resp_search.text:
             log("找不到该公众号: {}".format(self.name))
@@ -112,7 +96,7 @@ class AccountHttp(object):
         else:
             # 处理验证码
             print(search_url)
-            # print(resp_search.text)
+            print(resp_search.text)
             print('adfasdfasf', self.cookies)
 
             self.crack_sougou(search_url)
@@ -123,7 +107,7 @@ class AccountHttp(object):
                 for items in cookies:
                     new_cookie[items.get('name')] = items.get('value')
                 self.cookies = new_cookie
-                print('------cookies已更新------', self.cookies)
+                print('------cookies已更新------')
 
             print("验证完毕")
             time.sleep(2)
@@ -183,7 +167,6 @@ class AccountHttp(object):
 
     def run(self):
         article_detaile = db['newMedia'].find_one({'Account': self.name})
-        print("fadfsdf", self.cookies)
         html_account = self.account_homepage()
         if html_account:
             html, account_of_homepage = html_account
@@ -200,8 +183,8 @@ class AccountHttp(object):
         articles = []
         backpack_list = []
         for page_count, url in enumerate(urls_article):
-            # if page_count > 2:
-            #     break
+            if page_count > 2:
+                break
             article = Article()
             log('url:', url)
             article.create(url, self.name)
@@ -316,7 +299,7 @@ class AccountHttp(object):
                         for items in cookies:
                             new_cookie[items.get('name')] = items.get('value')
                         self.cookies = new_cookie
-                        print('------cookies已更新------', self.cookies)
+                        print('------cookies已更新------')
                         return new_cookie
                     except:
                         print('--22222222----验证码输入错误------')
