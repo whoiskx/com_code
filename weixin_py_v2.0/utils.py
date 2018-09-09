@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import time
+
 import pymysql
 import pymssql
 
@@ -33,3 +35,12 @@ with open('ids.txt', 'r', encoding='utf-8') as f:
     name_all = f.read()
 id_list = name_all.split("\n")
 print(id_list)
+
+
+def log(*args, **kwargs):
+    time_format = '%y-%m-%d %H:%M:%S'
+    value = time.localtime(int(time.time()))
+    dt = time.strftime(time_format, value)
+    print(dt, *args, **kwargs)
+    with open('log.txt', 'a', encoding='utf-8') as f:
+        print(dt, *args, file=f, **kwargs)

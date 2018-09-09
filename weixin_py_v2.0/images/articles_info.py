@@ -8,7 +8,7 @@ import requests
 import json
 from setting import log
 from pyquery import PyQuery as pq
-from send_backpack import JsonEntity, Article, Acount, Backpack
+from send_backpack import JsonEntity, Article, Account, Backpack
 from config import get_mysql_new, log
 from utils import uploads_mysql, hash_md5
 from selenium.webdriver.common.by import By
@@ -131,7 +131,7 @@ class AccountHttp(object):
             log('start 公众号: ', self.name)
             urls_article = self.urls_article(html)
 
-            account = Acount()
+            account = Account()
             account.name = self.name
             account.account = account_of_homepage
             account.get_account_id()
