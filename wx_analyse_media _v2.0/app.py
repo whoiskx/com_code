@@ -67,7 +67,7 @@ class AccountHttp(object):
         # self.browser = ''
         # self.wait = ''
         chrome_options = webdriver.ChromeOptions()
-        # chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--headless')
         self.browser = webdriver.Chrome(chrome_options=chrome_options)
         self.wait = WebDriverWait(self.browser, 4)
 
@@ -80,6 +80,7 @@ class AccountHttp(object):
             account_char = self.rcon.brpop(self.queue, 0)[1]
             account.name = account_char.decode(encoding="utf-8")
             account.run()
+            time.sleep(3)
             # if account.browser:
             #     account.browser.quit()
             print("消耗一个account")
@@ -398,6 +399,8 @@ if __name__ == '__main__':
     account = AccountHttp()
 
     t = AccountHttp()
+    if t.browser:
+        t.browser.close()
     t.listen_task(account)
 
     app.run(host='0.0.0.0', port=8008)
