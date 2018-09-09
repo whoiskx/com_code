@@ -81,6 +81,7 @@ class AccountHttp(object):
     def account_homepage(self):
         # 搜索并进入公众号主页
         search_url = self.url.format(self.name)
+        # 这里cookie必须要
         resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
 
         if '相关的官方认证订阅号' in resp_search.text:
@@ -99,6 +100,15 @@ class AccountHttp(object):
             print('adfasdfasf', self.cookies)
 
             self.crack_sougou(search_url)
+            if '搜公众号' in self.browser.page_source:
+                print('------cookies更新------')
+                cookies = self.browser.get_cookies()
+                new_cookie = {}
+                for items in cookies:
+                    new_cookie[items.get('name')] = items.get('value')
+                self.cookies = new_cookie
+                print('------cookies已更新------')
+
             print("验证完毕")
             time.sleep(2)
             # 被跳过的公众号要不要抓取  大概 4次
@@ -245,62 +255,6 @@ class AccountHttp(object):
         #     'status': 3,
         # }
         # requests.get(status_url, params=params)
-
-    # def crack_sougou(self, url, ):
-    #     print('------开始处理搜狗验证码------')
-    #     chrome_options = webdriver.ChromeOptions()
-    #     # chrome_options.add_argument('--headless')
-    #     self.browser = webdriver.Chrome(chrome_options=chrome_options)
-    #     self.wait = WebDriverWait(self.browser, 5)
-    #
-    #     self.browser.get(url)
-    #     time.sleep(2)
-    #     try:
-    #         img = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
-    #         print('------出现验证码页面------')
-    #         location = img.location
-    #         size = img.size
-    #         left = location['x']
-    #         top = location['y']
-    #         right = location['x'] + size['width']
-    #         bottom = location['y'] + size['height']
-    #         screenshot = self.browser.get_screenshot_as_png()
-    #         screenshot = Image.open(BytesIO(screenshot))
-    #         captcha = screenshot.crop((left, top, right, bottom))
-    #         captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
-    #         captcha.save(captcha_path)
-    #         with open(captcha_path, "rb") as f:
-    #             filebytes = f.read()
-    #         captch_input = captch_upload_image(filebytes)
-    #         print('------验证码：{}------'.format(captch_input))
-    #         if captch_input:
-    #             input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
-    #             input_text.clear()
-    #             input_text.send_keys(captch_input)
-    #             submit = self.wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
-    #             submit.click()
-    #             time.sleep(2)
-    #             try:
-    #                 # print('------输入验证码------')
-    #                 # # error_tips = self.wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
-    #                 # print('aaaaaaaaaaaaaa', error_tips, 'aaaaaaaaa')
-    #                 # if len(error_tips):
-    #                 #     print('------验证码输入错误------')
-    #                 #     return
-    #                 # self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
-    #                 # print('------验证码正确------')
-    #                 cookies = self.browser.get_cookies()
-    #                 new_cookie = {}
-    #                 for items in cookies:
-    #                     new_cookie[items.get('name')] = items.get('value')
-    #                 self.cookies = new_cookie
-    #                 # db['cookie'].de(new_cookie)
-    #                 print('------cookies已更新------')
-    #                 return new_cookie
-    #             except:
-    #                 print('------验证码输入错误------')
-    #     except:
-    #         print('------未跳转到验证码页面，跳转到首页，忽略------')
 
     def crack_sougou(self, url):
         print('------开始处理未成功的URL：{}'.format(url))
