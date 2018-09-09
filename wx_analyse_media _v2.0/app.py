@@ -224,22 +224,12 @@ class AccountHttp(object):
             # 所有文章
             article_info = backpack.to_dict()
             articles.append(article_info)
-            # 上传数据库
-            sql = '''
-                    INSERT INTO
-                        account_http(article_url, addon, account, account_id, author, id, title)
-                    VALUES
-                        (%s, %s, %s, %s, %s, %s, %s)
-            '''
-            _tuple = (
-                article.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author, entity.id,
-                entity.title
-            )
-            uploads_mysql(config_mysql, sql, _tuple)
 
         content_all_list = ''
         for article in articles:
             content_all_list += article.get('Content')
+        # with open('all_character.txt', 'w', encoding='utf-8') as f:
+        #     f.write(content_all_list)
         # 分词处理
         key_words_list = []
         seg_list = jieba.cut(''.join(content_all_list), cut_all=False)
@@ -260,19 +250,45 @@ class AccountHttp(object):
             )
         result = handle(articles)
         result['KeyWord'] = key_word
+
+        # 正负判断
+        with open('positive.txt', 'r', encoding='utf-8') as f:
+            positive = f.read()
+        with open('nagetive.txt', 'r', encoding='utf-8') as f:
+            nagetive = f.read()
+        # key_list = list(key_words_counter)
+        log(len(Counter(key_words_list).most_common()))
+        count_positive = 0
+        count_nagetive = 0
+        for key in Counter(key_words_list).most_common():
+            k, c = key
+            if k in positive.split('\n'):
+                count_positive += c
+                # print(k)
+
+            if k in nagetive.split('\n'):
+                count_nagetive += c
+                # print('k2', k)
+        print(count_positive)
+
+        print(count_nagetive)
+
+
+
         print(self.name)
         db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
         log('数据抓取完成')
 
         # 向前端发送成功请求
-        # account_id = article_detaile.get('id')
-        # status_url = '/api/drafts/updateAnalysisStatusByAnalysisId'
-        # params = {
-        #     'type': 3,
-        #     'analysisId': account_id,
-        #     'status': 3,
-        # }
-        # requests.get(status_url, params=params)
+        account_id = article_detaile.get('id')
+        status_url = 'http://58.56.160.39:38012/api/drafts/updateAnalysisStatusByAnalysisId'
+        params = {
+            'type': 3,
+            'analysisId': account_id,
+            'status': 3,
+        }
+        r = requests.get(status_url, params=params)
+        log('status_code', r.status_code)
 
     def crack_sougou(self, url):
         print('------开始处理未成功的URL：{}'.format(url))

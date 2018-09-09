@@ -6,10 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wx_analyse_media _v2.0/nagetive.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wx_analyse_media _v2.0/positive.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SougouWeixin/sougouweixin_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/SougouWeixin/sougouweixin_spider.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx_analyse_media _v2.0/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media _v2.0/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_analyse_media _v2.0/images/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media _v2.0/images/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx_analyse_media _v2.0/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media _v2.0/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx_analyse_media _v2.0/testss.py" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media _v2.0/testss.py" afterDir="false" />
     </list>
@@ -33,20 +35,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="105" column="18" lean-forward="true" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+            <state relative-caret-position="-121">
+              <caret line="237" column="30" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sougouweixin_spider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all_character.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/all_character.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="sougouweixin_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SougouWeixin/sougouweixin_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="163" column="28" lean-forward="true" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+            <state relative-caret-position="373">
+              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -62,7 +69,8 @@
       <file leaf-file-name="send_backpack.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/send_backpack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="266">
+              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="64" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -70,49 +78,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Image.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/PIL/Image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="2536" selection-start-line="2536" selection-end-line="2536" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/pymongo/database.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="257" selection-start-line="257" selection-end-line="257" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collection.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/pymongo/collection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="152" selection-start-line="152" selection-end-line="152" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testss.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/testss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/images/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nagetive.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/nagetive.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="get_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/get_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-            </state>
-          </provider>
+      <file leaf-file-name="positive.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/positive.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/config.py">
+      <file leaf-file-name="t.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/images/t.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -128,7 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>run</find>
       <find>Image</find>
       <find>IMAGE_DIR</find>
       <find>tit</find>
@@ -151,13 +148,14 @@
       <find>close</find>
       <find>crack_sougou</find>
       <find>requests_news</find>
-      <find />
+      <find>{'SUID': '14CF2A3B5118910A000000005B94A272', 'ABTEST': '4|1536467569|v1', 'SUIR': '1536467569', 'IPLOC': 'CN4401', 'SNUID': 'E53EDACBF1F584994B145EF7F176CBA3', 'PHPSESSID': 's5ut8rc6f1r5liblffel11rl34', 'seccodeRight': 'success', 'SUV': '00CD2B853B2ACF145B94A2728AF7E778', 'successCount': '1|Sun, 09 Sep 2018 04:37:52 GMT', 'refresh': '1', 'JSESSIONID': 'aaaek8G5FXc02eG376Dvw'}</find>
       <find>cookies已更新</find>
-      <find>WeiXinArt/SinglePars</find>
-      <find />
+      <find>{'SUID': '14CF2A3B5118910A000000005B94A351', 'ABTEST': '0|1536467791|v1', 'SUIR': '1536467792', 'IPLOC': 'CN4401', 'SNUID': '8F54B0A09B9FEEF253B55DEB9B1ADA2F', 'PHPSESSID': 'mrnpc2vs8a3p641l3ijja006d6', 'SUV': '00CB55443B2ACF145B94A350DE801358', 'successCount': '1|Sun, 09 Sep 2018 04:41:35 GMT', 'JSESSIONID': 'aaaJx0po7IBe84gf96Dvw'}</find>
       <find>get_news_all</find>
       <find>jianhu17357515591</find>
-      <find />
+      <find>{'SUID': '14CF2A3B2E18960A000000005B94C859', 'ABTEST': '8|1536477272|v1', 'seccodeErrorCount': '2|Sun, 09 Sep 2018 07:19:36 GMT', 'SUIR': '1536477273', 'IPLOC': 'CN4401', 'SNUID': '28F317073C3949563EF34C933DA1219E', 'PHPSESSID': '4jh0uda09qfns7k7e9ijl3j3k7', 'SUV': '00F417853B2ACF145B94C8598E61F958', 'seccodeRight': 'success', 'successCount': '1|Sun, 09 Sep 2018 07:21:09 GMT', 'refresh': '1', 'JSESSIONID': 'aaaeHkflzIpH_9Y8pKBvw'}</find>
+      <find>WeiXinArt/SinglePars</find>
+      <find>找不到该公众号</find>
     </findStrings>
     <replaceStrings>
       <replace>'%s'</replace>
@@ -204,8 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weixin_py_v2.0/config.py" />
-        <option value="$PROJECT_DIR$/weixin_py/tests_search.py" />
         <option value="$PROJECT_DIR$/setting.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/ids_read.py" />
         <option value="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" />
@@ -253,8 +249,10 @@
         <option value="$PROJECT_DIR$/weixin_py_v2.0/utils.py" />
         <option value="$PROJECT_DIR$/wx_analyse_media/config.py" />
         <option value="$PROJECT_DIR$/SougouParseArticle/sougou_parser_title.py" />
-        <option value="$PROJECT_DIR$/wx_analyse_media _v2.0/app.py" />
         <option value="$PROJECT_DIR$/SougouWeixin/sougouweixin_spider.py" />
+        <option value="$PROJECT_DIR$/wx_analyse_media _v2.0/testss.py" />
+        <option value="$PROJECT_DIR$/wx_analyse_media _v2.0/images/tests.py" />
+        <option value="$PROJECT_DIR$/wx_analyse_media _v2.0/app.py" />
       </list>
     </option>
   </component>
@@ -267,11 +265,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="940" />
-    <option name="y" value="57" />
-    <option name="width" value="1288" />
-    <option name="height" value="941" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="555" />
+    <option name="y" value="2" />
+    <option name="width" value="1326" />
+    <option name="height" value="1009" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -293,6 +291,17 @@
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
               <item name="SougouWeixin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_analyse_media _v2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_analyse_media _v2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -310,18 +319,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\com_code\wx_analyse_media _v2.0\images" />
       <recent name="D:\com_code" />
       <recent name="D:\com_code\weixin_py_v2.0\images" />
       <recent name="D:\com_code\wx_server" />
       <recent name="D:\com_code\weixin_py_v2.0" />
-      <recent name="D:\com_code\Facebook\News_xinhua_praise" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\com_code\wx_analyse_media _v2.0" />
       <recent name="D:\com_code" />
       <recent name="D:\com_code\WB" />
       <recent name="D:\com_code\weixin_py" />
       <recent name="D:\com_code\DAYBYDAY\7月" />
-      <recent name="D:\com_code\WX" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,25 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sougouweixin_spider">
-    <configuration name="account_request_v3.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixin_py_v2.0" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py_v2.0/account_request_v3.0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.app (1)">
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -391,24 +382,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ids_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixin_py_v2.0" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py_v2.0/ids_read.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="sougouweixin_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -427,20 +400,56 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wx_analyse_media _v2.0/images" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wx_analyse_media _v2.0/images/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="testss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wx_analyse_media _v2.0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wx_analyse_media _v2.0/testss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.account_request_v3.0" />
-      <item itemvalue="Python.ids_read" />
       <item itemvalue="Python.articles_info" />
       <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.sougouweixin_spider" />
+      <item itemvalue="Python.testss" />
+      <item itemvalue="Python.tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sougouweixin_spider" />
         <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.testss" />
+        <item itemvalue="Python.sougouweixin_spider" />
         <item itemvalue="Python.articles_info" />
-        <item itemvalue="Python.ids_read" />
-        <item itemvalue="Python.account_request_v3.0" />
       </list>
     </recent_temporary>
   </component>
@@ -500,19 +509,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.15542677" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.15542677" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39468086" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.30106384" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.3393617" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.31595746" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24148937" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.54842615" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24042553" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.54787236" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -966,9 +974,14 @@
           <option name="timeStamp" value="395" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url />
+          <url>file://$PROJECT_DIR$/wx_analyse_media _v2.0/app.py</url>
           <line>103</line>
           <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media _v2.0/images/tests.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="399" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -981,7 +994,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="399" />
+      <option name="time" value="400" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -993,17 +1006,17 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string />
+        <expression-string>db['newMedia'].find_one({'id': accountid, }).get('data')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>db['newMedia'].find_one({'id': accountid, }).get(data)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>db['newMedia'].find_one({'id': accountid, })</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1018,22 +1031,22 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>db['newMedia'].update({'account': self.name}, {'$set': {'data': articles}})</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>db['newMedia'].update({'account': self.name}, {'$Set': {'data': articles}})</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>db['newMedia'].update_one({'account': self.name}, {'$set': {'id': 1}})</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>re.search(r'微信号：\w*', e.text()).group()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1077,17 +1090,17 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'error-tip')))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>wait.until(EC.presence_of_element_located((By.ID, 'error-tips')))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1104,37 +1117,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pymongo/periodic_executor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="1459" column="8" selection-start-line="1459" selection-start-column="8" selection-end-line="1459" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_analyse_media/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_analyse_media/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104676" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1407,9 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/testss.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/get_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1444,29 +1423,59 @@
     <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/log.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/SougouWeixin/sougouweixin_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/send_backpack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="266">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="64" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/app.py">
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/testss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="105" column="18" lean-forward="true" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+        <state relative-caret-position="329">
+          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SougouWeixin/sougouweixin_spider.py">
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/nagetive.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/positive.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/images/t.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/all_character.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/images/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="163" column="28" lean-forward="true" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+        <state relative-caret-position="361">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media _v2.0/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="237" column="30" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="30" />
         </state>
       </provider>
     </entry>
