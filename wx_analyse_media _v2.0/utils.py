@@ -8,6 +8,7 @@ import redis
 
 conn = pymongo.MongoClient('120.78.237.213', 27017)
 db = conn.WeChat
+# db = conn.TestWe
 
 
 def log(*args, **kwargs):

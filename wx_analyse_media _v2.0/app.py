@@ -272,6 +272,7 @@ class AccountHttp(object):
         print(count_positive)
 
         print(count_nagetive)
+        result['ArtPosNeg'] = {'Indicate': {'Positive': count_positive, 'Negative':count_nagetive}}
 
 
 
