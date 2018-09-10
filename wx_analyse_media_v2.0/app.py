@@ -87,10 +87,6 @@ class AccountHttp(object):
     def account_homepage(self):
         # 搜索并进入公众号主页
         search_url = self.url.format(self.name)
-
-        params = {
-            'query': self.name,
-        }
         referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(
             self.name)
         print(referer)
@@ -107,6 +103,40 @@ class AccountHttp(object):
         e = pq(resp_search.text)
         if self.name in e(".info").eq(0).text():
             account_link = e(".tit").find('a').attr('href')
+            # 查询公众号
+            url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
+            r1 = requests.get(url_public)
+            result1 = r1.text
+            s = result1.json().get('imageUrl')
+            if s:
+                url2 = 'http://60.190.238.188:38016/{}'.format(s)
+                r_img = requests.get(url2)
+                if r_img.text:
+                    print('账号:{} 头像存在'.format(self.name))
+                else:
+                    # 保存头像
+                    url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format()
+                    requests.post(url_save)
+
+
+
+
+            info = dict()
+            info['name'] = e(".tit").text()
+            info['account'] = self.name
+            show_list = e("dl")
+            features, certified = '', ''
+            for show in show_list:
+                if '功能介绍' in pq(show).text():
+                    features = pq(show).text().replace('功能介绍：\n', '')
+                if '认证' in pq(show).text():
+                    certified = pq(show).text().split('\n')[-1]
+            info['features '] = features
+            info['certified '] = certified
+
+            post_url = 'http://183.131.241.60:38011/AddNewAccount?json='
+            requests.post(post_url, data=info)
+
         elif len(e(".tit").eq(0).text()) > 1:
             log("不能匹配正确的公众号: {}".format(self.name))
             return
