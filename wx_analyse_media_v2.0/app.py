@@ -51,19 +51,25 @@ class AccountHttp(object):
         self.account = ''
         self.name = ''
         self.db = db
-        self.s = requests.Session()
+        self.s = requests.session()
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Encoding': 'gzip, deflate',
+            'Accept-Language': 'zh-CN,zh;q=0.9',
+            'Connection': 'keep-alive',
+            'Host': 'weixin.sogou.com',
+            'Upgrade-Insecure-Requests': '1',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
         }
         self.cookies = {}
         # self.browser = ''
         # self.wait = ''
         chrome_options = webdriver.ChromeOptions()
-        # chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--headless')
         self.browser = webdriver.Chrome(chrome_options=chrome_options)
-        self.wait = WebDriverWait(self.browser, 10)
+        self.wait = WebDriverWait(self.browser, 4)
 
         self.rcon = redis.StrictRedis(db=8)
         self.queue = 'analyse'
@@ -76,13 +82,24 @@ class AccountHttp(object):
             account.run()
             # if account.browser:
             #     account.browser.quit()
-            print("消耗一个account")
+            log("消耗一个account")
 
     def account_homepage(self):
         # 搜索并进入公众号主页
         search_url = self.url.format(self.name)
+
+        params = {
+            'query': self.name,
+        }
+        referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(
+            self.name)
+        print(referer)
+        self.headers['Referer'] = referer
+        self.url = 'http://weixin.sogou.com/weixin?query={}'.format(self.name)
+        resp_search = self.s.get(self.url, headers=self.headers, cookies=self.cookies)
+        # print(resp_search.text)
         # 这里cookie必须要
-        resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
+        # resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
 
         if '相关的官方认证订阅号' in resp_search.text:
             log("找不到该公众号: {}".format(self.name))
@@ -96,18 +113,23 @@ class AccountHttp(object):
         else:
             # 处理验证码
             print(search_url)
-            print(resp_search.text)
+            # print(resp_search.text)
             print('adfasdfasf', self.cookies)
-
-            self.crack_sougou(search_url)
-            if '搜公众号' in self.browser.page_source:
-                print('------cookies更新------')
-                cookies = self.browser.get_cookies()
-                new_cookie = {}
-                for items in cookies:
-                    new_cookie[items.get('name')] = items.get('value')
-                self.cookies = new_cookie
-                print('------cookies已更新------')
+            try_count = 0
+            while True:
+                try_count += 1
+                self.crack_sougou(search_url)
+                if '搜公众号' in self.browser.page_source:
+                    print('------cookies更新------')
+                    cookies = self.browser.get_cookies()
+                    new_cookie = {}
+                    for items in cookies:
+                        new_cookie[items.get('name')] = items.get('value')
+                    self.cookies = new_cookie
+                    print('------cookies已更新------', self.cookies)
+                    break
+                elif try_count > 3:
+                    break
 
             print("验证完毕")
             time.sleep(2)
@@ -166,7 +188,7 @@ class AccountHttp(object):
         return urls
 
     def run(self):
-        article_detaile = db['newMedia'].find_one({'Account': self.name})
+        log("fadfsdf", self.cookies)
         html_account = self.account_homepage()
         if html_account:
             html, account_of_homepage = html_account
@@ -183,8 +205,8 @@ class AccountHttp(object):
         articles = []
         backpack_list = []
         for page_count, url in enumerate(urls_article):
-            if page_count > 2:
-                break
+            # if page_count > 2:
+            #     break
             article = Article()
             log('url:', url)
             article.create(url, self.name)
@@ -206,22 +228,12 @@ class AccountHttp(object):
             # 所有文章
             article_info = backpack.to_dict()
             articles.append(article_info)
-            # 上传数据库
-            sql = '''
-                    INSERT INTO
-                        account_http(article_url, addon, account, account_id, author, id, title)
-                    VALUES
-                        (%s, %s, %s, %s, %s, %s, %s)
-            '''
-            _tuple = (
-                article.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author, entity.id,
-                entity.title
-            )
-            uploads_mysql(config_mysql, sql, _tuple)
 
         content_all_list = ''
         for article in articles:
             content_all_list += article.get('Content')
+        # with open('all_character.txt', 'w', encoding='utf-8') as f:
+        #     f.write(content_all_list)
         # 分词处理
         key_words_list = []
         seg_list = jieba.cut(''.join(content_all_list), cut_all=False)
@@ -242,29 +254,59 @@ class AccountHttp(object):
             )
         result = handle(articles)
         result['KeyWord'] = key_word
-        print(self.name)
+
+        # 正负判断
+        with open('positive.txt', 'r', encoding='utf-8') as f:
+            positive = f.read()
+        with open('nagetive.txt', 'r', encoding='utf-8') as f:
+            nagetive = f.read()
+        # key_list = list(key_words_counter)
+        log(len(Counter(key_words_list).most_common()))
+        count_positive = 0
+        count_nagetive = 0
+        for key in Counter(key_words_list).most_common():
+            k, c = key
+            if k in positive.split('\n'):
+                count_positive += c
+                # log(k)
+
+            if k in nagetive.split('\n'):
+                count_nagetive += c
+                # log('k2', k)
+        log(count_positive)
+
+        log(count_nagetive)
+        result['ArtPosNeg'] = {'Indicate': {'Positive': count_positive, 'Negative': count_nagetive}}
+        result['Success'] = True
+        result['Account'] = self.name
+        result['Message'] = ''
+
+        log('====', self.name)
         db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
         log('数据抓取完成')
 
         # 向前端发送成功请求
-        # account_id = article_detaile.get('id')
-        # status_url = '/api/drafts/updateAnalysisStatusByAnalysisId'
-        # params = {
-        #     'type': 3,
-        #     'analysisId': account_id,
-        #     'status': 3,
-        # }
-        # requests.get(status_url, params=params)
+        # article_detaile = db['newMedia'].find_one({'Account': self.name})
+
+        account_id = hash_md5(self.name)
+        status_url = 'http://58.56.160.39:38012/api/drafts/updateAnalysisStatusByAnalysisId'
+        params = {
+            'type': 3,
+            'analysisId': account_id,
+            'status': 3,
+        }
+        r = requests.get(status_url, params=params)
+        log('status_code', r.status_code)
 
     def crack_sougou(self, url):
-        print('------开始处理未成功的URL：{}'.format(url))
+        log('------开始处理未成功的URL：{}'.format(url))
         if re.search('weixin\.sogou\.com', url):
-            print('------开始处理搜狗验证码------')
+            log('------开始处理搜狗验证码------')
             self.browser.get(url)
             time.sleep(2)
             try:
                 img = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
-                print('------出现验证码页面------')
+                log('------出现验证码页面------')
                 location = img.location
                 size = img.size
                 left = location['x']
@@ -279,7 +321,7 @@ class AccountHttp(object):
                 with open(captcha_path, "rb") as f:
                     filebytes = f.read()
                 captch_input = captch_upload_image(filebytes)
-                print('------验证码：{}------'.format(captch_input))
+                log('------验证码：{}------'.format(captch_input))
                 if captch_input:
                     input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
                     input_text.clear()
@@ -287,39 +329,39 @@ class AccountHttp(object):
                     submit = self.wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
                     submit.click()
                     try:
-                        # print('------输入验证码------')
+                        # log('------输入验证码------')
                         # error_tips = self.wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
                         # if len(error_tips):
-                        #     print('---1111111---验证码输入错误------')
+                        #     log('---1111111---验证码输入错误------')
                         #     return
                         self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
-                        print('------验证码正确------')
+                        log('------验证码正确------')
                         cookies = self.browser.get_cookies()
                         new_cookie = {}
                         for items in cookies:
                             new_cookie[items.get('name')] = items.get('value')
                         self.cookies = new_cookie
-                        print('------cookies已更新------')
+                        log('------cookies已更新------', self.cookies)
                         return new_cookie
                     except:
-                        print('--22222222----验证码输入错误------')
+                        log('--22222222----验证码输入错误------')
             except:
-                print('------未跳转到验证码页面，跳转到首页，忽略------')
+                log('------未跳转到验证码页面，跳转到首页，忽略------')
 
         elif re.search('mp\.weixin\.qq\.com', url):
-            print('------开始处理微信验证码------')
+            log('------开始处理微信验证码------')
             cert = random.random()
             image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
             respones = self.s.get(image_url, cookies=self.cookies)
             captch_input = captch_upload_image(respones.content)
-            print('------验证码：{}------'.format(captch_input))
+            log('------验证码：{}------'.format(captch_input))
             data = {
                 'cert': cert,
                 'input': captch_input
             }
             respones = self.s.post(image_url, cookies=self.cookies, data=data)
             self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
-            print('------cookies已更新------')
+            log('------cookies已更新------')
 
 
 class Task(object):
@@ -336,11 +378,11 @@ class Task(object):
             account.run()
             # if account.browser:
             #     account.browser.quit()
-            print("消耗一个account")
+            log("消耗一个account")
 
     def prodcons(self, account):
         self.rcon.lpush(self.queue, account)
-        print("lpush {} -- {}".format(self.queue, account))
+        log("lpush {} -- {}".format(self.queue, account))
 
 
 @app.route('/')
@@ -362,13 +404,10 @@ def add_account():
 @app.route('/WeiXinArt/PublishTimes')
 def find_account():
     accountid = request.args.get('accountid')
-    print('find', accountid)
+    log('find', accountid)
     item = db['newMedia'].find_one({'id': accountid, })
     if item:
-        result = item.get('data', 'unfinished')
-        result['Success'] = True
-        result['Account'] = item.get('Account')
-        result['Message'] = ''
+        result = item.get('data', 'catch unfinished')
         return json.dumps(result)
     else:
         error_result.update({'Message': "account not found"})
@@ -381,6 +420,8 @@ if __name__ == '__main__':
     account = AccountHttp()
 
     t = AccountHttp()
+    if t.browser:
+        t.browser.close()
     t.listen_task(account)
 
     app.run(host='0.0.0.0', port=8008)

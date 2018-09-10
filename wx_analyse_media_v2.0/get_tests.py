@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-account = ['gh_5deb3f31ca4c', 'gh_3dadf54229b8', 'mmc-yishu', 'aixuexizixishi',
+account = ['mmc-yishu', 'aixuexizixishi',
            'gh_6486ae83ed39', 'FDWHSCC1314', 'Dubai_Property', 'binggansang', 'cy__520sxl', 'gh_ea1a3db26321',
            'dzyxshzzb', 'PoemLawLiterature', 'hejinfu0606', 'WL-lanlan90', 'zui-kaizhou', 'shudongvivi',
            'jianhu17357515591', 'xy164110901', 'jdzfhk', 'fsshccyglyxgs', 'gh_ccc140cd53fa', 'laosunblog',
@@ -12,13 +12,15 @@ account = ['gh_5deb3f31ca4c', 'gh_3dadf54229b8', 'mmc-yishu', 'aixuexizixishi',
            'sixiangcd', 'gh_cb860056b87d', 'Mhuihui0-0', 'hnsxsfzydszdsyb', 'gh_d7252418f9e6', 'gh_2219b94b95b1',
            'jingshenjianbing', 'dgdjsh', 'gh_b7373d9ff0b2', 'gh_698dc9c1bdbb', 'yinyangchashe1', 'gh_f930f004e9ae',
            'gh_d30ee2c6a470', 'gh_ccbdb46e998f', 'gh_5c6abae06e1f', 'gh_7d73a0f8a224']
+
 print(len(account))
 import requests
 
 url1 = 'http://127.0.0.1:8008/WeiXinArt/AddAccount?account={}'
-url2 = 'http://182.245.126.226:8312/WeixXinArt/AddAccount?account={}'
-for a in account:
+url2 = 'http://182.245.126.226:8312/WeiXinArt/AddAccount?account={}'
+for i, a in enumerate(account):
     url = url1.format(a)
     r = requests.get(url)
     print(r.text)
-
+    if i > 2:
+        break

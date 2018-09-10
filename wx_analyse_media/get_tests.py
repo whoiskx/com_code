@@ -17,8 +17,10 @@ import requests
 
 url1 = 'http://127.0.0.1:8008/WeiXinArt/AddAccount?account={}'
 url2 = 'http://182.245.126.226:8312/WeixXinArt/AddAccount?account={}'
+url3 = 'http://182.245.126.226:8312/WeiXinArt/AddAccount?account={}'
 for a in account:
-    url = url1.format(a)
+    url = url3.format(a)
     r = requests.get(url)
     print(r.text)
+
 

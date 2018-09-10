@@ -8,6 +8,8 @@ import redis
 
 conn = pymongo.MongoClient('120.78.237.213', 27017)
 db = conn.WeChat
+
+
 # db = conn.TestWe
 
 
@@ -47,3 +49,9 @@ def uploads_mysql(config_mysql, sql, _tuple):
 def redis_conn():
     s = redis.StrictRedis(host='192.168.1.162', db=8)
     return s
+
+
+def mongo_conn():
+    conn = pymongo.MongoClient('120.78.237.213', 27017)
+    db = conn.WeChat
+    return db

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import time
 
-from images.tests import O
+from wx_analyse_media .images.tests import O
 o = O()
 count = 1
 while True:
