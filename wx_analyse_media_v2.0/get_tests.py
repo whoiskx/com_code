@@ -1,15 +1,19 @@
 # -*- coding: utf-8 -*-
 
-account = ['WL-lanlan90', 'zui-kaizhou', 'shudongvivi',
-           'jianhu17357515591', 'xy164110901', 'jdzfhk', 'fsshccyglyxgs', 'gh_ccc140cd53fa', 'laosunblog',
-           'gh_eb4627ac5dff', 'Terracotta1979', 'SC5046', 'gh_c7cf0416f680', 'qyxbhxx', 'pushan-love',
-           'gh_887cecdf76ca', 'gh_033db5fe9c20', 'gh_74b3b2fdd663', 'zju52share', 'jsqjzjjy', 'gh_7439fb177533',
-           'Ocean_Warriors', 'futela2018', 'wxnmgltxgbdyzj', 'hjs353', 'Q2blockchain', 'ysy8456', 'gh_3ca6d5ac0bd1',
-           'xiaoymsp', 'itASti-TM', 'gh_3b63b4d4ca99', 'xhgczj_123', 'huangtai260', 'enkin8888', 'ZhuHaikjk',
-           'wyh2568780976', 'PSTE421261262', 'chaoShanLife520', 'nina17688399260', 'cqww11', 'NIB_DZ_Channel',
-           'sixiangcd', 'gh_cb860056b87d', 'Mhuihui0-0', 'hnsxsfzydszdsyb', 'gh_d7252418f9e6', 'gh_2219b94b95b1',
-           'jingshenjianbing', 'dgdjsh', 'gh_b7373d9ff0b2', 'gh_698dc9c1bdbb', 'yinyangchashe1', 'gh_f930f004e9ae',
-           'gh_d30ee2c6a470', 'gh_ccbdb46e998f', 'gh_5c6abae06e1f', 'gh_7d73a0f8a224']
+account = ['chaoliunvren88', 'gh_eef8a18dc008', 'novonordisktsyds', 'shengxiao_55', 'dqsj66', 'cy2915', 'sschaoliu',
+           'duzhe3650', 'mlketang', 'nnm668', 'weicnjr', 'gh_670031e375a0', 'qiyangtongcom', 'sbsb65', 'xxooshimei',
+           'gh_4aba38755586', 'qqwrd007', 'jrhycom', 'bxlcwcom', 'nanren94188', 'zyyst99', 'mykd2014', 'pm6668888',
+           'immissi', 'nvren3778', 'zhs66688', 'wpt886', 'nv5788', 'lizhi743', 'yyoo778', 'hulianwangtoutiao',
+           'niudaoouba', 'scgc1213', 'fcwm520', 'hanguoxingyule', 'EXOlll', 'remen366', 'inernv', 'xchangshi',
+           'mmmfff66', 'xgrasx', 'YWTVshopping', 'shmeishizixun', 'gh_007b238ac9b0', 'rqxxdt', 'lehuozsy',
+           'yieredu_daai', 'gzxldsm', 'QTXM777', 'vipnannv', 'kawa01', 'ichuanyidaban', 'charming-shanghai', 'vipy866',
+           'meng638', 'tpylhlc', 'caijingxinwenyan', 'abcmedia', 'kzg1213', 'xuezhishi121', 'huakui2', 'gdboy520',
+           'meirongbar', 'GZ_2898168', 'xinxingfengqingwang', 'gh_477767e8f367', 'mcq886', 'av4550', 'keyi-gz',
+           'Metro1071', 'mdwm-luu', 'chi-_-huo', 'tjfood', 'singeat8', 'shenghuocswx', 'zjgdfcwz', 'tongledao2011',
+           'weanswer', 'yg8292311', 'gh_708484f5c1c1', 'metro_st121', 'DukesFashion2014', 'gh_55f18d173d5b',
+           'qdtimephoto', 'wendengsheying', 'duzhecn', 'AotemanLife', 'zhs6667', 'gh_43707986b418', 'SmartDiary',
+           'wxkj6868', 'ToneStudio', 'gh_151468fc305a', 'ceceapp', 'aibeipiao', 'golfimpress-lee', 'www0550com',
+           'muyingwenda', 'paceglobal']
 
 print(len(account))
 import requests
@@ -20,5 +24,5 @@ for i, a in enumerate(account):
     url = url1.format(a)
     r = requests.get(url)
     print(r.text)
-    if i > 5:
-        break
+    # if i > 5:
+    #     break

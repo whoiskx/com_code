@@ -25,7 +25,8 @@ url = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query=jdzfhk&ie=utf8&_
 headers = {
 }
 cookies = {'JSESSIONID': 'aaavp31avj27S5eZm8Dvw', 'SUID': '14CF2A3B2E18960A000000005B94DFAF', 'ABTEST': '0|1536483247|v1', 'SNUID': '2FF511013A3F4F56591CA0FF3B9BA01E', 'IPLOC': 'CN4401'}
-cookies = {'JSESSIONID': 'aaaZAKyLkpkGzgbSYjEvw', 'SUID': '14CF2A3B2E18960A000000005B9775F4', 'ABTEST': '1|1536652788|v1', 'SNUID': '459E7869515427C18AC5C311527C336B', 'IPLOC': 'CN4401'}
+# cookies = {'JSESSIONID': 'aaaZAKyLkpkGzgbSYjEvw', 'SUID': '14CF2A3B2E18960A000000005B9775F4', 'ABTEST': '1|1536652788|v1', 'SNUID': '459E7869515427C18AC5C311527C336B', 'IPLOC': 'CN4401'}
+cookies = {'JSESSIONID': 'aaaM-9HbF7EBXed_dnEvw', 'SUID': '14CF2A3B2E18960A000000005B978BC2', 'ABTEST': '8|1536658368|v1', 'seccodeErrorCount': '1|Tue, 11 Sep 2018 09:38:07 GMT', 'SUIR': '1536658370', 'IPLOC': 'CN4401', 'PHPSESSID': 'vfbbj1sb8ag1cc10n2nbm8o082', 'SUV': '0046538E3B2ACF145B978BC2E3386974', 'refresh': '1', 'SNUID': 'E337D2CCF7FD8D6DD11D5543F89167BA', 'seccodeRight': 'success', 'successCount': '2|Tue, 11 Sep 2018 09:37:58 GMT'}
 r = requests.get(url, headers=headers, cookies=cookies)
 print(r.text)
 from pyquery import PyQuery as pq
