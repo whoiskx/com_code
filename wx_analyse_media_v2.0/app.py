@@ -64,8 +64,6 @@ class AccountHttp(object):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
         }
         self.cookies = {}
-        # self.browser = ''
-        # self.wait = ''
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--headless')
         self.browser = webdriver.Chrome(chrome_options=chrome_options)
@@ -83,6 +81,54 @@ class AccountHttp(object):
             # if account.browser:
             #     account.browser.quit()
             log("消耗一个account")
+
+    def uploads_account_info(self, e):
+        info = dict()
+        info['name'] = e(".tit").text()
+        info['account'] = self.name
+        show_list = e("dl")
+        features, certified = '', ''
+        for show in show_list:
+            if '功能介绍' in pq(show).text():
+                features = pq(show).text().replace('功能介绍：\n', '')
+            if '认证' in pq(show).text():
+                certified = pq(show).text().split('\n')[-1]
+        info['features '] = features
+        info['certified '] = certified
+        log(info)
+        # 图片上传
+        while True:
+            name = self.name
+            url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(name)
+            result1 = requests.get(url_public)
+            info_image = result1.json()
+            image_url = info_image.get("imageUrl")
+            image_id = info_image.get("id")
+            if not image_id:
+                # 增源
+
+                add_account(name, account, url, collectiontime, biz)
+                time.sleep(6)
+                find = get_account(account)
+                if not find:
+                    time.sleep(6)
+
+            if image_url:
+                # 有头像 判断图片有效 默认ID一定有
+                # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
+                url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
+                r_img = requests.get(url2)
+                if 'Images/0/0.jpg' in r_img.text:
+                    print('账号:{} 头像失效'.format(name))
+                    # 保存图像
+
+            else:
+                # 没有头像
+                # 保存头像
+                if info_image.get('id'):
+                    info_image.get('id')
+                    url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
+                    requests.post(url_save)
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -104,38 +150,21 @@ class AccountHttp(object):
         if self.name in e(".info").eq(0).text():
             account_link = e(".tit").find('a').attr('href')
             # 查询公众号
-            url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
-            r1 = requests.get(url_public)
-            result1 = r1.text
-            s = result1.json().get('imageUrl')
-            if s:
-                url2 = 'http://60.190.238.188:38016/{}'.format(s)
-                r_img = requests.get(url2)
-                if r_img.text:
-                    print('账号:{} 头像存在'.format(self.name))
-                else:
-                    # 保存头像
-                    url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format()
-                    requests.post(url_save)
+            # url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
+            # r1 = requests.get(url_public)
+            # result1 = r1.text
+            # s = result1.json().get('imageUrl')
+            # if s:
+            #     url2 = 'http://60.190.238.188:38016/{}'.format(s)
+            #     r_img = requests.get(url2)
+            #     if r_img.text:
+            #         print('账号:{} 头像存在'.format(self.name))
+            #     else:
+            #         # 保存头像
+            #         url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format()
+            #         requests.post(url_save)
+            self.uploads_account_info(e)
 
-
-
-
-            info = dict()
-            info['name'] = e(".tit").text()
-            info['account'] = self.name
-            show_list = e("dl")
-            features, certified = '', ''
-            for show in show_list:
-                if '功能介绍' in pq(show).text():
-                    features = pq(show).text().replace('功能介绍：\n', '')
-                if '认证' in pq(show).text():
-                    certified = pq(show).text().split('\n')[-1]
-            info['features '] = features
-            info['certified '] = certified
-
-            post_url = 'http://183.131.241.60:38011/AddNewAccount?json='
-            requests.post(post_url, data=info)
 
         elif len(e(".tit").eq(0).text()) > 1:
             log("不能匹配正确的公众号: {}".format(self.name))

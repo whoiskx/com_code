@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
-account = ['mmc-yishu', 'aixuexizixishi',
-           'gh_6486ae83ed39', 'FDWHSCC1314', 'Dubai_Property', 'binggansang', 'cy__520sxl', 'gh_ea1a3db26321',
-           'dzyxshzzb', 'PoemLawLiterature', 'hejinfu0606', 'WL-lanlan90', 'zui-kaizhou', 'shudongvivi',
+account = ['WL-lanlan90', 'zui-kaizhou', 'shudongvivi',
            'jianhu17357515591', 'xy164110901', 'jdzfhk', 'fsshccyglyxgs', 'gh_ccc140cd53fa', 'laosunblog',
            'gh_eb4627ac5dff', 'Terracotta1979', 'SC5046', 'gh_c7cf0416f680', 'qyxbhxx', 'pushan-love',
            'gh_887cecdf76ca', 'gh_033db5fe9c20', 'gh_74b3b2fdd663', 'zju52share', 'jsqjzjjy', 'gh_7439fb177533',
@@ -22,5 +20,5 @@ for i, a in enumerate(account):
     url = url1.format(a)
     r = requests.get(url)
     print(r.text)
-    if i > 2:
+    if i > 5:
         break

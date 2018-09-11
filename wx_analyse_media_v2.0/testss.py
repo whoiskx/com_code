@@ -48,8 +48,8 @@ else:
 url2 = 'http://60.190.238.188:38016/{}'.format(s)
 r_img = requests.get(url2)
 print(r_img)
-else:
-    print("头像存在")
+# else:
+#     print("头像存在")
 if r_img.text:
     print('存在')
 else:
