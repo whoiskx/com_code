@@ -65,7 +65,7 @@ class AccountHttp(object):
         }
         self.cookies = {}
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless')
+        # chrome_options.add_argument('--headless')
         self.browser = webdriver.Chrome(chrome_options=chrome_options)
         self.wait = WebDriverWait(self.browser, 4)
 
@@ -96,39 +96,48 @@ class AccountHttp(object):
         info['features '] = features
         info['certified '] = certified
         log(info)
+
         # 图片上传
-        while True:
-            name = self.name
-            url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(name)
-            result1 = requests.get(url_public)
-            info_image = result1.json()
-            image_url = info_image.get("imageUrl")
-            image_id = info_image.get("id")
-            if not image_id:
-                # 增源
+        # while True:
+        #     name = self.name
+        #     url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(name)
+        #     result1 = requests.get(url_public)
+        #     info_image = result1.json()
+        #     image_url = info_image.get("imageUrl")
+        #     image_id = info_image.get("id")
+        #     if not image_id:
+        #         # 增源
+        #         log("当前账号id为0 需要添加{}".format(self.name))
+        #         break
+        #         # add_account(name, account, url, collectiontime, biz)
+        #         # time.sleep(6)
+        #         # find = get_account(account)
+        #         # if not find:
+        #         #     time.sleep(6)
+        #
+        #     # 假设账号已存在
+        #     url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(name)
+        #     result1 = requests.get(url_public)
+        #     info_image = result1.json()
+        #     image_url = info_image.get("imageUrl")
+        #     image_id = info_image.get("id")
+        #     if image_url:
+        #         # 有头像 判断图片有效 默认ID一定有
+        #         # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
+        #         url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
+        #         r_img = requests.get(url2)
+        #         if 'Images/0/0.jpg' in r_img.text:
+        #             print('账号:{} 头像失效'.format(name))
+        #             # 保存图像
+        #
+        #     else:
+        #         # 没有头像
+        #         # 保存头像
+        #         if info_image.get('id'):
+        #             info_image.get('id')
+        #             url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
+        #             requests.post(url_save)
 
-                add_account(name, account, url, collectiontime, biz)
-                time.sleep(6)
-                find = get_account(account)
-                if not find:
-                    time.sleep(6)
-
-            if image_url:
-                # 有头像 判断图片有效 默认ID一定有
-                # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
-                url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
-                r_img = requests.get(url2)
-                if 'Images/0/0.jpg' in r_img.text:
-                    print('账号:{} 头像失效'.format(name))
-                    # 保存图像
-
-            else:
-                # 没有头像
-                # 保存头像
-                if info_image.get('id'):
-                    info_image.get('id')
-                    url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
-                    requests.post(url_save)
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -163,7 +172,7 @@ class AccountHttp(object):
             #         # 保存头像
             #         url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format()
             #         requests.post(url_save)
-            self.uploads_account_info(e)
+            # self.uploads_account_info(e)
 
 
         elif len(e(".tit").eq(0).text()) > 1:

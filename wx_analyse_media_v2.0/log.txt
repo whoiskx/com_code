@@ -4955,3 +4955,84 @@ e -- fsshccyglyxgs
 18-09-11 09:27:09 数据抓取完成
 18-09-11 09:27:09 status_code 404
 18-09-11 09:27:09 消耗一个account
+18-09-11 15:58:19 lpush analyse -- WL-lanlan90
+18-09-11 15:58:19 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=WL-lanlan90&ie=utf8&_sug_=n&_sug_type_=
+18-09-11 15:58:19 ------开始处理搜狗验证码------
+18-09-11 15:58:20 lpush analyse -- zui-kaizhou
+18-09-11 15:58:21 lpush analyse -- shudongvivi
+18-09-11 15:58:22 lpush analyse -- jianhu17357515591
+18-09-11 15:58:23 lpush analyse -- xy164110901
+18-09-11 15:58:24 lpush analyse -- jdzfhk
+18-09-11 15:58:25 lpush analyse -- fsshccyglyxgs
+18-09-11 15:58:27 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 15:58:29 消耗一个account
+18-09-11 15:58:29 fadfsdf {'JSESSIONID': 'aaaU7pMjOoL2jb_BLmEvw', 'SUID': '14CF2A3B2E18960A000000005B97759E', 'ABTEST': '0|1536652702|v1', 'SNUID': 'CE16F3E1DADCAC490FA121EEDA59999E', 'IPLOC': 'CN4401'}
+18-09-11 15:58:29 找不到该公众号: zui-kaizhou
+18-09-11 15:58:29 消耗一个account
+18-09-11 15:58:29 fadfsdf {'JSESSIONID': 'aaaU7pMjOoL2jb_BLmEvw', 'SUID': '14CF2A3B2E18960A000000005B97759E', 'ABTEST': '0|1536652702|v1', 'SNUID': 'CE16F3E1DADCAC490FA121EEDA59999E', 'IPLOC': 'CN4401'}
+18-09-11 15:58:29 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=zui-kaizhou
+18-09-11 15:58:29 ------开始处理搜狗验证码------
+18-09-11 15:58:36 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 15:58:38 消耗一个account
+18-09-11 15:58:38 fadfsdf {'JSESSIONID': 'aaaU7pMjOoL2jb_BLmEvw', 'SUID': '14CF2A3B2E18960A000000005B97759E', 'ABTEST': '0|1536652702|v1', 'SNUID': 'CE16F3E1DADCAC490FA121EEDA59999E', 'IPLOC': 'CN4401'}
+18-09-11 15:58:39 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=shudongvivi
+18-09-11 15:58:39 ------开始处理搜狗验证码------
+18-09-11 15:58:45 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 15:58:47 消耗一个account
+18-09-11 15:58:47 fadfsdf {'JSESSIONID': 'aaaU7pMjOoL2jb_BLmEvw', 'SUID': '14CF2A3B2E18960A000000005B97759E', 'ABTEST': '0|1536652702|v1', 'SNUID': 'CE16F3E1DADCAC490FA121EEDA59999E', 'IPLOC': 'CN4401'}
+18-09-11 15:58:47 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=jianhu17357515591
+18-09-11 15:58:47 ------开始处理搜狗验证码------
+18-09-11 15:58:53 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 15:58:55 消耗一个account
+18-09-11 15:58:55 fadfsdf {'JSESSIONID': 'aaaU7pMjOoL2jb_BLmEvw', 'SUID': '14CF2A3B2E18960A000000005B97759E', 'ABTEST': '0|1536652702|v1', 'SNUID': 'CE16F3E1DADCAC490FA121EEDA59999E', 'IPLOC': 'CN4401'}
+18-09-11 15:58:55 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=xy164110901
+18-09-11 15:58:55 ------开始处理搜狗验证码------
+18-09-11 15:59:02 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 15:59:04 消耗一个account
+18-09-11 15:59:04 fadfsdf {'JSESSIONID': 'aaaU7pMjOoL2jb_BLmEvw', 'SUID': '14CF2A3B2E18960A000000005B97759E', 'ABTEST': '0|1536652702|v1', 'SNUID': 'CE16F3E1DADCAC490FA121EEDA59999E', 'IPLOC': 'CN4401'}
+18-09-11 15:59:04 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=jdzfhk
+18-09-11 15:59:04 ------开始处理搜狗验证码------
+18-09-11 15:59:10 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 15:59:12 消耗一个account
+18-09-11 15:59:45 fadfsdf {}
+18-09-11 15:59:45 lpush analyse -- WL-lanlan90
+18-09-11 15:59:45 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=WL-lanlan90&ie=utf8&_sug_=n&_sug_type_=
+18-09-11 15:59:45 ------开始处理搜狗验证码------
+18-09-11 15:59:46 lpush analyse -- zui-kaizhou
+18-09-11 15:59:47 lpush analyse -- shudongvivi
+18-09-11 15:59:48 lpush analyse -- jianhu17357515591
+18-09-11 15:59:49 lpush analyse -- xy164110901
+18-09-11 15:59:50 lpush analyse -- jdzfhk
+18-09-11 15:59:51 lpush analyse -- fsshccyglyxgs
+18-09-11 15:59:53 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 15:59:55 消耗一个account
+18-09-11 15:59:55 fadfsdf {'JSESSIONID': 'aaaZAKyLkpkGzgbSYjEvw', 'SUID': '14CF2A3B2E18960A000000005B9775F4', 'ABTEST': '1|1536652788|v1', 'SNUID': '459E7869515427C18AC5C311527C336B', 'IPLOC': 'CN4401'}
+18-09-11 15:59:55 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=WL-lanlan90
+18-09-11 15:59:55 ------开始处理搜狗验证码------
+18-09-11 16:00:01 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 16:00:03 消耗一个account
+18-09-11 16:00:03 fadfsdf {'JSESSIONID': 'aaaZAKyLkpkGzgbSYjEvw', 'SUID': '14CF2A3B2E18960A000000005B9775F4', 'ABTEST': '1|1536652788|v1', 'SNUID': '459E7869515427C18AC5C311527C336B', 'IPLOC': 'CN4401'}
+18-09-11 16:00:03 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=zui-kaizhou
+18-09-11 16:00:03 ------开始处理搜狗验证码------
+18-09-11 16:00:11 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 16:00:13 消耗一个account
+18-09-11 16:00:13 fadfsdf {'JSESSIONID': 'aaaZAKyLkpkGzgbSYjEvw', 'SUID': '14CF2A3B2E18960A000000005B9775F4', 'ABTEST': '1|1536652788|v1', 'SNUID': '459E7869515427C18AC5C311527C336B', 'IPLOC': 'CN4401'}
+18-09-11 16:00:13 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=shudongvivi
+18-09-11 16:00:13 ------开始处理搜狗验证码------
+18-09-11 16:00:19 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 16:00:21 消耗一个account
+18-09-11 16:00:21 fadfsdf {'JSESSIONID': 'aaaZAKyLkpkGzgbSYjEvw', 'SUID': '14CF2A3B2E18960A000000005B9775F4', 'ABTEST': '1|1536652788|v1', 'SNUID': '459E7869515427C18AC5C311527C336B', 'IPLOC': 'CN4401'}
+18-09-11 16:00:21 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=jianhu17357515591
+18-09-11 16:00:21 ------开始处理搜狗验证码------
+18-09-11 16:00:27 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 16:00:29 消耗一个account
+18-09-11 16:00:29 fadfsdf {'JSESSIONID': 'aaaZAKyLkpkGzgbSYjEvw', 'SUID': '14CF2A3B2E18960A000000005B9775F4', 'ABTEST': '1|1536652788|v1', 'SNUID': '459E7869515427C18AC5C311527C336B', 'IPLOC': 'CN4401'}
+18-09-11 16:00:30 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=xy164110901
+18-09-11 16:00:30 ------开始处理搜狗验证码------
+18-09-11 16:00:36 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 16:00:38 消耗一个account
+18-09-11 16:00:38 fadfsdf {'JSESSIONID': 'aaaZAKyLkpkGzgbSYjEvw', 'SUID': '14CF2A3B2E18960A000000005B9775F4', 'ABTEST': '1|1536652788|v1', 'SNUID': '459E7869515427C18AC5C311527C336B', 'IPLOC': 'CN4401'}
+18-09-11 16:00:38 ------开始处理未成功的URL：http://weixin.sogou.com/weixin?query=jdzfhk
+18-09-11 16:00:38 ------开始处理搜狗验证码------
+18-09-11 16:00:44 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-11 16:00:46 消耗一个account
