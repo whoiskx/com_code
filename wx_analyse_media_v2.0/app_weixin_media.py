@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import base64
 import pymssql
 
 import redis
@@ -76,19 +77,58 @@ class AccountHttp(object):
     @async
     def listen_task(self, account):
         while True:
-            try:
+        #     try:
                 account_char = self.rcon.brpop(self.queue, 0)[1]
                 account.name = account_char.decode(encoding="utf-8")
                 account.run()
                 # if account.browser:
                 #     account.browser.quit()
                 log("消耗一个account")
-            except Exception as e:
-                log('error', '重启')
-                if account.browser:
-                    account.browser.quit()
-                account = AccountHttp()
-                continue
+            # except Exception as e:
+            #     log('error', '重启', e)
+            #     if account.browser:
+            #         account.browser.quit()
+            #     account = AccountHttp()
+            #     continue
+
+    def send_info(self, info, path):
+        loop_count = 0
+        while True:
+            loop_count += 1
+            if loop_count > 3:
+                break
+            send_info = dict()
+            send_info['account'] = info.get('account', '')
+            send_info['name'] = info.get('name', '')
+            send_info['imageUrl'] = ''
+            send_info['message'] = info.get('message', True)
+            send_info['feature'] = info.get('features', '')
+            send_info['certification'] = info.get('certified', '')
+            send_info['status'] = 3
+            send_url = 'http://58.56.160.39:38012/MediaManager/api/weixinInfo/add'
+            r = requests.post(send_url, data=json.dumps(send_info))
+            if r.status_code == 200:
+                log("发送weixininfo成功")
+                break
+
+    def handle_img(self, img_b, image_id, info, path):
+        url_img = 'http://47.99.50.93:8009/SaveImage'
+        data_img = {'content': base64.b64encode(img_b), 'account_id': image_id}
+        r = requests.post(url_img, data=data_img)
+        log('头像上传:', r.status_code)
+        # 更新数据库
+        config_mysql_old = get_mysql_old()
+        db = pymssql.connect(**config_mysql_old)
+        cursor = db.cursor()
+        try:
+            sql_insert = """
+                                        UPDATE  WXAccount SET ImageUrl='{}' WHERE ID='{}'""".format(path, image_id)
+            cursor.execute(sql_insert)
+            db.commit()
+            log('更新数据成功', info.get('name'))
+        except Exception as e:
+            log('更新数据错误', e)
+            db.rollback()
 
     def uploads_account_info(self, e):
         info = dict()
@@ -102,7 +142,17 @@ class AccountHttp(object):
             if '认证' in pq(show).text():
                 certified = pq(show).text().split('\n')[-1]
         info['features'] = features
-        info['certified'] = certified
+        info['certified'] = certified or features
+        info['imageUrl'] = '1'
+        info['message'] = True
+        info['status'] = 0
+
+        # 获取头像二进制
+        img_find = e(".img-box").find('img').attr('src')
+        url_img_get = 'http:' + img_find
+        r_img = requests.get(url_img_get)
+        img_b = r_img.content
+
         count_loop = 0
         while True:
             # 查询
@@ -150,6 +200,10 @@ class AccountHttp(object):
                 # find = get_account(account)
                 # if not find:
                 #     tinfoime.sleep(6)
+                # Images/126767/126767400.jpg
+            path = 'Images/' + str(image_id // 1000) + '/' + str(image_id)
+
+            self.send_info(info, path)
 
             # 假设账号已存在
             url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
@@ -163,8 +217,14 @@ class AccountHttp(object):
                 url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
                 r_img = requests.get(url2)
                 if 'Images/0/0.jpg' in r_img.text:
-                    print('账号:{} 头像失效'.format(self.name))
+                    log('账号:{} 头像失效'.format(self.name))
+
                     # 保存图像
+                    #self.handle_img(img_b, image_id, info, path)
+                    # url_img = 'http://47.99.50.93:8009/SaveImage'
+                    # data_img = {'content': base64.b64encode(img_b), 'account_id': image_id}
+                    # r = requests.post(url_img, data=data_img)
+                    # log('头像上传:', r.status_code)
                 break
             else:
                 # 没有头像
@@ -173,6 +233,7 @@ class AccountHttp(object):
                     # url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
                     # requests.post(url_save)
                     log('保存头像')
+                    # self.handle_img(img_b, image_id, info, path)
                 break
 
     def account_homepage(self):
@@ -331,7 +392,7 @@ class AccountHttp(object):
                 key_words_list.append(i)
 
         # 返回前10个出现频率最高的词
-        key_words_counter = Counter(key_words_list).most_common(10)
+        key_words_counter = Counter(key_words_list).most_common(20)
         key_word = dict()
         key_word['list'] = []
         for k in key_words_counter:
@@ -378,7 +439,7 @@ class AccountHttp(object):
         # article_detaile = db['newMedia'].find_one({'Account': self.name})
 
         account_id = hash_md5(self.name)
-        status_url = 'http://58.56.160.39:38012/api/drafts/updateAnalysisStatusByAnalysisId'
+        status_url = 'http://58.56.160.39:38012/MediaManager/api/drafts/updateAnalysisStatusByAnalysisId'
         params = {
             'type': 3,
             'analysisId': account_id,
@@ -513,7 +574,6 @@ if __name__ == '__main__':
     # t = Task()
     # t.listen_task()
     account = AccountHttp()
-
     t = AccountHttp()
     if t.browser:
         t.browser.close()

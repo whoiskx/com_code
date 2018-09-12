@@ -13943,3 +13943,523 @@ A000000005B978A10', 'ABTEST': '0|1536657936|v1', 'SUIR': '1536657936', 'IPLOC': 
 18-09-12 14:25:21 数据抓取完成
 18-09-12 14:25:21 status_code 404
 18-09-12 14:25:21 消耗一个account
+18-09-12 16:14:21 fadfsdf {}
+18-09-12 16:14:21 lpush analyse -- wsxpw669
+18-09-12 16:14:21 https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 16:14:21 adfasdfasf {}
+18-09-12 16:14:21 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 16:14:21 ------开始处理搜狗验证码------
+18-09-12 16:14:26 ------出现验证码页面------
+18-09-12 16:14:30 ------验证码：kf8z4p------
+18-09-12 16:14:34 --22222222----验证码输入错误------
+18-09-12 16:14:34 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 16:14:34 ------开始处理搜狗验证码------
+18-09-12 16:14:37 ------出现验证码页面------
+18-09-12 16:14:37 ------验证码：yr871m------
+18-09-12 16:14:38 ------验证码正确------
+18-09-12 16:14:38 ------cookies已更新------ {'SUID': '14CF2A3B2E18960A000000005B98CAE0', 'ABTEST': '0|1536740063|v1', 'seccodeErrorCount': '1|Wed, 12 Sep 2018 08:19:30 GMT', 'SUIR': '1536740063', 'IPLOC': 'CN4401', 'PHPSESSID': 'moptlvdlgdp1v8ranv0919pa47', 'refresh': '1', 'SUV': '006959E63B2ACF145B98CAE041B0D545', 'SNUID': '9249ADBD8683F32EA9E8BAD4878E20CD', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 08:19:37 GMT', 'JSESSIONID': 'aaas3bsNoy6nwgam6VBvw'}
+18-09-12 16:14:38 ------cookies更新------
+18-09-12 16:14:38 ------cookies已更新------ {'SUID': '14CF2A3B2E18960A000000005B98CAE0', 'ABTEST': '0|1536740063|v1', 'seccodeErrorCount': '1|Wed, 12 Sep 2018 08:19:30 GMT', 'SUIR': '1536740063', 'IPLOC': 'CN4401', 'PHPSESSID': 'moptlvdlgdp1v8ranv0919pa47', 'refresh': '1', 'SUV': '006959E63B2ACF145B98CAE041B0D545', 'SNUID': '9249ADBD8683F32EA9E8BAD4878E20CD', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 08:19:37 GMT', 'JSESSIONID': 'aaas3bsNoy6nwgam6VBvw'}
+18-09-12 16:14:38 验证完毕
+18-09-12 16:51:59 fadfsdf {}
+18-09-12 16:51:59 lpush analyse -- wsxpw669
+18-09-12 16:52:10 error 重启
+18-09-12 16:54:13 lpush analyse -- wsxpw669
+18-09-12 16:54:13 fadfsdf {}
+18-09-12 16:57:51 fadfsdf {}
+18-09-12 16:57:51 lpush analyse -- wsxpw669
+18-09-12 16:57:52 https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 16:57:52 adfasdfasf {}
+18-09-12 16:57:52 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 16:57:52 ------开始处理搜狗验证码------
+18-09-12 16:57:54 ------出现验证码页面------
+18-09-12 16:57:55 ------验证码：2775ap------
+18-09-12 16:57:56 ------验证码正确------
+18-09-12 16:57:56 ------cookies已更新------ {'SUID': '14CF2A3B3108990A000000005B98D510', 'ABTEST': '7|1536742672|v1', 'SUIR': '1536742672', 'IPLOC': 'CN4401', 'SNUID': '5A8165744E4B3BE786052B574F85312D', 'PHPSESSID': '0ksv4ffrd6a3opj93i1er8mt20', 'seccodeRight': 'success', 'SUV': '003C177D3B2ACF145B98D510F9CBD222', 'successCount': '1|Wed, 12 Sep 2018 09:02:55 GMT', 'refresh': '1', 'JSESSIONID': 'aaa3TUyIH0hdof0OYPBvw'}
+18-09-12 16:57:56 ------cookies更新------
+18-09-12 16:57:56 ------cookies已更新------ {'SUID': '14CF2A3B3108990A000000005B98D510', 'ABTEST': '7|1536742672|v1', 'SUIR': '1536742672', 'IPLOC': 'CN4401', 'SNUID': '5A8165744E4B3BE786052B574F85312D', 'PHPSESSID': '0ksv4ffrd6a3opj93i1er8mt20', 'seccodeRight': 'success', 'SUV': '003C177D3B2ACF145B98D510F9CBD222', 'successCount': '1|Wed, 12 Sep 2018 09:02:55 GMT', 'refresh': '1', 'JSESSIONID': 'aaa3TUyIH0hdof0OYPBvw'}
+18-09-12 16:57:56 验证完毕
+18-09-12 18:02:10 fadfsdf {}
+18-09-12 18:02:10 lpush analyse -- wsxpw669
+18-09-12 18:02:10 https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:02:10 adfasdfasf {}
+18-09-12 18:02:10 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:02:10 ------开始处理搜狗验证码------
+18-09-12 18:02:13 ------出现验证码页面------
+18-09-12 18:02:13 ------验证码：3ykc63------
+18-09-12 18:02:14 ------验证码正确------
+18-09-12 18:02:14 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98E422', 'ABTEST': '6|1536746530|v1', 'SUIR': '1536746530', 'IPLOC': 'CN4401', 'SNUID': 'A07A9E8FB5B0C11D1A8B2024B5BC4C27', 'PHPSESSID': 'trgps2thjmvknc4bijtqj5usj1', 'seccodeRight': 'success', 'SUV': '00E717873B2ACF145B98E422E1F21587', 'successCount': '1|Wed, 12 Sep 2018 10:07:13 GMT', 'refresh': '1', 'JSESSIONID': 'aaavF9sKgBC5_8O4iNBvw'}
+18-09-12 18:02:14 ------cookies更新------
+18-09-12 18:02:14 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98E422', 'ABTEST': '6|1536746530|v1', 'SUIR': '1536746530', 'IPLOC': 'CN4401', 'SNUID': 'A07A9E8FB5B0C11D1A8B2024B5BC4C27', 'PHPSESSID': 'trgps2thjmvknc4bijtqj5usj1', 'seccodeRight': 'success', 'SUV': '00E717873B2ACF145B98E422E1F21587', 'successCount': '1|Wed, 12 Sep 2018 10:07:13 GMT', 'refresh': '1', 'JSESSIONID': 'aaavF9sKgBC5_8O4iNBvw'}
+18-09-12 18:02:14 验证完毕
+18-09-12 18:03:47 error 重启
+18-09-12 18:04:24 fadfsdf {}
+18-09-12 18:04:24 lpush analyse -- wsxpw669
+18-09-12 18:04:24 https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:04:24 adfasdfasf {}
+18-09-12 18:04:24 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:04:24 ------开始处理搜狗验证码------
+18-09-12 18:04:27 ------出现验证码页面------
+18-09-12 18:04:27 ------验证码：6vhp------
+18-09-12 18:04:31 --22222222----验证码输入错误------
+18-09-12 18:04:32 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:04:32 ------开始处理搜狗验证码------
+18-09-12 18:04:34 ------出现验证码页面------
+18-09-12 18:04:34 ------验证码：h3xa54------
+18-09-12 18:04:35 ------验证码正确------
+18-09-12 18:04:35 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98E4A9', 'ABTEST': '5|1536746664|v1', 'SUIR': '1536746664', 'IPLOC': 'CN4401', 'SNUID': '6AB055447E7B0AD6C8D749027FC37370', 'PHPSESSID': '5ri1q39nls3s5b0014pcd4qpe1', 'refresh': '1', 'SUV': '00D317803B2ACF145B98E4A93A568512', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:09:34 GMT', 'JSESSIONID': 'aaa7DKWj4gsYCgJcGQBvw'}
+18-09-12 18:04:35 ------cookies更新------
+18-09-12 18:04:35 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98E4A9', 'ABTEST': '5|1536746664|v1', 'SUIR': '1536746664', 'IPLOC': 'CN4401', 'SNUID': '6AB055447E7B0AD6C8D749027FC37370', 'PHPSESSID': '5ri1q39nls3s5b0014pcd4qpe1', 'refresh': '1', 'SUV': '00D317803B2ACF145B98E4A93A568512', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:09:34 GMT', 'JSESSIONID': 'aaa7DKWj4gsYCgJcGQBvw'}
+18-09-12 18:04:35 验证完毕
+18-09-12 18:04:57 发送weixininfo成功
+18-09-12 18:08:05 fadfsdf {}
+18-09-12 18:08:05 lpush analyse -- wsxpw669
+18-09-12 18:08:06 https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:08:06 adfasdfasf {}
+18-09-12 18:08:06 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:08:06 ------开始处理搜狗验证码------
+18-09-12 18:08:08 ------出现验证码页面------
+18-09-12 18:08:09 ------验证码：28j6x------
+18-09-12 18:08:13 --22222222----验证码输入错误------
+18-09-12 18:08:13 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:08:13 ------开始处理搜狗验证码------
+18-09-12 18:08:15 ------出现验证码页面------
+18-09-12 18:08:16 ------验证码：h5jbh------
+18-09-12 18:08:20 --22222222----验证码输入错误------
+18-09-12 18:08:20 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:08:20 ------开始处理搜狗验证码------
+18-09-12 18:08:22 ------出现验证码页面------
+18-09-12 18:08:23 ------验证码：vv57r3------
+18-09-12 18:08:27 --22222222----验证码输入错误------
+18-09-12 18:08:27 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:08:27 ------开始处理搜狗验证码------
+18-09-12 18:08:29 ------出现验证码页面------
+18-09-12 18:08:30 ------验证码：q6r4s------
+18-09-12 18:08:34 --22222222----验证码输入错误------
+18-09-12 18:08:34 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:08:34 ------开始处理搜狗验证码------
+18-09-12 18:08:36 ------出现验证码页面------
+18-09-12 18:08:36 ------验证码：6t85s5------
+18-09-12 18:08:41 --22222222----验证码输入错误------
+18-09-12 18:08:41 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:08:41 ------开始处理搜狗验证码------
+18-09-12 18:08:43 ------出现验证码页面------
+18-09-12 18:08:43 ------验证码：5v474s------
+18-09-12 18:08:44 ------验证码正确------
+18-09-12 18:08:44 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98E586', 'ABTEST': '8|1536746886|v1', 'seccodeErrorCount': '2|Wed, 12 Sep 2018 10:13:23 GMT', 'SUIR': '1536746886', 'IPLOC': 'CN4401', 'PHPSESSID': '9qmbbalkbgcv36tmj3bh07db07', 'refresh': '1', 'SUV': '00A44ADA3B2ACF145B98E58659C25205', 'SNUID': '0ED630221A1C6FB0DF99CBC21A12AAED', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:13:44 GMT', 'JSESSIONID': 'aaajE2BW6AABBbwmGQBvw'}
+18-09-12 18:08:44 ------cookies更新------
+18-09-12 18:08:44 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98E586', 'ABTEST': '8|1536746886|v1', 'seccodeErrorCount': '2|Wed, 12 Sep 2018 10:13:23 GMT', 'SUIR': '1536746886', 'IPLOC': 'CN4401', 'PHPSESSID': '9qmbbalkbgcv36tmj3bh07db07', 'refresh': '1', 'SUV': '00A44ADA3B2ACF145B98E58659C25205', 'SNUID': '0ED630221A1C6FB0DF99CBC21A12AAED', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:13:44 GMT', 'JSESSIONID': 'aaajE2BW6AABBbwmGQBvw'}
+18-09-12 18:08:53 验证完毕
+18-09-12 18:09:24 发送weixininfo成功
+18-09-12 18:09:51 保存头像
+18-09-12 18:13:05 头像上传: 200
+18-09-12 18:41:38 fadfsdf {}
+18-09-12 18:41:38 lpush analyse -- wsxpw669
+18-09-12 18:41:38 https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:41:38 adfasdfasf {}
+18-09-12 18:41:38 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:41:38 ------开始处理搜狗验证码------
+18-09-12 18:41:41 ------出现验证码页面------
+18-09-12 18:41:41 ------验证码：075886------
+18-09-12 18:41:46 --22222222----验证码输入错误------
+18-09-12 18:41:46 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:41:46 ------开始处理搜狗验证码------
+18-09-12 18:41:48 ------出现验证码页面------
+18-09-12 18:41:48 ------验证码：e5573------
+18-09-12 18:41:53 --22222222----验证码输入错误------
+18-09-12 18:41:53 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:41:53 ------开始处理搜狗验证码------
+18-09-12 18:41:55 ------出现验证码页面------
+18-09-12 18:41:55 ------验证码：4vem4------
+18-09-12 18:42:00 --22222222----验证码输入错误------
+18-09-12 18:42:00 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:42:00 ------开始处理搜狗验证码------
+18-09-12 18:42:02 ------出现验证码页面------
+18-09-12 18:42:02 ------验证码：at843t------
+18-09-12 18:42:03 ------验证码正确------
+18-09-12 18:42:03 ------cookies已更新------ {'SUID': '14CF2A3B3108990A000000005B98ED63', 'ABTEST': '0|1536748898|v1', 'seccodeErrorCount': '1|Wed, 12 Sep 2018 10:46:42 GMT', 'SUIR': '1536748898', 'IPLOC': 'CN4401', 'PHPSESSID': '977u2tvnq32tiv3gan9cp9hor2', 'refresh': '1', 'SUV': '006417883B2ACF145B98ED63DC0BF502', 'SNUID': 'FD25C0D1E9EC9C43D44C7C25EA5570A9', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:47:03 GMT', 'JSESSIONID': 'aaaovwDLhpmNU50tHQBvw'}
+18-09-12 18:42:03 ------cookies更新------
+18-09-12 18:42:03 ------cookies已更新------ {'SUID': '14CF2A3B3108990A000000005B98ED63', 'ABTEST': '0|1536748898|v1', 'seccodeErrorCount': '1|Wed, 12 Sep 2018 10:46:42 GMT', 'SUIR': '1536748898', 'IPLOC': 'CN4401', 'PHPSESSID': '977u2tvnq32tiv3gan9cp9hor2', 'refresh': '1', 'SUV': '006417883B2ACF145B98ED63DC0BF502', 'SNUID': 'FD25C0D1E9EC9C43D44C7C25EA5570A9', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:47:03 GMT', 'JSESSIONID': 'aaaovwDLhpmNU50tHQBvw'}
+18-09-12 18:42:06 验证完毕
+18-09-12 18:42:16 发送weixininfo成功
+18-09-12 18:42:20 账号:wsxpw669 头像失效
+18-09-12 18:42:28 start 公众号:  wsxpw669
+18-09-12 18:42:30 url: https://mp.weixin.qq.com/s?timestamp=1536748946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWKdQCB50*SViCCo7vhWMUtY4NiT1m85QvR1LXW5QcQQZkCKttl*mrbuSPUuYGwqdk-*1WPSy2SZUz1KHIO0hvMbAD*MO*DIaLKDQfoiUp1jxOW-sBsL6F02NRCIn4psAdwuBYFt4M53EcaMaM-plo-o=
+18-09-12 18:42:31 文章标题: 最新小品！文松上学在学校当大哥，损色笑吐了
+18-09-12 18:42:31 第0条
+18-09-12 18:42:34 url: https://mp.weixin.qq.com/s?timestamp=1536748946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWKdQCB50*SViCCo7vhWMUtY4NiT1m85QvR1LXW5QcQQZkCKttl*mrbuSPUuYGwqdk*sa2ViB62Uw0ldtobWURHp3H1QMADb6W39*yfFa7AraeQsCriohilr5CTYlAd1kfQ1yo6OuJwxzLuk7BuRIzYs=
+18-09-12 18:42:35 文章标题: 文松小品《应聘演员》放峰子蛰你
+18-09-12 18:42:35 第1条
+18-09-12 18:42:46 url: https://mp.weixin.qq.com/s?timestamp=1536748946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWKdQCB50*SViCCo7vhWMUtY4NiT1m85QvR1LXW5QcQQZkCKttl*mrbuSPUuYGwqdk3cU4yiNCPG-b*0s0any*2XEzZ7iohZs4sSMdO9vnkZFB-OHmfGs2iHWmA2pgHk2R7sInAukUtWUmwO9T4yhGng=
+18-09-12 18:42:47 文章标题: 文松小品《酒店约会》,不笑你揍我！
+18-09-12 18:42:47 第2条
+18-09-12 18:48:33 lpush analyse -- wsxpw669
+18-09-12 18:48:33 https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:48:33 adfasdfasf {}
+18-09-12 18:48:33 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:48:33 ------开始处理搜狗验证码------
+18-09-12 18:48:36 ------出现验证码页面------
+18-09-12 18:48:36 ------验证码：386jpp------
+18-09-12 18:48:41 --22222222----验证码输入错误------
+18-09-12 18:48:41 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:48:41 ------开始处理搜狗验证码------
+18-09-12 18:48:43 ------出现验证码页面------
+18-09-12 18:48:43 ------验证码：k2pdp------
+18-09-12 18:48:47 --22222222----验证码输入错误------
+18-09-12 18:48:47 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:48:47 ------开始处理搜狗验证码------
+18-09-12 18:48:50 ------出现验证码页面------
+18-09-12 18:48:50 ------验证码：56ep36------
+18-09-12 18:48:54 --22222222----验证码输入错误------
+18-09-12 18:48:54 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:48:54 ------开始处理搜狗验证码------
+18-09-12 18:48:56 ------出现验证码页面------
+18-09-12 18:48:57 ------验证码：x3j45k------
+18-09-12 18:49:01 --22222222----验证码输入错误------
+18-09-12 18:49:01 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:49:01 ------开始处理搜狗验证码------
+18-09-12 18:49:03 ------出现验证码页面------
+18-09-12 18:49:04 ------验证码：6145p1------
+18-09-12 18:49:08 --22222222----验证码输入错误------
+18-09-12 18:49:08 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:49:08 ------开始处理搜狗验证码------
+18-09-12 18:49:10 ------出现验证码页面------
+18-09-12 18:49:10 ------验证码：3yx8j6------
+18-09-12 18:49:15 --22222222----验证码输入错误------
+18-09-12 18:49:15 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=wsxpw669&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:49:15 ------开始处理搜狗验证码------
+18-09-12 18:49:17 ------出现验证码页面------
+18-09-12 18:49:17 ------验证码：cky6y6------
+18-09-12 18:49:18 ------验证码正确------
+18-09-12 18:49:18 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98EF02', 'ABTEST': '1|1536749314|v1', 'seccodeErrorCount': '5|Wed, 12 Sep 2018 10:53:37 GMT', 'SUIR': '1536749314', 'IPLOC': 'CN4401', 'PHPSESSID': 'e5sd5nje8pqtb6neu8atf3lko5', 'refresh': '1', 'SUV': '000741183B2ACF145B98EF029DB60906', 'SNUID': '3DE500112A2F5F837EBB21DE2A117E3C', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:54:17 GMT', 'JSESSIONID': 'aaarCX62-2fL070PpKBvw'}
+18-09-12 18:49:18 ------cookies更新------
+18-09-12 18:49:18 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98EF02', 'ABTEST': '1|1536749314|v1', 'seccodeErrorCount': '5|Wed, 12 Sep 2018 10:53:37 GMT', 'SUIR': '1536749314', 'IPLOC': 'CN4401', 'PHPSESSID': 'e5sd5nje8pqtb6neu8atf3lko5', 'refresh': '1', 'SUV': '000741183B2ACF145B98EF029DB60906', 'SNUID': '3DE500112A2F5F837EBB21DE2A117E3C', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:54:17 GMT', 'JSESSIONID': 'aaarCX62-2fL070PpKBvw'}
+18-09-12 18:49:18 验证完毕
+18-09-12 18:49:18 发送weixininfo成功
+18-09-12 18:49:18 账号:wsxpw669 头像失效
+18-09-12 18:49:18 start 公众号:  wsxpw669
+18-09-12 18:49:18 url: https://mp.weixin.qq.com/s?timestamp=1536749358&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWL1XVCgsuya8W2bxgwDi3ZwtZHuTDUshgSa0pxCuvpimEUd5xYiRsrgPHwpB1Tc9b*K*UmbSsxFWJc4ZICU95XrStcnnhfzl5BSSUfTJb96p33ZytDG0VLdCRAKsS2bLIVkJxM1PwS07Dnvr*bb9gE4=
+18-09-12 18:49:19 文章标题: 最新小品！文松上学在学校当大哥，损色笑吐了
+18-09-12 18:49:19 第0条
+18-09-12 18:49:19 url: https://mp.weixin.qq.com/s?timestamp=1536749358&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWL1XVCgsuya8W2bxgwDi3ZwtZHuTDUshgSa0pxCuvpimEUd5xYiRsrgPHwpB1Tc9b4CdEq17tcZ4eZZNrHaUDOR7kbZGT2a2ZdUPpJ01KZD*LyuXf6gAdH*-fjpRaUV7mTzTXQtGNQg6rQmMijZvxL4=
+18-09-12 18:49:19 文章标题: 文松小品《应聘演员》放峰子蛰你
+18-09-12 18:49:19 第1条
+18-09-12 18:49:19 url: https://mp.weixin.qq.com/s?timestamp=1536749358&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWL1XVCgsuya8W2bxgwDi3ZwtZHuTDUshgSa0pxCuvpimEUd5xYiRsrgPHwpB1Tc9b88h-DuDWbT9GiiubNTVJVegFAda83yuCDcXW6jgwDcgIl2XQMbWWEhakyVS0j1WkVp5QyEGU5bNfT4kfww2a9k=
+18-09-12 18:49:19 文章标题: 文松小品《酒店约会》,不笑你揍我！
+18-09-12 18:49:19 第2条
+18-09-12 18:49:20 37
+18-09-12 18:49:20 6
+18-09-12 18:49:20 1
+18-09-12 18:49:20 ==== wsxpw669
+18-09-12 18:49:20 数据抓取完成
+18-09-12 18:49:20 status_code 404
+18-09-12 18:49:20 消耗一个account
+18-09-12 18:49:51 fadfsdf {'SUID': '14CF2A3B5118910A000000005B98EF02', 'ABTEST': '1|1536749314|v1', 'seccodeErrorCount': '5|Wed, 12 Sep 2018 10:53:37 GMT', 'SUIR': '1536749314', 'IPLOC': 'CN4401', 'PHPSESSID': 'e5sd5nje8pqtb6neu8atf3lko5', 'refresh': '1', 'SUV': '000741183B2ACF145B98EF029DB60906', 'SNUID': '3DE500112A2F5F837EBB21DE2A117E3C', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 10:54:17 GMT', 'JSESSIONID': 'aaarCX62-2fL070PpKBvw'}
+18-09-12 18:49:51 lpush analyse -- Hapiweb-soft6
+18-09-12 18:49:52 发送weixininfo成功
+18-09-12 18:49:52 start 公众号:  Hapiweb-soft6
+18-09-12 18:49:52 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*yoQ1I*cn9*omZm-NXfMn4UNqSDhOC8LEBkV92dxp6xO52-I8TmERU2hbt2XtsO5o8IyqiY8hEaEss-a5pKWbsI=
+18-09-12 18:49:52 文章标题: 向“收购狂魔“Workday学习并购，角逐人力资本管理云|企服三会系列报道
+18-09-12 18:49:52 第0条
+18-09-12 18:49:52 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*yoQ1I*cn9*omZm-NXfMn4X32sZTZx5Olrpox*o-xfVIpY3zezSc8TpNK5kAQHqT2DlFSx199w0alGBvwktb7ro=
+18-09-12 18:49:53 文章标题: 每日新闻：科学家称人工智能可以迅速发展自己的偏见；工信部：贯彻落实企业上云政策
+18-09-12 18:49:53 第1条
+18-09-12 18:49:53 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*zC-GzMitHhsoyiyxGQqlUQSXAEEMxlib-bQ7eAak41hJeWNhPa*Q4Km1CpzN2gAiOyCVX74WlELSh7d38DdSec=
+18-09-12 18:49:53 文章标题: 全知科技CEO方兴：数据流动时代大数据风险是大数据安全的核心
+18-09-12 18:49:53 第2条
+18-09-12 18:49:53 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*zC-GzMitHhsoyiyxGQqlURyVtVtbl*vk5sYUvnO0oxD6JFZra6fCSzeRVMCdqhIdBXS9aXDfStQS8TTY9UCqXc=
+18-09-12 18:49:53 文章标题: 每日新闻：徐小平：硬科技仍处在学习阶段；微软发布会定档10月2日以升级现有产品线为主
+18-09-12 18:49:53 第3条
+18-09-12 18:49:53 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*xhPem0T-6FYvCRk1gVs27Q2aGEtAnXAHn0EosuFxOflCqW6wKCROellyImGqI7234zZCS8oCigiLY4rmRes37s=
+18-09-12 18:49:53 文章标题: 【一周头条盘点】中国软件网（2018.9.3~2018.9.7）
+18-09-12 18:49:53 第4条
+18-09-12 18:49:53 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*zyDHn*4a0I-Ufyp2amNxWv0yMuzsMc8uGLbFoYAtpHl2l3V79e5e8vTwpIwIkkYbalPKwhPsVdFGPpyu42VJOI=
+18-09-12 18:49:54 文章标题: 大数据来袭，你应该懂点ETL
+18-09-12 18:49:54 第5条
+18-09-12 18:49:54 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*zyDHn*4a0I-Ufyp2amNxWtUQ1NM2QJlFLk-8KjEmCqbmDvkbVPan7JPLops*k*Ts2OKtTtE792VqahewcQPKVA=
+18-09-12 18:49:54 文章标题: 每日新闻：百度总裁张亚勤：开放合作是AI时代全球大势；青云QingCloud与思杰达成战略合作
+18-09-12 18:49:54 第6条
+18-09-12 18:49:54 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*wdMKmH7TVIHk91*Do7pQcGGft1rorvL577dULNElKeypMKwwmbfF7b37SNPvo8k6w6eHpo-UQnSeABi0EcVKyw=
+18-09-12 18:49:54 文章标题: 一份关于智能语音助手的非常规调查笔记|企服三会系列报道
+18-09-12 18:49:54 第7条
+18-09-12 18:49:54 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*wdMKmH7TVIHk91*Do7pQcEV5YL1EdHb44W0H8G6dJ85ZVQJ8kj2LbBZfIbTqUlkI9JOg6duMfdbdXr5dFutzkU=
+18-09-12 18:49:55 文章标题: 每日新闻：华为寻求与微软在人工智能芯片领域达成合作；百度云ABC3.0发布打造大数据解决方案
+18-09-12 18:49:55 第8条
+18-09-12 18:49:55 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*5BOi27h4-YNArqnrhhkJDQLjU7cmBQzWiJ7-J7hnBO5oG90gru-zkp*mH4x0ZeR1IvV7i8Eri5Ks7fuls1aDZU=
+18-09-12 18:49:55 文章标题: 一个商户老板眼里的CRM演进|企服三会系列报道
+18-09-12 18:49:55 第9条
+18-09-12 18:49:55 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*5BOi27h4-YNArqnrhhkJDQ74MxgdcYXrn48UfNrys1RIma2kSbS50qqHX5yBFrEcQg4xxgb5wzVOml5BKexPjI=
+18-09-12 18:49:55 文章标题: 每日新闻：麦肯锡：未来10年人工智能为全球GDP贡献1.2%增长；工信部下发第19批CDN、云服务牌照
+18-09-12 18:49:55 第10条
+18-09-12 18:49:55 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*8u4wU9z0o13QdxZECNV7sNq5F-LB92C*zZLncnSgwte9kYd3KnqkPh7Ls2CBNE96GhoKz2AVldltHrvtSc5ZT8=
+18-09-12 18:49:55 文章标题: 致远互联发布A6+在打什么牌？
+18-09-12 18:49:55 第11条
+18-09-12 18:49:55 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*8u4wU9z0o13QdxZECNV7sO87Li0IWCNwCnAAIDwYhpZLf-BGBnUNrW1lshyZBnpS8xPup4XRtEyuXG3iqhrki8=
+18-09-12 18:49:55 文章标题: 华为推出“AI芯”，中国芯要超车得知道前面还有哪些AI芯片？
+18-09-12 18:49:56 第12条
+18-09-12 18:49:56 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*8u4wU9z0o13QdxZECNV7sOqvJNWCc-mHHZsMaHiFRNhjQGkixC-ub6HQL8BDBCjWZXQ7zH4mn3yBvbYrix019A=
+18-09-12 18:49:56 文章标题: 每日新闻：院士姚期智：量子计算是一个非常重要的知识领域；京东与如意控股集团达成战略合作
+18-09-12 18:49:56 第13条
+18-09-12 18:49:56 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*wX2kSiGRZESU*edKKZjw-WblQXbrMYc6GBbon6OVVFTMNokXXatKVR5hE79T11tiXYI02Q8qxmaCrw3rtFSKII=
+18-09-12 18:49:56 文章标题: IT国产化替代不断推进，核心技术需要在试错中发展
+18-09-12 18:49:56 第14条
+18-09-12 18:49:56 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*wX2kSiGRZESU*edKKZjw-UWAnppp38*p6BqoVgQMpJmn*TElic8*vctMZhLds2h39gDeaYssbjzsjgu6pUjq74=
+18-09-12 18:49:56 文章标题: 每日新闻：李开复谈AI未来将会向合理趋势发展；金山软件8月31日回购20万股，耗资284万港币
+18-09-12 18:49:56 第15条
+18-09-12 18:49:56 url: https://mp.weixin.qq.com/s?timestamp=1536749392&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWBDUnVlZkdDIyhwevVBgsOJknVVQYjCl8zBtqSidlRReQUNh3Mpms4WHpQT8-JW9*6dx*AukWU280qHt2l6bIpPjQ8ItpgN6yXgXMntlwqb-0XArgdFfYZ7ZOO8rp5TpOnXEZFm9Pw6hwyVjcZwFRNE=
+18-09-12 18:49:57 文章标题: 【一周头条盘点】中国软件网（2018.8.27~2018.8.31）
+18-09-12 18:49:57 第16条
+18-09-12 18:49:57 3613
+18-09-12 18:50:01 1697
+18-09-12 18:50:01 345
+18-09-12 18:50:01 ==== Hapiweb-soft6
+18-09-12 18:50:01 数据抓取完成
+18-09-12 18:50:02 status_code 404
+18-09-12 18:50:02 消耗一个account
+18-09-12 18:59:01 lpush analyse -- Hapiweb-soft6
+18-09-12 18:59:01 fadfsdf {}
+18-09-12 18:59:01 https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:59:01 adfasdfasf {}
+18-09-12 18:59:01 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 18:59:01 ------开始处理搜狗验证码------
+18-09-12 18:59:03 ------出现验证码页面------
+18-09-12 18:59:04 ------验证码：544x36------
+18-09-12 18:59:05 ------验证码正确------
+18-09-12 18:59:05 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98F175', 'ABTEST': '6|1536749941|v1', 'SUIR': '1536749941', 'IPLOC': 'CN4401', 'SNUID': '02D83D2C161362BD6C98B69C1710735C', 'PHPSESSID': 'm4osr3fmnst0djocleorudbmv4', 'seccodeRight': 'success', 'SUV': '0019178D3B2ACF145B98F175E687F591', 'successCount': '1|Wed, 12 Sep 2018 11:04:04 GMT', 'refresh': '1', 'JSESSIONID': 'aaaVyKFlpqmSGdhl6PBvw'}
+18-09-12 18:59:05 ------cookies更新------
+18-09-12 18:59:05 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98F175', 'ABTEST': '6|1536749941|v1', 'SUIR': '1536749941', 'IPLOC': 'CN4401', 'SNUID': '02D83D2C161362BD6C98B69C1710735C', 'PHPSESSID': 'm4osr3fmnst0djocleorudbmv4', 'seccodeRight': 'success', 'SUV': '0019178D3B2ACF145B98F175E687F591', 'successCount': '1|Wed, 12 Sep 2018 11:04:04 GMT', 'refresh': '1', 'JSESSIONID': 'aaaVyKFlpqmSGdhl6PBvw'}
+18-09-12 18:59:05 验证完毕
+18-09-12 18:59:05 发送weixininfo成功
+18-09-12 18:59:06 start 公众号:  Hapiweb-soft6
+18-09-12 18:59:06 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwWR6gZQtbDqiJQykdouHRrOFZ6DHI3GQOqZ6j1zgud*VFMqWkDZ5RE84yRsRoomr9-hCR71ZN2NGpRrn1*DJ*KM=
+18-09-12 18:59:06 文章标题: 向“收购狂魔“Workday学习并购，角逐人力资本管理云|企服三会系列报道
+18-09-12 18:59:06 第0条
+18-09-12 18:59:06 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwWR6gZQtbDqiJQykdouHRrP8bVlgytiOCS8vj2WhF9wpTmIjOCCDqPTldiy5G00axJD*-64xYkzIaPKrHej8eaI=
+18-09-12 18:59:06 文章标题: 每日新闻：科学家称人工智能可以迅速发展自己的偏见；工信部：贯彻落实企业上云政策
+18-09-12 18:59:06 第1条
+18-09-12 18:59:06 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwUhLXxrkta10WPrF8iQNkXBDs0jZGj0LBPgI4nh3psriRHSq4tglVi179pz3txYgDdd8BgbxMKv5CtZFSJk9gYs=
+18-09-12 18:59:07 文章标题: 全知科技CEO方兴：数据流动时代大数据风险是大数据安全的核心
+18-09-12 18:59:07 第2条
+18-09-12 18:59:07 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwUhLXxrkta10WPrF8iQNkXB9gGDcG-Jd7*LllZsJ8SMG03ALC6ylkY-hBkrMqqN607O*vlUyE158xzyhJeO6HlI=
+18-09-12 18:59:07 文章标题: 每日新闻：徐小平：硬科技仍处在学习阶段；微软发布会定档10月2日以升级现有产品线为主
+18-09-12 18:59:07 第3条
+18-09-12 18:59:07 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwX0KEZk7q0oGT6C*u7oQQZ89*AM5ybIWviyUfH35agw8Nf5hmY6LgxsTO*1HnM0Mc7V5AfG8i60WTUSO8crWc*M=
+18-09-12 18:59:07 文章标题: 【一周头条盘点】中国软件网（2018.9.3~2018.9.7）
+18-09-12 18:59:07 第4条
+18-09-12 18:59:07 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwfvcH*t3Ieuw1cVhRio9B2OvL73ckWd1ix4QfDWPf0DAfJpTTvQ1ENhtIGOBgHIjx1ZqaKLHLQ7LpotB5UkDzIY=
+18-09-12 18:59:07 文章标题: 大数据来袭，你应该懂点ETL
+18-09-12 18:59:07 第5条
+18-09-12 18:59:07 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwfvcH*t3Ieuw1cVhRio9B2Md6wGD*hYRODT8R4*z5ZDI5R5gsuurKhZDr9OkqxAnw*9kS4SPWTYglRsy8vjGMrQ=
+18-09-12 18:59:08 文章标题: 每日新闻：百度总裁张亚勤：开放合作是AI时代全球大势；青云QingCloud与思杰达成战略合作
+18-09-12 18:59:08 第6条
+18-09-12 18:59:08 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwcsZGKhcVyxZfQD2z5m4NOvsdW5vzU6Gt0AAq0OrHGol2WA2oN996IATKF8ZdVWd9Id9bQzGUO5D45GM9wvyWkY=
+18-09-12 18:59:08 文章标题: 一份关于智能语音助手的非常规调查笔记|企服三会系列报道
+18-09-12 18:59:08 第7条
+18-09-12 18:59:08 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwcsZGKhcVyxZfQD2z5m4NOtXmxWEdTMNW4a50a7cizTmRW88IeVWNXUc*KoENpVGMwx-PX77sbDSAC5kKXvrLVg=
+18-09-12 18:59:08 文章标题: 每日新闻：华为寻求与微软在人工智能芯片领域达成合作；百度云ABC3.0发布打造大数据解决方案
+18-09-12 18:59:08 第8条
+18-09-12 18:59:08 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwTAUdJlo-B1H722A9Vmizb0*ayLxdVpbuM7hgyxYUOrFrZ4S6wpWz254wvXz41fsFesN5nMO9iZh5Ehx8CjRZ24=
+18-09-12 18:59:08 文章标题: 一个商户老板眼里的CRM演进|企服三会系列报道
+18-09-12 18:59:08 第9条
+18-09-12 18:59:08 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwTAUdJlo-B1H722A9Vmizb3NBgyNf45DFuuuXKFwGqvfJj0TxSqzNFiBZlRyk399-t14Tv677loBMNBDqNbpEYY=
+18-09-12 18:59:09 文章标题: 每日新闻：麦肯锡：未来10年人工智能为全球GDP贡献1.2%增长；工信部下发第19批CDN、云服务牌照
+18-09-12 18:59:09 第10条
+18-09-12 18:59:09 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwVNu5zvXM2*5Ij8XWADmVEMqIKfXMOrQh8vVSjZ0Viw*UV6ccTJ57QtQKSJfa9PFfHXhx9lojoTKYvOc8OHPCGs=
+18-09-12 18:59:09 文章标题: 致远互联发布A6+在打什么牌？
+18-09-12 18:59:09 第11条
+18-09-12 18:59:09 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwVNu5zvXM2*5Ij8XWADmVEPagRPe3VIke9LM94o*HvIkMd3xQEg2C1qWvs8-qcf*E1LMxNKUAP0tC0-8rPdb774=
+18-09-12 18:59:09 文章标题: 华为推出“AI芯”，中国芯要超车得知道前面还有哪些AI芯片？
+18-09-12 18:59:09 第12条
+18-09-12 18:59:09 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwVNu5zvXM2*5Ij8XWADmVEM-6NaDYWP-appBZvCEXwWO0AvcrzKTL*qTJ4PDySHgY7LrgZpwm8HMAzDGpbr8TXs=
+18-09-12 18:59:10 文章标题: 每日新闻：院士姚期智：量子计算是一个非常重要的知识领域；京东与如意控股集团达成战略合作
+18-09-12 18:59:10 第13条
+18-09-12 18:59:10 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwRgigyCLhs5xw2EjzCcDv1nnAtA-C9*zor7Ni1q0H5RifBV6c6maLTJxa61xvUBlQfm8983wM5-ds6NxFz-wlWk=
+18-09-12 18:59:10 文章标题: IT国产化替代不断推进，核心技术需要在试错中发展
+18-09-12 18:59:10 第14条
+18-09-12 18:59:10 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwRgigyCLhs5xw2EjzCcDv1nWEzlN4Rt7fK8DYatwEokS9MyDy9WmRCMp7PmyFn1Z1fUzklyRkreWeKCdqk-UXbU=
+18-09-12 18:59:10 文章标题: 每日新闻：李开复谈AI未来将会向合理趋势发展；金山软件8月31日回购20万股，耗资284万港币
+18-09-12 18:59:10 第15条
+18-09-12 18:59:10 url: https://mp.weixin.qq.com/s?timestamp=1536749946&src=3&ver=1&signature=D6I0zopaG6-TnovXeT8QWEiCh0s6LDAty5XZYlV2CySWFfyNSfBqOxlKGgw6Y8SFQW2iJoT1TW0nOuYPUf9dwcrTwl24kQDj8uXDfyCPdvNC8s1YVcr7v3T**ZbI8TnqXlwHk0hT11awJU5mKx39ssSK60j7R4nxzMQBkgoG4aA=
+18-09-12 18:59:10 文章标题: 【一周头条盘点】中国软件网（2018.8.27~2018.8.31）
+18-09-12 18:59:10 第16条
+18-09-12 18:59:11 3613
+18-09-12 18:59:16 1697
+18-09-12 18:59:16 345
+18-09-12 18:59:16 ==== Hapiweb-soft6
+18-09-12 18:59:16 数据抓取完成
+18-09-12 18:59:16 status_code 404
+18-09-12 18:59:16 消耗一个account
+18-09-12 19:05:54 lpush analyse -- Hapiweb-soft6
+18-09-12 19:05:54 fadfsdf {}
+18-09-12 19:05:54 https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:05:54 adfasdfasf {}
+18-09-12 19:05:54 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:05:54 ------开始处理搜狗验证码------
+18-09-12 19:05:57 ------出现验证码页面------
+18-09-12 19:05:57 ------验证码：82t3e8------
+18-09-12 19:05:58 ------验证码正确------
+18-09-12 19:05:58 ------cookies已更新------ {'SUID': '14CF2A3B2E18960A000000005B98F313', 'ABTEST': '8|1536750355|v1', 'SUIR': '1536750354', 'IPLOC': 'CN4401', 'SNUID': '1DC520320A0C7FA09A38B7DC0A2E6B83', 'PHPSESSID': 'rvab8sbr5b7kvdaqs00tugban2', 'seccodeRight': 'success', 'SUV': '00A2178F3B2ACF145B98F3139EEA1009', 'successCount': '1|Wed, 12 Sep 2018 11:10:58 GMT', 'refresh': '1', 'JSESSIONID': 'aaa6sNtbMWlXi4eJ-VBvw'}
+18-09-12 19:05:58 ------cookies更新------
+18-09-12 19:05:58 ------cookies已更新------ {'SUID': '14CF2A3B2E18960A000000005B98F313', 'ABTEST': '8|1536750355|v1', 'SUIR': '1536750354', 'IPLOC': 'CN4401', 'SNUID': '1DC520320A0C7FA09A38B7DC0A2E6B83', 'PHPSESSID': 'rvab8sbr5b7kvdaqs00tugban2', 'seccodeRight': 'success', 'SUV': '00A2178F3B2ACF145B98F3139EEA1009', 'successCount': '1|Wed, 12 Sep 2018 11:10:58 GMT', 'refresh': '1', 'JSESSIONID': 'aaa6sNtbMWlXi4eJ-VBvw'}
+18-09-12 19:06:01 验证完毕
+18-09-12 19:12:25 fadfsdf {}
+18-09-12 19:12:25 lpush analyse -- Hapiweb-soft6
+18-09-12 19:12:25 https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:12:25 adfasdfasf {}
+18-09-12 19:12:25 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:12:25 ------开始处理搜狗验证码------
+18-09-12 19:12:28 ------出现验证码页面------
+18-09-12 19:12:28 ------验证码：544x36------
+18-09-12 19:12:29 ------验证码正确------
+18-09-12 19:12:29 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98F499', 'ABTEST': '0|1536750745|v1', 'SUIR': '1536750745', 'IPLOC': 'CN4401', 'SNUID': 'CE16F0E2D9DCAF7073A5C50EDA0DA323', 'PHPSESSID': 'qe5kq60kf7joas65vb7lihbce4', 'seccodeRight': 'success', 'SUV': '0095177D3B2ACF145B98F49ADDA46378', 'successCount': '1|Wed, 12 Sep 2018 11:17:28 GMT', 'refresh': '1', 'JSESSIONID': 'aaaML_9lz3QT1au1mNBvw'}
+18-09-12 19:12:29 ------cookies更新------
+18-09-12 19:12:29 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98F499', 'ABTEST': '0|1536750745|v1', 'SUIR': '1536750745', 'IPLOC': 'CN4401', 'SNUID': 'CE16F0E2D9DCAF7073A5C50EDA0DA323', 'PHPSESSID': 'qe5kq60kf7joas65vb7lihbce4', 'seccodeRight': 'success', 'SUV': '0095177D3B2ACF145B98F49ADDA46378', 'successCount': '1|Wed, 12 Sep 2018 11:17:28 GMT', 'refresh': '1', 'JSESSIONID': 'aaaML_9lz3QT1au1mNBvw'}
+18-09-12 19:12:29 验证完毕
+18-09-12 19:12:29 发送weixininfo成功
+18-09-12 19:12:30 start 公众号:  Hapiweb-soft6
+18-09-12 19:12:30 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0keyt803aQoniLAEKDQFJlI5eAtutF72laHq0udlgYaowoYx*KdR39sn-yjp1YuF52DGci0NrqaqZTioWmu6vHY=
+18-09-12 19:12:30 文章标题: 向“收购狂魔“Workday学习并购，角逐人力资本管理云|企服三会系列报道
+18-09-12 19:12:30 第0条
+18-09-12 19:12:30 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0keyt803aQoniLAEKDQFJlK9eeN2dzD3qZIIJicSMBIUzt6iQ81tFJJIO4xc*jd2Na8jUhLCsdgkbF4YtfGxhQ0=
+18-09-12 19:12:30 文章标题: 每日新闻：科学家称人工智能可以迅速发展自己的偏见；工信部：贯彻落实企业上云政策
+18-09-12 19:12:30 第1条
+18-09-12 19:12:30 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0tATDUEcbLDmUPh6neqr201OmGOIoxAGLb-YLLJ8jNqOeN0EwB6MP7CI-ch3Agn0*W*3ADFZkM37xls5yRp2vS0=
+18-09-12 19:12:30 文章标题: 全知科技CEO方兴：数据流动时代大数据风险是大数据安全的核心
+18-09-12 19:12:30 第2条
+18-09-12 19:12:30 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0tATDUEcbLDmUPh6neqr201CqjFCYZiEi*IVbVovTzbsLIOXdr*Hu*LPgJF*qGFXNKME8DL5tpqPQMCQ44rIEZ4=
+18-09-12 19:12:31 文章标题: 每日新闻：徐小平：硬科技仍处在学习阶段；微软发布会定档10月2日以升级现有产品线为主
+18-09-12 19:12:31 第3条
+18-09-12 19:12:31 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0jw5lQMhCxK98wB9HvcM2ywc*8dgWaRrpxeUkIRZzcvhzU6SwJsMbTatv4K861MgnSsuTAucirro6IITO5zHFnI=
+18-09-12 19:12:31 文章标题: 【一周头条盘点】中国软件网（2018.9.3~2018.9.7）
+18-09-12 19:12:31 第4条
+18-09-12 19:12:31 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0t*P4vIKdo*hJDUAMcu4OQnLJI-SYZRhXNvZJXeqoVvTK2SxKOKddVcQVbCb6XxU4rIenp1HE7ronpxVxAdwOnM=
+18-09-12 19:12:31 文章标题: 大数据来袭，你应该懂点ETL
+18-09-12 19:12:31 第5条
+18-09-12 19:12:31 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0t*P4vIKdo*hJDUAMcu4OQmuXV-WZfclERQxEQ0FbR89tupm6tQQvdmexrBQTWmkM8wswr3yuIl*6Vca6Po2OEc=
+18-09-12 19:12:31 文章标题: 每日新闻：百度总裁张亚勤：开放合作是AI时代全球大势；青云QingCloud与思杰达成战略合作
+18-09-12 19:12:31 第6条
+18-09-12 19:12:31 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0p3wr9V47Sws5WxQ8P2FVoRIOqTa7AT6SjqM4rexLZTDiq*u7ofXwh816CCPK-fvai60VEJHyUqiVuyu00Y7KPA=
+18-09-12 19:12:32 文章标题: 一份关于智能语音助手的非常规调查笔记|企服三会系列报道
+18-09-12 19:12:32 第7条
+18-09-12 19:12:32 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0p3wr9V47Sws5WxQ8P2FVoTcpRUnv9iCKjRwX*HJaUf*1JmZSztAELG2-mwfOZBRwj5RtUitbkgFWmoplEXYtO0=
+18-09-12 19:12:32 文章标题: 每日新闻：华为寻求与微软在人工智能芯片领域达成合作；百度云ABC3.0发布打造大数据解决方案
+18-09-12 19:12:32 第8条
+18-09-12 19:12:32 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0nsRS89cgmXH9deYRAp4flDctAmbQwB82KpCHLNP7OT4tnbwmXJixPr7QYXD*8MRkqOBoMBbXtgBVTtxoX-GDtc=
+18-09-12 19:12:32 文章标题: 一个商户老板眼里的CRM演进|企服三会系列报道
+18-09-12 19:12:32 第9条
+18-09-12 19:12:32 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0nsRS89cgmXH9deYRAp4flDH8pcMcIyElSUFIDheZ9EO9N8xt3Tid7egLXLUqEvEF3jjsARnlkPSEvNG8p7SbGs=
+18-09-12 19:12:32 文章标题: 每日新闻：麦肯锡：未来10年人工智能为全球GDP贡献1.2%增长；工信部下发第19批CDN、云服务牌照
+18-09-12 19:12:32 第10条
+18-09-12 19:12:32 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0gCixX7hSEcoJQGi6HQqcMkh3c8x0yrgzxgcEmrLK0lOKgdcrWiuhHbUE4lWhtxriYI17Eg8b8*K-gKck0GBDZE=
+18-09-12 19:12:33 文章标题: 致远互联发布A6+在打什么牌？
+18-09-12 19:12:33 第11条
+18-09-12 19:12:33 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0gCixX7hSEcoJQGi6HQqcMlKhm5d-M6UJKgEQtkTEqY6*J4JLE-GJmX9Q6fjxZpHlJz18kfpUfjmzqXEhaxWDF8=
+18-09-12 19:12:33 文章标题: 华为推出“AI芯”，中国芯要超车得知道前面还有哪些AI芯片？
+18-09-12 19:12:33 第12条
+18-09-12 19:12:33 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0gCixX7hSEcoJQGi6HQqcMkvI*ygD9QpqXCCo2jCEPzynPmrYdSk*6yEaeb634WQxhKEvb9N2ukz*nVTntiD-KQ=
+18-09-12 19:12:33 文章标题: 每日新闻：院士姚期智：量子计算是一个非常重要的知识领域；京东与如意控股集团达成战略合作
+18-09-12 19:12:33 第13条
+18-09-12 19:12:33 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0nFoczEe1IA96*9dybdNh*V1UeL6*AUMnEm8mkrHPt4cZy9ARDT-tAXmOOrRjhHyJF5cKc9Mlxp0KKzZb3q1c*Q=
+18-09-12 19:12:33 文章标题: IT国产化替代不断推进，核心技术需要在试错中发展
+18-09-12 19:12:33 第14条
+18-09-12 19:12:33 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0nFoczEe1IA96*9dybdNh*UCFuX*Yakv5zgYvI4DMUlW479yP5wpxPdqbWw1gSM70dUDYH05YXAFwbX5k*7XKmc=
+18-09-12 19:12:34 文章标题: 每日新闻：李开复谈AI未来将会向合理趋势发展；金山软件8月31日回购20万股，耗资284万港币
+18-09-12 19:12:34 第15条
+18-09-12 19:12:34 url: https://mp.weixin.qq.com/s?timestamp=1536750749&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6z8q1AB7txvYLexHo7Nc5p4FNzhrHSjvtQinM4Vsfhcq6wmeWLqUMIi7r3ORnIQD0gf7ziFdvXvaFfCghmI344-tnKr1y8FY8Pnmu7EuR6K6d6rwcxwYuSmT7j1J*sWsSvWD5KKyq24uIu9AsM9kU5U=
+18-09-12 19:12:34 文章标题: 【一周头条盘点】中国软件网（2018.8.27~2018.8.31）
+18-09-12 19:12:34 第16条
+18-09-12 19:12:35 3613
+18-09-12 19:12:40 1697
+18-09-12 19:12:40 345
+18-09-12 19:12:40 ==== Hapiweb-soft6
+18-09-12 19:12:40 数据抓取完成
+18-09-12 19:12:40 status_code 404
+18-09-12 19:12:40 消耗一个account
+18-09-12 19:13:56 fadfsdf {}
+18-09-12 19:13:56 lpush analyse -- Hapiweb-soft6
+18-09-12 19:13:56 https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:13:56 adfasdfasf {}
+18-09-12 19:13:56 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:13:56 ------开始处理搜狗验证码------
+18-09-12 19:14:00 ------出现验证码页面------
+18-09-12 19:14:01 ------验证码：6fp85c------
+18-09-12 19:14:05 --22222222----验证码输入错误------
+18-09-12 19:14:05 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:14:05 ------开始处理搜狗验证码------
+18-09-12 19:14:07 ------出现验证码页面------
+18-09-12 19:14:07 ------验证码：872m48------
+18-09-12 19:14:12 --22222222----验证码输入错误------
+18-09-12 19:14:12 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:14:12 ------开始处理搜狗验证码------
+18-09-12 19:14:14 ------出现验证码页面------
+18-09-12 19:14:14 ------验证码：v4tc8------
+18-09-12 19:14:19 --22222222----验证码输入错误------
+18-09-12 19:14:19 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=Hapiweb-soft6&ie=utf8&_sug_=n&_sug_type_=
+18-09-12 19:14:19 ------开始处理搜狗验证码------
+18-09-12 19:14:21 ------出现验证码页面------
+18-09-12 19:14:21 ------验证码：54e2a8------
+18-09-12 19:14:22 ------验证码正确------
+18-09-12 19:14:22 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98F4F6', 'ABTEST': '7|1536750837|v1', 'seccodeErrorCount': '2|Wed, 12 Sep 2018 11:19:01 GMT', 'SUIR': '1536750838', 'IPLOC': 'CN4401', 'PHPSESSID': 'nv6jrhutrj8mb0gu3222umvsi2', 'refresh': '1', 'SUV': '00D217863B2ACF145B98F4F6E7FDC116', 'SNUID': 'F328CDD3E7E2924D56D094FEE8741047', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 11:19:21 GMT', 'JSESSIONID': 'aaa5UKUmIo3yoaPf7PBvw'}
+18-09-12 19:14:22 ------cookies更新------
+18-09-12 19:14:22 ------cookies已更新------ {'SUID': '14CF2A3B5118910A000000005B98F4F6', 'ABTEST': '7|1536750837|v1', 'seccodeErrorCount': '2|Wed, 12 Sep 2018 11:19:01 GMT', 'SUIR': '1536750838', 'IPLOC': 'CN4401', 'PHPSESSID': 'nv6jrhutrj8mb0gu3222umvsi2', 'refresh': '1', 'SUV': '00D217863B2ACF145B98F4F6E7FDC116', 'SNUID': 'F328CDD3E7E2924D56D094FEE8741047', 'seccodeRight': 'success', 'successCount': '1|Wed, 12 Sep 2018 11:19:21 GMT', 'JSESSIONID': 'aaa5UKUmIo3yoaPf7PBvw'}
+18-09-12 19:14:22 验证完毕
+18-09-12 19:14:22 发送weixininfo成功
+18-09-12 19:14:23 start 公众号:  Hapiweb-soft6
+18-09-12 19:14:23 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DR-kWCBQm0YrJtr1Eg5nHvzWJDAST0zv-WbrZioehCN7Jfn8x*MGbm6bDiaqfZ4aTbofHiy9Cefo8iO-fQAJ3q8=
+18-09-12 19:14:23 文章标题: 向“收购狂魔“Workday学习并购，角逐人力资本管理云|企服三会系列报道
+18-09-12 19:14:23 第0条
+18-09-12 19:14:23 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DR-kWCBQm0YrJtr1Eg5nHvzwycWkubN1WlWYd3*NX-qcdZVv5C9uFHXwrHIErBX0mPepgrd9MBACClok9X9mElI=
+18-09-12 19:14:23 文章标题: 每日新闻：科学家称人工智能可以迅速发展自己的偏见；工信部：贯彻落实企业上云政策
+18-09-12 19:14:23 第1条
+18-09-12 19:14:23 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5Df4xE5uzdKuGIjOsmkqH4J2QKw0BNKcS0c0Fyl4TkCCHC95I*R-yIi88zSYYoKYW3zXJe4*XGsDgsc6JN4cXxKc=
+18-09-12 19:14:23 文章标题: 全知科技CEO方兴：数据流动时代大数据风险是大数据安全的核心
+18-09-12 19:14:23 第2条
+18-09-12 19:14:23 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5Df4xE5uzdKuGIjOsmkqH4J1ILoD7W9b4T8M0cVP*8TOM5plKS0-b10cOtz1e3tCU5zUAqp5G*bOgnY0HJ1KwhR4=
+18-09-12 19:14:24 文章标题: 每日新闻：徐小平：硬科技仍处在学习阶段；微软发布会定档10月2日以升级现有产品线为主
+18-09-12 19:14:24 第3条
+18-09-12 19:14:24 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DTRcQrcXB9*mhLcU9By3ZbzALZ8yv0ehIHTKe2jK6tytt6WJ29CAiFm8z-*ta7tlkC9tROCFEz47nFlwYYbU3dM=
+18-09-12 19:14:24 文章标题: 【一周头条盘点】中国软件网（2018.9.3~2018.9.7）
+18-09-12 19:14:24 第4条
+18-09-12 19:14:24 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DZUywEM7aolValTyjSda-oFPDBZLaH*vXid2alJptnkfK2aYGYu70mbF9pj-gqzGLZmyiGZhPG7r3Cdm5ElEXTs=
+18-09-12 19:14:24 文章标题: 大数据来袭，你应该懂点ETL
+18-09-12 19:14:24 第5条
+18-09-12 19:14:24 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DZUywEM7aolValTyjSda-oGz1yJJeM3lLVmwswGljDVyG9xjADoPSg7Gj9LvM*W6wo-tP5Nf2nuWGM*4NbrYiRw=
+18-09-12 19:14:24 文章标题: 每日新闻：百度总裁张亚勤：开放合作是AI时代全球大势；青云QingCloud与思杰达成战略合作
+18-09-12 19:14:24 第6条
+18-09-12 19:14:24 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DdQSug-b*Pa6XXiceJ7IMkCXhZxllrUWNkgm9ayfcgH*ZrwyL-6n73PRiKLY8n4dP4OewYWfB5t5oU6eWnHFiwo=
+18-09-12 19:14:25 文章标题: 一份关于智能语音助手的非常规调查笔记|企服三会系列报道
+18-09-12 19:14:25 第7条
+18-09-12 19:14:25 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DdQSug-b*Pa6XXiceJ7IMkAw2FPkAmKc*Dj-ebuYqx2ZsKwcD0gvyRuRlMDfz5AQbYYowKt8ut4Dnqyvd9gyNCM=
+18-09-12 19:14:25 文章标题: 每日新闻：华为寻求与微软在人工智能芯片领域达成合作；百度云ABC3.0发布打造大数据解决方案
+18-09-12 19:14:25 第8条
+18-09-12 19:14:25 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DarEEU8jWs-jDTnuRbDOLLtqTFayJ3vblViJOBIqBUhWRY48HIjBzPO6dOfXZV1pefsCLx5o-j5ILBjQ53yXvHM=
+18-09-12 19:14:25 文章标题: 一个商户老板眼里的CRM演进|企服三会系列报道
+18-09-12 19:14:25 第9条
+18-09-12 19:14:25 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DarEEU8jWs-jDTnuRbDOLLvE21AFHYgcBjvNnor2HDHVTEo-*O4MAweINbydxAUfg3eWINvSiqYQ9-i572w9Jbc=
+18-09-12 19:14:25 文章标题: 每日新闻：麦肯锡：未来10年人工智能为全球GDP贡献1.2%增长；工信部下发第19批CDN、云服务牌照
+18-09-12 19:14:25 第10条
+18-09-12 19:14:25 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DQrDNQBIMxCHVpqzfIK6DfuCUQFwKBSw*1eRZ1VCvxm5MAlWdLhUrHRLkZL-Ra3SKEEqYruG9OlcCdjrB0xK2*o=
+18-09-12 19:14:26 文章标题: 致远互联发布A6+在打什么牌？
+18-09-12 19:14:26 第11条
+18-09-12 19:14:26 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DQrDNQBIMxCHVpqzfIK6DfsaXUsybfpzlLg2Shjgwyng3T0YSxFlYSWU9uKJdckBXqRETAD7tnS6r2R7zJauCLI=
+18-09-12 19:14:26 文章标题: 华为推出“AI芯”，中国芯要超车得知道前面还有哪些AI芯片？
+18-09-12 19:14:26 第12条
+18-09-12 19:14:26 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DQrDNQBIMxCHVpqzfIK6Dftyb9secMEcwT*ZyLS3uU96ESlga2RD7QzS8ku2p*Rz*AVSQNXTQinfTbMs6ERERQw=
+18-09-12 19:14:26 文章标题: 每日新闻：院士姚期智：量子计算是一个非常重要的知识领域；京东与如意控股集团达成战略合作
+18-09-12 19:14:26 第13条
+18-09-12 19:14:26 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5De0nPhRXw-kClnajKf9yPAHqTuh82kEnTjXWwsa3qky7VECFxpSli*oFY*de3RFNU06HoRGiozt8zkkoG0RSfJ8=
+18-09-12 19:14:26 文章标题: IT国产化替代不断推进，核心技术需要在试错中发展
+18-09-12 19:14:26 第14条
+18-09-12 19:14:26 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5De0nPhRXw-kClnajKf9yPAHPCf*fyRLix3TtR2nW0v37lUmhK44vfQBBVt5W4snf-E8V47z6vnPpbsZ8QLtio6c=
+18-09-12 19:14:27 文章标题: 每日新闻：李开复谈AI未来将会向合理趋势发展；金山软件8月31日回购20万股，耗资284万港币
+18-09-12 19:14:27 第15条
+18-09-12 19:14:27 url: https://mp.weixin.qq.com/s?timestamp=1536750862&src=3&ver=1&signature=qwbommwUnCRb7POePM7n6wRRZFnnrvtJczR8qfW5uVoCN0cSxHR7j5Zl2zDdhL396upuded6X5SZTI68kPW5DWUG2ft81GLE-zy-6aD0bxY5cgAe5t2lAHiBRgxlLMlT-A3-12wJcW1TP0wiwpWQhTkEAUATKuldbTv0pw*Zz90=
+18-09-12 19:14:27 文章标题: 【一周头条盘点】中国软件网（2018.8.27~2018.8.31）
+18-09-12 19:14:27 第16条
+18-09-12 19:14:28 3613
+18-09-12 19:14:33 1697
+18-09-12 19:14:33 345
+18-09-12 19:14:33 ==== Hapiweb-soft6
+18-09-12 19:14:33 数据抓取完成
+18-09-12 19:14:33 status_code 404
+18-09-12 19:14:33 消耗一个account
