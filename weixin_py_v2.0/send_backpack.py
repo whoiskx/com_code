@@ -47,7 +47,7 @@ class Article(object):
 
 
 
-class Acount(object):
+class Account(object):
     def __init__(self):
         # 接口取
         self.account_id = None

@@ -187,3 +187,31 @@ class Backpack(object):
         }
         uploads_body.update({'body': json.dumps(self.to_dict())})
         return uploads_body
+
+
+class Zhongxing(object):
+    def __init__(self):
+        self.name = ""
+        self.url = ""
+        self.account = ''
+        self._codeurl = ''
+        self.features = ''
+        self.certified = ''
+        self.pause = 0
+        self.logourl = ''
+        self.codeurl = ''
+        self.number = ''
+        self.imageUrl = ''
+        self.Origin = ''
+        self.NND = ''
+        self.total = ''
+        self.collectiontime = ''
+        self.interval = ''
+        self.maxupdatecount = ''
+        self.articleinterval = ''
+        self.label = ''
+        self.biz = ''
+
+    def to_dict(self):
+        return self.__dict__
+

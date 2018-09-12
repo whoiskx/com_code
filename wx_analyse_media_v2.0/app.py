@@ -96,7 +96,9 @@ class AccountHttp(object):
         info['features '] = features
         info['certified '] = certified
         log(info)
-
+        url = 'http://183.131.241.60:38011/AddNewAccount?json='
+        resp = requests.post(url, json=info)
+        print(resp.status_code)
         # 图片上传
         # while True:
         #     name = self.name
@@ -158,6 +160,7 @@ class AccountHttp(object):
 
             if self.name in e(".info").eq(0).text():
                 account_link = e(".tit").find('a').attr('href')
+                self.uploads_account_info(e)
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.name))
                 break
@@ -256,8 +259,8 @@ class AccountHttp(object):
         articles = []
         backpack_list = []
         for page_count, url in enumerate(urls_article):
-            if page_count > 2:
-                break
+            # if page_count > 2:
+            #     break
             article = Article()
             log('url:', url)
             article.create(url, self.name)

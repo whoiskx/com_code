@@ -2,6 +2,9 @@
 import datetime
 import html
 from send_backpack import *
+from send_backpack import Account
+import time
+import re
 from config import get_mysql_new
 from utils import uploads_mysql
 
@@ -36,6 +39,9 @@ class Mobile(object):
 
     @staticmethod
     def biz_list():
+        return ['MzIyMjA0NTg1MQ==', 'MzIyMjA0NTg1MQ==', 'MzA5NzQ4MDU3MQ==', 'MzUzMTkwODc3OQ==','MzA5NTAzNTUwNQ==', 'MzA3NTM2ODk2Mg==']
+
+
         url = 'http://183.131.241.60:38011/nextaccount?label=5'
         r = requests.get(url)
         info_list = json.loads(r.text)
@@ -45,6 +51,10 @@ class Mobile(object):
         return _biz_list
 
     def set_key_uin(self):
+        self.uin = 'MTE1NjkxODg2MQ%3D%3D'
+        self.key = 'cdcc4f75a6507840b2cdfe8e53400bf5cce66f34bb997a1c8c50306524f3060681dff2f2a42132962486913c7c3d65bbb9ac9aef65432bb4011f2dd2d3b2e8b5ef2289f8297fc9f8ed53e6668026a146'
+        return
+
         url = 'http://183.131.241.60:38011/outkey'
         while True:
             r = requests.get(url)
@@ -97,7 +107,7 @@ class Mobile(object):
                         article = Article()
                         article.create(urls[0])
                         log("文章标题 {}".format(article.title))
-                        account = Acount()
+                        account = Account()
                         account.name = article.author
                         account.account = article.account
                         account.get_account_id()
@@ -153,4 +163,6 @@ def main():
 
 
 if __name__ == '__main__':
+    l = ['hepancom', 'nacsh688',  'stbjzz', 'stjjjc', 'wxcoupon', 'yxsh0796'] # 'st_rainbow',
+    ll = ['MzIyMjA0NTg1MQ==', 'MzIyMjA0NTg1MQ==', 'MzA5NzQ4MDU3MQ==', 'MzUzMTkwODc3OQ==','MzA5NTAzNTUwNQ==', 'MzA3NTM2ODk2Mg==']
     main()
