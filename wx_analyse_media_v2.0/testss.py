@@ -35,50 +35,50 @@ import requests
 # print("end")
 
 # 查询公众号
-# url = 'http://183.131.241.60:38011/MatchAccount?account=gh_2219b94b95b1'
-# r = requests.get(url)
-# print(type(r.json()))
-# s = r.json().get('imageUrl')
-# print(s)
-# if len(s) == 0:
-#     print("头像不存在")
-#     url_save = 'http://183.131.241.60:38011/SaveImage'
-#     r_save = requests.post(files=r_img.content)
-#     print(r_save.status_code)
+url = 'http://183.131.241.60:38011/MatchAccount?account=gh_2219b94b95b1'
+r = requests.get(url)
+print(type(r.json()))
+s = r.json().get('imageUrl')
+print(s)
+if len(s) == 0:
+    print("头像不存在")
+    url_save = 'http://183.131.241.60:38011/SaveImage'
+    r_save = requests.post(files=r_img.content)
+    print(r_save.status_code)
+else:
+    print("头像存在,判断是否正确")
+
+
+url2 = 'http://60.190.238.188:38016/{}'.format(s)
+r_img = requests.get(url2)
+print(r_img)
 # else:
-#     print("头像存在,判断是否正确")
+#     print("头像存在")
+if r_img.text:
+    print('存在')
+else:
+    url_save = 'http://183.131.241.60:38011/SaveImage'
+    r_save = requests.post(files=r_img.content)
+    print(r_save.status_code)
+
+url = 'http://img01.sogoucdn.com/app/a/100520090/oIWsFt-9qc9wQlpNOwJuYnewXRlQ'
+r = requests.get(url)
+url2 = 'http://183.131.241.60:38011/SaveImage'
+s = requests.post(url2, files=r.content)
+print(s.status_code)
+
+
+# info = {"name": "佛山市华诚餐饮管理有限公司", "account": "fsshccyglyxgs",
+#      "features": "佛山市华诚餐饮管理有限公司是一家从田头到餐桌,产业链化经营的餐饮管理、饭堂承包与食材配送专家.公司立足佛山,辐射珠三角,为广大企业、学校、机关单位提供安全、营养的食品解决方案.",
+#      "certified": "佛山市华诚餐饮管理有限公司"}
+# url = 'http://183.131.241.60:38011/AddNewAccount?json='
+# from send_backpack import Zhongxing
+# test = Zhongxing()
+# test.name = info.get('name')
+# test.account = info.get('account')
 #
+# test.features = info.get('features')
+# test.certified = info.get('certified')
 #
-# url2 = 'http://60.190.238.188:38016/{}'.format(s)
-# r_img = requests.get(url2)
-# print(r_img)
-# # else:
-# #     print("头像存在")
-# if r_img.text:
-#     print('存在')
-# else:
-#     url_save = 'http://183.131.241.60:38011/SaveImage'
-#     r_save = requests.post(files=r_img.content)
-#     print(r_save.status_code)
-
-# url = 'http://img01.sogoucdn.com/app/a/100520090/oIWsFt-9qc9wQlpNOwJuYnewXRlQ'
-# r = requests.get(url)
-# url2 = 'http://183.131.241.60:38011/SaveImage'
-# s = requests.post(url2, files=r.content)
-# print(s.status_code)
-
-
-info = {"name": "佛山市华诚餐饮管理有限公司", "account": "fsshccyglyxgs",
-     "features": "佛山市华诚餐饮管理有限公司是一家从田头到餐桌,产业链化经营的餐饮管理、饭堂承包与食材配送专家.公司立足佛山,辐射珠三角,为广大企业、学校、机关单位提供安全、营养的食品解决方案.",
-     "certified": "佛山市华诚餐饮管理有限公司"}
-url = 'http://183.131.241.60:38011/AddNewAccount?json='
-from send_backpack import Zhongxing
-test = Zhongxing()
-test.name = info.get('name')
-test.account = info.get('account')
-
-test.features = info.get('features')
-test.certified = info.get('certified')
-
-resp = requests.post(url, json=test.to_dict())
-print(resp.status_code)
+# resp = requests.post(url, json=test.to_dict())
+# print(resp.status_code)

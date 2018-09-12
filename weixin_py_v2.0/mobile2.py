@@ -36,6 +36,8 @@ class Mobile(object):
     def create_url(self):
         self.url = self.url_match.format(self._biz, self.uin, self.key)
         log('账号主页', self.url)
+        # 增源
+
 
     @staticmethod
     def biz_list():
@@ -52,7 +54,7 @@ class Mobile(object):
 
     def set_key_uin(self):
         self.uin = 'MTE1NjkxODg2MQ%3D%3D'
-        self.key = 'cdcc4f75a6507840b2cdfe8e53400bf5cce66f34bb997a1c8c50306524f3060681dff2f2a42132962486913c7c3d65bbb9ac9aef65432bb4011f2dd2d3b2e8b5ef2289f8297fc9f8ed53e6668026a146'
+        self.key = '4aa6a478baa5de1a6222d76fbd87db79cc255525b5b6723de0f099e4e96d823bebdfeeebb6df3947ee6710b659a0567318feb3fb5ad9d557de29bd42a10737e7614dc88d103a3d987afc1690924d80d0'
         return
 
         url = 'http://183.131.241.60:38011/outkey'

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import pymssql
 
 import redis
 from flask import Flask, request
@@ -13,7 +14,7 @@ import requests
 import json
 from pyquery import PyQuery as pq
 from send_backpack import JsonEntity, Article, Account, Backpack
-from config import get_mysql_new
+from config import get_mysql_new, get_mysql_old
 from utils import log
 from utils import uploads_mysql
 from selenium.webdriver.common.by import By
@@ -93,52 +94,79 @@ class AccountHttp(object):
                 features = pq(show).text().replace('功能介绍：\n', '')
             if '认证' in pq(show).text():
                 certified = pq(show).text().split('\n')[-1]
-        info['features '] = features
-        info['certified '] = certified
-        log(info)
-        url = 'http://183.131.241.60:38011/AddNewAccount?json='
-        resp = requests.post(url, json=info)
-        print(resp.status_code)
-        # 图片上传
-        # while True:
-        #     name = self.name
-        #     url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(name)
-        #     result1 = requests.get(url_public)
-        #     info_image = result1.json()
-        #     image_url = info_image.get("imageUrl")
-        #     image_id = info_image.get("id")
-        #     if not image_id:
-        #         # 增源
-        #         log("当前账号id为0 需要添加{}".format(self.name))
-        #         break
-        #         # add_account(name, account, url, collectiontime, biz)
-        #         # time.sleep(6)
-        #         # find = get_account(account)
-        #         # if not find:
-        #         #     time.sleep(6)
-        #
-        #     # 假设账号已存在
-        #     url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(name)
-        #     result1 = requests.get(url_public)
-        #     info_image = result1.json()
-        #     image_url = info_image.get("imageUrl")
-        #     image_id = info_image.get("id")
-        #     if image_url:
-        #         # 有头像 判断图片有效 默认ID一定有
-        #         # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
-        #         url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
-        #         r_img = requests.get(url2)
-        #         if 'Images/0/0.jpg' in r_img.text:
-        #             print('账号:{} 头像失效'.format(name))
-        #             # 保存图像
-        #
-        #     else:
-        #         # 没有头像
-        #         # 保存头像
-        #         if info_image.get('id'):
-        #             info_image.get('id')
-        #             url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
-        #             requests.post(url_save)
+        info['features'] = features
+        info['certified'] = certified
+        count_loop = 0
+        while True:
+            # 查询
+            count_loop += 1
+            if count_loop > 4:
+                break
+            url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
+            result1 = requests.get(url_public)
+            info_image = result1.json()
+            image_url = info_image.get("imageUrl")
+            image_id = info_image.get("id")
+            if not image_id:
+                # 增源
+                config_mysql_old = get_mysql_old()
+                db = pymssql.connect(**config_mysql_old)
+                cursor = db.cursor()
+                account_link = e(".tit").find('a').attr('href')
+                homepage = self.s.get(account_link, cookies=self.cookies)
+                # var biz = "MzU0MDUxMjM4OQ==" || ""
+                biz_find = re.search('var biz = ".*?"', homepage.text)
+                biz = ''
+                if biz_find:
+                    biz = biz_find.group().replace('var biz = ', '')
+                info["biz"] = biz
+                try:
+                    sql_insert = """
+                            INSERT INTO WXAccount(Name, Account, CollectionTime, Biz, Feature, Certification)
+                            VALUES ('{}', '{}', GETDATE(), '{}', '{}', '{}')""".format(info.get('name'),
+                                                                                       info.get('account'),
+                                                                                       info.get('biz'),
+                                                                                       info.get('features'),
+                                                                                       info.get('certified'))
+                    cursor.execute(sql_insert)
+                    db.commit()
+                    log('插入数据成功', info.get('name'))
+                    log("当前账号id为0 需要添加{}".format(self.name))
+                except Exception as e:
+                    log('插入数据错误', e)
+                    db.rollback()
+                    continue
+                time.sleep(5)
+                continue
+                # add_account(name,info account, url, collectiontime, biz)
+                # time.sleep(6)
+                # find = get_account(account)
+                # if not find:
+                #     tinfoime.sleep(6)
+
+            # 假设账号已存在
+            url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
+            result1 = requests.get(url_public)
+            info_image = result1.json()
+            image_url = info_image.get("imageUrl")
+            image_id = info_image.get("id")
+            if image_url:
+                # 有头像 判断图片有效 默认ID一定有
+                # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
+                url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
+                r_img = requests.get(url2)
+                if 'Images/0/0.jpg' in r_img.text:
+                    print('账号:{} 头像失效'.format(self.name))
+                    # 保存图像
+                break
+            else:
+                # 没有头像
+                # 保存头像
+                if info_image.get('id'):
+                    # url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
+                    # requests.post(url_save)
+                    log('保存头像')
+                break
 
     def account_homepage(self):
         # 搜索并进入公众号主页
