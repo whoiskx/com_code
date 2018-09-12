@@ -9,7 +9,7 @@ from config import get_mysql_new
 from utils import uploads_mysql
 
 config_mysql = get_mysql_new()
-
+from add_accountid import uploads_account_info_params
 
 def log(*args, **kwargs):
     time_format = '%y-%m-%d %H:%M:%S'
@@ -33,10 +33,19 @@ class Mobile(object):
                           'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
         }
 
+
     def create_url(self):
         self.url = self.url_match.format(self._biz, self.uin, self.key)
         log('账号主页', self.url)
-        # 增源
+        # # 增源
+        resp = requests.get(self.url, headers=self.headers)
+        e = pq(resp.text)
+        name = e('.profile_nickname').text()
+        account = 'nacsh688'
+        biz = self._biz
+        feature = e('.profile_owner_info').text().split('已认证 ', '')
+        certification = e('.profile_desc').text()
+        uploads_account_info_params(name, account, biz, feature, certification)
 
 
     @staticmethod
@@ -94,6 +103,7 @@ class Mobile(object):
                     try:
                         self._biz = biz
                         self.create_url()
+                        print('添加成功')
                         # self.url = 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4OTEwNDUwMA==&uin=MTE1NjkxODg2MQ==&key=2e15abc1cc63c6472b3f9e24b445b1c19bb7dcee55cf4eb76c5363872c0f2f760899356828e84a3aeeb272cb0565257c52ac612c186648dbb4226484e2f04530a140a103860689fe7656df0d53f08ab5'
                         resp = requests.get(self.url, headers=self.headers)
                         # 响应结果为空即key失效
@@ -165,6 +175,8 @@ def main():
 
 
 if __name__ == '__main__':
-    l = ['hepancom', 'nacsh688',  'stbjzz', 'stjjjc', 'wxcoupon', 'yxsh0796'] # 'st_rainbow',
-    ll = ['MzIyMjA0NTg1MQ==', 'MzIyMjA0NTg1MQ==', 'MzA5NzQ4MDU3MQ==', 'MzUzMTkwODc3OQ==','MzA5NTAzNTUwNQ==', 'MzA3NTM2ODk2Mg==']
+    # l = ['hepancom', 'nacsh688',  'stbjzz', 'stjjjc', 'wxcoupon', 'yxsh0796'] # 'st_rainbow',
+    # info_dict = dict
+    # ll = ['MzIyMjA0NTg1MQ==', 'MzIyMjA0NTg1MQ==', 'MzA5NzQ4MDU3MQ==', 'MzUzMTkwODc3OQ==','MzA5NTAzNTUwNQ==', 'MzA3NTM2ODk2Mg==']
+    ll = ['MzIyMjA0NTg1MQ==']
     main()

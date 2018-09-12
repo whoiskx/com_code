@@ -2,7 +2,37 @@
 import base64
 import json
 from flask import Flask, request, jsonify
-from save_image import ImageSave
+import os
+
+
+class ImageSave(object):
+    def __init__(self):
+        self.BASE_DIR = r'D:\WXSchedule\Images_tests'
+        if not os.path.exists(self.BASE_DIR):
+            os.makedirs(self.BASE_DIR)
+
+    def images_to_save(self, account_id, content):
+        print(account_id)
+        num = int(account_id) // 1000
+        IMAGE_DIR = os.path.join(self.BASE_DIR, str(num))
+        if not os.path.exists(IMAGE_DIR):
+            os.makedirs(IMAGE_DIR)
+
+        image_path = os.path.join(IMAGE_DIR, str(account_id) + '.jpg')
+        try:
+            with open(image_path, 'wb') as f:
+                f.write(content)
+            return {
+                'Success': True,
+                'Message': '保存成功：{}'.format(image_path),
+            }
+        except Exception as e:
+            print(e)
+            return {
+                'Success': True,
+                'Message': '保存失败：{}'.format(image_path),
+            }
+
 
 app = Flask(__name__)
 images = ImageSave()
@@ -12,9 +42,7 @@ images = ImageSave()
 def hello_world():
     if request.method == 'POST':
         data = request.form
-        print(type(data), data)
         content = base64.b64decode(data.get('content'))
-        print(type(content))
         account_id = data.get('account_id')
         result = images.images_to_save(account_id, content)
         return jsonify(result)

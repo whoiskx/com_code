@@ -66,7 +66,7 @@ class AccountHttp(object):
         }
         self.cookies = {}
         chrome_options = webdriver.ChromeOptions()
-        # chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--headless')
         self.browser = webdriver.Chrome(chrome_options=chrome_options)
         self.wait = WebDriverWait(self.browser, 4)
 
@@ -76,12 +76,19 @@ class AccountHttp(object):
     @async
     def listen_task(self, account):
         while True:
-            account_char = self.rcon.brpop(self.queue, 0)[1]
-            account.name = account_char.decode(encoding="utf-8")
-            account.run()
-            # if account.browser:
-            #     account.browser.quit()
-            log("消耗一个account")
+            try:
+                account_char = self.rcon.brpop(self.queue, 0)[1]
+                account.name = account_char.decode(encoding="utf-8")
+                account.run()
+                # if account.browser:
+                #     account.browser.quit()
+                log("消耗一个account")
+            except Exception as e:
+                log('error', '重启')
+                if account.browser:
+                    account.browser.quit()
+                account = AccountHttp()
+                continue
 
     def uploads_account_info(self, e):
         info = dict()
@@ -194,26 +201,26 @@ class AccountHttp(object):
                 break
             else:
                 # 处理验证码
-                print(search_url)
-                # print(resp_search.text)
-                print('adfasdfasf', self.cookies)
+                log(search_url)
+                # log(resp_search.text)
+                log('adfasdfasf', self.cookies)
                 try_count = 0
                 while True:
                     try_count += 1
                     self.crack_sougou(search_url)
                     if '搜公众号' in self.browser.page_source:
-                        print('------cookies更新------')
+                        log('------cookies更新------')
                         cookies = self.browser.get_cookies()
                         new_cookie = {}
                         for items in cookies:
                             new_cookie[items.get('name')] = items.get('value')
                         self.cookies = new_cookie
-                        print('------cookies已更新------', self.cookies)
+                        log('------cookies已更新------', self.cookies)
                         break
                     elif try_count > 6:
                         break
 
-                print("验证完毕")
+                log("验证完毕")
                 # 被跳过的公众号要不要抓取  大概 4次
                 continue
             account_match = re.search(r'微信号：\w*', e.text())
@@ -222,22 +229,22 @@ class AccountHttp(object):
             homepage = self.s.get(account_link, cookies=self.cookies)
             if '<title>请输入验证码 </title>' in homepage.text:
                 self.crack_sougou(account_link)
-                # print("出现验码")
-                # print('------开始处理微信验证码------')
+                # log("出现验码")
+                # log('------开始处理微信验证码------')
                 # cert = random.random()
                 # image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
                 # respones = self.s.get(image_url, )
                 # captch_input = captch_upload_image(respones.content)
-                # print('------验证码：{}------'.format(captch_input))
+                # log('------验证码：{}------'.format(captch_input))
                 # data = {
                 #     'cert': cert,
                 #     'input': captch_input
                 # }
                 # respones = self.s.post(image_url, data=data, cookies=self.cookies)
                 # self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
-                # print('adffa', self.cookies)
+                # log('adffa', self.cookies)
                 homepage = self.s.get(account_link, cookies=self.cookies)
-                # print('破解验证码之后')
+                # log('破解验证码之后')
             account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
             # 搜索页面有account，公众号主页有account，确保找到account
             return homepage.text, account or account_search
@@ -389,7 +396,7 @@ class AccountHttp(object):
             if '搜公众号' in self.browser.page_source:
                 for i in range(30):
                     self.browser.get(url)
-                    print('fasdfsafas')
+                    log('fasdfsafas')
                     if '搜公众号' not in self.browser.page_source:
                         break
             try:
