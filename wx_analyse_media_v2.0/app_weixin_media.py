@@ -28,6 +28,7 @@ import os
 from handle_artiles import handle
 import jieba
 from verification_code import captch_upload_image
+import jieba.posseg
 
 config_mysql = get_mysql_new()
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -100,7 +101,8 @@ class AccountHttp(object):
             send_info = dict()
             send_info['account'] = info.get('account', '')
             send_info['name'] = info.get('name', '')
-            send_info['imageUrl'] = ''
+            # send_info['imageUrl'] = path
+            send_info['imageUrl'] = info.get('imageUrl', '')
             send_info['message'] = info.get('message', True)
             send_info['feature'] = info.get('features', '')
             send_info['certification'] = info.get('certified', '')
@@ -121,8 +123,7 @@ class AccountHttp(object):
         db = pymssql.connect(**config_mysql_old)
         cursor = db.cursor()
         try:
-            sql_insert = """
-                                        UPDATE  WXAccount SET ImageUrl='{}' WHERE ID='{}'""".format(path, image_id)
+            sql_insert = """UPDATE  WXAccount SET ImageUrl='{}' WHERE ID='{}'""".format(path, image_id)
             cursor.execute(sql_insert)
             db.commit()
             log('更新数据成功', info.get('name'))
@@ -143,98 +144,101 @@ class AccountHttp(object):
                 certified = pq(show).text().split('\n')[-1]
         info['features'] = features
         info['certified'] = certified or features
-        info['imageUrl'] = '1'
         info['message'] = True
         info['status'] = 0
 
         # 获取头像二进制
         img_find = e(".img-box").find('img').attr('src')
         url_img_get = 'http:' + img_find
-        r_img = requests.get(url_img_get)
-        img_b = r_img.content
+        info['imageUrl'] = url_img_get
+        path = ''
+        self.send_info(info, path)
 
-        count_loop = 0
-        while True:
-            # 查询
-            count_loop += 1
-            if count_loop > 4:
-                break
-            url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
-            result1 = requests.get(url_public)
-            info_image = result1.json()
-            image_url = info_image.get("imageUrl")
-            image_id = info_image.get("id")
-            if not image_id:
-                # 增源
-                config_mysql_old = get_mysql_old()
-                db = pymssql.connect(**config_mysql_old)
-                cursor = db.cursor()
-                account_link = e(".tit").find('a').attr('href')
-                homepage = self.s.get(account_link, cookies=self.cookies)
-                # var biz = "MzU0MDUxMjM4OQ==" || ""
-                biz_find = re.search('var biz = ".*?"', homepage.text)
-                biz = ''
-                if biz_find:
-                    biz = biz_find.group().replace('var biz = ', '')
-                info["biz"] = biz
-                try:
-                    sql_insert = """
-                            INSERT INTO WXAccount(Name, Account, CollectionTime, Biz, Feature, Certification)
-                            VALUES ('{}', '{}', GETDATE(), '{}', '{}', '{}')""".format(info.get('name'),
-                                                                                       info.get('account'),
-                                                                                       info.get('biz'),
-                                                                                       info.get('features'),
-                                                                                       info.get('certified'))
-                    cursor.execute(sql_insert)
-                    db.commit()
-                    log('插入数据成功', info.get('name'))
-                    log("当前账号id为0 需要添加{}".format(self.name))
-                except Exception as e:
-                    log('插入数据错误', e)
-                    db.rollback()
-                    continue
-                time.sleep(5)
-                continue
-                # add_account(name,info account, url, collectiontime, biz)
-                # time.sleep(6)
-                # find = get_account(account)
-                # if not find:
-                #     tinfoime.sleep(6)
-                # Images/126767/126767400.jpg
-            path = 'Images/' + str(image_id // 1000) + '/' + str(image_id)
 
-            self.send_info(info, path)
+        # r_img = requests.get(url_img_get)
+        # img_b = r_img.content
+        #
+        # count_loop = 0
+        # while True:
+        #     # 查询
+        #     count_loop += 1
+        #     if count_loop > 4:
+        #         break
+        #     url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
+        #     result1 = requests.get(url_public)
+        #     info_image = result1.json()
+        #     image_url = info_image.get("imageUrl")
+        #     image_id = info_image.get("id")
+        #     if not image_id:
+        #         # 增源
+        #         config_mysql_old = get_mysql_old()
+        #         db = pymssql.connect(**config_mysql_old)
+        #         cursor = db.cursor()
+        #         account_link = e(".tit").find('a').attr('href')
+        #         homepage = self.s.get(account_link, cookies=self.cookies)
+        #         # var biz = "MzU0MDUxMjM4OQ==" || ""
+        #         biz_find = re.search('var biz = ".*?"', homepage.text)
+        #         biz = ''
+        #         if biz_find:
+        #             biz = biz_find.group().replace('var biz = ', '')
+        #         info["biz"] = biz
+        #         try:
+        #             sql_insert = """
+        #                     INSERT INTO WXAccount(Name, Account, CollectionTime, Biz, Feature, Certification)
+        #                     VALUES ('{}', '{}', GETDATE(), '{}', '{}', '{}')""".format(info.get('name'),
+        #                                                                                info.get('account'),
+        #                                                                                info.get('biz'),
+        #                                                                                info.get('features'),
+        #                                                                                info.get('certified'))
+        #             cursor.execute(sql_insert)
+        #             db.commit()
+        #             log('插入数据成功', info.get('name'))
+        #             log("当前账号id为0 需要添加{}".format(self.name))
+        #         except Exception as e:
+        #             log('插入数据错误', e)
+        #             db.rollback()
+        #             continue
+        #         time.sleep(5)
+        #         continue
+        #         # add_account(name,info account, url, collectiontime, biz)
+        #         # time.sleep(6)
+        #         # find = get_account(account)
+        #         # if not find:
+        #         #     tinfoime.sleep(6)
+        #         # Images/126767/126767400.jpg
+        #     path = 'Images/' + str(image_id // 1000) + '/' + str(image_id)
+        #     self.send_info(info, path)
 
             # 假设账号已存在
-            url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
-            result1 = requests.get(url_public)
-            info_image = result1.json()
-            image_url = info_image.get("imageUrl")
-            image_id = info_image.get("id")
-            if image_url:
-                # 有头像 判断图片有效 默认ID一定有
-                # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
-                url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
-                r_img = requests.get(url2)
-                if 'Images/0/0.jpg' in r_img.text:
-                    log('账号:{} 头像失效'.format(self.name))
-
-                    # 保存图像
-                    #self.handle_img(img_b, image_id, info, path)
-                    # url_img = 'http://47.99.50.93:8009/SaveImage'
-                    # data_img = {'content': base64.b64encode(img_b), 'account_id': image_id}
-                    # r = requests.post(url_img, data=data_img)
-                    # log('头像上传:', r.status_code)
-                break
-            else:
-                # 没有头像
-                # 保存头像
-                if info_image.get('id'):
-                    # url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
-                    # requests.post(url_save)
-                    log('保存头像')
-                    # self.handle_img(img_b, image_id, info, path)
-                break
+            # url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
+            # result1 = requests.get(url_public)
+            # info_image = result1.json()
+            # image_url = info_image.get("imageUrl")
+            # image_id = info_image.get("id")
+            # if image_url:
+            #     # 有头像 判断图片有效 默认ID一定有
+            #     # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
+            #     url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
+            #     r_img = requests.get(url2)
+            #     if 'Images/0/0.jpg' in r_img.text:
+            #         log('账号:{} 头像失效'.format(self.name))
+            #
+            #         # 保存图像
+            #         self.handle_img(img_b, image_id, info, path)
+            #         # url_img = 'http://47.99.50.93:8009/SaveImage'
+            #         # data_img = {'content': base64.b64encode(img_b), 'account_id': image_id}
+            #         # r = requests.post(url_img, data=data_img)
+            #         # log('头像上传:', r.status_code)
+            #     break
+            # else:
+            #     # 没有头像
+            #     # 保存头像
+            #     if info_image.get('id'):
+            #         # url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
+            #         # requests.post(url_save)
+            #         log('保存头像')
+            #         self.handle_img(img_b, image_id, info, path)
+            #     break
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -385,11 +389,17 @@ class AccountHttp(object):
         # with open('all_character.txt', 'w', encoding='utf-8') as f:
         #     f.write(content_all_list)
         # 分词处理
+
         key_words_list = []
-        seg_list = jieba.cut(''.join(content_all_list), cut_all=False)
-        for i in seg_list:
-            if len(i) >= 2 and re.match('[\u4e00-\u9fff]+', i):
-                key_words_list.append(i)
+        seg_list = jieba.posseg.cut(''.join(content_all_list))
+        for s in seg_list:
+            if (
+                    len(s.word) >= 2
+                    and re.search('[\u4e00-\u9fff]+', s.word)
+                    and s.flag in ['Ng', 'n', 'nr', 'ns', 'nt', 'nz']
+                    and s.word not in ['谢谢']
+            ):
+                key_words_list.append(s.word)
 
         # 返回前10个出现频率最高的词
         key_words_counter = Counter(key_words_list).most_common(20)
