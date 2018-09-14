@@ -24,7 +24,11 @@ def all_artcle(article_mongo):
             log('文章内容错误')
             continue
         article_date = datetime.datetime.fromtimestamp(int(article_datetime))
-        day_diff = datetime.datetime.now() - article_date
+        # day_diff = datetime.datetime.now() - article_date
+        # if day_diff.days <= 6:
+        #     articles.append(info)
+
+        day_diff = datetime.date.today() - article_date.date()
         if day_diff.days <= 6:
             articles.append(info)
     return articles
@@ -108,8 +112,8 @@ def handle(articles_info):
 
 
 if __name__ == '__main__':
-    # handle()
-    get_data_format()
+    handle()
+    # get_data_format()
     # date_format = []
     # start_date = datetime.date.today()
     # for i in range(7):

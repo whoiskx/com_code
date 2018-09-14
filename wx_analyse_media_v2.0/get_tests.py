@@ -21,10 +21,10 @@ import requests
 url1 = 'http://127.0.0.1:8008/WeiXinArt/AddAccount?account={}'
 url2 = 'http://182.245.126.226:8312/WeiXinArt/AddAccount?account={}'
 for i, a in enumerate(account):
-    url = url1.format('jishikandian')
+    url = url1.format(a)
     r = requests.get(url)
     print(r.text)
-    break
-    # if i > 5:
-    #     break
+    # break
+    if i > 10:
+        break
 print('end')

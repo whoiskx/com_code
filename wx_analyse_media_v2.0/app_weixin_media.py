@@ -73,9 +73,9 @@ class AccountHttp(object):
         chrome_options.add_argument('--headless')
         self.browser = webdriver.Chrome(chrome_options=chrome_options)
         self.wait = WebDriverWait(self.browser, 4)
-
         self.rcon = redis.StrictRedis(db=8)
         self.queue = 'analyse'
+        self.status = 0
 
     @async
     def listen_task(self, account):
@@ -86,7 +86,7 @@ class AccountHttp(object):
                 account.run()
                 # if account.browser:
                 #     account.browser.quit()
-                log("消耗一个account")
+                log("抓取完成：", account.name)
             # except Exception as e:
             #     log('error', '重启', e)
             #     if account.browser:
@@ -249,28 +249,33 @@ class AccountHttp(object):
             referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(
                 self.name)
             self.headers['Referer'] = referer
-            self.url = 'http://weixin.sogou.com/weixin?query={}'.format(self.name)
+            self.url = 'http://weixin.sogou.com/weixin?qself.nameuery={}'.format(self.name)
             # self.url = 'http://weixin.sogou.com/weixin'
             # params = {
             #     'query': self.name
             # }
-            resp_search = self.s.get(self.url, headers=self.headers, cookies=self.cookies)
+            print(search_url)
+            resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             if '相关的官方认证订阅号' in resp_search.text:
                 log("找不到该公众号: {}".format(self.name))
-                break
+                self.status = 0
+                return
             e = pq(resp_search.text)
 
             if self.name in e(".info").eq(0).text():
                 account_link = e(".tit").find('a').attr('href')
-                self.uploads_account_info(e)
+                # self.uploads_account_info(e)
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.name))
-                break
+                self.status = 0
+                return
             else:
                 # 处理验证码
                 log(search_url)
+                if '搜公众号' in resp_search.text:
+                    log("request页面正常")
                 # log(resp_search.text)
-                log('adfasdfasf', self.cookies)
+                log('验证之前的cookie', self.cookies)
                 try_count = 0
                 while True:
                     try_count += 1
@@ -285,8 +290,8 @@ class AccountHttp(object):
                         log('------cookies已更新------', self.cookies)
                         break
                     elif try_count > 6:
+                        log("浏览器验证失败")
                         break
-
                 log("验证完毕")
                 # 被跳过的公众号要不要抓取  大概 4次
                 continue
@@ -296,20 +301,6 @@ class AccountHttp(object):
             homepage = self.s.get(account_link, cookies=self.cookies)
             if '<title>请输入验证码 </title>' in homepage.text:
                 self.crack_sougou(account_link)
-                # log("出现验码")
-                # log('------开始处理微信验证码------')
-                # cert = random.random()
-                # image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
-                # respones = self.s.get(image_url, )
-                # captch_input = captch_upload_image(respones.content)
-                # log('------验证码：{}------'.format(captch_input))
-                # data = {
-                #     'cert': cert,
-                #     'input': captch_input
-                # }
-                # respones = self.s.post(image_url, data=data, cookies=self.cookies)
-                # self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
-                # log('adffa', self.cookies)
                 homepage = self.s.get(account_link, cookies=self.cookies)
                 # log('破解验证码之后')
             account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
@@ -343,9 +334,29 @@ class AccountHttp(object):
             urls.append(url)
         return urls
 
+    def send_result(self):
+        # 向前端发送成功请求
+        # article_detaile = db['newMedia'].find_one({'Account': self.name})
+        try:
+            account_id = hash_md5(self.name)
+            status_url = 'http://58.56.160.39:38012/MediaManager/api/drafts/updateAnalysisStatusByAnalysisId'
+            params = {
+                'type': 3,
+                'analysisId': account_id,
+                # 3 正常 0 找不到公众号
+                'status': self.status,
+            }
+            r = requests.get(status_url, params=params)
+            log('status_code', r.status_code)
+        except Exception as e:
+            log("发送前端结果错误", e)
+
     def run(self):
-        log("fadfsdf", self.cookies)
+        log("初始cookies", self.cookies)
         html_account = self.account_homepage()
+        if html_account == 0:
+            self.send_result()
+            return
         if html_account:
             html, account_of_homepage = html_account
         else:
@@ -369,11 +380,11 @@ class AccountHttp(object):
             log('文章标题:', article.title)
             log("第{}条".format(page_count))
 
-            # 超过9天不管
+            # 超过7天不管
             if article.time:
                 article_date = datetime.datetime.fromtimestamp(int(article.time[:-3]))
-                day_diff = datetime.datetime.now() - article_date
-                if day_diff.days > 9:
+                day_diff = datetime.datetime.now().date() - article_date.date()
+                if day_diff.days > 6:
                     break
 
             entity = JsonEntity(article, account)
@@ -414,6 +425,7 @@ class AccountHttp(object):
                     "keyword": k[0]
                 }
             )
+        # 处理文章
         result = handle(articles)
         result['KeyWord'] = key_word
 
@@ -447,18 +459,7 @@ class AccountHttp(object):
         db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
         log('数据抓取完成')
 
-        # 向前端发送成功请求
-        # article_detaile = db['newMedia'].find_one({'Account': self.name})
-
-        account_id = hash_md5(self.name)
-        status_url = 'http://58.56.160.39:38012/MediaManager/api/drafts/updateAnalysisStatusByAnalysisId'
-        params = {
-            'type': 3,
-            'analysisId': account_id,
-            'status': 3,
-        }
-        r = requests.get(status_url, params=params)
-        log('status_code', r.status_code)
+        self.send_result()
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
@@ -469,7 +470,7 @@ class AccountHttp(object):
             if '搜公众号' in self.browser.page_source:
                 for i in range(30):
                     self.browser.get(url)
-                    log('fasdfsafas')
+                    log('浏览器页面正常')
                     if '搜公众号' not in self.browser.page_source:
                         break
             try:
@@ -496,23 +497,8 @@ class AccountHttp(object):
                     input_text.send_keys(captch_input)
                     submit = self.wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
                     submit.click()
-                    try:
-                        # log('------输入验证码------')
-                        # error_tips = self.wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
-                        # if len(error_tips):
-                        #     log('---1111111---验证码输入错误------')
-                        #     return
-                        self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
-                        log('------验证码正确------')
-                        cookies = self.browser.get_cookies()
-                        new_cookie = {}
-                        for items in cookies:
-                            new_cookie[items.get('name')] = items.get('value')
-                        self.cookies = new_cookie
-                        log('------cookies已更新------', self.cookies)
-                        return new_cookie
-                    except:
-                        log('--22222222----验证码输入错误------')
+                    time.sleep(2)
+
             except Exception as e:
                 log('------未跳转到验证码页面，跳转到首页，忽略------')
 
@@ -528,7 +514,7 @@ class AccountHttp(object):
                 'input': captch_input
             }
             respones = self.s.post(image_url, cookies=self.cookies, data=data)
-            self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
+            # self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
             log('------cookies已更新------')
 
 
