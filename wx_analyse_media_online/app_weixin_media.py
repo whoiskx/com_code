@@ -76,6 +76,7 @@ class AccountHttp(object):
 
         self.rcon = redis.StrictRedis(db=8)
         self.queue = 'analyse'
+        self.status = 4
 
     @async
     def listen_task(self, account):
@@ -344,12 +345,30 @@ class AccountHttp(object):
             urls.append(url)
         return urls
 
+    def send_result(self):
+        # 向前端发送成功请求
+        # article_detaile = db['newMedia'].find_one({'Account': self.name})
+        try:
+            account_id = hash_md5(self.name)
+            status_url = 'http://58.56.160.39:38012/MediaManager/api/drafts/updateAnalysisStatusByAnalysisId'
+            params = {
+                'type': 3,
+                'analysisId': account_id,
+                # 3 成功 4 失败
+                'status': self.status,
+            }
+            r = requests.get(status_url, params=params)
+            log('status_code', r.status_code)
+        except Exception as e:
+            log("发送前端结果错误", e)
+
     def run(self):
         log("fadfsdf", self.cookies)
         html_account = self.account_homepage()
         if html_account:
             html, account_of_homepage = html_account
         else:
+            self.send_result()
             return
         log('start 公众号: ', self.name)
         urls_article = self.urls_article(html)
@@ -451,16 +470,17 @@ class AccountHttp(object):
 
         # 向前端发送成功请求
         # article_detaile = db['newMedia'].find_one({'Account': self.name})
-
-        account_id = hash_md5(self.name)
-        status_url = 'http://58.56.160.39:38012/MediaManager/api/drafts/updateAnalysisStatusByAnalysisId'
-        params = {
-            'type': 3,
-            'analysisId': account_id,
-            'status': 3,
-        }
-        r = requests.get(status_url, params=params)
-        log('status_code', r.status_code)
+        self.status = 3
+        self.send_result()
+        # account_id = hash_md5(self.name)
+        # status_url = 'http://58.56.160.39:38012/MediaManager/api/drafts/updateAnalysisStatusByAnalysisId'
+        # params = {
+        #     'type': 3,
+        #     'analysisId': account_id,
+        #     'status': 3,
+        # }
+        # r = requests.get(status_url, params=params)
+        # log('status_code', r.status_code)
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
@@ -500,23 +520,10 @@ class AccountHttp(object):
                     submit.click()
                     time.sleep(2)
                     try:
-                        # log('------输入验证码------')
-                        # error_tips = self.wait.until(EC.presence_of_element_located((By.ID, 'error-tips'))).text
-                        # if len(error_tips):
-                        #     log('---1111111---验证码输入错误------')
-                        #     return
-                        # self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'login-info')))
                         if '搜公众号' not in self.browser.page_source:
                             log('验证失败')
                             return
                         log('------验证码正确------')
-                        # cookies = self.browser.get_cookies()
-                        # new_cookie = {}
-                        # for items in cookies:
-                        #     new_cookie[items.get('name')] = items.get('value')
-                        # self.cookies = new_cookie
-                        # log('------cookies已更新------', self.cookies)
-                        # return new_cookie
                     except:
                         log('--22222222----验证码输入错误------')
             except Exception as e:
@@ -533,8 +540,7 @@ class AccountHttp(object):
                 'cert': cert,
                 'input': captch_input
             }
-            respones = self.s.post(image_url, cookies=self.cookies, data=data)
-            # self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
+            self.s.post(image_url, cookies=self.cookies, data=data)
             log('------cookies已更新------')
 
 
