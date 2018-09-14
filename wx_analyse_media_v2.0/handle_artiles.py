@@ -30,32 +30,6 @@ def all_artcle(article_mongo):
     return articles
 
 
-def get_data_format():
-    trans_quan = {'ArtPubTimeArea': []}
-    # base_date_str = time.strftime("%Y-%m-%d", time.localtime(1536662824))
-    base_date_str = '2018-09-13'
-    if base_date_str:
-        trans_quan['ArtPubTimeArea'].append(
-            {
-                'date': base_date_str,
-                'count': 0,
-            },
-        )
-        base_date = datetime.datetime.strptime(base_date_str, '%Y-%m-%d')
-        for i in range(-1, -7, -1):
-            delta = datetime.timedelta(days=i)
-            n_days = base_date + delta
-            n_days = n_days.strftime('%Y-%m-%d')
-            trans_quan['ArtPubTimeArea'].append(
-                {
-                    'date': n_days,
-                    'count': 0,
-                },
-            )
-    print(trans_quan)
-    print(json.dumps(trans_quan, indent=4, ensure_ascii=False))
-
-
 def date_count(articles):
     d = []
     for info in articles:
@@ -78,6 +52,7 @@ def date_count(articles):
             'date': str(before_date),
             'count': 0
         })
+    date_format = date_format[::-1]
     for k in day_conut:
         for v in date_format:
             if k.get('date') == v.get('date'):

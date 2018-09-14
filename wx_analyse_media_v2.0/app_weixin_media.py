@@ -4,6 +4,8 @@ import pymssql
 
 import redis
 from flask import Flask, request
+import thulac
+
 from utils import db, async, hash_md5
 import datetime
 import random
@@ -143,7 +145,7 @@ class AccountHttp(object):
             if '认证' in pq(show).text():
                 certified = pq(show).text().split('\n')[-1]
         info['features'] = features
-        info['certified'] = certified or features
+        info['certified'] = certified
         info['message'] = True
         info['status'] = 0
 
@@ -391,15 +393,15 @@ class AccountHttp(object):
         # 分词处理
 
         key_words_list = []
-        seg_list = jieba.posseg.cut(''.join(content_all_list))
+        thu1 = thulac.thulac()
+        seg_list = thu1.cut(''.join(content_all_list), text=False)
         for s in seg_list:
             if (
-                    len(s.word) >= 2
-                    and re.search('[\u4e00-\u9fff]+', s.word)
-                    and s.flag in ['Ng', 'n', 'nr', 'ns', 'nt', 'nz']
-                    and s.word not in ['谢谢']
+                    len(s[0]) >= 2
+                    and re.search('[\u4e00-\u9fff]+', s[0])
+                    and s[1] in ['n', 'np', 'ns', 'ni', 'nz']
             ):
-                key_words_list.append(s.word)
+                key_words_list.append(s[0])
 
         # 返回前10个出现频率最高的词
         key_words_counter = Counter(key_words_list).most_common(20)
