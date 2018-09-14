@@ -41,15 +41,16 @@ class Mobile(object):
         resp = requests.get(self.url, headers=self.headers)
         e = pq(resp.text)
         name = e('.profile_nickname').text()
-        account = 'nacsh688'
+        account = 'hepancom'
         biz = self._biz
-        feature = e('.profile_owner_info').text().split('已认证 ', '')
+        feature = e('.profile_owner_info').text().replace('已认证 ', '')
         certification = e('.profile_desc').text()
-        uploads_account_info_params(name, account, biz, feature, certification)
+        # uploads_account_info_params(name, account, biz, feature, certification)
 
 
     @staticmethod
     def biz_list():
+        return ['MjM5MTAwMDczMg==']
         return ['MzIyMjA0NTg1MQ==', 'MzIyMjA0NTg1MQ==', 'MzA5NzQ4MDU3MQ==', 'MzUzMTkwODc3OQ==','MzA5NTAzNTUwNQ==', 'MzA3NTM2ODk2Mg==']
 
 
@@ -63,7 +64,7 @@ class Mobile(object):
 
     def set_key_uin(self):
         self.uin = 'MTE1NjkxODg2MQ%3D%3D'
-        self.key = '4aa6a478baa5de1a6222d76fbd87db79cc255525b5b6723de0f099e4e96d823bebdfeeebb6df3947ee6710b659a0567318feb3fb5ad9d557de29bd42a10737e7614dc88d103a3d987afc1690924d80d0'
+        self.key = '2e15abc1cc63c647ae1188d9a8b0ebb92ab2c1829a2f5f8bee3122c53e2af1bba8b0ebbc3a8b6252894a6a8b28278c1d422f1ed7fdd7ee15af8014072f26f63ea09cdb1f854bba59b4df5bad4bd7582f'
         return
 
         url = 'http://183.131.241.60:38011/outkey'
@@ -121,8 +122,11 @@ class Mobile(object):
                         log("文章标题 {}".format(article.title))
                         account = Account()
                         account.name = article.author
+                        account.name = '汕头彩虹乐园休闲茶吧'
                         account.account = article.account
-                        account.get_account_id()
+                        # account.account = 'gh_a78ef1e3d11e'
+                        # account.get_account_id()
+                        account.account_id = 52206935
 
                         backpack_list = []
                         article_count = 0
@@ -130,6 +134,9 @@ class Mobile(object):
                             log('文章链接', url)
                             article = Article()
                             article.create(url)
+                            article.title = article.title.replace('.', '')
+                            if '！' in article.title:
+                                article.title = article.title.replace('！', '')
                             log("文章标题 {}".format(article.title))
                             entity = JsonEntity(article, account)
                             backpack = Backpack()
@@ -157,12 +164,14 @@ class Mobile(object):
                             uploads_mysql(config_mysql, sql, _tuple)
                             # # if article_count == 30:
                             # #     break
+                            break
                         log('采集账号：{} 所有文章完毕，共{}条文章'.format(self.name, article_count + 1))
 
                         log("发包")
                         if entity:
                             entity.uploads(backpack_list)
                             log("uploads successful")
+                        break
                     except Exception as e:
                         log('account error', e)
                         continue
@@ -178,5 +187,5 @@ if __name__ == '__main__':
     # l = ['hepancom', 'nacsh688',  'stbjzz', 'stjjjc', 'wxcoupon', 'yxsh0796'] # 'st_rainbow',
     # info_dict = dict
     # ll = ['MzIyMjA0NTg1MQ==', 'MzIyMjA0NTg1MQ==', 'MzA5NzQ4MDU3MQ==', 'MzUzMTkwODc3OQ==','MzA5NTAzNTUwNQ==', 'MzA3NTM2ODk2Mg==']
-    ll = ['MzIyMjA0NTg1MQ==']
+    # ll = ['MzIyMjA0NTg1MQ==']
     main()

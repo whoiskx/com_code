@@ -4146,3 +4146,198 @@
 18-09-11 19:35:44 uploads server1 successful
 18-09-11 19:35:49 uploads server2 successful
 18-09-11 19:35:49 uploads over
+18-09-13 10:35:22 插入数据错误 河畔同城 (2627, b"Violation of UNIQUE KEY constraint 'IX_WXAccount'. Cannot insert duplicate key in object 'dbo.WXAccount'.DB-Lib error message 20018, severity 14:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+18-09-13 10:37:19 插入数据错误 河畔同城 (2627, b"Violation of UNIQUE KEY constraint 'IX_WXAccount'. Cannot insert duplicate key in object 'dbo.WXAccount'.DB-Lib error message 20018, severity 14:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+18-09-13 10:39:08 start uploads
+18-09-13 10:39:12 uploads server1 successful
+18-09-13 10:39:17 uploads server2 successful
+18-09-13 10:39:17 uploads over
+18-09-13 10:45:10 start uploads
+18-09-13 10:45:11 uploads server1 successful
+18-09-13 10:45:11 uploads server2 successful
+18-09-13 10:45:11 uploads over
+18-09-13 10:45:18 start uploads
+18-09-13 10:45:18 uploads server1 successful
+18-09-13 10:45:18 uploads server2 successful
+18-09-13 10:45:18 uploads over
+18-09-13 10:45:26 start uploads
+18-09-13 10:45:26 uploads server1 successful
+18-09-13 10:45:26 uploads server2 successful
+18-09-13 10:45:26 uploads over
+18-09-13 10:45:33 start uploads
+18-09-13 10:45:33 uploads server1 successful
+18-09-13 10:45:34 uploads server2 successful
+18-09-13 10:45:34 uploads over
+18-09-13 10:45:41 start uploads
+18-09-13 10:45:41 uploads server1 successful
+18-09-13 10:45:41 uploads server2 successful
+18-09-13 10:45:41 uploads over
+18-09-13 10:45:49 start uploads
+18-09-13 10:45:49 uploads server1 successful
+18-09-13 10:45:49 uploads server2 successful
+18-09-13 10:45:49 uploads over
+18-09-13 10:45:57 start uploads
+18-09-13 10:45:57 uploads server1 successful
+18-09-13 10:45:57 uploads server2 successful
+18-09-13 10:45:57 uploads over
+18-09-13 10:46:05 start uploads
+18-09-13 10:46:05 uploads server1 successful
+18-09-13 10:46:05 uploads server2 successful
+18-09-13 10:46:05 uploads over
+18-09-13 10:46:12 start uploads
+18-09-13 10:46:12 uploads server1 successful
+18-09-13 10:46:12 uploads server2 successful
+18-09-13 10:46:12 uploads over
+18-09-13 10:46:20 start uploads
+18-09-13 10:46:20 uploads server1 successful
+18-09-13 10:46:20 uploads server2 successful
+18-09-13 10:46:20 uploads over
+18-09-13 10:46:27 start uploads
+18-09-13 10:46:27 uploads server1 successful
+18-09-13 10:46:28 uploads server2 successful
+18-09-13 10:46:28 uploads over
+18-09-13 10:46:35 start uploads
+18-09-13 10:46:35 uploads server1 successful
+18-09-13 10:46:35 uploads server2 successful
+18-09-13 10:46:35 uploads over
+18-09-13 10:46:43 start uploads
+18-09-13 10:46:43 uploads server1 successful
+18-09-13 10:46:43 uploads server2 successful
+18-09-13 10:46:43 uploads over
+18-09-13 10:46:51 start uploads
+18-09-13 10:46:51 uploads server1 successful
+18-09-13 10:46:51 uploads server2 successful
+18-09-13 10:46:51 uploads over
+18-09-13 10:46:59 start uploads
+18-09-13 10:46:59 uploads server1 successful
+18-09-13 10:46:59 uploads server2 successful
+18-09-13 10:46:59 uploads over
+18-09-13 10:47:07 start uploads
+18-09-13 10:47:07 uploads server1 successful
+18-09-13 10:47:07 uploads server2 successful
+18-09-13 10:47:07 uploads over
+18-09-13 10:47:15 start uploads
+18-09-13 10:47:15 uploads server1 successful
+18-09-13 10:47:15 uploads server2 successful
+18-09-13 10:47:15 uploads over
+18-09-13 10:47:22 start uploads
+18-09-13 10:47:22 uploads server1 successful
+18-09-13 10:47:22 uploads server2 successful
+18-09-13 10:47:22 uploads over
+18-09-13 10:47:30 start uploads
+18-09-13 10:47:30 uploads server1 successful
+18-09-13 10:47:30 uploads server2 successful
+18-09-13 10:47:30 uploads over
+18-09-13 10:47:37 start uploads
+18-09-13 10:47:37 uploads server1 successful
+18-09-13 10:47:38 uploads server2 successful
+18-09-13 10:47:38 uploads over
+18-09-13 10:47:45 start uploads
+18-09-13 10:47:45 uploads server1 successful
+18-09-13 10:47:45 uploads server2 successful
+18-09-13 10:47:45 uploads over
+18-09-13 10:58:15 start uploads
+18-09-13 10:58:16 uploads server1 successful
+18-09-13 10:58:16 uploads server2 successful
+18-09-13 10:58:16 uploads over
+18-09-13 11:00:32 start uploads
+18-09-13 11:00:32 uploads server1 successful
+18-09-13 11:00:32 uploads server2 successful
+18-09-13 11:00:32 uploads over
+18-09-13 11:14:41 start uploads
+18-09-13 11:14:41 uploads server1 successful
+18-09-13 11:14:41 uploads server2 successful
+18-09-13 11:14:41 uploads over
+18-09-13 11:14:49 start uploads
+18-09-13 11:14:49 uploads server1 successful
+18-09-13 11:14:49 uploads server2 successful
+18-09-13 11:14:49 uploads over
+18-09-13 11:22:39 start uploads
+18-09-13 11:22:40 uploads server1 successful
+18-09-13 11:22:40 uploads server2 successful
+18-09-13 11:22:40 uploads over
+18-09-13 11:24:26 start uploads
+18-09-13 11:24:26 uploads server1 successful
+18-09-13 11:24:26 uploads server2 successful
+18-09-13 11:24:26 uploads over
+18-09-13 11:31:13 start uploads
+18-09-13 11:31:14 uploads server1 successful
+18-09-13 11:31:14 uploads server2 successful
+18-09-13 11:31:14 uploads over
+18-09-13 11:38:50 start uploads
+18-09-13 11:38:50 uploads server1 successful
+18-09-13 11:38:50 uploads server2 successful
+18-09-13 11:38:50 uploads over
+18-09-13 11:46:25 start uploads
+18-09-13 11:46:25 uploads server1 successful
+18-09-13 11:46:25 uploads server2 successful
+18-09-13 11:46:25 uploads over
+18-09-13 11:46:43 start uploads
+18-09-13 11:46:44 uploads server1 successful
+18-09-13 11:46:44 uploads server2 successful
+18-09-13 11:46:44 uploads over
+18-09-13 11:47:01 start uploads
+18-09-13 11:47:02 uploads server1 successful
+18-09-13 11:47:02 uploads server2 successful
+18-09-13 11:47:02 uploads over
+18-09-13 11:53:09 start uploads
+18-09-13 11:53:10 uploads server1 successful
+18-09-13 11:53:10 uploads server2 successful
+18-09-13 11:53:10 uploads over
+18-09-13 11:53:35 start uploads
+18-09-13 11:53:36 uploads server1 successful
+18-09-13 11:53:36 uploads server2 successful
+18-09-13 11:53:36 uploads over
+18-09-13 11:54:01 start uploads
+18-09-13 11:54:02 uploads server1 successful
+18-09-13 11:54:02 uploads server2 successful
+18-09-13 11:54:02 uploads over
+18-09-13 11:54:27 start uploads
+18-09-13 11:54:27 uploads server1 successful
+18-09-13 11:54:27 uploads server2 successful
+18-09-13 11:54:27 uploads over
+18-09-13 11:54:53 start uploads
+18-09-13 11:54:53 uploads server1 successful
+18-09-13 11:54:53 uploads server2 successful
+18-09-13 11:54:53 uploads over
+18-09-13 11:58:20 start uploads
+18-09-13 11:58:20 uploads server1 successful
+18-09-13 11:58:20 uploads server2 successful
+18-09-13 11:58:20 uploads over
+18-09-13 12:14:06 start uploads
+18-09-13 12:14:07 uploads server1 successful
+18-09-13 12:14:07 uploads server2 successful
+18-09-13 12:14:07 uploads over
+18-09-13 12:14:47 start uploads
+18-09-13 12:14:48 uploads server1 successful
+18-09-13 12:14:48 uploads server2 successful
+18-09-13 12:14:48 uploads over
+18-09-13 12:19:53 start uploads
+18-09-13 12:19:53 uploads server1 successful
+18-09-13 12:19:53 uploads server2 successful
+18-09-13 12:19:53 uploads over
+18-09-13 12:22:39 start uploads
+18-09-13 12:22:39 uploads server1 successful
+18-09-13 12:22:39 uploads server2 successful
+18-09-13 12:22:39 uploads over
+18-09-13 12:28:47 start uploads
+18-09-13 12:28:47 uploads server1 successful
+18-09-13 12:28:47 uploads server2 successful
+18-09-13 12:28:47 uploads over
+18-09-13 15:25:33 start uploads
+18-09-13 15:25:33 uploads server1 successful
+18-09-13 15:25:34 uploads server2 successful
+18-09-13 15:25:34 uploads over
+18-09-13 15:36:08 start uploads
+18-09-13 15:36:08 uploads server1 successful
+18-09-13 15:36:09 uploads server2 successful
+18-09-13 15:36:09 uploads over
+18-09-13 16:06:11 start uploads
+18-09-13 16:06:11 uploads server1 successful
+18-09-13 16:06:11 uploads server2 successful
+18-09-13 16:06:11 uploads over
+18-09-13 16:26:14 start uploads
+18-09-13 16:26:20 uploads server1 successful
+18-09-13 16:26:20 uploads server2 successful
+18-09-13 16:26:20 uploads over
+18-09-13 16:26:22 start uploads

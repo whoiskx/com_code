@@ -88,7 +88,7 @@ class Mobile(object):
                     article = Article()
                     article.create(url)
                     log("catch {}".format(article.title))
-                    account = Acount()
+                    account = Account()
                     # account 读文件跟信源搜索不一样
                     account.name = article.author
                     account.account = article.account
