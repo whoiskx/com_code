@@ -44,7 +44,7 @@ cookies = {'SUIR': '1536903636', 'SUV': '00F347B5B6F57EE25B9B49D4462EC821', 'SNU
            'PHPSESSID': '447a4o2q0k64akp00ljdcsr1k5', 'weixinIndexVisited': '1', 'JSESSIONID': 'aaa1qB_1chLokctVqWBvw',
            'ABTEST': '7|1536903636|v1', 'SUID': 'E27EF5B62513910A000000005B9B49D4', 'seccodeRight': 'success'}
 
-r = requests.get(url, headers=headers, cookies=cookies)
+r = requests.get(url, headers=headers, )
 print(r.text)
 from pyquery import PyQuery as pq
 
