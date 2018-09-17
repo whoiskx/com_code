@@ -51,8 +51,6 @@ class Mobile(object):
     @staticmethod
     def biz_list():
         return ['MzA4MTAzMjgwOQ==']
-        return ['MzIyMjA0NTg1MQ==', 'MzIyMjA0NTg1MQ==', 'MzA5NzQ4MDU3MQ==', 'MzUzMTkwODc3OQ==','MzA5NTAzNTUwNQ==', 'MzA3NTM2ODk2Mg==']
-
 
         url = 'http://183.131.241.60:38011/nextaccount?label=5'
         r = requests.get(url)
@@ -100,6 +98,7 @@ class Mobile(object):
         while True:
             _biz_list = self.biz_list()
             if _biz_list:
+                entity = None
                 for biz in _biz_list:
                     try:
                         self._biz = biz
@@ -169,9 +168,8 @@ class Mobile(object):
                                 entity.title
                             )
                             uploads_mysql(config_mysql, sql, _tuple)
-                            if article_count == 4:
-                                break
-                            # break
+                            # if article_count == 4:
+                            #     break
                         log('采集账号：{} 所有文章完毕，共{}条文章'.format(self.name, article_count + 1))
 
                         log("发包")
@@ -179,6 +177,7 @@ class Mobile(object):
                             entity.uploads(backpack_list)
                             log("uploads successful")
                         print("end")
+                        # 迭代一个账号
                         break
                     except Exception as e:
                         log('account error', e)

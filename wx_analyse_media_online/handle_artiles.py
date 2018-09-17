@@ -90,13 +90,42 @@ def counter_time_range(articles):
             trans_quan['18:00-21:00'] += 1
         elif 21 <= t <= 24:
             trans_quan['21:00-00:00'] += 1
-    data = []
-    d = {}
+    data_format = [
+        {
+            "activeDegree": 0,
+            "time": "00:00-06:00"
+        },
+        {
+            "activeDegree": 0,
+            "time": "06:00-09:00"
+        },
+        {
+            "activeDegree": 0,
+            "time": "09:00-12:00"
+        },
+        {
+            "activeDegree": 0,
+            "time": "12:00-15:00"
+        },
+        {
+            "activeDegree": 0,
+            "time": "15:00-18:00"
+        },
+        {
+            "activeDegree": 0,
+            "time": "18:00-21:00"
+        },
+        {
+            "activeDegree": 0,
+            "time": "21:00-00:00"
+        }
+    ]
     for k, v in trans_quan.items():
-        d['time'] = k
-        d['activeDegree'] = v
-        data.append(d.copy())
-    return data
+        for index, data in enumerate(data_format):
+            if data.get('time') == k:
+                data_format = v
+    log('data', data_format)
+    return data_format
 
 
 def handle(articles_info):

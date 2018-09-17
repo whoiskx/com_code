@@ -53,9 +53,9 @@ class Article(object):
             return
         self.set_time(resp, type='article')
         self.account = e('.profile_meta_value').eq(0).text()
-        if not self.account:
-            inner_account = re.search('user_name = ".*?"', resp.text)
-            self.account = inner_account.group().split('"')[1]
+        # if not self.account:
+        #     inner_account = re.search('user_name = ".*?"', resp.text)
+        #     self.account = inner_account.group().split('"')[1]
         self.title = e('.rich_media_title').text().replace(' ', '')
         self.content = e("#js_content").text().replace('\n', '')
         self.author = e('.profile_nickname').text()
