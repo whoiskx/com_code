@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import base64
 import json
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 import os
 
 
@@ -39,7 +39,7 @@ images = ImageSave()
 
 
 @app.route('/SaveImage', methods=['POST'])
-def hello_world():
+def save_image():
     if request.method == 'POST':
         data = request.form
         content = base64.b64decode(data.get('content'))
@@ -48,5 +48,27 @@ def hello_world():
         return jsonify(result)
 
 
+@app.route("/BackImage/<filename>")
+def back_image(filename):
+    # Images/50000/50000350.jpg
+    print('path', filename)
+    user_file_dir = r'D:\WXSchedule\Images'
+    account_id = filename.replace('.jpg', '')
+    num = int(account_id) // 1000
+    IMAGE_DIR = os.path.join(user_file_dir, str(num))
+    path = os.path.join(IMAGE_DIR, filename)
+    print(IMAGE_DIR, filename)
+    if IMAGE_DIR and filename:
+
+        if os.path.exists(path):
+            return send_from_directory(IMAGE_DIR, filename)
+        else:
+            # 返回默认图片
+            IMAGE_DIR = os.path.join(user_file_dir, '0')
+            filename = '0.jpg'
+            return send_from_directory(IMAGE_DIR, filename)
+    return ''
+
+
 if __name__ == '__main__':
-    app.run(port=1111)
+    app.run(host='0.0.0.0', port=8009)
