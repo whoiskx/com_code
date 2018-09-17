@@ -25,6 +25,6 @@ for i, a in enumerate(account):
     r = requests.get(url)
     print(r.text)
     # break
-    if i > 10:
-        break
+    # if i > 60:
+    #     break
 print('end')

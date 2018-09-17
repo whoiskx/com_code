@@ -50,7 +50,7 @@ class Mobile(object):
 
     @staticmethod
     def biz_list():
-        return ['MjM5MTAwMDczMg==']
+        return ['MzA4MTAzMjgwOQ==']
         return ['MzIyMjA0NTg1MQ==', 'MzIyMjA0NTg1MQ==', 'MzA5NzQ4MDU3MQ==', 'MzUzMTkwODc3OQ==','MzA5NTAzNTUwNQ==', 'MzA3NTM2ODk2Mg==']
 
 
@@ -64,7 +64,7 @@ class Mobile(object):
 
     def set_key_uin(self):
         self.uin = 'MTE1NjkxODg2MQ%3D%3D'
-        self.key = '2e15abc1cc63c647ae1188d9a8b0ebb92ab2c1829a2f5f8bee3122c53e2af1bba8b0ebbc3a8b6252894a6a8b28278c1d422f1ed7fdd7ee15af8014072f26f63ea09cdb1f854bba59b4df5bad4bd7582f'
+        self.key = '92b9bc849106aad74234f4c3ef65a31ca36cef61a0ae6c2fb6f1add897deb9ffcaf5d124affca034bbc5a16acc14a8504316532d1d5f3fe9943618527a80c507ecc33efdd8e974d03da271726fc996d0'
         return
 
         url = 'http://183.131.241.60:38011/outkey'
@@ -120,13 +120,20 @@ class Mobile(object):
                         article = Article()
                         article.create(urls[0])
                         log("文章标题 {}".format(article.title))
+                        # article.title = article.title.replace('【', '')
+                        # article.title = article.title.replace('】', '')
+                        # article.title = article.title.replace('！', '')
+
+                        log(article.title)
                         account = Account()
                         account.name = article.author
-                        account.name = '汕头彩虹乐园休闲茶吧'
+                        account.name = '汕头公安'
                         account.account = article.account
                         # account.account = 'gh_a78ef1e3d11e'
                         # account.get_account_id()
-                        account.account_id = 52206935
+                        account.account_id = 126764008
+                        if not account.account:
+                            log("错误，找不到account")
 
                         backpack_list = []
                         article_count = 0
@@ -162,15 +169,16 @@ class Mobile(object):
                                 entity.title
                             )
                             uploads_mysql(config_mysql, sql, _tuple)
-                            # # if article_count == 30:
-                            # #     break
-                            break
+                            if article_count == 4:
+                                break
+                            # break
                         log('采集账号：{} 所有文章完毕，共{}条文章'.format(self.name, article_count + 1))
 
                         log("发包")
                         if entity:
                             entity.uploads(backpack_list)
                             log("uploads successful")
+                        print("end")
                         break
                     except Exception as e:
                         log('account error', e)

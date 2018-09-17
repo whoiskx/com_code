@@ -60,12 +60,6 @@ class AccountHttp(object):
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
         self.headers = {
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Encoding': 'gzip, deflate',
-            'Accept-Language': 'zh-CN,zh;q=0.9',
-            'Connection': 'keep-alive',
-            'Host': 'weixin.sogou.com',
-            'Upgrade-Insecure-Requests': '1',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
         }
         self.cookies = {}
@@ -73,7 +67,6 @@ class AccountHttp(object):
         chrome_options.add_argument('--headless')
         self.browser = webdriver.Chrome(chrome_options=chrome_options)
         self.wait = WebDriverWait(self.browser, 4)
-
         self.rcon = redis.StrictRedis(db=8)
         self.queue = 'analyse'
         self.status = 4
@@ -246,26 +239,38 @@ class AccountHttp(object):
     def account_homepage(self):
         # 搜索并进入公众号主页
         while True:
+            log('start', self.name)
             search_url = self.url.format(self.name)
-            referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(
-                self.name)
-            self.headers['Referer'] = referer
-            self.url = 'http://weixin.sogou.com/weixin?query={}'.format(self.name)
-            # self.url = 'http://weixin.sogou.com/weixin'
-            # params = {
-            #     'query': self.name
-            # }
-            resp_search = self.s.get(self.url, headers=self.headers, cookies=self.cookies)
-            if '相关的官方认证订阅号' in resp_search.text:
-                log("找不到该公众号: {}".format(self.name))
-                break
+            # referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(
+            #     self.name)
+            # self.headers['Referer'] = referer
+            # self.url = 'http://weixin.sogou.com/weixin?query={}'.format(self.name)
+            resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
+            log(e('title').text())
+            if '搜狗' not in e('title').text():
+                log('初始化session')
+                self.s = requests.session()
 
             if self.name in e(".info").eq(0).text():
                 account_link = e(".tit").find('a').attr('href')
                 self.uploads_account_info(e)
+                account_match = re.search(r'微信号：\w*', e.text())
+                account_search = account_match.group().replace('微信号：', '') if account_match else ''
+
+                homepage = self.s.get(account_link, cookies=self.cookies)
+                if '<title>请输入验证码 </title>' in homepage.text:
+                    self.crack_sougou(account_link)
+                    homepage = self.s.get(account_link, cookies=self.cookies)
+                    # log('破解验证码之后')
+                account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
+                # 搜索页面有account，公众号主页有account，确保找到account
+                return homepage.text, account or account_search
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.name))
+                break
+            if '相关的官方认证订阅号' in resp_search.text:
+                log("找不到该公众号: {}".format(self.name))
                 break
             else:
                 # 处理验证码
@@ -290,33 +295,35 @@ class AccountHttp(object):
                         break
 
                 log("验证完毕")
+                time.sleep(2)
                 # 被跳过的公众号要不要抓取  大概 4次
                 continue
-            account_match = re.search(r'微信号：\w*', e.text())
-            account_search = account_match.group().replace('微信号：', '') if account_match else ''
 
-            homepage = self.s.get(account_link, cookies=self.cookies)
-            if '<title>请输入验证码 </title>' in homepage.text:
-                self.crack_sougou(account_link)
-                # log("出现验码")
-                # log('------开始处理微信验证码------')
-                # cert = random.random()
-                # image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
-                # respones = self.s.get(image_url, )
-                # captch_input = captch_upload_image(respones.content)
-                # log('------验证码：{}------'.format(captch_input))
-                # data = {
-                #     'cert': cert,
-                #     'input': captch_input
-                # }
-                # respones = self.s.post(image_url, data=data, cookies=self.cookies)
-                # self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
-                # log('adffa', self.cookies)
-                homepage = self.s.get(account_link, cookies=self.cookies)
-                # log('破解验证码之后')
-            account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
-            # 搜索页面有account，公众号主页有account，确保找到account
-            return homepage.text, account or account_search
+            # account_match = re.search(r'微信号：\w*', e.text())
+            # account_search = account_match.group().replace('微信号：', '') if account_match else ''
+            #
+            # homepage = self.s.get(account_link, cookies=self.cookies)
+            # if '<title>请输入验证码 </title>' in homepage.text:
+            #     self.crack_sougou(account_link)
+            #     # log("出现验码")
+            #     # log('------开始处理微信验证码------')
+            #     # cert = random.random()
+            #     # image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
+            #     # respones = self.s.get(image_url, )
+            #     # captch_input = captch_upload_image(respones.content)
+            #     # log('------验证码：{}------'.format(captch_input))
+            #     # data = {
+            #     #     'cert': cert,
+            #     #     'input': captch_input
+            #     # }
+            #     # respones = self.s.post(image_url, data=data, cookies=self.cookies)
+            #     # self.cookies = requests.utils.dict_from_cookiejar(respones.cookies)
+            #     # log('adffa', self.cookies)
+            #     homepage = self.s.get(account_link, cookies=self.cookies)
+            #     # log('破解验证码之后')
+            # account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
+            # # 搜索页面有account，公众号主页有account，确保找到account
+            # return homepage.text, account or account_search
 
     def set_name(self):
         url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
@@ -349,6 +356,7 @@ class AccountHttp(object):
         # 向前端发送成功请求
         # article_detaile = db['newMedia'].find_one({'Account': self.name})
         try:
+            log("发前端")
             account_id = hash_md5(self.name)
             status_url = 'http://58.56.160.39:38012/MediaManager/api/drafts/updateAnalysisStatusByAnalysisId'
             params = {
@@ -404,7 +412,7 @@ class AccountHttp(object):
             # 所有文章
             article_info = backpack.to_dict()
             articles.append(article_info)
-
+        log('所有文章抓取完毕')
         content_all_list = ''
         for article in articles:
             content_all_list += article.get('Content')

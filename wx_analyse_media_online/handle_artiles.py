@@ -112,8 +112,8 @@ def handle(articles_info):
 
 
 if __name__ == '__main__':
-    # handle()
-    get_data_format()
+    handle()
+    # get_data_format()
     # date_format = []
     # start_date = datetime.date.today()
     # for i in range(7):
