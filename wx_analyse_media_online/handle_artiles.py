@@ -90,42 +90,46 @@ def counter_time_range(articles):
             trans_quan['18:00-21:00'] += 1
         elif 21 <= t <= 24:
             trans_quan['21:00-00:00'] += 1
-    data_format = [
+    log(time_info)
+    # data = []
+    # d = {}
+    # for k in trans_quan.keys():
+    #     # d['time'] = k
+    #     # d['activeDegree'] = v
+    #     data.append({'time': k, 'activeDegree': trans_quan[k]})
+    # 保证顺序 写死
+    data = [
         {
-            "activeDegree": 0,
+            "activeDegree": trans_quan['00:00-06:00'],
             "time": "00:00-06:00"
         },
         {
-            "activeDegree": 0,
+            "activeDegree": trans_quan['06:00-09:00'],
             "time": "06:00-09:00"
         },
         {
-            "activeDegree": 0,
+            "activeDegree": trans_quan['09:00-12:00'],
             "time": "09:00-12:00"
         },
         {
-            "activeDegree": 0,
+            "activeDegree": trans_quan['12:00-15:00'],
             "time": "12:00-15:00"
         },
         {
-            "activeDegree": 0,
+            "activeDegree":trans_quan['15:00-18:00'],
             "time": "15:00-18:00"
         },
         {
-            "activeDegree": 0,
+            "activeDegree": trans_quan['18:00-21:00'],
             "time": "18:00-21:00"
         },
         {
-            "activeDegree": 0,
+            "activeDegree": trans_quan['21:00-00:00'],
             "time": "21:00-00:00"
         }
     ]
-    for k, v in trans_quan.items():
-        for index, data in enumerate(data_format):
-            if data.get('time') == k:
-                data_format = v
-    log('data', data_format)
-    return data_format
+    log(data)
+    return data
 
 
 def handle(articles_info):

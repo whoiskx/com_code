@@ -6,20 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/aliyu_image/images_uploads_downoads.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/mobile_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/mobile_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/send_backpack.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/send_backpack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media/send_backpack.py" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media/send_backpack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/flask_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/get_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media_online/get_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/images/t.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/images/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/nohup.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media_online/log.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,84 +33,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app_weixin_media.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="597" column="14" selection-start-line="597" selection-start-column="8" selection-end-line="597" selection-end-column="14" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="positive.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/positive.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192032" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nagetive.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/nagetive.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="handle_artiles.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="handle_artiles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="124" column="19" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="19" />
+            <state relative-caret-position="326">
+              <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send_backpack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/send_backpack.py">
+      <file leaf-file-name="img_uploads.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/img_uploads.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2793">
+            <state relative-caret-position="-486">
+              <caret selection-end-line="70" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests_info.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/tests_info.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WX/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/get_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testss.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/testss.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1139" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/todo.txt">
+      <file leaf-file-name="resp.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WX/resp.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/utils.py">
+      <file leaf-file-name="record" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WX/record">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WX/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-517" />
+            <state relative-caret-position="152">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_praise.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WX/read_praise.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="body_to_row.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WX/body_to_row.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="images_uploads_downoads.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/aliyu_image/images_uploads_downoads.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#25#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="2823" column="8" selection-start-line="2823" selection-start-column="8" selection-end-line="2823" selection-end-column="8" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -210,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wx_analyse_media _v2.0/app.py" />
         <option value="$PROJECT_DIR$/wx_analyse_media _v2.0/redis操作.txt" />
         <option value="$PROJECT_DIR$/wx_analyse_media _v2.0/images/tests.py" />
         <option value="$PROJECT_DIR$/wx_analyse_media _v2.0/images/t.py" />
@@ -255,12 +245,13 @@
         <option value="$PROJECT_DIR$/wx_analyse_media_v2.0/app_weixin_media.py" />
         <option value="$PROJECT_DIR$/wx_analyse_media_online/tests_info.py" />
         <option value="$PROJECT_DIR$/wx_analyse_media_v2.2/get_tests.py" />
-        <option value="$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py" />
         <option value="$PROJECT_DIR$/wx_analyse_media/send_backpack.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/send_backpack.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" />
-        <option value="$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py" />
         <option value="$PROJECT_DIR$/wx_analyse_media_online/get_tests.py" />
+        <option value="$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py" />
+        <option value="$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/aliyu_image/images_uploads_downoads.py" />
       </list>
     </option>
   </component>
@@ -298,6 +289,12 @@
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
               <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="aliyu_image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
@@ -522,7 +519,7 @@
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.33723405" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.44680852" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.35106382" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32340425" />
@@ -1118,12 +1115,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py</url>
-          <line>445</line>
+          <line>448</line>
           <option name="timeStamp" value="458" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py</url>
-          <line>391</line>
+          <line>394</line>
           <option name="timeStamp" value="460" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1270,59 +1267,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/Run/write_xml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/Run/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/Run/choice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3058">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/Run/FB_xml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/rewrite/Run/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="14" selection-start-line="7" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_analyse_media_v2.2/img_uploads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wx_analyse_media_v2.2/analyse_new_media.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1489,15 +1433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/img_uploads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/test.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1534,16 +1469,6 @@
     <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/nagetive.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="597" column="14" selection-start-line="597" selection-start-column="8" selection-end-line="597" selection-end-column="14" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/send_backpack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2793">
@@ -1555,15 +1480,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/get_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="421">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="242" column="22" selection-start-line="242" selection-start-column="22" selection-end-line="242" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="2823" column="8" selection-start-line="2823" selection-start-column="8" selection-end-line="2823" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="124" column="19" selection-start-line="124" selection-start-column="15" selection-end-line="124" selection-end-column="19" />
+        <state relative-caret-position="326">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media_online/img_uploads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret selection-end-line="70" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/resp.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/record">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/read_praise.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX/body_to_row.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/aliyu_image/images_uploads_downoads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

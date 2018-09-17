@@ -238,7 +238,10 @@ class AccountHttp(object):
 
     def account_homepage(self):
         # 搜索并进入公众号主页
+        count = 0
         while True:
+            if count == 2:
+                break
             log('start', self.name)
             search_url = self.url.format(self.name)
             # referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(
