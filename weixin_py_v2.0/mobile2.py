@@ -62,7 +62,7 @@ class Mobile(object):
 
     def set_key_uin(self):
         self.uin = 'MTE1NjkxODg2MQ%3D%3D'
-        self.key = '92b9bc849106aad74234f4c3ef65a31ca36cef61a0ae6c2fb6f1add897deb9ffcaf5d124affca034bbc5a16acc14a8504316532d1d5f3fe9943618527a80c507ecc33efdd8e974d03da271726fc996d0'
+        self.key = '92b9bc849106aad7ec7de6218855321cae1730014ee28d7584b74c8cb61208f5b898300e074d0e1c611ff03938c64739d8a952c18ad49e8e085f51d88cda6ebef5d2b7649a3eb3ef5618faa0d9407ff3'
         return
 
         url = 'http://183.131.241.60:38011/outkey'

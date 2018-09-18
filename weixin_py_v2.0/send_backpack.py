@@ -44,9 +44,9 @@ class Article(object):
         self.title = e('.rich_media_title').text().replace(' ', '')
         self.content = e("#js_content").text().replace('\n', '')
         # 有的文章页面找不到account
-        # if not self.account:
-        #     inner_account = re.search('user_name = ".*?"', resp.text)
-        #     self.account = inner_account.group().split('"')[1]
+        if not self.account:
+            inner_account = re.search('user_name = ".*?"', resp.text)
+            self.account = inner_account.group().split('"')[1]
         self.author = e('.profile_nickname').text()
 
 
