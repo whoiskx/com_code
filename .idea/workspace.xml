@@ -6,32 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook20180919.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/facebook_julei20180919.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/twfb_info_add/add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook/twfb_info_add/update.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX_thread_tests/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX_thread_tests/push_redis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX_thread_tests/send_backpack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX_thread_tests/threads_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX_thread_tests/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WX_thread_tests/verification_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aliyun/ip_switch/new_ip_switch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aliyun/xlsx_to_mongo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/headers/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/headers/headers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/headers/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/headers/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/headers/verification_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/错误记录9-19.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facebook/rewrite/Run/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/rewrite/Run/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/headers/headers.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/headers/headers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/headers/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interface/headers/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qq_wangyi/slider_validation" beforeDir="false" afterPath="$PROJECT_DIR$/qq_wangyi/slider_validation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selenium.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/get_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/wx_analyse_media_online/get_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信转PY.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,13 +30,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="headers.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="headers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/headers/headers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="225" selection-start-line="225" selection-end-line="225" />
+            <state relative-caret-position="293">
+              <caret line="236" selection-start-line="236" selection-end-line="236" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save_image.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/images/save_image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_accountimg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/images/run_accountimg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send_backpack.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wx_analyse_media/send_backpack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-627">
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,15 +94,6 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/flask/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37392">
-              <caret line="1993" selection-start-line="1993" selection-end-line="1993" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="serving.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/werkzeug/serving.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,18 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7600">
               <caret line="417" selection-start-line="417" selection-end-line="417" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/rewrite/Run/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -254,7 +239,6 @@
         <option value="$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py" />
         <option value="$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/aliyu_image/images_uploads_downoads.py" />
-        <option value="$PROJECT_DIR$/tests/images/run_accountimg.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/send_backpack.py" />
         <option value="$PROJECT_DIR$/aliyun/xlsx_to_mongo.py" />
@@ -275,6 +259,7 @@
         <option value="$PROJECT_DIR$/interface/threads_tests.py" />
         <option value="$PROJECT_DIR$/interface/headers/verification_code.py" />
         <option value="$PROJECT_DIR$/interface/headers/threads_tests.py" />
+        <option value="$PROJECT_DIR$/tests/images/run_accountimg.py" />
       </list>
     </option>
   </component>
@@ -287,7 +272,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="710" />
     <option name="y" value="5" />
     <option name="width" value="1175" />
@@ -312,31 +297,7 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="headers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="headers" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_analyse_media_online" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_analyse_media_online" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_analyse_media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
@@ -548,17 +509,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="710" y="5" width="1175" height="1008" extended-state="0" />
+    <frame x="710" y="5" width="1175" height="1008" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.2348285" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.35106382" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.5595745" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.35089687" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.55941707" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.34753364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32340425" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32286996" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.36914894" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1317,12 +1278,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/8-21-配置VS code.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8-20.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/8-13.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1407,13 +1362,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/images/get_img.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/images/run_accountimg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="52" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WX_thread_tests/config.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1571,10 +1519,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/headers/headers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        <state relative-caret-position="293">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/images/save_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/images/run_accountimg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_analyse_media/send_backpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

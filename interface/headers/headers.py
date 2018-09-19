@@ -4,9 +4,9 @@ import pymssql
 
 import pymysql
 import redis
-from flask import Flask, request
+from flask import Flask, request, send_from_directory
 
-from utils import db, async, hash_md5
+from utils import db
 import random
 import re
 import time
@@ -55,6 +55,8 @@ class AccountHttp(object):
         self.status = 4
 
         self.count = 0
+
+        self.BASE_DIR = r'D:\WXSchedule\Images'
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -110,21 +112,30 @@ class AccountHttp(object):
                 # 被跳过的公众号要不要抓取  大概 4次
                 continue
 
-    def handle_img(self, img_b, image_id):
-        url_img = 'http://47.99.50.93:8009/SaveImage'
-        data_img = {'content': base64.b64encode(img_b), 'account_id': image_id}
-        r = requests.post(url_img, data=data_img)
-        log('头像上传结果:', r.status_code)
+    def handle_img(self, img_b, account_id):
+        num = int(account_id) // 1000
+        IMAGE_DIR = os.path.join(self.BASE_DIR, str(num))
+        if not os.path.exists(IMAGE_DIR):
+            os.makedirs(IMAGE_DIR)
+
+        image_path = os.path.join(IMAGE_DIR, str(account_id) + '.jpg')
+        try:
+            with open(image_path, 'wb') as f:
+                f.write(img_b)
+            log('头像上传成功')
+        except Exception as e:
+            log('头像上传失败', e)
+
         # 更新数据库
         config_mysql_old = get_mysql_old()
         db = pymssql.connect(**config_mysql_old)
         cursor = db.cursor()
-        path = 'Images/' + str(image_id // 1000) + '/' + str(image_id)
+        path = 'Images/' + str(account_id // 1000) + '/' + str(account_id)
         try:
-            sql_insert = """UPDATE  WXAccount SET ImageUrl='{}' WHERE ID='{}'""".format(path, image_id)
+            sql_insert = """UPDATE  WXAccount SET ImageUrl='{}' WHERE ID='{}'""".format(path, account_id)
             cursor.execute(sql_insert)
             db.commit()
-            log('更新数据成功', image_id)
+            log('更新数据成功', account_id)
         except Exception as e:
             log('更新数据错误', e)
             db.rollback()
@@ -207,7 +218,7 @@ class AccountHttp(object):
 account = AccountHttp()
 
 
-@app.route('/save/images')
+@app.route('/SaveImage')
 def save_images():
     name = request.args.get('account')
     mysql_config = get_mysql_old()
@@ -225,8 +236,27 @@ def save_images():
     return '完成'
 
 
+@app.route("/BackImage/<filename>")
+def back_image(filename):
+    # Images/50000/50000350.jpg
+    print('path', filename)
+    user_file_dir = r'D:\WXSchedule\Images'
+    account_id = filename.replace('.jpg', '')
+    num = int(account_id) // 1000
+    IMAGE_DIR = os.path.join(user_file_dir, str(num))
+    path = os.path.join(IMAGE_DIR, filename)
+    print(IMAGE_DIR, filename)
+    if IMAGE_DIR and filename:
+
+        if os.path.exists(path):
+            return send_from_directory(IMAGE_DIR, filename)
+        else:
+            # 返回默认图片
+            IMAGE_DIR = os.path.join(user_file_dir, '0')
+            filename = '0.jpg'
+            return send_from_directory(IMAGE_DIR, filename)
+    return ''
+
+
 if __name__ == '__main__':
-    # t = Task()
-    # t.listen_task()
-    app.run(port=8077)
-    import threading
+    app.run(host='0.0.0.0', port=8009)
