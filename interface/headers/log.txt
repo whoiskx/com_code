@@ -1,0 +1,207 @@
+18-09-19 16:26:09 start zhiqingdao
+18-09-19 16:26:13 zhiqingdao的相关微信公众号 – 搜狗微信搜索
+18-09-19 16:26:30 找不到该公众号: zhiqingdao
+18-09-19 16:32:28 start zzyedian
+18-09-19 16:32:29 æçæç´¢
+18-09-19 16:32:29 初始化session
+18-09-19 16:32:29 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:29 验证之前的cookie {}
+18-09-19 16:32:29 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:29 ------开始处理搜狗验证码------
+18-09-19 16:32:31 ------出现验证码页面------
+18-09-19 16:32:32 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:32:32 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:32 ------开始处理搜狗验证码------
+18-09-19 16:32:34 ------出现验证码页面------
+18-09-19 16:32:34 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:32:34 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:34 ------开始处理搜狗验证码------
+18-09-19 16:32:37 ------出现验证码页面------
+18-09-19 16:32:37 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:32:37 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:37 ------开始处理搜狗验证码------
+18-09-19 16:32:39 ------出现验证码页面------
+18-09-19 16:32:39 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:32:39 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:39 ------开始处理搜狗验证码------
+18-09-19 16:32:41 ------出现验证码页面------
+18-09-19 16:32:42 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:32:42 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:42 ------开始处理搜狗验证码------
+18-09-19 16:32:44 ------出现验证码页面------
+18-09-19 16:32:44 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:32:44 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:44 ------开始处理搜狗验证码------
+18-09-19 16:32:46 ------出现验证码页面------
+18-09-19 16:32:46 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:32:47 浏览器验证失败
+18-09-19 16:32:47 验证完毕
+18-09-19 16:32:49 start zzyedian
+18-09-19 16:32:49 æçæç´¢
+18-09-19 16:32:49 初始化session
+18-09-19 16:32:49 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:49 验证之前的cookie {}
+18-09-19 16:32:49 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:49 ------开始处理搜狗验证码------
+18-09-19 16:32:51 ------出现验证码页面------
+18-09-19 16:32:51 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:32:51 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:32:51 ------开始处理搜狗验证码------
+18-09-19 16:33:27 start zzyedian
+18-09-19 16:33:27 æçæç´¢
+18-09-19 16:33:27 初始化session
+18-09-19 16:33:27 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:33:27 验证之前的cookie {}
+18-09-19 16:33:27 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:33:27 ------开始处理搜狗验证码------
+18-09-19 16:33:30 ------出现验证码页面------
+18-09-19 16:33:30 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:33:30 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:33:30 ------开始处理搜狗验证码------
+18-09-19 16:33:33 ------出现验证码页面------
+18-09-19 16:33:33 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:33:33 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:33:33 ------开始处理搜狗验证码------
+18-09-19 16:33:35 ------出现验证码页面------
+18-09-19 16:33:36 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:33:36 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:33:36 ------开始处理搜狗验证码------
+18-09-19 16:33:38 ------出现验证码页面------
+18-09-19 16:33:38 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:33:38 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:33:38 ------开始处理搜狗验证码------
+18-09-19 16:33:40 ------出现验证码页面------
+18-09-19 16:33:41 ------未跳转到验证码页面，跳转到首页，忽略------
+18-09-19 16:33:41 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:33:41 ------开始处理搜狗验证码------
+18-09-19 16:35:42 start zzyedian
+18-09-19 16:35:42 æçæç´¢
+18-09-19 16:35:42 初始化session
+18-09-19 16:35:42 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:35:42 验证之前的cookie {}
+18-09-19 16:35:42 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:35:43 ------开始处理搜狗验证码------
+18-09-19 16:35:45 ------出现验证码页面------
+18-09-19 16:35:46 ------验证码：fb3pd5------
+18-09-19 16:35:48 验证失败
+18-09-19 16:35:48 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:35:48 ------开始处理搜狗验证码------
+18-09-19 16:35:50 ------出现验证码页面------
+18-09-19 16:35:51 ------验证码：jr8k6t------
+18-09-19 16:35:53 验证失败
+18-09-19 16:35:53 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:35:53 ------开始处理搜狗验证码------
+18-09-19 16:35:55 ------出现验证码页面------
+18-09-19 16:35:55 ------验证码：567y4k------
+18-09-19 16:35:58 ------验证码正确------
+18-09-19 16:35:58 ------cookies更新------
+18-09-19 16:35:58 ------cookies已更新------ {'SUID': 'C0CE2A3B3120910A000000005BA20A61', 'ABTEST': '8|1537346145|v1', 'seccodeErrorCount': '2|Wed, 19 Sep 2018 08:40:46 GMT', 'SUIR': '1537346145', 'IPLOC': 'CN4401', 'PHPSESSID': '90cimaqdcinrbj3596pabpgpm5', 'refresh': '1', 'SUV': '00B501F03B2ACEC05BA20A614574B931', 'SNUID': '5957B3A2989DEEACD33497E1993BF1F0', 'seccodeRight': 'success', 'successCount': '1|Wed, 19 Sep 2018 08:40:56 GMT', 'JSESSIONID': 'aaaBJ2mAhw-hobLC0XBvw'}
+18-09-19 16:35:58 验证完毕
+18-09-19 16:36:00 start zzyedian
+18-09-19 16:36:00 zzyedian的相关微信公众号 – 搜狗微信搜索
+18-09-19 16:36:00 完成 公众号:  zzyedian
+18-09-19 16:49:36 start zzyedian
+18-09-19 16:49:36 æçæç´¢
+18-09-19 16:49:36 初始化session
+18-09-19 16:49:36 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:49:36 验证之前的cookie {}
+18-09-19 16:49:36 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:49:36 ------开始处理搜狗验证码------
+18-09-19 16:49:40 ------出现验证码页面------
+18-09-19 16:49:40 ------验证码：c3d51------
+18-09-19 16:49:42 验证失败
+18-09-19 16:49:42 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:49:42 ------开始处理搜狗验证码------
+18-09-19 16:49:45 ------出现验证码页面------
+18-09-19 16:49:46 ------验证码：eehaa2------
+18-09-19 16:49:48 ------验证码正确------
+18-09-19 16:49:48 ------cookies更新------
+18-09-19 16:49:48 ------cookies已更新------ {'SUID': 'C0CE2A3B5F20940A000000005BA20DA4', 'ABTEST': '3|1537346979|v1', 'SUIR': '1537346979', 'IPLOC': 'CN4401', 'SNUID': '555BBFAE9490E2A1E8B8406795B6F461', 'PHPSESSID': 'e6jvum98n7uh67spak56rg5s90', 'refresh': '1', 'SUV': '002317823B2ACEC05BA20DA4CD81B639', 'seccodeRight': 'success', 'successCount': '1|Wed, 19 Sep 2018 08:54:46 GMT', 'JSESSIONID': 'aaaIgHCuHmTKF4GBiVBvw'}
+18-09-19 16:49:48 验证完毕
+18-09-19 16:49:50 start zzyedian
+18-09-19 16:49:50 zzyedian的相关微信公众号 – 搜狗微信搜索
+18-09-19 16:50:57 start zzyedian
+18-09-19 16:50:57 æçæç´¢
+18-09-19 16:50:57 初始化session
+18-09-19 16:50:57 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:50:57 验证之前的cookie {}
+18-09-19 16:50:57 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:50:57 ------开始处理搜狗验证码------
+18-09-19 16:51:03 ------出现验证码页面------
+18-09-19 16:51:03 ------验证码：d67565------
+18-09-19 16:51:06 ------验证码正确------
+18-09-19 16:51:06 ------cookies更新------
+18-09-19 16:51:06 ------cookies已更新------ {'SUID': 'C0CE2A3B5F20940A000000005BA20DF7', 'ABTEST': '8|1537347062|v1', 'SUIR': '1537347062', 'IPLOC': 'CN4401', 'SNUID': '8D8266774D483A78CD84DF464D148D2F', 'PHPSESSID': 'fflk9jsdlrd6nagm4et9kt5eb4', 'seccodeRight': 'success', 'SUV': '00DC178C3B2ACEC05BA20DF778FDA890', 'successCount': '1|Wed, 19 Sep 2018 08:56:04 GMT', 'refresh': '1', 'JSESSIONID': 'aaaDuAMB90z2ja9GiVBvw'}
+18-09-19 16:51:06 验证完毕
+18-09-19 16:51:08 start zzyedian
+18-09-19 16:51:08 zzyedian的相关微信公众号 – 搜狗微信搜索
+18-09-19 16:53:42 start zzyedian
+18-09-19 16:53:43 æçæç´¢
+18-09-19 16:53:43 初始化session
+18-09-19 16:53:43 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:53:43 验证之前的cookie {}
+18-09-19 16:53:43 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:53:43 ------开始处理搜狗验证码------
+18-09-19 16:53:48 ------出现验证码页面------
+18-09-19 16:53:49 ------验证码：541chs------
+18-09-19 16:53:51 ------验证码正确------
+18-09-19 16:53:51 ------cookies更新------
+18-09-19 16:53:51 ------cookies已更新------ {'SUID': 'C0CE2A3B5F20940A000000005BA20E9D', 'ABTEST': '0|1537347228|v1', 'SUIR': '1537347228', 'IPLOC': 'CN4401', 'SNUID': 'B1BF5B4971740447F9D6589672EC1358', 'PHPSESSID': 'ef8u4c2aeccjs0miuiudfsk3r2', 'seccodeRight': 'success', 'SUV': '005E4AE13B2ACEC05BA20E9DB827A966', 'successCount': '1|Wed, 19 Sep 2018 08:58:49 GMT', 'refresh': '1', 'JSESSIONID': 'aaa8DGw7UH3L85G22XBvw'}
+18-09-19 16:53:51 验证完毕
+18-09-19 16:53:53 start zzyedian
+18-09-19 16:53:53 zzyedian的相关微信公众号 – 搜狗微信搜索
+18-09-19 16:54:59 start zzyedian
+18-09-19 16:55:01 æçæç´¢
+18-09-19 16:55:01 初始化session
+18-09-19 16:55:01 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:55:01 验证之前的cookie {}
+18-09-19 16:55:01 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:55:01 ------开始处理搜狗验证码------
+18-09-19 16:55:04 ------出现验证码页面------
+18-09-19 16:55:04 ------验证码：jab485------
+18-09-19 16:55:07 验证失败
+18-09-19 16:55:07 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:55:07 ------开始处理搜狗验证码------
+18-09-19 16:55:09 ------出现验证码页面------
+18-09-19 16:55:09 ------验证码：y25844------
+18-09-19 16:55:11 验证失败
+18-09-19 16:55:11 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:55:11 ------开始处理搜狗验证码------
+18-09-19 16:55:14 ------出现验证码页面------
+18-09-19 16:55:14 ------验证码：8b7ahe------
+18-09-19 16:55:16 ------验证码正确------
+18-09-19 16:55:16 ------cookies更新------
+18-09-19 16:55:16 ------cookies已更新------ {'SUID': 'C0CE2A3B3120910A000000005BA20EE8', 'ABTEST': '1|1537347304|v1', 'seccodeErrorCount': '2|Wed, 19 Sep 2018 09:00:05 GMT', 'SUIR': '1537347304', 'IPLOC': 'CN4401', 'PHPSESSID': 'psq1g10v6rtk9cvloacu3i65d3', 'refresh': '1', 'SUV': '001D53903B2ACEC05BA20EE86F10B901', 'SNUID': 'F6F81C0D36304300A58C0652365FF889', 'seccodeRight': 'success', 'successCount': '1|Wed, 19 Sep 2018 09:00:14 GMT', 'JSESSIONID': 'aaa-F1TPqPPZCcw72XBvw'}
+18-09-19 16:55:16 验证完毕
+18-09-19 16:55:18 start zzyedian
+18-09-19 16:55:18 zzyedian的相关微信公众号 – 搜狗微信搜索
+18-09-19 16:57:37 start zzyedian
+18-09-19 16:57:40 æçæç´¢
+18-09-19 16:57:41 初始化session
+18-09-19 16:57:43 https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:57:47 验证之前的cookie {}
+18-09-19 16:57:50 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=zzyedian&ie=utf8&_sug_=n&_sug_type_=
+18-09-19 16:57:51 ------开始处理搜狗验证码------
+18-09-19 16:57:58 ------出现验证码页面------
+18-09-19 16:58:06 ------验证码：4j31xx------
+18-09-19 16:58:47 ------验证码正确------
+18-09-19 16:58:49 ------cookies更新------
+18-09-19 16:58:53 ------cookies已更新------ {'SUID': 'C0CE2A3B3120910A000000005BA20F92', 'ABTEST': '0|1537347473|v1', 'SUIR': '1537347473', 'IPLOC': 'CN4401', 'SNUID': '1917F2E3D8DDAFED452FFB65D9F2C2F0', 'PHPSESSID': 'oshn9ocm62onbke0v6352p7fo6', 'seccodeRight': 'success', 'SUV': '00CD2B853B2ACEC05BA20F92D44AA477', 'successCount': '1|Wed, 19 Sep 2018 09:03:39 GMT', 'refresh': '1', 'JSESSIONID': 'aaa5ZCUrtmLP96nam9Bvw'}
+18-09-19 16:58:57 验证完毕
+18-09-19 16:59:05 start zzyedian
+18-09-19 16:59:16 zzyedian的相关微信公众号 – 搜狗微信搜索
+18-09-19 17:00:45 头像上传结果: 200
+18-09-19 17:00:52 更新数据成功 52513915
+18-09-19 17:00:56 完成 公众号:  zzyedian
+18-09-19 17:04:41 start zzyedian
+18-09-19 17:04:41 zzyedian的相关微信公众号 – 搜狗微信搜索
+18-09-19 17:04:41 头像上传结果: 200
+18-09-19 17:04:41 更新数据成功 52513915
+18-09-19 17:04:41 完成 公众号:  zzyedian
+18-09-19 17:12:30 1
+18-09-19 17:12:40 1
+18-09-19 17:12:48 1
+18-09-19 17:13:15 1
+18-09-19 17:14:43 1
+18-09-19 17:15:05 1
+18-09-19 17:16:01 1

@@ -1,0 +1,6 @@
+
+MySQL 更新
+    最后更新字段不能加, 报错原因：找提示前面的语句
+
+selenium
+    driver url 不是已https 开头的  www开头导致

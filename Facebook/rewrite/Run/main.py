@@ -11,24 +11,28 @@ def main(url):
     choice = ''
     WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, 'inputtext')))
     try:
+        # 需要登录 https://www.facebook.com/joseph.zen.52
         driver.find_element_by_css_selector('._2nlw._2nlv')
         choice = login_must
     except Exception as e:
         pass
 
     try:
+        # 连接错误 https://www.facebook.com/scleung.itvoice2012
         driver.find_element_by_css_selector('._4-dp')
         choice = link_error
     except Exception as e:
         pass
 
     try:
+        # 个人
         driver.find_element_by_css_selector('._2i5e')
         choice = person
     except Exception as e:
         pass
 
     try:
+        # 群组 https://www.facebook.com/theeclecticsbasement/
         driver.find_element_by_css_selector('._64-f')
         choice = group
     except Exception as e:

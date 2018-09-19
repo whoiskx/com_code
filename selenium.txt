@@ -1,19 +1,20 @@
-   最新版的chrome内核 匹配 webdriver
+   最新版的chrome内核 要匹配对应 webdriver
 
 使用
   driver = webdriver.Chrome()
-  driver.close()
+  driver.close() 关闭  quit  退出； 浏览器只有一个标签，那么一样
+
 
   from selenium.webdriver.common.keys import Keys   Keys类提供了键盘的代码（回车,ALT,F1等等）
   driver.get方法会导向给定的URL的页面，WebDriver会等待页面完全加载完(就是onload函数被触发了),才把程序的控制权交给你的测试或者脚本
   elem.send_keys(Keys.RETURN)  发送了一些字符，类似于用键盘直接输入 按下回车
   浏览器关闭，quit close，quit会退出整个浏览器，close  关闭一个标签，但是如果浏览器只有一个标签，那么一样
 
- remote WebDriver
+remote WebDriver
 
 页面交互
   如果匹配不到任何元素，会抛出一个NoSuchElementException异常。
-  send_keys的副作用就是输入文本到文本域不会自动清除，而是会附加到原有的文本后面，我们可以使用clear方法来很方便的清除文本框或者文本域的内容:
+  send_keys 先 clear 再添加
   element.send_keys(" and some", Keys.ARROW_DOWN)
 
 填充表单
@@ -38,10 +39,10 @@
     find_elements_by_class_name *
     find_elements_by_css_selector
 
-  找不到元素 会异常
+ 找不到元素 会异常
 
 
 使用phantomJS替换 Chrome
-    窗口太小报错
+    有可能窗口太小报错
     set_window_size(800, 600)
     maximize_window

@@ -1,6 +1,17 @@
 # -*- coding: utf-8 -*-
+import redis
 
-account = ['chaoliunvren88', 'gh_eef8a18dc008', 'novonordisktsyds', 'shengxiao_55', 'dqsj66', 'cy2915', 'sschaoliu',
+
+class Task(object):
+    def __init__(self):
+        self.rcon = redis.StrictRedis(db=8)
+        self.queue = 'analyse'
+
+    def prodcons(self, account):
+        self.rcon.lpush(self.queue, account)
+
+# chaoliunvren88 2015年的文章
+account = ['novonordisktsyds', 'shengxiao_55', 'dqsj66', 'cy2915', 'sschaoliu',
            'duzhe3650', 'mlketang', 'nnm668', 'weicnjr', 'gh_670031e375a0', 'qiyangtongcom', 'sbsb65', 'xxooshimei',
            'gh_4aba38755586', 'qqwrd007', 'jrhycom', 'bxlcwcom', 'nanren94188', 'zyyst99', 'mykd2014', 'pm6668888',
            'immissi', 'nvren3778', 'zhs66688', 'wpt886', 'nv5788', 'lizhi743', 'yyoo778', 'hulianwangtoutiao',
@@ -14,17 +25,11 @@ account = ['chaoliunvren88', 'gh_eef8a18dc008', 'novonordisktsyds', 'shengxiao_5
            'qdtimephoto', 'wendengsheying', 'duzhecn', 'AotemanLife', 'zhs6667', 'gh_43707986b418', 'SmartDiary',
            'wxkj6868', 'ToneStudio', 'gh_151468fc305a', 'ceceapp', 'aibeipiao', 'golfimpress-lee', 'www0550com',
            'muyingwenda', 'paceglobal']
-
-print(len(account))
-import requests
-
-url1 = 'http://127.0.0.1:8008/WeiXinArt/AddAccount?account={}'
-# url2 = 'http://182.245.126.226:8312/WeiXinArt/AddAccount?account={}'
+t = Task()
 for i, a in enumerate(account):
-    url = url1.format(a)
-    r = requests.get(url)
-    print(r.text)
-    break
+    t.prodcons(a)
+    # break
     # if i > 5:
     #     break
+    print(i)
 print('end')
