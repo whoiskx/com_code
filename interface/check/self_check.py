@@ -12,6 +12,7 @@ class WxCheck(object):
         self.account_list = []
         self.url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=20&starttime=20180825&endtime=20180925'
         self.write_list = []
+        self.save_name = 'result.xlsx'
 
     def read(self):
         wb = load_workbook(self.read_name)
@@ -36,14 +37,15 @@ class WxCheck(object):
                 self.write_list.append(account)
             else:
                 print("该url底层无数据: ", url)
-            break
+                account.append("该账号底层无数据")
+                self.write_list.append(account)
 
     def create_wb(self):
         wb = Workbook()
         sheet = wb.active
         for account in self.write_list:
             sheet.append(account)
-        wb.save('result.xlsx')
+        wb.save(self.save_name)
 
     def run(self):
         self.read()

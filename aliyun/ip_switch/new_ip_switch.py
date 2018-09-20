@@ -89,7 +89,8 @@ class IpSwith(object):
         for record in records_info:
             domain_aliyun = record.find_elements_by_class_name('ant-table-column-has-filters')[1].text
 
-            if domain_aliyun == domain.split('.')[0]:
+            if domain_aliyun == domain.replace('.yunrunyuqing.com', ''):
+                log('匹配到域名')
                 change_div = record.find_element_by_class_name('_3VmUbwgp')
                 change_div.click()
                 time.sleep(1)
@@ -104,8 +105,8 @@ class IpSwith(object):
                 time.sleep(3)
                 self.driver.quit()
                 return None
-            else:
-                log("not find domain for aliyun")
+            # else:
+            #     log("not find domain for aliyun")
         log('warning not match domain driver')
         self.driver.quit()
 
@@ -174,9 +175,9 @@ class IpSwith(object):
                             count = 0
                             while True:
                                 try:
-                                    # test_main += 1
+                                    test_main += 1
                                     # if test_main <= 5 or test_main >= 15:
-                                    #     raise RuntimeError
+                                    # raise RuntimeError
                                     resp = requests.get(monitor_url)
                                     if resp.status_code >= 400:
                                         count += 1
