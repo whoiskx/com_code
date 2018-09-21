@@ -50,7 +50,7 @@ class Mobile(object):
 
     @staticmethod
     def biz_list():
-        return ['MzA4MTAzMjgwOQ==']
+        return ['MzAxMDU0MDYwMQ==']
 
         url = 'http://183.131.241.60:38011/nextaccount?label=5'
         r = requests.get(url)
@@ -62,7 +62,7 @@ class Mobile(object):
 
     def set_key_uin(self):
         self.uin = 'MTE1NjkxODg2MQ%3D%3D'
-        self.key = '92b9bc849106aad7ec7de6218855321cae1730014ee28d7584b74c8cb61208f5b898300e074d0e1c611ff03938c64739d8a952c18ad49e8e085f51d88cda6ebef5d2b7649a3eb3ef5618faa0d9407ff3'
+        self.key = '098f2de2d8c4a2c5c1bb12aa071585ba6fa96fb336b5de2c866e4bad8f46f93754eac96043944f6e552c1a7c19c89ad35002d9ffb1ff0948614024aeb573011bfbdd1745b6959e80b1c1af4d7040f018'
         return
 
         url = 'http://183.131.241.60:38011/outkey'
@@ -126,11 +126,11 @@ class Mobile(object):
                         log(article.title)
                         account = Account()
                         account.name = article.author
-                        account.name = '汕头公安'
+                        # account.name = '中央纪委国家监委网站'
                         account.account = article.account
                         # account.account = 'gh_a78ef1e3d11e'
-                        # account.get_account_id()
-                        account.account_id = 126764008
+                        account.get_account_id()
+                        account.account_id = 126774166
                         if not account.account:
                             log("错误，找不到account")
 

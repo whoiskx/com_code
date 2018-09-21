@@ -5,7 +5,7 @@ import re
 import requests
 from setting import log
 from pyquery import PyQuery as pq
-from send_backpack import JsonEntity, Article, Acount, Backpack
+from send_backpack import JsonEntity, Article, Account, Backpack
 from config import get_mysql_new, get_mysql_old
 from utils import uploads_mysql
 
@@ -86,7 +86,7 @@ class AccountHttp(object):
                 if article.is_share is True:
                     continue
                 log("catch {}".format(article.title))
-                account = Acount()
+                account = Account()
                 # account 读文件跟信源搜索不一样
                 account.name = article.author
                 account.account = article.account
@@ -113,8 +113,8 @@ class AccountHttp(object):
                     entity.title
                 )
                 uploads_mysql(config_mysql, sql, _tuple)
-                if page_count == 30:
-                    break
+                # if page_count == 30:
+                #     break
             log('catch {} successul 共{}条文章'.format(self.name, page_count))
 
             log("发包")

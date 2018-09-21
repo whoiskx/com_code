@@ -43,10 +43,11 @@ class IpSwith(object):
             self.driver.quit()
         chrome_options = Options()
         chrome_options.add_argument('--headless')
-        # web_driver = webdriver.Chrome(chrome_options=chrome_options)
-        web_driver = webdriver.Chrome
+        chrome_options.add_argument("--no-sandbox")
+        web_driver = webdriver.Chrome(chrome_options=chrome_options)
+        # web_driver = webdriver.Chrome
         # web_driver = webdriver.PhantomJS
-        self.driver = web_driver()
+        self.driver = web_driver
 
         # self.driver = webdriver.Chrome()
         url = 'https://signin.aliyun.com/1604195877004448/login.htm?callback=https%3A%2F%2Fdns.console.aliyun.com%2F'
@@ -244,6 +245,8 @@ class IpSwith(object):
                                     break
                         else:
                             self.protect_period(domain_detail, now)
+                    else:
+                        log("主IP备IP都匹配不了")
                 end = int(time.time())
                 log("domain loop over", (end - start))
 
