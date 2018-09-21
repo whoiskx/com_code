@@ -19,7 +19,6 @@ class UploadsSqlServer(object):
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
-            "Cookie": 'SUV=1528341984202463; SMYUV=1528341984202323; UM_distinctid=163d847f79f2a2-0f26ee9926c89d-5846291c-1fa400-163d847f7a22bf; CXID=4AC31FD8532F021C999088D76F3FB61E; SUID=9FCF2A3B1E20910A000000005B18AA35; IPLOC=CN4401; weixinIndexVisited=1; ABTEST=6|1535333149|v1; ad=71xzSZllll2bQjy@lllllVm9MSYlllllnhr5VZllll9lllll4j7ll5@@@@@@@@@@; LSTMV=0%2C0; LCLKINT=235; SUIR=1FC521300A0E7EA98FD8DC830B40B654; JSESSIONID=aaamBXznc_kNt4bIy3Bvw; PHPSESSID=p5t4j3r3af83i9j4iahaauktk3; SNUID=A8A6425367621E52DCBB8A096841F29E; sct=310'
         }
         chrome_options = webdriver.ChromeOptions()
         # chrome_options.add_argument('--headless')
