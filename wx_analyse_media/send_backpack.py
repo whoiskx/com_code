@@ -144,11 +144,11 @@ class JsonEntity(object):
                 count += 1
             log('uploads over')
 
-    def uploads_datacenter(self, backpack_list):
+    def uploads_datacenter_relay(self, backpack_list):
         if backpack_list:
             sever = 'http://27.17.18.131:38072'
             body = json.dumps(backpack_list)
-            datacenter_Yweixin = [
+            datacenter_relay = [
                 {
                     "headers": {
                         "topic": "Yweixin",
@@ -162,14 +162,109 @@ class JsonEntity(object):
                 if count > 2:
                     break
                 try:
-                    log('start uploads')
-                    r = requests.post(sever, data=datacenter_Yweixin)
+                    log('start uploads datacenter_relay')
+                    r = requests.post(sever, data=datacenter_relay)
                     if r.status_code == 200:
-                        log('uploads server1 successful')
+                        log('uploads datacenter_relay server successful')
                 except Exception as e:
-                    log('uploads http error', e)
+                    log('uploads datacenter_relay http error', e)
                 count += 1
-            log('uploads over')
+            log('uploads datacenter_relay over')
+
+    def uploads_datacenter_unity(self, backpack_list):
+        if backpack_list:
+            sever = 'http://222.184.225.246:8171'
+            datacenter_unity = []
+            for new_result in backpack_list:
+                datacenter_unity.append({
+                    "headers": {
+                        "topic": 'proWeixin',
+                        "key": new_result['headers']['key'],
+                        "timestamp": new_result['headers']['timestamp']
+                    },
+                    "body": json.dumps({
+                        'ID': new_result['body']['ID'],
+                        'TaskName': new_result['body']['TaskName'],
+                        'Domain': '',
+                        'SiteType': 0,
+                        'Overseas': 0,
+                        'Title': new_result['body']['Title'],
+                        'Content': new_result['body']['Content'],
+                        'Time': new_result['body']['Time'],
+                        'Source': '',
+                        'Url': new_result['body']['Url'],
+                        'Account': new_result['body']['Account'],
+                        'AccountID': new_result['body']['AccountID'],
+                        'Author': new_result['body']['Author'],
+                        'From': '',
+                        'Images': 0,
+                        'ImageUrl': '',
+                        'PortraitUrl': '',
+                        'VideoUrl': '',
+                        'Keywords': '',
+                        'Language': 0,
+                        'TopicName': '',
+                        'Views': 0,
+                        'Transmits': 0,
+                        'Comments': 0,
+                        'Praises': 0,
+                        'Follows': 0,
+                        'Fans': 0,
+                        'Blogs': 0,
+                        'Sex': 0,
+                        'UID': '',
+                        'BlogID': '',
+                        'Province': '',
+                        'City': '',
+                        'QuoteBlogID': '',
+                        'QuoteUrl': '',
+                        'QuoteTime': 0,
+                        'QuoteImages': 0,
+                        'QuoteVideoUrl': '',
+                        'QuoteShortUrl': '',
+                        'QuoteUID': '',
+                        'QuoteSex': 0,
+                        'QuoteProvince': '',
+                        'QuoteCity': '',
+                        'QuoteFollows': 0,
+                        'QuoteFans': 0,
+                        'AddOn': new_result['body']['AddOn'],
+                        'LongBlogType': 1,
+                        'ArticleTitle': '',
+                        'ArticleContent': '',
+                        'Original': 0,
+                        'QuoteContent': '',
+                        'QuoteAuthor': '',
+                        'QuotePortraitUrl': '',
+                        'QuoteImageUrl': '',
+                        'QuoteComments': 0,
+                        'QuotePraises': 0,
+                        'QuoteTransmits': 0,
+                        'QuoteSource': '',
+                        'Place': '',
+                        'DataType': 1003,
+                        'EventID': '',
+                        'CustomerID': '',
+                        'ClassifyID': '',
+                        'IsGarbage': 0,
+                        'ShortUrl': '',
+                    },ensure_ascii=False)
+                })
+
+            # 保证发送成功
+            count = 0
+            while True:
+                if count > 2:
+                    break
+                try:
+                    log('start uploads datacenter_unity')
+                    r = requests.post(sever, data=json.dumps(datacenter_unity))
+                    if r.status_code == 200:
+                        log('uploads datacenter_unity server1 successful')
+                except Exception as e:
+                    log('uploads datacenter_unity http error', e)
+                count += 1
+            log('uploads datacenter_unity over')
 
 
 class Backpack(object):
@@ -215,5 +310,5 @@ class Backpack(object):
                 "timestamp": int(time.time()),
             }
         }
-        uploads_body.update({'body': json.dumps(self.to_dict())})
+        uploads_body.update({'body': self.to_dict()})
         return uploads_body

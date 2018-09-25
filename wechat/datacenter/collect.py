@@ -170,13 +170,14 @@ class AccountHttp(object):
                     entity.title
                 )
                 uploads_mysql(config_mysql, sql, _tuple)
-                if page_count == 5:
+                if page_count == 4:
                     break
 
         log("发包")
         if entity:
-            entity.uploads(backpack_list)
-            # entity.uploads_datacenter(backpack_list)
+            # entity.uploads(backpack_list)
+            # entity.uploads_datacenter_relay(backpack_list)
+            entity.uploads_datacenter_unity(backpack_list)
             print('end')
 
     def crack_sougou(self, url):
