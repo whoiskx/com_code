@@ -125,7 +125,7 @@ class AccountHttp(object):
     def run(self):
         # self.set_name()
         # while True:
-        account_list = ['中央纪委国家监委网站', ]
+        account_list = ['江西政读',]
         entity = None
         backpack_list = []
         for name in account_list:
@@ -142,6 +142,7 @@ class AccountHttp(object):
             account.name = self.name
             account.account = account_of_homepage
             account.get_account_id()
+            account.account_id = 126774646
 
             for page_count, url in enumerate(urls_article):
                 # if page_count < 35:
@@ -155,14 +156,13 @@ class AccountHttp(object):
                 backpack = Backpack()
                 backpack.create(entity)
                 backpack_list.append(backpack.create_backpack())
-
                 import pymongo
                 conn = pymongo.MongoClient('mongo')
                 # 上传数据库
-                sql = '''   
-                        INSERT INTO 
-                            account_http(article_url, addon, account, account_id, author, id, title) 
-                        VALUES 
+                sql = '''
+                        INSERT INTO
+                            account_http(article_url, addon, account, account_id, author, id, title)
+                        VALUES
                             (%s, %s, %s, %s, %s, %s, %s)
                 '''
                 _tuple = (
@@ -170,12 +170,14 @@ class AccountHttp(object):
                     entity.title
                 )
                 uploads_mysql(config_mysql, sql, _tuple)
-                # if page_count == 5:
-                #     break
+                if page_count == 0:
+                    break
 
         log("发包")
         if entity:
             entity.uploads(backpack_list)
+            entity.uploads_datacenter(backpack_list)
+            print('end')
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))

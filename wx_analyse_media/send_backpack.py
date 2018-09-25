@@ -144,6 +144,33 @@ class JsonEntity(object):
                 count += 1
             log('uploads over')
 
+    def uploads_datacenter(self, backpack_list):
+        if backpack_list:
+            sever = 'http://27.17.18.131:38072'
+            body = json.dumps(backpack_list)
+            datacenter_Yweixin = [
+                {
+                    "headers": {
+                        "topic": "Yweixin",
+                    },
+                    "body": body
+                },
+            ]
+            # 保证发送成功
+            count = 0
+            while True:
+                if count > 2:
+                    break
+                try:
+                    log('start uploads')
+                    r = requests.post(sever, data=datacenter_Yweixin)
+                    if r.status_code == 200:
+                        log('uploads server1 successful')
+                except Exception as e:
+                    log('uploads http error', e)
+                count += 1
+            log('uploads over')
+
 
 class Backpack(object):
     # 首字母大写兼容发包字段
