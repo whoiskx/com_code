@@ -1,3 +1,4 @@
+# encoding=utf-8
 # import pymongo
 # conn = pymongo.MongoClient('120.78.237.213', 27017)
 # db = conn.WeChat
@@ -17,7 +18,10 @@
 # from app import SaveCookie
 #
 # one_cookie = SaveCookie
+import re
+from collections import Counter
 
+import jieba
 import requests
 
 # url = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query=arqnyry2017&ie=utf8&_sug_=n&_sug_type_='
@@ -35,37 +39,37 @@ import requests
 # print("end")
 
 # 查询公众号
-url = 'http://183.131.241.60:38011/MatchAccount?account=gh_2219b94b95b1'
-r = requests.get(url)
-print(type(r.json()))
-s = r.json().get('imageUrl')
-print(s)
-if len(s) == 0:
-    print("头像不存在")
-    url_save = 'http://183.131.241.60:38011/SaveImage'
-    r_save = requests.post(files=r_img.content)
-    print(r_save.status_code)
-else:
-    print("头像存在,判断是否正确")
-
-
-url2 = 'http://60.190.238.188:38016/{}'.format(s)
-r_img = requests.get(url2)
-print(r_img)
+# url = 'http://183.131.241.60:38011/MatchAccount?account=gh_2219b94b95b1'
+# r = requests.get(url)
+# print(type(r.json()))
+# s = r.json().get('imageUrl')
+# print(s)
+# if len(s) == 0:
+#     print("头像不存在")
+#     url_save = 'http://183.131.241.60:38011/SaveImage'
+#     r_save = requests.post(files=r_img.content)
+#     print(r_save.status_code)
 # else:
-#     print("头像存在")
-if r_img.text:
-    print('存在')
-else:
-    url_save = 'http://183.131.241.60:38011/SaveImage'
-    r_save = requests.post(files=r_img.content)
-    print(r_save.status_code)
-
-url = 'http://img01.sogoucdn.com/app/a/100520090/oIWsFt-9qc9wQlpNOwJuYnewXRlQ'
-r = requests.get(url)
-url2 = 'http://183.131.241.60:38011/SaveImage'
-s = requests.post(url2, files=r.content)
-print(s.status_code)
+#     print("头像存在,判断是否正确")
+#
+#
+# url2 = 'http://60.190.238.188:38016/{}'.format(s)
+# r_img = requests.get(url2)
+# print(r_img)
+# # else:
+# #     print("头像存在")
+# if r_img.text:
+#     print('存在')
+# else:
+#     url_save = 'http://183.131.241.60:38011/SaveImage'
+#     r_save = requests.post(files=r_img.content)
+#     print(r_save.status_code)
+#
+# url = 'http://img01.sogoucdn.com/app/a/100520090/oIWsFt-9qc9wQlpNOwJuYnewXRlQ'
+# r = requests.get(url)
+# url2 = 'http://183.131.241.60:38011/SaveImage'
+# s = requests.post(url2, files=r.content)
+# print(s.status_code)
 
 
 # info = {"name": "佛山市华诚餐饮管理有限公司", "account": "fsshccyglyxgs",
@@ -82,3 +86,27 @@ print(s.status_code)
 #
 # resp = requests.post(url, json=test.to_dict())
 # print(resp.status_code)
+
+# 分词
+content = '赵饶生身为党员领导干部，丧失理想信念和党性原则，严重违反党的纪律和国家法律法规，并涉嫌职务犯罪，性质恶劣、情节严重。依据《中国共产党纪律处分条例》《中华人民共和国监察法》等有关规定，经中共萍乡市委批准，中共萍乡市纪委、萍乡市监察委员会决定给予赵饶生开除党籍处分、取消其退休待遇；收缴赵饶生违纪违法所得；将赵饶生涉嫌挪用公款、滥用职权犯罪问题移送检察机关依法审查、提起公诉'
+key_words_list = []
+seg_list = jieba.cut(content)
+for s in seg_list:
+    if re.search('[\u4e00-\u9fff]+', s):
+        key_words_list.append(s)
+print(key_words_list)
+with open('positive.txt', 'r', encoding='utf-8') as f:
+    positive = f.read()
+with open('nagetive.txt', 'r', encoding='utf-8') as f:
+    nagetive = f.read()
+# key_list = list(key_words_counter)
+count_positive = 0
+count_nagetive = 0
+for key in key_words_list:
+    if key in positive.split('\n'):
+        count_positive += 1
+    if key in nagetive.split('\n'):
+        count_nagetive += 1
+print(count_positive)
+
+print(count_nagetive)
