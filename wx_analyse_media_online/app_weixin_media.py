@@ -434,7 +434,7 @@ class AccountHttp(object):
             ):
                 key_words_list.append(s[0])
 
-        # 返回前10个出现频率最高的词
+        # 返回前20个出现频率最高的词
         key_words_counter = Counter(key_words_list).most_common(20)
         key_word = dict()
         key_word['list'] = []

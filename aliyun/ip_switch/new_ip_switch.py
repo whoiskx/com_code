@@ -174,6 +174,7 @@ class IpSwith(object):
                         changing = domain_detail.get('changing')
                         if changing is False:
                             count = 0
+                            link_error = 0
                             while True:
                                 try:
                                     test_main += 1
@@ -198,10 +199,9 @@ class IpSwith(object):
                                     else:
                                         break
                                     log('{} normal '.format(domain))
-                                except Exception as e:
+                                except requests.exceptions.ConnectionError as e:
                                     log('requests', e)
                                     count += 1
-
                                     if count >= error_max:
                                         status = self.backup_server_status(monitor_url, domain, backup_ip)
                                         if status:
@@ -215,6 +215,11 @@ class IpSwith(object):
                                             log('切换成功')
                                             break
                                     log('server fault: requests get error')
+                                except Exception as e:
+                                    log('连接错误:', e)
+                                    link_error += 1
+                                    if link_error > 3:
+                                        break
                         else:
                             self.protect_period(domain_detail, now)
 
