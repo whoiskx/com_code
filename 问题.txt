@@ -15,3 +15,11 @@ top
 requests
     requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=18010): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x000002A068B6AAC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
     网络不通
+
+Python 新环境
+    pip freeze > requirements.txt
+    pip install -r requirements.txt
+
+    安装
+        Linux下需要安装几个基础类库：Cython：pip install Cython      
+         ##python包freetds-dev：yum install freetds-devel.x86_64 / apt-get install freetds-dev   ##linux包

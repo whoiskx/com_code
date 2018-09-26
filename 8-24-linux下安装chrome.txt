@@ -4,8 +4,8 @@
 安装2 chromium
     sudo apt-get install chromium-browser
     chromium-browser --version  对应相应的webdriver（ 不同版本下载 http://chromedriver.storage.googleapis.com/index.html ）；
-    unzip 解压zip 文件
-    webdriver 保存到/usr/local/bin 目录下
+    unzip 解压zip 文件 直接解压
+    webdriver 保存到/usr/local/bin 目录下  cp  目录下运行不了
     执行webdriver.Chrome()
 
 usr 指 Unix System Resource
@@ -17,3 +17,6 @@ usr 指 Unix System Resource
     /usr/local/bin: /usr/bin:/bin:/usr/sbin:/sbin
 
     /usr/local/bin优先于/usr/bin
+
+配置新环境
+    sudo apt install libffi-dev

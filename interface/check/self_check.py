@@ -20,7 +20,7 @@ class WxCheck(object):
         for row in sheet.rows:
             account = row[0].value
             name = row[1].value
-            self.account_list.append([account, name])
+            self.account_list.append([account.strip(), name])
 
     def write(self):
         for account in self.account_list:

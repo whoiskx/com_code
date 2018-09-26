@@ -22,14 +22,16 @@ def main():
     #     zf.close()
 
     # filepath = datetime.datetime.now().strftime("%Y%m%d")
-    filepath = '20180921'
+    filepath = '20180926'
     # filename = uuid.uuid1()
-    cmd = 'STOR /{}/66eb015c-bd86-11e8-a66d-fc017c3bd1b0.zip'.format(filepath)
+    filename = '37eadc0a-c160-11e8-8b1e-fc017c3bd1b0.zip'
+    cmd = 'STOR /{}/{}'.format(filepath, filename)
 
-    ftp.storbinary(cmd, open('66eb015c-bd86-11e8-a66d-fc017c3bd1b0.zip', 'rb'))
+    ftp.storbinary(cmd, open(filename, 'rb'))
+    print('end')
 
 
 if __name__ == '__main__':
-    for i in range(10):
+    # for i in range(10):
 
         main()

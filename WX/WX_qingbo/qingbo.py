@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
 import pymysql
-from send_backpack import JsonEntity, Acount, Article
+from send_backpack import JsonEntity, Account, Article
 from pyquery import PyQuery as pq
 
 current_dir = os.getcwd()
@@ -115,7 +115,7 @@ class PublicDetails(object):
         backpack_list = []
         try:
             # 获取公众号 ID, 名称, 微信号
-            account = Acount()
+            account = Account()
             account.name = self.driver.find_element_by_class_name('fs22').text
             wx_num = self.driver.find_element_by_class_name('info-li').text.split('\n')[0]
             account.account = wx_num.split("：")[-1]

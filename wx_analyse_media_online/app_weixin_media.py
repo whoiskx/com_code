@@ -240,7 +240,8 @@ class AccountHttp(object):
         # 搜索并进入公众号主页
         count = 0
         while True:
-            if count == 2:
+            count += 1
+            if count > 2:
                 break
             log('start', self.name)
             search_url = self.url.format(self.name)

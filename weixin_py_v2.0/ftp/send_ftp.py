@@ -1,40 +1,94 @@
 # -*- coding: utf-8 -*-
 import datetime
+import hashlib
+import json
+import re
+import uuid
+import zipfile
 
 from lxml import etree
 
 
 class Ftp(object):
     def __init__(self):
-        self.url = 'http://mp.weixin.qq.com/s?timestamp=1536170465&src=3&ver=1&signature=KpIapyYuvtUSvw7wCLI4OSsAm12*lWAnsM*H*8860gITXE6RPKovNzf7cJUk012NVTKNVD-dNFUKJ-z6q3JmLWLXNs80*EJhlPkbpaP9b7Yl-q*WUOYZ9BCJzWnhup4D-ajh0Lr1uqpE-z*wdEhTyVSTMecSQvfaELEnGCRwNdo='
-        self.title = '星聚城私人影院特惠包夜仅售68元/晚（可容纳8人）'
-        self.content = '【产品亮点】：&nbsp;独立私密空间，最新大片抢先看，免费K歌，免费空调，超洁净的卫生条件，更免费赠送娃娃机抓娃娃，无限抓娃娃'
+        self.id = 126765002
+        self.url = 'https://mp.weixin.qq.com/s?timestamp=1537947825&src=3&ver=1&signature=v6SVkUGz4*u2ygI2jDM64P0h6XSPXRMW0bCBgdC6NxpKJp1SL*6y3zXI*Gtm44PzQ6CMB4MyBnJKjaLC0kwlAauO7Kcf4LSq63pJ8ACjnjfA3verqPIh3HGvTirk2VzruaoHOcbC2*mZEiWfNMt7A2PbDI5eWsoTOS-Z*1bHjD4='
+        self.title = '十一国庆小长假，热门旅游线路大汇总'
+        self.content = '热门旅游线路大汇总'
         self.author = '唐唐假期'
         self.time = str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
         self.account = 'tangtangaini0516'
 
-    def info_list(self):
+    def hash_md5(self):
+        m = hashlib.md5()
+        m.update(self.url.encode(encoding="utf-8"))
+        return m.hexdigest() + '.xml'
+
+    def ftp_dict(self):
         return self.__dict__
 
+    def ftp_note(self):
+        note = {
+            # 任务ID
+            "id": self.id,
+            # 任务名
+            "name": "微信_{}".format(self.author),
+            # 网站名
+            "groupName": "微信",
+            # 是否境外站点
+            "overseas": False,
+            # 站点类型
+            "category": 14,
+            # 站点语言
+            "language": 1,
+            # 数据类型
+            "structure": 1,
+            # PageRank
+            "pr": 6,
+            # 标签id
+            "tagID": 0,
+            # 是否是首页
+            "top": False,
+            # 是否是首页
+            "home": 0,
+            "channel": 20,
+            # 采集时间
+            "addon": self.time
+        }
+        note_json = json.dumps(note, ensure_ascii=False)
+        return str(note_json)
 
-def create_xml():
+
+def create_xml(file_name):
     data = etree.Element("data")
     for k, v in infos.items():
         sub_tag = etree.SubElement(data, k)
         if 'time' in k:
             sub_tag.text = v
             continue
-        title_txt = v
+        title_txt = str(v)
         title_txt = etree.CDATA(title_txt)
         sub_tag.text = title_txt
     dataxml = etree.tostring(data, pretty_print=True, encoding="UTF-8", method="xml", xml_declaration=True,
                              standalone=None)
     print(dataxml.decode("utf-8"))
-    etree.ElementTree(data).write("text2.xml",encoding='utf-8', pretty_print=True)
+    etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
+
+
+def create_zip(file_name, f):
+    # zf = zipfile.ZipFile('4041070c-bd83-11e8-af9f-fc017c3bd1b0.zip', 'r')
+    print('creating archive')
+    zf_name = str(uuid.uuid1())
+    with zipfile.ZipFile('{}.zip'.format(zf_name), mode='w') as zf:
+        zf_comment = f.ftp_note()
+        zf.comment = str(zf_comment).encode('gbk')
+        zf.write(file_name)
 
 
 if __name__ == '__main__':
     f = Ftp()
-    infos = f.info_list()
+    infos = f.ftp_dict()
     # print(f.info_list())
-    create_xml()
+    file_name = f.hash_md5()
+    create_xml(file_name)
+    create_zip(file_name, f)
