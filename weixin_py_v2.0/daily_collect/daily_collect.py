@@ -56,7 +56,7 @@ class AccountHttp(object):
             search_url = self.url.format(self.search_name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
-            log('响应标题', e('title').text())
+            log('文章标题', e('title').text())
             if '搜狗' not in e('title').text():
                 log('初始化session')
                 self.s = requests.session()
@@ -127,13 +127,22 @@ class AccountHttp(object):
         for item in items:
             url_last = item[15:-18].replace('amp;', '')
             url = 'https://mp.weixin.qq.com' + url_last
+            # 部分是永久链接
+            if '_biz' in url_last:
+                url = re.search('http://mp.weixin.qq.*?wechat_redirect', url_last).group()
+                urls.append(url)
+                continue
+            # 可能匹配错误，再次匹配
+            if 'content_url' in url:
+                item = re.search('"content_url":".*?wechat_redirect', url).group()
+                url = item[15:].replace('amp;', '')
             urls.append(url)
         return urls
 
     def run(self):
         while True:
-            account_list = self.account_list()
-            # account_list = ['sxbzpu', 'rzbotyb', 'ordos-dfkg', 'rencaiguangzhou', 'zygfwx']
+            # account_list = self.account_list()
+            account_list = ['let9394']
             for _account in account_list:
                 self.search_name = _account
                 html_account = self.account_homepage()
