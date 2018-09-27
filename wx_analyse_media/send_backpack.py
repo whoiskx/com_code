@@ -248,7 +248,7 @@ class JsonEntity(object):
                         'ClassifyID': '',
                         'IsGarbage': 0,
                         'ShortUrl': '',
-                    },ensure_ascii=False)
+                    }, ensure_ascii=False)
                 })
 
             # 保证发送成功

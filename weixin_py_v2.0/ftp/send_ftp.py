@@ -16,7 +16,7 @@ class Ftp(object):
         self.title = '十一国庆小长假，热门旅游线路大汇总'
         self.content = '热门旅游线路大汇总'
         self.author = '唐唐假期'
-        self.time = str(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+        self.time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         self.account = 'tangtangaini0516'
 
     def hash_md5(self):

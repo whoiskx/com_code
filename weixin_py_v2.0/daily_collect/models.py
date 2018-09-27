@@ -85,6 +85,7 @@ class Account(object):
 
 
 class JsonEntity(object):
+    # 发包实体
 
     def __init__(self, article, account):
         self.url = article.url
@@ -118,6 +119,7 @@ class JsonEntity(object):
         return m.hexdigest()
 
     def uploads(self, backpack_list):
+        # 上传底层
         if backpack_list:
             sever1 = 'http://115.231.251.252:26016/'
             sever2 = 'http://60.190.238.168:38015/'
@@ -145,6 +147,7 @@ class JsonEntity(object):
             log('uploads over')
 
     def uploads_datacenter_relay(self, backpack_list):
+        # 上传数据分发中心
         if backpack_list:
             sever = 'http://27.17.18.131:38072'
             body = json.dumps(backpack_list)
@@ -172,30 +175,32 @@ class JsonEntity(object):
             log('uploads datacenter_relay over')
 
     def uploads_datacenter_unity(self, backpack_list):
+        # 上传三合一检索
         if backpack_list:
             sever = 'http://222.184.225.246:8171'
             datacenter_unity = []
-            for new_result in backpack_list:
+            for backpack in backpack_list:
+                backpack['body'] = json.loads(backpack['body'])
                 datacenter_unity.append({
                     "headers": {
                         "topic": 'proWeixin',
-                        "key": new_result['headers']['key'],
-                        "timestamp": new_result['headers']['timestamp']
+                        "key": backpack['headers']['key'],
+                        "timestamp": backpack['headers']['timestamp']
                     },
                     "body": json.dumps({
-                        'ID': new_result['body']['ID'],
-                        'TaskName': new_result['body']['TaskName'],
+                        'ID': backpack['body']['ID'],
+                        'TaskName': backpack['body']['TaskName'],
                         'Domain': '',
                         'SiteType': 0,
                         'Overseas': 0,
-                        'Title': new_result['body']['Title'],
-                        'Content': new_result['body']['Content'],
-                        'Time': new_result['body']['Time'],
+                        'Title': backpack['body']['Title'],
+                        'Content': backpack['body']['Content'],
+                        'Time': backpack['body']['Time'],
                         'Source': '',
-                        'Url': new_result['body']['Url'],
-                        'Account': new_result['body']['Account'],
-                        'AccountID': new_result['body']['AccountID'],
-                        'Author': new_result['body']['Author'],
+                        'Url': backpack['body']['Url'],
+                        'Account': backpack['body']['Account'],
+                        'AccountID': backpack['body']['AccountID'],
+                        'Author': backpack['body']['Author'],
                         'From': '',
                         'Images': 0,
                         'ImageUrl': '',
@@ -228,7 +233,7 @@ class JsonEntity(object):
                         'QuoteCity': '',
                         'QuoteFollows': 0,
                         'QuoteFans': 0,
-                        'AddOn': new_result['body']['AddOn'],
+                        'AddOn': backpack['body']['AddOn'],
                         'LongBlogType': 1,
                         'ArticleTitle': '',
                         'ArticleContent': '',
@@ -248,7 +253,7 @@ class JsonEntity(object):
                         'ClassifyID': '',
                         'IsGarbage': 0,
                         'ShortUrl': '',
-                    },ensure_ascii=False)
+                    }, ensure_ascii=False)
                 })
 
             # 保证发送成功
@@ -261,6 +266,7 @@ class JsonEntity(object):
                     r = requests.post(sever, data=json.dumps(datacenter_unity))
                     if r.status_code == 200:
                         log('uploads datacenter_unity server1 successful')
+                        break
                 except Exception as e:
                     log('uploads datacenter_unity http error', e)
                 count += 1
@@ -312,3 +318,85 @@ class Backpack(object):
         }
         uploads_body.update({'body': json.dumps(self.to_dict())})
         return uploads_body
+
+import datetime
+import hashlib
+import uuid
+import zipfile
+from lxml import etree
+
+
+class Ftp(object):
+    def __init__(self, entity):
+        self.id = entity.id
+        self.url = entity.url
+        self.title = entity.title
+        self.content = entity.content
+        self.author = entity.author
+        self.time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        self.account = entity.account
+
+    def hash_md5(self, s):
+        m = hashlib.md5()
+        m.update(s.encode())
+        return m.hexdigest() + '.xml'
+
+    def ftp_dict(self):
+        return self.__dict__
+
+    def ftp_note(self):
+        note = {
+            # 任务ID
+            "id": self.id,
+            # 任务名
+            "name": "微信_{}".format(self.author),
+            # 网站名
+            "groupName": "微信",
+            # 是否境外站点
+            "overseas": False,
+            # 站点类型
+            "category": 14,
+            # 站点语言
+            "language": 1,
+            # 数据类型
+            "structure": 1,
+            # PageRank
+            "pr": 6,
+            # 标签id
+            "tagID": 0,
+            # 是否是首页
+            "top": False,
+            # 是否是首页
+            "home": 0,
+            "channel": 20,
+            # 采集时间
+            "addon": self.time
+        }
+        note_json = json.dumps(note, ensure_ascii=False)
+        return str(note_json)
+
+    #
+    # def create_xml(file_name):
+    #     data = etree.Element("data")
+    #     for k, v in infos.items():
+    #         sub_tag = etree.SubElement(data, k)
+    #         if 'time' in k:
+    #             sub_tag.text = v
+    #             continue
+    #         title_txt = str(v)
+    #         title_txt = etree.CDATA(title_txt)
+    #         sub_tag.text = title_txt
+    #     dataxml = etree.tostring(data, pretty_print=True, encoding="UTF-8", method="xml", xml_declaration=True,
+    #                              standalone=None)
+    #     print(dataxml.decode("utf-8"))
+    #     etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
+    #
+    #
+    # def create_zip(file_name, f):
+    #     # zf = zipfile.ZipFile('4041070c-bd83-11e8-af9f-fc017c3bd1b0.zip', 'r')
+    #     print('creating archive')
+    #     zf_name = str(uuid.uuid1())
+    #     with zipfile.ZipFile('{}.zip'.format(zf_name), mode='w') as zf:
+    #         zf_comment = f.ftp_note()
+    #         zf.comment = str(zf_comment).encode('gbk')
+    #         zf.write(file_name)

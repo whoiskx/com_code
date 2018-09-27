@@ -4,12 +4,18 @@ import os
 import random
 import re
 import time
+import uuid
+import zipfile
+from ftplib import FTP
 
 import requests
 import json
+
+from lxml import etree
+
 from setting import log
 from pyquery import PyQuery as pq
-from models import JsonEntity, Article, Account, Backpack
+from models import JsonEntity, Article, Account, Backpack, Ftp
 from config import get_mysql_new, log
 from utils import uploads_mysql
 
@@ -27,6 +33,9 @@ IMAGE_DIR = os.path.join(BASE_DIR, 'images')
 CAPTCHA_NAME = 'captcha.png'
 
 
+current_dir = os.getcwd()
+
+
 class AccountHttp(object):
     def __init__(self):
         self.url = 'https://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_='
@@ -39,11 +48,15 @@ class AccountHttp(object):
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
         }
-        self.cookies = {}
+        self.cookies = {'SUID': '4A72170E2613910A000000005BAC759D', 'ABTEST': '3|1538028956|v1', 'SUIR': '1538028956',
+                        'IPLOC': 'CN4401', 'SNUID': '5960051C121665C656C04D9E13C88607',
+                        'PHPSESSID': '80l6acdo9sq3uj357t00heqpg1', 'seccodeRight': 'success',
+                        'SUV': '00F347B50E17724A5BAC759DBEFB6849', 'successCount': '1|Thu, 27 Sep 2018 06:20:59 GMT',
+                        'refresh': '1', 'JSESSIONID': 'aaa73Xexaf2BmgEL80Bvw'}
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--headless')
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
-        self.wait = WebDriverWait(self.driver, 4)
+        self.wait = WebDriverWait(self.driver, 5)
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -132,17 +145,48 @@ class AccountHttp(object):
                 url = re.search('http://mp.weixin.qq.*?wechat_redirect', url_last).group()
                 urls.append(url)
                 continue
-            # 可能匹配错误，再次匹配
+            # 可能匹配过多，再次匹配
             if 'content_url' in url:
                 item = re.search('"content_url":".*?wechat_redirect', url).group()
                 url = item[15:].replace('amp;', '')
             urls.append(url)
         return urls
 
+    def save_to_mysql(self, entity):
+        # 上传数据库
+        sql = '''   
+                INSERT INTO 
+                    account_http(article_url, addon, account, account_id, author, id, title) 
+                VALUES 
+                    (%s, %s, %s, %s, %s, %s, %s)
+        '''
+        _tuple = (
+            entity.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author,
+            entity.id,
+            entity.title
+        )
+        uploads_mysql(config_mysql, sql, _tuple)
+
+    def create_xml(self, infos, file_name):
+        data = etree.Element("data")
+        for k, v in infos.items():
+            sub_tag = etree.SubElement(data, k)
+            if 'time' in k:
+                sub_tag.text = v
+                continue
+            title_txt = str(v)
+            title_txt = etree.CDATA(title_txt)
+            sub_tag.text = title_txt
+        dataxml = etree.tostring(data, pretty_print=True, encoding="UTF-8", method="xml", xml_declaration=True,
+                                 standalone=None)
+        print(dataxml.decode("utf-8"))
+        etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
+
     def run(self):
         while True:
             # account_list = self.account_list()
-            account_list = ['let9394']
+            # ['nthsh0513', 'jun_road', 'bbl100', 'QQ727456789', 'chizhouren0566']
+            account_list = ['jun_road']
             for _account in account_list:
                 self.search_name = _account
                 html_account = self.account_homepage()
@@ -162,34 +206,56 @@ class AccountHttp(object):
 
                 entity = None
                 backpack_list = []
+                ftp_list = []
                 for page_count, url in enumerate(urls_article):
                     # if page_count < 35:
                     #     continue
                     article = Article()
                     article.create(url, account)
-                    log('文章标题:', article.title)
-                    log("第{}条".format(page_count))
+                    log('第{}条 文章标题: {}'.format(page_count, article.title))
+                    log("当前文章url: ".format(url))
                     entity = JsonEntity(article, account)
                     backpack = Backpack()
                     backpack.create(entity)
                     backpack_list.append(backpack.create_backpack())
-                    # if page_count == 1:
-                    #     break
-                    # 上传数据库
-                    sql = '''   
-                            INSERT INTO 
-                                account_http(article_url, addon, account, account_id, author, id, title) 
-                            VALUES 
-                                (%s, %s, %s, %s, %s, %s, %s)
-                    '''
-                    _tuple = (
-                        article.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author, entity.id,
-                        entity.title
-                    )
-                    uploads_mysql(config_mysql, sql, _tuple)
-                log("发包")
-                if entity:
-                    entity.uploads(backpack_list)
+                    self.save_to_mysql(entity)
+
+                    # ftp包
+                    ftp_info = Ftp(entity)
+                    name_xml = ftp_info.hash_md5(ftp_info.url)
+                    # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
+                    self.create_xml(ftp_info.ftp_dict(), name_xml)
+                    ftp_list.append(name_xml)
+                    if page_count == 4:
+                        break
+
+                # entity.uploads_ftp()
+                zf_name = str(uuid.uuid1()) + '.zip'
+                with zipfile.ZipFile('ftp/{}'.format(zf_name), mode='w') as zf:
+                    zf_comment = ftp_info.ftp_note()
+                    zf.comment = str(zf_comment).encode('gbk')
+                    for file_name in ftp_list:
+                        zf.write(file_name)
+                        os.remove(file_name)
+
+                ftp = FTP()  # 设置变量
+                ftp.connect("110.249.163.246", 21)  # 连接的ftp sever和端口
+                ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
+                filepath = datetime.datetime.now().strftime("%Y%m%d")
+                # filename = uuid.uuid1()
+                filename = zf_name
+                log(filename)
+                cmd = 'STOR /{}/{}'.format(filepath, filename)
+
+                ftp.storbinary(cmd, open('ftp/{}'.format(filename), 'rb'))
+                log('上传成功')
+            break
+                # log("发包")
+                # if entity:
+                #     entity.uploads(backpack_list)
+                #     # entity.uploads_datacenter_relay(backpack_list)
+                #     entity.uploads_datacenter_unity(backpack_list)
+                #     break
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
