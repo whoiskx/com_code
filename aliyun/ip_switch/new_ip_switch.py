@@ -19,6 +19,8 @@ develop_env = False
 
 conn = pymongo.MongoClient('mongodb://120.78.237.213:27017')
 urun = conn.taskDnsSwitch
+
+
 # web_driver = webdriver.PhantomJS
 
 
@@ -37,6 +39,7 @@ def log(*args, **kwargs):
 class IpSwith(object):
     def __init__(self):
         self.driver = None
+        self.headers = {'Connection': 'close', }
 
     def login(self):
         if self.driver:
@@ -136,7 +139,7 @@ class IpSwith(object):
         backup_url = monitor_url.replace(domain, backup_ip)
         log("backup_ip {}".format(backup_ip))
         try:
-            resp = requests.get(backup_url)
+            resp = requests.get(backup_url, headers=self.headers)
             if resp.status_code >= 400:
                 log("backup server error1")
                 return False
@@ -180,7 +183,7 @@ class IpSwith(object):
                                     test_main += 1
                                     # if test_main <= 5 or test_main >= 15:
                                     # raise RuntimeError
-                                    resp = requests.get(monitor_url)
+                                    resp = requests.get(monitor_url, headers=self.headers)
                                     if resp.status_code >= 400:
                                         count += 1
                                         if count >= error_max:
@@ -233,7 +236,7 @@ class IpSwith(object):
                             count = 0
                             while True:
                                 try:
-                                    resp = requests.get(main_url)
+                                    resp = requests.get(main_url, headers=self.headers)
                                     if resp.status_code < 400:
 
                                         count += 1
