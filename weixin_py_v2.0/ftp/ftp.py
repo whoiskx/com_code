@@ -20,9 +20,9 @@ class Ftp(object):
         self.time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         self.account = 'tangtangaini0516'
 
-    def hash_md5(self):
+    def hash_md5(self, s):
         m = hashlib.md5()
-        m.update(self.url.encode(encoding="utf-8"))
+        m.update(s.encode(encoding="utf-8"))
         return m.hexdigest() + '.xml'
 
     def ftp_dict(self):
@@ -77,7 +77,6 @@ def create_xml(file_name):
 
 
 def create_zip(file_name, f):
-    # zf = zipfile.ZipFile('4041070c-bd83-11e8-af9f-fc017c3bd1b0.zip', 'r')
     print('creating archive')
     zf_name = str(uuid.uuid1())
     with zipfile.ZipFile('{}.zip'.format(zf_name), mode='w') as zf:
@@ -88,34 +87,20 @@ def create_zip(file_name, f):
 
 def main():
     ftp = FTP()  # 设置变量
-
     ftp.connect("110.249.163.246", 21)  # 连接的ftp sever和端口
-
     ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
-
-    # zf = zipfile.ZipFile('4041070c-bd83-11e8-af9f-fc017c3bd1b0.zip', 'r')
-    print('creating archive')
-    # zf = zipfile.ZipFile('{}.zip'.format(str(uuid.uuid1())), mode='w')
-    # try:
-    #     print('adding readme.txt')
-    #     zf.write('text.xml')
-    # finally:
-    #     print('closing')
-    #     zf.close()
-
-    # filepath = datetime.datetime.now().strftime("%Y%m%d")
-    filepath = '20180926'
-    # filename = uuid.uuid1()
+    print('ftp连接成功')
+    filepath = datetime.datetime.now().strftime("%Y%m%d")
     filename = '37eadc0a-c160-11e8-8b1e-fc017c3bd1b0.zip'
     cmd = 'STOR /{}/{}'.format(filepath, filename)
-
     ftp.storbinary(cmd, open(filename, 'rb'))
     print('end')
+
 
 if __name__ == '__main__':
     f = Ftp()
     infos = f.ftp_dict()
     # print(f.info_list())
-    file_name = f.hash_md5()
+    file_name = f.hash_md5(f.url)
     create_xml(file_name)
     create_zip(file_name, f)

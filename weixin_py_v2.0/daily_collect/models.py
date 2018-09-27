@@ -1,5 +1,8 @@
 import json
+import os
 import time
+from ftplib import FTP
+
 import requests
 from utils import log
 import re
@@ -272,6 +275,29 @@ class JsonEntity(object):
                 count += 1
             log('uploads datacenter_unity over')
 
+    def uploads_ftp(self, ftp_info, ftp_list):
+        if len(ftp_list) > 15:
+            ftp_list = ftp_list[:10]
+        zf_name = str(uuid.uuid1()) + '.zip'
+        with zipfile.ZipFile('ftp/{}'.format(zf_name), mode='w') as zf:
+            zf_comment = ftp_info.ftp_note()
+            zf.comment = str(zf_comment).encode('gbk')
+            for file_name in ftp_list:
+                zf.write(file_name)
+                os.remove(file_name)
+
+        ftp = FTP()  # 设置变量
+        ftp.connect("110.249.163.246", 21)  # 连接的ftp sever和端口
+        ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
+        filepath = datetime.datetime.now().strftime("%Y%m%d")
+        # filename = uuid.uuid1()
+        filename = zf_name
+        log(filename)
+        cmd = 'STOR /{}/{}'.format(filepath, filename)
+
+        ftp.storbinary(cmd, open('ftp/{}'.format(filename), 'rb'))
+        log('上传成功')
+
 
 class Backpack(object):
     # 首字母大写兼容发包字段
@@ -319,6 +345,7 @@ class Backpack(object):
         uploads_body.update({'body': json.dumps(self.to_dict())})
         return uploads_body
 
+
 import datetime
 import hashlib
 import uuid
@@ -328,7 +355,7 @@ from lxml import etree
 
 class Ftp(object):
     def __init__(self, entity):
-        self.id = entity.id
+        self.id = int(entity.account_id)
         self.url = entity.url
         self.title = entity.title
         self.content = entity.content
