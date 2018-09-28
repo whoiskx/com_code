@@ -177,16 +177,16 @@ class AccountHttp(object):
             title_txt = str(v)
             title_txt = etree.CDATA(title_txt)
             sub_tag.text = title_txt
-        dataxml = etree.tostring(data, pretty_print=True, encoding="UTF-8", method="xml", xml_declaration=True,
-                                 standalone=None)
-        print(dataxml.decode("utf-8"))
+        # dataxml = etree.tostring(data, pretty_print=True, encoding="UTF-8", method="xml", xml_declaration=True,
+        #                          standalone=None)
+        # print(dataxml.decode("utf-8"))
         etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
 
     def run(self):
         while True:
             # account_list = self.account_list()
-            # ['nthsh0513', 'jun_road', 'bbl100', 'QQ727456789', 'chizhouren0566']
-            account_list = ['nthsh0513', 'jun_road', 'bbl100', 'QQ727456789', 'chizhouren0566']
+            # ['mmzheshu', 'chinajsb', 'bzsgqt', 'cfyonglehui', 'szqdntv']
+            account_list = ['mmzheshu']
             for _account in account_list:
                 self.search_name = _account
                 html_account = self.account_homepage()
@@ -214,7 +214,7 @@ class AccountHttp(object):
                     article = Article()
                     article.create(url, account)
                     log('第{}条 文章标题: {}'.format(page_count, article.title))
-                    log("当前文章url: ".format(url))
+                    log("当前文章url: {}".format(url))
                     entity = JsonEntity(article, account)
                     backpack = Backpack()
                     backpack.create(entity)
@@ -227,16 +227,16 @@ class AccountHttp(object):
                     # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
                     self.create_xml(ftp_info.ftp_dict(), name_xml)
                     ftp_list.append(name_xml)
-                    if page_count == 20:
-                        break
+                    # if page_count == 25:
+                    #     break
 
-                entity.uploads_ftp(ftp_info, ftp_list)
+                # entity.uploads_ftp(ftp_info, ftp_list)
 
                 log("发包")
                 if entity:
-                    entity.uploads(backpack_list)
-                    # entity.uploads_datacenter_relay(backpack_list)
-                    entity.uploads_datacenter_unity(backpack_list)
+                    # entity.uploads(backpack_list)
+                    entity.uploads_datacenter_relay(backpack_list)
+                    # entity.uploads_datacenter_unity(backpack_list)
         log("发包完成")
                 #     break
 
