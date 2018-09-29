@@ -13,11 +13,10 @@ import json
 
 from lxml import etree
 
-from setting import log
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack, Ftp
-from config import get_mysql_new, log
-from utils import uploads_mysql
+from config import get_mysql_new
+from utils import uploads_mysql, log
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -180,13 +179,14 @@ class AccountHttp(object):
         # dataxml = etree.tostring(data, pretty_print=True, encoding="UTF-8", method="xml", xml_declaration=True,
         #                          standalone=None)
         # print(dataxml.decode("utf-8"))
+        file_name = os.path.join(current_dir, 'xml', file_name)
         etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
 
     def run(self):
         while True:
             # account_list = self.account_list()
-            # ['mmzheshu', 'chinajsb', 'bzsgqt', 'cfyonglehui', 'szqdntv']
-            account_list = ['mmzheshu']
+            # account_list = ['szqdntv']
+            account_list = ['scbyby', 'runsky--news', 'ydweicom']
             for _account in account_list:
                 self.search_name = _account
                 html_account = self.account_homepage()
@@ -227,17 +227,18 @@ class AccountHttp(object):
                     # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
                     self.create_xml(ftp_info.ftp_dict(), name_xml)
                     ftp_list.append(name_xml)
-                    # if page_count == 25:
+                    # if page_count == 2:
                     #     break
-
-                # entity.uploads_ftp(ftp_info, ftp_list)
+                
+                entity.uploads_ftp(ftp_info, ftp_list)
 
                 log("发包")
                 if entity:
+                    pass
                     # entity.uploads(backpack_list)
                     entity.uploads_datacenter_relay(backpack_list)
-                    # entity.uploads_datacenter_unity(backpack_list)
-        log("发包完成")
+                    entity.uploads_datacenter_unity(backpack_list)
+        # log("发包完成")
                 #     break
 
     def crack_sougou(self, url):

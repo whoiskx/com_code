@@ -279,25 +279,31 @@ class JsonEntity(object):
             log('uploads datacenter_unity over')
 
     def uploads_ftp(self, ftp_info, ftp_list):
-        if len(ftp_list) > 15:
-            ftp_list = ftp_list[:30]
+        # if len(ftp_list) > 15:
+        #     ftp_list = ftp_list[:30]
+        current_dir = os.getcwd()
         zf_name = str(uuid.uuid1()) + '.zip'
-        with zipfile.ZipFile('ftp/{}'.format(zf_name), mode='w') as zf:
+        with zipfile.ZipFile(os.path.join(current_dir, 'ftp', zf_name), mode='w') as zf:
             zf_comment = ftp_info.ftp_note()
             zf.comment = str(zf_comment).encode('gbk')
             for file_name in ftp_list:
-                zf.write(file_name)
-                os.remove(file_name)
-        time.sleep(5)
-        ftp = FTP()  # 设置变量
+                zf.write(os.path.join(current_dir, 'xml', file_name), file_name)
+                os.remove(os.path.join(current_dir, 'xml', file_name))
+        # time.sleep(5)
+        ftp = FTP(timeout=7)  # 设置变量
+        ftp.set_debuglevel = 1
+        # socket.setdefaulttimeout(timeout)
         ftp.connect("110.249.163.246", 21)  # 连接的ftp sever和端口
         ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
-        filepath = datetime.datetime.now().strftime("%Y%m%d")
+        filepath = '/' + datetime.datetime.now().strftime("%Y%m%d")
         # filename = uuid.uuid1()
         filename = zf_name
         log(filename)
         cmd = 'STOR /{}/{}'.format(filepath, filename)
-        ftp.storbinary(cmd, open('ftp/{}'.format(filename), 'rb'), blocksize=10240000)
+        try:
+            ftp.storbinary(cmd, open('{}/ftp/{}'.format(current_dir, filename), 'rb'))
+        except Exception as e:
+            log('上传ftp异常:', e)
         log('上传成功')
 
 

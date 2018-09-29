@@ -30,3 +30,21 @@ usr 指 Unix System Resource
         pip install xxx --disable-pip-version-check
         At last, recover the latest version for pip
         pip install --upgrade pip
+
+# 详细版
+   1 安装Chrome           65
+   2 安装对应webdriver     2.38
+   3 安装pip3
+   4 安装zip  直接unzip 解压
+   5 执行程序移到 /usr/local/bin
+   6 更新setuptools
+   7 安装Cython
+   8 安装libffi-dev
+   9 安装requirements.txt  去掉部分安装包
+   10 安装 sudo apt-get install libxml2-dev libxslt-dev
+   11 Pillow
+        sudo apt-get install libjpeg-dev zlib1g-dev
+        pip install Pillow
+   12 pymssql
+        # Install pre-requesite packages
+        sudo apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc

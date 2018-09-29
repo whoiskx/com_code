@@ -151,6 +151,7 @@ class IpSwith(object):
     def run(self):
         error_max = 4
         test_main = 0
+        # requests.DEFAULT_RETRIES = 5
         while True:
             # 拿到所有域名
             # 迭代并判断故障域名
@@ -199,10 +200,15 @@ class IpSwith(object):
                                                 log('切换成功')
                                                 break
                                         log('server fault: status code over 400')
+
                                     else:
+                                        resp.close()
                                         break
                                     log('{} normal '.format(domain))
                                 except requests.exceptions.ConnectionError as e:
+                                    log('requests http max error', e)
+                                    break
+                                except requests.exceptions.Timeout as e:
                                     log('requests', e)
                                     count += 1
                                     if count >= error_max:
