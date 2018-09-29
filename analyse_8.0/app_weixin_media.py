@@ -16,7 +16,7 @@ from collections import Counter
 import requests
 import json
 from pyquery import PyQuery as pq
-from models import JsonEntity, Article, Account, Backpack
+from send_backpack import JsonEntity, Article, Account, Backpack
 from config import get_mysql_new, get_mysql_old
 from utils import log
 from utils import uploads_mysql
@@ -88,7 +88,7 @@ class AccountHttp(object):
             #     account = AccountHttp()
             #     continue
 
-    def send_info(self, info):
+    def send_info(self, info, path):
         loop_count = 0
         while True:
             loop_count += 1
@@ -147,7 +147,94 @@ class AccountHttp(object):
         img_find = e(".img-box").find('img').attr('src')
         url_img_get = 'http:' + img_find
         info['imageUrl'] = url_img_get
-        self.send_info(info)
+        path = ''
+        self.send_info(info, path)
+
+
+        # r_img = requests.get(url_img_get)
+        # img_b = r_img.content
+        #
+        # count_loop = 0
+        # while True:
+        #     # 查询
+        #     count_loop += 1
+        #     if count_loop > 4:
+        #         break
+        #     url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
+        #     result1 = requests.get(url_public)
+        #     info_image = result1.json()
+        #     image_url = info_image.get("imageUrl")
+        #     image_id = info_image.get("id")
+        #     if not image_id:
+        #         # 增源
+        #         config_mysql_old = get_mysql_old()
+        #         db = pymssql.connect(**config_mysql_old)
+        #         cursor = db.cursor()
+        #         account_link = e(".tit").find('a').attr('href')
+        #         homepage = self.s.get(account_link, cookies=self.cookies)
+        #         # var biz = "MzU0MDUxMjM4OQ==" || ""
+        #         biz_find = re.search('var biz = ".*?"', homepage.text)
+        #         biz = ''
+        #         if biz_find:
+        #             biz = biz_find.group().replace('var biz = ', '')
+        #         info["biz"] = biz
+        #         try:
+        #             sql_insert = """
+        #                     INSERT INTO WXAccount(Name, Account, CollectionTime, Biz, Feature, Certification)
+        #                     VALUES ('{}', '{}', GETDATE(), '{}', '{}', '{}')""".format(info.get('name'),
+        #                                                                                info.get('account'),
+        #                                                                                info.get('biz'),
+        #                                                                                info.get('features'),
+        #                                                                                info.get('certified'))
+        #             cursor.execute(sql_insert)
+        #             db.commit()
+        #             log('插入数据成功', info.get('name'))
+        #             log("当前账号id为0 需要添加{}".format(self.name))
+        #         except Exception as e:
+        #             log('插入数据错误', e)
+        #             db.rollback()
+        #             continue
+        #         time.sleep(5)
+        #         continue
+        #         # add_account(name,info account, url, collectiontime, biz)
+        #         # time.sleep(6)
+        #         # find = get_account(account)
+        #         # if not find:
+        #         #     tinfoime.sleep(6)
+        #         # Images/126767/126767400.jpg
+        #     path = 'Images/' + str(image_id // 1000) + '/' + str(image_id)
+        #     self.send_info(info, path)
+
+            # 假设账号已存在
+            # url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
+            # result1 = requests.get(url_public)
+            # info_image = result1.json()
+            # image_url = info_image.get("imageUrl")
+            # image_id = info_image.get("id")
+            # if image_url:
+            #     # 有头像 判断图片有效 默认ID一定有
+            #     # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
+            #     url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
+            #     r_img = requests.get(url2)
+            #     if 'Images/0/0.jpg' in r_img.text:
+            #         log('账号:{} 头像失效'.format(self.name))
+            #
+            #         # 保存图像
+            #         self.handle_img(img_b, image_id, info, path)
+            #         # url_img = 'http://47.99.50.93:8009/SaveImage'
+            #         # data_img = {'content': base64.b64encode(img_b), 'account_id': image_id}
+            #         # r = requests.post(url_img, data=data_img)
+            #         # log('头像上传:', r.status_code)
+            #     break
+            # else:
+            #     # 没有头像
+            #     # 保存头像
+            #     if info_image.get('id'):
+            #         # url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
+            #         # requests.post(url_save)
+            #         log('保存头像')
+            #         self.handle_img(img_b, image_id, info, path)
+            #     break
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -156,30 +243,44 @@ class AccountHttp(object):
             count += 1
             if count > 2:
                 break
-            log('start', c)
+            log('start', self.name)
             search_url = self.url.format(self.name)
+            # referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(
+            #     self.name)
+            # self.headers['Referer'] = referer
+            # self.url = 'http://weixin.sogou.com/weixin?query={}'.format(self.name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
             log(e('title').text())
             if '搜狗' not in e('title').text():
                 log('初始化session')
                 self.s = requests.session()
+
             if self.name in e(".info").eq(0).text():
                 account_link = e(".tit").find('a').attr('href')
                 self.uploads_account_info(e)
+                account_match = re.search(r'微信号：\w*', e.text())
+                account_search = account_match.group().replace('微信号：', '') if account_match else ''
+
                 homepage = self.s.get(account_link, cookies=self.cookies)
                 if '<title>请输入验证码 </title>' in homepage.text:
                     self.crack_sougou(account_link)
                     homepage = self.s.get(account_link, cookies=self.cookies)
-                return homepage.text, self.name
+                    # log('破解验证码之后')
+                account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
+                # 搜索页面有account，公众号主页有account，确保找到account
+                return homepage.text, account or account_search
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.name))
                 break
             if '相关的官方认证订阅号' in resp_search.text:
-                log("搜狗找不到该公众号: {}".format(self.name))
-                return '搜狗无该账号', self.name
+                log("找不到该公众号: {}".format(self.name))
+                break
             else:
-                log('url cookie 失效', search_url)
+                # 处理验证码
+                log(search_url)
+                # log(resp_search.text)
+                log('验证之前的cookie', self.cookies)
                 try_count = 0
                 while True:
                     try_count += 1
@@ -196,10 +297,12 @@ class AccountHttp(object):
                     elif try_count > 6:
                         log("浏览器验证失败")
                         break
+
                 log("验证完毕")
                 time.sleep(2)
                 # 被跳过的公众号要不要抓取  大概 4次
                 continue
+
 
     def set_name(self):
         url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
@@ -215,16 +318,16 @@ class AccountHttp(object):
         urls = []
         for item in items:
             url_last = item[15:-18].replace('amp;', '')
-            url = 'https://mp.weixin.qq.com' + url_last
             # 部分是永久链接
             if '_biz' in url_last:
                 url = re.search('http://mp.weixin.qq.*?wechat_redirect', url_last).group()
                 urls.append(url)
                 continue
-            # 可能匹配过多，再次匹配
-            if 'content_url' in url:
-                item = re.search('"content_url":".*?wechat_redirect', url).group()
-                url = item[15:].replace('amp;', '')
+            url = 'https://mp.weixin.qq.com' + url_last
+            # # 再次匹配
+            # if len(url) > 260:
+            #     item = re.search('"content_url":".*?wechat_redirect', url).group()
+            #     url = item[15:].replace('amp;', '')
             urls.append(url)
         return urls
 
@@ -296,7 +399,7 @@ class AccountHttp(object):
             log('文章标题:', article.title)
             log("第{}条".format(page_count))
 
-            # 超过7天不管
+            # 超过9天不管
             if article.time:
                 article_date = datetime.datetime.fromtimestamp(int(article.time[:-3]))
                 day_diff = datetime.datetime.now().date() - article_date.date()
@@ -312,6 +415,7 @@ class AccountHttp(object):
             backpack = Backpack()
             backpack.create(entity)
             backpack_list.append(backpack.create_backpack())
+
             # 所有文章
             article_info = backpack.to_dict()
             articles.append(article_info)
@@ -345,13 +449,38 @@ class AccountHttp(object):
         # 处理文章
         result = handle(articles)
         result['KeyWord'] = key_word
+
+        # 正负判断
+        # with open('positive.txt', 'r', encoding='utf-8') as f:
+        #     positive = f.read()
+        # with open('nagetive.txt', 'r', encoding='utf-8') as f:
+        #     nagetive = f.read()
+        # # key_list = list(key_words_counter)
+        # log(len(Counter(key_words_list).most_common()))
+        # count_positive = 0
+        # count_nagetive = 0
+        # for key in Counter(key_words_list).most_common():
+        #     k, c = key
+        #     if k in positive.split('\n'):
+        #         count_positive += c
+        #
+        #     if k in nagetive.split('\n'):
+        #         count_nagetive += c
+        # log(count_positive)
+        #
+        # log(count_nagetive)
+
         result['ArtPosNeg'] = {'Indicate': {'Positive': positive_article, 'Negative': nagetive_article}}
         result['Success'] = True
         result['Account'] = self.name
         result['Message'] = ''
+
+        log('====', self.name)
         db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
-        log('{} 抓取完成'.format(self.name))
+        log('数据抓取完成')
+
         # 向前端发送成功请求
+        # article_detaile = db['newMedia'].find_one({'Account': self.name})
         self.status = 3
         self.send_result()
 
@@ -400,7 +529,6 @@ class AccountHttp(object):
                     except:
                         log('--22222222----验证码输入错误------')
             except Exception as e:
-                log(e)
                 log('------未跳转到验证码页面，跳转到首页，忽略------')
 
         elif re.search('mp\.weixin\.qq\.com', url):
@@ -415,7 +543,7 @@ class AccountHttp(object):
                 'input': captch_input
             }
             self.s.post(image_url, cookies=self.cookies, data=data)
-            log('------微信验证码处理完成------')
+            log('------cookies已更新------')
 
 
 class Task(object):
@@ -469,6 +597,8 @@ def find_account():
 
 
 if __name__ == '__main__':
+    # t = Task()
+    # t.listen_task()
     account = AccountHttp()
     t = AccountHttp()
     if t.driver:

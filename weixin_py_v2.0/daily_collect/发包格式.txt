@@ -25,5 +25,26 @@
     https://110.249.163.247:8171/queryScheduler/wxquery/?usr=jqwang&passwd=1234asdf4321&author=%E5%94%90%E5%94%90%E5%81%87%E6%9C%9F&hl=false&ir=all&rows=500
 
 # 数据分发中心
+    'http://27.17.18.131:38072'
+    数据中心：datacenter_Yweixin
+    datacenter_Yweixin = [
+                    {
+                        "headers": {
+                            "topic": "Yweixin",
+                        },
+                        "body": json.dumps(self.need_send_all)
+                    },
+
+                ]
 
 # 三合一检索
+    'http://222.184.225.246:8171'
+    datacenter_YproWeixin = [
+                    {
+                        "headers": {
+                            "topic": "YproWeixin",
+                        },
+                        "body": json.dumps(self.need_send_pro_all)
+                    },
+                ]
+

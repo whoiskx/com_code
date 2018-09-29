@@ -4,9 +4,6 @@ import os
 import random
 import re
 import time
-import uuid
-import zipfile
-from ftplib import FTP
 
 import requests
 import json
@@ -14,9 +11,9 @@ import json
 from lxml import etree
 
 from pyquery import PyQuery as pq
-from models import JsonEntity, Article, Account, Backpack, Ftp
+from models import JsonEntity, Article, Account, Backpack
 from config import get_mysql_new
-from utils import uploads_mysql, log
+from utils import uploads_mysql, log, mongo_conn
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -74,7 +71,7 @@ class AccountHttp(object):
                 self.s = requests.session()
             if self.search_name in e(".info").eq(0).text():
                 account_link = e(".tit").find('a').attr('href')
-                self.name = e(".tit").text()
+                self.name = e(".tit").eq(0).text()
                 homepage = self.s.get(account_link, cookies=self.cookies)
                 if '<title>请输入验证码 </title>' in homepage.text:
                     self.crack_sougou(account_link)
@@ -185,8 +182,8 @@ class AccountHttp(object):
     def run(self):
         while True:
             # account_list = self.account_list()
-            # account_list = ['szqdntv']
-            account_list = ['scbyby', 'runsky--news', 'ydweicom']
+            account_list = ['dalianwanbao']
+            # account_list = ['scbyby', 'runsky--news', 'ydweicom']
             for _account in account_list:
                 self.search_name = _account
                 html_account = self.account_homepage()
@@ -202,7 +199,9 @@ class AccountHttp(object):
                 account.account = _account
                 account.get_account_id()
                 if not account.account_id:
-                    log("没有account_id")
+                    log("没有account_id", account.account)
+                    db_mongo = mongo_conn()
+                    db_mongo['noAccountId'].insert({'account': account.account})
 
                 entity = None
                 backpack_list = []
@@ -222,15 +221,15 @@ class AccountHttp(object):
                     self.save_to_mysql(entity)
 
                     # ftp包
-                    ftp_info = Ftp(entity)
-                    name_xml = ftp_info.hash_md5(ftp_info.url)
-                    # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
-                    self.create_xml(ftp_info.ftp_dict(), name_xml)
-                    ftp_list.append(name_xml)
-                    # if page_count == 2:
-                    #     break
-                # todo 发包超时，修改MTU
-                entity.uploads_ftp(ftp_info, ftp_list)
+                #     ftp_info = Ftp(entity)
+                #     name_xml = ftp_info.hash_md5(ftp_info.url)
+                #     # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
+                #     self.create_xml(ftp_info.ftp_dict(), name_xml)
+                #     ftp_list.append(name_xml)
+                #     # if page_count == 2:
+                #     #     break
+                # # todo 发包超时，修改MTU
+                # entity.uploads_ftp(ftp_info, ftp_list)
 
                 log("发包")
                 if entity:

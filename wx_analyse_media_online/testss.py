@@ -88,25 +88,39 @@ import requests
 # print(resp.status_code)
 
 # 分词
-content = '赵饶生身为党员领导干部，丧失理想信念和党性原则，严重违反党的纪律和国家法律法规，并涉嫌职务犯罪，性质恶劣、情节严重。依据《中国共产党纪律处分条例》《中华人民共和国监察法》等有关规定，经中共萍乡市委批准，中共萍乡市纪委、萍乡市监察委员会决定给予赵饶生开除党籍处分、取消其退休待遇；收缴赵饶生违纪违法所得；将赵饶生涉嫌挪用公款、滥用职权犯罪问题移送检察机关依法审查、提起公诉'
-key_words_list = []
-seg_list = jieba.cut(content)
-for s in seg_list:
-    if re.search('[\u4e00-\u9fff]+', s):
-        key_words_list.append(s)
-print(key_words_list)
-with open('positive.txt', 'r', encoding='utf-8') as f:
-    positive = f.read()
-with open('nagetive.txt', 'r', encoding='utf-8') as f:
-    nagetive = f.read()
-# key_list = list(key_words_counter)
-count_positive = 0
-count_nagetive = 0
-for key in key_words_list:
-    if key in positive.split('\n'):
-        count_positive += 1
-    if key in nagetive.split('\n'):
-        count_nagetive += 1
-print(count_positive)
+# content = '赵饶生身为党员领导干部，丧失理想信念和党性原则，严重违反党的纪律和国家法律法规，并涉嫌职务犯罪，性质恶劣、情节严重。依据《中国共产党纪律处分条例》《中华人民共和国监察法》等有关规定，经中共萍乡市委批准，中共萍乡市纪委、萍乡市监察委员会决定给予赵饶生开除党籍处分、取消其退休待遇；收缴赵饶生违纪违法所得；将赵饶生涉嫌挪用公款、滥用职权犯罪问题移送检察机关依法审查、提起公诉'
+# key_words_list = []
+# seg_list = jieba.cut(content)
+# for s in seg_list:
+#     if re.search('[\u4e00-\u9fff]+', s):
+#         key_words_list.append(s)
+# print(key_words_list)
+# with open('positive.txt', 'r', encoding='utf-8') as f:
+#     positive = f.read()
+# with open('nagetive.txt', 'r', encoding='utf-8') as f:
+#     nagetive = f.read()
+# # key_list = list(key_words_counter)
+# count_positive = 0
+# count_nagetive = 0
+# for key in key_words_list:
+#     if key in positive.split('\n'):
+#         count_positive += 1
+#     if key in nagetive.split('\n'):
+#         count_nagetive += 1
+# print(count_positive)
+#
+# print(count_nagetive)
 
-print(count_nagetive)
+# 读写正负词
+
+with open('positive.txt', 'r', encoding='utf-8') as f:
+    positive = f.read().split('\n')
+with open('nagetive.txt', 'r', encoding='utf-8') as f:
+    nagetive = f.read().split('\n')
+print(len(positive))
+print(len(nagetive))
+
+print(len(set(positive)))
+print(len(set(nagetive)))
+
+print('end')
