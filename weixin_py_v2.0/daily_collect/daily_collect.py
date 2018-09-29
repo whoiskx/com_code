@@ -229,7 +229,7 @@ class AccountHttp(object):
                     ftp_list.append(name_xml)
                     # if page_count == 2:
                     #     break
-                
+                # todo 发包超时，修改MTU
                 entity.uploads_ftp(ftp_info, ftp_list)
 
                 log("发包")
