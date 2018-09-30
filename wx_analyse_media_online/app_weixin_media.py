@@ -156,7 +156,7 @@ class AccountHttp(object):
             count += 1
             if count > 2:
                 break
-            log('start', c)
+            log('start', self.name)
             search_url = self.url.format(self.name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
@@ -166,7 +166,7 @@ class AccountHttp(object):
                 self.s = requests.session()
             if self.name in e(".info").eq(0).text():
                 account_link = e(".tit").find('a').attr('href')
-                self.uploads_account_info(e)
+                # self.uploads_account_info(e)
                 homepage = self.s.get(account_link, cookies=self.cookies)
                 if '<title>请输入验证码 </title>' in homepage.text:
                     self.crack_sougou(account_link)
@@ -268,12 +268,11 @@ class AccountHttp(object):
             log("发送前端结果错误", e)
 
     def run(self):
-        log("fadfsdf", self.cookies)
         html_account = self.account_homepage()
         if html_account:
             html, account_of_homepage = html_account
         else:
-            self.send_result()
+            # self.send_result()
             return
         log('start 公众号: ', self.name)
         urls_article = self.urls_article(html)
@@ -353,7 +352,7 @@ class AccountHttp(object):
         log('{} 抓取完成'.format(self.name))
         # 向前端发送成功请求
         self.status = 3
-        self.send_result()
+        # self.send_result()
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))

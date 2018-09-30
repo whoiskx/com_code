@@ -47,6 +47,7 @@ class Article(object):
                 self.title = '此内容被投诉且经审核涉嫌侵权，无法查看。'
                 return
             self.is_share = True
+            # self.title = e("title").eq(0).text()
             self.title = e("title").text()
             self.content = e(".share_notice").text()
             time_find = re.search('createDate=new Date\("\d*', resp.text)

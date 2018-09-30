@@ -16,7 +16,7 @@ from collections import Counter
 import requests
 import json
 from pyquery import PyQuery as pq
-from send_backpack import JsonEntity, Article, Account, Backpack
+from models import JsonEntity, Article, Account, Backpack
 from config import get_mysql_new, get_mysql_old
 from utils import log
 from utils import uploads_mysql
@@ -88,7 +88,7 @@ class AccountHttp(object):
             #     account = AccountHttp()
             #     continue
 
-    def send_info(self, info, path):
+    def send_info(self, info):
         loop_count = 0
         while True:
             loop_count += 1
@@ -97,7 +97,6 @@ class AccountHttp(object):
             send_info = dict()
             send_info['account'] = info.get('account', '')
             send_info['name'] = info.get('name', '')
-            # send_info['imageUrl'] = path
             send_info['imageUrl'] = info.get('imageUrl', '')
             send_info['message'] = info.get('message', True)
             send_info['feature'] = info.get('features', '')
@@ -147,97 +146,8 @@ class AccountHttp(object):
         img_find = e(".img-box").find('img').attr('src')
         url_img_get = 'http:' + img_find
         info['imageUrl'] = url_img_get
-        path = ''
-        self.send_info(info, path)
-
-
-        # r_img = requests.get(url_img_get)
-        # img_b = r_img.content
-        #
-        # count_loop = 0
-        # while True:
-        #     # 查询
-        #     count_loop += 1
-        #     if count_loop > 4:
-        #         break
-        #     url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
-        #     result1 = requests.get(url_public)
-        #     info_image = result1.json()
-        #     image_url = info_image.get("imageUrl")
-        #     image_id = info_image.get("id")
-        #     if not image_id:
-        #         # 增源
-        #         config_mysql_old = get_mysql_old()
-        #         db = pymssql.connect(**config_mysql_old)
-        #         cursor = db.cursor()
-        #         account_link = e(".tit").find('a').attr('href')
-        #         homepage = self.s.get(account_link, cookies=self.cookies)
-        #         # var biz = "MzU0MDUxMjM4OQ==" || ""
-        #         biz_find = re.search('var biz = ".*?"', homepage.text)
-        #         biz = ''
-        #         if biz_find:
-        #             biz = biz_find.group().replace('var biz = ', '')
-        #         info["biz"] = biz
-        #         try:
-        #             sql_insert = """
-        #                     INSERT INTO WXAccount(Name, Account, CollectionTime, Biz, Feature, Certification)
-        #                     VALUES ('{}', '{}', GETDATE(), '{}', '{}', '{}')""".format(info.get('name'),
-        #                                                                                info.get('account'),
-        #                                                                                info.get('biz'),
-        #                                                                                info.get('features'),
-        #                                                                                info.get('certified'))
-        #             cursor.execute(sql_insert)
-        #             db.commit()
-        #             log('插入数据成功', info.get('name'))
-        #             log("当前账号id为0 需要添加{}".format(self.name))
-        #         except Exception as e:
-        #             log('插入数据错误', e)
-        #             db.rollback()
-        #             continue
-        #         time.sleep(5)
-        #         continue
-        #         # add_account(name,info account, url, collectiontime, biz)
-        #         # time.sleep(6)
-        #         # find = get_account(account)
-        #         # if not find:
-        #         #     tinfoime.sleep(6)
-        #         # Images/126767/126767400.jpg
-        #     path = 'Images/' + str(image_id // 1000) + '/' + str(image_id)
-        #     self.send_info(info, path)
-
-            # 假设账号已存在
-            # url_public = 'http://183.131.241.60:38011/MatchAccount?account={}'.format(self.name)
-            # result1 = requests.get(url_public)
-            # info_image = result1.json()
-            # image_url = info_image.get("imageUrl")
-            # image_id = info_image.get("id")
-            # if image_url:
-            #     # 有头像 判断图片有效 默认ID一定有
-            #     # url2 = 'http://60.190.238.188:38016/{}'.format(image_url)
-            #     url2 = 'http://183.131.241.60:38011/QueryWeChatImage?id={}'.format(image_id)
-            #     r_img = requests.get(url2)
-            #     if 'Images/0/0.jpg' in r_img.text:
-            #         log('账号:{} 头像失效'.format(self.name))
-            #
-            #         # 保存图像
-            #         self.handle_img(img_b, image_id, info, path)
-            #         # url_img = 'http://47.99.50.93:8009/SaveImage'
-            #         # data_img = {'content': base64.b64encode(img_b), 'account_id': image_id}
-            #         # r = requests.post(url_img, data=data_img)
-            #         # log('头像上传:', r.status_code)
-            #     break
-            # else:
-            #     # 没有头像
-            #     # 保存头像
-            #     if info_image.get('id'):
-            #         # url_save = 'http://183.131.241.60:38011/SaveImage/{}'.format(info_image.get('id'))
-            #         # requests.post(url_save)
-            #         log('保存头像')
-            #         self.handle_img(img_b, image_id, info, path)
-            #     break
 
     def account_homepage(self):
-        # 搜索并进入公众号主页
         count = 0
         while True:
             count += 1
@@ -245,10 +155,6 @@ class AccountHttp(object):
                 break
             log('start', self.name)
             search_url = self.url.format(self.name)
-            # referer = 'http://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_=&w=01019900&sut=1565&sst0=1536470115264&lkt=0%2C0%2C0'.format(
-            #     self.name)
-            # self.headers['Referer'] = referer
-            # self.url = 'http://weixin.sogou.com/weixin?query={}'.format(self.name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
             log(e('title').text())

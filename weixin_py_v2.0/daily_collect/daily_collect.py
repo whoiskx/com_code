@@ -28,7 +28,6 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 IMAGE_DIR = os.path.join(BASE_DIR, 'images')
 CAPTCHA_NAME = 'captcha.png'
 
-
 current_dir = os.getcwd()
 
 
@@ -181,8 +180,8 @@ class AccountHttp(object):
 
     def run(self):
         while True:
-            # account_list = self.account_list()
-            account_list = ['dalianwanbao']
+            account_list = self.account_list()
+            # account_list = ['dalianwanbao']
             # account_list = ['scbyby', 'runsky--news', 'ydweicom']
             for _account in account_list:
                 self.search_name = _account
@@ -238,7 +237,7 @@ class AccountHttp(object):
                     entity.uploads_datacenter_relay(backpack_list)
                     entity.uploads_datacenter_unity(backpack_list)
         # log("发包完成")
-                #     break
+        #     break
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
