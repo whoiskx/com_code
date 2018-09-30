@@ -8,7 +8,7 @@ import requests
 import json
 from setting import log
 from pyquery import PyQuery as pq
-from send_backpack import JsonEntity, Article, Account, Backpack
+from models import JsonEntity, Article, Account, Backpack
 from config import get_mysql_new
 from utils import uploads_mysql
 from verification_code import captch_upload_image
@@ -125,7 +125,7 @@ class AccountHttp(object):
     def run(self):
         # self.set_name()
         # while True:
-        account_list = ['江西政读',]
+        account_list = ['有看投',]
         entity = None
         backpack_list = []
         for name in account_list:
@@ -142,13 +142,13 @@ class AccountHttp(object):
             account.name = self.name
             account.account = account_of_homepage
             account.get_account_id()
-            account.account_id = 126774646
+            # account.account_id = 126774646
 
             for page_count, url in enumerate(urls_article):
                 # if page_count < 35:
                 #     continue
                 article = Article()
-                article.create(url, self.name)
+                article.create(url, account)
                 log('文章标题:', article.title)
                 log("第{}条".format(page_count))
 

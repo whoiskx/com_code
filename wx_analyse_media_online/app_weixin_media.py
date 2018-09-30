@@ -74,19 +74,19 @@ class AccountHttp(object):
     @async
     def listen_task(self, account):
         while True:
-        #     try:
+            try:
                 account_char = self.rcon.brpop(self.queue, 0)[1]
                 account.name = account_char.decode(encoding="utf-8")
                 account.run()
                 # if account.driver:
                 #     account.driver.quit()
                 log("消耗一个account")
-            # except Exception as e:
-            #     log('error', '重启', e)
-            #     if account.driver:
-            #         account.driver.quit()
-            #     account = AccountHttp()
-            #     continue
+            except Exception as e:
+                log('error', '重启', e)
+                if account.driver:
+                    account.driver.quit()
+                account = AccountHttp()
+                continue
 
     def send_info(self, info):
         loop_count = 0
@@ -154,7 +154,7 @@ class AccountHttp(object):
         count = 0
         while True:
             count += 1
-            if count > 2:
+            if count > 3:
                 break
             log('start', self.name)
             search_url = self.url.format(self.name)
@@ -460,18 +460,26 @@ def find_account():
     log('find', accountid)
     item = db['newMedia'].find_one({'id': accountid, })
     if item:
-        result = item.get('data', 'catch unfinished')
-        return json.dumps(result)
-    else:
-        error_result.update({'Message': "account not found"})
-        return json.dumps(error_result)
+        data = item.get('data')
+        if data:
+            analyse_result = dict()
+            analyse_result['Success'] = data.get('Success')
+            analyse_result['Account'] = data.get('Account')
+            analyse_result['Message'] = data.get('Message')
+            analyse_result['ArtPubInfo'] = data.get('ArtPubInfo')
+            analyse_result['ActiveDegree'] = data.get('ActiveDegree')
+            analyse_result['KeyWord'] = data.get('KeyWord')
+            analyse_result['ArtPosNeg'] = data.get('ArtPosNeg')
+            return json.dumps(analyse_result)
+    error_result.update({'Message': "account not found"})
+    return json.dumps(error_result)
 
 
 if __name__ == '__main__':
     account = AccountHttp()
-    t = AccountHttp()
-    if t.driver:
-        t.driver.close()
-    t.listen_task(account)
-
+    account.listen_task()
+    # t = AccountHttp()
+    # if t.driver:
+    #     t.driver.close()
+    # t.listen_task(account)
     app.run(host='0.0.0.0', port=8008)
