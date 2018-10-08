@@ -36,6 +36,7 @@ def get_mysql_old():
         'database': MYSQL_DATABASE,
         'password': MYSQL_PASSWORD,
         'charset': 'utf8',
+        'connect_timeout': 10
     }
     return config_mysql
 

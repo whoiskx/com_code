@@ -2,7 +2,7 @@
 
 account = ['chaoliunvren88', 'gh_eef8a18dc008', 'novonordisktsyds', 'shengxiao_55', 'dqsj66', 'cy2915', 'sschaoliu',
            'duzhe3650', 'mlketang', 'nnm668', 'weicnjr', 'gh_670031e375a0', 'qiyangtongcom', 'sbsb65', 'xxooshimei',
-           'gh_4aba38755586', 'qqwrd007', 'jrhycom', 'bxlcwcom', 'nanren94188', 'zyyst99', 'mykd2014', 'pm6668888',
+           'gh_4aba38755586', 'qqwrd007', 'jrhycom', 'bxlcwcom', '0a95ff8df0c5f81b79e33f6b6bb9762c', 'zyyst99', 'mykd2014', 'pm6668888',
            'immissi', 'nvren3778', 'zhs66688', 'wpt886', 'nv5788', 'lizhi743', 'yyoo778', 'hulianwangtoutiao',
            'niudaoouba', 'scgc1213', 'fcwm520', 'hanguoxingyule', 'EXOlll', 'remen366', 'inernv', 'xchangshi',
            'mmmfff66', 'xgrasx', 'YWTVshopping', 'shmeishizixun', 'gh_007b238ac9b0', 'rqxxdt', 'lehuozsy',
@@ -15,16 +15,17 @@ account = ['chaoliunvren88', 'gh_eef8a18dc008', 'novonordisktsyds', 'shengxiao_5
            'wxkj6868', 'ToneStudio', 'gh_151468fc305a', 'ceceapp', 'aibeipiao', 'golfimpress-lee', 'www0550com',
            'muyingwenda', 'paceglobal']
 
+
 print(len(account))
 import requests
 
 url1 = 'http://127.0.0.1:8008/WeiXinArt/AddAccount?account={}'
 # url2 = 'http://182.245.126.226:8312/WeiXinArt/AddAccount?account={}'
 for i, a in enumerate(account):
-    url = url1.format('fcwm520')
+    url = url1.format(a)
     r = requests.get(url)
     print(r.text)
-    break
+    # break
     # if i > 5:
     #     break
 print('end')

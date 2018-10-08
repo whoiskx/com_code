@@ -4,3 +4,7 @@ MySQL 更新
 
 selenium
     driver url 不是以https 开头的  www开头导致 错误
+
+notepad++
+    tab -> 空格
+    设置->首选项->语言->右下角 替换为空格

@@ -12,7 +12,7 @@ class WxCheck(object):
         self.account_list = []
         self.url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=20&starttime=20180825&endtime=20180925'
         self.write_list = []
-        self.save_name = 'result.xlsx'
+        self.save_name = '{}.xlsx'.format(str(datetime.datetime.today().date()))
 
     def read(self):
         wb = load_workbook(self.read_name)

@@ -72,20 +72,21 @@ class AccountHttp(object):
         self.status = 4
 
     @async
-    def listen_task(self, account):
+    def listen_task(self):
         while True:
             try:
+                if not self.driver:
+                    chrome_options = webdriver.ChromeOptions()
+                    chrome_options.add_argument('--headless')
+                    self.driver = webdriver.Chrome(chrome_options=chrome_options)
                 account_char = self.rcon.brpop(self.queue, 0)[1]
-                account.name = account_char.decode(encoding="utf-8")
-                account.run()
-                # if account.driver:
-                #     account.driver.quit()
+                self.name = account_char.decode(encoding="utf-8")
+                self.run()
                 log("消耗一个account")
             except Exception as e:
                 log('error', '重启', e)
-                if account.driver:
-                    account.driver.quit()
-                account = AccountHttp()
+                if self.driver:
+                    self.driver.quit()
                 continue
 
     def send_info(self, info):
@@ -466,6 +467,7 @@ def find_account():
             analyse_result['Success'] = data.get('Success')
             analyse_result['Account'] = data.get('Account')
             analyse_result['Message'] = data.get('Message')
+            analyse_result['count'] = data.get('count')
             analyse_result['ArtPubInfo'] = data.get('ArtPubInfo')
             analyse_result['ActiveDegree'] = data.get('ActiveDegree')
             analyse_result['KeyWord'] = data.get('KeyWord')
