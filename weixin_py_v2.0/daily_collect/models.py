@@ -260,6 +260,8 @@ class JsonEntity(object):
                         'ClassifyID': '',
                         'IsGarbage': 0,
                         'ShortUrl': '',
+                        'Tags': '',
+                        'DefinedSite': '',
                     }, ensure_ascii=False)
                 })
 
@@ -364,12 +366,13 @@ from lxml import etree
 
 class Ftp(object):
     def __init__(self, entity):
+        # 对应的服务器字段  publistTime 发文时间， collectTime和addonTime都是采集时间 大概三分钟延迟
         self.id = int(entity.account_id)
         self.url = entity.url
         self.title = entity.title
         self.content = entity.content
         self.author = entity.author
-        self.time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        self.time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(entity.time[:-3])))
         self.account = entity.account
 
     def hash_md5(self, s):
@@ -405,8 +408,8 @@ class Ftp(object):
             # 是否是首页
             "home": 0,
             "channel": 20,
-            # 采集时间
-            "addon": self.time
+            # 采集时间,抓取的时间
+            "addon": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         }
         note_json = json.dumps(note, ensure_ascii=False)
         return str(note_json)

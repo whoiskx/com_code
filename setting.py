@@ -13,12 +13,13 @@ def log(*args, **kwargs):
     with open('log.txt', 'a', encoding='utf-8') as f:
         print(dt, *args, file=f, **kwargs)
 
+
 email = "live41@163.com"
 password = "cs-123456"
 
+
 # email = '574613576@qq.com'
 # password = 'jh123258456'
-
 
 
 # 启动driver
@@ -79,11 +80,13 @@ def execute_times(driver, times=1):
             log('posts_html_22_{}写入文件夹'.format(i))
             time.sleep(15)
 
+
 def hash_md5(s):
     import hashlib
     m = hashlib.md5()
     m.update(s.encode(encoding='utf-8'))
     return m.hexdigest()
+
 
 # pymongo
 conn = pymongo.MongoClient('127.0.0.1', 27017)
@@ -109,4 +112,3 @@ config_mysql = {
 
 db = pymysql.connect(**config_mysql)
 cursor = db.cursor()
-

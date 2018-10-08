@@ -11,7 +11,7 @@ import json
 from lxml import etree
 
 from pyquery import PyQuery as pq
-from models import JsonEntity, Article, Account, Backpack
+from models import JsonEntity, Article, Account, Backpack, Ftp
 from config import get_mysql_new
 from utils import uploads_mysql, log, mongo_conn
 
@@ -181,9 +181,9 @@ class AccountHttp(object):
     def run(self):
         while True:
             try:
-                account_list = self.account_list()
+                # account_list = self.account_list()
                 # account_list = ['dalianwanbao']
-                # account_list = ['scbyby', 'runsky--news', 'ydweicom']
+                account_list = ['changzhixinwen', 'zxw365500', 'ch020net', 'ycwzx8']
                 for _account in account_list:
                     self.search_name = _account
                     html_account = self.account_homepage()
@@ -221,15 +221,15 @@ class AccountHttp(object):
                         self.save_to_mysql(entity)
 
                         # ftp包
-                    #     ftp_info = Ftp(entity)
-                    #     name_xml = ftp_info.hash_md5(ftp_info.url)
-                    #     # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
-                    #     self.create_xml(ftp_info.ftp_dict(), name_xml)
-                    #     ftp_list.append(name_xml)
-                    #     # if page_count == 2:
-                    #     #     break
-                    # # todo 发包超时，修改MTU
-                    # entity.uploads_ftp(ftp_info, ftp_list)
+                        ftp_info = Ftp(entity)
+                        name_xml = ftp_info.hash_md5(ftp_info.url)
+                        # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
+                        self.create_xml(ftp_info.ftp_dict(), name_xml)
+                        ftp_list.append(name_xml)
+                        # if page_count == 2:
+                        #     break
+                    # todo 发包超时，修改MTU
+                    entity.uploads_ftp(ftp_info, ftp_list)
 
                     log("发包")
                     if entity:
@@ -237,8 +237,8 @@ class AccountHttp(object):
                         # entity.uploads(backpack_list)
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
-            # log("发包完成")
-            #     break
+                log("发包完成")
+                break
             except Exception as e:
                 log("程序出错", e)
                 continue
