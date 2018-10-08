@@ -19,7 +19,6 @@ from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack
 from config import get_mysql_new, get_mysql_old
 from utils import log
-from utils import uploads_mysql
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -72,21 +71,22 @@ class AccountHttp(object):
         self.status = 4
 
     @async
-    def listen_task(self, account):
+    def listen_task(self):
         while True:
-        #     try:
+            try:
+                if not self.driver:
+                    chrome_options = webdriver.ChromeOptions()
+                    chrome_options.add_argument('--headless')
+                    self.driver = webdriver.Chrome(chrome_options=chrome_options)
                 account_char = self.rcon.brpop(self.queue, 0)[1]
-                account.name = account_char.decode(encoding="utf-8")
-                account.run()
-                # if account.driver:
-                #     account.driver.quit()
+                self.name = account_char.decode(encoding="utf-8")
+                self.run()
                 log("消耗一个account")
-            # except Exception as e:
-            #     log('error', '重启', e)
-            #     if account.driver:
-            #         account.driver.quit()
-            #     account = AccountHttp()
-            #     continue
+            except Exception as e:
+                log('error', '重启', e)
+                if self.driver:
+                    self.driver.quit()
+                continue
 
     def send_info(self, info):
         loop_count = 0
@@ -97,6 +97,7 @@ class AccountHttp(object):
             send_info = dict()
             send_info['account'] = info.get('account', '')
             send_info['name'] = info.get('name', '')
+            # send_info['imageUrl'] = path
             send_info['imageUrl'] = info.get('imageUrl', '')
             send_info['message'] = info.get('message', True)
             send_info['feature'] = info.get('features', '')
@@ -146,12 +147,14 @@ class AccountHttp(object):
         img_find = e(".img-box").find('img').attr('src')
         url_img_get = 'http:' + img_find
         info['imageUrl'] = url_img_get
+        self.send_info(info)
 
     def account_homepage(self):
+        # 搜索并进入公众号主页
         count = 0
         while True:
             count += 1
-            if count > 2:
+            if count > 3:
                 break
             log('start', self.name)
             search_url = self.url.format(self.name)
@@ -161,32 +164,22 @@ class AccountHttp(object):
             if '搜狗' not in e('title').text():
                 log('初始化session')
                 self.s = requests.session()
-
             if self.name in e(".info").eq(0).text():
                 account_link = e(".tit").find('a').attr('href')
-                self.uploads_account_info(e)
-                account_match = re.search(r'微信号：\w*', e.text())
-                account_search = account_match.group().replace('微信号：', '') if account_match else ''
-
+                # self.uploads_account_info(e)
                 homepage = self.s.get(account_link, cookies=self.cookies)
                 if '<title>请输入验证码 </title>' in homepage.text:
                     self.crack_sougou(account_link)
                     homepage = self.s.get(account_link, cookies=self.cookies)
-                    # log('破解验证码之后')
-                account = pq(homepage.text)('.profile_account').text().replace('微信号: ', '')
-                # 搜索页面有account，公众号主页有account，确保找到account
-                return homepage.text, account or account_search
+                return homepage.text, self.name
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.name))
                 break
             if '相关的官方认证订阅号' in resp_search.text:
-                log("找不到该公众号: {}".format(self.name))
-                break
+                log("搜狗找不到该公众号: {}".format(self.name))
+                return '搜狗无该账号', self.name
             else:
-                # 处理验证码
-                log(search_url)
-                # log(resp_search.text)
-                log('验证之前的cookie', self.cookies)
+                log('url cookie 失效', search_url)
                 try_count = 0
                 while True:
                     try_count += 1
@@ -203,12 +196,10 @@ class AccountHttp(object):
                     elif try_count > 6:
                         log("浏览器验证失败")
                         break
-
                 log("验证完毕")
                 time.sleep(2)
                 # 被跳过的公众号要不要抓取  大概 4次
                 continue
-
 
     def set_name(self):
         url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
@@ -224,16 +215,16 @@ class AccountHttp(object):
         urls = []
         for item in items:
             url_last = item[15:-18].replace('amp;', '')
+            url = 'https://mp.weixin.qq.com' + url_last
             # 部分是永久链接
             if '_biz' in url_last:
                 url = re.search('http://mp.weixin.qq.*?wechat_redirect', url_last).group()
                 urls.append(url)
                 continue
-            url = 'https://mp.weixin.qq.com' + url_last
-            # # 再次匹配
-            # if len(url) > 260:
-            #     item = re.search('"content_url":".*?wechat_redirect', url).group()
-            #     url = item[15:].replace('amp;', '')
+            # 可能匹配过多，再次匹配
+            if 'content_url' in url:
+                item = re.search('"content_url":".*?wechat_redirect', url).group()
+                url = item[15:].replace('amp;', '')
             urls.append(url)
         return urls
 
@@ -277,12 +268,11 @@ class AccountHttp(object):
             log("发送前端结果错误", e)
 
     def run(self):
-        log("fadfsdf", self.cookies)
         html_account = self.account_homepage()
         if html_account:
             html, account_of_homepage = html_account
         else:
-            self.send_result()
+            # self.send_result()
             return
         log('start 公众号: ', self.name)
         urls_article = self.urls_article(html)
@@ -305,7 +295,7 @@ class AccountHttp(object):
             log('文章标题:', article.title)
             log("第{}条".format(page_count))
 
-            # 超过9天不管
+            # 超过7天不管
             if article.time:
                 article_date = datetime.datetime.fromtimestamp(int(article.time[:-3]))
                 day_diff = datetime.datetime.now().date() - article_date.date()
@@ -321,7 +311,6 @@ class AccountHttp(object):
             backpack = Backpack()
             backpack.create(entity)
             backpack_list.append(backpack.create_backpack())
-
             # 所有文章
             article_info = backpack.to_dict()
             articles.append(article_info)
@@ -355,40 +344,15 @@ class AccountHttp(object):
         # 处理文章
         result = handle(articles)
         result['KeyWord'] = key_word
-
-        # 正负判断
-        # with open('positive.txt', 'r', encoding='utf-8') as f:
-        #     positive = f.read()
-        # with open('nagetive.txt', 'r', encoding='utf-8') as f:
-        #     nagetive = f.read()
-        # # key_list = list(key_words_counter)
-        # log(len(Counter(key_words_list).most_common()))
-        # count_positive = 0
-        # count_nagetive = 0
-        # for key in Counter(key_words_list).most_common():
-        #     k, c = key
-        #     if k in positive.split('\n'):
-        #         count_positive += c
-        #
-        #     if k in nagetive.split('\n'):
-        #         count_nagetive += c
-        # log(count_positive)
-        #
-        # log(count_nagetive)
-
         result['ArtPosNeg'] = {'Indicate': {'Positive': positive_article, 'Negative': nagetive_article}}
         result['Success'] = True
         result['Account'] = self.name
         result['Message'] = ''
-
-        log('====', self.name)
         db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
-        log('数据抓取完成')
-
+        log('{} 抓取完成'.format(self.name))
         # 向前端发送成功请求
-        # article_detaile = db['newMedia'].find_one({'Account': self.name})
         self.status = 3
-        self.send_result()
+        # self.send_result()
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
@@ -435,6 +399,7 @@ class AccountHttp(object):
                     except:
                         log('--22222222----验证码输入错误------')
             except Exception as e:
+                log(e)
                 log('------未跳转到验证码页面，跳转到首页，忽略------')
 
         elif re.search('mp\.weixin\.qq\.com', url):
@@ -449,7 +414,7 @@ class AccountHttp(object):
                 'input': captch_input
             }
             self.s.post(image_url, cookies=self.cookies, data=data)
-            log('------cookies已更新------')
+            log('------微信验证码处理完成------')
 
 
 class Task(object):
@@ -495,20 +460,27 @@ def find_account():
     log('find', accountid)
     item = db['newMedia'].find_one({'id': accountid, })
     if item:
-        result = item.get('data', 'catch unfinished')
-        return json.dumps(result)
-    else:
-        error_result.update({'Message': "account not found"})
-        return json.dumps(error_result)
+        data = item.get('data')
+        if data:
+            analyse_result = dict()
+            analyse_result['Success'] = data.get('Success')
+            analyse_result['Account'] = data.get('Account')
+            analyse_result['Message'] = data.get('Message')
+            analyse_result['count'] = data.get('count')
+            analyse_result['ArtPubInfo'] = data.get('ArtPubInfo')
+            analyse_result['ActiveDegree'] = data.get('ActiveDegree')
+            analyse_result['KeyWord'] = data.get('KeyWord')
+            analyse_result['ArtPosNeg'] = data.get('ArtPosNeg')
+            return json.dumps(analyse_result)
+    error_result.update({'Message': "account not found"})
+    return json.dumps(error_result)
 
 
 if __name__ == '__main__':
-    # t = Task()
-    # t.listen_task()
     account = AccountHttp()
-    t = AccountHttp()
-    if t.driver:
-        t.driver.close()
-    t.listen_task(account)
-
+    account.listen_task()
+    # t = AccountHttp()
+    # if t.driver:
+    #     t.driver.close()
+    # t.listen_task(account)
     app.run(host='0.0.0.0', port=8008)
