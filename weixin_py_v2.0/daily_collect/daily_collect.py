@@ -180,64 +180,69 @@ class AccountHttp(object):
 
     def run(self):
         while True:
-            account_list = self.account_list()
-            # account_list = ['dalianwanbao']
-            # account_list = ['scbyby', 'runsky--news', 'ydweicom']
-            for _account in account_list:
-                self.search_name = _account
-                html_account = self.account_homepage()
-                if html_account:
-                    html = html_account
-                else:
-                    log('找到不到微信号首页: ', _account)
-                    continue
-                urls_article = self.urls_article(html)
+            try:
+                account_list = self.account_list()
+                # account_list = ['dalianwanbao']
+                # account_list = ['scbyby', 'runsky--news', 'ydweicom']
+                for _account in account_list:
+                    self.search_name = _account
+                    html_account = self.account_homepage()
+                    if html_account:
+                        html = html_account
+                    else:
+                        log('找到不到微信号首页: ', _account)
+                        continue
+                    urls_article = self.urls_article(html)
 
-                account = Account()
-                account.name = self.name
-                account.account = _account
-                account.get_account_id()
-                if not account.account_id:
-                    log("没有account_id", account.account)
-                    db_mongo = mongo_conn()
-                    db_mongo['noAccountId'].insert({'account': account.account})
+                    account = Account()
+                    account.name = self.name
+                    account.account = _account
+                    account.get_account_id()
+                    if not account.account_id:
+                        log("没有account_id", account.account)
+                        db_mongo = mongo_conn()
+                        db_mongo['noAccountId'].insert({'account': account.account})
 
-                entity = None
-                backpack_list = []
-                ftp_list = []
-                ftp_info = None
-                for page_count, url in enumerate(urls_article):
-                    # if page_count < 35:
-                    #     continue
-                    article = Article()
-                    article.create(url, account)
-                    log('第{}条 文章标题: {}'.format(page_count, article.title))
-                    log("当前文章url: {}".format(url))
-                    entity = JsonEntity(article, account)
-                    backpack = Backpack()
-                    backpack.create(entity)
-                    backpack_list.append(backpack.create_backpack())
-                    self.save_to_mysql(entity)
+                    entity = None
+                    backpack_list = []
+                    ftp_list = []
+                    ftp_info = None
+                    for page_count, url in enumerate(urls_article):
+                        # if page_count < 35:
+                        #     continue
+                        article = Article()
+                        article.create(url, account)
+                        log('第{}条 文章标题: {}'.format(page_count, article.title))
+                        log("当前文章url: {}".format(url))
+                        entity = JsonEntity(article, account)
+                        backpack = Backpack()
+                        backpack.create(entity)
+                        backpack_list.append(backpack.create_backpack())
+                        self.save_to_mysql(entity)
 
-                    # ftp包
-                #     ftp_info = Ftp(entity)
-                #     name_xml = ftp_info.hash_md5(ftp_info.url)
-                #     # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
-                #     self.create_xml(ftp_info.ftp_dict(), name_xml)
-                #     ftp_list.append(name_xml)
-                #     # if page_count == 2:
-                #     #     break
-                # # todo 发包超时，修改MTU
-                # entity.uploads_ftp(ftp_info, ftp_list)
+                        # ftp包
+                    #     ftp_info = Ftp(entity)
+                    #     name_xml = ftp_info.hash_md5(ftp_info.url)
+                    #     # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
+                    #     self.create_xml(ftp_info.ftp_dict(), name_xml)
+                    #     ftp_list.append(name_xml)
+                    #     # if page_count == 2:
+                    #     #     break
+                    # # todo 发包超时，修改MTU
+                    # entity.uploads_ftp(ftp_info, ftp_list)
 
-                log("发包")
-                if entity:
-                    pass
-                    # entity.uploads(backpack_list)
-                    entity.uploads_datacenter_relay(backpack_list)
-                    entity.uploads_datacenter_unity(backpack_list)
-        # log("发包完成")
-        #     break
+                    log("发包")
+                    if entity:
+                        pass
+                        # entity.uploads(backpack_list)
+                        entity.uploads_datacenter_relay(backpack_list)
+                        entity.uploads_datacenter_unity(backpack_list)
+            # log("发包完成")
+            #     break
+            except Exception as e:
+                log("程序出错", e)
+                continue
+
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
