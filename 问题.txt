@@ -23,3 +23,6 @@ Python 新环境
     安装
         Linux下需要安装几个基础类库：Cython：pip install Cython      
          ##python包freetds-dev：yum install freetds-devel.x86_64 / apt-get install freetds-dev   ##linux包
+
+pass 空语句  下面有语句会继续执行
+迭代 空对象， 直接跳过下面的语句块

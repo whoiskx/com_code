@@ -267,7 +267,8 @@ class AccountHttp(object):
         except Exception as e:
             log("发送前端结果错误", e)
 
-    def run(self):
+    def run(self, name):
+        self.name = name
         html_account = self.account_homepage()
         if html_account:
             html, account_of_homepage = html_account
@@ -348,11 +349,9 @@ class AccountHttp(object):
         result['Success'] = True
         result['Account'] = self.name
         result['Message'] = ''
-        db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
-        log('{} 抓取完成'.format(self.name))
-        # 向前端发送成功请求
-        self.status = 3
-        # self.send_result()
+        # db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
+        log('{} 抓取完成'.format(self.  name))
+        return result
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
@@ -438,6 +437,9 @@ class Task(object):
         log("lpush {} -- {}".format(self.queue, account))
 
 
+account = AccountHttp()
+
+
 @app.route('/')
 def index():
     return 'hello world!'
@@ -446,41 +448,32 @@ def index():
 @app.route('/WeiXinArt/AddAccount')
 def add_account():
     account = request.args.get('account')
-    task = Task()
-    task.prodcons(account)
     _id = hash_md5(account)
     add_on = datetime.datetime.now()
-    db['newMedia'].update({'id': _id}, {'$set': {'id': _id, 'Account': account, 'add_on': add_on}, }, True)
+    db['sentiment'].update({'id': _id}, {'$set': {'id': _id, 'Account': account, 'add_on': add_on}, }, True)
     return _id
 
 
-@app.route('/WeiXinArt/PublishTimes')
+@app.route('/WeiXinArt/WeiXinParse')
 def find_account():
-    accountid = request.args.get('accountid')
-    log('find', accountid)
-    item = db['newMedia'].find_one({'id': accountid, })
-    if item:
-        data = item.get('data')
-        if data:
-            analyse_result = dict()
-            analyse_result['Success'] = data.get('Success')
-            analyse_result['Account'] = data.get('Account')
-            analyse_result['Message'] = data.get('Message')
-            analyse_result['count'] = data.get('count')
-            analyse_result['ArtPubInfo'] = data.get('ArtPubInfo')
-            analyse_result['ActiveDegree'] = data.get('ActiveDegree')
-            analyse_result['KeyWord'] = data.get('KeyWord')
-            analyse_result['ArtPosNeg'] = data.get('ArtPosNeg')
-            return json.dumps(analyse_result)
+    name = request.args.get('account')
+    data = account.run(name)
+    print(data)
+    log('find', name)
+    if data:
+        analyse_result = dict()
+        analyse_result['Success'] = data.get('Success')
+        analyse_result['Account'] = data.get('Account')
+        analyse_result['Message'] = data.get('Message')
+        analyse_result['count'] = data.get('count')
+        analyse_result['ArtPubInfo'] = data.get('ArtPubInfo')
+        analyse_result['ActiveDegree'] = data.get('ActiveDegree')
+        analyse_result['KeyWord'] = data.get('KeyWord')
+        analyse_result['ArtPosNeg'] = data.get('ArtPosNeg')
+        return json.dumps(analyse_result)
     error_result.update({'Message': "account not found"})
     return json.dumps(error_result)
 
 
 if __name__ == '__main__':
-    account = AccountHttp()
-    account.listen_task()
-    # t = AccountHttp()
-    # if t.driver:
-    #     t.driver.close()
-    # t.listen_task(account)
     app.run(host='0.0.0.0', port=8008)

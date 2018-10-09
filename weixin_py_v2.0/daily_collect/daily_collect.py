@@ -149,6 +149,7 @@ class AccountHttp(object):
 
     def save_to_mysql(self, entity):
         # 上传数据库
+        log('开始上传mysql')
         sql = '''   
                 INSERT INTO 
                     account_http(article_url, addon, account, account_id, author, id, title) 
@@ -161,6 +162,7 @@ class AccountHttp(object):
             entity.title
         )
         uploads_mysql(config_mysql, sql, _tuple)
+        log('上传mysql完成')
 
     def create_xml(self, infos, file_name):
         data = etree.Element("data")
@@ -180,10 +182,11 @@ class AccountHttp(object):
 
     def run(self):
         while True:
+            log('程序启动')
             try:
-                # account_list = self.account_list()
+                account_list = self.account_list()
                 # account_list = ['dalianwanbao']
-                account_list = ['changzhixinwen', 'zxw365500', 'ch020net', 'ycwzx8']
+                # account_list = ['changzhixinwen', 'zxw365500', 'ch020net', 'ycwzx8']
                 for _account in account_list:
                     self.search_name = _account
                     html_account = self.account_homepage()
@@ -233,16 +236,14 @@ class AccountHttp(object):
 
                     log("发包")
                     if entity:
-                        pass
                         # entity.uploads(backpack_list)
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
                 log("发包完成")
-                break
+                # break
             except Exception as e:
                 log("程序出错", e)
                 continue
-
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))

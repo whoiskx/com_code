@@ -56,7 +56,8 @@ def get_mysql_new():
         'user': MYSQL_USER,
         'passwd': MYSQL_PASSWORD,
         'db': MYSQL_DATABASE,
-        'charset': 'utf8'
+        'charset': 'utf8',
+        'connect_timeout': 10,
     }
     return config_mysql
 

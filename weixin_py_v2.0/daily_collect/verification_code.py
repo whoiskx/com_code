@@ -1,17 +1,7 @@
 # -*- coding: utf-8 -*-
 import hashlib
-import random
-import re
-import time
-
 import requests
 import datetime
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from PIL import Image
-from io import BytesIO
 import os
 
 # 打码平台参数配置

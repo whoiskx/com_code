@@ -2,11 +2,14 @@ import json
 import os
 import time
 from ftplib import FTP
-
 import requests
 from utils import log
 import re
 from pyquery import PyQuery as pq
+import datetime
+import hashlib
+import uuid
+import zipfile
 
 
 class Article(object):
@@ -355,13 +358,6 @@ class Backpack(object):
         }
         uploads_body.update({'body': json.dumps(self.to_dict())})
         return uploads_body
-
-
-import datetime
-import hashlib
-import uuid
-import zipfile
-from lxml import etree
 
 
 class Ftp(object):
