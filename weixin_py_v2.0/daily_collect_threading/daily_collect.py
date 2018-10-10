@@ -51,6 +51,8 @@ class AccountHttp(object):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--headless')
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        self.driver.set_page_load_timeout(15)
+        self.driver.set_script_timeout(15)
         self.wait = WebDriverWait(self.driver, 5)
 
     def account_homepage(self):
@@ -117,7 +119,7 @@ class AccountHttp(object):
         # self.search_name = data.get('name')
         # print(self.search_name)
         # return self.search_name
-
+        log("获取account")
         url = 'http://183.131.241.60:38011/nextaccount?label=5'
         resp = requests.get(url)
         items = json.loads(resp.text)
@@ -152,15 +154,17 @@ class AccountHttp(object):
         log('开始上传mysql')
         sql = '''   
                 INSERT INTO 
-                    account_http(article_url, addon, account, account_id, author, id, title) 
+                    account_http(article_url, addon, account, account_id, author, id, title, read_num) 
                 VALUES 
-                    (%s, %s, %s, %s, %s, %s, %s)
+                    (%s, %s, %s, %s, %s, %s, %s, 2)
         '''
         _tuple = (
             entity.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author,
             entity.id,
             entity.title
         )
+        # from config import localhost_mysql
+        # config_mysql = localhost_mysql()
         uploads_mysql(config_mysql, sql, _tuple)
         log('上传mysql完成')
 
@@ -309,6 +313,53 @@ class AccountHttp(object):
             log('------cookies已更新------')
 
 
+import threading
+import time
+
+exitFlag = 0
+
+
+class MyThread(threading.Thread):  # 继承父类threading.Thread
+    def __init__(self, threadID, name, counter):
+        threading.Thread.__init__(self)
+        self.threadID = threadID
+        self.name = name
+        self.counter = counter
+
+    def run(self):  # 把要执行的代码写到run函数里面 线程在创建后会直接运行run函数
+        log("Starting " + self.name)
+        test = AccountHttp()
+        test.run()
+        log("Exiting " + self.name)
+
+
+def print_time(threadName, delay, counter):
+    while counter:
+        if exitFlag:
+            (threading.Thread).exit()
+        time.sleep(delay)
+        print("%s: %s" % (threadName, time.ctime(time.time())))
+        counter -= 1
+
+
 if __name__ == '__main__':
-    test = AccountHttp()
-    test.run()
+    #
+    # thread1 = MyThread(1, "Thread-1", 1)
+    # thread2 = MyThread(2, "Thread-2", 2)
+    # thread3 = MyThread(3, "Thread-3", 3)
+    #
+    # thread1.start()
+    # thread2.start()
+    # thread3.start()
+    # threadList = [thread1, thread2, thread3]
+    threadList = []
+    for i in range(5):
+        # name_thread = 'thread' + str(i)
+        thread1 = MyThread(i, "Thread-" + str(i), i)
+        threadList.append(thread1)
+        thread1.start()
+
+    for t in threadList:
+        t.join()
+    # test = AccountHttp()
+    # test.run()

@@ -53,4 +53,4 @@ usr 指 Unix System Resource
         sudo apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
 
    13 广外新添
-   sudo apt-get install libpq-dev python-dev
+   sudo apt-get install libpq-dev python-dev  libffi-dev libxml2-dev libxslt-dev libjpeg-dev zlib1g-dev unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc

@@ -51,6 +51,8 @@ class AccountHttp(object):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--headless')
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        self.driver.set_page_load_timeout(15)
+        self.driver.set_script_timeout(15)
         self.wait = WebDriverWait(self.driver, 5)
 
     def account_homepage(self):
@@ -64,17 +66,22 @@ class AccountHttp(object):
             search_url = self.url.format(self.search_name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
-            log('文章标题', e('title').text())
+            log('当前搜狗标题', e('title').text())
             if '搜狗' not in e('title').text():
                 log('初始化session')
                 self.s = requests.session()
-            if self.search_name in e(".info").eq(0).text():
+            if self.search_name == e(".info").eq(0).text().replace('微信号：', ''):
                 account_link = e(".tit").find('a').attr('href')
                 self.name = e(".tit").eq(0).text()
                 homepage = self.s.get(account_link, cookies=self.cookies)
                 if '<title>请输入验证码 </title>' in homepage.text:
                     self.crack_sougou(account_link)
                     homepage = self.s.get(account_link, cookies=self.cookies)
+                    if '请输入验证码' in homepage.text:
+                        log('微信公众号页面错误', pq(homepage.text)('title').text())
+                        time.sleep(600)
+                        count -= 1
+                        continue
                 return homepage.text
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.search_name))
@@ -117,16 +124,19 @@ class AccountHttp(object):
         # self.search_name = data.get('name')
         # print(self.search_name)
         # return self.search_name
-
-        url = 'http://183.131.241.60:38011/nextaccount?label=5'
-        resp = requests.get(url)
-        items = json.loads(resp.text)
-        if len(items) == 0:
-            return []
         account_all = []
-        for item in items:
-            account_all.append(item.get('account'))
-        log("开始account列表", account_all)
+        try:
+            url = 'http://183.131.241.60:38011/nextaccount?label=5'
+            resp = requests.get(url)
+            items = json.loads(resp.text)
+            if len(items) == 0:
+                return []
+            for item in items:
+                account_all.append(item.get('account'))
+            log("开始account列表", account_all)
+        except Exception as e:
+            log('获取账号列表错误')
+            time.sleep(5)
         return account_all
 
     def urls_article(self, html):
@@ -185,10 +195,9 @@ class AccountHttp(object):
     def run(self):
         while True:
             log('程序启动')
+            # account_list = self.account_list()
             try:
-                account_list = self.account_list()
-                # account_list = ['dalianwanbao']
-                # account_list = ['changzhixinwen', 'zxw365500', 'ch020net', 'ycwzx8']
+                account_list = ['changzhixinwen', 'zxw365500', 'ch020net', 'ycwzx8']
                 for _account in account_list:
                     self.search_name = _account
                     html_account = self.account_homepage()

@@ -39,6 +39,10 @@ class Article(object):
     def create(self, url, account_model):
         self.url = url
         resp = requests.get(self.url)
+        if '访问过于频繁，请用微信扫描二维码进行访问' in resp.text:
+            log('访问过于频繁，请用微信扫描二维码进行访问')
+            time.sleep(600)
+            raise RuntimeError('访问过于频繁，请用微信扫描二维码进行访问')
         e = pq(resp.text)
         # 匹配分享的文章 好像失效
         if 'var ct=' not in resp.text:
@@ -71,7 +75,7 @@ class Article(object):
 class Account(object):
     def __init__(self):
         # 接口取
-        self.account_id = None
+        self.account_id = ''
         # account.account
         # 微信号(英文)
         self.account = ''
@@ -126,7 +130,7 @@ class JsonEntity(object):
         return m.hexdigest()
 
     def uploads(self, backpack_list):
-        # 上传底层
+        # 上传底层 底层不能接收None，会丢弃
         if backpack_list:
             sever1 = 'http://115.231.251.252:26016/'
             sever2 = 'http://60.190.238.168:38015/'

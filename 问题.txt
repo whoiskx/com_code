@@ -29,3 +29,16 @@ pass 空语句  下面有语句会继续执行
 
 转移表
     navicat 工具 数据传输  之后重新连接数据库
+
+ c + alt + shift 选择列
+
+ 统计mysql 数量
+ SELECT count(distinct account) FROM `account_http_copy`;
+
+
+ 查看print
+ python yourScript.py > out.txt
+
+如果又要查看打印的内容，怎么让它输出(还在运行)？
+
+这里提供一个最简单的方法：tail -f out.txt

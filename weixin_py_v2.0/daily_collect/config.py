@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import time
 
+import pymysql
+
 
 def mysql_tag_code():
     # 接口 site_id -> tag_code
@@ -61,5 +63,29 @@ def get_mysql_new():
     }
     return config_mysql
 
+def localhost_mysql():
+    MYSQL_HOST = 'localhost'
+    MYSQL_PORT = 3306
+    MYSQL_USER = 'root'
+    MYSQL_DATABASE = 'comm'
 
+    config_mysql = {
+        'host': MYSQL_HOST,
+        'port': MYSQL_PORT,
+        'user': MYSQL_USER,
+        # 'passwd': MYSQL_PASSWORD,
+        'db': MYSQL_DATABASE,
+        'charset': 'utf8',
+        'connect_timeout': 10,
+    }
+    return config_mysql
+
+if __name__ == '__main__':
+    config_mysql = localhost_mysql()
+    db = pymysql.connect(**config_mysql)
+    cursor = db.cursor()
+    # cursor.execute(sql, _tuple)
+    # db.commit()
+    cursor.close()
+    db.close()
 
