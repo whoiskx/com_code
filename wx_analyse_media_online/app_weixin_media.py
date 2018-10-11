@@ -32,6 +32,8 @@ import jieba
 from verification_code import captch_upload_image
 import jieba.posseg
 
+from wx_analyse_media_online.config import GetCaptcha_url
+
 config_mysql = get_mysql_new()
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 IMAGE_DIR = os.path.join(BASE_DIR, 'images')
@@ -320,31 +322,64 @@ class AccountHttp(object):
         for article in articles:
             content_all_list += article.get('Content')
         # 分词处理
+        # key_words_list = []
+        # thu1 = thulac.thulac()
+        # seg_list = thu1.cut(''.join(content_all_list), text=False)
+        # for s in seg_list:
+        #     if (
+        #             len(s[0]) >= 2
+        #             and re.search('[\u4e00-\u9fff]+', s[0])
+        #             and s[1] in ['n', 'np', 'ns', 'ni', 'nz']
+        #     ):
+        #         key_words_list.append(s[0])
+        #
+        # # 返回前20个出现频率最高的词
+        # key_words_counter = Counter(key_words_list).most_common(20)
+        # key_word = dict()
+        # key_word['list'] = []
+        # for k in key_words_counter:
+        #     key_word['list'].append(
+        #         {
+        #             "times": k[1],
+        #             "keyword": k[0]
+        #         }
+        #     )
         key_words_list = []
-        thu1 = thulac.thulac()
-        seg_list = thu1.cut(''.join(content_all_list), text=False)
-        for s in seg_list:
-            if (
-                    len(s[0]) >= 2
-                    and re.search('[\u4e00-\u9fff]+', s[0])
-                    and s[1] in ['n', 'np', 'ns', 'ni', 'nz']
-            ):
-                key_words_list.append(s[0])
+        GETNER_API_URL = 'http://221.204.232.7:40015/NER/GetNer'
+        data = {
+            "texts": [content_all_list],
+        }
+        response = requests.post(url=GETNER_API_URL, data=data)
+        ner_result = response.json().get('rst')[0]
+        if ner_result.get('status') == 'success':
+            org_dic = ner_result.get('ner').get('ORG')
+            loc_dic = ner_result.get('ner').get('LOC')
+            per_dic = ner_result.get('ner').get('PER')
+            if org_dic:
+                for i in org_dic.items():
+                    key_words_list.append(i)
+            if loc_dic:
+                for i in loc_dic.items():
+                    key_words_list.append(i)
+            if per_dic:
+                for i in per_dic.items():
+                    key_words_list.append(i)
 
         # 返回前20个出现频率最高的词
-        key_words_counter = Counter(key_words_list).most_common(20)
-        key_word = dict()
-        key_word['list'] = []
-        for k in key_words_counter:
-            key_word['list'].append(
+        key_words = dict()
+        key_words['list'] = []
+        key_words_list = sorted(key_words_list, key=lambda x: x[1], reverse=True)[:21]
+        for k in key_words_list:
+            key_words['list'].append(
                 {
                     "times": k[1],
                     "keyword": k[0]
                 }
             )
+
         # 处理文章
         result = handle(articles)
-        result['KeyWord'] = key_word
+        result['KeyWord'] = key_words
         result['ArtPosNeg'] = {'Indicate': {'Positive': positive_article, 'Negative': nagetive_article}}
         result['Success'] = True
         result['Account'] = self.name
@@ -381,10 +416,17 @@ class AccountHttp(object):
                 captcha = screenshot.crop((left, top, right, bottom))
                 captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
                 captcha.save(captcha_path)
-                with open(captcha_path, "rb") as f:
-                    filebytes = f.read()
-                captch_input = captch_upload_image(filebytes)
-                log('------验证码：{}------'.format(captch_input))
+                # with open(captcha_path, "rb") as f:
+                #     filebytes = f.read()
+                # captch_input = captch_upload_image(filebytes)
+                # log('------验证码：{}------'.format(captch_input))
+                captch_input = ''
+                files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
+                res = requests.post(url=GetCaptcha_url, files=files)
+                res = res.json()
+                if res.get('Success'):
+                    captch_input = res.get('Captcha')
+                print('------验证码：{}------'.format(captch_input))
                 if captch_input:
                     input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
                     input_text.clear()
@@ -392,13 +434,13 @@ class AccountHttp(object):
                     submit = self.wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
                     submit.click()
                     time.sleep(2)
-                    try:
-                        if '搜公众号' not in self.driver.page_source:
-                            log('验证失败')
-                            return
-                        log('------验证码正确------')
-                    except:
-                        log('--22222222----验证码输入错误------')
+                try:
+                    if '搜公众号' not in self.driver.page_source:
+                        log('验证失败')
+                        return
+                    log('------验证码正确------')
+                except:
+                    log('--22222222----验证码输入错误------')
             except Exception as e:
                 log(e)
                 log('------未跳转到验证码页面，跳转到首页，忽略------')

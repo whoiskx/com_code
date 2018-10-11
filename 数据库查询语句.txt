@@ -1,0 +1,20 @@
+SELECT top 20* FROM [dbo].[WXAccount] where Account like 'gh_%';
+SELECT top 8 * FROM [dbo].[WXAccount] where FID not in (select Top 10 from WXAccount);
+select * from WXAccount where Name='掌上西区';
+select count(id) from WXAccount where  Account like 'gh_%';
+select count(id) from WXAccount where Addon >= '2018-09-03 08:06:00' and addon <= '2018-09-05 08:06:00'
+select count(DISTINCT NAME) from WXAccount;
+
+
+SELECT COUNT(DISTINCT account) FROM `account_http` WHERE read_num=2;
+
+SELECT count(*) FROM `account_http` where addon regexp '2018-10-09 16:';
+
+SELECT COUNT(*) FROM `account_http` WHERE read_num=2;
+
+SELECT count(ID) FROM [dbo].[WXAccount] where id<53007653;
+
+SELECT count(ID) FROM [dbo].[WXAccount] where id<52963713;
+
+select * from WXAccount where id='53007653'
+

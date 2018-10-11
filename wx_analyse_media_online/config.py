@@ -2,6 +2,9 @@
 import time
 
 
+GetCaptcha_url = 'http://183.238.76.204:38015/GetCaptcha'
+
+
 def mysql_tag_code():
     # 接口 site_id -> tag_code
     MYSQL_HOST = '120.78.237.213'

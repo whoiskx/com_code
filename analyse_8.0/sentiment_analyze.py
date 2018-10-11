@@ -350,7 +350,7 @@ class AccountHttp(object):
         result['Account'] = self.name
         result['Message'] = ''
         # db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
-        log('{} 抓取完成'.format(self.  name))
+        log('{} 抓取完成'.format(self.name))
         return result
 
     def crack_sougou(self, url):
@@ -454,6 +454,15 @@ def add_account():
     return _id
 
 
+@app.route('/WeiXinArt/WeiXinInfo')
+def add_account():
+    name = request.args.get('account')
+    _id = hash_md5(name)
+    add_on = datetime.datetime.now()
+    db['sentiment'].update({'id': _id}, {'$set': {'id': _id, 'Account': account, 'add_on': add_on}, }, True)
+    return _id
+
+
 @app.route('/WeiXinArt/WeiXinParse')
 def find_account():
     name = request.args.get('account')
@@ -476,4 +485,4 @@ def find_account():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8008)
+    app.run(host='0.0.0.0', port=10001)
