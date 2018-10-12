@@ -197,7 +197,7 @@ class AccountHttp(object):
             log('程序启动')
             # account_list = self.account_list()
             try:
-                account_list = ['changzhixinwen', 'zxw365500', 'ch020net', 'ycwzx8']
+                account_list = ['shlcity2', 'zxw365500', 'ch020net', 'ycwzx8']
                 for _account in account_list:
                     self.search_name = _account
                     html_account = self.account_homepage()
@@ -240,8 +240,8 @@ class AccountHttp(object):
                         # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
                         self.create_xml(ftp_info.ftp_dict(), name_xml)
                         ftp_list.append(name_xml)
-                        # if page_count == 2:
-                        #     break
+                        if page_count == 5:
+                            break
                     # todo 发包超时，修改MTU
                     entity.uploads_ftp(ftp_info, ftp_list)
 

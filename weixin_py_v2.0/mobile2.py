@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import datetime
 import html
-from send_backpack import *
-from send_backpack import Account
+from models import *
+from models import Account
 import time
 import re
 from config import get_mysql_new
