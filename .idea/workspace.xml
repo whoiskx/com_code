@@ -6,56 +6,129 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/handle_artiles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/nagetive.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/positive.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/testss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/upload_account_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/verification_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/content.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/requestst_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/requestst_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/interface/daily_check/account.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/interface/daily_check/account.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/app_weixin_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/handle_artiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/handle_artiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/nagetive.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/nagetive.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/positive.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/positive.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/testss.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/testss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/upload_account_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/upload_account_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/wx_analyse_media_online/verification_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/verification_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/mobile2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/app_weixin_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/app_weixin_media.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/handle_artiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/handle_artiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/nagetive.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/nagetive.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/nagetive.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/positive.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/positive.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/positive.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/testss.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/testss.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/testss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/upload_account_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/upload_account_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/upload_account_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/verification_code.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_analyse_media_online/verification_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/verification_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX_thread_tests/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX_thread_tests/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX_thread_tests/push_redis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX_thread_tests/send_backpack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX_thread_tests/threads_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX_thread_tests/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WX_thread_tests/verification_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/get_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/handle_artiles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/img_uploads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/nagetive.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/positive.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/sentiment_analyze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/testss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_8.0/verification_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Lib/tcl8.6/init.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_asyncio.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_ctypes_test.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_distutils_findvs.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_elementtree.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_msi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_multiprocessing.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_overlapped.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_sqlite3.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_testbuffer.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_testcapi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_testconsole.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_testimportmultiple.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_testmultiphase.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/_tkinter.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/python3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/python36.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/tcl86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/tk86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/Scripts/winsound.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Api/ProxyApi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/DB/DbClient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/DB/MongodbClient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/DB/RedisClient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/DB/SsdbClient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/DB/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Manager/ProxyManager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Manager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/ProxyGetter/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/ProxyGetter/getFreeProxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Run/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Schedule/ProxyCheck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Schedule/ProxyRefreshSchedule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Schedule/ProxyValidSchedule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Schedule/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Test/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Test/.pytest_cache/v/cache/nodeids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Test/testGetConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Test/testGetFreeProxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Test/testLogHandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Test/testWebRequest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Util/EnvUtil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Util/GetConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Util/LogHandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Util/WebRequest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Util/utilClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/Util/utilFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/doc/introduce.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/doc/release_notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/proxy_pool-master/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv_proxyPool/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/account_query_add.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/account_query_add_v2.0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/account_request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/account_request_v2.0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/account_request_v3.0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/account_tag_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/ids.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/ids_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/mobile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/mobile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/searc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/send_backpack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/send_requests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/sougou_weixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/tests_pymysql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py/tests_search.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,77 +150,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app_weixin_media.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/app_weixin_media.py">
+      <file leaf-file-name="account_query_add_v2.0.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/account_query_add_v2.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="487" selection-start-line="487" selection-end-line="487" />
+            <state relative-caret-position="-1197">
               <folding>
-                <element signature="e#24#37#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_weixin_media.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4976">
-              <caret line="45" column="12" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threads_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WX_thread_tests/threads_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4586" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WX_thread_tests/utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="verification_code.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WX_thread_tests/verification_code.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WX_thread_tests/config.py">
+        <entry file="file://$PROJECT_DIR$/wechat/add/config.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="push_redis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WX_thread_tests/push_redis.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="verification_code.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/verification_code.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/config.py">
+      <file leaf-file-name="images_uploads_downoads.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/aliyu_image/images_uploads_downoads.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="114" column="21" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-93" />
           </provider>
         </entry>
       </file>
@@ -323,6 +345,11 @@
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -336,7 +363,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/weixin_interfaces/new_media_analyse/new_media_analyse_v1.0_thuc_and_paltform" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -347,11 +374,11 @@
       <recent name="D:\com_code\wechat\headers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\com_code\weixin_interfaces" />
       <recent name="D:\com_code\weixin_interfaces\new_media_analyse_version" />
       <recent name="D:\com_code\weixin_interfaces\new_media_analyse" />
       <recent name="D:\com_code\weixin_interfaces\new_media_analyse_v1.0_thuc_and_paltform" />
       <recent name="D:\com_code\utils\linux安装包" />
-      <recent name="D:\com_code\wechat" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -531,14 +558,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.17966281" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.17966281" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28723404" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.6393617" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.55744684" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.47659576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25425532" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25425532" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.37340426" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -571,6 +598,17 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -1340,155 +1378,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/analyse_8.0/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analyse_8.0/img_uploads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-752" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/flask_add/uploads_img.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/flask_add/statics_visit.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/微信请求头像判断/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/微信请求头像判断/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/微信请求头像判断/app_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analyse_8.0/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/linux安装包/tests_driver.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/linux安装包/8-24-linux下安装chrome.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analyse_8.0/sentiment_analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92815">
-          <caret line="4885" column="8" selection-start-line="4885" selection-start-column="8" selection-end-line="4885" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/问题.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29868">
-          <caret line="1597" selection-start-line="1597" selection-end-line="1597" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据库查询语句.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="96" column="25" lean-forward="true" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/News_xinhua_praise/get_excel_julei.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/verification_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/nagetive.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/positive.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="9020" column="2" selection-start-line="9020" selection-start-column="2" selection-end-line="9020" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/testss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1767" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/images/captcha.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1617,22 +1506,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py">
+    <entry file="file://$PROJECT_DIR$/WX_thread_tests/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4976">
-          <caret line="45" column="12" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX_thread_tests/push_redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WX_thread_tests/send_backpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WX_thread_tests/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WX_thread_tests/push_redis.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/WX_thread_tests/threads_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4586" />
+        <state relative-caret-position="-4555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WX_thread_tests/utils.py">
@@ -1640,6 +1535,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WX_thread_tests/verification_code.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4976">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/tests_search.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/tests_pymysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/sougou_weixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/send_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/send_backpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2631">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/searc.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/mobile.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/ids_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/ids.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/account_tag_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/account_request_v3.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1073" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/account_request_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/account_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/account_query_add_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py/account_query_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/account_query_add_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/add/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/aliyu_image/images_uploads_downoads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93" />
+      </provider>
     </entry>
   </component>
 </project>
