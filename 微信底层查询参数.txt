@@ -1,0 +1,10 @@
+http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account=tangtangaini0516&rows=20&starttime=20180825&endtime=20181030
+ &fl=title      显示部分关键字
+ id=xx          根据ID查询
+ query参数 不区分大小写
+ startime endtime 根据发文时间即time字段查询
+
+
+底层字段
+    addon 采集时间
+    time  发文时间

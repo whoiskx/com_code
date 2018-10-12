@@ -53,9 +53,7 @@ class AccountHttp(object):
         self.rcon = redis.StrictRedis(db=8)
         self.queue = 'analyse'
         self.status = 4
-
         self.count = 0
-
         self.BASE_DIR = r'D:\WXSchedule\Images'
 
     def account_homepage(self):

@@ -4,20 +4,20 @@ import pymssql
 
 import redis
 from flask import Flask, request
-import thulac
+# import thulac
 
 from utils import db, async, hash_md5
 import datetime
 import random
 import re
 import time
-from collections import Counter
+# from collections import Counter
 
 import requests
 import json
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack
-from config import get_mysql_new, get_mysql_old
+from config import get_mysql_new, get_mysql_old, GetCaptcha_url
 from utils import log
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -319,36 +319,49 @@ class AccountHttp(object):
         content_all_list = ''
         for article in articles:
             content_all_list += article.get('Content')
+        log('文章长度', len(content_all_list))
         # 分词处理
         key_words_list = []
-        thu1 = thulac.thulac()
-        seg_list = thu1.cut(''.join(content_all_list), text=False)
-        for s in seg_list:
-            if (
-                    len(s[0]) >= 2
-                    and re.search('[\u4e00-\u9fff]+', s[0])
-                    and s[1] in ['n', 'np', 'ns', 'ni', 'nz']
-            ):
-                key_words_list.append(s[0])
+        GETNER_API_URL = 'http://221.204.232.7:40015/NER/GetNer'
+        data = {
+            "texts": [content_all_list],
+        }
+        log('请求分词')
+        response = requests.post(url=GETNER_API_URL, data=data, timeout=180)
+        ner_result = response.json().get('rst')[0]
+        if ner_result.get('status') == 'success':
+            org_dic = ner_result.get('ner').get('ORG')
+            loc_dic = ner_result.get('ner').get('LOC')
+            per_dic = ner_result.get('ner').get('PER')
+            if org_dic:
+                for i in org_dic.items():
+                    key_words_list.append(i)
+            if loc_dic:
+                for i in loc_dic.items():
+                    key_words_list.append(i)
+            if per_dic:
+                for i in per_dic.items():
+                    key_words_list.append(i)
 
         # 返回前20个出现频率最高的词
-        key_words_counter = Counter(key_words_list).most_common(20)
-        key_word = dict()
-        key_word['list'] = []
-        for k in key_words_counter:
-            key_word['list'].append(
+        key_words = dict()
+        key_words['list'] = []
+        key_words_list = sorted(key_words_list, key=lambda x: x[1], reverse=True)[:21]
+        for k in key_words_list:
+            key_words['list'].append(
                 {
                     "times": k[1],
                     "keyword": k[0]
                 }
             )
+        log('分词完成')
         # 处理文章
         result = handle(articles)
-        result['KeyWord'] = key_word
+        result['KeyWord'] = key_words
         result['ArtPosNeg'] = {'Indicate': {'Positive': positive_article, 'Negative': nagetive_article}}
         result['Success'] = True
         result['Account'] = self.name
-        result['Message'] = ''
+        result['Message'] = 'Successful'
         # db['newMedia'].update({'Account': self.name}, {'$set': {'data': result}})
         log('{} 抓取完成'.format(self.name))
         return result
@@ -379,9 +392,12 @@ class AccountHttp(object):
                 captcha = screenshot.crop((left, top, right, bottom))
                 captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
                 captcha.save(captcha_path)
-                with open(captcha_path, "rb") as f:
-                    filebytes = f.read()
-                captch_input = captch_upload_image(filebytes)
+                captch_input = ''
+                files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
+                res = requests.post(url=GetCaptcha_url, files=files)
+                res = res.json()
+                if res.get('Success'):
+                    captch_input = res.get('Captcha')
                 log('------验证码：{}------'.format(captch_input))
                 if captch_input:
                     input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
@@ -455,7 +471,7 @@ def add_account():
 
 
 @app.route('/WeiXinArt/WeiXinInfo')
-def add_account():
+def info_account():
     name = request.args.get('account')
     _id = hash_md5(name)
     add_on = datetime.datetime.now()

@@ -2,6 +2,10 @@
 import time
 
 
+# 搜狗验证码识别url
+GetCaptcha_url = 'http://183.238.76.204:38015/GetCaptcha'
+
+
 def mysql_tag_code():
     # 接口 site_id -> tag_code
     MYSQL_HOST = '120.78.237.213'
@@ -58,6 +62,3 @@ def get_mysql_new():
         'charset': 'utf8'
     }
     return config_mysql
-
-
-

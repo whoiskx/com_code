@@ -1785,3 +1785,26 @@ e -- qiyangtongcom
 18-10-10 14:46:02 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
 18-10-10 14:46:02 iXianYanSuiYu 抓取完成
 18-10-10 14:46:03 find iXianYanSuiYu
+18-10-12 14:43:38 start iXianYanSuiYu
+18-10-12 14:43:39 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-10-12 14:43:39 start 公众号:  iXianYanSuiYu
+18-10-12 14:43:39 url: https://mp.weixin.qq.com/s?timestamp=1539326620&src=3&ver=1&signature=LpmwkZ0FPcqVFnL2Y5ao1or-f**GrSjYMaELhfXe00srS9ZgtkBNqPk*gjONwoHX2Uf3TAvqo8YYV6e0U-hf5jP7vUiNwlfl8YKHpaoG12fWuSdpoVWeNUUe3p2dQ5IykL7xpDKau3EKh-CJnFPGzrk1Vhaw4FAY3U1nHpvfik0=
+18-10-12 14:43:39 文章标题: 虎牙莉哥账号被封什么原因
+18-10-12 14:43:39 第0条
+18-10-12 14:43:42 url: https://mp.weixin.qq.com/s?timestamp=1539326620&src=3&ver=1&signature=LpmwkZ0FPcqVFnL2Y5ao1or-f**GrSjYMaELhfXe00srS9ZgtkBNqPk*gjONwoHX2Uf3TAvqo8YYV6e0U-hf5jP7vUiNwlfl8YKHpaoG12exCUG7yPW4BB1ty7qprBmY7eqb0cAzze*Jl9gMS8WvQsQ0h92dDnVelvpFWf4HnNw=
+18-10-12 14:43:42 文章标题: 支付宝锦鲤内定怎么回事?有内幕?锦鲤是什么?
+18-10-12 14:43:42 第1条
+18-10-12 14:43:43 url: https://mp.weixin.qq.com/s?timestamp=1539326620&src=3&ver=1&signature=LpmwkZ0FPcqVFnL2Y5ao1or-f**GrSjYMaELhfXe00srS9ZgtkBNqPk*gjONwoHX2Uf3TAvqo8YYV6e0U-hf5vCz2xjiUuH4CXgTEbj5WNyzM6o-TwUh7cfCytsXarKv3u9aj0BnWQSYP5DbmIaEy2QOuRPEGvFY3qJBQg17CAU=
+18-10-12 14:43:43 文章标题: 悲剧！女婿拧开电梯门岳父踏空坠亡女婿：开电梯门是想检查
+18-10-12 14:43:43 第2条
+18-10-12 14:43:44 url: https://mp.weixin.qq.com/s?timestamp=1539326620&src=3&ver=1&signature=LpmwkZ0FPcqVFnL2Y5ao1or-f**GrSjYMaELhfXe00srS9ZgtkBNqPk*gjONwoHX2Uf3TAvqo8YYV6e0U-hf5sZ0zkhrED7HmAMhnKwucruCuiq3Xv8Ov*NNcgjUJoCpsitYK*-3RQKHenjHqhLX*zDu0r1Z0fOGlNARALsZ6JE=
+18-10-12 14:43:44 文章标题: 别了，范冰冰！
+18-10-12 14:43:44 第3条
+18-10-12 14:43:44 所有文章抓取完毕
+18-10-12 14:43:44 文章长度 3501
+18-10-12 14:43:44 请求分词
+18-10-12 14:43:47 分词完成
+18-10-12 14:43:47 ['11:34:31', '11:34:31', '16:54:59']
+18-10-12 14:43:47 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 2, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-10-12 14:43:47 iXianYanSuiYu 抓取完成
+18-10-12 14:43:47 find iXianYanSuiYu
