@@ -129,8 +129,8 @@ class AccountHttp(object):
 
     def uploads_account_info(self, e):
         info = dict()
-        info['name'] = e(".tit").text()
-        info['account'] = self.name
+        info['Name'] = e(".tit").text()
+        info['Account'] = self.name
         show_list = e("dl")
         features, certified = '', ''
         for show in show_list:
@@ -138,18 +138,19 @@ class AccountHttp(object):
                 features = pq(show).text().replace('功能介绍：\n', '')
             if '认证' in pq(show).text():
                 certified = pq(show).text().split('\n')[-1]
-        info['features'] = features
-        info['certified'] = certified
+        info['Feature'] = features
+        info['Certification'] = certified
         info['message'] = True
-        info['status'] = 0
+        info['status'] = 1
 
         # 获取头像二进制
         img_find = e(".img-box").find('img').attr('src')
         url_img_get = 'http:' + img_find
-        info['imageUrl'] = url_img_get
-        self.send_info(info)
+        info['ImageUrl'] = url_img_get
+        return info
+        # self.send_info(info)
 
-    def account_homepage(self):
+    def account_homepage(self, choice=''):
         # 搜索并进入公众号主页
         count = 0
         while True:
@@ -165,6 +166,9 @@ class AccountHttp(object):
                 log('初始化session')
                 self.s = requests.session()
             if self.name in e(".info").eq(0).text():
+                if choice:
+                    account_info = self.uploads_account_info(e)
+                    return account_info
                 account_link = e(".tit").find('a').attr('href')
                 # self.uploads_account_info(e)
                 homepage = self.s.get(account_link, cookies=self.cookies)
@@ -267,9 +271,12 @@ class AccountHttp(object):
         except Exception as e:
             log("发送前端结果错误", e)
 
-    def run(self, name):
+    def run(self, name, choice=''):
         self.name = name
-        html_account = self.account_homepage()
+        html_account = self.account_homepage(choice)
+        # 返回账户信息
+        if choice:
+            return html_account
         if html_account:
             html, account_of_homepage = html_account
         else:
@@ -473,10 +480,8 @@ def add_account():
 @app.route('/WeiXinArt/WeiXinInfo')
 def info_account():
     name = request.args.get('account')
-    _id = hash_md5(name)
-    add_on = datetime.datetime.now()
-    db['sentiment'].update({'id': _id}, {'$set': {'id': _id, 'Account': account, 'add_on': add_on}, }, True)
-    return _id
+    data = account.run(name, choice='get_info')
+    return json.dumps(data)
 
 
 @app.route('/WeiXinArt/WeiXinParse')

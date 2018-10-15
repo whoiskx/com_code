@@ -2,15 +2,7 @@
 import time
 from threading import Thread
 
-import pymongo
 import pymysql
-import redis
-
-conn = pymongo.MongoClient('120.78.237.213', 27017)
-db = conn.WeChat
-
-
-# db = conn.TestWe
 
 
 def log(*args, **kwargs):
@@ -18,7 +10,7 @@ def log(*args, **kwargs):
     value = time.localtime(int(time.time()))
     dt = time.strftime(time_format, value)
     print(dt, *args, **kwargs)
-    with open('log.txt', 'a', encoding='utf-8') as f:
+    with open('log.txt', 'a+', encoding='utf-8') as f:
         print(dt, *args, file=f, **kwargs)
 
 
@@ -44,14 +36,3 @@ def uploads_mysql(config_mysql, sql, _tuple):
     db.commit()
     cursor.close()
     db.close()
-
-
-def redis_conn():
-    s = redis.StrictRedis(host='192.168.1.162', db=8)
-    return s
-
-
-def mongo_conn():
-    conn = pymongo.MongoClient('120.78.237.213', 27017)
-    db = conn.WeChat
-    return db

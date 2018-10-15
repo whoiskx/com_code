@@ -184,26 +184,28 @@ class IpSwith(object):
                                     test_main += 1
                                     # if test_main <= 5 or test_main >= 15:
                                     # raise RuntimeError
-                                    resp = requests.get(monitor_url, headers=self.headers)
-                                    if resp.status_code >= 400:
-                                        count += 1
-                                        if count >= error_max:
-                                            status = self.backup_server_status(monitor_url, domain, backup_ip)
-                                            if status:
-                                                log('切换到备用IP, 当前IP{}'.format(current_ip))
-                                                try:
-                                                    self.login()
-                                                    self.swich_ip(backup_ip, domain)
-                                                    self.save_change(domain_detail)
-                                                except Exception as e:
-                                                    self.driver.quit()
-                                                log('切换成功')
-                                                break
-                                        log('server fault: status code over 400')
-
-                                    else:
-                                        resp.close()
-                                        break
+                                    resp = requests.get(monitor_url, headers=self.headers, timeout=120)
+                                    time.sleep(1)
+                                    break
+                                    # if resp.status_code >= 400:
+                                    #     count += 1
+                                    #     if count >= error_max:
+                                    #         status = self.backup_server_status(monitor_url, domain, backup_ip)
+                                    #         if status:
+                                    #             log('切换到备用IP, 当前IP{}'.format(current_ip))
+                                    #             try:
+                                    #                 self.login()
+                                    #                 self.swich_ip(backup_ip, domain)
+                                    #                 self.save_change(domain_detail)
+                                    #             except Exception as e:
+                                    #                 self.driver.quit()
+                                    #             log('切换成功')
+                                    #             break
+                                    #     log('server fault: status code over 400')
+                                    #
+                                    # else:
+                                    #     resp.close()
+                                    #     break
                                     log('{} normal '.format(domain))
                                 except requests.exceptions.ConnectionError as e:
                                     log('requests http max error', e)
