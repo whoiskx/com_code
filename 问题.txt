@@ -53,3 +53,7 @@ raise 异常名称(‘异常描述’)
 raise RuntimeError('testError')         没有描述 e 为 ''
 
 挂全局改代理IP
+
+
+使用 nohup 运行 Python程序
+    print不会在前台打印，直接打印到 nohup.out

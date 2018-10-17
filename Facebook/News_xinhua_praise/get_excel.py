@@ -1,12 +1,14 @@
 from openpyxl import load_workbook, Workbook
 import pymongo
-conn = pymongo.MongoClient('127.0.0.1', 27017)
-urun = conn.fb_praise
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+conn = pymongo.MongoClient('127.0.0.1', 27017)
+urun = conn.fb_praise
+
+
+# 新华社每周三导数据地址：http://202.105.224.190:8002/XinHuaWeek/reports.jsp
 # 读取excel文件
 def read_excel(file_name='', db_save='', db_praise=''):
     # 打开 默认可读写
@@ -51,8 +53,6 @@ def read_excel(file_name='', db_save='', db_praise=''):
     # for row_cell in sheet['A1':'B3']:
     #     for cell in row_cell:
     #         print(cell)
-    import time
-
     from selenium import webdriver
 
     driver = webdriver.Chrome()
@@ -105,8 +105,7 @@ def load_excel(file_name='', db_praise=''):
 
 
 def main():
-
-    day = '11'
+    day = '17'
     file_name_read = 'facebook201810{}.xlsx'.format(day)
     db_save = 'save_{}'.format(day)
     db_praise = 'praise_{}'.format(day)

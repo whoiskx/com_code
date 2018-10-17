@@ -208,10 +208,10 @@ class IpSwith(object):
                                     #     break
                                     log('{} normal '.format(domain))
                                 except requests.exceptions.ConnectionError as e:
-                                    log('requests http max error', e)
+                                    log('requests 1 http max error', e)
                                     break
                                 except requests.exceptions.Timeout as e:
-                                    log('requests', e)
+                                    log('requests 2 ', e)
                                     count += 1
                                     if count >= error_max:
                                         status = self.backup_server_status(monitor_url, domain, backup_ip)
