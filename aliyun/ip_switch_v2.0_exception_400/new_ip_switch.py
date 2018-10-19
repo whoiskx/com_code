@@ -185,7 +185,8 @@ class IpSwith(object):
                                     # if test_main <= 5 or test_main >= 15:
                                     # raise RuntimeError
                                     resp = requests.get(monitor_url, headers=self.headers, timeout=120)
-                                    time.sleep(1)
+                                    # time.sleep(1)
+                                    log(resp.status_code)
                                     break
                                     # if resp.status_code >= 400:
                                     #     count += 1

@@ -9,7 +9,7 @@ urun = conn.fb_praise
 
 
 # 新华社每周三导数据地址：http://202.105.224.190:8002/XinHuaWeek/reports.jsp
-# 读取excel文件
+# 读取excel文件 excel 双击十字 自动调整宽度
 def read_excel(file_name='', db_save='', db_praise=''):
     # 打开 默认可读写
     wb = load_workbook(file_name)

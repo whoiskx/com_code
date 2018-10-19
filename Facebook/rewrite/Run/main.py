@@ -15,31 +15,31 @@ def main(url):
         driver.find_element_by_css_selector('._2nlw._2nlv')
         choice = login_must
     except Exception as e:
-        pass
+        print('不需要登录')
 
     try:
         # 连接错误 https://www.facebook.com/scleung.itvoice2012
         driver.find_element_by_css_selector('._4-dp')
         choice = link_error
     except Exception as e:
-        pass
+        print('连接错误')
 
     try:
         # 个人
         driver.find_element_by_css_selector('._2i5e')
         choice = person
     except Exception as e:
-        pass
+        print('部署个人')
 
     try:
         # 群组 https://www.facebook.com/theeclecticsbasement/
         driver.find_element_by_css_selector('._64-f')
         choice = group
     except Exception as e:
-        pass
+        print('选择群组')
 
     if choice != '':
-        print(choice)
+        print('选择的函数', choice.__name__)
         choice(driver)
 
 
@@ -53,6 +53,6 @@ if __name__ == '__main__':
     # https://www.facebook.com/107597712639350
     url = "https://www.facebook.com/CityHospitalBd/?rf=523780141030593"
     # 点赞评论很多
-    url = 'https://www.facebook.com/AeroportoLisboa/?rf=107597712639350'
+    # url = 'https://www.facebook.com/AeroportoLisboa/?rf=107597712639350'
 
     main(url)

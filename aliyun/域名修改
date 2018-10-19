@@ -34,3 +34,6 @@ SaveBatchTaskForModifyingDomainDns	提交批量修改域名dns任务
          192.168.1.1 这就是ping你到猫  ping 网站  网络OK 就是电脑问题
 
      ipconfig/flushdns
+
+同一个主机IP要不要监控？
+    只监控服务器？？

@@ -23,17 +23,27 @@ for index, row in enumerate(sheet.rows):
         continue
     r = row
     data = {
-    "name" : r[0].value,
-    "domain" : r[1].value,
-    "main_ip" : r[2].value.split(':')[0],
-    "backup_ip" : r[3].value.split(':')[0],
-    "monitor" : r[4].value,
-    "changing" : False,
-    "end_time" : None,
-    "close" : False
-}
-    urun['aliyun_dns'].insert(data)
-    print(data)
+        "name": r[0].value,
+        "domain": r[1].value,
+        "main_ip": r[1].value.split(':')[0],
+        "backup_ip": r[2].value.split(':')[0],
+        "monitor": r[3].value,
+        "changing": False,
+        "end_time": None,
+        "close": False
+    }
+    # urun['aliyun_dns'].insert(data)
+    # 检测是否一致
+    for instance in urun['aliyun_dns'].find():
+
+        if instance.get('name') == data.get('name'):
+            if instance.get('main_ip') == data.get('main_ip') and instance.get('backup_ip') == data.get(
+                    'backup_ip') and instance.get('monitor') == data.get('monitor') and instance.get(
+                    'domain') in data.get('monitor'):
+                print('相等', instance.get('name'))
+            else:
+                print(instance, data, '不相等')
+    print('11')
     # for i, cell in enumerate(row):
     #     print(cell.value)
 
