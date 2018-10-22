@@ -98,7 +98,7 @@ class AccountHttp(object):
                     try_count += 1
                     self.crack_sougou(search_url)
                     if '搜公众号' in self.driver.page_source:
-                        log('------cookies更新------')
+                        log('------开始更新cookies------')
                         cookies = self.driver.get_cookies()
                         new_cookie = {}
                         for items in cookies:
@@ -106,7 +106,7 @@ class AccountHttp(object):
                         self.cookies = new_cookie
                         log('------cookies已更新------', self.cookies)
                         break
-                    elif try_count > 6:
+                    elif try_count > 4:
                         log("浏览器验证失败")
                         break
                 log("验证完毕")
@@ -263,11 +263,13 @@ class AccountHttp(object):
             self.driver.get(url)
             time.sleep(2)
             if '搜公众号' in self.driver.page_source:
-                for i in range(30):
-                    self.driver.get(url)
-                    log('浏览器页面正常')
-                    if '搜公众号' not in self.driver.page_source:
-                        break
+                # for i in range(30):
+                #     self.driver.get(url)
+                #     log('浏览器页面正常')
+                #     if '搜公众号' not in self.driver.page_source:
+                #         break
+                log('浏览器页面正常', '直接返回')
+                return
             try:
                 img = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
                 log('------出现验证码页面------')

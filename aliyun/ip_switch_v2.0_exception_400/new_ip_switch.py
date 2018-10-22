@@ -139,12 +139,12 @@ class IpSwith(object):
         backup_url = monitor_url.replace(domain, backup_ip)
         log("backup_ip {}".format(backup_ip))
         try:
-            resp = requests.get(backup_url, headers=self.headers)
+            resp = requests.get(backup_url, headers=self.headers, timeout=120)
             if resp.status_code >= 400:
-                log("backup server error1")
+                log("backup server error1", resp.status_code)
                 return False
         except Exception as e:
-            log("backup server error2")
+            log("backup server error2", e)
             return False
         return True
 
@@ -174,7 +174,7 @@ class IpSwith(object):
                     backup_ip = domain_detail.get('backup_ip')
                     if current_ip == main_ip:
                         # 当前IP是主IP
-                        log('当前是主IP{}'.format(current_ip))
+                        log('当前是IP是：主IP{}'.format(current_ip))
                         changing = domain_detail.get('changing')
                         if changing is False:
                             count = 0
@@ -186,27 +186,27 @@ class IpSwith(object):
                                     # raise RuntimeError
                                     resp = requests.get(monitor_url, headers=self.headers, timeout=120)
                                     # time.sleep(1)
-                                    log(resp.status_code)
-                                    break
-                                    # if resp.status_code >= 400:
-                                    #     count += 1
-                                    #     if count >= error_max:
-                                    #         status = self.backup_server_status(monitor_url, domain, backup_ip)
-                                    #         if status:
-                                    #             log('切换到备用IP, 当前IP{}'.format(current_ip))
-                                    #             try:
-                                    #                 self.login()
-                                    #                 self.swich_ip(backup_ip, domain)
-                                    #                 self.save_change(domain_detail)
-                                    #             except Exception as e:
-                                    #                 self.driver.quit()
-                                    #             log('切换成功')
-                                    #             break
-                                    #     log('server fault: status code over 400')
-                                    #
-                                    # else:
-                                    #     resp.close()
-                                    #     break
+                                    log('status_code: ', resp.status_code)
+                                    # break
+                                    if resp.status_code >= 400:
+                                        count += 1
+                                        if count >= error_max:
+                                            status = self.backup_server_status(monitor_url, domain, backup_ip)
+                                            if status:
+                                                log('切换到备用IP, 当前IP{}'.format(current_ip))
+                                                try:
+                                                    self.login()
+                                                    self.swich_ip(backup_ip, domain)
+                                                    self.save_change(domain_detail)
+                                                except Exception as e:
+                                                    self.driver.quit()
+                                                log('切换成功')
+                                                break
+                                        log('server fault: status code over 400')
+
+                                    else:
+                                        resp.close()
+                                        break
                                     log('{} normal '.format(domain))
                                 except requests.exceptions.ConnectionError as e:
                                     log('requests 1 http max error', e)
@@ -245,7 +245,7 @@ class IpSwith(object):
                             count = 0
                             while True:
                                 try:
-                                    resp = requests.get(main_url, headers=self.headers)
+                                    resp = requests.get(main_url, headers=self.headers, timeout=120)
                                     if resp.status_code < 400:
 
                                         count += 1

@@ -18,4 +18,14 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    # for i in range(10):
+        url = 'https://weixin.sogou.com/weixin?type=1&s_from=input&query=yljyjt&ie=utf8&_sug_=n&_sug_type_='
+        headers = {
+        'Cookie':'ABTEST=0|1540189245|v1; SNUID=E6C67A29F2F68A39B22B3E09F35724B0; IPLOC=CN4401; SUID=143489DB721A910A000000005BCD6C3D; SUID=143489DB5018910A000000005BCD6C3D; JSESSIONID=aaa-lAxGGKRzP4ODRmIzw; SUV=006D6411DB8934145BCD6C3E87B85433'
+        # "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
+        }
+        r = requests.get(url, headers=headers)
+        from pyquery import PyQuery as pq
+        print(pq(r.text)('title'))
+        # print(r.text)
