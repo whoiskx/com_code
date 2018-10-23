@@ -269,6 +269,7 @@ class JsonEntity(object):
                         'ShortUrl': '',
                         'Tags': '',
                         'DefinedSite': '',
+                        'CrawlerType': '1',
                     }, ensure_ascii=False)
                 })
 
@@ -333,6 +334,9 @@ class Backpack(object):
         self.Author = ''
         self.Time = ''
         self.AddOn = ''
+        self.Tags = ''
+        self.DefinedSite = ''
+        self.CrawlerType = ''
 
     def create(self, entity):
         self.ID = entity.id
@@ -348,6 +352,7 @@ class Backpack(object):
         self.Author = entity.author
         self.Time = int(entity.time) if entity.time else ''
         self.AddOn = int(entity.addon + '000')
+        self.CrawlerType = '1'
 
     def to_dict(self):
         return self.__dict__

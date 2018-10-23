@@ -3,6 +3,9 @@ import time
 
 import pymysql
 
+# 搜狗验证码识别url
+GetCaptcha_url = 'http://124.239.144.164:7101/GetCaptcha'
+
 
 def mysql_tag_code():
     # 接口 site_id -> tag_code
@@ -63,6 +66,7 @@ def get_mysql_new():
     }
     return config_mysql
 
+
 def localhost_mysql():
     MYSQL_HOST = 'localhost'
     MYSQL_PORT = 3306
@@ -80,6 +84,7 @@ def localhost_mysql():
     }
     return config_mysql
 
+
 if __name__ == '__main__':
     config_mysql = localhost_mysql()
     db = pymysql.connect(**config_mysql)
@@ -88,4 +93,3 @@ if __name__ == '__main__':
     # db.commit()
     cursor.close()
     db.close()
-

@@ -12,7 +12,7 @@ from lxml import etree
 
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack, Ftp
-from config import get_mysql_new
+from config import get_mysql_new, GetCaptcha_url
 from utils import uploads_mysql, log, mongo_conn
 
 from selenium.webdriver.common.by import By
@@ -159,7 +159,7 @@ class AccountHttp(object):
 
     def save_to_mysql(self, entity):
         # 上传数据库
-        log('开始上传mysql')
+        # log('开始上传mysql')
         sql = '''   
                 INSERT INTO 
                     account_http(article_url, addon, account, account_id, author, id, title) 
@@ -172,10 +172,10 @@ class AccountHttp(object):
             entity.title
         )
         uploads_mysql(config_mysql, sql, _tuple)
-        log('上传mysql完成')
+        # log('上传mysql完成')
 
     def create_xml(self, infos, file_name):
-        log('创建xml文件')
+        # log('创建xml文件')
         data = etree.Element("data")
         for k, v in infos.items():
             sub_tag = etree.SubElement(data, k)
@@ -190,14 +190,15 @@ class AccountHttp(object):
         # print(dataxml.decode("utf-8"))
         file_name = os.path.join(current_dir, 'xml', file_name)
         etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
-        log('完成xml文件')
+        # log('完成xml文件')
 
     def run(self):
         while True:
             log('程序启动')
-            # account_list = self.account_list()
+            account_list = self.account_list()
+            log(account_list)
             try:
-                account_list = ['shlcity2', 'zxw365500', 'ch020net', 'ycwzx8']
+                # account_list = ['shlcity2', 'zxw365500', 'ch020net', 'ycwzx8']
                 for _account in account_list:
                     self.search_name = _account
                     html_account = self.account_homepage()
@@ -229,6 +230,7 @@ class AccountHttp(object):
                         log('第{}条 文章标题: {}'.format(page_count, article.title))
                         log("当前文章url: {}".format(url))
                         entity = JsonEntity(article, account)
+                        log('当前文章ID: ', entity.id)
                         backpack = Backpack()
                         backpack.create(entity)
                         backpack_list.append(backpack.create_backpack())
@@ -240,8 +242,8 @@ class AccountHttp(object):
                         # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
                         self.create_xml(ftp_info.ftp_dict(), name_xml)
                         ftp_list.append(name_xml)
-                        if page_count == 5:
-                            break
+                        # if page_count == 5:
+                        #     break
                     # todo 发包超时，修改MTU
                     entity.uploads_ftp(ftp_info, ftp_list)
 
@@ -284,9 +286,16 @@ class AccountHttp(object):
                 captcha = screenshot.crop((left, top, right, bottom))
                 captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
                 captcha.save(captcha_path)
-                with open(captcha_path, "rb") as f:
-                    filebytes = f.read()
-                captch_input = captch_upload_image(filebytes)
+                # with open(captcha_path, "rb") as f:
+                #     filebytes = f.read()
+                # captch_input = captch_upload_image(filebytes)
+                # log('------验证码：{}------'.format(captch_input))
+                captch_input = ''
+                files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
+                res = requests.post(url=GetCaptcha_url, files=files)
+                res = res.json()
+                if res.get('Success'):
+                    captch_input = res.get('Captcha')
                 log('------验证码：{}------'.format(captch_input))
                 if captch_input:
                     input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
