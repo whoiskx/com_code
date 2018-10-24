@@ -6,22 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wechat/headers_part_2/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/tests/logging_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/interface_check/analyse_interface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/server/server_temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/server/server_temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/daily/daily_check/account.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/daily/daily_check/account.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/headers/headers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/headers/headers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/headers/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/headers/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/headers_part_2/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/headers_part_2/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/headers_part_2/header.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/headers_part_2/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/headers_part_2/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/headers_part_2/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/headers_part_2/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/headers_part_2/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/headers_part_2/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/问题.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat/daily/daily_check/self_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/daily/daily_check/self_check.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,39 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server_temp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/server/server_temp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechat/headers/headers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="274" column="32" lean-forward="true" selection-start-line="274" selection-start-column="32" selection-end-line="274" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="verification_code.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechat/headers/verification_code.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechat/headers/utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechat/headers/tests.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="问题.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/问题.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,11 +62,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sentiment_analyze.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sentiment_analyze.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="401" column="51" lean-forward="true" selection-start-line="401" selection-start-column="51" selection-end-line="401" selection-end-column="51" />
+            <state relative-caret-position="97">
+              <caret line="396" column="64" lean-forward="true" selection-start-line="396" selection-start-column="64" selection-end-line="396" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="2854" column="8" selection-start-line="2854" selection-start-column="8" selection-end-line="2854" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analyse_interface.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat/interface_check/analyse_interface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="self_check.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wechat/daily/daily_check/self_check.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verification_code.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat/add/collect_by_account/verification_code.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="63" column="50" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worksheet.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/openpyxl/worksheet/worksheet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="744" column="8" selection-start-line="744" selection-start-column="8" selection-end-line="744" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -206,8 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wechat/interface/daily_check/self_check.py" />
-        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_threading/config.py" />
         <option value="$PROJECT_DIR$/utils/linux安装包/8-24-linux下安装chrome.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/error.txt" />
@@ -257,6 +254,8 @@
         <option value="$PROJECT_DIR$/utils/server/server_temp.py" />
         <option value="$PROJECT_DIR$/wechat/headers/headers.py" />
         <option value="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py" />
+        <option value="$PROJECT_DIR$/wechat/interface_check/analyse_interface.py" />
+        <option value="$PROJECT_DIR$/wechat/daily/daily_check/self_check.py" />
       </list>
     </option>
   </component>
@@ -294,26 +293,63 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin_interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="add" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="add" type="462c0819:PsiDirectoryNode" />
+              <item name="collect_by_account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="add" type="462c0819:PsiDirectoryNode" />
+              <item name="collect_by_account" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="daily" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="daily" type="462c0819:PsiDirectoryNode" />
+              <item name="daily_check" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="datacenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
               <item name="weixin_interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="analyse_8.0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin_interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="analyse_8.0" type="462c0819:PsiDirectoryNode" />
-              <item name="analyse_8.0_v2_sougou_word" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin_interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="new_media_analyse_version" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,7 +359,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/com_code/Facebook/rewrite/utils.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Program Files/Python36/Lib/site-packages/openpyxl/worksheet/worksheet.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/wechat/headers_part_2" />
@@ -357,7 +393,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sentiment_analyze">
+  <component name="RunManager" selected="Python.self_check">
+    <configuration name="analyse_interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechat/interface_check" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat/interface_check/analyse_interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="headers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,24 +425,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat/headers/headers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="logging_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wechat/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wechat/tests/logging_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -449,19 +485,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.self_check" />
-      <item itemvalue="Python.logging_tests" />
       <item itemvalue="Python.server_temp" />
       <item itemvalue="Python.headers" />
       <item itemvalue="Python.sentiment_analyze" />
+      <item itemvalue="Python.analyse_interface" />
+      <item itemvalue="Python.self_check" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.self_check" />
+        <item itemvalue="Python.analyse_interface" />
         <item itemvalue="Python.sentiment_analyze" />
         <item itemvalue="Python.headers" />
         <item itemvalue="Python.server_temp" />
-        <item itemvalue="Python.logging_tests" />
-        <item itemvalue="Python.self_check" />
       </list>
     </recent_temporary>
   </component>
@@ -527,11 +563,11 @@
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.40319148" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.55744684" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.293617" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.3287234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33085108" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.4" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.51276594" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -1245,6 +1281,11 @@
           <line>68</line>
           <option name="timeStamp" value="547" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wechat/daily/daily_check/self_check.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="549" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1256,11 +1297,41 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="548" />
+      <option name="time" value="550" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>datetime.datetime.fromtimestamp(int(article_time[:-3])).strftime('%Y-%m-%d %H:%M:%S')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>datetime.datetime.fromtimestamp(int(article_time[:-3])).strftime('%Y-%m-%d %H:%M:%S.%f')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>datetime.datetime.fromtimestamp(int(article_time[:-3])).today()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>datetime.datetime.fromtimestamp(int(article_time[:-3])).now()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>datetime.datetime.fromtimestamp(int(article_time[:-3])).time()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>datetime.datetime.fromtimestamp(int(article_time[:-3])).date()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>d.find_element_by_xpath('/html/body/div[2]').get_attribute('innerHTML')</expression-string>
         <language-id>Python</language-id>
@@ -1273,36 +1344,6 @@
       </expression>
       <expression>
         <expression-string>d.find_element_by_xpath('/html/body/div[2]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>d.find_element_by_xpath('/html/body/div[2]').text</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>d.find_element_by_xpath('//*[@id=&quot;recaptcha-anchor&quot;]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>d.find_element_by_xpath('//*[@id=&quot;recaptcha-anchor&quot;]/div[1]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>d.find_element_by_xpath('//*[@id=&quot;recaptcha-anchor&quot;]/div[4]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>d.find_element_by_xpath('//*[@id=&quot;recaptcha-anchor&quot;]/div[5]')</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>d.find_element_by_xpath('//*[@id=&quot;recaptcha-anchor&quot;]/div[5])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1373,22 +1414,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/微信请求头像判断/test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/微信请求头像判断/send.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/微信请求头像判断/main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/微信请求头像判断/app_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aliyun/xlsx_to_mongo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -1568,13 +1593,6 @@
     <entry file="file://$PROJECT_DIR$/微信底层查询参数.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat/daily/daily_check/self_check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wechat/tests/sogou_link_tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1660,8 +1678,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="401" column="51" lean-forward="true" selection-start-line="401" selection-start-column="51" selection-end-line="401" selection-end-column="51" />
+        <state relative-caret-position="97">
+          <caret line="396" column="64" lean-forward="true" selection-start-line="396" selection-start-column="64" selection-end-line="396" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1120166012/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="2854" column="8" selection-start-line="2854" selection-start-column="8" selection-end-line="2854" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/interface_check/analyse_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/openpyxl/worksheet/worksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="744" column="8" selection-start-line="744" selection-start-column="8" selection-end-line="744" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/add/collect_by_account/verification_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat/daily/daily_check/self_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
         </state>
       </provider>
     </entry>
