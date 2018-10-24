@@ -5,7 +5,6 @@ import pymssql
 import pymysql
 from flask import Flask, request, send_from_directory
 
-
 import random
 import re
 import time
@@ -37,7 +36,7 @@ class AccountHttp(object):
         self.url = 'https://weixin.sogou.com/weixin?type=1&s_from=input&query={}&ie=utf8&_sug_=n&_sug_type_='
         self.account = ''
         self.name = ''
-        
+
         self.s = requests.session()
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
@@ -51,17 +50,15 @@ class AccountHttp(object):
         self.wait = WebDriverWait(self.browser, 4)
         self.browser.set_page_load_timeout(15)
         self.browser.set_script_timeout(15)
-       
-
         self.count = 0
-
         self.BASE_DIR = r'D:\WXSchedule\Images'
 
     def account_homepage(self):
         # 搜索并进入公众号主页
         count = 0
         while True:
-            if count == 2:
+            count += 1
+            if count >= 4:
                 break
             log('start', self.name)
             search_url = self.url.format(self.name)
@@ -88,7 +85,7 @@ class AccountHttp(object):
                 # 处理验证码
                 log(search_url)
                 # log(resp_search.text)
-                log('验证之前的cookie', self.cookies)
+                # log('验证之前的cookie', self.cookies)
                 try_count = 0
                 while True:
                     try_count += 1
@@ -110,6 +107,7 @@ class AccountHttp(object):
                 time.sleep(2)
                 # 被跳过的公众号要不要抓取  大概 4次
                 continue
+        log('多次账号异常，跳过账号:', self.name)
 
     def handle_img(self, img_b, account_id):
         num = int(account_id) // 1000
@@ -141,7 +139,7 @@ class AccountHttp(object):
 
     def run(self):
         url_img = self.account_homepage()
-        
+
         if url_img:
             if '找不到该公众号' in url_img:
                 return '找不到该公众号'
@@ -222,6 +220,7 @@ class AccountHttp(object):
 
 
 account = AccountHttp()
+
 
 @app.route("/CheckImage/<account_id>")
 def check_image(account_id):

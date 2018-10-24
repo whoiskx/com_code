@@ -60,7 +60,7 @@ class AccountHttp(object):
         count = 0
         while True:
             count += 1
-            if count > 2:
+            if count > 3:
                 break
             log('start account', self.search_name)
             search_url = self.url.format(self.search_name)
@@ -112,6 +112,7 @@ class AccountHttp(object):
                 log("验证完毕")
                 time.sleep(2)
                 continue
+        log('多次账号异常，跳过账号:', self.name)
 
     def account_list(self):
         # 老版
@@ -192,32 +193,42 @@ class AccountHttp(object):
         etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
         # log('完成xml文件')
 
+    def dedup(self, account_name):
+        date_today = str(datetime.date.today().strftime('%Y%m%d'))
+        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
+            account_name, date_today)
+        get_ids = requests.get(bottom_url)
+        ids = get_ids.text
+        return ids
+
     def run(self):
         while True:
             log('程序启动')
             account_list = self.account_list()
             log(account_list)
             try:
-                # account_list = ['shlcity2', 'zxw365500', 'ch020net', 'ycwzx8']
-                for _account in account_list:
-                    self.search_name = _account
+                # account_list = ['jxcbxjzt', 'yingde763', 'gh_09f33f5aaf7c', 'jk8122']
+                for account_name in account_list:
+                    self.search_name = account_name
                     html_account = self.account_homepage()
                     if html_account:
                         html = html_account
                     else:
-                        log('找到不到微信号首页: ', _account)
+                        log('找到不到微信号首页: ', account_name)
                         continue
                     urls_article = self.urls_article(html)
 
                     account = Account()
                     account.name = self.name
-                    account.account = _account
+                    account.account = account_name
                     account.get_account_id()
                     if not account.account_id:
                         log("没有account_id", account.account)
                         db_mongo = mongo_conn()
                         db_mongo['noAccountId'].insert({'account': account.account})
 
+                    # 判重
+                    ids = self.dedup(account_name)
                     entity = None
                     backpack_list = []
                     ftp_list = []
@@ -231,6 +242,9 @@ class AccountHttp(object):
                         log("当前文章url: {}".format(url))
                         entity = JsonEntity(article, account)
                         log('当前文章ID: ', entity.id)
+                        if entity.id in ids:
+                            log('当前文章已存在，跳过')
+                            continue
                         backpack = Backpack()
                         backpack.create(entity)
                         backpack_list.append(backpack.create_backpack())
@@ -245,7 +259,8 @@ class AccountHttp(object):
                         # if page_count == 5:
                         #     break
                     # todo 发包超时，修改MTU
-                    entity.uploads_ftp(ftp_info, ftp_list)
+                    if ftp_info is not None:
+                        entity.uploads_ftp(ftp_info, ftp_list)
 
                     log("发包")
                     if entity:
@@ -253,7 +268,7 @@ class AccountHttp(object):
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
                 log("发包完成")
-                # break
+                break
             except Exception as e:
                 log("程序出错", e)
                 continue
