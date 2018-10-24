@@ -14,6 +14,15 @@ def log(*args, **kwargs):
         print(dt, *args, file=f, **kwargs)
 
 
+def log2(*args, **kwargs):
+    time_format = '%y-%m-%d %H:%M:%S'
+    value = time.localtime(int(time.time()))
+    dt = time.strftime(time_format, value)
+    print(dt, *args, **kwargs)
+    with open('log_record.txt', 'a+', encoding='utf-8') as f:
+        print(dt, *args, file=f, **kwargs)
+
+
 def async(f):
     def wrapper(*args, **kwargs):
         thr = Thread(target=f, args=args, kwargs=kwargs)

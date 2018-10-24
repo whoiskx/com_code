@@ -2,7 +2,7 @@
 import time
 
 # 搜狗验证码识别url
-GetCaptcha_url = 'http://183.238.76.204:38015/GetCaptcha'
+GetCaptcha_url = 'http://124.239.144.164:7101/GetCaptcha'
 
 
 def mysql_tag_code():

@@ -260,8 +260,8 @@ def save_images():
     return result
 
 
-@app.route("/BackImage/<filename>")
-def back_image(filename):
+@app.route("/Images/<file>/<filename>")
+def back_image(file, filename):
     # Images/50000/50000350.jpg
     log('path', filename)
     user_file_dir = r'D:\WXSchedule\Images'

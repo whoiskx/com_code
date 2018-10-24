@@ -57,3 +57,7 @@ raise RuntimeError('testError')         没有描述 e 为 ''
 
 使用 nohup 运行 Python程序
     print不会在前台打印，直接打印到 nohup.out
+
+单个死循环 在 4核CPU内 占用 33%
+
+ grep -C 10 '切换' log.txt

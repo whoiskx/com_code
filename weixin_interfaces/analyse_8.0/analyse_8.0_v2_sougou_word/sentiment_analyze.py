@@ -399,12 +399,9 @@ class AccountHttp(object):
                 captcha = screenshot.crop((left, top, right, bottom))
                 captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
                 captcha.save(captcha_path)
-                captch_input = ''
-                files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
-                res = requests.post(url=GetCaptcha_url, files=files)
-                res = res.json()
-                if res.get('Success'):
-                    captch_input = res.get('Captcha')
+                with open(captcha_path, "rb") as f:
+                    filebytes = f.read()
+                captch_input = captch_upload_image(filebytes)
                 log('------验证码：{}------'.format(captch_input))
                 if captch_input:
                     input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))

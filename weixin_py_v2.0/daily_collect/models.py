@@ -160,7 +160,8 @@ class JsonEntity(object):
     def uploads_datacenter_relay(self, backpack_list):
         # 上传数据分发中心
         if backpack_list:
-            sever = 'http://27.17.18.131:38072'
+            server = 'http://27.17.18.131:38072'
+            server_backup = 'http://119.39.84.12:7104'
             body = json.dumps(backpack_list)
             datacenter_relay = [
                 {
@@ -177,12 +178,17 @@ class JsonEntity(object):
                     break
                 try:
                     log('start uploads datacenter_relay')
-                    r = requests.post(sever, data=json.dumps(datacenter_relay))
+                    r = requests.post(server, data=json.dumps(datacenter_relay))
                     if r.status_code == 200:
                         log('uploads datacenter_relay server successful')
                         break
                     else:
-                        log('数据中心error')
+                        log('start uploads datacenter_relay backup')
+                        r = requests.post(server_backup, data=json.dumps(datacenter_relay))
+                        if r.status_code == 200:
+                            log('uploads datacenter_relay server backup successful')
+                            break
+                        log('数据中心发包异常')
                 except Exception as e:
                     log('uploads datacenter_relay http error', e)
                 count += 1
