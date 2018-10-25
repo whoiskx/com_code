@@ -50,7 +50,7 @@ class Article(object):
             if '此内容因违规无法查看' in resp.text:
                 self.title = '此内容因违规无法查看'
                 return
-            if '此内容被投诉且经审核涉嫌侵权' in resp.text:   #此内容被投诉且经审核涉嫌侵权，无法查看。 https://mp.weixin.qq.com/s?__biz=MzA4MDc5ODE4Ng==&mid=2651004263&idx=3&sn=24c583522836d6ed5da89364684777dd&chksm=846975e2b31efcf4c716a8dbf747d98d7e0d323e75e8345e8593b766f87ebdd1078a0febfc05&scene=27#wechat_redirect
+            if '此内容被投诉且经审核涉嫌侵权' in resp.text:  # 此内容被投诉且经审核涉嫌侵权，无法查看。 https://mp.weixin.qq.com/s?__biz=MzA4MDc5ODE4Ng==&mid=2651004263&idx=3&sn=24c583522836d6ed5da89364684777dd&chksm=846975e2b31efcf4c716a8dbf747d98d7e0d323e75e8345e8593b766f87ebdd1078a0febfc05&scene=27#wechat_redirect
                 self.title = '此内容被投诉且经审核涉嫌侵权，无法查看。'
                 return
             self.is_share = True
@@ -128,6 +128,9 @@ class JsonEntity(object):
         m = hashlib.md5()
         m.update(s.encode(encoding='utf-8'))
         return m.hexdigest()
+
+    def to_dict(self):
+        return self.__dict__
 
     def uploads(self, backpack_list):
         # 上传底层 底层不能接收None，会丢弃

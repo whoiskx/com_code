@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import pymongo
 import time
 
 import pymysql
@@ -83,6 +84,12 @@ def localhost_mysql():
         'connect_timeout': 10,
     }
     return config_mysql
+
+
+def mongo_conn():
+    conn = pymongo.MongoClient('120.78.237.213', 27017)
+    db = conn.WeChat
+    return db
 
 
 if __name__ == '__main__':

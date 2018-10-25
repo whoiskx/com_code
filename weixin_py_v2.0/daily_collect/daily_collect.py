@@ -12,7 +12,7 @@ from lxml import etree
 
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack, Ftp
-from config import get_mysql_new, GetCaptcha_url
+from config import get_mysql_new, GetCaptcha_url, mongo_conn
 from utils import uploads_mysql, log, mongo_conn
 
 from selenium.webdriver.common.by import By
@@ -172,8 +172,15 @@ class AccountHttp(object):
             entity.id,
             entity.title
         )
-        uploads_mysql(config_mysql, sql, _tuple)
+        try:
+            uploads_mysql(config_mysql, sql, _tuple)
+        except Exception as e:
+            log('数据库上传错误', e)
         # log('上传mysql完成')
+
+    def save_to_mongo(self, entity):
+        db = mongo_conn()
+        db['daily_colleection'].insert(entity)
 
     def create_xml(self, infos, file_name):
         # log('创建xml文件')
@@ -234,8 +241,8 @@ class AccountHttp(object):
                     ftp_list = []
                     ftp_info = None
                     for page_count, url in enumerate(urls_article):
-                        if page_count < 15:
-                            continue
+                        # if page_count < 15:
+                        #     continue
                         article = Article()
                         article.create(url, account)
                         log('第{}条 文章标题: {}'.format(page_count, article.title))
@@ -250,7 +257,8 @@ class AccountHttp(object):
                         backpack = Backpack()
                         backpack.create(entity)
                         backpack_list.append(backpack.create_backpack())
-                        self.save_to_mysql(entity)
+                        # self.save_to_mysql(entity)
+                        self.save_to_mongo(entity.to_dict())
 
                         # ftp包
                         ftp_info = Ftp(entity)
@@ -270,7 +278,7 @@ class AccountHttp(object):
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
                 log("发包完成")
-                # break
+                break
             except Exception as e:
                 log("程序出错", e)
                 continue
