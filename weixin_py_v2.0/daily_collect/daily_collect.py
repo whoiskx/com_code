@@ -77,11 +77,11 @@ class AccountHttp(object):
                 if '<title>请输入验证码 </title>' in homepage.text:
                     self.crack_sougou(account_link)
                     homepage = self.s.get(account_link, cookies=self.cookies)
-                    if '请输入验证码' in homepage.text:
-                        log('微信公众号页面错误', pq(homepage.text)('title').text())
-                        time.sleep(600)
-                        count -= 1
-                        continue
+                    # if '请输入验证码' in homepage.text:
+                    #     log('微信公众号页面错误', pq(homepage.text)('title').text())
+                    #     time.sleep(600)
+                    #     count -= 1
+                    #     continue
                 return homepage.text
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.search_name))
@@ -204,7 +204,7 @@ class AccountHttp(object):
     def run(self):
         while True:
             log('程序启动')
-            account_list = self.account_list()
+            account_list = ['lv2260'] or self.account_list()
             log(account_list)
             try:
                 # account_list = ['jxcbxjzt', 'yingde763', 'gh_09f33f5aaf7c', 'jk8122']
@@ -234,8 +234,8 @@ class AccountHttp(object):
                     ftp_list = []
                     ftp_info = None
                     for page_count, url in enumerate(urls_article):
-                        # if page_count < 35:
-                        #     continue
+                        if page_count < 15:
+                            continue
                         article = Article()
                         article.create(url, account)
                         log('第{}条 文章标题: {}'.format(page_count, article.title))
@@ -245,6 +245,8 @@ class AccountHttp(object):
                         if entity.id in ids:
                             log('当前文章已存在，跳过')
                             continue
+                        if entity.id == 'd41d8cd98f00b204e9800998ecf8427e':
+                            print('debug')
                         backpack = Backpack()
                         backpack.create(entity)
                         backpack_list.append(backpack.create_backpack())
@@ -268,7 +270,7 @@ class AccountHttp(object):
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
                 log("发包完成")
-                break
+                # break
             except Exception as e:
                 log("程序出错", e)
                 continue

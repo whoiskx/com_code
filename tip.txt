@@ -121,3 +121,5 @@ flask
 
     post 参数 data(字典)  解析 form
 
+选中大块区域
+    鼠标标识开头  到要选择的地方 按住shift 加左键
