@@ -118,7 +118,7 @@ class AccountHttp(object):
         # 老版
         # url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
         # # url = 'http://183.131.241.60:38011/nextaccount?label=5'
-        # resp = requests.get(url)
+        # resp = requests.get(url, timeout=30)
         # # data 可能为空
         # data_json = resp.text.get('data')
         # data = json.loads(data_json)
@@ -128,7 +128,7 @@ class AccountHttp(object):
         account_all = []
         try:
             url = 'http://183.131.241.60:38011/nextaccount?label=5'
-            resp = requests.get(url)
+            resp = requests.get(url, timeout=30)
             items = json.loads(resp.text)
             if len(items) == 0:
                 return []
@@ -204,18 +204,18 @@ class AccountHttp(object):
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
         bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
             account_name, date_today)
-        get_ids = requests.get(bottom_url)
+        get_ids = requests.get(bottom_url, timeout=30)
         ids = get_ids.text
         return ids
 
     def run(self):
         while True:
             log('程序启动')
-            account_list = ['lv2260'] or self.account_list()
+            account_list = [] or self.account_list()
             log(account_list)
-            try:
-                # account_list = ['jxcbxjzt', 'yingde763', 'gh_09f33f5aaf7c', 'jk8122']
-                for account_name in account_list:
+            for account_name in account_list:
+                try:
+                    # account_list = ['jxcbxjzt', 'yingde763', 'gh_09f33f5aaf7c', 'jk8122']
                     self.search_name = account_name
                     html_account = self.account_homepage()
                     if html_account:
@@ -268,20 +268,19 @@ class AccountHttp(object):
                         ftp_list.append(name_xml)
                         # if page_count == 5:
                         #     break
+                    log("发包")
                     # todo 发包超时，修改MTU
                     if ftp_info is not None:
                         entity.uploads_ftp(ftp_info, ftp_list)
-
-                    log("发包")
                     if entity:
                         # entity.uploads(backpack_list)
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
-                log("发包完成")
-                break
-            except Exception as e:
-                log("程序出错", e)
-                continue
+                    log("发包完成")
+                    # break
+                except Exception as e:
+                    log("程序出错", e)
+                    continue
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))

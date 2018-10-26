@@ -61,3 +61,8 @@ raise RuntimeError('testError')         没有描述 e 为 ''
 单个死循环 在 4核CPU内 占用 33%
 
  grep -C 10 '切换' log.txt
+
+ return send_file(path, mimetype='image/jpeg')
+# return send_from_directory(IMAGE_DIR, filename)  阻塞
+
+__name__ 正在运行 '__main__', 被导入，模块名字

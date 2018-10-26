@@ -313,7 +313,7 @@ class JsonEntity(object):
         ftp = FTP(timeout=7)  # 设置变量
         ftp.set_debuglevel = 1
         # socket.setdefaulttimeout(timeout)
-        ftp.connect("110.249.163.246", 21)  # 连接的ftp sever和端口
+        ftp.connect("110.249.163.246", 21, timeout=21)  # 连接的ftp sever和端口
         ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
         filepath = '/' + datetime.datetime.now().strftime("%Y%m%d")
         # filename = uuid.uuid1()

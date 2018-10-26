@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
-import pymongo
 import time
 
-import pymysql
-
 # 搜狗验证码识别url
-GetCaptcha_url = 'http://124.239.144.164:7101/GetCaptcha'
+GetCaptcha_url = 'http://183.238.76.204:38015/GetCaptcha'
 
 
 def mysql_tag_code():
@@ -42,7 +39,6 @@ def get_mysql_old():
         'database': MYSQL_DATABASE,
         'password': MYSQL_PASSWORD,
         'charset': 'utf8',
-        'connect_timeout': 10
     }
     return config_mysql
 
@@ -62,41 +58,6 @@ def get_mysql_new():
         'user': MYSQL_USER,
         'passwd': MYSQL_PASSWORD,
         'db': MYSQL_DATABASE,
-        'charset': 'utf8',
-        'connect_timeout': 15,
+        'charset': 'utf8'
     }
     return config_mysql
-
-
-def localhost_mysql():
-    MYSQL_HOST = 'localhost'
-    MYSQL_PORT = 3306
-    MYSQL_USER = 'root'
-    MYSQL_DATABASE = 'comm'
-
-    config_mysql = {
-        'host': MYSQL_HOST,
-        'port': MYSQL_PORT,
-        'user': MYSQL_USER,
-        # 'passwd': MYSQL_PASSWORD,
-        'db': MYSQL_DATABASE,
-        'charset': 'utf8',
-        'connect_timeout': 10,
-    }
-    return config_mysql
-
-
-def mongo_conn():
-    conn = pymongo.MongoClient('120.78.237.213', 27017)
-    db = conn.WeChat
-    return db
-
-
-if __name__ == '__main__':
-    config_mysql = localhost_mysql()
-    db = pymysql.connect(**config_mysql)
-    cursor = db.cursor()
-    # cursor.execute(sql, _tuple)
-    # db.commit()
-    cursor.close()
-    db.close()
