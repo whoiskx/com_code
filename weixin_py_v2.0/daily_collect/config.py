@@ -88,8 +88,8 @@ def localhost_mysql():
 
 def mongo_conn():
     conn = pymongo.MongoClient('120.78.237.213', 27017)
-    db = conn.WeChat
-    return db
+    _db = conn.WeChat
+    return _db
 
 
 if __name__ == '__main__':

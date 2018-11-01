@@ -13,7 +13,7 @@ from lxml import etree
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack, Ftp
 from config import get_mysql_new, GetCaptcha_url, mongo_conn
-from utils import uploads_mysql, log, mongo_conn
+from utils import uploads_mysql, get_log, mongo_conn
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -29,6 +29,8 @@ IMAGE_DIR = os.path.join(BASE_DIR, 'images')
 CAPTCHA_NAME = 'captcha.png'
 
 current_dir = os.getcwd()
+
+log = get_log('daily_collect').info
 
 
 class AccountHttp(object):
@@ -56,17 +58,17 @@ class AccountHttp(object):
         self.wait = WebDriverWait(self.driver, 5)
 
     def account_homepage(self):
-        # 搜索并进入公众号主页
+        # 搜索账号并返回公众号主页
         count = 0
         while True:
             count += 1
             if count > 3:
                 break
-            log('start account', self.search_name)
+            log('start account {}'.format(self.search_name))
             search_url = self.url.format(self.search_name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
-            log('当前搜狗标题', e('title').text())
+            log('当前搜狗标题'.format(e('title').text()))
             if '搜狗' not in e('title').text():
                 log('初始化session')
                 self.s = requests.session()
@@ -92,7 +94,7 @@ class AccountHttp(object):
             else:
                 # 处理验证码
                 log(search_url)
-                log('验证之前的cookie', self.cookies)
+                log('验证之前的cookie'.format(self.cookies))
                 try_count = 0
                 while True:
                     try_count += 1
@@ -104,7 +106,7 @@ class AccountHttp(object):
                         for items in cookies:
                             new_cookie[items.get('name')] = items.get('value')
                         self.cookies = new_cookie
-                        log('------cookies已更新------', self.cookies)
+                        log('------cookies已更新------'.format(self.cookies))
                         break
                     elif try_count > 4:
                         log("浏览器验证失败")
@@ -112,7 +114,7 @@ class AccountHttp(object):
                 log("验证完毕")
                 time.sleep(2)
                 continue
-        log('多次账号异常，跳过账号:', self.name)
+        log('多次账号异常，跳过账号:'.format(self.name))
 
     def account_list(self):
         # 老版
@@ -134,9 +136,9 @@ class AccountHttp(object):
                 return []
             for item in items:
                 account_all.append(item.get('account'))
-            log("开始account列表", account_all)
+            # log("开始account列表 {}".format(account_all))
         except Exception as e:
-            log('获取账号列表错误')
+            log('获取账号列表错误', e)
             time.sleep(5)
         return account_all
 
@@ -151,7 +153,7 @@ class AccountHttp(object):
                 url = re.search('http://mp.weixin.qq.*?wechat_redirect', url_last).group()
                 urls.append(url)
                 continue
-            # 可能匹配过多，再次匹配
+            # 有的文章链接被包含在里面，让再次匹配
             if 'content_url' in url:
                 item = re.search('"content_url":".*?wechat_redirect', url).group()
                 url = item[15:].replace('amp;', '')
@@ -180,10 +182,12 @@ class AccountHttp(object):
 
     def save_to_mongo(self, entity):
         db = mongo_conn()
-        db['daily_colleection'].insert(entity)
+        db['daily_collection'].insert(entity)
 
     def create_xml(self, infos, file_name):
         # log('创建xml文件')
+        if not os.path.exists(os.path.join(current_dir, 'xml')):
+            os.mkdir('xml')
         data = etree.Element("data")
         for k, v in infos.items():
             sub_tag = etree.SubElement(data, k)
@@ -204,7 +208,7 @@ class AccountHttp(object):
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
         bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
             account_name, date_today)
-        get_ids = requests.get(bottom_url, timeout=30)
+        get_ids = requests.get(bottom_url, timeout=21)
         ids = get_ids.text
         return ids
 
@@ -224,16 +228,15 @@ class AccountHttp(object):
                         log('找到不到微信号首页: ', account_name)
                         continue
                     urls_article = self.urls_article(html)
-
+                    # 确定account信息
                     account = Account()
                     account.name = self.name
                     account.account = account_name
                     account.get_account_id()
-                    if not account.account_id:
-                        log("没有account_id", account.account)
-                        db_mongo = mongo_conn()
-                        db_mongo['noAccountId'].insert({'account': account.account})
-
+                    # if not account.account_id:
+                    #     log("没有account_id", account.account)
+                    #     db_mongo = mongo_conn()
+                    #     db_mongo['noAccountId'].insert({'account': account.account})
                     # 判重
                     ids = self.dedup(account_name)
                     entity = None
@@ -248,21 +251,21 @@ class AccountHttp(object):
                         log('第{}条 文章标题: {}'.format(page_count, article.title))
                         log("当前文章url: {}".format(url))
                         entity = JsonEntity(article, account)
-                        log('当前文章ID: ', entity.id)
+                        log('当前文章ID: {}'.format(entity.id))
                         if entity.id in ids:
                             log('当前文章已存在，跳过')
                             continue
-                        if entity.id == 'd41d8cd98f00b204e9800998ecf8427e':
-                            print('debug')
+                        # if entity.id == 'd41d8cd98f00b204e9800998ecf8427e':
+                        #     log('debug')
                         backpack = Backpack()
                         backpack.create(entity)
                         backpack_list.append(backpack.create_backpack())
                         # self.save_to_mysql(entity)
                         self.save_to_mongo(entity.to_dict())
-
                         # ftp包
                         ftp_info = Ftp(entity)
                         name_xml = ftp_info.hash_md5(ftp_info.url)
+                        log('当前文章xml: {}'.format(name_xml))
                         # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
                         self.create_xml(ftp_info.ftp_dict(), name_xml)
                         ftp_list.append(name_xml)
@@ -279,7 +282,7 @@ class AccountHttp(object):
                     log("发包完成")
                     # break
                 except Exception as e:
-                    log("程序出错", e)
+                    log("程序出错 {}".format(e))
                     continue
 
     def crack_sougou(self, url):
@@ -354,5 +357,10 @@ class AccountHttp(object):
 
 
 if __name__ == '__main__':
-    test = AccountHttp()
-    test.run()
+    try:
+        test = AccountHttp()
+        test.run()
+    except Exception as e:
+        log('获取账号错误，重启程序', e)
+        if test.driver:
+            test.driver.quit()

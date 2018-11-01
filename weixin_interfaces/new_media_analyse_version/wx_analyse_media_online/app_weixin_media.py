@@ -4,7 +4,7 @@ import pymssql
 
 import redis
 from flask import Flask, request
-import thulac
+# import thulac
 
 from utils import db, async, hash_md5
 import datetime
@@ -77,18 +77,18 @@ class AccountHttp(object):
     def listen_task(self):
         while True:
             try:
-                if not self.driver:
-                    chrome_options = webdriver.ChromeOptions()
-                    chrome_options.add_argument('--headless')
-                    self.driver = webdriver.Chrome(chrome_options=chrome_options)
+                # if not self.driver:
+                #     chrome_options = webdriver.ChromeOptions()
+                #     chrome_options.add_argument('--headless')
+                #     self.driver = webdriver.Chrome(chrome_options=chrome_options)
                 account_char = self.rcon.brpop(self.queue, 0)[1]
                 self.name = account_char.decode(encoding="utf-8")
                 self.run()
                 log("消耗一个account", self.name)
             except Exception as e:
                 log('error', '重启', e)
-                if self.driver:
-                    self.driver.quit()
+                # if self.driver:
+                #     self.driver.quit()
                 continue
 
     def send_info(self, info):
@@ -399,12 +399,18 @@ class AccountHttp(object):
                 #     filebytes = f.read()
                 # captch_input = captch_upload_image(filebytes)
                 # log('------验证码：{}------'.format(captch_input))
-                captch_input = ''
-                files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
-                res = requests.post(url=GetCaptcha_url, files=files)
-                res = res.json()
-                if res.get('Success'):
-                    captch_input = res.get('Captcha')
+                try:
+                    captch_input = ''
+                    files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
+                    res = requests.post(url=GetCaptcha_url, files=files)
+                    res = res.json()
+                    if res.get('Success'):
+                        captch_input = res.get('Captcha')
+                except Exception as e:
+                    log('搜狗验证码验证错误', e)
+                    with open(captcha_path, "rb") as f:
+                        filebytes = f.read()
+                    captch_input = captch_upload_image(filebytes)
                 log('------验证码：{}------'.format(captch_input))
                 if captch_input:
                     input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
@@ -501,4 +507,4 @@ def find_account():
 if __name__ == '__main__':
     account = AccountHttp()
     account.listen_task()
-    app.run(host='0.0.0.0', port=8008)
+    app.run(host='0.0.0.0', port=10003)

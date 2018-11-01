@@ -211,7 +211,24 @@ class IpSwith(object):
                                     log('{} normal '.format(domain))
                                 except requests.exceptions.ConnectionError as e:
                                     log('requests 1 http max error', e)
-                                    break
+                                    if 'timed out' in str(e):
+                                        break
+                                    if 'refused' in str(e):
+                                        count += 1
+                                        if count >= error_max:
+                                            status = self.backup_server_status(monitor_url, domain, backup_ip)
+                                            if status:
+                                                log('切换到备用IP, 当前IP{}'.format(current_ip))
+                                                try:
+                                                    self.login()
+                                                    self.swich_ip(backup_ip, domain)
+                                                    self.save_change(domain_detail)
+                                                except Exception as e:
+                                                    self.driver.quit()
+                                                log('切换成功')
+                                                break
+                                        log('server fault: requests get error')
+
                                 except requests.exceptions.Timeout as e:
                                     log('requests 2 ', e)
                                     count += 1

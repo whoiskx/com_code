@@ -14,7 +14,7 @@ top
 
 requests
     requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=18010): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x000002A068B6AAC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
-    网络不通
+    网络不通; 即联不通，网络IP挂掉
 
 Python 新环境
     pip freeze > requirements.txt
@@ -66,3 +66,19 @@ raise RuntimeError('testError')         没有描述 e 为 ''
 # return send_from_directory(IMAGE_DIR, filename)  阻塞
 
 __name__ 正在运行 '__main__', 被导入，模块名字
+
+Python windows 后台运行
+    pythonw.exe xx.py
+
+濮嬪鐞嗘悳鐙楅獙璇佺爜   utf-8编码被强制GBK编码
+��ΰʹ�ù�˾�߹��ѹ��㶫�ֹ�˾������ķ���   gbk被强制utf-8转码
+
+
+ipconfig /flushdns
+    刷新DNS
+
+except Exception as e:
+    e 是异常对象  不可迭代 -> str(e)
+
+ 检测服务器端口是否正常
+    服务器用了端口映射,内部端口不同，但是外部端口正常 - > 服务器拒绝连接

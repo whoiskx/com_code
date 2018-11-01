@@ -44,12 +44,14 @@ urun = conn.taskDnsSwitch
 
 # 全局微博	58.56.160.41:38015	47.101.129.120:38015	http://hd.weibo.yunrunyuqing.com:38015/hadoop_change_hosts.html
 # 全局微信	60.190.238.178:38010	47.101.129.120:38010	http://hd.weixin.yunrunyuqing.com:38015/hadoop_change_hosts.html	38010	王贺伟	可交付	OK
+# 舆情垃圾判断	124.239.144.164:7109	120.78.237.190:7109	http://dm.textclassify.yunrunyuqing.com:7109/dm_change_hosts.html
+
 data = {
-    "name": '全局微信',
-    "domain": 'hd.weixin.yunrunyuqing.com',
-    "main_ip": '60.190.238.178',
-    "backup_ip": '47.101.129.120',
-    "monitor": 'http://hd.weixin.yunrunyuqing.com:38015/hadoop_change_hosts.html',
+    "name": '舆情垃圾判断',
+    "domain": 'dm.textclassify.yunrunyuqing.com',
+    "main_ip": '124.239.144.164',
+    "backup_ip": '120.78.237.190',
+    "monitor": 'http://dm.textclassify.yunrunyuqing.com:7109/dm_change_hosts.html',
     "changing": False,
     "end_time": None,
     "close": False

@@ -61,13 +61,33 @@
 import logging
 import sys
 
-logger = logging.getLogger()
-formatter = logging.Formatter("%(asctime)s_%(funcName)s_%(levelname)s_line: %(lineno)d_%(message)s")
-file_handle = logging.FileHandler('testtttt.txt')
-file_handle.setFormatter(formatter)
-logger.addHandler(file_handle)
+LOG_FORMAT = '%(asctime)s,%(name)s,%(levelname)s,%(filename)s:%(lineno)d,%(message)s'
 
-console_handle = logging.StreamHandler(sys.stdout)
-console_handle.formatter = formatter
-logger.addHandler(console_handle)
-logger.critical('123')
+
+def get_log(name=''):
+    # 日志配置
+    # logging.basicConfig(filename=log_file_name, level=logger_level, format=logger_format)
+    logger = logging.getLogger(name)
+    # formatter = logging.Formatter("%(asctime)s %(filename)s %(levelname)s line:%(lineno)d %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
+    formatter = logging.Formatter(LOG_FORMAT)
+    file_handle = logging.FileHandler('log.txt', encoding='utf-8')
+    file_handle.setFormatter(formatter)
+    logger.addHandler(file_handle)
+    # 输出到console
+    console_handle = logging.StreamHandler(sys.stdout)
+    console_handle.formatter = formatter
+    logger.addHandler(console_handle)
+    # 日志输出等级
+    logger.level = logging.DEBUG
+    return logger
+
+
+def test():
+    log = get_log('abc')
+    log.info('this is debug %s', 123)
+    log.info('中文')
+
+
+if __name__ == '__main__':
+    test()
+# log = get_log()

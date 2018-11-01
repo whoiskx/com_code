@@ -19,8 +19,13 @@ def haha():
     # console_handle.formatter = formatter
     # logger.addHandler(console_handle)
     # logger.critical('123')
-    from log_test.logger import logger
-    logger.info(12313)
+    from log_test.logger import get_log
+    log = get_log('afasf')
+    log.debug('this is debug')
+    log.info(12313)
+    log.error(123)
+    log.info('张伟使得公司高管搜狗广东分公司法国岁的法国')
+
 
 if __name__ == '__main__':
     haha()

@@ -1,8 +1,11 @@
 import json
 import os
+import random
 import time
 from ftplib import FTP
 import requests
+
+from config import mongo_conn
 from utils import log
 import re
 from pyquery import PyQuery as pq
@@ -26,12 +29,12 @@ class Article(object):
         self.likenum = ''
         self.is_share = False
 
-    def set_time(self, resp, type=''):
-        if type == 'article':
+    def set_time(self, resp, content_type=''):
+        if content_type == 'article':
             get_timestramp = re.search('var ct=".*?"', resp.text).group()
             timestramp = re.search('\d+', get_timestramp).group()
             self.time = timestramp + '000'
-        if type == 'video':
+        if content_type == 'video':
             get_timestramp = re.search('create_time = ".*?"', resp.text).group()
             timestramp = re.search('\d+', get_timestramp).group()
             self.time = timestramp + '000'
@@ -60,14 +63,18 @@ class Article(object):
             time_find = re.search('createDate=new Date\("\d*', resp.text)
             self.time = time_find.group() if time_find else ''
             if '视频' == self.title:
-                self.set_time(resp, type='video')
+                self.set_time(resp, content_type='video')
+
+            # if '用腾讯视频观看' in resp.text:
+            #     self.set_time(resp, content_type='video')
             return
-        self.set_time(resp, type='article')
+        self.set_time(resp, content_type='article')
         self.account = account_model.account
         # if not self.account:
         #     inner_account = re.search('user_name = ".*?"', resp.text)
         #     self.account = inner_account.group().split('"')[1]
         self.title = e('.rich_media_title').text().replace(' ', '')
+        # todo 分享的和视频
         self.content = e("#js_content").text().replace('\n', '')
         self.author = account_model.name
 
@@ -90,8 +97,14 @@ class Account(object):
         results = json_obj.get('results')
         if results:
             # todo 没有accountID 怎么做
-            for i in results:
-                self.account_id = i.get('AccountID')
+            for result in results:
+                if result.get('AccountID'):
+                    self.account_id = result.get('AccountID')
+                else:
+                    # if not account.account_id:
+                    log("没有account_id", self.account)
+                    db_mongo = mongo_conn()
+                    db_mongo['noAccountId'].insert({'account': self.account})
                 break
 
 
@@ -106,19 +119,15 @@ class JsonEntity(object):
         self.author = article.author
         self._from = article.author
         self.time = article.time
-
         self.views = article.readnum
         self.praises = article.likenum
-
         self.account_id = str(account.account_id)
         self.site_id = account.account_id
         self.topic_id = 0
         # 采集时间
         self.addon = str(int(time.time()))
-
         self.task_id = str(account.account_id)
         self.task_name = '微信_' + account.name
-
         self.account = account.account
         self.id = self.hash_md5(article.title + self.time)
 
@@ -302,6 +311,8 @@ class JsonEntity(object):
         # if len(ftp_list) > 15:
         #     ftp_list = ftp_list[:30]
         current_dir = os.getcwd()
+        if not os.path.exists(os.path.join(current_dir, 'ftp')):
+            os.mkdir('ftp')
         zf_name = str(uuid.uuid1()) + '.zip'
         with zipfile.ZipFile(os.path.join(current_dir, 'ftp', zf_name), mode='w') as zf:
             zf_comment = ftp_info.ftp_note()
@@ -313,8 +324,44 @@ class JsonEntity(object):
         ftp = FTP(timeout=7)  # 设置变量
         ftp.set_debuglevel = 1
         # socket.setdefaulttimeout(timeout)
-        ftp.connect("110.249.163.246", 21, timeout=21)  # 连接的ftp sever和端口
-        ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
+        # 发包方式一
+        # try:
+        #     # raise RuntimeError
+        #     ftp.connect("123.182.246.209", 21, timeout=21)  # 连接的ftp sever和端口
+        #     ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
+        # except Exception as e:
+        #     log('ftp 主服务器连接失败，上传备用服务器')
+        #     ftp.connect("110.249.163.246", 21, timeout=21)
+        #     ftp.login("dc5", "qwer$#@!")
+        # # 发包方式二
+        select = random.choice([1, 2])
+        if select == 1:
+            try:
+                ftp.connect("122.224.105.171", 21, timeout=21)  # 连接的ftp sever和端口
+                ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
+            except Exception as e:
+                try:
+                    log('ftp 主服务器连接失败，上传备用服务器')
+                    ftp.connect("124.239.144.181", 21, timeout=21)
+                    ftp.login("dc15", "qwer$#@!")
+                except Exception as e:
+                    log('ftp 备用服务器连接失败，上传备备用服务器')
+                    ftp.connect("121.28.84.254", 21, timeout=21)
+                    ftp.login("dc15", "qwer$#@!")
+        else:
+            try:
+                ftp.connect("122.224.105.174", 21, timeout=21)  # 连接的ftp sever和端口
+                ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
+            except Exception as e:
+                try:
+                    log('ftp 主服务器连接失败，上传备用服务器')
+                    ftp.connect("124.239.144.181", 21, timeout=21)
+                    ftp.login("dc45", "qwer$#@!")
+                except Exception as e:
+                    log('ftp 备用服务器连接失败，上传备备用服务器')
+                    ftp.connect("121.28.84.254", 21, timeout=21)
+                    ftp.login("dc45", "qwer$#@!")
+
         filepath = '/' + datetime.datetime.now().strftime("%Y%m%d")
         # filename = uuid.uuid1()
         filename = zf_name
@@ -325,6 +372,8 @@ class JsonEntity(object):
         except Exception as e:
             log('上传ftp异常:', e)
         log('上传成功')
+        # 删除ftp文件
+        os.remove('{}/ftp/{}'.format(current_dir, filename))
 
 
 class Backpack(object):
