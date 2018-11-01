@@ -43,7 +43,8 @@ class AccountHttp(object):
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                          'Chrome/68.0.3440.106 Safari/537.36',
         }
         self.cookies = {'SUID': '4A72170E2613910A000000005BAC759D', 'ABTEST': '3|1538028956|v1', 'SUIR': '1538028956',
                         'IPLOC': 'CN4401', 'SNUID': '5960051C121665C656C04D9E13C88607',
@@ -68,7 +69,7 @@ class AccountHttp(object):
             search_url = self.url.format(self.search_name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
-            log('当前搜狗标题'.format(e('title').text()))
+            log('当前搜狗标题：{}'.format(e('title').text()))
             if '搜狗' not in e('title').text():
                 log('初始化session')
                 self.s = requests.session()
@@ -116,7 +117,8 @@ class AccountHttp(object):
                 continue
         log('多次账号异常，跳过账号:'.format(self.name))
 
-    def account_list(self):
+    @staticmethod
+    def account_list():
         # 老版
         # url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
         # # url = 'http://183.131.241.60:38011/nextaccount?label=5'
@@ -130,7 +132,7 @@ class AccountHttp(object):
         account_all = []
         try:
             url = 'http://183.131.241.60:38011/nextaccount?label=5'
-            resp = requests.get(url, timeout=30)
+            resp = requests.get(url, timeout=21)
             items = json.loads(resp.text)
             if len(items) == 0:
                 return []
@@ -142,7 +144,8 @@ class AccountHttp(object):
             time.sleep(5)
         return account_all
 
-    def urls_article(self, html):
+    @staticmethod
+    def urls_article(html):
         items = re.findall('"content_url":".*?,"copyright_stat"', html)
         urls = []
         for item in items:
@@ -160,7 +163,8 @@ class AccountHttp(object):
             urls.append(url)
         return urls
 
-    def save_to_mysql(self, entity):
+    @staticmethod
+    def save_to_mysql(entity):
         # 上传数据库
         # log('开始上传mysql')
         sql = '''   
@@ -180,11 +184,13 @@ class AccountHttp(object):
             log('数据库上传错误', e)
         # log('上传mysql完成')
 
-    def save_to_mongo(self, entity):
+    @staticmethod
+    def save_to_mongo(entity):
         db = mongo_conn()
         db['daily_collection'].insert(entity)
 
-    def create_xml(self, infos, file_name):
+    @staticmethod
+    def create_xml(infos, file_name):
         # log('创建xml文件')
         if not os.path.exists(os.path.join(current_dir, 'xml')):
             os.mkdir('xml')
@@ -204,10 +210,12 @@ class AccountHttp(object):
         etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
         # log('完成xml文件')
 
-    def dedup(self, account_name):
+    @staticmethod
+    def dedup(account_name):
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
-        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
-            account_name, date_today)
+        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?' \
+                     'sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
+                        account_name, date_today)
         get_ids = requests.get(bottom_url, timeout=21)
         ids = get_ids.text
         return ids
@@ -225,7 +233,7 @@ class AccountHttp(object):
                     if html_account:
                         html = html_account
                     else:
-                        log('找到不到微信号首页: ', account_name)
+                        log('找到不到微信号首页: '.format(account_name))
                         continue
                     urls_article = self.urls_article(html)
                     # 确定account信息
@@ -255,8 +263,6 @@ class AccountHttp(object):
                         if entity.id in ids:
                             log('当前文章已存在，跳过')
                             continue
-                        # if entity.id == 'd41d8cd98f00b204e9800998ecf8427e':
-                        #     log('debug')
                         backpack = Backpack()
                         backpack.create(entity)
                         backpack_list.append(backpack.create_backpack())
@@ -297,7 +303,7 @@ class AccountHttp(object):
                 #     log('浏览器页面正常')
                 #     if '搜公众号' not in self.driver.page_source:
                 #         break
-                log('浏览器页面正常', '直接返回')
+                log('浏览器页面正常' + '直接返回')
                 return
             try:
                 img = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
@@ -337,9 +343,9 @@ class AccountHttp(object):
                             return
                         log('------验证码正确------')
                     except Exception as e:
-                        log('--22222222----验证码输入错误------', e)
+                        log('--22222222----验证码输入错误------'.format(e))
             except Exception as e:
-                log('------未跳转到验证码页面，跳转到首页，忽略------', e)
+                log('------未跳转到验证码页面，跳转到首页，忽略------'.format(e))
 
         elif re.search('mp\.weixin\.qq\.com', url):
             log('------开始处理微信验证码------')
@@ -357,10 +363,12 @@ class AccountHttp(object):
 
 
 if __name__ == '__main__':
-    try:
-        test = AccountHttp()
-        test.run()
-    except Exception as e:
-        log('获取账号错误，重启程序', e)
-        if test.driver:
-            test.driver.quit()
+    # test = None
+    # while True:
+        try:
+            test = AccountHttp()
+            test.run()
+        except Exception as error:
+            log('获取账号错误，重启程序{}'.format(error))
+            if test.driver:
+                test.driver.quit()

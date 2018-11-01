@@ -6,29 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/require.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/instance_method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aliyun/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/daily/daily_check/account.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/daily/daily_check/account.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/testtttt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/testtttt.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/fdd2a861839000bff4613b8b84919a1d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/e65aa805652ff15b4e4a373b74053212.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/e6c24dc87aa8c420f22172ff9916cc85.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/问题.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +105,8 @@
       <file leaf-file-name="问题.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/问题.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="481">
+              <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -156,17 +139,17 @@
       <find>21.28.84.254</find>
       <find>uploads_ftp</find>
       <find>send_info</find>
-      <find />
+      <find>url cookie</find>
       <find>　党的十九大把精准脱贫</find>
       <find>run</find>
       <find>print</find>
       <find>localhost</find>
       <find>error</find>
-      <find />
+      <find>error 重启</find>
       <find>77fbb51f69117d7b573e17928f1a26ce</find>
       <find>MjM5MTI2MTI0MA</find>
       <find>requests</find>
-      <find />
+      <find>requests 2</find>
       <find>self.status</find>
       <find>self.name</find>
       <find>captch_upload_image</find>
@@ -180,7 +163,7 @@
       <find>d41d8cd98f00b204e9800998ecf8427e</find>
       <find>Ftp</find>
       <find>$set</find>
-      <find />
+      <find>requests 1</find>
     </findStrings>
     <replaceStrings>
       <replace>changing</replace>
@@ -291,7 +274,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="501" />
     <option name="y" value="21" />
     <option name="width" value="1326" />
@@ -520,11 +503,11 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.19494204" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.41375545" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.41375545" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.33187774" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.55744684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33078602" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33078602" />
       <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.1790393" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1166,12 +1149,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py</url>
-          <line>214</line>
+          <line>221</line>
           <option name="timeStamp" value="512" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py</url>
-          <line>281</line>
+          <line>287</line>
           <option name="timeStamp" value="515" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1241,11 +1224,6 @@
           <option name="timeStamp" value="549" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py</url>
-          <line>258</line>
-          <option name="timeStamp" value="556" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py</url>
           <line>212</line>
           <option name="timeStamp" value="560" />
@@ -1272,12 +1250,12 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string />
+        <expression-string>'xx' in str(e)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>'xx' in e</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1681,8 +1659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/问题.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="481">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
         </state>
       </provider>
     </entry>

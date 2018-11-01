@@ -53,7 +53,7 @@ class Article(object):
             if '此内容因违规无法查看' in resp.text:
                 self.title = '此内容因违规无法查看'
                 return
-            if '此内容被投诉且经审核涉嫌侵权' in resp.text:  # 此内容被投诉且经审核涉嫌侵权，无法查看。 https://mp.weixin.qq.com/s?__biz=MzA4MDc5ODE4Ng==&mid=2651004263&idx=3&sn=24c583522836d6ed5da89364684777dd&chksm=846975e2b31efcf4c716a8dbf747d98d7e0d323e75e8345e8593b766f87ebdd1078a0febfc05&scene=27#wechat_redirect
+            if '此内容被投诉且经审核涉嫌侵权' in resp.text:
                 self.title = '此内容被投诉且经审核涉嫌侵权，无法查看。'
                 return
             self.is_share = True
@@ -68,6 +68,9 @@ class Article(object):
             # if '用腾讯视频观看' in resp.text:
             #     self.set_time(resp, content_type='video')
             return
+        if '分享' in e('.share_notice').text():
+            self.is_share = True
+            # self.content =
         self.set_time(resp, content_type='article')
         self.account = account_model.account
         # if not self.account:
@@ -90,8 +93,9 @@ class Account(object):
         self.name = ''
 
     def get_account_id(self):
-        get_account_id = 'http://60.190.238.178:38010/search/common/wxaccount/select?token=9ef358ed-b766-4eb3-8fde-a0ccf84659db&account={}'.format(
-            self.account)
+        get_account_id = 'http://60.190.238.178:38010/search/common/wxaccount/select?' \
+                         'token=9ef358ed-b766-4eb3-8fde-a0ccf84659db&account={}'.format(
+                            self.account)
         url_resp = requests.get(get_account_id)
         json_obj = json.loads(url_resp.text)
         results = json_obj.get('results')
@@ -141,7 +145,8 @@ class JsonEntity(object):
     def to_dict(self):
         return self.__dict__
 
-    def uploads(self, backpack_list):
+    @staticmethod
+    def uploads(backpack_list):
         # 上传底层 底层不能接收None，会丢弃
         if backpack_list:
             sever1 = 'http://115.231.251.252:26016/'
@@ -169,7 +174,8 @@ class JsonEntity(object):
                 count += 1
             log('uploads over')
 
-    def uploads_datacenter_relay(self, backpack_list):
+    @staticmethod
+    def uploads_datacenter_relay(backpack_list):
         # 上传数据分发中心
         if backpack_list:
             server = 'http://27.17.18.131:38072'
@@ -206,7 +212,8 @@ class JsonEntity(object):
                 count += 1
             log('uploads datacenter_relay over')
 
-    def uploads_datacenter_unity(self, backpack_list):
+    @staticmethod
+    def uploads_datacenter_unity(backpack_list):
         # 上传三合一检索
         if backpack_list:
             sever = 'http://222.184.225.246:8171'
@@ -307,7 +314,8 @@ class JsonEntity(object):
                 count += 1
             log('uploads datacenter_unity over')
 
-    def uploads_ftp(self, ftp_info, ftp_list):
+    @staticmethod
+    def uploads_ftp(ftp_info, ftp_list):
         # if len(ftp_list) > 15:
         #     ftp_list = ftp_list[:30]
         current_dir = os.getcwd()
@@ -325,14 +333,14 @@ class JsonEntity(object):
         ftp.set_debuglevel = 1
         # socket.setdefaulttimeout(timeout)
         # 发包方式一
-        # try:
-        #     # raise RuntimeError
-        #     ftp.connect("123.182.246.209", 21, timeout=21)  # 连接的ftp sever和端口
-        #     ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
-        # except Exception as e:
-        #     log('ftp 主服务器连接失败，上传备用服务器')
-        #     ftp.connect("110.249.163.246", 21, timeout=21)
-        #     ftp.login("dc5", "qwer$#@!")
+        try:
+            # raise RuntimeError
+            ftp.connect("123.182.246.209", 21, timeout=21)  # 连接的ftp sever和端口
+            ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
+        except Exception as e:
+            log('ftp 主服务器连接失败，上传备用服务器'.format(e))
+            ftp.connect("110.249.163.246", 21, timeout=21)
+            ftp.login("dc5", "qwer$#@!")
         # # 发包方式二
         select = random.choice([1, 2])
         if select == 1:
@@ -341,11 +349,11 @@ class JsonEntity(object):
                 ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
             except Exception as e:
                 try:
-                    log('ftp 主服务器连接失败，上传备用服务器')
+                    log('ftp 主服务器连接失败，上传备用服务器'.format(e))
                     ftp.connect("124.239.144.181", 21, timeout=21)
                     ftp.login("dc15", "qwer$#@!")
                 except Exception as e:
-                    log('ftp 备用服务器连接失败，上传备备用服务器')
+                    log('ftp 备用服务器连接失败，上传备备用服务器'.format(e))
                     ftp.connect("121.28.84.254", 21, timeout=21)
                     ftp.login("dc15", "qwer$#@!")
         else:
@@ -354,11 +362,11 @@ class JsonEntity(object):
                 ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
             except Exception as e:
                 try:
-                    log('ftp 主服务器连接失败，上传备用服务器')
+                    log('ftp 主服务器连接失败，上传备用服务器'.format(e))
                     ftp.connect("124.239.144.181", 21, timeout=21)
                     ftp.login("dc45", "qwer$#@!")
                 except Exception as e:
-                    log('ftp 备用服务器连接失败，上传备备用服务器')
+                    log('ftp 备用服务器连接失败，上传备备用服务器'.format(e))
                     ftp.connect("121.28.84.254", 21, timeout=21)
                     ftp.login("dc45", "qwer$#@!")
 
@@ -373,7 +381,7 @@ class JsonEntity(object):
             log('上传ftp异常:', e)
         log('上传成功')
         # 删除ftp文件
-        os.remove('{}/ftp/{}'.format(current_dir, filename))
+        # os.remove('{}/ftp/{}'.format(current_dir, filename))
 
 
 class Backpack(object):
@@ -439,7 +447,8 @@ class Ftp(object):
         self.time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(entity.time[:-3]))) if entity.time else ''
         self.account = entity.account
 
-    def hash_md5(self, s):
+    @staticmethod
+    def hash_md5(s):
         m = hashlib.md5()
         m.update(s.encode())
         return m.hexdigest() + '.xml'
