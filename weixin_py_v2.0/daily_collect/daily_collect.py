@@ -64,7 +64,7 @@ class AccountHttp(object):
         while True:
             count += 1
             if count > 3:
-                break
+                return
             log('start account {}'.format(self.search_name))
             search_url = self.url.format(self.search_name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
@@ -88,10 +88,10 @@ class AccountHttp(object):
                 return homepage.text
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.search_name))
-                break
+                return
             if '相关的官方认证订阅号' in resp_search.text:
                 log("找不到该公众号: {}".format(self.search_name))
-                break
+                return
             else:
                 # 处理验证码
                 log(search_url)
@@ -138,7 +138,7 @@ class AccountHttp(object):
                 return []
             for item in items:
                 account_all.append(item.get('account'))
-            # log("开始account列表 {}".format(account_all))
+            log("开始account列表 {}".format(account_all))
         except Exception as e:
             log('获取账号列表错误', e)
             time.sleep(5)
@@ -156,7 +156,7 @@ class AccountHttp(object):
                 url = re.search('http://mp.weixin.qq.*?wechat_redirect', url_last).group()
                 urls.append(url)
                 continue
-            # 有的文章链接被包含在里面，让再次匹配
+            # 有的文章链接被包含在里面，需再次匹配
             if 'content_url' in url:
                 item = re.search('"content_url":".*?wechat_redirect', url).group()
                 url = item[15:].replace('amp;', '')
@@ -181,7 +181,7 @@ class AccountHttp(object):
         try:
             uploads_mysql(config_mysql, sql, _tuple)
         except Exception as e:
-            log('数据库上传错误', e)
+            log('数据库上传错误'.format(e))
         # log('上传mysql完成')
 
     @staticmethod
@@ -222,9 +222,7 @@ class AccountHttp(object):
 
     def run(self):
         while True:
-            log('程序启动')
             account_list = [] or self.account_list()
-            log(account_list)
             for account_name in account_list:
                 try:
                     # account_list = ['jxcbxjzt', 'yingde763', 'gh_09f33f5aaf7c', 'jk8122']
@@ -242,7 +240,7 @@ class AccountHttp(object):
                     account.account = account_name
                     account.get_account_id()
                     # if not account.account_id:
-                    #     log("没有account_id", account.account)
+                    #     log("没有account_id".format(account.account))
                     #     db_mongo = mongo_conn()
                     #     db_mongo['noAccountId'].insert({'account': account.account})
                     # 判重
@@ -272,7 +270,6 @@ class AccountHttp(object):
                         ftp_info = Ftp(entity)
                         name_xml = ftp_info.hash_md5(ftp_info.url)
                         log('当前文章xml: {}'.format(name_xml))
-                        # with open('ftp/{}'.format(name_xml), 'w', encoding='utf-8') as f:
                         self.create_xml(ftp_info.ftp_dict(), name_xml)
                         ftp_list.append(name_xml)
                         # if page_count == 5:
@@ -286,7 +283,6 @@ class AccountHttp(object):
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
                     log("发包完成")
-                    # break
                 except Exception as e:
                     log("程序出错 {}".format(e))
                     continue
@@ -319,16 +315,19 @@ class AccountHttp(object):
                 captcha = screenshot.crop((left, top, right, bottom))
                 captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
                 captcha.save(captcha_path)
-                # with open(captcha_path, "rb") as f:
-                #     filebytes = f.read()
-                # captch_input = captch_upload_image(filebytes)
-                # log('------验证码：{}------'.format(captch_input))
-                captch_input = ''
-                files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
-                res = requests.post(url=GetCaptcha_url, files=files)
-                res = res.json()
-                if res.get('Success'):
-                    captch_input = res.get('Captcha')
+                try:
+                    captch_input = ''
+                    files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
+                    res = requests.post(url=GetCaptcha_url, files=files)
+                    res = res.json()
+                    if res.get('Success'):
+                        captch_input = res.get('Captcha')
+                except Exception as e:
+                    log('搜狗验证码获取失败'.format(e))
+                    with open(captcha_path, "rb") as f:
+                        filebytes = f.read()
+                    captch_input = captch_upload_image(filebytes)
+                    # log('------验证码：{}------'.format(captch_input))
                 log('------验证码：{}------'.format(captch_input))
                 if captch_input:
                     input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))

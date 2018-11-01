@@ -315,7 +315,18 @@ class JsonEntity(object):
             log('uploads datacenter_unity over')
 
     @staticmethod
-    def uploads_ftp(ftp_info, ftp_list):
+    def uploads_ftp_last(current_dir, zf_name, ftp):
+        filepath = '/' + datetime.datetime.now().strftime("%Y%m%d")
+        # filename = uuid.uuid1()
+        filename = zf_name
+        log(filename)
+        cmd = 'STOR /{}/{}'.format(filepath, filename)
+        try:
+            ftp.storbinary(cmd, open('{}/ftp/{}'.format(current_dir, filename), 'rb'))
+        except Exception as e:
+            log('上传ftp异常:', e)
+
+    def uploads_ftp(self, ftp_info, ftp_list):
         # if len(ftp_list) > 15:
         #     ftp_list = ftp_list[:30]
         current_dir = os.getcwd()
@@ -341,6 +352,9 @@ class JsonEntity(object):
             log('ftp 主服务器连接失败，上传备用服务器'.format(e))
             ftp.connect("110.249.163.246", 21, timeout=21)
             ftp.login("dc5", "qwer$#@!")
+        self.uploads_ftp_last(current_dir, zf_name, ftp)
+        log('ftp上传方式一成功')
+
         # # 发包方式二
         select = random.choice([1, 2])
         if select == 1:
@@ -369,17 +383,8 @@ class JsonEntity(object):
                     log('ftp 备用服务器连接失败，上传备备用服务器'.format(e))
                     ftp.connect("121.28.84.254", 21, timeout=21)
                     ftp.login("dc45", "qwer$#@!")
-
-        filepath = '/' + datetime.datetime.now().strftime("%Y%m%d")
-        # filename = uuid.uuid1()
-        filename = zf_name
-        log(filename)
-        cmd = 'STOR /{}/{}'.format(filepath, filename)
-        try:
-            ftp.storbinary(cmd, open('{}/ftp/{}'.format(current_dir, filename), 'rb'))
-        except Exception as e:
-            log('上传ftp异常:', e)
-        log('上传成功')
+        self.uploads_ftp_last(current_dir, zf_name, ftp)
+        log('ftp上传方式二成功')
         # 删除ftp文件
         # os.remove('{}/ftp/{}'.format(current_dir, filename))
 
@@ -486,29 +491,3 @@ class Ftp(object):
         }
         note_json = json.dumps(note, ensure_ascii=False)
         return str(note_json)
-
-    #
-    # def create_xml(file_name):
-    #     data = etree.Element("data")
-    #     for k, v in infos.items():
-    #         sub_tag = etree.SubElement(data, k)
-    #         if 'time' in k:
-    #             sub_tag.text = v
-    #             continue
-    #         title_txt = str(v)
-    #         title_txt = etree.CDATA(title_txt)
-    #         sub_tag.text = title_txt
-    #     dataxml = etree.tostring(data, pretty_print=True, encoding="UTF-8", method="xml", xml_declaration=True,
-    #                              standalone=None)
-    #     print(dataxml.decode("utf-8"))
-    #     etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
-    #
-    #
-    # def create_zip(file_name, f):
-    #     # zf = zipfile.ZipFile('4041070c-bd83-11e8-af9f-fc017c3bd1b0.zip', 'r')
-    #     print('creating archive')
-    #     zf_name = str(uuid.uuid1())
-    #     with zipfile.ZipFile('{}.zip'.format(zf_name), mode='w') as zf:
-    #         zf_comment = f.ftp_note()
-    #         zf.comment = str(zf_comment).encode('gbk')
-    #         zf.write(file_name)

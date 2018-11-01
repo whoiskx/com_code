@@ -19,5 +19,13 @@ def main():
     if not os.path.exists(os.path.join(current_dir, 'xml')):
         os.mkdir('xml')
 
+
 if __name__ == '__main__':
+    from selenium import webdriver
+
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--headless')
+    driver = webdriver.Chrome(chrome_options=chrome_options)
+    driver.close()
+
     main()
