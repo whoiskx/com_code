@@ -189,6 +189,8 @@ class IpSwith(object):
                                     log('status_code: ', resp.status_code)
                                     # break
                                     if resp.status_code >= 400:
+                                        if resp.status_code == 500:
+                                            time.sleep(60)
                                         time.sleep(30)
                                         count += 1
                                         if count >= error_max:

@@ -6,24 +6,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/ip_switch_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/app_weixin_media.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/content.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/handle_artiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/nagetive.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/positive.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/testss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/upload_account_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/verification_code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/log.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log_test/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/tests_driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/0dff4bf6f06b461409922cc23438e031.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/0fcda1729df3dda59d15f1b90d3cbd1e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/2da1aaffd0c5d5c3fef9611954f85663.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/762dcca642e19406b5b4b99c0d22a962.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/7b23a1bb340d598c2c6556531ea80128.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/xml/feb2da1be36b4b894bdf6106630315ad.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/images/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/images/error.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +46,8 @@
       <file leaf-file-name="app_weixin_media.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="818">
-              <caret line="510" lean-forward="true" selection-start-line="510" selection-end-line="510" />
+            <state relative-caret-position="1408">
+              <caret line="83" column="60" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="60" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -57,29 +55,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_interfaces/analyse_8.0/sentiment_8.0_v2_immediately/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="port.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/port.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="new_ip_switch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="216" column="23" selection-end-line="303" />
+            <state relative-caret-position="-4714">
+              <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ip_switch_session.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ip_switch_session.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/ip_switch_session.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
-              <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python36/Lib/site-packages/redis/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="488" column="8" selection-start-line="488" selection-start-column="8" selection-end-line="488" selection-end-column="8" />
+              <caret line="303" selection-start-line="303" selection-end-line="303" />
             </state>
           </provider>
         </entry>
@@ -89,22 +101,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="daily_collect.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#24#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="9-3.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/9-3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="6" selection-start-line="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="345">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -121,15 +122,6 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/config.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="问题.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/问题.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -236,7 +228,6 @@
         <option value="$PROJECT_DIR$/wechat/new_get/tests.py" />
         <option value="$PROJECT_DIR$/wechat/tests/sogou_link_tests.py" />
         <option value="$PROJECT_DIR$/aliyun/域名修改" />
-        <option value="$PROJECT_DIR$/tests/port.py" />
         <option value="$PROJECT_DIR$/utils/WX/read_praise.py" />
         <option value="$PROJECT_DIR$/utils/WX/tests.py" />
         <option value="$PROJECT_DIR$/aliyun/xlsx_to_mongo.py" />
@@ -270,8 +261,9 @@
         <option value="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py" />
         <option value="$PROJECT_DIR$/问题.txt" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" />
-        <option value="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" />
         <option value="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/ip_switch_session.py" />
+        <option value="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" />
+        <option value="$PROJECT_DIR$/tests/port.py" />
       </list>
     </option>
   </component>
@@ -285,10 +277,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="501" />
-    <option name="y" value="21" />
-    <option name="width" value="1326" />
-    <option name="height" value="1009" />
+    <option name="x" value="420" />
+    <option name="y" value="15" />
+    <option name="width" value="1533" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -308,36 +300,7 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="aliyun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="aliyun" type="462c0819:PsiDirectoryNode" />
-              <item name="ip_switch_v2.0_exception_400" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin_interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin_interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="new_media_analyse_version" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin_interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="new_media_analyse_version" type="462c0819:PsiDirectoryNode" />
-              <item name="wx_analyse_media_online" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,23 +314,23 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Program Files/Python36/Lib/site-packages/openpyxl/worksheet/worksheet.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\com_code\tests\images" />
       <recent name="D:\com_code\tests" />
       <recent name="D:\com_code\weixin_py_v2.0\images" />
       <recent name="D:\com_code\weixin_py_v2.0\daily_collect\images" />
       <recent name="D:\com_code\aliyun" />
-      <recent name="D:\com_code\weixin_interfaces\analyse_8.0" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\com_code\weixin_interfaces\analyse_8.0" />
+      <recent name="D:\com_code\weixin_interfaces\new_media_analyse_version" />
       <recent name="D:\com_code\wechat\headers_part_2" />
       <recent name="D:\com_code\Facebook\News_xinhua_praise" />
       <recent name="D:\com_code\Facebook\News_xinhua_praise\no_mongo" />
-      <recent name="D:\com_code\wechat" />
-      <recent name="D:\com_code\aliyun" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,20 +513,20 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.19494204" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.5043668" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.5043668" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.7347162" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.55744684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.33078602" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.1790393" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.33078602" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
@@ -1202,7 +1165,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py</url>
-          <line>284</line>
+          <line>287</line>
           <option name="timeStamp" value="515" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1270,11 +1233,6 @@
           <url>file://$PROJECT_DIR$/wechat/daily/daily_check/self_check.py</url>
           <line>43</line>
           <option name="timeStamp" value="549" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py</url>
-          <line>214</line>
-          <option name="timeStamp" value="560" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1409,30 +1367,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/port.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/log/comm_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="51" column="50" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/log/handler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/log/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3404">
-          <caret line="152" selection-start-line="152" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/server/threding_server.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1661,13 +1595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9-3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" selection-start-line="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/redis/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -1681,6 +1608,13 @@
     <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/ip_switch_session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redis操作.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1688,27 +1622,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9-3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4714">
+          <caret line="64" column="83" selection-start-line="64" selection-start-column="83" selection-end-line="64" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="510" lean-forward="true" selection-start-line="510" selection-end-line="510" />
+        <state relative-caret-position="1408">
+          <caret line="83" column="60" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="60" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py">
+    <entry file="file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_immediately/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="216" column="23" selection-end-line="303" />
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/ip_switch_session.py">
+    <entry file="file://$PROJECT_DIR$/weixin_interfaces/analyse_8.0/sentiment_8.0_v2_immediately/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/port.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
+        <state relative-caret-position="115">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

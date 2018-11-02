@@ -1,0 +1,898 @@
+18-11-02 14:29:46 start iXianYanSuiYu
+18-11-02 14:29:46 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-11-02 14:29:47 start 公众号:  iXianYanSuiYu
+18-11-02 14:29:47 url: https://mp.weixin.qq.com/s?timestamp=1541140187&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbCDJC5LgBXiq*vpBx5T7ngeLu5iUBTRWxAnxyqrum7oVTfIASztzhnT7w0ycmU*1t6fxajZ9kcEvTZTRu5-RxUAlBNfTpxyqHC6sH4FJIvunjQ*7kmrytHkAhckLefjhgi0DkXvlkwD1zVt*Z2GEOYE=
+18-11-02 14:29:47 文章标题: 奇迹！人群中被陌生男人看了一眼，他在机场捡回一条命！
+18-11-02 14:29:47 第0条
+18-11-02 14:29:49 url: https://mp.weixin.qq.com/s?timestamp=1541140187&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbCDJC5LgBXiq*vpBx5T7ngeLu5iUBTRWxAnxyqrum7oVTfIASztzhnT7w0ycmU*1t6fxajZ9kcEvTZTRu5-RxUD9sI0qrt-FsXK3bgIgm2HWzKYmEdMgIAiuG9N2culQpYzf3PX*aWsH44H2EHWrMcc=
+18-11-02 14:29:50 文章标题: 毕业生获北京户口后离职，判赔31万！网友却说……
+18-11-02 14:29:50 第1条
+18-11-02 14:29:51 url: https://mp.weixin.qq.com/s?timestamp=1541140187&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbCDJC5LgBXiq*vpBx5T7ngeLu5iUBTRWxAnxyqrum7oVTfIASztzhnT7w0ycmU*1t2uaX8mltXOd6xzaZebpo-51gPKs8XGz9zs0n9L-yCSb3jAXPHXfekh7LJxBKRYyFoM3DpApt*HQQDvUPyZUWkE=
+18-11-02 14:29:51 文章标题: 金庸先生生前最火30句话，看到最后才懂他……
+18-11-02 14:29:51 第2条
+18-11-02 14:29:52 url: https://mp.weixin.qq.com/s?timestamp=1541140187&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbCDJC5LgBXiq*vpBx5T7ngeLu5iUBTRWxAnxyqrum7oVTfIASztzhnT7w0ycmU*1t6RWIj6AltpMxUV0I3vPdI-sW3ypD7ePbVdd3ntIQ4mFIKAEGBFl*7oJOQEp8ctWOEcC2iOkxm1jxT4coPO050Y=
+18-11-02 14:29:52 文章标题: 主持人李咏在美国去世，享年50岁
+18-11-02 14:29:52 第3条
+18-11-02 14:29:53 url: https://mp.weixin.qq.com/s?timestamp=1541140187&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbCDJC5LgBXiq*vpBx5T7ngeLu5iUBTRWxAnxyqrum7oVTfIASztzhnT7w0ycmU*1t8ZydOp0C3jtMRlcg2nuNs1yozTKxrZvP97i7cRd9U7jaOz6Ki2bKZVhEQSNiNx*oQejkfoSm4zPkKO-CHixomM=
+18-11-02 14:29:53 文章标题: 时隔五年中日重启货币互换
+18-11-02 14:29:53 第4条
+18-11-02 14:29:53 所有文章抓取完毕
+18-11-02 14:29:53 文章长度 3985
+18-11-02 14:29:53 请求分词
+18-11-02 14:29:55 分词完成
+18-11-02 14:29:55 ['10:46:39', '10:46:39', '09:49:29', '11:02:20']
+18-11-02 14:29:55 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 4, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 14:29:55 iXianYanSuiYu 抓取完成
+18-11-02 14:35:12 start iXianYanSuiYu
+18-11-02 14:35:12 æçæç´¢
+18-11-02 14:35:12 初始化session
+18-11-02 14:35:12 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:35:12 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:35:12 ------开始处理搜狗验证码------
+18-11-02 14:35:15 ------出现验证码页面------
+18-11-02 14:35:16 ------验证码：EJ1A6X------
+18-11-02 14:35:19 验证失败
+18-11-02 14:35:19 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:35:19 ------开始处理搜狗验证码------
+18-11-02 14:35:21 ------出现验证码页面------
+18-11-02 14:35:22 ------验证码：Y7214M------
+18-11-02 14:35:24 ------验证码正确------
+18-11-02 14:35:24 ------cookies更新------
+18-11-02 14:35:24 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDBF021', 'ABTEST': '0|1541140513|v1', 'seccodeErrorCount': '1|Fri, 02 Nov 2018 06:40:17 GMT', 'SUIR': '1541140513', 'IPLOC': 'CN4401', 'PHPSESSID': 'v78chkaq3k7k2v5sslkn3u5sp7', 'refresh': '1', 'SUV': '00DA19F33B2ACE165BDBF021B75D5039', 'SNUID': '528D697844463DEBFE2769EB44308A98', 'seccodeRight': 'success', 'successCount': '1|Fri, 02 Nov 2018 06:40:22 GMT', 'JSESSIONID': 'aaaUVz__RUkUSaW56t-Aw'}
+18-11-02 14:35:24 验证完毕
+18-11-02 14:35:26 start iXianYanSuiYu
+18-11-02 14:35:26 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-11-02 14:35:26 start 公众号:  iXianYanSuiYu
+18-11-02 14:35:26 url: https://mp.weixin.qq.com/s?timestamp=1541140526&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbDvEzRY0AvtpOul4csRyCLwtr40HAZQcbiwXqqHAP7YEmTxgSQ5uJm2yFCL4*cwNsFGn-i4Ws3Y3F0XR6bdkjidLxvUcfJC1LfizHL4KBWNnfVY591fwkbg6OE4Q6dBz2GWplCHDvqoHOFSyCLVuMhw=
+18-11-02 14:35:27 文章标题: 奇迹！人群中被陌生男人看了一眼，他在机场捡回一条命！
+18-11-02 14:35:27 第0条
+18-11-02 14:35:28 url: https://mp.weixin.qq.com/s?timestamp=1541140526&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbDvEzRY0AvtpOul4csRyCLwtr40HAZQcbiwXqqHAP7YEmTxgSQ5uJm2yFCL4*cwNsFGn-i4Ws3Y3F0XR6bdkjifT9uEwYrk0NUPP-onnGUbZ7v3LfKlQwE8xVniSlgTlWkqGbM6HBN2K1MCE2eI4Cb0=
+18-11-02 14:35:29 文章标题: 毕业生获北京户口后离职，判赔31万！网友却说……
+18-11-02 14:35:29 第1条
+18-11-02 14:35:30 url: https://mp.weixin.qq.com/s?timestamp=1541140526&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbDvEzRY0AvtpOul4csRyCLwtr40HAZQcbiwXqqHAP7YEmTxgSQ5uJm2yFCL4*cwNsPnBGewqBUQm7o4Nby35seqH451LRMy5hmKy-K6o3YK-3gPibWEs5scUNUKejhcUJtGlD2m*XxWY9uZgTArqMRI=
+18-11-02 14:35:30 文章标题: 金庸先生生前最火30句话，看到最后才懂他……
+18-11-02 14:35:30 第2条
+18-11-02 14:35:31 url: https://mp.weixin.qq.com/s?timestamp=1541140526&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbDvEzRY0AvtpOul4csRyCLwtr40HAZQcbiwXqqHAP7YEmTxgSQ5uJm2yFCL4*cwNsC6-5*D95g4IvhF6KXGrA--OPzgR-HSUpnUHCgbduS*ug1oNK*Ixx8Tx-R9WXLnVZEUSbCzAGcghH4WalDXE4lo=
+18-11-02 14:35:32 文章标题: 主持人李咏在美国去世，享年50岁
+18-11-02 14:35:32 第3条
+18-11-02 14:35:32 url: https://mp.weixin.qq.com/s?timestamp=1541140526&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbDvEzRY0AvtpOul4csRyCLwtr40HAZQcbiwXqqHAP7YEmTxgSQ5uJm2yFCL4*cwNsGjd5CEvN69cVHEE-0xF2rs-BiT0vxObQuTS1vI6mtsxK4Fh18I7q27w5ZqmJHiMUkxtT*9OwFpFyLR9h8wxYhw=
+18-11-02 14:35:32 文章标题: 时隔五年中日重启货币互换
+18-11-02 14:35:32 第4条
+18-11-02 14:35:32 所有文章抓取完毕
+18-11-02 14:35:32 文章长度 3985
+18-11-02 14:35:32 请求分词
+18-11-02 14:35:35 分词完成
+18-11-02 14:35:35 ['10:46:39', '10:46:39', '09:49:29', '11:02:20']
+18-11-02 14:35:35 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 4, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 14:35:35 iXianYanSuiYu 抓取完成
+18-11-02 14:35:35 start iXianYanSuiYu
+18-11-02 14:35:35 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-11-02 14:35:35 start 公众号:  iXianYanSuiYu
+18-11-02 14:35:35 url: https://mp.weixin.qq.com/s?timestamp=1541140535&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbMirVA7agW4k6VPJKviccpze96j5Jg5Ef*iGCOKxJeb*-pse5ohWlMjd7VmmcWeHxzlgcP1EGipGkI8Y8T6m1283BkP6B7y84D6qQJhehSogSENbeuJ-y-K*EoV0tWyiRNo9QBpmWbY2li7YzvHmbfI=
+18-11-02 14:35:35 文章标题: 奇迹！人群中被陌生男人看了一眼，他在机场捡回一条命！
+18-11-02 14:35:35 第0条
+18-11-02 14:35:36 url: https://mp.weixin.qq.com/s?timestamp=1541140535&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbMirVA7agW4k6VPJKviccpze96j5Jg5Ef*iGCOKxJeb*-pse5ohWlMjd7VmmcWeHxzlgcP1EGipGkI8Y8T6m12-enUdBsEEgXY-TFYKh0-4FgECsQSD35zUpmIRg3O1jGeWF4qLgZn1CrkzZ9Mtrw4A=
+18-11-02 14:35:36 文章标题: 毕业生获北京户口后离职，判赔31万！网友却说……
+18-11-02 14:35:36 第1条
+18-11-02 14:35:37 url: https://mp.weixin.qq.com/s?timestamp=1541140535&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbMirVA7agW4k6VPJKviccpze96j5Jg5Ef*iGCOKxJeb*-pse5ohWlMjd7VmmcWeHx9WBaAGM20y7UocXRXAz2pPG67kqcJ-QdyQnCJN0iaPUuaKtG0EKBNrBNun04qKHVukxaiXqiT8hfml6Hc44ywM=
+18-11-02 14:35:37 文章标题: 金庸先生生前最火30句话，看到最后才懂他……
+18-11-02 14:35:37 第2条
+18-11-02 14:35:38 url: https://mp.weixin.qq.com/s?timestamp=1541140535&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbMirVA7agW4k6VPJKviccpze96j5Jg5Ef*iGCOKxJeb*-pse5ohWlMjd7VmmcWeHx4gG72u3Z5V3hmEDe15WQq4oSulZldlTloJoNKH4webz5h3WE2UEQM*X-guBl0G00BODsUTIQwdbbYFZ1nwoZwg=
+18-11-02 14:35:39 文章标题: 主持人李咏在美国去世，享年50岁
+18-11-02 14:35:39 第3条
+18-11-02 14:35:39 url: https://mp.weixin.qq.com/s?timestamp=1541140535&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbMirVA7agW4k6VPJKviccpze96j5Jg5Ef*iGCOKxJeb*-pse5ohWlMjd7VmmcWeHx-34GL*O6JLTwk7DSaPowfoSGsgBy89TPSqZ07Nvw2rbxvXjZtPrNF194PtRiSsFDZpuQjYbnyeL6KjPuKEBACE=
+18-11-02 14:35:39 文章标题: 时隔五年中日重启货币互换
+18-11-02 14:35:39 第4条
+18-11-02 14:35:39 所有文章抓取完毕
+18-11-02 14:35:39 文章长度 3985
+18-11-02 14:35:39 请求分词
+18-11-02 14:35:41 分词完成
+18-11-02 14:35:41 ['10:46:39', '10:46:39', '09:49:29', '11:02:20']
+18-11-02 14:35:42 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 4, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 14:35:42 iXianYanSuiYu 抓取完成
+18-11-02 14:39:21 start iXianYanSuiYu
+18-11-02 14:39:21 æçæç´¢
+18-11-02 14:39:21 初始化session
+18-11-02 14:39:21 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:39:21 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:39:21 ------开始处理搜狗验证码------
+18-11-02 14:39:24 ------出现验证码页面------
+18-11-02 14:39:25 ------验证码：RBHBX1------
+18-11-02 14:39:27 验证失败
+18-11-02 14:39:27 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:39:27 ------开始处理搜狗验证码------
+18-11-02 14:39:29 ------出现验证码页面------
+18-11-02 14:39:29 ------验证码：1R5471------
+18-11-02 14:39:32 ------验证码正确------
+18-11-02 14:39:32 ------cookies更新------
+18-11-02 14:39:32 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDBF11A', 'ABTEST': '0|1541140762|v1', 'seccodeErrorCount': '1|Fri, 02 Nov 2018 06:44:25 GMT', 'SUIR': '1541140762', 'IPLOC': 'CN4401', 'PHPSESSID': 'i3bvtitp2v9sgdfffrmehivuo0', 'refresh': '1', 'SUV': '007547063B2ACE165BDBF11A61F89810', 'SNUID': '528B6E7F44413DED896CE70C458841A3', 'seccodeRight': 'success', 'successCount': '1|Fri, 02 Nov 2018 06:44:30 GMT', 'JSESSIONID': 'aaacAfsgtiet546q7t-Aw'}
+18-11-02 14:39:32 验证完毕
+18-11-02 14:39:34 start iXianYanSuiYu
+18-11-02 14:39:34 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-11-02 14:39:34 start 公众号:  iXianYanSuiYu
+18-11-02 14:39:34 url: https://mp.weixin.qq.com/s?timestamp=1541140774&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI791P*K-*0q0sj807LowPI7AVMXy9AwkK6Yd6LzDSFKBk1ba6kVCKJJK3LoyadH7hspxrZaslm8G22ROkeAiuRS2c5rTy1QHnWN6nQcgTm8f5HnqPQzkuWGrjBR09wj84yQ6BuDKDRUquMe4G0xWTY=
+18-11-02 14:39:34 文章标题: 奇迹！人群中被陌生男人看了一眼，他在机场捡回一条命！
+18-11-02 14:39:34 第0条
+18-11-02 14:39:36 url: https://mp.weixin.qq.com/s?timestamp=1541140774&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI791P*K-*0q0sj807LowPI7AVMXy9AwkK6Yd6LzDSFKBk1ba6kVCKJJK3LoyadH7hspxrZaslm8G22ROkeAiuSw3JlNzvCYq3ZJfmTGg3SBJ9Poepxxz-ziN89Mo6IC5OtWV-421rVPnO*xxlB7zNo=
+18-11-02 14:39:36 文章标题: 毕业生获北京户口后离职，判赔31万！网友却说……
+18-11-02 14:39:36 第1条
+18-11-02 14:39:37 url: https://mp.weixin.qq.com/s?timestamp=1541140774&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI791P*K-*0q0sj807LowPI7AVMXy9AwkK6Yd6LzDSFKBk1ba6kVCKJJK3LoyadH7j0dPgNucVpc-aTqi7Ey39gWcjv5CmoAk7Zm4OrOjnqZ2XAR8OJFUX8E3VrKMfcRsTHnW*gZo2pzC1ePr33fcoc=
+18-11-02 14:39:37 文章标题: 金庸先生生前最火30句话，看到最后才懂他……
+18-11-02 14:39:37 第2条
+18-11-02 14:39:38 url: https://mp.weixin.qq.com/s?timestamp=1541140774&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI791P*K-*0q0sj807LowPI7AVMXy9AwkK6Yd6LzDSFKBk1ba6kVCKJJK3LoyadH7kvD0lmwukw*g32KvuCuzu4IOR0hTwlNGFip--o8tNt7HcuUORC1zORh4-CEUjW*7XHenm5HcbzShHYSx1b4L9Q=
+18-11-02 14:39:39 文章标题: 主持人李咏在美国去世，享年50岁
+18-11-02 14:39:39 第3条
+18-11-02 14:39:39 url: https://mp.weixin.qq.com/s?timestamp=1541140774&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI791P*K-*0q0sj807LowPI7AVMXy9AwkK6Yd6LzDSFKBk1ba6kVCKJJK3LoyadH7gsrHLUvcEZlkk-oROFdstlJT9oJsAKmzqSI4PCkWodBSpCrIcXA2aZ5n5rr*ij40QcS790Y6znbDf3uyP1V9UU=
+18-11-02 14:39:40 文章标题: 时隔五年中日重启货币互换
+18-11-02 14:39:40 第4条
+18-11-02 14:39:40 所有文章抓取完毕
+18-11-02 14:39:40 文章长度 3985
+18-11-02 14:39:40 请求分词
+18-11-02 14:39:42 分词完成
+18-11-02 14:39:42 ['10:46:39', '10:46:39', '09:49:29', '11:02:20']
+18-11-02 14:39:42 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 4, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 14:39:42 iXianYanSuiYu 抓取完成
+18-11-02 14:46:00 start iXianYanSuiYu
+18-11-02 14:46:01 æçæç´¢
+18-11-02 14:46:01 初始化session
+18-11-02 14:46:01 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:46:01 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:46:01 ------开始处理搜狗验证码------
+18-11-02 14:46:04 ------出现验证码页面------
+18-11-02 14:46:04 ------验证码：28YD14------
+18-11-02 14:46:07 ------验证码正确------
+18-11-02 14:46:07 ------cookies更新------
+18-11-02 14:46:07 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDBF2AA', 'ABTEST': '6|1541141162|v1', 'SUIR': '1541141162', 'IPLOC': 'CN4401', 'SNUID': 'D901E5F4CFCAB6672C6407B9D05A0005', 'PHPSESSID': 'ht9vs6h8ukqvdnplrh7dtukj01', 'seccodeRight': 'success', 'SUV': '00A467943B2ACE165BDBF2AA7B471852', 'successCount': '1|Fri, 02 Nov 2018 06:51:05 GMT', 'refresh': '1', 'JSESSIONID': 'aaa1WQVIW5kCT9Zeqr-Aw'}
+18-11-02 14:46:07 验证完毕
+18-11-02 14:46:09 start iXianYanSuiYu
+18-11-02 14:46:09 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-11-02 14:46:09 start 公众号:  iXianYanSuiYu
+18-11-02 14:46:09 url: https://mp.weixin.qq.com/s?timestamp=1541141169&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI1eR8Le*IrMKEbQgna6t5Z5G7KJtnxpjpiS2sVx2X94822VivJqBrjDI2pBvt9Mo2a6Qcv-Ct3ktglg5SAICbu1p9*iGjchqRfSFf5-MjWNyBx*5n78VpHQfxFlLTh2X1XMg5NJrj-5QtL9r57qZCE=
+18-11-02 14:46:09 文章标题: 奇迹！人群中被陌生男人看了一眼，他在机场捡回一条命！
+18-11-02 14:46:09 第0条
+18-11-02 14:46:11 url: https://mp.weixin.qq.com/s?timestamp=1541141169&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI1eR8Le*IrMKEbQgna6t5Z5G7KJtnxpjpiS2sVx2X94822VivJqBrjDI2pBvt9Mo2a6Qcv-Ct3ktglg5SAICbt5KZZ6y7d9IMQHbPDviR6ALm4VsB7lOKoSBlGqZJdTKVfTb3FO58w0HUp2Bx-mh5g=
+18-11-02 14:46:11 文章标题: 毕业生获北京户口后离职，判赔31万！网友却说……
+18-11-02 14:46:11 第1条
+18-11-02 14:46:12 url: https://mp.weixin.qq.com/s?timestamp=1541141169&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI1eR8Le*IrMKEbQgna6t5Z5G7KJtnxpjpiS2sVx2X94822VivJqBrjDI2pBvt9Moz38Oz3kZ57tMg6QwUC2mrUcI0abw9vZQhCdnmSCKJddBLzhNEXwH*dpAohSAslnvmcDi8KjfCU7f6MFcREgQzA=
+18-11-02 14:46:12 文章标题: 金庸先生生前最火30句话，看到最后才懂他……
+18-11-02 14:46:12 第2条
+18-11-02 14:46:13 url: https://mp.weixin.qq.com/s?timestamp=1541141169&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI1eR8Le*IrMKEbQgna6t5Z5G7KJtnxpjpiS2sVx2X94822VivJqBrjDI2pBvt9MoyxOm0hkMbCaRhgP7ZrkaXVHCAEcGlpJybor0VSrfpeuHscTGMexaATP*Tx0Tp44*ZH6ubC-7rV3Z7LOE*iDZXs=
+18-11-02 14:46:13 文章标题: 主持人李咏在美国去世，享年50岁
+18-11-02 14:46:13 第3条
+18-11-02 14:46:14 url: https://mp.weixin.qq.com/s?timestamp=1541141169&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbI1eR8Le*IrMKEbQgna6t5Z5G7KJtnxpjpiS2sVx2X94822VivJqBrjDI2pBvt9MowGbyJxxUy-BQZ8an2yhmcOeL7xVkorS8*YMUhJtDvn24dD5*nS1h*1JqzZ5gValb*kLKDwVguF*G0EropkS4q0=
+18-11-02 14:46:14 文章标题: 时隔五年中日重启货币互换
+18-11-02 14:46:14 第4条
+18-11-02 14:46:14 所有文章抓取完毕
+18-11-02 14:46:14 文章长度 3985
+18-11-02 14:46:14 请求分词
+18-11-02 14:46:16 分词完成
+18-11-02 14:46:16 ['10:46:39', '10:46:39', '09:49:29', '11:02:20']
+18-11-02 14:46:16 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 4, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 14:46:16 iXianYanSuiYu 抓取完成
+18-11-02 14:56:45 start iXianYanSuiYu
+18-11-02 14:56:45 æçæç´¢
+18-11-02 14:56:45 初始化session
+18-11-02 14:56:45 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:56:45 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 14:56:45 ------开始处理搜狗验证码------
+18-11-02 14:56:48 ------出现验证码页面------
+18-11-02 14:56:49 ------验证码：46K6R2------
+18-11-02 14:56:51 ------验证码正确------
+18-11-02 14:56:51 ------cookies更新------
+18-11-02 14:56:51 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDBF52E', 'ABTEST': '0|1541141806|v1', 'SUIR': '1541141806', 'IPLOC': 'CN4401', 'SNUID': '62BA5E4E75700CDC7E6A80BE752F1F9E', 'PHPSESSID': '6ptbha3b55jmksev64l66f9ld3', 'seccodeRight': 'success', 'SUV': '00120F4E3B2ACE165BDBF52FC8F25320', 'successCount': '1|Fri, 02 Nov 2018 07:01:49 GMT', 'refresh': '1', 'JSESSIONID': 'aaa2CxV_0tHCTbs08t-Aw'}
+18-11-02 14:56:51 验证完毕
+18-11-02 14:56:53 start iXianYanSuiYu
+18-11-02 14:56:53 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-11-02 14:56:53 start 公众号:  iXianYanSuiYu
+18-11-02 14:56:53 url: https://mp.weixin.qq.com/s?timestamp=1541141813&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbPUW8txCgKpeC3nYbsxLPGzh2XPiuTeuGzE4U8LY62ab588gctfZEcrRi3Y6e9*sjmnAOJ-NoVve4F4E8-GHumBQjsgjVZT6QhfSV50*W5w1a7ok9be9ozJ*YpM*WfSBBiNM09H*tdXDx1xSgtPXlkM=
+18-11-02 14:56:54 文章标题: 奇迹！人群中被陌生男人看了一眼，他在机场捡回一条命！
+18-11-02 14:56:54 第0条
+18-11-02 14:56:55 url: https://mp.weixin.qq.com/s?timestamp=1541141813&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbPUW8txCgKpeC3nYbsxLPGzh2XPiuTeuGzE4U8LY62ab588gctfZEcrRi3Y6e9*sjmnAOJ-NoVve4F4E8-GHumDlYgSR6DlgjfbOu23a7ricAgQlpotwitfSrM6Q5*xI7nMQt-XpYCjo85cSVpRknKY=
+18-11-02 14:56:55 文章标题: 毕业生获北京户口后离职，判赔31万！网友却说……
+18-11-02 14:56:55 第1条
+18-11-02 14:56:56 url: https://mp.weixin.qq.com/s?timestamp=1541141813&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbPUW8txCgKpeC3nYbsxLPGzh2XPiuTeuGzE4U8LY62ab588gctfZEcrRi3Y6e9*sjuX4J8UwR3u*oVQ6p3WsnKkTpg2nITFRL798OjfQOJHRRea-2tj1cp-bXnTRU9mcvsTk1K1oapzy-*0pn3HbeMg=
+18-11-02 14:56:57 文章标题: 金庸先生生前最火30句话，看到最后才懂他……
+18-11-02 14:56:57 第2条
+18-11-02 14:56:58 url: https://mp.weixin.qq.com/s?timestamp=1541141813&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbPUW8txCgKpeC3nYbsxLPGzh2XPiuTeuGzE4U8LY62ab588gctfZEcrRi3Y6e9*sjvktg4L5yQC32W49Mr8mri2AgjpHekIWMLeIStfORDBrFrDBUOHX1twg2hQhJ5GHCEVJ9C*4bOjaF*suIMee5Sc=
+18-11-02 14:56:58 文章标题: 主持人李咏在美国去世，享年50岁
+18-11-02 14:56:58 第3条
+18-11-02 14:56:58 url: https://mp.weixin.qq.com/s?timestamp=1541141813&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbPUW8txCgKpeC3nYbsxLPGzh2XPiuTeuGzE4U8LY62ab588gctfZEcrRi3Y6e9*sjlGvgYHDXNIPbj*sTzKzJjaqreGH5YaXI-sThK4yxqnzCTVSrhaDQUtvzTTR1XPJlUlfohd80a363qL0Z71VrIo=
+18-11-02 14:56:59 文章标题: 时隔五年中日重启货币互换
+18-11-02 14:56:59 第4条
+18-11-02 14:56:59 所有文章抓取完毕
+18-11-02 14:56:59 文章长度 3985
+18-11-02 14:56:59 请求分词
+18-11-02 14:57:01 分词完成
+18-11-02 14:57:01 ['10:46:39', '10:46:39', '09:49:29', '11:02:20']
+18-11-02 14:57:01 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 4, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 14:57:01 iXianYanSuiYu 抓取完成
+18-11-02 15:03:07 start iXianYanSuiYu
+18-11-02 15:03:07 æçæç´¢
+18-11-02 15:03:07 初始化session
+18-11-02 15:03:07 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 15:03:07 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iXianYanSuiYu&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 15:03:07 ------开始处理搜狗验证码------
+18-11-02 15:03:10 ------出现验证码页面------
+18-11-02 15:03:10 ------验证码：46216B------
+18-11-02 15:03:12 ------验证码正确------
+18-11-02 15:03:12 ------cookies更新------
+18-11-02 15:03:12 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDBF6AC', 'ABTEST': '0|1541142188|v1', 'SUIR': '1541142188', 'IPLOC': 'CN4401', 'SNUID': '5C846371494C33E06991672B4A7DD29C', 'PHPSESSID': 'eqe3j9mblpqn17qdekck1o0l70', 'seccodeRight': 'success', 'SUV': '00D74CCA3B2ACE165BDBF6ACC2BE3590', 'successCount': '1|Fri, 02 Nov 2018 07:08:11 GMT', 'refresh': '1', 'JSESSIONID': 'aaaJx9_DbBPx46sQ8w-Aw'}
+18-11-02 15:03:12 验证完毕
+18-11-02 15:03:14 start iXianYanSuiYu
+18-11-02 15:03:15 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-11-02 15:03:15 start 公众号:  iXianYanSuiYu
+18-11-02 15:03:15 url: https://mp.weixin.qq.com/s?timestamp=1541142195&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbBJTk3qr2kuTSmt621ruO8sIHzPVGooA9G7OSw-hIMQ2L*6QkwrlL0u2lWH-d8PMs0fXHk1JCb2coO0Hbygz3Yh9XQMHfEUrPJKBSQxP8Gt9fX98aPV34rEjxWtKUni280sGi1Aw8KG24wonHqMDR9I=
+18-11-02 15:03:15 文章标题: 奇迹！人群中被陌生男人看了一眼，他在机场捡回一条命！
+18-11-02 15:03:15 第0条
+18-11-02 15:03:17 url: https://mp.weixin.qq.com/s?timestamp=1541142195&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbBJTk3qr2kuTSmt621ruO8sIHzPVGooA9G7OSw-hIMQ2L*6QkwrlL0u2lWH-d8PMs0fXHk1JCb2coO0Hbygz3Yg-i3nlNs4ejImAk9PS1PRxH2XQWFjcbTxtedHuJWaX9VWCXCvZhDccLatGxLsCU4Q=
+18-11-02 15:03:18 文章标题: 毕业生获北京户口后离职，判赔31万！网友却说……
+18-11-02 15:03:18 第1条
+18-11-02 15:03:19 url: https://mp.weixin.qq.com/s?timestamp=1541142195&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbBJTk3qr2kuTSmt621ruO8sIHzPVGooA9G7OSw-hIMQ2L*6QkwrlL0u2lWH-d8PMs2PhrunaKKBx2-dC*WouJb60R-O5qNMUE4kiqi0nVhU7e93-mOzBqSDV3i*LNKFoHzfADKoqQ4FhTVr0bMMT99E=
+18-11-02 15:03:19 文章标题: 金庸先生生前最火30句话，看到最后才懂他……
+18-11-02 15:03:19 第2条
+18-11-02 15:03:20 url: https://mp.weixin.qq.com/s?timestamp=1541142195&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbBJTk3qr2kuTSmt621ruO8sIHzPVGooA9G7OSw-hIMQ2L*6QkwrlL0u2lWH-d8PMs1duOqrGLjwSIEcbM1VSp6qAYcpLuMvTQObWn50y3G6kAIY0V832rWEXJ5T7YMpmos3yhU0mdBo0QU5sCMjJ5QA=
+18-11-02 15:03:20 文章标题: 主持人李咏在美国去世，享年50岁
+18-11-02 15:03:20 第3条
+18-11-02 15:03:20 url: https://mp.weixin.qq.com/s?timestamp=1541142195&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbBJTk3qr2kuTSmt621ruO8sIHzPVGooA9G7OSw-hIMQ2L*6QkwrlL0u2lWH-d8PMszb0NNJUjhSjTzzdEJWVnY9EUn2V4gbMcmuRc4LqHTc69jvPAbSWUkQ7kkCqSeA-Re0ixpUGZZawmb6nyRWgaZM=
+18-11-02 15:03:21 文章标题: 时隔五年中日重启货币互换
+18-11-02 15:03:21 第4条
+18-11-02 15:03:21 所有文章抓取完毕
+18-11-02 15:03:21 文章长度 3985
+18-11-02 15:03:21 请求分词
+18-11-02 15:03:23 分词完成
+18-11-02 15:03:23 ['10:46:39', '10:46:39', '09:49:29', '11:02:20']
+18-11-02 15:03:23 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 4, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 15:03:24 iXianYanSuiYu 抓取完成
+18-11-02 16:11:53 start abt-networks
+18-11-02 16:11:53 æçæç´¢
+18-11-02 16:11:53 初始化session
+18-11-02 16:11:53 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=abt-networks&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:11:53 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=abt-networks&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:11:53 ------开始处理搜狗验证码------
+18-11-02 16:11:57 ------出现验证码页面------
+18-11-02 16:11:57 ------验证码：3824MD------
+18-11-02 16:12:00 ------验证码正确------
+18-11-02 16:12:00 ------cookies更新------
+18-11-02 16:12:00 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDC06CB', 'ABTEST': '2|1541146315|v1', 'SUIR': '1541146315', 'IPLOC': 'CN4401', 'SNUID': '30E90D1D26225E8C30FC568E2724667E', 'PHPSESSID': 'bbekbucjive9asgbgp28n15g27', 'seccodeRight': 'success', 'SUV': '00F4701A3B2ACE165BDC06CBACBAB778', 'successCount': '1|Fri, 02 Nov 2018 08:16:58 GMT', 'refresh': '1', 'JSESSIONID': 'aaaaEoFCEUUGMdp2du-Aw'}
+18-11-02 16:12:00 验证完毕
+18-11-02 16:12:02 start abt-networks
+18-11-02 16:12:02 abt-networks的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:12:02 start 公众号:  abt-networks
+18-11-02 16:12:03 url: https://mp.weixin.qq.com/s?timestamp=1541146323&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKBNgjfFpvyy34qn1OFMIs9ZJ0kKabw*dx9uB3urNKkSJGuu8BjiVHW3AV8oXbpVF5s3zcOZ0JdL2-VB-G*O6*ybe9d4RS48XdRzvgkmGVEc3nNPRa8E3eH-7INZGab-hE2SSKMBHiKILEahBRzBgo4=
+18-11-02 16:12:03 文章标题: 东莞供电局：让电力安全这件大事可管、可控、可视化
+18-11-02 16:12:03 第0条
+18-11-02 16:12:05 url: https://mp.weixin.qq.com/s?timestamp=1541146323&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKBNgjfFpvyy34qn1OFMIs9ZJ0kKabw*dx9uB3urNKkSJGuu8BjiVHW3AV8oXbpVF1rOWyoPSGtHIpBix-7CCcreFiDu*sNACFoiZKdR7LXfHGwasTgTdAdAtUd-anpMhl1grS9Yl3AvPXfjXrQ2ryc=
+18-11-02 16:12:05 文章标题: 让网络安全运维人崩溃的11个瞬间
+18-11-02 16:12:05 第1条
+18-11-02 16:12:06 url: https://mp.weixin.qq.com/s?timestamp=1541146323&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKBNgjfFpvyy34qn1OFMIs9ZJ0kKabw*dx9uB3urNKkSJGuu8BjiVHW3AV8oXbpVF*3CAUjXTtn5xNRLpHycTNscmqeGC-LvEGEGFSUEErmXru93zw0iWR0n*P0OOaLq1o5i6OzM-Tk1QaYFtLP*G2Q=
+18-11-02 16:12:06 文章标题: 每一个梦想，都值得被期待
+18-11-02 16:12:06 第2条
+18-11-02 16:12:06 所有文章抓取完毕
+18-11-02 16:12:06 文章长度 1866
+18-11-02 16:12:06 请求分词
+18-11-02 16:12:07 分词完成
+18-11-02 16:12:07 ['16:30:00', '15:50:34']
+18-11-02 16:12:07 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 2, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:12:07 abt-networks 抓取完成
+18-11-02 16:12:07 start iXianYanSuiYu
+18-11-02 16:12:07 iXianYanSuiYu的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:12:07 start 公众号:  iXianYanSuiYu
+18-11-02 16:12:08 url: https://mp.weixin.qq.com/s?timestamp=1541146328&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbF4qIw3jW0Kr50WqIODXGIIxdQjCTxGTMhUP7jDrjQJETZy2J0JBHL--53o9wjqZpBL*aUHRNvUpWuTZNhm*DWLW5Cz4ihQtyKr9tGVoyjqTyJuPNJvehC1MSIGQN1x6xmdyFaSpzdCPLx2*T89lVkU=
+18-11-02 16:12:08 文章标题: 奇迹！人群中被陌生男人看了一眼，他在机场捡回一条命！
+18-11-02 16:12:08 第0条
+18-11-02 16:12:09 url: https://mp.weixin.qq.com/s?timestamp=1541146328&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbF4qIw3jW0Kr50WqIODXGIIxdQjCTxGTMhUP7jDrjQJETZy2J0JBHL--53o9wjqZpBL*aUHRNvUpWuTZNhm*DWISmOlS9C9DRotfC4j4xeRsUdC7187uekMttW2D8mk3H41ZWL*2jjZYkK36-NYdxbw=
+18-11-02 16:12:09 文章标题: 毕业生获北京户口后离职，判赔31万！网友却说……
+18-11-02 16:12:09 第1条
+18-11-02 16:12:10 url: https://mp.weixin.qq.com/s?timestamp=1541146328&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbF4qIw3jW0Kr50WqIODXGIIxdQjCTxGTMhUP7jDrjQJETZy2J0JBHL--53o9wjqZpHpzaAV8NWTrxV46qXCn80VuV4XW6Hoa1pjN5ZIwM-kgKb6j1jFbhXJn-Qltp1kVbCZDS*pK5-LUcrp-zPOdLOE=
+18-11-02 16:12:10 文章标题: 金庸先生生前最火30句话，看到最后才懂他……
+18-11-02 16:12:10 第2条
+18-11-02 16:12:12 url: https://mp.weixin.qq.com/s?timestamp=1541146328&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbF4qIw3jW0Kr50WqIODXGIIxdQjCTxGTMhUP7jDrjQJETZy2J0JBHL--53o9wjqZpJPWl4Gp0BYB*URn8Tm0wl3uXm8DcUtdEdE3esfJ978ZYC5rlH9vYI-y6ZfmPzXV6Q7lq*MSm8WG8dtOK0yk3LQ=
+18-11-02 16:12:12 文章标题: 主持人李咏在美国去世，享年50岁
+18-11-02 16:12:12 第3条
+18-11-02 16:12:12 url: https://mp.weixin.qq.com/s?timestamp=1541146328&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbF4qIw3jW0Kr50WqIODXGIIxdQjCTxGTMhUP7jDrjQJETZy2J0JBHL--53o9wjqZpAyPX9n*ipW1dF0Bs4zyyv-U2BbZydN*BVnaHJ*hAqe0J5wh2s8hlBh0UQltZBoTmx6yTgygKmjK4lbGrVRtT6g=
+18-11-02 16:12:13 文章标题: 时隔五年中日重启货币互换
+18-11-02 16:12:13 第4条
+18-11-02 16:12:13 所有文章抓取完毕
+18-11-02 16:12:13 文章长度 3985
+18-11-02 16:12:13 请求分词
+18-11-02 16:12:15 分词完成
+18-11-02 16:12:15 ['10:46:39', '10:46:39', '09:49:29', '11:02:20']
+18-11-02 16:12:15 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 4, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:12:15 iXianYanSuiYu 抓取完成
+18-11-02 16:12:15 start yingshidujia
+18-11-02 16:12:15 yingshidujia的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:12:15 start 公众号:  yingshidujia
+18-11-02 16:12:15 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluMwnfnJvVTUQ*vZPXFDotpLlQIjVqCNvxoIbUto7QvgkVf6sB6L3yLAReAAZ4qF6VK2RZeRE4Z-4ruqZwZPZm5E=
+18-11-02 16:12:16 文章标题: 看了这部纪录片才发现，哪还有比孩子们“求知欲”更强的力量？
+18-11-02 16:12:16 第0条
+18-11-02 16:12:18 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluMwnfnJvVTUQ*vZPXFDotpKBg3hnwZI6YBSWvV7ppDQ6MWcoSNifP-p68DUmsQsJoXhlA2*Oy21KeFDlpW2yrpk=
+18-11-02 16:12:18 文章标题: 近来综艺里的女嘉宾为何越来越少？
+18-11-02 16:12:18 第1条
+18-11-02 16:12:20 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluLWVjpP*VduKgG4nCRJbAudpPqfnH1HZVyE1gpuNjUxQC12-mkjRF0eOk-w23P79JWG33*CWSWoFUs3xDi29MXA=
+18-11-02 16:12:20 文章标题: 朴树谈婚姻，一个人最大的幸福和疗愈，就是有人接纳你最烂的一面
+18-11-02 16:12:20 第2条
+18-11-02 16:12:23 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluLWVjpP*VduKgG4nCRJbAufto6DBQVF9nVAD7Nl1z7*z2SRRtBIjfU5xJIPAMRijs0DLanR55MSIPPR2fe767lY=
+18-11-02 16:12:23 文章标题: 金庸仙逝，韦小宝小龙女们说…
+18-11-02 16:12:23 第3条
+18-11-02 16:12:25 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluCtqvO9vcIGOQGlbLxtF40s-7jjIcgsNN5CQ2btFjktwz53tBLQARLgTAw9d5QUShM1SQsDXGNYPPFrjb8-eIbU=
+18-11-02 16:12:26 文章标题: 59岁倪萍未修图近照曝光：你怎么变成这样了？！
+18-11-02 16:12:26 第4条
+18-11-02 16:12:29 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluCtqvO9vcIGOQGlbLxtF40uvdM5823EpjuqGuEsO6xR0hG8zL9ehqHy71XiaeD0CK6zFE6d63LbOffzRFkuWHMQ=
+18-11-02 16:12:29 文章标题: 谢娜上《演员》获导师好评，这么多影视剧的经历对她意味着什么？
+18-11-02 16:12:29 第5条
+18-11-02 16:12:31 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluG4BZT4-XRJS06N5dehGP4LeK1DM9iz-62uI4raKnmDq7phvv*YpZ*-M8*sjfAzhbkHzPCOL3mI0ZHS1dml-zmY=
+18-11-02 16:12:32 文章标题: 又一绝世好男主人设崩塌，没想到当初的“择偶样板”竟不可理喻
+18-11-02 16:12:32 第6条
+18-11-02 16:12:36 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluG4BZT4-XRJS06N5dehGP4JN6q4JTIKF1CDM3qMkCPOf46Crieb*KcqegRR2zpfgADhEORcKmUXbKfLWHj8nnfU=
+18-11-02 16:12:37 文章标题: 9.3分《风味人间》要火，但陈晓卿却说美食片不是他的最爱
+18-11-02 16:12:37 第7条
+18-11-02 16:12:39 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluIegzncEmbiMMGHARwXbVeTl0dkay1NyAke*DftTDu8nepwKXqUTE24Rd3GmPrPJc4pFTb8fw46f-80d7ulA6Zc=
+18-11-02 16:12:39 文章标题: “新娘”赵丽颖罕见发怒：没走过我的路，就别劝我大度
+18-11-02 16:12:39 第8条
+18-11-02 16:12:42 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluIegzncEmbiMMGHARwXbVeRRl8Ou0HEayPy9*CQGe1jVt4rY9i8ZhJdk474ccHbHnMXvavJ7Pjb8qpX5oONVj5Q=
+18-11-02 16:12:43 文章标题: 不老女星们纷纷复出，是不是真的舍不得观众？
+18-11-02 16:12:43 第9条
+18-11-02 16:12:45 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluK2UhJZCOPFQvndSe4NNDjySRdt1kwPjhUgX*aGMK81uE2GdSDsNSR2jJVJdr7KUfsyzwtRch7bFtc7KORfAXrc=
+18-11-02 16:12:45 文章标题: 新垣结衣被虐到下跪：能者多劳，何以成了最扯的毒鸡汤？
+18-11-02 16:12:45 第10条
+18-11-02 16:12:49 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluK2UhJZCOPFQvndSe4NNDjyz2Pz8vN1ND4qxl9ZIEkU3MSoTyPvauzScXoyUx8eDokuVuhMDOzPf6-2synYxqEA=
+18-11-02 16:12:50 文章标题: 房子斌《我就是演员》综艺首秀，道出了40+男演员的无奈
+18-11-02 16:12:50 第11条
+18-11-02 16:12:53 url: https://mp.weixin.qq.com/s?timestamp=1541146335&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbInnX4RafPAIxdTUqXaQQC84bdnSBLHASUfYDpTdwc5WmcPeE5fJpfvcCCTJcJqluHyw2eOMUTSm2XaarKge3NR*ryrCStXfca37Jxdo1O*inJ*8t7EA1SZepeg-J6OAjVLqqh2qOhXZqZvQ4Zoo45Y=
+18-11-02 16:12:53 文章标题: 朱茵47岁生日：她永远是我们心中的紫霞仙子
+18-11-02 16:12:53 第12条
+18-11-02 16:12:53 所有文章抓取完毕
+18-11-02 16:12:53 文章长度 34383
+18-11-02 16:12:53 请求分词
+18-11-02 16:13:15 分词完成
+18-11-02 16:13:15 ['21:55:00', '21:55:00', '21:55:00', '21:55:00', '21:56:13', '21:56:13', '21:55:00', '21:55:00', '21:55:00', '21:55:00', '21:55:00', '21:55:00']
+18-11-02 16:13:15 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 0, 'time': '15:00-18:00'}, {'activeDegree': 12, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:13:15 yingshidujia 抓取完成
+18-11-02 16:16:45 start hsb88880000
+18-11-02 16:16:45 æçæç´¢
+18-11-02 16:16:45 初始化session
+18-11-02 16:16:45 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=hsb88880000&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:16:45 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=hsb88880000&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:16:45 ------开始处理搜狗验证码------
+18-11-02 16:16:49 ------出现验证码页面------
+18-11-02 16:16:49 ------验证码：61BF6E------
+18-11-02 16:16:51 ------验证码正确------
+18-11-02 16:16:51 ------cookies更新------
+18-11-02 16:16:51 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDC07EF', 'ABTEST': '0|1541146607|v1', 'SUIR': '1541146607', 'IPLOC': 'CN4401', 'SNUID': '924BAEBF8481FD2EACBA35F8857040FA', 'PHPSESSID': 'uile345uk3n7f64bffb5ulv393', 'seccodeRight': 'success', 'SUV': '006859A13B2ACE165BDC07EF53EE4492', 'successCount': '1|Fri, 02 Nov 2018 08:21:50 GMT', 'refresh': '1', 'JSESSIONID': 'aaa33dSPlpNDv64reu-Aw'}
+18-11-02 16:16:51 验证完毕
+18-11-02 16:16:53 start hsb88880000
+18-11-02 16:16:54 hsb88880000的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:16:54 start 公众号:  hsb88880000
+18-11-02 16:16:54 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt30znbZh7uwwdebOKNbviSCXy0M0iuleiiRxdluaU7baLGl3fmFu9vCyX-emTlJcH5Ia0jfT1wZ7H4D5Z8VyEiYU=
+18-11-02 16:16:54 文章标题: 西安交警鉴定这50多种老年代步车为机动车，无证驾驶拘留【11月2日周五新闻速览一分钟】11月1日起，西安这些新规将影响你的生活！西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:16:54 第0条
+18-11-02 16:16:58 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3*VQRhBiNZavXafly1Fl72TP-mOua5BRCgjqxvqgcogMQBlAFrpfjokogt6Qs1VGxT7LMQl8lu4oeuu9fGU1Kn0=
+18-11-02 16:16:58 文章标题: 注意：有人在西安街头如此碰瓷，看看这位老司机的机智反映！
+18-11-02 16:16:58 第1条
+18-11-02 16:16:59 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3*VQRhBiNZavXafly1Fl72SunXtrSoQkU9KqKjhj5AG5RKuWWg4epzOSynBq84EC47HXw*7e-NZc33R1BgBiGII=
+18-11-02 16:16:59 文章标题: 多地学校停课！这种病毒进入高发期，尚无疫苗和特效药…家有孩子要注意！
+18-11-02 16:16:59 第2条
+18-11-02 16:17:00 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3*VQRhBiNZavXafly1Fl72SmgDQKm1FZ1T8UNnaqFg7uYdNC78PvBBifu4iwgYVeuXmwwlLC1Lv7iFJtLar*XdM=
+18-11-02 16:17:00 文章标题: 西安一高校61岁教授，患病离世！他背后的故事...让人流泪满面
+18-11-02 16:17:00 第3条
+18-11-02 16:17:03 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3*VQRhBiNZavXafly1Fl72T2jaoio-vDnsyDx0uVCuhf-QVcgqFwhRfqouf25yaW7iTj7JEj*vmsySAwt2xb-*I=
+18-11-02 16:17:03 文章标题: 5岁小孩的简历一夜爆火！看完受到100000+暴击！网友：这辈子都赶不上
+18-11-02 16:17:03 第4条
+18-11-02 16:17:04 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3*VQRhBiNZavXafly1Fl72Qm0EQsUhmdCNyKQIgi5TqyCAtBniXdMm8oLRfsTKv2Xydyeuf4pUg9WHcG6D0WTfM=
+18-11-02 16:17:04 文章标题: 男女各自婚内出轨，男子拿裸照勒索对方，结局让人毛骨悚然
+18-11-02 16:17:04 第5条
+18-11-02 16:17:05 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt34JsCV-LWzwVxvkVVZlG0M9FuUqbG2YhyrSYIhQbcmXbgmtRlPAKm8COeU5wEZWeoQhMFTi4UDAuBg9h5YZxpeg=
+18-11-02 16:17:05 文章标题: 快讯：陕西省委常委、秘书长钱引安涉嫌严重违纪违法被查
+18-11-02 16:17:05 第6条
+18-11-02 16:17:05 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt30L0WKk2PekB7zckRsOF7OnN0-ZEgraHvvS3YTuyKhhCZmRxupgMok4*JhSbWAwkPhGO0fkYDijMu-WE9SG-d6I=
+18-11-02 16:17:06 文章标题: 今起西安最严禁烟令执行【11月1日周四新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:17:06 第7条
+18-11-02 16:17:09 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt34xr6n7oGeJF-nscXzC4Xo5NTgcCTzX84JFBRJ4baOPBfjdVGbBSuvv6yZkznjl2JXpmUndmLmRuQ0dSDkEdUI0=
+18-11-02 16:17:09 文章标题: 明天起，西安这些新规将影响你的生活！
+18-11-02 16:17:09 第8条
+18-11-02 16:17:13 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt34xr6n7oGeJF-nscXzC4Xo6cDJehs6*IGxfCoYHkxrFokoQQrK0wA6i*-hkDYPpO3wKpMQvLhk-188qZkkwSQ7g=
+18-11-02 16:17:13 文章标题: 凌晨1点，17岁少女带妹妹跳水库自杀，留下的遗书让人心碎
+18-11-02 16:17:13 第9条
+18-11-02 16:17:15 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt34xr6n7oGeJF-nscXzC4Xo5Hpzq*cUkWRasp3YlddC*gljeA4iRwDg2cJaMqAeyBKKMPrzyK1QTi5JvQZe6F0J4=
+18-11-02 16:17:15 文章标题: “我开警车到你家要钱，穿上内衣内裤下楼！”女法官这段音频火了
+18-11-02 16:17:15 第10条
+18-11-02 16:17:16 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt34xr6n7oGeJF-nscXzC4Xo5VS1gS*gv0BLa0xssO0lFAL*Fo13U6W*rDIdXFJB1jOwTm7NxyEjo73SsfP0ghpKQ=
+18-11-02 16:17:16 文章标题: 这个儿童药不要再吃了，几个月前已被注销！很多地方却还在卖！
+18-11-02 16:17:16 第11条
+18-11-02 16:17:18 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt34xr6n7oGeJF-nscXzC4Xo4ay89AJvl3qJtR9qkMgtK7qayHZo0JlwW1ZYAWTmxDdwfiwEsvVubpFs*iHTbFs4s=
+18-11-02 16:17:18 文章标题: 高速路上车狂抖，老司机看到真相吓到腿软…这是什么深仇大恨？!
+18-11-02 16:17:18 第12条
+18-11-02 16:17:19 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3wdKEPQy4jjbWiMfjiXlT90nfLFzjg9geeW2ZQRPmz89kUz0N*TJbWsCugrQEQUwqRImKn58lfrV9xIEpgk42fQ=
+18-11-02 16:17:19 文章标题: 西安红色预警天气时弹性停课【10月31日周三新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:17:19 第13条
+18-11-02 16:17:22 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt38VycfPcU0RSCvx9VzxdG00vy6g9-3zy*giGnwLn9Y4uxwprmdFAATLavS3zCfVGHsOXeJlKrlfXdQ5FMuF7lhs=
+18-11-02 16:17:22 文章标题: 金庸逝世，享年94岁！大侠，一路走好！
+18-11-02 16:17:22 第14条
+18-11-02 16:17:22 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt38VycfPcU0RSCvx9VzxdG02yIn06nWuGM*vDCIPnoqahKieM23J9TkgQZ4I-h4DCI7iG7xZxOt6tkMTdhaWCYSs=
+18-11-02 16:17:23 文章标题: 西安史上最严禁烟令11月1日起实施！遇二手烟，可拨打这个电话举报！
+18-11-02 16:17:23 第15条
+18-11-02 16:17:24 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt38VycfPcU0RSCvx9VzxdG01BAUd1*gy7Lvc8cbmAlU93Z5CioDh5C5U0JhaMzpJXPcJcy-Ox-VNDrRAY*x7GTaA=
+18-11-02 16:17:25 文章标题: 爬山偶遇外交部长王毅，他送给年轻人一句话！网友纷纷表示坐不住了，要听男神的！
+18-11-02 16:17:25 第16条
+18-11-02 16:17:26 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt38VycfPcU0RSCvx9VzxdG02-EhQNHaHnmlKuuyTsXWoXJOHsDP8mVdpgk-4hI*ioYe005-MmX9-gGVoXvpDobwE=
+18-11-02 16:17:26 文章标题: 西安一外卖员骑超标电动车被查，他一个举动，交警都没想到！
+18-11-02 16:17:26 第17条
+18-11-02 16:17:26 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt38VycfPcU0RSCvx9VzxdG02*DowvH*UmxVmjfRTBIaL1TUewUAE2ANMErL6CmnD4wEqn4Dq7f8ItwXe8JXSGqeU=
+18-11-02 16:17:27 文章标题: 140万对夫妻离婚原因曝光：最艰难的不是七年之痒
+18-11-02 16:17:27 第18条
+18-11-02 16:17:29 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt38VycfPcU0RSCvx9VzxdG01ZHAb3K7cXq--eoL8sKxT*Uf-lc4appGYQz5oRWgMP5o4uMCW5MQbr0p2j*supkLA=
+18-11-02 16:17:29 文章标题: 一号难求?候诊时间太长?西安市卫计委开启“市民就医满意度调查”您有哪些建议?
+18-11-02 16:17:29 第19条
+18-11-02 16:17:30 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt38VycfPcU0RSCvx9VzxdG03tw-pP5XHbqE6bZuaTDz99jo-pIDJSHdCyS-P1qDewizsJTGVAB9WZQyMUZZwzXj8=
+18-11-02 16:17:30 文章标题: 再不努力，东风标致，真的要退出中国市场了！
+18-11-02 16:17:30 第20条
+18-11-02 16:17:32 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt38VycfPcU0RSCvx9VzxdG00NgG5HGucSzLAJ2y6ncX898WaRBXBWBZEkrcute3ouJoVf0avRWmrWgrPeXYVNv*M=
+18-11-02 16:17:32 文章标题: 尽自己之力解他人之忧，他们是美好生活践行者！
+18-11-02 16:17:32 第21条
+18-11-02 16:17:34 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3y3n82Ev-*tuOB4b-UE4nSDemPPTm3*pgS*0763yugNsE1pq3jxmeSkbAAGrCQAghkhL1lIQ4T6D0ebrtmmrEL4=
+18-11-02 16:17:35 文章标题: 10月30日周二【新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:17:35 第22条
+18-11-02 16:17:38 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3y3n82Ev-*tuOB4b-UE4nSBtH5IDo-m2jnVGD9NjSQq-PGJ8BMn4gLvB06l8xuMWmfwiYSRQtNQQyjaEfGVMJ0U=
+18-11-02 16:17:38 文章标题: 水一样的德庆皇帝柑，让味蕾体验帝皇享受！御食御有feel
+18-11-02 16:17:38 第23条
+18-11-02 16:17:38 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt30egi9OyQwpSjSGiicTZ*qdPxMrUbhUZFLKoj7ens3cn1x3ElPPeor86TgD8oxBIa*76TV2ZlawzS*a0hSoUcw4=
+18-11-02 16:17:39 文章标题: 著名主持人李咏因癌症去世享年50岁
+18-11-02 16:17:39 第24条
+18-11-02 16:17:39 url: https://mp.weixin.qq.com/s?timestamp=1541146614&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGx3LNFhWAMaU8MJSIkWUDEk4y-1yU3qn*en69TlP3dCoiS*tRv8ij3xIaoR9SVt3zVPTCHWe18wQAyb2bJOvJ6HtZzJkMnUyuWYpIa11dR6trZ0D2jf*oTx7PavihWyMKSUsPmkY206CPxuJ4AoTH8=
+18-11-02 16:17:39 文章标题: 哈文发文：永失我爱...著名主持人李咏因病治疗无效去世
+18-11-02 16:17:39 第25条
+18-11-02 16:17:40 所有文章抓取完毕
+18-11-02 16:17:40 文章长度 46132
+18-11-02 16:17:40 请求分词
+18-11-02 16:18:08 分词完成
+18-11-02 16:18:08 ['06:47:37', '19:56:50', '19:56:50', '19:56:50', '19:56:50', '19:56:50', '17:38:08', '06:50:34', '19:40:01', '19:40:01', '19:40:01', '19:40:01', '19:40:01', '06:54:37', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '06:53:13', '06:53:13', '10:01:31', '09:54:54']
+18-11-02 16:18:08 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 5, 'time': '06:00-09:00'}, {'activeDegree': 2, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 18, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:18:08 hsb88880000 抓取完成
+18-11-02 16:18:08 find hsb88880000
+18-11-02 16:18:55 start ZaoYunAn
+18-11-02 16:18:55 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:18:56 start 公众号:  ZaoYunAn
+18-11-02 16:18:57 url: https://mp.weixin.qq.com/s?timestamp=1541146736&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbJ2usfNWD1tSRVV48XA2ddG7lPO3wkOAc0NbU8jUDxOX*K8qpjNMJgMpApk1UVZsqui*-4t9-5*KoEi6j351bntGnR9Ea8l79r*KwKzsa-l6MTtsQlur5JpKdpcd3YW1UwnTG3KOKviMDlONrPh8IYk=
+18-11-02 16:18:57 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:18:57 第0条
+18-11-02 16:18:58 url: https://mp.weixin.qq.com/s?timestamp=1541146736&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbJ2usfNWD1tSRVV48XA2ddG7lPO3wkOAc0NbU8jUDxOX*K8qpjNMJgMpApk1UVZsqq2j0oD*0o8nnU-*okrmd6b5pBDP4FStmWaU-6dEVnOQvsJWmFoEV*Zu8r7q5p6mNa6VQehy0EJq1fEu3w-JbeM=
+18-11-02 16:18:59 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:18:59 第1条
+18-11-02 16:18:59 所有文章抓取完毕
+18-11-02 16:18:59 文章长度 1547
+18-11-02 16:18:59 请求分词
+18-11-02 16:18:59 分词完成
+18-11-02 16:18:59 ['17:41:49']
+18-11-02 16:18:59 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:19:00 ZaoYunAn 抓取完成
+18-11-02 16:19:00 find ZaoYunAn
+18-11-02 16:21:53 start ZaoYunAn
+18-11-02 16:21:53 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:21:54 start 公众号:  ZaoYunAn
+18-11-02 16:21:54 url: https://mp.weixin.qq.com/s?timestamp=1541146914&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbMGzvd4PnBuJAHoVNWDabjNsigqSI17nFHUGalgYJOKJXHh0NpmWYOpKrpHfX6zCaTMoLu5-xrCcYSvLbjvE8YobWwKRLj6bkr-q7sJdiAL7vsENNmh8kfaGZOVV3MG5I5FoJ07VGEWzl8b766Hs7zM=
+18-11-02 16:21:54 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:21:54 第0条
+18-11-02 16:21:55 url: https://mp.weixin.qq.com/s?timestamp=1541146914&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbMGzvd4PnBuJAHoVNWDabjNsigqSI17nFHUGalgYJOKJXHh0NpmWYOpKrpHfX6zCaUbsc2WvMRThLtHUXAjoGttMtJw0w6M5tJCtR4AlDWSNNU3cml9HEFp7J6wBjfGdWmEh8VNkwq*ZToiuJiG8Ey0=
+18-11-02 16:21:57 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:21:57 第1条
+18-11-02 16:21:57 所有文章抓取完毕
+18-11-02 16:21:57 文章长度 1547
+18-11-02 16:21:57 请求分词
+18-11-02 16:21:57 分词完成
+18-11-02 16:21:58 ['17:41:49']
+18-11-02 16:21:58 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:21:58 ZaoYunAn 抓取完成
+18-11-02 16:22:15 start hsb88880000
+18-11-02 16:22:15 hsb88880000的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:22:15 start 公众号:  hsb88880000
+18-11-02 16:22:15 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoHXWusH4m9MPRyYTxvxmefmAHEGZ4rcHXn1OmrRyToB-HeLZIV4*UCTJv96eCU01OOnyZeRJWXbVJ2eDaGaR7tU=
+18-11-02 16:22:16 文章标题: 西安交警鉴定这50多种老年代步车为机动车，无证驾驶拘留【11月2日周五新闻速览一分钟】11月1日起，西安这些新规将影响你的生活！西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:22:16 第0条
+18-11-02 16:22:19 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoLb6IGrupuodujAsQhoxrAcRwns8UESGCF796Jjj8HwqyTLjqgObPdvAlKFNJ7vxlMuWZl0*Pr0LhDiDEFT7tVk=
+18-11-02 16:22:19 文章标题: 注意：有人在西安街头如此碰瓷，看看这位老司机的机智反映！
+18-11-02 16:22:19 第1条
+18-11-02 16:22:20 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoLb6IGrupuodujAsQhoxrAfynfnrD*ZiFZiaXqaBr8pLV6L100hKGkfZZoS9w9YXjvx6RMiur2-Z8W9JC877znA=
+18-11-02 16:22:21 文章标题: 多地学校停课！这种病毒进入高发期，尚无疫苗和特效药…家有孩子要注意！
+18-11-02 16:22:21 第2条
+18-11-02 16:22:22 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoLb6IGrupuodujAsQhoxrAdXeaW66YnLjYdlvljPnsF04-0MXEhfjQ7ao-HFKzsEUr0SPJBI*5IamA44xt7fpiI=
+18-11-02 16:22:22 文章标题: 西安一高校61岁教授，患病离世！他背后的故事...让人流泪满面
+18-11-02 16:22:22 第3条
+18-11-02 16:22:25 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoLb6IGrupuodujAsQhoxrAcfMQQCph4LHWPUaQwIud2SeXCt6CmNU800ut9Nu5e1a3uU19k3FJnawKkucjkxNcg=
+18-11-02 16:22:25 文章标题: 5岁小孩的简历一夜爆火！看完受到100000+暴击！网友：这辈子都赶不上
+18-11-02 16:22:25 第4条
+18-11-02 16:22:26 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoLb6IGrupuodujAsQhoxrAesMIgK2pgPM*4YIv2FtJVzdVU6aRMGVd7DF2L750gJ*kwP-dwGP4n9j82SEoBT35M=
+18-11-02 16:22:26 文章标题: 男女各自婚内出轨，男子拿裸照勒索对方，结局让人毛骨悚然
+18-11-02 16:22:26 第5条
+18-11-02 16:22:27 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoM9mjlJx-xFPt0qPul1vDQxTkUQNcD7f*ez4tr2Ng2i5V7jbxitb3gC-LrSBZ9P23CwGPVSPMWxOfX5qUBUhO0o=
+18-11-02 16:22:28 文章标题: 快讯：陕西省委常委、秘书长钱引安涉嫌严重违纪违法被查
+18-11-02 16:22:28 第6条
+18-11-02 16:22:28 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoCIvncYJ237h1qEEfifJPToEGMrPtyt40CxOQ*5huQC2K9nHq3xRpf-nbVCc0LPrU1-OcdDnra4uhQfQSLI9N-c=
+18-11-02 16:22:28 文章标题: 今起西安最严禁烟令执行【11月1日周四新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:22:28 第7条
+18-11-02 16:22:31 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoDvXXlLvNVRv*nFcP*72uJi68eXi-UsYJ6DVKCrKOtJeSiGV2LVP0oM3z7akXBfsYCalRr*x2TVjylGkfuB2GcM=
+18-11-02 16:22:32 文章标题: 明天起，西安这些新规将影响你的生活！
+18-11-02 16:22:32 第8条
+18-11-02 16:22:35 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoDvXXlLvNVRv*nFcP*72uJgPEEunPCPSqeb27gEvD*wGHnLzrdPGthBv186ZjQDEJnI1zncBVZtoFRd9sJPlTlc=
+18-11-02 16:22:35 文章标题: 凌晨1点，17岁少女带妹妹跳水库自杀，留下的遗书让人心碎
+18-11-02 16:22:35 第9条
+18-11-02 16:22:37 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoDvXXlLvNVRv*nFcP*72uJhcipixRygOUlbrlermAXcDR7NntYMZAHmyAeuf-PYIk-YOECukauc-iHP62lKWhHw=
+18-11-02 16:22:38 文章标题: “我开警车到你家要钱，穿上内衣内裤下楼！”女法官这段音频火了
+18-11-02 16:22:38 第10条
+18-11-02 16:22:38 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoDvXXlLvNVRv*nFcP*72uJh3ZHoiKG*AySdwdKoqVrfWJr8Hngz5Hm26F*9FtdeG3m4FCwgHPWTwbLEundUtLic=
+18-11-02 16:22:39 文章标题: 这个儿童药不要再吃了，几个月前已被注销！很多地方却还在卖！
+18-11-02 16:22:39 第11条
+18-11-02 16:22:41 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoDvXXlLvNVRv*nFcP*72uJhdvutYF4ryOD9TtfY1PyNe9R4ZW8ZLj8RybHYHgOKrXgZ2pz93H6IK8qsaodYC9yg=
+18-11-02 16:22:41 文章标题: 高速路上车狂抖，老司机看到真相吓到腿软…这是什么深仇大恨？!
+18-11-02 16:22:41 第12条
+18-11-02 16:22:42 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoPShOX3gfZb7ThFzRHp3X2hcjTgnwOr7WuEUWPcUKflQU1zB1Eejb3d3NcSlyoGU4fASzV-1wZWRqPntzwkUUPg=
+18-11-02 16:22:42 文章标题: 西安红色预警天气时弹性停课【10月31日周三新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:22:42 第13条
+18-11-02 16:22:45 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoIflMmbcnXUY-J0AD8KNn84TENePpdOXebRS4BMlMLtN51-G9kLBWntT3PeNFUyBeaowNxCoXxtSKpx-MUnTKfI=
+18-11-02 16:22:46 文章标题: 金庸逝世，享年94岁！大侠，一路走好！
+18-11-02 16:22:46 第14条
+18-11-02 16:22:46 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoIflMmbcnXUY-J0AD8KNn85CsC7B207KpqtApeDJs8HqrI9d37OjM78EfH1aec9Yl-lxYRYwsLstAD5cUX6u*wI=
+18-11-02 16:22:46 文章标题: 西安史上最严禁烟令11月1日起实施！遇二手烟，可拨打这个电话举报！
+18-11-02 16:22:46 第15条
+18-11-02 16:22:48 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoIflMmbcnXUY-J0AD8KNn84jPSuKLGg2eyb-XdcWu3CTN1HAuMfrugxymWUvzyLyYcz9YN2LYpTInpy3S2npSdU=
+18-11-02 16:22:49 文章标题: 爬山偶遇外交部长王毅，他送给年轻人一句话！网友纷纷表示坐不住了，要听男神的！
+18-11-02 16:22:49 第16条
+18-11-02 16:22:50 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoIflMmbcnXUY-J0AD8KNn84ERVILXsm3jU1*7mEX10QLOlkzUC5*bwyQaBxe3ixeCcVRfnPuicsMQ9CHUzb*RxM=
+18-11-02 16:22:50 文章标题: 西安一外卖员骑超标电动车被查，他一个举动，交警都没想到！
+18-11-02 16:22:50 第17条
+18-11-02 16:22:50 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoIflMmbcnXUY-J0AD8KNn86nkOV061bRXmSFAZwlMXNLGH051ChIQPHLfI*S0YW-vW8yu16Eq7-t7nhAGcuUttI=
+18-11-02 16:22:51 文章标题: 140万对夫妻离婚原因曝光：最艰难的不是七年之痒
+18-11-02 16:22:51 第18条
+18-11-02 16:22:53 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoIflMmbcnXUY-J0AD8KNn84TC32*lBpJuO0gt3iGUcTB12onTE9U7db-r7k268dM*SncqhgRSl4FVGlTENoRmIk=
+18-11-02 16:22:53 文章标题: 一号难求?候诊时间太长?西安市卫计委开启“市民就医满意度调查”您有哪些建议?
+18-11-02 16:22:53 第19条
+18-11-02 16:22:54 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoIflMmbcnXUY-J0AD8KNn85x82HAWiueffeC03DVyTY-22-5yZrYdt4WY5v9qXGAxWJQydpMZPvE*yJ5VAqKF4g=
+18-11-02 16:22:54 文章标题: 再不努力，东风标致，真的要退出中国市场了！
+18-11-02 16:22:54 第20条
+18-11-02 16:22:56 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoIflMmbcnXUY-J0AD8KNn84DFtC-bnNkHRUHXcH03XI3izLfavdi5hj9WYWRQo566jS6p3Q62eNWp*6-XuZAc6g=
+18-11-02 16:22:56 文章标题: 尽自己之力解他人之忧，他们是美好生活践行者！
+18-11-02 16:22:56 第21条
+18-11-02 16:22:58 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoHO9gXmYVuftVH7Sr5vHUs87qk-7KQh6vrze8UT2Hdyvt4MswyXfTxbo6msThvLBy1*HO2dP4W4H5rii5MNRx7c=
+18-11-02 16:22:59 文章标题: 10月30日周二【新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:22:59 第22条
+18-11-02 16:23:02 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoHO9gXmYVuftVH7Sr5vHUs8CTelYzFT5dQOBBZ1fspUmQpcPuQ5PkAlIwuFKC8pvj7AU6ejXI1Or5kHjo-dRszs=
+18-11-02 16:23:02 文章标题: 水一样的德庆皇帝柑，让味蕾体验帝皇享受！御食御有feel
+18-11-02 16:23:02 第23条
+18-11-02 16:23:03 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoF3-zMgbnleJx2O5zhFPi4sg4VodSmS46552oS5m05rLhddn4MypE0-Hk8TPGoKuv6Td34Kaqwz1ZK*eQaBNSwk=
+18-11-02 16:23:03 文章标题: 著名主持人李咏因癌症去世享年50岁
+18-11-02 16:23:03 第24条
+18-11-02 16:23:03 url: https://mp.weixin.qq.com/s?timestamp=1541146935&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbE*DM84mAdW3F9pcrALnUlVF9By9XigcnwbioKSh1Qfz6y15qN1kwEnpQb0AsWSEoB74KIdopcEMvX7qXIxLzvcAGqoUTXt9odvvX57L0MDg3rB1c2GYIjLMvJgplYzOvtZavML4z5Dng*SyZwykDxU=
+18-11-02 16:23:04 文章标题: 哈文发文：永失我爱...著名主持人李咏因病治疗无效去世
+18-11-02 16:23:04 第25条
+18-11-02 16:23:04 所有文章抓取完毕
+18-11-02 16:23:04 文章长度 46132
+18-11-02 16:23:04 请求分词
+18-11-02 16:23:33 分词完成
+18-11-02 16:23:33 ['06:47:37', '19:56:50', '19:56:50', '19:56:50', '19:56:50', '19:56:50', '17:38:08', '06:50:34', '19:40:01', '19:40:01', '19:40:01', '19:40:01', '19:40:01', '06:54:37', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '06:53:13', '06:53:13', '10:01:31', '09:54:54']
+18-11-02 16:23:33 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 5, 'time': '06:00-09:00'}, {'activeDegree': 2, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 18, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:23:34 hsb88880000 抓取完成
+18-11-02 16:23:34 find hsb88880000
+18-11-02 16:23:34 start ZaoYunAn
+18-11-02 16:23:34 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:23:34 start 公众号:  ZaoYunAn
+18-11-02 16:23:34 url: https://mp.weixin.qq.com/s?timestamp=1541147014&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbG7FV38fs9jNox0glmz78kklZM-A*b385CWihslO1dJKZj3oTaNNY2KOS14pdyP1*2QAy77tdh1ahifq0Md7wk1vN8UiwMzSdb-l7AKNzygI6JNVJJFzTyWZZ5XbX9xlcN5Dohm7loj1wNkKv7JAgmw=
+18-11-02 16:23:35 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:23:35 第0条
+18-11-02 16:23:36 url: https://mp.weixin.qq.com/s?timestamp=1541147014&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbG7FV38fs9jNox0glmz78kklZM-A*b385CWihslO1dJKZj3oTaNNY2KOS14pdyP1*7INvgJoff0xu*l7qcw683CQHCGG7ae9nSOL7vEqteCu2--SJuVLZ41u4AZn85V1c4jqdZZiC7gqPpjYKSgaHww=
+18-11-02 16:23:36 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:23:36 第1条
+18-11-02 16:23:36 所有文章抓取完毕
+18-11-02 16:23:36 文章长度 1547
+18-11-02 16:23:36 请求分词
+18-11-02 16:23:37 分词完成
+18-11-02 16:23:37 ['17:41:49']
+18-11-02 16:23:37 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:23:37 ZaoYunAn 抓取完成
+18-11-02 16:23:37 start ZaoYunAn
+18-11-02 16:23:37 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:23:37 start 公众号:  ZaoYunAn
+18-11-02 16:23:37 url: https://mp.weixin.qq.com/s?timestamp=1541147017&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbCHpYv*ylhaW7QPqo7BbrMu5wTHlgh9yifvl6xyXs68wm9QdmBEMhS21xEm1enuoantsK8Y9-02lCjpZTHQXA15CKWac9GR*NCD-anKTwFBntnYfGSfRdi7bpsWq4jjOMvEENE6yIdQvYiOxZ2qZQPQ=
+18-11-02 16:23:38 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:23:38 第0条
+18-11-02 16:23:39 url: https://mp.weixin.qq.com/s?timestamp=1541147017&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbCHpYv*ylhaW7QPqo7BbrMu5wTHlgh9yifvl6xyXs68wm9QdmBEMhS21xEm1enuoajQXcHJH1mxRIvKGnwMnBWjiXA2U938mWvx9fdau8h3PAMH6L*YDEhWH59yXju04yMze9Wyp7G3bJABvVK7g3X0=
+18-11-02 16:23:39 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:23:39 第1条
+18-11-02 16:23:39 所有文章抓取完毕
+18-11-02 16:23:39 文章长度 1547
+18-11-02 16:23:39 请求分词
+18-11-02 16:23:40 分词完成
+18-11-02 16:23:40 ['17:41:49']
+18-11-02 16:23:40 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:23:40 ZaoYunAn 抓取完成
+18-11-02 16:24:57 start hsb88880000
+18-11-02 16:24:57 æçæç´¢
+18-11-02 16:24:57 初始化session
+18-11-02 16:24:57 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=hsb88880000&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:24:57 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=hsb88880000&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:24:57 ------开始处理搜狗验证码------
+18-11-02 16:25:00 ------出现验证码页面------
+18-11-02 16:25:00 ------验证码：PYR883------
+18-11-02 16:25:03 ------验证码正确------
+18-11-02 16:25:03 ------cookies更新------
+18-11-02 16:25:03 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDC09DA', 'ABTEST': '4|1541147098|v1', 'SUIR': '1541147098', 'IPLOC': 'CN4401', 'SNUID': '50886D7D46423EEC03C2F604474926B0', 'PHPSESSID': 's7qu6p8r5t4ieuklteq27st685', 'seccodeRight': 'success', 'SUV': '007A4CCC3B2ACE165BDC09DAC712F595', 'successCount': '1|Fri, 02 Nov 2018 08:30:01 GMT', 'refresh': '1', 'JSESSIONID': 'aaaHsDhpuDVd68mEfu-Aw'}
+18-11-02 16:25:03 验证完毕
+18-11-02 16:25:05 start hsb88880000
+18-11-02 16:25:05 hsb88880000的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:25:05 start 公众号:  hsb88880000
+18-11-02 16:25:05 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASb3yAcvR7KFurrI0pD3j9z5U8UnMXppp8ANL*TMm2g2EQhhXssxygA*IiE6kEIPf2Asb-n-zzHBvWmAf5qzVRkI=
+18-11-02 16:25:05 文章标题: 西安交警鉴定这50多种老年代步车为机动车，无证驾驶拘留【11月2日周五新闻速览一分钟】11月1日起，西安这些新规将影响你的生活！西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:25:05 第0条
+18-11-02 16:25:09 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASfBFIByfj4mPdE1Rig1UnYCFHcIsYSR386S4*FCY4prw0rN1DKthB6fg-m0H4oO2cmKBKoRDeBLKhYV9Gbf1lkE=
+18-11-02 16:25:09 文章标题: 注意：有人在西安街头如此碰瓷，看看这位老司机的机智反映！
+18-11-02 16:25:09 第1条
+18-11-02 16:25:11 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASfBFIByfj4mPdE1Rig1UnYBomdTrAvEXc5OnWOdE4Un51Aui8zExB-nMAKoOk8kMiRUGuEJLO5lApvqtE0B*O3A=
+18-11-02 16:25:11 文章标题: 多地学校停课！这种病毒进入高发期，尚无疫苗和特效药…家有孩子要注意！
+18-11-02 16:25:11 第2条
+18-11-02 16:25:12 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASfBFIByfj4mPdE1Rig1UnYCqo2X-MTgzCYfL*lK1mONPJwJW8SDNQdQYkq-twWpFOUVT3P8LGXMGn*Ob*7ahz8s=
+18-11-02 16:25:12 文章标题: 西安一高校61岁教授，患病离世！他背后的故事...让人流泪满面
+18-11-02 16:25:12 第3条
+18-11-02 16:25:15 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASfBFIByfj4mPdE1Rig1UnYA4TokOvzxsKwawZIJUAuREGv2KwtVnfLMg4PC10agnC-JPn39mOYB7cOldM4rSgSE=
+18-11-02 16:25:15 start ZaoYunAn
+18-11-02 16:25:15 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:25:15 文章标题: 5岁小孩的简历一夜爆火！看完受到100000+暴击！网友：这辈子都赶不上
+18-11-02 16:25:15 第4条
+18-11-02 16:25:15 start 公众号:  ZaoYunAn
+18-11-02 16:25:15 url: https://mp.weixin.qq.com/s?timestamp=1541147115&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbLWAg1cpz8FN2gfP-7SvCM3oAdFdm6Tt9-0-My5YPcJ3RWImTfMKRrcLjTOttV2UOxoetO9-neN74zc-r0dOTeeI0ezqyr3rBvoVjD7YkIxv4t1CuBYnBtWQc7ZckRXJX1zB9n*vUnU34MQkRTCxWBo=
+18-11-02 16:25:16 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASfBFIByfj4mPdE1Rig1UnYBnSaBhevRS5KicCm2hwgXTcbtCLIMVejkAZQuSdk-nDcLwKmlYB1lHhdIjdKbB9*A=
+18-11-02 16:25:16 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:25:16 第0条
+18-11-02 16:25:17 url: https://mp.weixin.qq.com/s?timestamp=1541147115&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbLWAg1cpz8FN2gfP-7SvCM3oAdFdm6Tt9-0-My5YPcJ3RWImTfMKRrcLjTOttV2UO5FO8ja927C6tCWffIhXPKquKK-JHA*HpWO1LJ612X31gnIngw6ZBfSHxvmy9KWdDUf4*Pb5s*LF0bacmesnUTo=
+18-11-02 16:25:17 文章标题: 男女各自婚内出轨，男子拿裸照勒索对方，结局让人毛骨悚然
+18-11-02 16:25:17 第5条
+18-11-02 16:25:17 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASQiatKLc0EXGvXCNxg7HtneJZdGLC4eIuhZU*pSBTEsX6aIbpWoIdy1uuefwIAqs8WzVVYZwYht8zzj15QPZ2Ws=
+18-11-02 16:25:17 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:25:17 第1条
+18-11-02 16:25:17 所有文章抓取完毕
+18-11-02 16:25:17 文章长度 1547
+18-11-02 16:25:17 请求分词
+18-11-02 16:25:17 文章标题: 快讯：陕西省委常委、秘书长钱引安涉嫌严重违纪违法被查
+18-11-02 16:25:17 第6条
+18-11-02 16:25:18 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASWCACFYOu4jPZ-X5mzz6tNdF-6I83w4dYrBdRoZpw8zLghjyXA5d3BGZgVGHzxyR74VibObM66e7kNHimtH8adA=
+18-11-02 16:25:18 文章标题: 今起西安最严禁烟令执行【11月1日周四新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:25:18 第7条
+18-11-02 16:25:18 分词完成
+18-11-02 16:25:18 ['17:41:49']
+18-11-02 16:25:18 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:25:18 ZaoYunAn 抓取完成
+18-11-02 16:25:20 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASehLaIQbAxTpf5NauOE8a-xZstq8B01fhvPLhbnKTZrFL1-klgbr0fQrp8AYVgA3fK4mtb1MUw2FFDDrWLtcfLE=
+18-11-02 16:25:20 文章标题: 明天起，西安这些新规将影响你的生活！
+18-11-02 16:25:20 第8条
+18-11-02 16:25:23 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASehLaIQbAxTpf5NauOE8a-w0*Hpy32wxMJwXXImyDpKQZU5yUCgXLxuu-8m*wll6MRBjuJibygNL4VSTePoIaaM=
+18-11-02 16:25:23 文章标题: 凌晨1点，17岁少女带妹妹跳水库自杀，留下的遗书让人心碎
+18-11-02 16:25:23 第9条
+18-11-02 16:25:25 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASehLaIQbAxTpf5NauOE8a-yZduUvoMn*PnjvwjGMa31ChToiPryy5QAj6kng5h6WK9BSAu29fViKQXFQjfbXtqE=
+18-11-02 16:25:25 文章标题: “我开警车到你家要钱，穿上内衣内裤下楼！”女法官这段音频火了
+18-11-02 16:25:25 第10条
+18-11-02 16:25:25 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASehLaIQbAxTpf5NauOE8a-yHYCK3EujT81heogtB1MXjwWK2UxaLnVi2FC87LD1PBUldPHGjxKLKhJTzPhxNhxg=
+18-11-02 16:25:26 文章标题: 这个儿童药不要再吃了，几个月前已被注销！很多地方却还在卖！
+18-11-02 16:25:26 第11条
+18-11-02 16:25:27 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASehLaIQbAxTpf5NauOE8a-xlDMiJEb7pPTq5ebcZpiK-Kc0PAw8*LUpq3UIaRlMlwPMuOSsznWYPm*btuxYeQvA=
+18-11-02 16:25:27 文章标题: 高速路上车狂抖，老司机看到真相吓到腿软…这是什么深仇大恨？!
+18-11-02 16:25:27 第12条
+18-11-02 16:25:28 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASaKes*UB9PRt-qVMg5PhDTMyd3pyFPO7D*YAoNOtHAMdW2mNM943IcR7W5PWBP1bF*IQO7EFawZzGUv64zrwTSI=
+18-11-02 16:25:29 文章标题: 西安红色预警天气时弹性停课【10月31日周三新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:25:29 第13条
+18-11-02 16:25:31 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASRI7TLQ-2OXvE2dw*0eWMqaJJoExEg9nM0PSE5z9JaH6mb*SnPPe1*qUliktPlymlhq7K-jBiXeSmXIzb0Kgq3U=
+18-11-02 16:25:31 文章标题: 金庸逝世，享年94岁！大侠，一路走好！
+18-11-02 16:25:31 第14条
+18-11-02 16:25:31 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASRI7TLQ-2OXvE2dw*0eWMqaH80OYeqZIcjXDf96XfsC1GDU-3QrUGpQGI4Gj3BXiyY4H6lyZLMBirqDAoaGjNr4=
+18-11-02 16:25:31 文章标题: 西安史上最严禁烟令11月1日起实施！遇二手烟，可拨打这个电话举报！
+18-11-02 16:25:31 第15条
+18-11-02 16:25:32 start ZaoYunAn
+18-11-02 16:25:32 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:25:32 start 公众号:  ZaoYunAn
+18-11-02 16:25:32 url: https://mp.weixin.qq.com/s?timestamp=1541147132&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbOeMfKQKbycOKynZ*PSPMxELxsILMed5x7C1dsrvz6zoTFuNrCHXXGozNpYaMsuLjTnufCznCFbpAEO8yqM-AN*WYgv5XzEun03rsoZyiyU0CJ2jqB62*idjegZybx2ms0PZMyUHesNSp6cpEEndG6Y=
+18-11-02 16:25:33 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASRI7TLQ-2OXvE2dw*0eWMqabn0wEdiePW49cvmlVLee3AcyCf-9WYIhRW8xC*K3M6yWZRJxQXwbAvRb4EbPL-Uc=
+18-11-02 16:25:33 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:25:33 第0条
+18-11-02 16:25:34 url: https://mp.weixin.qq.com/s?timestamp=1541147132&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbOeMfKQKbycOKynZ*PSPMxELxsILMed5x7C1dsrvz6zoTFuNrCHXXGozNpYaMsuLjXxouJHFUFJoqeT5gUkpOMNBh8wAzo4ffdImuMk55OzmrZu9IoyJgoiOjgLsn8GXzrp0t1sIgPiZf*iY*aVT-6o=
+18-11-02 16:25:34 文章标题: 爬山偶遇外交部长王毅，他送给年轻人一句话！网友纷纷表示坐不住了，要听男神的！
+18-11-02 16:25:34 第16条
+18-11-02 16:25:35 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:25:35 第1条
+18-11-02 16:25:35 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASRI7TLQ-2OXvE2dw*0eWMqYDGMPAf-k3VmmH8ZxJhhujyv9wtfdWqfvczTNNAZTWyIxiM7z-dzk-Uj3Yg4XtLFU=
+18-11-02 16:25:35 所有文章抓取完毕
+18-11-02 16:25:35 文章长度 1547
+18-11-02 16:25:35 请求分词
+18-11-02 16:25:35 文章标题: 西安一外卖员骑超标电动车被查，他一个举动，交警都没想到！
+18-11-02 16:25:35 第17条
+18-11-02 16:25:35 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASRI7TLQ-2OXvE2dw*0eWMqaG0eaq6HUZRxzYH5JIb8HJNROuoWTdDv*Ck5Yrwj20ZJIil5Ub13nAtq89nx8z-qs=
+18-11-02 16:25:35 文章标题: 140万对夫妻离婚原因曝光：最艰难的不是七年之痒
+18-11-02 16:25:35 第18条
+18-11-02 16:25:35 分词完成
+18-11-02 16:25:36 ['17:41:49']
+18-11-02 16:25:36 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:25:36 ZaoYunAn 抓取完成
+18-11-02 16:25:37 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASRI7TLQ-2OXvE2dw*0eWMqawj7qZ9fYGAS-1dMu2xzxgyiI1ZCqTZ14CClauvtFpn5-UFoci25fcs*a6-E4A1rE=
+18-11-02 16:25:37 文章标题: 一号难求?候诊时间太长?西安市卫计委开启“市民就医满意度调查”您有哪些建议?
+18-11-02 16:25:37 第19条
+18-11-02 16:25:38 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASRI7TLQ-2OXvE2dw*0eWMqYS8Vl5gfzPdeKnqK89Ntgj2t3KI*qWZ2ybz6PQaw5SIJh6RR6VDNar-3h4nvIegDs=
+18-11-02 16:25:38 文章标题: 再不努力，东风标致，真的要退出中国市场了！
+18-11-02 16:25:38 第20条
+18-11-02 16:25:39 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASRI7TLQ-2OXvE2dw*0eWMqYSpNEMq1giVc9VpjOtb11vbRfAgXjaQ5k*30DYssuFg4UxICy42pwAXYlldjM6moo=
+18-11-02 16:25:39 文章标题: 尽自己之力解他人之忧，他们是美好生活践行者！
+18-11-02 16:25:39 第21条
+18-11-02 16:25:41 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLAST2ezVZ8DVI3TJzwCVHjQ72q9-BVlvdH9wU1xCp6ZHXGS0iFlYOjksPXwUX6*vs3bbNHSiZfrSYU5J6gcTYZBgg=
+18-11-02 16:25:41 文章标题: 10月30日周二【新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:25:41 第22条
+18-11-02 16:25:44 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLAST2ezVZ8DVI3TJzwCVHjQ705jIRj-XHHF1bFPe-Mw*f78ARu0BtRfup5ewOR-w-1tuEGZgiHD98sRjLyD6wXmQs=
+18-11-02 16:25:44 文章标题: 水一样的德庆皇帝柑，让味蕾体验帝皇享受！御食御有feel
+18-11-02 16:25:44 第23条
+18-11-02 16:25:45 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASV8KAvN1nFJLrmBPWNMh9Eat3*WdiNmpNcbkPCtv4A0MiMX96CLnaLQugoG6-yKe7D6mgZ*8MioIbys8ACDPZMc=
+18-11-02 16:25:45 文章标题: 著名主持人李咏因癌症去世享年50岁
+18-11-02 16:25:45 第24条
+18-11-02 16:25:45 url: https://mp.weixin.qq.com/s?timestamp=1541147105&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKkB*i8WjpreAovbEHNU7*e3fdsU*PbWhRz*SMcpglrwT0g0pI2Iz6vNS1SLdZLASZzXY7k5H2YcOyz3OaHd39qDid2VCYXN62VYf02c8TZBYJn6FPOJ4M096xNl3rGy2tjagQVO7grbMKal61BoO9s=
+18-11-02 16:25:45 文章标题: 哈文发文：永失我爱...著名主持人李咏因病治疗无效去世
+18-11-02 16:25:45 第25条
+18-11-02 16:25:46 所有文章抓取完毕
+18-11-02 16:25:46 文章长度 46132
+18-11-02 16:25:46 请求分词
+18-11-02 16:26:01 start ZaoYunAn
+18-11-02 16:26:01 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:26:02 start 公众号:  ZaoYunAn
+18-11-02 16:26:02 url: https://mp.weixin.qq.com/s?timestamp=1541147162&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKRWv1*wrcfN847Z-qIpIVXpsbq6oTdDnDUNkCG4NVQso7p*tJS-gMmVI2625iqpdLlax834ZxV0HN5EgdSBjafqfZRQMXkIvoXhGGCDxGoVD03qIw7viCbIWEedzz4mhoOm8I1YPHNfoEQOHM-cU5M=
+18-11-02 16:26:02 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:26:02 第0条
+18-11-02 16:26:03 url: https://mp.weixin.qq.com/s?timestamp=1541147162&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbKRWv1*wrcfN847Z-qIpIVXpsbq6oTdDnDUNkCG4NVQso7p*tJS-gMmVI2625iqpdEOtuAa4SQjNzS9zDE7siGntuUw3q-9wxT8N4f7y5mc8k6oQbp829bECWqm-nywUv1e3fwQJQZhEYZSyucyGthE=
+18-11-02 16:26:03 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:26:03 第1条
+18-11-02 16:26:03 所有文章抓取完毕
+18-11-02 16:26:03 文章长度 1547
+18-11-02 16:26:03 请求分词
+18-11-02 16:26:04 分词完成
+18-11-02 16:26:04 ['17:41:49']
+18-11-02 16:26:04 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:26:04 ZaoYunAn 抓取完成
+18-11-02 16:26:15 分词完成
+18-11-02 16:26:15 ['06:47:37', '19:56:50', '19:56:50', '19:56:50', '19:56:50', '19:56:50', '17:38:08', '06:50:34', '19:40:01', '19:40:01', '19:40:01', '19:40:01', '19:40:01', '06:54:37', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '06:53:13', '06:53:13', '10:01:31', '09:54:54']
+18-11-02 16:26:15 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 5, 'time': '06:00-09:00'}, {'activeDegree': 2, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 18, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:26:15 ZaoYunAn 抓取完成
+18-11-02 16:26:15 find hsb88880000
+18-11-02 16:26:31 start ZaoYunAn
+18-11-02 16:26:31 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:26:31 start 公众号:  ZaoYunAn
+18-11-02 16:26:32 url: https://mp.weixin.qq.com/s?timestamp=1541147191&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbD9FehLFuN0OwB0NiPWTWlGKaf1uEkwPTItG1chNkxaFYlhwv8bdR3PSm9M9Dgw1SxfRPdqu7b73kD1DIO6UkWK4T1W12XeTgPAdaroXcoH8TDyLyuaGrOuJMtlUQRqBx*ex4PX8fNjZM492Q7cWMsE=
+18-11-02 16:26:32 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:26:32 第0条
+18-11-02 16:26:33 url: https://mp.weixin.qq.com/s?timestamp=1541147191&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbD9FehLFuN0OwB0NiPWTWlGKaf1uEkwPTItG1chNkxaFYlhwv8bdR3PSm9M9Dgw1S1LUFi2AwYGXBVnj7YDImZLUYb0FsjYnwcFXYWQ9luIB6avz5r-3D9rRn0Ed1P4NUVKr3H0s504lusPMowWzGhA=
+18-11-02 16:26:33 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:26:33 第1条
+18-11-02 16:26:33 所有文章抓取完毕
+18-11-02 16:26:33 文章长度 1547
+18-11-02 16:26:33 请求分词
+18-11-02 16:26:34 分词完成
+18-11-02 16:26:34 ['17:41:49']
+18-11-02 16:26:34 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:26:34 ZaoYunAn 抓取完成
+18-11-02 16:28:40 start ZaoYunAn
+18-11-02 16:28:40 æçæç´¢
+18-11-02 16:28:40 初始化session
+18-11-02 16:28:40 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=ZaoYunAn&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:28:40 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=ZaoYunAn&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:28:40 ------开始处理搜狗验证码------
+18-11-02 16:28:43 ------出现验证码页面------
+18-11-02 16:28:45 ------验证码：27P3P7------
+18-11-02 16:28:47 ------验证码正确------
+18-11-02 16:28:47 ------cookies更新------
+18-11-02 16:28:47 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDC0AB9', 'ABTEST': '0|1541147320|v1', 'SUIR': '1541147320', 'IPLOC': 'CN4401', 'SNUID': '8158BDAD9692EF3DC57DD29B97F2A594', 'PHPSESSID': 'o8klai21r68j440ekku0pdi2i0', 'seccodeRight': 'success', 'SUV': '00ED7BAA3B2ACE165BDC0AB94D660391', 'successCount': '1|Fri, 02 Nov 2018 08:33:45 GMT', 'refresh': '1', 'JSESSIONID': 'aaaE_FfihMM-6doxfx-Aw'}
+18-11-02 16:28:47 验证完毕
+18-11-02 16:28:49 start ZaoYunAn
+18-11-02 16:28:49 ZaoYunAn的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:28:50 start 公众号:  ZaoYunAn
+18-11-02 16:28:50 url: https://mp.weixin.qq.com/s?timestamp=1541147330&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGjusBOC2WFVuhpj2SeWxFayq5508QQntBPGFQb6ZFpVGflk-TKtbitGG6JG-6o2NRx9ZAwvs2k3Xa-WM-XnHawr4KDBS8HiYy9aWfEnvH5zsYRQEKVsyvH3-TQ322YLMKWHQLJe5-0H*F-9dngM7JY=
+18-11-02 16:28:50 文章标题: 秋冬无病，谨记“3不吃”“4不做”“5相伴”，好好收藏！
+18-11-02 16:28:50 第0条
+18-11-02 16:28:52 url: https://mp.weixin.qq.com/s?timestamp=1541147330&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGjusBOC2WFVuhpj2SeWxFayq5508QQntBPGFQb6ZFpVGflk-TKtbitGG6JG-6o2NeWGhNQhAnalQCp2FHe1unCdmpFqvRQRIhfnPmmhkOL4NVO*RQorYNSX-h8WDFq1UqLpPfCS1Cr6YXZbkM4*87c=
+18-11-02 16:28:53 文章标题: 早孕安两项专利产品参展中博会，面向全国招商以下是早孕安在第25届广州博览会的展会现场：
+18-11-02 16:28:53 第1条
+18-11-02 16:28:53 所有文章抓取完毕
+18-11-02 16:28:53 文章长度 1547
+18-11-02 16:28:53 请求分词
+18-11-02 16:28:54 分词完成
+18-11-02 16:28:54 ['17:41:49']
+18-11-02 16:28:54 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 0, 'time': '06:00-09:00'}, {'activeDegree': 0, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 0, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:28:54 ZaoYunAn 抓取完成
+18-11-02 16:32:28 start hsb88880000
+18-11-02 16:32:28 æçæç´¢
+18-11-02 16:32:28 初始化session
+18-11-02 16:32:28 url cookie 失效 https://weixin.sogou.com/weixin?type=1&s_from=input&query=hsb88880000&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:32:28 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=hsb88880000&ie=utf8&_sug_=n&_sug_type_=
+18-11-02 16:32:28 ------开始处理搜狗验证码------
+18-11-02 16:32:31 ------出现验证码页面------
+18-11-02 16:32:31 ------验证码：JDJJT2------
+18-11-02 16:32:43 ------验证码正确------
+18-11-02 16:32:43 ------cookies更新------
+18-11-02 16:32:43 ------cookies已更新------ {'SUID': '16CE2A3B4F18910A000000005BDC0B9D', 'ABTEST': '8|1541147549|v1', 'SUIR': '1541147549', 'IPLOC': 'CN4401', 'SNUID': 'B3688C9DA6A0DF0CC5C3C1A4A6797BC1', 'PHPSESSID': 'p39b9qa03vqf23j3loddvmb6c2', 'seccodeRight': 'success', 'SUV': '00AE47023B2ACE165BDC0B9D38518081', 'successCount': '1|Fri, 02 Nov 2018 08:37:32 GMT', 'JSESSIONID': 'aaaSTvTVzFSYQ8NUfx-Aw'}
+18-11-02 16:32:43 验证完毕
+18-11-02 16:32:45 start hsb88880000
+18-11-02 16:32:45 hsb88880000的相关微信公众号 – 搜狗微信搜索
+18-11-02 16:32:45 start 公众号:  hsb88880000
+18-11-02 16:32:45 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyqZHl5*GxWYwpjvnAZHZDzy7v88kJ7mQ5ObEN8ExERtshRYMe5jkxwnwnbv17YW4c6PsWEk-40SAcHYV8xI6iWg=
+18-11-02 16:32:46 文章标题: 西安交警鉴定这50多种老年代步车为机动车，无证驾驶拘留【11月2日周五新闻速览一分钟】11月1日起，西安这些新规将影响你的生活！西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:32:46 第0条
+18-11-02 16:32:49 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTymyftWEiXCxqqxAvr5bI5JvDFYcESc81l*ems04kZERJdcojN9*CiXlwE2JaS9wql-HuePzdCWzw*CQ0kb5VLys=
+18-11-02 16:32:49 文章标题: 注意：有人在西安街头如此碰瓷，看看这位老司机的机智反映！
+18-11-02 16:32:49 第1条
+18-11-02 16:32:50 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTymyftWEiXCxqqxAvr5bI5Ju7a7rJySBwso2rrUrd2*zj-uoF2YYOcWqWOqlEhLYFkkp27lmcUTaUoohMngjROoQ=
+18-11-02 16:32:50 文章标题: 多地学校停课！这种病毒进入高发期，尚无疫苗和特效药…家有孩子要注意！
+18-11-02 16:32:50 第2条
+18-11-02 16:32:51 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTymyftWEiXCxqqxAvr5bI5JsVJIJwXan26KX9RBd8NNzlAYyFF0-cnmQCQyHwRDEL98nqhzZWyXgtKTPrSg1c5K8=
+18-11-02 16:32:51 文章标题: 西安一高校61岁教授，患病离世！他背后的故事...让人流泪满面
+18-11-02 16:32:51 第3条
+18-11-02 16:32:53 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTymyftWEiXCxqqxAvr5bI5JvXrq9JiI*v4QyufdF6nipDShXX66QAL03jYGdv91RXgl5cmxw7LI7FkCUGzWARUjE=
+18-11-02 16:32:54 文章标题: 5岁小孩的简历一夜爆火！看完受到100000+暴击！网友：这辈子都赶不上
+18-11-02 16:32:54 第4条
+18-11-02 16:32:54 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTymyftWEiXCxqqxAvr5bI5JsmTWtK*brbs-Oml5Bvpp6P3gM7XxbQfODxcJqZ4oCX67OXjW-HtntgvQCdOe3jGhw=
+18-11-02 16:32:54 文章标题: 男女各自婚内出轨，男子拿裸照勒索对方，结局让人毛骨悚然
+18-11-02 16:32:54 第5条
+18-11-02 16:32:55 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTynlx4TLw6YbJgBW90HeprAmgbgbqae-ovxJKpxjxhnIwUvkpA5fuRwjAmkleMy5KHLQTmcN4Uttg91SyQx6gKHY=
+18-11-02 16:32:55 文章标题: 快讯：陕西省委常委、秘书长钱引安涉嫌严重违纪违法被查
+18-11-02 16:32:55 第6条
+18-11-02 16:32:56 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyhAtWL-yd9oaFWfXSu4JWWSlIDMNjd7pjAeEuULY5xF9uw82YS82CEQXcjfAVyADSMKGwLfJFmNpjHB6zg-xmLk=
+18-11-02 16:32:56 文章标题: 今起西安最严禁烟令执行【11月1日周四新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:32:56 第7条
+18-11-02 16:32:59 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyoQBRZLDwToePJ9Pfs*EV5Axo6Oc3lansQh5*zq3c7iAaKIO-W3FzDhqJ80g*wtc4Z*dX38Qr8h50QtbBgbPzhw=
+18-11-02 16:32:59 文章标题: 明天起，西安这些新规将影响你的生活！
+18-11-02 16:32:59 第8条
+18-11-02 16:33:01 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyoQBRZLDwToePJ9Pfs*EV5CjPnCURL3upPxb72eX3*vaaLlyctscFXAH*ggV72WiihiBrCxCWKzHv8zb2O8UFQQ=
+18-11-02 16:33:01 文章标题: 凌晨1点，17岁少女带妹妹跳水库自杀，留下的遗书让人心碎
+18-11-02 16:33:01 第9条
+18-11-02 16:33:03 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyoQBRZLDwToePJ9Pfs*EV5D1BG7IldUxCFQzezlP5VmoaUuhsVn0TFkquO6rmZbiVu2k3zKV59rTq2o9H335uwc=
+18-11-02 16:33:03 文章标题: “我开警车到你家要钱，穿上内衣内裤下楼！”女法官这段音频火了
+18-11-02 16:33:03 第10条
+18-11-02 16:33:03 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyoQBRZLDwToePJ9Pfs*EV5C0jXAjVFE8cI5IqPB2XxJXGHiFv5g4g9waWPOuIMmA8Jd0xGiKbDghFsZlfp5hCF4=
+18-11-02 16:33:04 文章标题: 这个儿童药不要再吃了，几个月前已被注销！很多地方却还在卖！
+18-11-02 16:33:04 第11条
+18-11-02 16:33:05 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyoQBRZLDwToePJ9Pfs*EV5DOKlYORPkB7m4C4VLnheD9J*DepxHH7I42kza9zW7I2Lyn1k7LsqBxiVbneBD6-LI=
+18-11-02 16:33:05 文章标题: 高速路上车狂抖，老司机看到真相吓到腿软…这是什么深仇大恨？!
+18-11-02 16:33:05 第12条
+18-11-02 16:33:06 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl1Ahz23VdrEVuVOfxXSdPJTxzozVxKSvHvHJCuQYh06pwKg9ElOy8M*-vUyR1C9deeSBaHVhtv2tcwYEiynttw=
+18-11-02 16:33:06 文章标题: 西安红色预警天气时弹性停课【10月31日周三新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:33:06 第13条
+18-11-02 16:33:08 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl5ha7klFglmNBP2JO0kkF3T9m*9sVNZDtBlQAOju8*xRuYYhkD5Jludg400qbDzqUcloOkZ4XnAPbgRRcAnNOw=
+18-11-02 16:33:08 文章标题: 金庸逝世，享年94岁！大侠，一路走好！
+18-11-02 16:33:08 第14条
+18-11-02 16:33:09 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl5ha7klFglmNBP2JO0kkF0OOyy9UeFd5Gii2oCzmS56kh7WR41OiNPo6IlA3YYvD3mHxI62uPQ5rLgn0ezQY2o=
+18-11-02 16:33:09 文章标题: 西安史上最严禁烟令11月1日起实施！遇二手烟，可拨打这个电话举报！
+18-11-02 16:33:09 第15条
+18-11-02 16:33:10 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl5ha7klFglmNBP2JO0kkF3OP09Uit2fgf8CF*oNr3W5rVF2QUDbKsmnVA-uD41rIrIWdjnG0*Ogj-PQmdQMJNA=
+18-11-02 16:33:11 文章标题: 爬山偶遇外交部长王毅，他送给年轻人一句话！网友纷纷表示坐不住了，要听男神的！
+18-11-02 16:33:11 第16条
+18-11-02 16:33:11 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl5ha7klFglmNBP2JO0kkF1-OPc43DpcnWvhA4V3HbVtgmm3IquUnmBbR3YaMpxQeVKUd1If6Sp2v7mWNR-lJMY=
+18-11-02 16:33:12 文章标题: 西安一外卖员骑超标电动车被查，他一个举动，交警都没想到！
+18-11-02 16:33:12 第17条
+18-11-02 16:33:12 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl5ha7klFglmNBP2JO0kkF20vyi28KA7jnLsd8GYQUMIhDZK1NfRR*IaRqm-TbjkJZv3r8JdP0IoJregZz36Xkk=
+18-11-02 16:33:12 文章标题: 140万对夫妻离婚原因曝光：最艰难的不是七年之痒
+18-11-02 16:33:12 第18条
+18-11-02 16:33:13 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl5ha7klFglmNBP2JO0kkF3JAXfokitKNRdgaOvCf-xI72o*JqC5iN1yVL4ioK6Qw70xOV4nGPSKeY4pHIaAH54=
+18-11-02 16:33:14 文章标题: 一号难求?候诊时间太长?西安市卫计委开启“市民就医满意度调查”您有哪些建议?
+18-11-02 16:33:14 第19条
+18-11-02 16:33:15 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl5ha7klFglmNBP2JO0kkF0K4Kp2b9efkI3i4Nmf21eETSnXvtd-QSaFzkCrTxSdiRAUH9VIgVsbvnopfPj4Mcg=
+18-11-02 16:33:15 文章标题: 再不努力，东风标致，真的要退出中国市场了！
+18-11-02 16:33:15 第20条
+18-11-02 16:33:16 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyl5ha7klFglmNBP2JO0kkF0ER5hK7qM3dZkzirEF0J1b17c1C2819xLCbUn4IUVyn3N8903-YLOXwSa*UA5dw0U=
+18-11-02 16:33:17 文章标题: 尽自己之力解他人之忧，他们是美好生活践行者！
+18-11-02 16:33:17 第21条
+18-11-02 16:33:18 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTygUMTBrbuxuWCpOW4KgIWUJvBUFNVShOy6*b5CenGzqGX4zNjjnzvIe1T6iqkqyzeICDNWkOfWSJXIyr-7C0zpA=
+18-11-02 16:33:19 文章标题: 10月30日周二【新闻速览一分钟】西安11岁女孩的一篇作文，让人流泪！网友：多让人暖心的孩子扶老还是肇事？西安小伙送摔倒老人就医……最新证明来了开发商举报自己无证，起诉购房协议无效！外地法院判了港珠澳大桥正式通车，总工程师还是咱陕西人！你知道这桥到底有多牛吗？16岁女孩西安打工20余天，工资被扣成负数！工资条让人大吃一惊网传鱼化寨要拆了！西安的“小香港”真的要别了？街办这样回应...
+18-11-02 16:33:19 第22条
+18-11-02 16:33:21 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTygUMTBrbuxuWCpOW4KgIWUIVFV8xIgtdBP6vuB48O2CcOjrfmkb4JKZgZOUkZKi0QDH6n*vzN5iVgUMlgUIoGt4=
+18-11-02 16:33:21 文章标题: 水一样的德庆皇帝柑，让味蕾体验帝皇享受！御食御有feel
+18-11-02 16:33:21 第23条
+18-11-02 16:33:22 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTysi0H2u-eIxpj0m2a9hhCkJyeXXM8pFfVoq80E8vDKJl8gk7IS9jrY3emW5sH-bH649qvtB7WbqefMmZMJ3AxsQ=
+18-11-02 16:33:22 文章标题: 著名主持人李咏因癌症去世享年50岁
+18-11-02 16:33:22 第24条
+18-11-02 16:33:22 url: https://mp.weixin.qq.com/s?timestamp=1541147565&src=3&ver=1&signature=KcQ4JYGBcUkqEn782kDJbGUQ7F7E4f-euNkd*M1*YWC3*wWeJJdk3jahUpqTiUcoxa4-oxaMezk8OID-3fdTyp-C*Gc-Nf1a8*WGc63UZvgfqxWdbMaiXKyyk0qHAhHyTiDqzMK5csJdUaA*oAvhZ**Dp*omty1MnRJLBoCzCgE=
+18-11-02 16:33:22 文章标题: 哈文发文：永失我爱...著名主持人李咏因病治疗无效去世
+18-11-02 16:33:22 第25条
+18-11-02 16:33:22 所有文章抓取完毕
+18-11-02 16:33:22 文章长度 46132
+18-11-02 16:33:22 请求分词
+18-11-02 16:33:51 分词完成
+18-11-02 16:33:51 ['06:47:37', '19:56:50', '19:56:50', '19:56:50', '19:56:50', '19:56:50', '17:38:08', '06:50:34', '19:40:01', '19:40:01', '19:40:01', '19:40:01', '19:40:01', '06:54:37', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '19:29:56', '06:53:13', '06:53:13', '10:01:31', '09:54:54']
+18-11-02 16:33:51 [{'activeDegree': 0, 'time': '00:00-06:00'}, {'activeDegree': 5, 'time': '06:00-09:00'}, {'activeDegree': 2, 'time': '09:00-12:00'}, {'activeDegree': 0, 'time': '12:00-15:00'}, {'activeDegree': 1, 'time': '15:00-18:00'}, {'activeDegree': 18, 'time': '18:00-21:00'}, {'activeDegree': 0, 'time': '21:00-00:00'}]
+18-11-02 16:33:51 hsb88880000 抓取完成

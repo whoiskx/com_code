@@ -5,3 +5,11 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='mp.weixin.qq.com'
 程序出错 (2013, 'Lost connection to MySQL server during query ([Errno 110] Connection timed out)'
 
 invalid literal for int() with base 10  表示entity.time 为空''
+
+
+11-2 运行报错整理
+    Connection broken: IncompleteRead... 更新requests包
+    120.78.237.213:27017: [Errno 113] No route to host 未处理
+    HTTPConnectionPool(host='60.190.238.178', port=38010): Max retries exceeded with url: /search/common/weixin/select?sort=Time%20desc&Account=mmdalaohu&rows=2000&starttime=20180430&endtime=20181101&fl=id (Caused by ReadTimeoutError("HTTPConnectionPool(host='60.190.238.178', port=38010): Read timed out. (read timeout=21)",))
+    访问过于频繁，请用微信扫描二维码进行访问   01:26:42
+     01:45:58,565,daily_collect,INFO,287,程序出错 Message: chrome not reachable

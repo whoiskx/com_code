@@ -253,7 +253,10 @@ class AccountHttp(object):
                         # if page_count < 15:
                         #     continue
                         article = Article()
-                        article.create(url, account)
+                        try:
+                            article.create(url, account)
+                        except RuntimeError as run_error:
+                            log('找不到浏览器'.format(run_error))
                         log('第{}条 文章标题: {}'.format(page_count, article.title))
                         log("当前文章url: {}".format(url))
                         entity = JsonEntity(article, account)
@@ -284,7 +287,9 @@ class AccountHttp(object):
                         entity.uploads_datacenter_unity(backpack_list)
                     log("发包完成")
                 except Exception as e:
-                    log("程序出错 {}".format(e))
+                    log("解析公众号错误 {}".format(e))
+                    if 'chrome not reachable' in str(e):
+                        raise RuntimeError('chrome not reachable')
                     continue
 
     def crack_sougou(self, url):
@@ -371,3 +376,4 @@ if __name__ == '__main__':
             log('获取账号错误，重启程序{}'.format(error))
             if test.driver:
                 test.driver.quit()
+                time.sleep(60)
