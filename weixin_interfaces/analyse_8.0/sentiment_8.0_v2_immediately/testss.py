@@ -19,6 +19,7 @@
 #
 # one_cookie = SaveCookie
 import re
+import time
 from collections import Counter
 
 import jieba
@@ -112,15 +113,34 @@ import requests
 # print(count_nagetive)
 
 # 读写正负词
+#
+# with open('positive.txt', 'r', encoding='utf-8') as f:
+#     positive = f.read().split('\n')
+# with open('nagetive.txt', 'r', encoding='utf-8') as f:
+#     nagetive = f.read().split('\n')
+# print(len(positive))
+# print(len(nagetive))
+#
+# print(len(set(positive)))
+# print(len(set(nagetive)))
+#
+# print('end')
 
-with open('positive.txt', 'r', encoding='utf-8') as f:
-    positive = f.read().split('\n')
-with open('nagetive.txt', 'r', encoding='utf-8') as f:
-    nagetive = f.read().split('\n')
-print(len(positive))
-print(len(nagetive))
+from flask import Flask
+from selenium import webdriver
 
-print(len(set(positive)))
-print(len(set(nagetive)))
+app = Flask(__name__)
 
-print('end')
+d = webdriver.Chrome()
+
+
+@app.route('/<ids>/<ids2>')
+def hello_world(ids=1, ids2=None):
+    print('开始')
+    d.get('https://www.baidu.com/')
+    time.sleep(1)
+    return '{}_{}'.format(ids, ids2) + '   {}'.format(d.current_url)
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=38017, threaded=True)

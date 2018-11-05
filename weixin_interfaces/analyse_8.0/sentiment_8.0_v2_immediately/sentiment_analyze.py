@@ -33,6 +33,10 @@ IMAGE_DIR = os.path.join(BASE_DIR, 'images')
 CAPTCHA_NAME = 'captcha.png'
 
 app = Flask(__name__)
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument('--headless')
+# 多线程driver共享
+driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
 class AccountHttp(object):
@@ -47,9 +51,10 @@ class AccountHttp(object):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
         }
         self.cookies = {}
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless')
-        self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        # chrome_options = webdriver.ChromeOptions()
+        # chrome_options.add_argument('--headless')
+        # # 多线程driver共享
+        self.driver = driver
         self.wait = WebDriverWait(self.driver, 4)
         self.rcon = redis.StrictRedis(db=8)
         self.queue = 'analyse'
@@ -257,6 +262,7 @@ class AccountHttp(object):
             log("发送前端结果错误", e)
 
     def run(self, name, choice=''):
+        # choice 选择是返回账号主体信息（True） or 分析结果('')
         self.name = name
         html_account = self.account_homepage(choice)
         # 返回账户信息
@@ -431,9 +437,6 @@ class AccountHttp(object):
             log('------微信验证码处理完成------')
 
 
-account = AccountHttp()
-
-
 @app.route('/')
 def index():
     return 'hello world!'
@@ -442,6 +445,7 @@ def index():
 @app.route('/WeiXinArt/WeiXinInfo')
 def info_account():
     name = request.args.get('account')
+    account = AccountHttp()
     data = account.run(name, choice=' ')
     return json.dumps(data)
 
@@ -449,6 +453,7 @@ def info_account():
 @app.route('/WeiXinArt/WeiXinAdvanceParse')
 def advance_find_account():
     name = request.args.get('account')
+    account = AccountHttp()
     data = account.run(name)
     return json.dumps(data)
 
@@ -459,6 +464,7 @@ def find_account():
     search_account = mongo_conn_sentiment().find_one({'Account': name})
     if search_account is not None and search_account.get('Addon') == time_strftime():
         return json.dumps(search_account.get('Data'))
+    account = AccountHttp()
     data = account.run(name)
     log('find', name)
     if data:

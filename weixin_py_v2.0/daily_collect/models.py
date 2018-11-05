@@ -6,7 +6,7 @@ from ftplib import FTP
 import requests
 
 from config import mongo_conn
-from utils import log
+from utils import get_log_info as log
 import re
 from pyquery import PyQuery as pq
 import datetime
@@ -106,7 +106,7 @@ class Account(object):
                     self.account_id = result.get('AccountID')
                 else:
                     # if not account.account_id:
-                    log("没有account_id", self.account)
+                    log("没有account_id {}".format(self.account))
                     db_mongo = mongo_conn()
                     db_mongo['noAccountId'].insert({'account': self.account})
                 break
@@ -163,14 +163,14 @@ class JsonEntity(object):
                     if r.status_code == 200:
                         log('uploads server1 successful')
                 except Exception as e:
-                    log('uploads http error1', e)
+                    log('uploads http error1 {}'.format(e))
                 try:
                     r2 = requests.post(sever2, data=body)
                     if r2.status_code == 200:
                         log('uploads server2 successful')
                         break
                 except Exception as e:
-                    log('uploads http error2', e)
+                    log('uploads http error2：{}'.format(e))
                 count += 1
             log('uploads over')
 
@@ -208,7 +208,7 @@ class JsonEntity(object):
                             break
                         log('数据中心发包异常')
                 except Exception as e:
-                    log('uploads datacenter_relay http error', e)
+                    log('uploads datacenter_relay http error: {}'.format(e))
                 count += 1
             log('uploads datacenter_relay over')
 
@@ -310,7 +310,7 @@ class JsonEntity(object):
                         log('uploads datacenter_unity server1 successful')
                         break
                 except Exception as e:
-                    log('uploads datacenter_unity http error', e)
+                    log('uploads datacenter_unity http error: {}'.format(e))
                 count += 1
             log('uploads datacenter_unity over')
 
@@ -324,7 +324,7 @@ class JsonEntity(object):
         try:
             ftp.storbinary(cmd, open('{}/ftp/{}'.format(current_dir, filename), 'rb'))
         except Exception as e:
-            log('上传ftp异常:', e)
+            log('上传ftp异常:'.format(e))
 
     def uploads_ftp(self, ftp_info, ftp_list):
         # if len(ftp_list) > 15:
@@ -349,7 +349,7 @@ class JsonEntity(object):
             ftp.connect("123.182.246.209", 21, timeout=21)  # 连接的ftp sever和端口
             ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
         except Exception as e:
-            log('ftp 主服务器连接失败，上传备用服务器'.format(e))
+            log('ftp 主服务器连接失败，上传备用服务器: {}'.format(e))
             ftp.connect("110.249.163.246", 21, timeout=21)
             ftp.login("dc5", "qwer$#@!")
         self.uploads_ftp_last(current_dir, zf_name, ftp)
@@ -363,11 +363,11 @@ class JsonEntity(object):
                 ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
             except Exception as e:
                 try:
-                    log('ftp 主服务器连接失败，上传备用服务器'.format(e))
+                    log('ftp 主服务器连接失败，上传备用服务器 {}'.format(e))
                     ftp.connect("124.239.144.181", 21, timeout=21)
                     ftp.login("dc15", "qwer$#@!")
                 except Exception as e:
-                    log('ftp 备用服务器连接失败，上传备备用服务器'.format(e))
+                    log('ftp 备用服务器连接失败，上传备备用服务器 {}'.format(e))
                     ftp.connect("121.28.84.254", 21, timeout=21)
                     ftp.login("dc15", "qwer$#@!")
         else:
@@ -376,11 +376,11 @@ class JsonEntity(object):
                 ftp.login("dc5", "qwer$#@!")  # 连接的用户名，密码如果匿名登录则用空串代替即可
             except Exception as e:
                 try:
-                    log('ftp 主服务器连接失败，上传备用服务器'.format(e))
+                    log('ftp 主服务器连接失败，上传备用服务器 {}'.format(e))
                     ftp.connect("124.239.144.181", 21, timeout=21)
                     ftp.login("dc45", "qwer$#@!")
                 except Exception as e:
-                    log('ftp 备用服务器连接失败，上传备备用服务器'.format(e))
+                    log('ftp 备用服务器连接失败，上传备备用服务器 {}'.format(e))
                     ftp.connect("121.28.84.254", 21, timeout=21)
                     ftp.login("dc45", "qwer$#@!")
         self.uploads_ftp_last(current_dir, zf_name, ftp)

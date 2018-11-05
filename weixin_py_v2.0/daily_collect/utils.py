@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import logging
 import sys
-import time
 from threading import Thread
 
 import pymongo
@@ -9,20 +8,32 @@ import pymysql
 import redis
 
 
-def log(*args, **kwargs):
-    time_format = '%y-%m-%d %H:%M:%S'
-    value = time.localtime(int(time.time()))
-    dt = time.strftime(time_format, value)
-    print(dt, *args, **kwargs)
-    with open('log.txt', 'a', encoding='utf-8') as f:
-        print(dt, *args, file=f, **kwargs)
-
-
 def get_log(name=''):
     # 日志配置
     # logging.basicConfig(filename=log_file_name, level=logger_level, format=logger_format)
     logger = logging.getLogger(name)
-    # formatter = logging.Formatter("%(asctime)s %(filename)s %(levelname)s line:%(lineno)d %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
+    # formatter = logging.Formatter("%(asctime)s %(filename)s
+    # %(levelname)s line:%(lineno)d %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
+    log_formatter = '%(asctime)s,%(name)s,%(levelname)s,%(lineno)d,%(message)s'
+    formatter = logging.Formatter(log_formatter)
+    file_handle = logging.FileHandler('log.txt', encoding='utf-8')
+    file_handle.setFormatter(formatter)
+    logger.addHandler(file_handle)
+    # 输出到console
+    console_handle = logging.StreamHandler(sys.stdout)
+    console_handle.formatter = formatter
+    logger.addHandler(console_handle)
+    # 日志输出等级
+    logger.level = logging.DEBUG
+    return logger
+
+
+def get_log_info(name=''):
+    # 日志配置
+    # logging.basicConfig(filename=log_file_name, level=logger_level, format=logger_format)
+    logger = logging.getLogger(name)
+    # formatter = logging.Formatter("%(asctime)s %(filename)s
+    # %(levelname)s line:%(lineno)d %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
     log_formatter = '%(asctime)s,%(name)s,%(levelname)s,%(lineno)d,%(message)s'
     formatter = logging.Formatter(log_formatter)
     file_handle = logging.FileHandler('log.txt', encoding='utf-8')

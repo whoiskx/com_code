@@ -64,6 +64,7 @@ class AccountHttp(object):
         while True:
             count += 1
             if count > 3:
+                log('多次账号异常，跳过账号:'.format(self.name))
                 return
             log('start account {}'.format(self.search_name))
             search_url = self.url.format(self.search_name)
@@ -80,11 +81,6 @@ class AccountHttp(object):
                 if '<title>请输入验证码 </title>' in homepage.text:
                     self.crack_sougou(account_link)
                     homepage = self.s.get(account_link, cookies=self.cookies)
-                    # if '请输入验证码' in homepage.text:
-                    #     log('微信公众号页面错误', pq(homepage.text)('title').text())
-                    #     time.sleep(600)
-                    #     count -= 1
-                    #     continue
                 return homepage.text
             elif len(e(".tit").eq(0).text()) > 1:
                 log("不能匹配正确的公众号: {}".format(self.search_name))
@@ -115,7 +111,6 @@ class AccountHttp(object):
                 log("验证完毕")
                 time.sleep(2)
                 continue
-        log('多次账号异常，跳过账号:'.format(self.name))
 
     @staticmethod
     def account_list():
@@ -140,7 +135,7 @@ class AccountHttp(object):
                 account_all.append(item.get('account'))
             log("开始account列表 {}".format(account_all))
         except Exception as e:
-            log('获取账号列表错误', e)
+            log('获取账号列表错误 {}'.format(e))
             time.sleep(5)
         return account_all
 
@@ -181,7 +176,7 @@ class AccountHttp(object):
         try:
             uploads_mysql(config_mysql, sql, _tuple)
         except Exception as e:
-            log('数据库上传错误'.format(e))
+            log('数据库上传错误 {}'.format(e))
         # log('上传mysql完成')
 
     @staticmethod
@@ -299,11 +294,6 @@ class AccountHttp(object):
             self.driver.get(url)
             time.sleep(2)
             if '搜公众号' in self.driver.page_source:
-                # for i in range(30):
-                #     self.driver.get(url)
-                #     log('浏览器页面正常')
-                #     if '搜公众号' not in self.driver.page_source:
-                #         break
                 log('浏览器页面正常' + '直接返回')
                 return
             try:

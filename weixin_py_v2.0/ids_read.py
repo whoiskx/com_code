@@ -45,6 +45,7 @@ class AccountHttp(object):
         with open('ids.txt', 'r', encoding='utf-8') as f:
             name_all = f.read()
         id_list = name_all.split("\n")
+        # print(id_list)
         _config_mysql = get_mysql_old()
         db = pymssql.connect(**_config_mysql)
         cursor = db.cursor()
