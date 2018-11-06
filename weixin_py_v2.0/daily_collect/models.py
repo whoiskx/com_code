@@ -1,18 +1,19 @@
 import json
 import os
 import random
+import re
 import time
 from ftplib import FTP
 import requests
-
 from config import mongo_conn
-from utils import get_log_info as log
-import re
+from utils import get_log
 from pyquery import PyQuery as pq
 import datetime
 import hashlib
 import uuid
 import zipfile
+
+log = get_log('models').info
 
 
 class Article(object):
@@ -25,6 +26,7 @@ class Article(object):
         self.author = ''
         self._from = ''
         self.time = ''
+        self.image_url = ''
         self.readnum = ''
         self.likenum = ''
         self.is_share = False
@@ -80,6 +82,14 @@ class Article(object):
         # todo 分享的和视频
         self.content = e("#js_content").text().replace('\n', '')
         self.author = account_model.name
+        img_list = e('img')
+        img_str = ''
+        for img_div in img_list:
+            img = pq(img_div).attr('data-src')
+            if img is not None:
+                img_str += img + '|'
+        self.image_url = img_str[:-1]
+        # print('adfadf', self.image_url)
 
 
 class Account(object):
@@ -100,7 +110,6 @@ class Account(object):
         json_obj = json.loads(url_resp.text)
         results = json_obj.get('results')
         if results:
-            # todo 没有accountID 怎么做
             for result in results:
                 if result.get('AccountID'):
                     self.account_id = result.get('AccountID')
@@ -134,6 +143,7 @@ class JsonEntity(object):
         self.task_name = '微信_' + account.name
         self.account = account.account
         self.id = self.hash_md5(article.title + self.time)
+        self.image_url = article.image_url
 
     @staticmethod
     def hash_md5(s):
@@ -215,6 +225,7 @@ class JsonEntity(object):
     @staticmethod
     def uploads_datacenter_unity(backpack_list):
         # 上传三合一检索
+        # todo 发包没有图片image
         if backpack_list:
             sever = 'http://222.184.225.246:8171'
             datacenter_unity = []
@@ -242,7 +253,7 @@ class JsonEntity(object):
                         'Author': backpack['body']['Author'],
                         'From': '',
                         'Images': 0,
-                        'ImageUrl': '',
+                        'ImageUrl': backpack['body']['ImageUrl'],
                         'PortraitUrl': '',
                         'VideoUrl': '',
                         'Keywords': '',
@@ -386,7 +397,7 @@ class JsonEntity(object):
         self.uploads_ftp_last(current_dir, zf_name, ftp)
         log('ftp上传方式二成功')
         # 删除ftp文件
-        # os.remove('{}/ftp/{}'.format(current_dir, filename))
+        os.remove('{}/ftp/{}'.format(current_dir, zf_name))
 
 
 class Backpack(object):
@@ -408,6 +419,7 @@ class Backpack(object):
         self.Tags = ''
         self.DefinedSite = ''
         self.CrawlerType = ''
+        self.ImageUrl = ''
 
     def create(self, entity):
         self.ID = entity.id
@@ -424,6 +436,7 @@ class Backpack(object):
         self.Time = int(entity.time) if entity.time else ''
         self.AddOn = int(entity.addon + '000')
         self.CrawlerType = '1'
+        self.ImageUrl = entity.image_url
 
     def to_dict(self):
         return self.__dict__
@@ -451,6 +464,7 @@ class Ftp(object):
         # todo entity.time 为'' 原因文章被删
         self.time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(entity.time[:-3]))) if entity.time else ''
         self.account = entity.account
+        self.image = entity.image_url
 
     @staticmethod
     def hash_md5(s):
@@ -491,3 +505,7 @@ class Ftp(object):
         }
         note_json = json.dumps(note, ensure_ascii=False)
         return str(note_json)
+
+
+if __name__ == '__main__':
+    log('123')

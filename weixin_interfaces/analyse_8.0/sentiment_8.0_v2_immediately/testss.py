@@ -143,4 +143,7 @@ def hello_world(ids=1, ids2=None):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=38017, threaded=True)
+    # app.run(host='0.0.0.0', port=38017, threaded=True)
+    info = dict(name='cold', blog='linuxzen.com')
+    info.update({'name': 'cold night', 'blogname': 'linuxzen'})
+    print(info)

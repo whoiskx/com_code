@@ -10,3 +10,12 @@ notepad++
     设置->首选项->语言->右下角 替换为空格
 
 [''] 不是空列表  含有空字符串，True
+
+db['daily_collection'].insert(entity.update({'collection': T}))
+    字典更新返回结果是None -> NoneType' object is not iterable
+
+函数调用方法 改变对象 但是返回值是None
+
+所有的顶级代码在模块导入时都会被执行.
+
+用单下划线(_)开头表示模块变量或函数是protected的(使用import * from时不会包含).

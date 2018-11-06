@@ -7,21 +7,25 @@ import pymysql
 # 搜狗验证码识别url
 GetCaptcha_url = 'http://124.239.144.164:7101/GetCaptcha'
 
+# 补采
+# ['bdb1937', 'dgshs2018', 'pd0351', 'guyuanxuanjiang', 'dgrb789']
+ADD_COLLECTION = []
+
 
 def mysql_tag_code():
     # 接口 site_id -> tag_code
-    MYSQL_HOST = '120.78.237.213'
-    MYSQL_PORT = 8002
-    MYSQL_USER = 'yunrun'
-    MYSQL_PASSWORD = 'Yunrun2016!@#'
-    MYSQL_DATABASE = 'urun_statistic'
+    mysql_host = '120.78.237.213'
+    mysql_port = 8002
+    mysql_user = 'yunrun'
+    mysql_password = 'Yunrun2016!@#'
+    mysql_database = 'urun_statistic'
 
     config_mysql = {
-        'host': MYSQL_HOST,
-        'port': MYSQL_PORT,
-        'user': MYSQL_USER,
-        'db': MYSQL_DATABASE,
-        'passwd': MYSQL_PASSWORD,
+        'host': mysql_host,
+        'port': mysql_port,
+        'user': mysql_user,
+        'db': mysql_database,
+        'passwd': mysql_password,
         'charset': 'utf8',
     }
     return config_mysql
@@ -29,18 +33,18 @@ def mysql_tag_code():
 
 # 微信旧库
 def get_mysql_old():
-    MYSQL_HOST = '183.131.241.60'
-    MYSQL_PORT = 38019
-    MYSQL_USER = 'oofraBnimdA_gz'
-    MYSQL_PASSWORD = 'fo(25R@A!@8a823#@%'
-    MYSQL_DATABASE = 'Winxin'
+    mysql_host = '183.131.241.60'
+    mysql_port = 38019
+    mysql_user = 'oofraBnimdA_gz'
+    mysql_password = 'fo(25R@A!@8a823#@%'
+    mysql_database = 'Winxin'
 
     config_mysql = {
-        'server': MYSQL_HOST,
-        'port': MYSQL_PORT,
-        'user': MYSQL_USER,
-        'database': MYSQL_DATABASE,
-        'password': MYSQL_PASSWORD,
+        'server': mysql_host,
+        'port': mysql_port,
+        'user': mysql_user,
+        'database': mysql_database,
+        'password': mysql_password,
         'charset': 'utf8',
         'connect_timeout': 10
     }
@@ -50,18 +54,18 @@ def get_mysql_old():
 # 新调度库
 def get_mysql_new():
     """save data"""
-    MYSQL_HOST = '121.28.84.254'
-    MYSQL_PORT = 7101
-    MYSQL_USER = 'yunrun'
-    MYSQL_PASSWORD = 'YunRun2018!@#'
-    MYSQL_DATABASE = 'test'
+    mysql_host = '121.28.84.254'
+    mysql_port = 7101
+    mysql_user = 'yunrun'
+    mysql_password = 'YunRun2018!@#'
+    mysql_database = 'test'
 
     config_mysql = {
-        'host': MYSQL_HOST,
-        'port': MYSQL_PORT,
-        'user': MYSQL_USER,
-        'passwd': MYSQL_PASSWORD,
-        'db': MYSQL_DATABASE,
+        'host': mysql_host,
+        'port': mysql_port,
+        'user': mysql_user,
+        'passwd': mysql_password,
+        'db': mysql_database,
         'charset': 'utf8',
         'connect_timeout': 15,
     }
@@ -69,17 +73,17 @@ def get_mysql_new():
 
 
 def localhost_mysql():
-    MYSQL_HOST = 'localhost'
-    MYSQL_PORT = 3306
-    MYSQL_USER = 'root'
-    MYSQL_DATABASE = 'comm'
+    mysql_host = 'localhost'
+    mysql_port = 3306
+    mysql_user = 'root'
+    mysql_database = 'comm'
 
     config_mysql = {
-        'host': MYSQL_HOST,
-        'port': MYSQL_PORT,
-        'user': MYSQL_USER,
-        # 'passwd': MYSQL_PASSWORD,
-        'db': MYSQL_DATABASE,
+        'host': mysql_host,
+        'port': mysql_port,
+        'user': mysql_user,
+        # 'passwd': mysql_password,
+        'db': mysql_database,
         'charset': 'utf8',
         'connect_timeout': 10,
     }
@@ -93,8 +97,8 @@ def mongo_conn():
 
 
 if __name__ == '__main__':
-    config_mysql = localhost_mysql()
-    db = pymysql.connect(**config_mysql)
+    config_sql = localhost_mysql()
+    db = pymysql.connect(**config_sql)
     cursor = db.cursor()
     # cursor.execute(sql, _tuple)
     # db.commit()

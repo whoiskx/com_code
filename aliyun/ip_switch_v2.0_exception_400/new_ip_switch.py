@@ -146,6 +146,7 @@ class IpSwith(object):
         except Exception as e:
             log("backup server error2", e)
             return False
+        log('备用服务器连接正常 状态码：{}'.format(resp.status_code))
         return True
 
     def run(self):

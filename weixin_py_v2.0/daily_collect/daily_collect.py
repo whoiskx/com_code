@@ -12,8 +12,8 @@ from lxml import etree
 
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack, Ftp
-from config import get_mysql_new, GetCaptcha_url, mongo_conn
-from utils import uploads_mysql, get_log, mongo_conn
+from config import get_mysql_new, GetCaptcha_url, mongo_conn, ADD_COLLECTION
+from utils import uploads_mysql, get_log, mongo_conn, driver, get_captcha_path, time_strftime
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -23,14 +23,13 @@ from PIL import Image
 from io import BytesIO
 from verification_code import captch_upload_image
 
-config_mysql = get_mysql_new()
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-IMAGE_DIR = os.path.join(BASE_DIR, 'images')
-CAPTCHA_NAME = 'captcha.png'
-
 current_dir = os.getcwd()
 
 log = get_log('daily_collect').info
+
+# chrome_options = webdriver.ChromeOptions()
+# chrome_options.add_argument('--headless')
+# driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
 class AccountHttp(object):
@@ -51,9 +50,7 @@ class AccountHttp(object):
                         'PHPSESSID': '80l6acdo9sq3uj357t00heqpg1', 'seccodeRight': 'success',
                         'SUV': '00F347B50E17724A5BAC759DBEFB6849', 'successCount': '1|Thu, 27 Sep 2018 06:20:59 GMT',
                         'refresh': '1', 'JSESSIONID': 'aaa73Xexaf2BmgEL80Bvw'}
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless')
-        self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        self.driver = driver
         self.driver.set_page_load_timeout(15)
         self.driver.set_script_timeout(15)
         self.wait = WebDriverWait(self.driver, 5)
@@ -174,6 +171,7 @@ class AccountHttp(object):
             entity.title
         )
         try:
+            config_mysql = get_mysql_new()
             uploads_mysql(config_mysql, sql, _tuple)
         except Exception as e:
             log('数据库上传错误 {}'.format(e))
@@ -182,6 +180,7 @@ class AccountHttp(object):
     @staticmethod
     def save_to_mongo(entity):
         db = mongo_conn()
+        entity['collection'] = time_strftime()
         db['daily_collection'].insert(entity)
 
     @staticmethod
@@ -210,17 +209,16 @@ class AccountHttp(object):
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
         bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?' \
                      'sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
-                        account_name, date_today)
+                            account_name, date_today)
         get_ids = requests.get(bottom_url, timeout=21)
         ids = get_ids.text
         return ids
 
     def run(self):
         while True:
-            account_list = [] or self.account_list()
+            account_list = ADD_COLLECTION if ADD_COLLECTION else self.account_list()
             for account_name in account_list:
                 try:
-                    # account_list = ['jxcbxjzt', 'yingde763', 'gh_09f33f5aaf7c', 'jk8122']
                     self.search_name = account_name
                     html_account = self.account_homepage()
                     if html_account:
@@ -234,10 +232,6 @@ class AccountHttp(object):
                     account.name = self.name
                     account.account = account_name
                     account.get_account_id()
-                    # if not account.account_id:
-                    #     log("没有account_id".format(account.account))
-                    #     db_mongo = mongo_conn()
-                    #     db_mongo['noAccountId'].insert({'account': account.account})
                     # 判重
                     ids = self.dedup(account_name)
                     entity = None
@@ -251,7 +245,7 @@ class AccountHttp(object):
                         try:
                             article.create(url, account)
                         except RuntimeError as run_error:
-                            log('找不到浏览器'.format(run_error))
+                            log('找不到浏览器 {}'.format(run_error))
                         log('第{}条 文章标题: {}'.format(page_count, article.title))
                         log("当前文章url: {}".format(url))
                         entity = JsonEntity(article, account)
@@ -270,7 +264,7 @@ class AccountHttp(object):
                         log('当前文章xml: {}'.format(name_xml))
                         self.create_xml(ftp_info.ftp_dict(), name_xml)
                         ftp_list.append(name_xml)
-                        # if page_count == 5:
+                        # if page_count >= 3:
                         #     break
                     log("发包")
                     # todo 发包超时，修改MTU
@@ -286,6 +280,7 @@ class AccountHttp(object):
                     if 'chrome not reachable' in str(e):
                         raise RuntimeError('chrome not reachable')
                     continue
+            # break
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
@@ -308,11 +303,12 @@ class AccountHttp(object):
                 screenshot = self.driver.get_screenshot_as_png()
                 screenshot = Image.open(BytesIO(screenshot))
                 captcha = screenshot.crop((left, top, right, bottom))
-                captcha_path = os.path.join(IMAGE_DIR, CAPTCHA_NAME)
+                captcha_path = get_captcha_path()
                 captcha.save(captcha_path)
+                captcha_name = os.path.basename(captcha_path)
                 try:
                     captch_input = ''
-                    files = {'img': (CAPTCHA_NAME, open(captcha_path, 'rb'), 'image/png', {})}
+                    files = {'img': (captcha_name, open(captcha_path, 'rb'), 'image/png', {})}
                     res = requests.post(url=GetCaptcha_url, files=files)
                     res = res.json()
                     if res.get('Success'):
@@ -337,9 +333,9 @@ class AccountHttp(object):
                             return
                         log('------验证码正确------')
                     except Exception as e:
-                        log('--22222222----验证码输入错误------'.format(e))
+                        log('--22222222----验证码输入错误------ {}'.format(e))
             except Exception as e:
-                log('------未跳转到验证码页面，跳转到首页，忽略------'.format(e))
+                log('------未跳转到验证码页面，跳转到首页，忽略------ {}'.format(e))
 
         elif re.search('mp\.weixin\.qq\.com', url):
             log('------开始处理微信验证码------')
@@ -359,11 +355,10 @@ class AccountHttp(object):
 if __name__ == '__main__':
     # test = None
     # while True:
-        try:
-            test = AccountHttp()
-            test.run()
-        except Exception as error:
-            log('获取账号错误，重启程序{}'.format(error))
-            if test.driver:
-                test.driver.quit()
-                time.sleep(60)
+    try:
+        test = AccountHttp()
+        test.run()
+    except Exception as error:
+        log('获取账号错误，重启程序{}'.format(error))
+    finally:
+        driver.quit()

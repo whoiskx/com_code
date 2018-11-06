@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
+import datetime
 import logging
+import os
 import sys
 from threading import Thread
 
 import pymongo
 import pymysql
 import redis
+from selenium import webdriver
 
 
 def get_log(name=''):
@@ -28,24 +31,24 @@ def get_log(name=''):
     return logger
 
 
-def get_log_info(name=''):
-    # 日志配置
-    # logging.basicConfig(filename=log_file_name, level=logger_level, format=logger_format)
-    logger = logging.getLogger(name)
-    # formatter = logging.Formatter("%(asctime)s %(filename)s
-    # %(levelname)s line:%(lineno)d %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
-    log_formatter = '%(asctime)s,%(name)s,%(levelname)s,%(lineno)d,%(message)s'
-    formatter = logging.Formatter(log_formatter)
-    file_handle = logging.FileHandler('log.txt', encoding='utf-8')
-    file_handle.setFormatter(formatter)
-    logger.addHandler(file_handle)
-    # 输出到console
-    console_handle = logging.StreamHandler(sys.stdout)
-    console_handle.formatter = formatter
-    logger.addHandler(console_handle)
-    # 日志输出等级
-    logger.level = logging.DEBUG
-    return logger
+# def get_log_info(name=''):
+#     # 日志配置
+#     # logging.basicConfig(filename=log_file_name, level=logger_level, format=logger_format)
+#     logger = logging.getLogger(name)
+#     # formatter = logging.Formatter("%(asctime)s %(filename)s
+#     # %(levelname)s line:%(lineno)d %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
+#     log_formatter = '%(asctime)s,%(name)s,%(levelname)s,%(lineno)d,%(message)s'
+#     formatter = logging.Formatter(log_formatter)
+#     file_handle = logging.FileHandler('log.txt', encoding='utf-8')
+#     file_handle.setFormatter(formatter)
+#     logger.addHandler(file_handle)
+#     # 输出到console
+#     console_handle = logging.StreamHandler(sys.stdout)
+#     console_handle.formatter = formatter
+#     logger.addHandler(console_handle)
+#     # 日志输出等级
+#     logger.level = logging.DEBUG
+#     return logger.info
 
 
 def async(f):
@@ -83,6 +86,31 @@ def mongo_conn():
     return db
 
 
+def get_captcha_path():
+    base_dir = os.path.abspath(os.path.dirname(__file__))
+    image_dir = os.path.join(base_dir, 'images')
+    captcha_name = 'captcha.png'
+    captcha_path = os.path.join(image_dir, captcha_name)
+    return captcha_path
+
+
+def time_strftime():
+    now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    return now
+
+
+class GetDrver(object):
+    def __init__(self):
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument('--headless')
+        self.driver = webdriver.Chrome(chrome_options=chrome_options)
+
+
+get_driver = GetDrver()
+driver = get_driver.driver
+
 if __name__ == '__main__':
     log_test = get_log()
-    log_test.info('test')
+    log_test.info(123)
+    path = get_captcha_path()
+    print(path)
