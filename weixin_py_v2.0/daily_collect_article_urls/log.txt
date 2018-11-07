@@ -5483,3 +5483,20 @@
 2018-11-07 10:34:21,922,daily_collect,INFO,365,------开始处理微信验证码------
 2018-11-07 10:34:22,387,daily_collect,INFO,370,------验证码：labq------
 2018-11-07 10:34:22,439,daily_collect,INFO,376,------cookies已更新------
+2018-11-07 11:21:03,376,daily_collect,INFO,282,解析公众号错误 <Response [200]>
+2018-11-07 11:24:41,802,daily_collect,INFO,252,第0条 文章标题: 天然气集中供暖用户可申请提前【11月7日周三新闻速览一分钟】雪！雪！雪！陕西这些地方，下雪了...速来围观同样是面对乘客的无理与辱骂，陕西这几位司机的做法太棒了
+2018-11-07 11:24:42,036,daily_collect,INFO,253,当前文章url: https://mp.weixin.qq.com/s?src=11&timestamp=1541559601&ver=1229&signature=ixTsG-RvK8H58t6D-CpW6olWI8hA52Wz-FRb12ZcrNG-lxR20YutoyLYUr-RB3w8WHjE1petjDcbbxZVxTChvPWM27qszWu0Z3zonjx8SEQB5mmgm1O9Eu*5qsFhnBCH&new=1
+2018-11-07 11:24:43,458,daily_collect,INFO,255,当前文章ID: b2097673345f05c75f0990ed9bb448af
+2018-11-07 11:25:31,546,daily_collect,INFO,267,当前文章xml: 446c4fa4ab00027c85a825c7caf1e74b.xml
+2018-11-07 11:25:32,629,daily_collect,INFO,272,发包
+2018-11-07 11:25:33,586,models,INFO,333,c90e4f82-e23c-11e8-be1f-c8650e2fb272.zip
+2018-11-07 11:25:33,862,models,INFO,367,ftp上传方式一成功
+2018-11-07 11:25:33,997,models,INFO,333,c90e4f82-e23c-11e8-be1f-c8650e2fb272.zip
+2018-11-07 11:25:34,189,models,INFO,398,ftp上传方式二成功
+2018-11-07 11:25:35,447,models,INFO,208,start uploads datacenter_relay
+2018-11-07 11:25:35,833,models,INFO,211,uploads datacenter_relay server successful
+2018-11-07 11:25:35,834,models,INFO,223,uploads datacenter_relay over
+2018-11-07 11:25:36,304,models,INFO,318,start uploads datacenter_unity
+2018-11-07 11:25:36,459,models,INFO,321,uploads datacenter_unity server1 successful
+2018-11-07 11:25:36,460,models,INFO,326,uploads datacenter_unity over
+2018-11-07 11:25:36,672,daily_collect,INFO,280,发包完成
