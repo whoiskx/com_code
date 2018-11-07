@@ -9,7 +9,7 @@ GetCaptcha_url = 'http://124.239.144.164:7101/GetCaptcha'
 
 # 补采
 # ['bdb1937', 'dgshs2018', 'pd0351', 'guyuanxuanjiang', 'dgrb789']
-ADD_COLLECTION = []
+ADD_COLLECTION = ['fugubao719400', 'xjfkzx', 'fuchengren007', 'vfn365', 'gztv630']
 
 
 def mysql_tag_code():
@@ -92,7 +92,7 @@ def localhost_mysql():
 
 def mongo_conn():
     conn = pymongo.MongoClient('120.78.237.213', 27017)
-    _db = conn.WeChat
+    _db = conn.test
     return _db
 
 

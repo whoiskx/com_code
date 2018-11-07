@@ -13,7 +13,7 @@ from lxml import etree
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack, Ftp
 from config import get_mysql_new, GetCaptcha_url, mongo_conn, ADD_COLLECTION
-from utils import uploads_mysql, get_log, mongo_conn, driver, get_captcha_path, time_strftime
+from utils import uploads_mysql, get_log, driver, get_captcha_path, time_strftime
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -26,6 +26,7 @@ from verification_code import captch_upload_image
 current_dir = os.getcwd()
 
 log = get_log('daily_collect').info
+
 
 # chrome_options = webdriver.ChromeOptions()
 # chrome_options.add_argument('--headless')
@@ -153,6 +154,17 @@ class AccountHttp(object):
                 item = re.search('"content_url":".*?wechat_redirect', url).group()
                 url = item[15:].replace('amp;', '')
             urls.append(url)
+        # 统计文章数量
+        count_article = len(urls)
+        db = mongo_conn()
+        result = db['count'].find()
+        if result.count() == 0:
+            db['count'].insert({'article_count': count_article})
+        else:
+            for item in db['count'].find():
+                count = item.get('article_count') + count_article
+                db['count'].update({'article_count': item.get('article_count')},
+                                   {'$set': {'article_count': count}}, upsert=True)
         return urls
 
     @staticmethod
@@ -209,13 +221,25 @@ class AccountHttp(object):
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
         bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?' \
                      'sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
-                            account_name, date_today)
+            account_name, date_today)
         get_ids = requests.get(bottom_url, timeout=21)
         ids = get_ids.text
         return ids
 
     def run(self):
+        count = 0
         while True:
+            count += 1
+            log('第{}次'.format(count))
+            # db = mongo_conn()
+            # result = db['count'].find({})
+            # if result.count() == 0:
+            #     db['count'].insert({'article_count': count})
+            # else:
+            #     for item in db['count'].find():
+            #         count = item.get('account_count') + count if item.get('account_count') else 1
+            #         db['count'].update({'account_count': item.get('article_count')},
+            #                            {'$set': {'article_count': count}}, upsert=True)
             account_list = ADD_COLLECTION if ADD_COLLECTION else self.account_list()
             for account_name in account_list:
                 try:
