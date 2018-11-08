@@ -3,6 +3,7 @@ import datetime
 import logging
 import os
 import sys
+import uuid
 from threading import Thread
 
 import pymongo
@@ -99,6 +100,19 @@ def time_strftime():
     return now
 
 
+def save_name():
+    with open('save_name.txt', 'r') as f:
+        name = f.read()
+        if name:
+            return name
+        elif len(name) == 0:
+            name = uuid.uuid1()
+    with open('save_name.txt', 'w') as f2:
+        if name:
+            f2.write(str(name))
+            return name
+
+
 class GetDrver(object):
     def __init__(self):
         chrome_options = webdriver.ChromeOptions()
@@ -110,7 +124,9 @@ get_driver = GetDrver()
 driver = get_driver.driver
 
 if __name__ == '__main__':
-    log_test = get_log()
-    log_test.info(123)
-    path = get_captcha_path()
-    print(path)
+    # log_test = get_log()
+    # log_test.info(123)
+    # path = get_captcha_path()
+    # print(path)
+    name = save_name()
+    print(name, type(name))

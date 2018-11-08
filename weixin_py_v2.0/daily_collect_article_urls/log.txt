@@ -5500,3 +5500,7 @@
 2018-11-07 11:25:36,459,models,INFO,321,uploads datacenter_unity server1 successful
 2018-11-07 11:25:36,460,models,INFO,326,uploads datacenter_unity over
 2018-11-07 11:25:36,672,daily_collect,INFO,280,发包完成
+2018-11-08 11:01:05,225,daily_collect,INFO,245,---------
+2018-11-08 11:01:24,438,daily_collect,INFO,255,第0条 文章标题: 
+2018-11-08 11:01:24,808,daily_collect,INFO,256,当前文章url: https://mp.weixin.qq.com/s?src=11&timestamp=1541559601&ver=1229&signature=ixTsG-RvK8H58t6D-CpW6olWI8hA52Wz-FRb12ZcrNG-lxR20YutoyLYUr-RB3w8WHjE1petjDcbbxZVxTChvPWM27qszWu0Z3zonjx8SEQB5mmgm1O9Eu*5qsFhnBCH&new=1
+2018-11-08 11:01:25,312,daily_collect,INFO,258,当前文章ID: d41d8cd98f00b204e9800998ecf8427e

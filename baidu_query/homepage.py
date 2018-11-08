@@ -7,21 +7,21 @@ from selenium import webdriver
 
 def main():
     # requests 乱码
-    # url = 'https://jin.baidu.com/v/static/mip2/gongjijin-mip2/mip-login.html?wyn=8964e386-6c92-49cf-9c14-21efbdf1e0f0'
-    # headers = {'Host': 'jin.baidu.com', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1',
-    #            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
-    #            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    #            'Referer': 'https://jin.baidu.com/v/static/mip2/gongjijin-mip2/mip-login.html?wyn=5213da38-73b8-48ab-adb0-dfd7b9380aff',
-    #            'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9',
-    #            # 'Cookie': 'HOSUPPORT=1;HISTORY=e2e8e3af6c3a6d456fd968c031;BAIDUID=FA0ACFAAA0FAB0A802684C9C9D4EBF9C:FG=1;Hm_lvt_90056b3f84f90da57dc0f40150f005d5=1541579444,1541579447;STOKEN=a0a01a003015917bac672d286102c3279df779b1a76af37d6a13e3fa2f3262a3;pplogid=8442f48LCMmdMiYCRZKdHM0m9rQt7KUXz8Iodu8xFOYbHhA%3D;Hm_lpvt_90056b3f84f90da57dc0f40150f005d5=1541579447;UBI=fi_PncwhpxZ%7ETaKAWOBhHKYW5MBzJRbI%7EFE-EIypt5iRS-V-Rn3LHhZHjSRlIQpuEONOx96wfj2YeeNxqMT;USERNAMETYPE=1;SAVEUSERID=5ebbf0a04cf701610b;BDUSS=VgzOW04dGR4RHh2SWg5OEM0TTNRYmVVQk9rbzViQXBLN1FZRTFPZ3ViVy1Md3BjQVFBQUFBJCQAAAAAAAAAAAEAAAC~B-EpZGJ3aHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6i4lu-ouJbW;PTOKEN=19e568f55b4b5ba78d7d33d8761eac4b'
-    # }
-    # params = {
-    #     'wyn': 'db8cd87d-eaad-4d81-bacf-ee08f5e01079'
-    # }
-    # r = requests.get(url, headers=headers, params=params)
-    # r.encoding = 'utf-8'
-    # with open('homepage.html', 'w', encoding='utf-8') as f:
-    #     f.write(r.text)
+    url = 'https://jin.baidu.com/v/static/mip2/gongjijin-mip2/mip-login.html?wyn=8964e386-6c92-49cf-9c14-21efbdf1e0f0'
+    headers = {'Host': 'jin.baidu.com', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1',
+               'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+               'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+               'Referer': 'https://jin.baidu.com/v/static/mip2/gongjijin-mip2/mip-login.html?wyn=5213da38-73b8-48ab-adb0-dfd7b9380aff',
+               'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9',
+               # 'Cookie': 'HOSUPPORT=1;HISTORY=e2e8e3af6c3a6d456fd968c031;BAIDUID=FA0ACFAAA0FAB0A802684C9C9D4EBF9C:FG=1;Hm_lvt_90056b3f84f90da57dc0f40150f005d5=1541579444,1541579447;STOKEN=a0a01a003015917bac672d286102c3279df779b1a76af37d6a13e3fa2f3262a3;pplogid=8442f48LCMmdMiYCRZKdHM0m9rQt7KUXz8Iodu8xFOYbHhA%3D;Hm_lpvt_90056b3f84f90da57dc0f40150f005d5=1541579447;UBI=fi_PncwhpxZ%7ETaKAWOBhHKYW5MBzJRbI%7EFE-EIypt5iRS-V-Rn3LHhZHjSRlIQpuEONOx96wfj2YeeNxqMT;USERNAMETYPE=1;SAVEUSERID=5ebbf0a04cf701610b;BDUSS=VgzOW04dGR4RHh2SWg5OEM0TTNRYmVVQk9rbzViQXBLN1FZRTFPZ3ViVy1Md3BjQVFBQUFBJCQAAAAAAAAAAAEAAAC~B-EpZGJ3aHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL6i4lu-ouJbW;PTOKEN=19e568f55b4b5ba78d7d33d8761eac4b'
+    }
+    params = {
+        'wyn': 'db8cd87d-eaad-4d81-bacf-ee08f5e01079'
+    }
+    r = requests.get(url)
+    r.encoding = 'utf-8'
+    with open('homepage.html', 'w', encoding='utf-8') as f:
+        f.write(r.text)
     #
     # print(r.text)
 
@@ -79,6 +79,7 @@ def main():
     # print cookie  
     cookiestr = ';'.join(item for item in cookie)
     print(cookiestr)
+    print('cookies_dict: {}'.format(driver.get_cookies()))
     time.sleep(5)
 
 

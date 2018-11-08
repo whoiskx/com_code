@@ -6,17 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/baidu_query/homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/img.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/imge_size.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/weixin_headers/read_dir.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/weixin_headers/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baidu_query/not_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/DAYBYDAY/常用库/Flask.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/DAYBYDAY/常用库/Python语言风格.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/DAYBYDAY/常用库/SVN.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/body_to_row.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/body_to_row.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_article_urls/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_article_urls/daily_collect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu_query/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/baidu_query/homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/img.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/img.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/imge_size.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/imge_size.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/weixin_headers/log_error_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/weixin_headers/log_error_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_article_urls/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_article_urls/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/问题.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,46 +38,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="read_dir.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/weixin_headers/read_dir.py">
+      <file leaf-file-name="daily_collect.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="304">
+              <caret line="334" column="40" selection-start-line="334" selection-start-column="38" selection-end-line="334" selection-end-column="40" />
               <folding>
-                <element signature="e#24#33#0" expanded="true" />
+                <element signature="e#24#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/weixin_headers/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="img.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/img.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="10" selection-end-line="9" />
+              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="103501975.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/weixin_headers/103501975.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="log_error_file.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/weixin_headers/log_error_file.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="18" selection-end-column="27" />
+            <state relative-caret-position="338">
+              <caret line="5378" column="27" selection-start-line="5378" selection-start-column="23" selection-end-line="5378" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="92971046.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/92971046.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="imge_size.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/imge_size.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -85,8 +85,8 @@
       <file leaf-file-name="homepage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baidu_query/homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1863">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="621">
+              <caret line="39" column="131" selection-start-line="39" selection-start-column="131" selection-end-line="39" selection-end-column="131" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -94,31 +94,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log_record.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/weixin_headers/log_record.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/weixin_headers/log.txt">
+      <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baidu_query/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1044" />
+            <state relative-caret-position="104">
+              <caret line="85" column="57" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="113736133.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/weixin_headers/113736133.jpg">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="not_login.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baidu_query/not_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setting.py">
+      <file leaf-file-name="errorhandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="292">
+              <caret line="241" selection-start-line="241" selection-end-line="241" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="问题.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/问题.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -128,8 +138,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -212,7 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Facebook/headurl/header_url_mysql.py" />
         <option value="$PROJECT_DIR$/wechat/new_get/tests.py" />
         <option value="$PROJECT_DIR$/wechat/tests/sogou_link_tests.py" />
         <option value="$PROJECT_DIR$/aliyun/域名修改" />
@@ -246,23 +255,24 @@
         <option value="$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py" />
         <option value="$PROJECT_DIR$/aliyun/tests.py" />
         <option value="$PROJECT_DIR$/weixin_interfaces/analyse_8.0/analyse_8.0_v2_sougou_word/sentiment_analyze.py" />
-        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" />
         <option value="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/ip_switch_session.py" />
         <option value="$PROJECT_DIR$/tests/port.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/ids.txt" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/ids_read.py" />
         <option value="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" />
         <option value="$PROJECT_DIR$/错误记录9-19.txt" />
-        <option value="$PROJECT_DIR$/问题.txt" />
         <option value="$PROJECT_DIR$/10-8.txt" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_article_urls/daily_collect.py" />
         <option value="$PROJECT_DIR$/utils/body_to_row.py" />
         <option value="$PROJECT_DIR$/baidu_query/homepage.html" />
-        <option value="$PROJECT_DIR$/baidu_query/homepage.py" />
-        <option value="$PROJECT_DIR$/utils/imge_size.py" />
         <option value="$PROJECT_DIR$/utils/weixin_headers/read_dir.py" />
         <option value="$PROJECT_DIR$/utils/weixin_headers/tests.py" />
+        <option value="$PROJECT_DIR$/问题.txt" />
+        <option value="$PROJECT_DIR$/baidu_query/not_login.py" />
+        <option value="$PROJECT_DIR$/baidu_query/homepage.py" />
+        <option value="$PROJECT_DIR$/utils/imge_size.py" />
         <option value="$PROJECT_DIR$/tests/img.html" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" />
       </list>
     </option>
   </component>
@@ -275,11 +285,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="501" />
-    <option name="y" value="21" />
-    <option name="width" value="1326" />
-    <option name="height" value="1009" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="768" />
+    <option name="width" value="1138" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -299,7 +308,18 @@
             <path>
               <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="com_code" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="daily_collect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,11 +345,11 @@
       <recent name="D:\com_code\aliyun" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\com_code\utils\weixin_headers" />
       <recent name="D:\com_code\utils" />
+      <recent name="D:\com_code\utils\WX" />
+      <recent name="D:\com_code\utils\weixin_headers" />
       <recent name="D:\com_code\weixin_py_v2.0" />
       <recent name="D:\com_code\weixin_interfaces\analyse_8.0" />
-      <recent name="D:\com_code\weixin_interfaces\new_media_analyse_version" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,25 +364,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tests">
-    <configuration name="body_to_row" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="com_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/body_to_row.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.imge_size">
     <configuration name="homepage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -394,6 +396,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/imge_size.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="not_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baidu_query" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baidu_query/not_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,18 +457,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.homepage" />
-      <item itemvalue="Python.body_to_row" />
       <item itemvalue="Python.imge_size" />
       <item itemvalue="Python.read_dir" />
       <item itemvalue="Python.tests" />
+      <item itemvalue="Python.not_login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.imge_size" />
+        <item itemvalue="Python.homepage" />
+        <item itemvalue="Python.not_login" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.read_dir" />
-        <item itemvalue="Python.homepage" />
-        <item itemvalue="Python.imge_size" />
-        <item itemvalue="Python.body_to_row" />
       </list>
     </recent_temporary>
   </component>
@@ -507,19 +527,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974359" visible="true" weight="0.15437302" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974359" visible="true" weight="0.15437302" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.4456887" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.38969764" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.7347162" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5556769" />
       <window_info id="Structure" order="1" sideWeight="0.50256413" side_tool="true" weight="0.15437302" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3393057" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.16573349" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.36506158" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -1164,7 +1184,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py</url>
-          <line>300</line>
+          <line>316</line>
           <option name="timeStamp" value="515" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1235,13 +1255,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/baidu_query/homepage.py</url>
-          <line>81</line>
+          <line>82</line>
           <option name="timeStamp" value="561" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/utils/weixin_headers/read_dir.py</url>
           <line>60</line>
           <option name="timeStamp" value="573" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baidu_query/homepage.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="574" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1254,7 +1279,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="574" />
+      <option name="time" value="575" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1376,29 +1401,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/问题.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="95" column="24" selection-start-line="95" selection-start-column="4" selection-end-line="95" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/错误记录9-19.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据库查询语句.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -1456,15 +1458,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/config.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-414">
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/ftp/uploads.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1553,13 +1546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baidu_query/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="102" column="48" lean-forward="true" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/body_to_row.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -1579,18 +1565,8 @@
     <entry file="file://$PROJECT_DIR$/utils/icom_90.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/92971046.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/115339132.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/imge_size.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" selection-start-line="5" selection-end-line="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setting.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1602,9 +1578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/weixin_headers/113736133.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/weixin_headers/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1044" />
@@ -1612,26 +1585,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/weixin_headers/log_record.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/weixin_headers/log_error_file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu_query/homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/weixin_headers/103501975.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/weixin_headers/read_dir.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1646,14 +1599,88 @@
     <entry file="file://$PROJECT_DIR$/utils/weixin_headers/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/问题.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu_query/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="85" column="57" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu_query/homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="39" column="131" selection-start-line="39" selection-start-column="131" selection-end-line="39" selection-end-column="131" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baidu_query/not_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/weixin_headers/103501975.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/weixin_headers/113736133.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/92971046.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/weixin_headers/log_error_file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="5378" column="27" selection-start-line="5378" selection-start-column="23" selection-end-line="5378" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/imge_size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/img.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="10" selection-end-line="9" />
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="334" column="40" selection-start-line="334" selection-start-column="38" selection-end-line="334" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

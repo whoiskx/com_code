@@ -98,3 +98,30 @@ ll /proc/PID
     fd目录下是进程打开或使用的文件的符号连接。
 
 图片防盗链的原理是当图片在网页中显示的时候，图片服务器会检测到引用这张图片的服务器域名，当发现服务器域名不包含http://qq.com或http://qpic.cn的时候就会被替换成防盗链图片。
+
+python 获取指定文件夹下所有文件名
+    os.walk()和os.listdir() 无序，windows打开会刷新 估计是为了排序
+
+IOError: image file is truncated (5 bytes not processed)
+复制代码
+解决办法是，再添加如下2句代码：
+
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+
+pycharm转换字母大小写的快捷键是什么？
+     ctrl/command + shift + u
+
+æ�¥æ�¬å�³å®�æ��ç«�ä¸�ä¸ªæ�°  响应乱码 response.encoding='utf-8'
+
+获取浏览器cookie
+#get the session cookie  
+cookie = [item["name"] + "=" + item["value"] for item in sel.get_cookies()]  
+#print cookie  
+  
+cookiestr = ';'.join(item for item in cookie)  
+
+包 含有__init__ 文件
+
+模块
+.py 文件
