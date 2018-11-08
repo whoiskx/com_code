@@ -219,16 +219,18 @@ class AccountHttp(object):
     @staticmethod
     def dedup(account_name):
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
-        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?' \
-                     'sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
-            account_name, date_today)
+        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
+            account_name,
+            date_today)
         get_ids = requests.get(bottom_url, timeout=21)
         ids = get_ids.text
         return ids
 
     def run(self):
         try:
-            giurls_article = ['https://mp.weixin.qq.com/s?src=11&timestamp=1541559601&ver=1229&signature=ixTsG-RvK8H58t6D-CpW6olWI8hA52Wz-FRb12ZcrNG-lxR20YutoyLYUr-RB3w8WHjE1petjDcbbxZVxTChvPWM27qszWu0Z3zonjx8SEQB5mmgm1O9Eu*5qsFhnBCH&new=1']
+            urls_article = [
+                'https://mp.weixin.qq.com/s?src=11&timestamp=1541559601&ver=1229&signature=ixTsG-RvK8H58t6D-CpW6olWI8hA52Wz-FRb12ZcrNG-lxR20YutoyLYUr-RB3w8WHjE1petjDcbbxZVxTChvPWM27qszWu0Z3zonjx8SEQB5mmgm1O9Eu*5qsFhnBCH&new=1'
+            ]
             entity = None
             backpack_list = []
             ftp_list = []
