@@ -6,6 +6,7 @@
 # ll.critical(__name__, 1211323)
 import logging
 import os
+import time
 
 
 def main():
@@ -21,9 +22,15 @@ def main():
 
 
 if __name__ == '__main__':
-    from selenium import webdriver
-
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument('--headless')
-    driver = webdriver.Chrome(chrome_options=chrome_options)
-    driver.close()
+    # from selenium import webdriver
+    #
+    # chrome_options = webdriver.ChromeOptions()
+    # # chrome_options.add_argument('--headless')
+    # driver = webdriver.Chrome(chrome_options=chrome_options)
+    #
+    # driver2 = webdriver.Chrome(chrome_options=chrome_options)
+    from utils import driver
+    driver1 = driver
+    driver2 = driver
+    print( driver1 is driver2)
+    time.sleep(5)

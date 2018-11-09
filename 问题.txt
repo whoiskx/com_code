@@ -125,3 +125,5 @@ cookiestr = ';'.join(item for item in cookie)  
 
 模块
 .py 文件
+
+grep -C 1000 -m 3  '访问过于频繁' log.txt

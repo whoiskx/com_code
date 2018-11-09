@@ -101,6 +101,13 @@ def time_strftime():
 
 
 def save_name():
+    # 文件不存在就创建
+    pwd = os.getcwd()
+    file_name = os.path.join(pwd, 'save_name.txt')
+    if not os.path.isfile(file_name):
+        with open(file_name, 'w') as f:
+            pass
+
     with open('save_name.txt', 'r') as f:
         name = f.read()
         if name:
@@ -117,10 +124,12 @@ class GetDrver(object):
     def __init__(self):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-sandbox')
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
 get_driver = GetDrver()
+# driver 每次导入都是同一个？
 driver = get_driver.driver
 
 if __name__ == '__main__':

@@ -18,19 +18,12 @@ from utils import uploads_mysql, get_log, driver, get_captcha_path, time_strftim
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium import webdriver
 from PIL import Image
 from io import BytesIO
 from verification_code import captch_upload_image
 
 current_dir = os.getcwd()
-
-log = get_log('daily_collect').info
-
-
-# chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument('--headless')
-# driver = webdriver.Chrome(chrome_options=chrome_options)
+log = get_log('daily_collect')
 
 
 class AccountHttp(object):
@@ -62,15 +55,15 @@ class AccountHttp(object):
         while True:
             count += 1
             if count > 3:
-                log('多次账号异常，跳过账号:'.format(self.name))
+                log.info('多次账号异常，跳过账号:'.format(self.name))
                 return
-            log('start account {}'.format(self.search_name))
+            log.info('start account {}'.format(self.search_name))
             search_url = self.url.format(self.search_name)
             resp_search = self.s.get(search_url, headers=self.headers, cookies=self.cookies)
             e = pq(resp_search.text)
-            log('当前搜狗标题：{}'.format(e('title').text()))
+            log.info('当前搜狗标题：{}'.format(e('title').text()))
             if '搜狗' not in e('title').text():
-                log('初始化session')
+                log.info('初始化session')
                 self.s = requests.session()
             if self.search_name == e(".info").eq(0).text().replace('微信号：', ''):
                 account_link = e(".tit").find('a').attr('href')
@@ -81,32 +74,35 @@ class AccountHttp(object):
                     homepage = self.s.get(account_link, cookies=self.cookies)
                 return homepage.text
             elif len(e(".tit").eq(0).text()) > 1:
-                log("不能匹配正确的公众号: {}".format(self.search_name))
+                log.info("不能匹配正确的公众号: {}".format(self.search_name))
                 return
             if '相关的官方认证订阅号' in resp_search.text:
-                log("找不到该公众号: {}".format(self.search_name))
+                log.info("找不到该公众号: {}".format(self.search_name))
+                return
+            if '搜狗' in e('title').text():
+                log.info('{} :搜索结果无文字'.format(self.search_name))
                 return
             else:
                 # 处理验证码
-                log(search_url)
-                log('验证之前的cookie'.format(self.cookies))
+                log.info(search_url)
+                log.info('验证之前的cookie'.format(self.cookies))
                 try_count = 0
                 while True:
                     try_count += 1
                     self.crack_sougou(search_url)
                     if '搜公众号' in self.driver.page_source:
-                        log('------开始更新cookies------')
+                        log.info('------开始更新cookies------')
                         cookies = self.driver.get_cookies()
                         new_cookie = {}
                         for items in cookies:
                             new_cookie[items.get('name')] = items.get('value')
                         self.cookies = new_cookie
-                        log('------cookies已更新------'.format(self.cookies))
+                        log.info('------cookies已更新------'.format(self.cookies))
                         break
                     elif try_count > 4:
-                        log("浏览器验证失败")
+                        log.info("浏览器验证失败")
                         break
-                log("验证完毕")
+                log.info("验证完毕")
                 time.sleep(2)
                 continue
 
@@ -132,9 +128,9 @@ class AccountHttp(object):
         #         return []
         #     for item in items:
         #         account_all.append(item.get('account'))
-        #     log("开始account列表 {}".format(account_all))
+        #     log.info("开始account列表 {}".format(account_all))
         # except Exception as e:
-        #     log('获取账号列表错误 {}'.format(e))
+        #     log.info('获取账号列表错误 {}'.format(e))
         #     time.sleep(5)
         # 统计账号
         collection_name = save_name()
@@ -146,15 +142,16 @@ class AccountHttp(object):
             db = mongo_conn()
             result = db[collection_name].find({})
             if result.count() == 0:
-                db[collection_name].insert({'account_count': 1, 'article_count': 0})
+                db[collection_name].insert({'account_count': 1, 'article_count': 0,
+                                            'start': time_strftime(), 'end': None})
             else:
                 for item in db[collection_name].find():
                     count = item.get('account_count') + 1
-                    log(item)
-                    db[collection_name].update({'account_count':item.get('account_count')},
-                                       {'$set': {'account_count': count}}, upsert=True)
+                    log.info(item)
+                    db[collection_name].update({'account_count': item.get('account_count')},
+                                               {'$set': {'account_count': count, 'end': time_strftime()}}, upsert=True)
         except Exception as e:
-            log('获取账号出错：{}'.format(e))
+            log.info('获取账号出错：{}'.format(e))
             return None
         return account
 
@@ -183,17 +180,18 @@ class AccountHttp(object):
         db = mongo_conn()
         result = db[collection_name].find({}, {'article_count': 1})
         if result.count() == 0:
-            db[collection_name].insert({'account_count': 1, 'article_count': 0})
+            db[collection_name].insert({'account_count': 1, 'article_count': 0,
+                                        'start': time_strftime(), 'end': None})
         for item in db[collection_name].find():
             count = count_article + item.get('article_count')
             db[collection_name].update({'article_count': item.get('article_count')},
-                               {'$set': {'article_count': count}}, upsert=True)
+                                       {'$set': {'article_count': count}}, upsert=True)
         return urls
 
     @staticmethod
     def save_to_mysql(entity):
         # 上传数据库
-        # log('开始上传mysql')
+        # log.info('开始上传mysql')
         sql = '''   
                 INSERT INTO 
                     account_http(article_url, addon, account, account_id, author, id, title) 
@@ -209,8 +207,8 @@ class AccountHttp(object):
             config_mysql = get_mysql_new()
             uploads_mysql(config_mysql, sql, _tuple)
         except Exception as e:
-            log('数据库上传错误 {}'.format(e))
-        # log('上传mysql完成')
+            log.info('数据库上传错误 {}'.format(e))
+        # log.info('上传mysql完成')
 
     @staticmethod
     def save_to_mongo(entity):
@@ -220,7 +218,7 @@ class AccountHttp(object):
 
     @staticmethod
     def create_xml(infos, file_name):
-        # log('创建xml文件')
+        # log.info('创建xml文件')
         if not os.path.exists(os.path.join(current_dir, 'xml')):
             os.mkdir('xml')
         data = etree.Element("data")
@@ -237,7 +235,7 @@ class AccountHttp(object):
         # print(dataxml.decode("utf-8"))
         file_name = os.path.join(current_dir, 'xml', file_name)
         etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
-        # log('完成xml文件')
+        # log.info('完成xml文件')
 
     @staticmethod
     def dedup(account_name):
@@ -253,7 +251,7 @@ class AccountHttp(object):
         count = 0
         while True:
             count += 1
-            log('第{}次'.format(count))
+            log.info('第{}次'.format(count))
             account_name = ADD_COLLECTION if ADD_COLLECTION else self.account_list()
             if account_name is None:
                 continue
@@ -264,7 +262,7 @@ class AccountHttp(object):
                 if html_account:
                     html = html_account
                 else:
-                    log('找到不到微信号首页: '.format(account_name))
+                    log.info('找到不到微信号首页: '.format(account_name))
                     continue
                 urls_article = self.urls_article(html)
                 # 确定account信息
@@ -285,13 +283,13 @@ class AccountHttp(object):
                     try:
                         article.create(url, account)
                     except RuntimeError as run_error:
-                        log('找不到浏览器 {}'.format(run_error))
-                    log('第{}条 文章标题: {}'.format(page_count, article.title))
-                    log("当前文章url: {}".format(url))
+                        log.info('找不到浏览器 {}'.format(run_error))
+                    log.info('第{}条 文章标题: {}'.format(page_count, article.title))
+                    log.info("当前文章url: {}".format(url))
                     entity = JsonEntity(article, account)
-                    log('当前文章ID: {}'.format(entity.id))
+                    log.info('当前文章ID: {}'.format(entity.id))
                     if entity.id in ids:
-                        log('当前文章已存在，跳过')
+                        log.info('当前文章已存在，跳过')
                         continue
                     backpack = Backpack()
                     backpack.create(entity)
@@ -301,12 +299,12 @@ class AccountHttp(object):
                     # ftp包
                     ftp_info = Ftp(entity)
                     name_xml = ftp_info.hash_md5(ftp_info.url)
-                    log('当前文章xml: {}'.format(name_xml))
+                    log.info('当前文章xml: {}'.format(name_xml))
                     self.create_xml(ftp_info.ftp_dict(), name_xml)
                     ftp_list.append(name_xml)
                     # if page_count >= 3:
                     #     break
-                log("发包")
+                log.info("发包")
                 # todo 发包超时，修改MTU
                 if ftp_info is not None:
                     entity.uploads_ftp(ftp_info, ftp_list)
@@ -314,26 +312,26 @@ class AccountHttp(object):
                     # entity.uploads(backpack_list)
                     entity.uploads_datacenter_relay(backpack_list)
                     entity.uploads_datacenter_unity(backpack_list)
-                log("发包完成")
+                log.info("发包完成")
             except Exception as e:
-                log("解析公众号错误 {}".format(e))
+                log.exception("解析公众号错误 {}".format(e))
                 if 'chrome not reachable' in str(e):
                     raise RuntimeError('chrome not reachable')
                 continue
             # break
 
     def crack_sougou(self, url):
-        log('------开始处理未成功的URL：{}'.format(url))
+        log.info('------开始处理未成功的URL：{}'.format(url))
         if re.search('weixin\.sogou\.com', url):
-            log('------开始处理搜狗验证码------')
+            log.info('------开始处理搜狗验证码------')
             self.driver.get(url)
             time.sleep(2)
             if '搜公众号' in self.driver.page_source:
-                log('浏览器页面正常' + '直接返回')
+                log.info('浏览器页面正常' + '直接返回')
                 return
             try:
                 img = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
-                log('------出现验证码页面------')
+                log.info('------出现验证码页面------')
                 location = img.location
                 size = img.size
                 left = location['x']
@@ -354,12 +352,12 @@ class AccountHttp(object):
                     if res.get('Success'):
                         captch_input = res.get('Captcha')
                 except Exception as e:
-                    log('搜狗验证码获取失败'.format(e))
+                    log.info('搜狗验证码获取失败'.format(e))
                     with open(captcha_path, "rb") as f:
                         filebytes = f.read()
                     captch_input = captch_upload_image(filebytes)
-                    # log('------验证码：{}------'.format(captch_input))
-                log('------验证码：{}------'.format(captch_input))
+                    # log.info('------验证码：{}------'.format(captch_input))
+                log.info('------验证码：{}------'.format(captch_input))
                 if captch_input:
                     input_text = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeInput')))
                     input_text.clear()
@@ -369,36 +367,37 @@ class AccountHttp(object):
                     time.sleep(2)
                     try:
                         if '搜公众号' not in self.driver.page_source:
-                            log('验证失败')
+                            log.info('验证失败')
                             return
-                        log('------验证码正确------')
+                        log.info('------验证码正确------')
                     except Exception as e:
-                        log('--22222222----验证码输入错误------ {}'.format(e))
+                        log.info('--22222222----验证码输入错误------ {}'.format(e))
             except Exception as e:
-                log('------未跳转到验证码页面，跳转到首页，忽略------ {}'.format(e))
+                log.info('------未跳转到验证码页面，跳转到首页，忽略------ {}'.format(e))
 
         elif re.search('mp\.weixin\.qq\.com', url):
-            log('------开始处理微信验证码------')
+            log.info('------开始处理微信验证码------')
             cert = random.random()
             image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
             respones = self.s.get(image_url, cookies=self.cookies)
             captch_input = captch_upload_image(respones.content)
-            log('------验证码：{}------'.format(captch_input))
+            log.info('------验证码：{}------'.format(captch_input))
             data = {
                 'cert': cert,
                 'input': captch_input
             }
-            self.s.post(image_url, cookies=self.cookies, data=data)
-            log('------cookies已更新------')
+            r = self.s.post(image_url, cookies=self.cookies, data=data)
+            log.info('------cookies已更新------{}'.format(r.status_code))
 
 
 if __name__ == '__main__':
     # test = None
-    # while True:
-    try:
-        test = AccountHttp()
-        test.run()
-    except Exception as error:
-        log('获取账号错误，重启程序{}'.format(error))
-    finally:
-        driver.quit()
+    while True:
+        try:
+            test = AccountHttp()
+            log.info("初始化")
+            test.run()
+        except Exception as error:
+            log.exception('获取账号错误，重启程序{}'.format(error))
+        # finally: # 会导致程序崩溃
+        #     driver.quit()

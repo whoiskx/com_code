@@ -92,7 +92,7 @@ def localhost_mysql():
 
 def mongo_conn():
     conn = pymongo.MongoClient('120.78.237.213', 27017)
-    _db = conn.test
+    _db = conn.account_count
     return _db
 
 
