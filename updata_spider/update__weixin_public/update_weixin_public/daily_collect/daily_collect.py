@@ -145,13 +145,20 @@ class AccountHttp(object):
                 db[collection_name].insert({'account_count': 1, 'article_count': 0,
                                             'start': time_strftime(), 'end': None, 'save_name': save_name()})
                 log.info("插入mongo成功")
-            else:
-                for item in db[collection_name].find():
+            exist = False
+            for item in db[collection_name].find():
+                if item.get('save_name') == save_name():
                     count = item.get('account_count') + 1
-                    log.info(item)
                     db[collection_name].update({'save_name': save_name()},
                                                {'$set': {'account_count': count, 'end': time_strftime()}}, upsert=True)
+                    exist = True
                     log.info("更新mongo成功")
+            if exist:
+                pass
+            else:
+                db[collection_name].insert({'account_count': 1, 'article_count': 0,
+                                            'start': time_strftime(), 'end': None, 'save_name': save_name()})
+                log.info("插入mongo成功")
         except Exception as e:
             log.info('获取账号出错：{}'.format(e))
             return None
@@ -185,9 +192,11 @@ class AccountHttp(object):
         #     db[collection_name].insert({'account_count': 1, 'article_count': 0,
         #                                 'start': time_strftime(), 'end': None})
         for item in db[collection_name].find():
-            count = count_article + item.get('article_count')
-            db[collection_name].update({'save_name': save_name()},
+            if item.get('save_name') == save_name():
+                count = count_article + item.get('article_count')
+                db[collection_name].update({'save_name': save_name()},
                                        {'$set': {'article_count': count}}, upsert=True)
+                log.info('文章数量已更新')
         return urls
 
     @staticmethod

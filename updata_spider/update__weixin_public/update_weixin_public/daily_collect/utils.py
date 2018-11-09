@@ -20,7 +20,7 @@ def get_log(name=''):
     # %(levelname)s line:%(lineno)d %(message)s", datefmt='%Y-%m-%d %H:%M:%S')
     log_formatter = '%(asctime)s,%(name)s,%(levelname)s,%(lineno)d,%(message)s'
     formatter = logging.Formatter(log_formatter)
-    file_handle = logging.FileHandler('log_daily_collect.txt', encoding='utf-8')
+    file_handle = logging.FileHandler('log.txt', encoding='utf-8')
     file_handle.setFormatter(formatter)
     logger.addHandler(file_handle)
     # 输出到console
@@ -113,7 +113,7 @@ def save_name():
         if name:
             return name
         elif len(name) == 0:
-            name = uuid.uuid1()
+            name = str(uuid.uuid1())
     with open('save_name.txt', 'w') as f2:
         if name:
             f2.write(str(name))
