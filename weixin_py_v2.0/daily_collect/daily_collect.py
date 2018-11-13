@@ -12,7 +12,7 @@ from lxml import etree
 
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack, Ftp
-from config import get_mysql_new, GETCAPTCHA_URL, mongo_conn, ADD_COLLECTION
+from config import get_mysql_new, GETCAPTCHA_URL, mongo_conn, ADD_COLLECTION, GET_ACCOUNT_FROM_MYSQL
 from utils import uploads_mysql, get_log, driver, get_captcha_path, time_strftime, save_name
 
 from selenium.webdriver.common.by import By
@@ -133,7 +133,7 @@ class AccountHttp(object):
         #     log.info('获取账号列表错误 {}'.format(e))
         #     time.sleep(5)
         # 统计账号
-        collection_name = 'run_count'
+        collection_name = 'run_counts'
         try:
             url = 'http://dispatch.yunrunyuqing.com:38082/ScheduleDispatch/dispatch?type=8'
             resp = requests.get(url, timeout=30)
@@ -146,12 +146,21 @@ class AccountHttp(object):
                                             'start': time_strftime(), 'end': None, 'save_name': save_name()})
                 log.info("插入mongo成功")
             else:
+                updated = False
                 for item in db[collection_name].find():
-                    count = item.get('account_count') + 1
-                    log.info(item)
-                    db[collection_name].update({'save_name': save_name()},
-                                               {'$set': {'account_count': count, 'end': time_strftime()}}, upsert=True)
-                    log.info("更新mongo成功")
+                    if item.get('save_name') == save_name():
+                        count = item.get('account_count') + 1  # if item.get('account_count') else 0
+                        log.info(item)
+                        db[collection_name].update({'save_name': save_name()},
+                                                   {'$set': {'account_count': count, 'end': time_strftime()}}, upsert=True)
+                        updated = True
+                        log.info("更新mongo成功")
+                        break
+                if updated is False:
+                    log.info('找不到save_name，需要插入')
+                    db[collection_name].insert({'account_count': 1, 'article_count': 0,
+                                                'start': time_strftime(), 'end': None, 'save_name': save_name()})
+                    log.info("插入mongo成功")
         except Exception as e:
             log.info('获取账号出错：{}'.format(e))
             return None
@@ -159,7 +168,7 @@ class AccountHttp(object):
 
     @staticmethod
     def urls_article(html):
-        collection_name = 'run_count'
+        collection_name = 'run_counts'
         items = re.findall('"content_url":".*?,"copyright_stat"', html)
         urls = []
         for item in items:
