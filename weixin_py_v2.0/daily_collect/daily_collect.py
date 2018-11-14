@@ -12,7 +12,7 @@ from lxml import etree
 
 from pyquery import PyQuery as pq
 from models import JsonEntity, Article, Account, Backpack, Ftp
-from config import get_mysql_new, GETCAPTCHA_URL, mongo_conn, ADD_COLLECTION, GET_ACCOUNT_FROM_MYSQL
+from config import get_mysql_new, GETCAPTCHA_URL, mongo_conn, ADD_COLLECTION, GET_ACCOUNT_FROM_MYSQL, JUDEG
 from utils import uploads_mysql, get_log, driver, get_captcha_path, time_strftime, save_name
 
 from selenium.webdriver.common.by import By
@@ -32,6 +32,7 @@ class AccountHttp(object):
         self.account = ''
         self.name = ''
         self.search_name = ''
+        self.tags = ''
         self.s = requests.Session()
         self.s.keep_alive = False  # 关闭多余连接
         self.s.adapters.DEFAULT_RETRIES = 5  # 增加重连次数
@@ -107,7 +108,7 @@ class AccountHttp(object):
                 continue
 
     @staticmethod
-    def account_list():
+    def get_account():
         # 老版
         # url = 'http://124.239.144.181:7114/Schedule/dispatch?type=8'
         # # url = 'http://183.131.241.60:38011/nextaccount?label=5'
@@ -152,7 +153,8 @@ class AccountHttp(object):
                         count = item.get('account_count') + 1  # if item.get('account_count') else 0
                         log.info(item)
                         db[collection_name].update({'save_name': save_name()},
-                                                   {'$set': {'account_count': count, 'end': time_strftime()}}, upsert=True)
+                                                   {'$set': {'account_count': count, 'end': time_strftime()}},
+                                                   upsert=True)
                         updated = True
                         log.info("更新mongo成功")
                         break
@@ -248,11 +250,16 @@ class AccountHttp(object):
         etree.ElementTree(data).write(file_name, encoding='utf-8', pretty_print=True)
         # log.info('完成xml文件')
 
+    def get_tags(self):
+        url = 'http://183.131.241.60:38011/GetTag?account={}'.format(self.search_name)
+        resp = requests.get(url)
+        log.info(resp.text)
+        return resp.text
+
     @staticmethod
     def dedup(account_name):
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
-        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?' \
-                     'sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
+        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
             account_name, date_today)
         get_ids = requests.get(bottom_url, timeout=21)
         ids = get_ids.text
@@ -263,73 +270,78 @@ class AccountHttp(object):
         while True:
             count += 1
             log.info('第{}次'.format(count))
-            account_name = ADD_COLLECTION if ADD_COLLECTION else self.account_list()
-            if account_name is None:
+            # ADD_COLLECTION 补采账号  get_account 日常采集； 使用account_list 兼容单个账号和账号列表
+            account_list = ADD_COLLECTION if ADD_COLLECTION else [self.get_account()]
+            if not account_list:
+                time.sleep(10)
                 continue
-            # for account_name in account_list:
-            try:
-                self.search_name = account_name
-                html_account = self.account_homepage()
-                if html_account:
-                    html = html_account
-                else:
-                    log.info('找到不到微信号首页: '.format(account_name))
-                    continue
-                urls_article = self.urls_article(html)
-                # 确定account信息
-                account = Account()
-                account.name = self.name
-                account.account = account_name
-                account.get_account_id()
-                # 判重
-                ids = self.dedup(account_name)
-                entity = None
-                backpack_list = []
-                ftp_list = []
-                ftp_info = None
-                for page_count, url in enumerate(urls_article):
-                    # if page_count < 15:
-                    #     continue
-                    article = Article()
-                    try:
-                        article.create(url, account)
-                    except RuntimeError as run_error:
-                        log.info('找不到浏览器 {}'.format(run_error))
-                    log.info('第{}条 文章标题: {}'.format(page_count, article.title))
-                    log.info("当前文章url: {}".format(url))
-                    entity = JsonEntity(article, account)
-                    log.info('当前文章ID: {}'.format(entity.id))
-                    if entity.id in ids:
-                        log.info('当前文章已存在，跳过')
+            for account_name in account_list:
+                try:
+                    self.search_name = account_name
+                    html_account = self.account_homepage()
+                    if html_account:
+                        html = html_account
+                    else:
+                        log.info('找到不到微信号首页: '.format(account_name))
                         continue
-                    backpack = Backpack()
-                    backpack.create(entity)
-                    backpack_list.append(backpack.create_backpack())
-                    # self.save_to_mysql(entity)
-                    self.save_to_mongo(entity.to_dict())
-                    # ftp包
-                    ftp_info = Ftp(entity)
-                    name_xml = ftp_info.hash_md5(ftp_info.url)
-                    log.info('当前文章xml: {}'.format(name_xml))
-                    self.create_xml(ftp_info.ftp_dict(), name_xml)
-                    ftp_list.append(name_xml)
-                    # if page_count >= 3:
-                    #     break
-                log.info("发包")
-                # todo 发包超时，修改MTU
-                if ftp_info is not None:
-                    entity.uploads_ftp(ftp_info, ftp_list)
-                if entity:
-                    # entity.uploads(backpack_list)
-                    entity.uploads_datacenter_relay(backpack_list)
-                    entity.uploads_datacenter_unity(backpack_list)
-                log.info("发包完成")
-            except Exception as e:
-                log.exception("解析公众号错误 {}".format(e))
-                if 'chrome not reachable' in str(e):
-                    raise RuntimeError('chrome not reachable')
-                continue
-            # break
+                    urls_article = self.urls_article(html)
+                    # 确定account信息
+                    account = Account()
+                    account.name = self.name
+                    account.account = account_name
+                    account.tags = self.get_tags()
+                    account.get_account_id()
+                    # 判重
+                    ids = self.dedup(account_name) if JUDEG else ''
+                    entity = None
+                    backpack_list = []
+                    ftp_list = []
+                    ftp_info = None
+                    for page_count, url in enumerate(urls_article):
+                        # if page_count < 15:
+                        #     continue
+                        article = Article()
+                        try:
+                            article.create(url, account)
+                        except RuntimeError as run_error:
+                            log.info('找不到浏览器 {}'.format(run_error))
+                        log.info('第{}条 文章标题: {}'.format(page_count, article.title))
+                        log.info("当前文章url: {}".format(url))
+                        entity = JsonEntity(article, account)
+                        log.info('当前文章ID: {}'.format(entity.id))
+                        if entity.id in ids and JUDEG is True:
+                            log.info('当前文章已存在，跳过')
+                            continue
+                        backpack = Backpack()
+                        backpack.create(entity)
+                        backpack_list.append(backpack.create_backpack())
+                        # self.save_to_mysql(entity)
+                        # self.save_to_mongo(entity.to_dict())
+                        # ftp包
+                        ftp_info = Ftp(entity)
+                        name_xml = ftp_info.hash_md5(ftp_info.url)
+                        log.info('当前文章xml: {}'.format(name_xml))
+                        self.create_xml(ftp_info.ftp_dict(), name_xml)
+                        ftp_list.append(name_xml)
+                        # break
+                        # if page_count >= 3:
+                        #     break
+                    log.info("开始发包")
+                    # todo 发包超时，修改MTU
+                    if ftp_info is not None:
+                        entity.uploads_ftp(ftp_info, ftp_list)
+                        log.info("ftp发包完成")
+                    if entity and backpack_list:
+                        # entity.uploads(backpack_list)
+                        entity.uploads_datacenter_relay(backpack_list)
+                        entity.uploads_datacenter_unity(backpack_list)
+                        log.info("数据中心，三合一，发包完成")
+                except Exception as e:
+                    log.exception("解析公众号错误 {}".format(e))
+                    if 'chrome not reachable' in str(e):
+                        raise RuntimeError('chrome not reachable')
+            if ADD_COLLECTION:
+                break
 
     def crack_sougou(self, url):
         log.info('------开始处理未成功的URL：{}'.format(url))
@@ -408,6 +420,9 @@ if __name__ == '__main__':
             test = AccountHttp()
             log.info("初始化")
             test.run()
+            if ADD_COLLECTION:
+                log.info('补采完成')
+                break
         except Exception as error:
             log.exception('获取账号错误，重启程序{}'.format(error))
         # finally: # 会导致程序崩溃

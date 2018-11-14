@@ -105,7 +105,7 @@ class Account(object):
     def get_account_id(self):
         get_account_id = 'http://60.190.238.178:38010/search/common/wxaccount/select?' \
                          'token=9ef358ed-b766-4eb3-8fde-a0ccf84659db&account={}'.format(
-                            self.account)
+            self.account)
         url_resp = requests.get(get_account_id)
         json_obj = json.loads(url_resp.text)
         results = json_obj.get('results')
@@ -144,6 +144,7 @@ class JsonEntity(object):
         self.account = account.account
         self.id = self.hash_md5(article.title + self.time)
         self.image_url = article.image_url
+        self.tags = account.tags
 
     @staticmethod
     def hash_md5(s):
@@ -303,7 +304,7 @@ class JsonEntity(object):
                         'ClassifyID': '',
                         'IsGarbage': 0,
                         'ShortUrl': '',
-                        'Tags': '',
+                        'Tags': backpack['body']['Tags'],
                         'DefinedSite': '',
                         'CrawlerType': '1',
                     }, ensure_ascii=False)
@@ -437,6 +438,7 @@ class Backpack(object):
         self.AddOn = int(entity.addon + '000')
         self.CrawlerType = '1'
         self.ImageUrl = entity.image_url
+        self.Tags = entity.tags
 
     def to_dict(self):
         return self.__dict__

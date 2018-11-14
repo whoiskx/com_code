@@ -14,10 +14,13 @@ GETCAPTCHA_URL_BACKUP = 'http://183.238.76.204:38015/GetCaptcha'
 
 # 补采
 # ['bdb1937', 'dgshs2018', 'pd0351', 'guyuanxuanjiang', 'dgrb789']
-ADD_COLLECTION = []
+ADD_COLLECTION = ['ddzxdy']
 
 # 直接从数据库拿账号
 GET_ACCOUNT_FROM_MYSQL = False
+
+# 判重
+JUDEG = True
 
 
 def mysql_tag_code():
