@@ -352,7 +352,7 @@ class JsonEntity(object):
                 zf.write(os.path.join(current_dir, 'xml', file_name), file_name)
                 os.remove(os.path.join(current_dir, 'xml', file_name))
         # time.sleep(5)
-        ftp = FTP(timeout=7)  # 设置变量
+        ftp = FTP(timeout=3)  # 设置变量
         ftp.set_debuglevel = 1
         # socket.setdefaulttimeout(timeout)
         # 发包方式一
