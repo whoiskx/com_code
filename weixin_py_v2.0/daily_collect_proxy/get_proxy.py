@@ -29,16 +29,17 @@ def abuyun_proxy():
         "https": proxy_meta,
     }
 
-    resp = requests.get(target_url, proxies=proxies)
-
-    print(resp.status_code)
-    print(resp.text)
-    s = re.search(r'\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}', resp.text)
-    print(s.group())
-    proxies = {
-        "http": "http://{}:9020".format(s.group()),
-        "https": "http://{}:9020".format(s.group()),
-    }
+    # resp = requests.get(target_url, proxies=proxies)
+    #
+    # print(resp.status_code)
+    # # print(resp.text)
+    # s = re.search(r'\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}', resp.text)
+    # print(s.group())
+    # proxies = {
+    #     "http": "http://{}:9020".format(s.group()),
+    #     "https": "http://{}:9020".format(s.group()),
+    # }
+    # print(proxies)
     return proxies
 
 
@@ -62,4 +63,4 @@ if __name__ == '__main__':
     </table>
     </body>
     </html>'''
-    proxy()
+    abuyun_proxy()

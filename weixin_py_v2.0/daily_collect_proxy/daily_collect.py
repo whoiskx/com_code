@@ -25,7 +25,6 @@ from get_proxy import abuyun_proxy
 
 current_dir = os.getcwd()
 log = get_log('daily_collect')
-proxies = abuyun_proxy()
 
 
 class AccountHttp(object):
@@ -51,6 +50,7 @@ class AccountHttp(object):
         self.driver.set_page_load_timeout(15)
         self.driver.set_script_timeout(15)
         self.wait = WebDriverWait(self.driver, 5)
+        self.proxies = abuyun_proxy()
 
     def account_homepage(self):
         # 搜索账号并返回公众号主页
@@ -71,11 +71,38 @@ class AccountHttp(object):
             if self.search_name == e(".info").eq(0).text().replace('微信号：', ''):
                 account_link = e(".tit").find('a').attr('href')
                 self.name = e(".tit").eq(0).text()
-                homepage = self.s.get(account_link, cookies=self.cookies, proxies=proxies)
-                if '<title>请输入验证码 </title>' in homepage.text:
-                    self.crack_sougou(account_link)
-                    homepage = self.s.get(account_link, cookies=self.cookies, proxies=proxies)
-                return homepage.text
+                count_proxy = 0
+                while True:
+                    count_proxy += 1
+                    if count_proxy > 6:
+                        break
+                    try:
+                        log.info(self.proxies)
+                        homepage = self.s.get(account_link, cookies=self.cookies, proxies=self.proxies)
+                        if '<title>请输入验证码 </title>' in homepage.text:
+                            log.info('需要输入验证码，重新获取代理')
+                            self.proxies = abuyun_proxy()
+                            continue
+                        else:
+                            return homepage.text
+                    except Exception as _e:
+                        log.info('重新获取代理:{}'.format(_e))
+                        self.proxies = abuyun_proxy()
+
+                # if '<title>请输入验证码 </title>' in homepage.text:
+                #     # self.crack_sougou(account_link)
+                #     count_proxy = 0
+                #     while True:
+                #         count_proxy += 1
+                #         if count_proxy > 5:
+                #             break
+                #         try:
+                #             log.info(self.proxies)
+                #             homepage = self.s.get(account_link, cookies=self.cookies, proxies=self.proxies)
+                #             break
+                #         except Exception as e:
+                #             log.info('重新获取代理:{}'.format(e))
+                #             self.proxies = abuyun_proxy()
             elif len(e(".tit").eq(0).text()) > 1:
                 log.info("不能匹配正确的公众号: {}".format(self.search_name))
                 return
@@ -190,17 +217,21 @@ class AccountHttp(object):
             urls.append(url)
         # 统计文章数量
         count_article = len(urls)
-        if count_article == 0:
-            return urls
-        db = mongo_conn()
-        # result = db[collection_name].find({}, {'article_count': 1})
-        # if result.count() == 0:
-        #     db[collection_name].insert({'account_count': 1, 'article_count': 0,
-        #                                 'start': time_strftime(), 'end': None})
-        for item in db[collection_name].find():
-            count = count_article + item.get('article_count')
-            db[collection_name].update({'save_name': save_name()},
-                                       {'$set': {'article_count': count}}, upsert=True)
+        log.info('文章数量:{}'.format(count_article))
+        try:
+            if count_article == 0:
+                return urls
+            db = mongo_conn()
+            # result = db[collection_name].find({}, {'article_count': 1})
+            # if result.count() == 0:
+            #     db[collection_name].insert({'account_count': 1, 'article_count': 0,
+            #                                 'start': time_strftime(), 'end': None})
+            for item in db[collection_name].find():
+                count = count_article + item.get('article_count')
+                db[collection_name].update({'save_name': save_name()},
+                                           {'$set': {'article_count': count}}, upsert=True)
+        except Exception as e:
+            log.exception(e)
         return urls
 
     @staticmethod
@@ -253,7 +284,9 @@ class AccountHttp(object):
         # log.info('完成xml文件')
 
     def get_tags(self):
+        # 获取标签
         url = 'http://183.131.241.60:38011/GetTag?account={}'.format(self.search_name)
+        log.info(self.search_name)
         resp = requests.get(url)
         log.info(resp.text)
         return resp.text
