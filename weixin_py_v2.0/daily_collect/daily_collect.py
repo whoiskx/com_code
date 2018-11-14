@@ -291,6 +291,9 @@ class AccountHttp(object):
                     account.account = account_name
                     account.tags = self.get_tags()
                     account.get_account_id()
+                    if not account.account_id:
+                        log.info('没有account_id'.format(self.name))
+                        break
                     # 判重
                     ids = self.dedup(account_name) if JUDEG else ''
                     entity = None
@@ -323,7 +326,7 @@ class AccountHttp(object):
                         log.info('当前文章xml: {}'.format(name_xml))
                         self.create_xml(ftp_info.ftp_dict(), name_xml)
                         ftp_list.append(name_xml)
-                        # break
+                        break
                         # if page_count >= 3:
                         #     break
                     log.info("开始发包")

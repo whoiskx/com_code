@@ -4,6 +4,7 @@ import os
 import random
 import re
 import time
+import threading
 
 import requests
 import json
@@ -75,6 +76,7 @@ class AccountHttp(object):
                 while True:
                     count_proxy += 1
                     if count_proxy > 10:
+                        log.error('未能获取有效代理:{}'.format(self.search_name))
                         break
                     try:
                         log.info(self.proxies)
@@ -120,6 +122,14 @@ class AccountHttp(object):
                 while True:
                     try_count += 1
                     self.crack_sougou(search_url)
+
+                    # if lock.acquire():
+                    #     try:
+                    #         self.crack_sougou(search_url)
+                    #     except Exception as e:
+                    #         log.info(e)
+                    #     finally:
+                    #         lock.release()
                     if '搜公众号' in self.driver.page_source:
                         log.info('------开始更新cookies------')
                         cookies = self.driver.get_cookies()
@@ -288,7 +298,7 @@ class AccountHttp(object):
         url = 'http://183.131.241.60:38011/GetTag?account={}'.format(self.search_name)
         log.info(self.search_name)
         resp = requests.get(url)
-        log.info(resp.text)
+        log.info('获取标签结果：{}'.format(resp.text))
         return resp.text
 
     @staticmethod
@@ -339,7 +349,7 @@ class AccountHttp(object):
                         try:
                             article.create(url, account)
                         except RuntimeError as run_error:
-                            log.info('找不到浏览器 {}'.format(run_error))
+                            log.info('微信验证码错误 {}'.format(run_error))
                         log.info('第{}条 文章标题: {}'.format(page_count, article.title))
                         log.info("当前文章url: {}".format(url))
                         entity = JsonEntity(article, account)
@@ -382,7 +392,14 @@ class AccountHttp(object):
         log.info('------开始处理未成功的URL：{}'.format(url))
         if re.search('weixin\.sogou\.com', url):
             log.info('------开始处理搜狗验证码------')
-            self.driver.get(url)
+            global lock
+            if lock.acquire():
+                try:
+                    self.driver.get(url)
+                except Exception as e:
+                    log.exception(e)
+                finally:
+                    lock.release()
             time.sleep(2)
             if '搜公众号' in self.driver.page_source:
                 log.info('浏览器页面正常' + '直接返回')
@@ -448,8 +465,7 @@ class AccountHttp(object):
             log.info('------cookies已更新------{}'.format(r.status_code))
 
 
-if __name__ == '__main__':
-    # test = None
+def main():
     while True:
         try:
             test = AccountHttp()
@@ -460,5 +476,30 @@ if __name__ == '__main__':
                 break
         except Exception as error:
             log.exception('获取账号错误，重启程序{}'.format(error))
-        # finally: # 会导致程序崩溃
-        #     driver.quit()
+
+
+if __name__ == '__main__':
+    # test = None
+    # while True:
+    #     try:
+    #         test = AccountHttp()
+    #         log.info("初始化")
+    #         test.run()
+    #         if ADD_COLLECTION:
+    #             log.info('补采完成')
+    #             break
+    #     except Exception as error:
+    #         log.exception('获取账号错误，重启程序{}'.format(error))
+    #     # finally: # 会导致程序崩溃
+    #     driver.quit()
+    thread_list = []
+    lock = threading.Lock()
+    for i in range(5):
+        t = threading.Thread(target=main)
+        t.start()
+        time.sleep(5)
+        thread_list.append(t)
+
+    for t in thread_list:
+        t.join()
+    log.info('完成')

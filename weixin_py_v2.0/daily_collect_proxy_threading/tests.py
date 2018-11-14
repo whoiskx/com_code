@@ -16,9 +16,12 @@ def main():
     # file_handle.setFormatter(formatter)
     # logger.addHandler(file_handle)
     # logger.critical('123')
-    current_dir = os.getcwd()
-    if not os.path.exists(os.path.join(current_dir, 'xml')):
-        os.mkdir('xml')
+    # current_dir = os.getcwd()
+    # if not os.path.exists(os.path.join(current_dir, 'xml')):
+    #     os.mkdir('xml')
+    global s
+    s += 1
+    print(s)
 
 
 if __name__ == '__main__':
@@ -29,8 +32,11 @@ if __name__ == '__main__':
     # driver = webdriver.Chrome(chrome_options=chrome_options)
     #
     # driver2 = webdriver.Chrome(chrome_options=chrome_options)
-    from utils import driver
-    driver1 = driver
-    driver2 = driver
-    print( driver1 is driver2)
-    time.sleep(5)
+    s = 1
+    main()
+    print(s)
+    # from utils import driver
+    # driver1 = driver
+    # driver2 = driver
+    # print( driver1 is driver2)
+    # time.sleep(5)

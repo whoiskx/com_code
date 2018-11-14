@@ -12,6 +12,7 @@ import datetime
 import hashlib
 import uuid
 import zipfile
+from get_proxy import abuyun_proxy
 
 log = get_log('models').info
 
@@ -43,11 +44,31 @@ class Article(object):
 
     def create(self, url, account_model):
         self.url = url
-        resp = requests.get(self.url)
-        if '访问过于频繁，请用微信扫描二维码进行访问' in resp.text:
-            log('访问过于频繁，请用微信扫描二维码进行访问')
-            time.sleep(600)
-            raise RuntimeError('访问过于频繁，请用微信扫描二维码进行访问')
+        proxies = abuyun_proxy()
+        count_loop = 0
+        while True:
+            count_loop += 1
+            if count_loop >= 10:
+                break
+            try:
+                resp = requests.get(self.url, proxies=proxies)
+                proxy_count = 0
+                while True:
+                    proxy_count += 1
+                    if proxy_count > 10:
+                        log('未获取有效代理')
+                        raise RuntimeError('访问过于频繁，请用微信扫描二维码进行访问')
+                    if '访问过于频繁，请用微信扫描二维码进行访问' in resp.text:
+                        proxies = abuyun_proxy()
+                        resp = requests.get(self.url, proxies=proxies)
+                        log('访问过于频繁，请用微信扫描二维码进行访问')
+                    else:
+                        break
+                break
+            except requests.exceptions.ProxyError as e:
+                log('代理请求Max：{}'.format(e))
+                    # time.sleep(600)
+                # raise RuntimeError('访问过于频繁，请用微信扫描二维码进行访问')
         e = pq(resp.text)
         # 匹配分享的文章 好像失效
         if 'var ct=' not in resp.text:
@@ -336,7 +357,7 @@ class JsonEntity(object):
         try:
             ftp.storbinary(cmd, open('{}/ftp/{}'.format(current_dir, filename), 'rb'))
         except Exception as e:
-            log('上传ftp异常:'.format(e))
+            log('上传ftp异常:{}'.format(e))
 
     def uploads_ftp(self, ftp_info, ftp_list):
         # if len(ftp_list) > 15:

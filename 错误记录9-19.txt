@@ -19,3 +19,9 @@ db['daily_collection'].insert(entity.update({'collection': T}))
 所有的顶级代码在模块导入时都会被执行.
 
 用单下划线(_)开头表示模块变量或函数是protected的(使用import * from时不会包含).
+
+Python 函数内部引用全局变量 需要声明global  才能修改，直接修改报错
+
+多线程
+    webdriver非线程安全
+    由于线程的调度是由操作系统决定的
