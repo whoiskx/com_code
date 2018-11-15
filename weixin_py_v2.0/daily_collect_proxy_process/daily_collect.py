@@ -5,6 +5,7 @@ import random
 import re
 import time
 import threading
+from multiprocessing import Process
 
 import requests
 import json
@@ -317,7 +318,7 @@ class AccountHttp(object):
         count = 0
         while True:
             # length = len(threading.enumerate())  # 枚举返回个列表
-            log.info('当前运行的线程数为：{}'.format(threading.active_count()))
+            # log.info('当前运行的线程数为：{}'.format(threading.active_count()))
             count += 1
             log.info('第{}次'.format(count))
             # ADD_COLLECTION 补采账号  get_account 日常采集； 使用account_list 兼容单个账号和账号列表
@@ -397,19 +398,19 @@ class AccountHttp(object):
         log.info('------开始处理未成功的URL：{}'.format(url))
         if re.search('weixin\.sogou\.com', url):
             log.info('------开始处理搜狗验证码------')
-            global lock
-            if lock.acquire():
-                try:
-                    self.driver.get(url)
-                except WebDriverException as e:
-                    log.error('浏览器异常', e)
-                    if self.driver:
-                        self.driver.quit()
-                    self.driver = GetDrver().driver
-                except Exception as e:
-                    log.exception(e)
-                finally:
-                    lock.release()
+            # global lock
+            # if lock.acquire():
+            try:
+                self.driver.get(url)
+            except WebDriverException as e:
+                log.error('浏览器异常', e)
+                if self.driver:
+                    self.driver.quit()
+                self.driver = GetDrver().driver
+            # except Exception as e:
+            #     log.exception(e)
+            # finally:
+            #     lock.release()
             time.sleep(2)
             if '搜公众号' in self.driver.page_source:
                 log.info('浏览器页面正常' + '直接返回')
@@ -475,9 +476,10 @@ class AccountHttp(object):
             log.info('------cookies已更新------{}'.format(r.status_code))
 
 
-def main():
+def main(name):
     while True:
         try:
+            log.info("start rocess name is {}".format(name))
             test = AccountHttp()
             log.info("初始化")
             test.run()
@@ -486,6 +488,8 @@ def main():
                 break
         except Exception as error:
             log.exception('获取账号错误，重启程序{}'.format(error))
+            log.info("exception rocess name is {}".format(name))
+    log.error("end rocess name is {}".format(name))
 
 
 if __name__ == '__main__':
@@ -502,14 +506,17 @@ if __name__ == '__main__':
     #         log.exception('获取账号错误，重启程序{}'.format(error))
     #     # finally: # 会导致程序崩溃
     #     driver.quit()
-    thread_list = []
-    lock = threading.Lock()
-    for i in range(5):
-        t = threading.Thread(target=main)
-        t.start()
-        time.sleep(5)
-        thread_list.append(t)
 
-    for t in thread_list:
-        t.join()
-    log.info('完成')
+    # import multiprocessing
+    # log.info("The number of CPU is:" + str(multiprocessing.cpu_count()))
+    # proces_list = []
+    # for i in range(2):
+    #     proc = Process(target=main, args=(i,))
+    #     proc.start()
+    #     time.sleep(5)
+    #     proces_list.append(proc)
+    # for p in proces_list:
+    #     p.join()
+    # log.info('完成')
+
+    main('1')

@@ -1,4 +1,0 @@
-搜公众号 - requests 获取页面源码
-    1. 初始requests请求  response.text 正常
-    2. 连续多次, response.text 乱码
-    3. 用浏览器打开，带上浏览器Cookie，response.text 正常，不再乱码
