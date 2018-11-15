@@ -127,3 +127,12 @@ cookiestr = ';'.join(item for item in cookie)  
 .py 文件
 
 grep -C 1000 -m 3  '访问过于频繁' log.txt
+
+SSH 代理
+proxies = {
+        'https': "http://localhost:1080",
+        'http': 'http://127.0.0.1:1080'
+
+    }
+
+--no-sandbox 会导致 webdriver无法退出
