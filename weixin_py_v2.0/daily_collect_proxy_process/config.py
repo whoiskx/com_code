@@ -19,7 +19,7 @@ GET_ACCOUNT_FROM_MYSQL = False
 # 判重
 JUDEG = True
 # 使用代理
-USE_PROXY = True
+USE_PROXY = False
 
 
 def mysql_tag_code():

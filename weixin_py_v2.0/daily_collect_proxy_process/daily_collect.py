@@ -349,6 +349,7 @@ class AccountHttp(object):
                     ftp_list = []
                     ftp_info = None
                     for page_count, url in enumerate(urls_article):
+                        break
                         # if page_count < 15:
                         #     continue
                         article = Article()
@@ -507,16 +508,16 @@ if __name__ == '__main__':
     #     # finally: # 会导致程序崩溃
     #     driver.quit()
 
-    # import multiprocessing
-    # log.info("The number of CPU is:" + str(multiprocessing.cpu_count()))
-    # proces_list = []
-    # for i in range(2):
-    #     proc = Process(target=main, args=(i,))
-    #     proc.start()
-    #     time.sleep(5)
-    #     proces_list.append(proc)
-    # for p in proces_list:
-    #     p.join()
-    # log.info('完成')
+    import multiprocessing
+    log.info("The number of CPU is:" + str(multiprocessing.cpu_count()))
+    proces_list = []
+    for i in range(2):
+        proc = Process(target=main, args=(i,))
+        proc.start()
+        time.sleep(5)
+        proces_list.append(proc)
+    for p in proces_list:
+        p.join()
+    log.info('完成')
 
-    main('1')
+    # main('1')

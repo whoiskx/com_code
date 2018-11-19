@@ -272,9 +272,9 @@ class AccountHttp(object):
             log.info('第{}次'.format(count))
             # ADD_COLLECTION 补采账号  get_account 日常采集； 使用account_list 兼容单个账号和账号列表
             account_list = ADD_COLLECTION if ADD_COLLECTION else [self.get_account()]
-            if not account_list:
-                time.sleep(10)
-                continue
+            if account_list is None:
+                log.info('调度队列为空，休眠5秒')
+                time.sleep(5)
             for account_name in account_list:
                 try:
                     self.search_name = account_name

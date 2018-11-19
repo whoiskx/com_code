@@ -66,7 +66,9 @@ class Article(object):
                         break
                 break
             except requests.exceptions.ProxyError as e:
-                log('代理请求Max：{}'.format(e))
+                log('代理请求ProxyError：{}'.format(e))
+            except requests.exceptions.ConnectionError as e:
+                log('代理请求ConnectionError：{}'.format(e))
                     # time.sleep(600)
                 # raise RuntimeError('访问过于频繁，请用微信扫描二维码进行访问')
         e = pq(resp.text)

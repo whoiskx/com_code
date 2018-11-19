@@ -83,10 +83,10 @@ class AccountHttp(object):
                         if '<title>请输入验证码 </title>' in homepage.text:
                             log.info('需要输入验证码，重新获取代理')
                             self.proxies = abuyun_proxy()
-                            if not self.proxies:
-                                self.crack_sougou(account_link)
-                                homepage = self.s.get(account_link, cookies=self.cookies)
-                                return homepage.text
+                            # if self.proxies is False:
+                            #     self.crack_sougou(account_link)
+                            #     homepage = self.s.get(account_link, cookies=self.cookies)
+                            #     return homepage.text
                             continue
                         else:
                             return homepage.text
@@ -489,27 +489,19 @@ def main():
 
 
 if __name__ == '__main__':
-    # test = None
-    # while True:
-    #     try:
-    #         test = AccountHttp()
-    #         log.info("初始化")
-    #         test.run()
-    #         if ADD_COLLECTION:
-    #             log.info('补采完成')
-    #             break
-    #     except Exception as error:
-    #         log.exception('获取账号错误，重启程序{}'.format(error))
-    #     # finally: # 会导致程序崩溃
-    #     driver.quit()
-    thread_list = []
-    lock = threading.Lock()
-    for i in range(5):
-        t = threading.Thread(target=main)
-        t.start()
-        time.sleep(5)
-        thread_list.append(t)
-
-    for t in thread_list:
-        t.join()
+    test = None
+    while True:
+        try:
+            test = AccountHttp()
+            log.info("初始化")
+            test.run()
+            if ADD_COLLECTION:
+                log.info('补采完成')
+                break
+        except Exception as error:
+            log.exception('获取账号错误，重启程序{}'.format(error))
+        # finally: # 会导致程序崩溃
+        driver.quit()
+    time.sleep(100)
     log.info('完成')
+    # main()

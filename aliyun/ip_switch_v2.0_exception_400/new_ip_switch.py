@@ -17,6 +17,8 @@ develop_env = False
 
 # if develop_env:
 
+# 关闭按钮
+# db.getCollection('aliyun_dns_copy').update({}, {Sset:{'close':true}}, false,true
 conn = pymongo.MongoClient('mongodb://120.78.237.213:27017')
 urun = conn.taskDnsSwitch
 

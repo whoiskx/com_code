@@ -41,11 +41,7 @@ class AccountHttp(object):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
                           'Chrome/68.0.3440.106 Safari/537.36',
         }
-        self.cookies = {'SUID': '4A72170E2613910A000000005BAC759D', 'ABTEST': '3|1538028956|v1', 'SUIR': '1538028956',
-                        'IPLOC': 'CN4401', 'SNUID': '5960051C121665C656C04D9E13C88607',
-                        'PHPSESSID': '80l6acdo9sq3uj357t00heqpg1', 'seccodeRight': 'success',
-                        'SUV': '00F347B50E17724A5BAC759DBEFB6849', 'successCount': '1|Thu, 27 Sep 2018 06:20:59 GMT',
-                        'refresh': '1', 'JSESSIONID': 'aaa73Xexaf2BmgEL80Bvw'}
+        self.cookies = {}
         self.driver = driver
         self.driver.set_page_load_timeout(15)
         self.driver.set_script_timeout(15)
@@ -76,17 +72,17 @@ class AccountHttp(object):
                     count_proxy += 1
                     if count_proxy > 10:
                         log.error('未能获取有效代理:{}'.format(self.search_name))
-                        break
+                        return
                     try:
                         log.info(self.proxies)
                         homepage = self.s.get(account_link, cookies=self.cookies, proxies=self.proxies)
                         if '<title>请输入验证码 </title>' in homepage.text:
                             log.info('需要输入验证码，重新获取代理')
                             self.proxies = abuyun_proxy()
-                            if not self.proxies:
-                                self.crack_sougou(account_link)
-                                homepage = self.s.get(account_link, cookies=self.cookies)
-                                return homepage.text
+                            # if self.proxies is False:
+                            #     self.crack_sougou(account_link)
+                            #     homepage = self.s.get(account_link, cookies=self.cookies)
+                            #     return homepage.text
                             continue
                         else:
                             return homepage.text
@@ -181,6 +177,9 @@ class AccountHttp(object):
             url = 'http://dispatch.yunrunyuqing.com:38082/ScheduleDispatch/dispatch?type=8'
             resp = requests.get(url, timeout=30)
             data = json.loads(resp.text).get('data')
+            if not data:
+                # 即返回None
+                return
             account = json.loads(data).get('account')
             db = mongo_conn()
             result = db[collection_name].find({})
@@ -206,9 +205,9 @@ class AccountHttp(object):
                                                 'start': time_strftime(), 'end': None, 'save_name': save_name()})
                     log.info("插入mongo成功")
         except Exception as e:
-            log.info('获取账号出错：{}'.format(e))
+            log.info('调度获取account出错：{}'.format(e))
             return None
-        return account
+        return [account]
 
     @staticmethod
     def urls_article(html):
@@ -235,39 +234,44 @@ class AccountHttp(object):
             if count_article == 0:
                 return urls
             db = mongo_conn()
-            # result = db[collection_name].find({}, {'article_count': 1})
-            # if result.count() == 0:
-            #     db[collection_name].insert({'account_count': 1, 'article_count': 0,
-            #                                 'start': time_strftime(), 'end': None})
+            result = db[collection_name].find({})
+            if result.count() == 0:
+                db[collection_name].insert({'save_name': save_name(), 'account_count': 1, 'article_count': 0,
+                                            'start': time_strftime(), 'end': None})
+                log.info('插入文章数成功')
             for item in db[collection_name].find():
-                count = count_article + item.get('article_count')
-                db[collection_name].update({'save_name': save_name()},
-                                           {'$set': {'article_count': count}}, upsert=True)
+                if item.get('save_name') == save_name():
+                    count = count_article + item.get('article_count') if item.get('article_count') else count_article
+                    db[collection_name].update({'save_name': save_name()},
+                                               {'$set': {'article_count': count}}, upsert=True)
+                    log.info('更新文章数量成功')
         except Exception as e:
             log.exception(e)
         return urls
 
-    @staticmethod
-    def save_to_mysql(entity):
-        # 上传数据库
-        # log.info('开始上传mysql')
-        sql = '''   
-                INSERT INTO 
-                    account_http(article_url, addon, account, account_id, author, id, title) 
-                VALUES 
-                    (%s, %s, %s, %s, %s, %s, %s)
-        '''
-        _tuple = (
-            entity.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author,
-            entity.id,
-            entity.title
-        )
-        try:
-            config_mysql = get_mysql_new()
-            uploads_mysql(config_mysql, sql, _tuple)
-        except Exception as e:
-            log.info('数据库上传错误 {}'.format(e))
-        # log.info('上传mysql完成')
+    # 已废弃
+    # @staticmethod
+    # def save_to_mysql(entity):
+    #     # 上传数据库
+    #     # log.info('开始上传mysql')
+    #     sql = '''
+    #             INSERT INTO
+    #                 account_http(article_url, addon, account, account_id, author, id, title)
+    #             VALUES
+    #                 (%s, %s, %s, %s, %s, %s, %s)
+    #     '''
+    #     _tuple = (
+    #         entity.url, datetime.datetime.now(), entity.account, entity.account_id, entity.author,
+    #         entity.id,
+    #         entity.title
+    #     )
+    #     try:
+    #         # 已更新为正式库
+    #         config_mysql = get_mysql_new()
+    #         uploads_mysql(config_mysql, sql, _tuple)
+    #     except Exception as e:
+    #         log.info('数据库上传错误 {}'.format(e))
+    #     # log.info('上传mysql完成')
 
     @staticmethod
     def save_to_mongo(entity):
@@ -299,9 +303,8 @@ class AccountHttp(object):
     def get_tags(self):
         # 获取标签
         url = 'http://183.131.241.60:38011/GetTag?account={}'.format(self.search_name)
-        log.info(self.search_name)
         resp = requests.get(url)
-        log.info('获取标签结果：{}'.format(resp.text))
+        log.info('账号: {} 获取标签结果：{}'.format(self.search_name, resp.text))
         return resp.text
 
     @staticmethod
@@ -316,14 +319,15 @@ class AccountHttp(object):
     def run(self):
         count = 0
         while True:
+            # ADD_COLLECTION 补采账号  get_account 日常采集； 使用account_list 兼容单个账号和账号列表
+            account_list = ADD_COLLECTION if ADD_COLLECTION else self.get_account()
             # length = len(threading.enumerate())  # 枚举返回个列表
             log.info('当前运行的线程数为：{}'.format(threading.active_count()))
             count += 1
             log.info('第{}次'.format(count))
-            # ADD_COLLECTION 补采账号  get_account 日常采集； 使用account_list 兼容单个账号和账号列表
-            account_list = ADD_COLLECTION if ADD_COLLECTION else [self.get_account()]
-            if not account_list:
-                time.sleep(10)
+            if account_list is None:
+                log.info('调度队列为空，休眠5秒')
+                time.sleep(5)
                 continue
             for account_name in account_list:
                 try:
@@ -361,6 +365,9 @@ class AccountHttp(object):
                         log.info('当前文章ID: {}'.format(entity.id))
                         if entity.id in ids and JUDEG is True:
                             log.info('当前文章已存在，跳过')
+                            # if page_count >= 20:
+                            #     log.info('超过20篇文章，跳出')
+                            #     break
                             continue
                         backpack = Backpack()
                         backpack.create(entity)
@@ -374,8 +381,6 @@ class AccountHttp(object):
                         self.create_xml(ftp_info.ftp_dict(), name_xml)
                         ftp_list.append(name_xml)
                         # break
-                        # if page_count >= 3:
-                        #     break
                     log.info("开始发包")
                     # todo 发包超时，修改MTU
                     if ftp_info is not None:
@@ -395,21 +400,22 @@ class AccountHttp(object):
 
     def crack_sougou(self, url):
         log.info('------开始处理未成功的URL：{}'.format(url))
-        if re.search('weixin\.sogou\.com', url):
+        if 'weixin.sogou.com' in url:
             log.info('------开始处理搜狗验证码------')
             global lock
-            if lock.acquire():
-                try:
-                    self.driver.get(url)
-                except WebDriverException as e:
-                    log.error('浏览器异常', e)
-                    if self.driver:
-                        self.driver.quit()
-                    self.driver = GetDrver().driver
-                except Exception as e:
-                    log.exception(e)
-                finally:
-                    lock.release()
+            lock.acquire()
+            try:
+                self.driver.get(url)
+            except WebDriverException as e:
+                log.error('浏览器异常', e)
+                if self.driver:
+                    self.driver.quit()
+                self.driver = GetDrver().driver
+            except Exception as e:
+                log.exception(e)
+            finally:
+                log.info('释放锁')
+                lock.release()
             time.sleep(2)
             if '搜公众号' in self.driver.page_source:
                 log.info('浏览器页面正常' + '直接返回')
@@ -489,19 +495,7 @@ def main():
 
 
 if __name__ == '__main__':
-    # test = None
-    # while True:
-    #     try:
-    #         test = AccountHttp()
-    #         log.info("初始化")
-    #         test.run()
-    #         if ADD_COLLECTION:
-    #             log.info('补采完成')
-    #             break
-    #     except Exception as error:
-    #         log.exception('获取账号错误，重启程序{}'.format(error))
-    #     # finally: # 会导致程序崩溃
-    #     driver.quit()
+    # 多线程版
     thread_list = []
     lock = threading.Lock()
     for i in range(5):
@@ -513,3 +507,4 @@ if __name__ == '__main__':
     for t in thread_list:
         t.join()
     log.info('完成')
+    # main()

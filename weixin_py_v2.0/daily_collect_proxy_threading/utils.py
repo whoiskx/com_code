@@ -124,12 +124,16 @@ def save_name():
 
 def abuyun_proxy():
     if not USE_PROXY:
-        return {}
+        return False
+    # proxy_host = "http-dyn.abuyun.com"
+    # proxy_port = "9020"
+    # # 代理隧道验证信息
+    # proxy_user = "H47MY63960OG8D8D"
+    # proxy_pass = "DA3B03DDAEE0CDF7"
     proxy_host = "http-dyn.abuyun.com"
     proxy_port = "9020"
-    # 代理隧道验证信息
-    proxy_user = "H47MY63960OG8D8D"
-    proxy_pass = "DA3B03DDAEE0CDF7"
+    proxy_user = "HW282117435R626D"
+    proxy_pass = "73E6ADCC5C073EC4"
     proxy_meta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
         "host": proxy_host,
         "port": proxy_port,
@@ -161,5 +165,5 @@ if __name__ == '__main__':
     # log_test.info(123)
     # path = get_captcha_path()
     # print(path)
-    name = save_name()
-    print(name, type(name))
+    f_name = save_name()
+    print(f_name, type(f_name))

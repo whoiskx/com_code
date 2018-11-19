@@ -1,0 +1,62 @@
+2018-10-15 09:46:14,915 - INFO - 请求关键词接口...
+2018-10-15 09:46:14,915 - INFO - 开始采集...新闻关键词：读书
+2018-10-15 09:46:14,915 - INFO - 日常采集：默认 一天 一周
+2018-10-15 09:46:14,915 - INFO - ------正在搜索：读书    采集时间范围：全部时间------
+2018-10-15 09:46:15,029 - INFO - ------未成功跳转到新闻页面！！！当前网页标题：æçæç´¢------
+2018-10-15 09:46:15,029 - INFO - ------开始处理未成功的URL：http://weixin.sogou.com/antispider/?from=%2fweixin%3Fquery%3d%E8%AF%BB%E4%B9%A6%26type%3d2%26page%3d1%26ie%3dutf8%26tsn%3d0%26s_from%3dinput
+2018-10-15 09:46:15,029 - INFO - 出现验证码：session重新初始化...
+2018-10-15 09:46:15,029 - INFO - ------开始处理搜狗验证码------
+2018-10-15 09:46:19,372 - INFO - ------出现验证码页面------
+2018-10-15 09:46:20,158 - INFO - ------验证码：747RY8------
+2018-10-15 09:46:20,299 - INFO - ------输入验证码------
+2018-10-15 09:46:21,897 - INFO - ------验证码正确------
+2018-10-15 09:46:21,903 - INFO - ------cookies已更新------
+2018-10-15 09:46:22,227 - INFO - ------成功跳转到新闻页面，开始爬取...当前网页标题：读书的相关微信公众号文章 – 搜狗微信搜索------
+2018-10-15 09:46:22,230 - INFO - ------找到约38098条结果------
+2018-10-15 09:46:22,230 - INFO - ------共有3810页------
+2018-10-15 09:46:22,294 - INFO - ------成功跳转到新闻页面，开始爬取...当前网页标题：读书的相关微信公众号文章 – 搜狗微信搜索------
+2018-10-15 09:46:22,788 - INFO - 该新闻标题：不爱读书，不是你的错
+2018-10-15 09:46:22,788 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=msNCMOBZMToW0NNEiWNGJsWVsMRQYGtfk06lCV8*qfpAjIcpZAnyNMDiOOwgPSya0vyRBZtG1uUKCx*kCygLgXOXyDTLgmRuG9jzPX74A8D3Y5z-d6UE24xJX651yoNv&new=1
+2018-10-15 09:46:22,938 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:22,939 - INFO - 已请求URL数量：1
+2018-10-15 09:46:23,114 - INFO - 该新闻标题：读书，是门槛最低的高贵
+2018-10-15 09:46:23,114 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=FV*EcgYCJzOosVw4teR*YFOtsGhcAeOcmuJx60SH2hYWHqwz8Eq7qT7UGEyZDNExPT-wwhxCNWl*9GbtwYdfRmtoUSV2xI*Z8k2Cibl9DZMdtjHToAtOW0cBXpedZZfK&new=1
+2018-10-15 09:46:23,250 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:23,251 - INFO - 已请求URL数量：2
+2018-10-15 09:46:23,407 - INFO - 该新闻标题：读书和不读书的女人，究竟差在哪？
+2018-10-15 09:46:23,407 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=hiyk4qBEPANyud8axlvsbXWFJRUft8qmvSurX8Ad2r2bOQIEVOqfFF*qf4HmrsanerrL4skruw66gGcrrjJxPV57d1UH56mjXSdBgXuXvRmoO24HLN*EgJAE6B8A43bp&new=1
+2018-10-15 09:46:23,552 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:23,555 - INFO - 已请求URL数量：3
+2018-10-15 09:46:23,720 - INFO - 该新闻标题：一个读书多的女人，为什么被剩下？
+2018-10-15 09:46:23,720 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=P9sFdafZOh60413G-GQi4nxqpDCxVGg6JoFH73zcWcihaW5nlZxfd6YiXkSKr0wi6CmQHdV1bpaquSs3pI7BnHq4kMagBmdQYlKCtwocQ60JQJTSfJZN-VjeXGMX0w6Z&new=1
+2018-10-15 09:46:23,880 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:23,884 - INFO - 已请求URL数量：4
+2018-10-15 09:46:24,062 - INFO - 该新闻标题：鲁迅:读书要随便,随便才有趣
+2018-10-15 09:46:24,063 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=euInXc*KH*6Yns1kQSrIYS7mUE7syz72WU9UGq5jogOCZiJ6kL4s1PsGDahPo4YiMkV7QSxRt7xH2LSAtuhfEOjFLuyhpGslW1h7voIjgGzdAzmDL5u-3ex-sh0KDjTO&new=1
+2018-10-15 09:46:24,229 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:24,234 - INFO - 已请求URL数量：5
+2018-10-15 09:46:24,424 - INFO - 该新闻标题：读书和不读书，过的是不一样的人生（深度好文）
+2018-10-15 09:46:24,424 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=nMDXCUyJsgXBqWcbGtHukAvAFSr44tviHXJTLdwkyjJh4*NlKCSaZ-sEXKbsYLPEot2u4ZMIUCVsWSPHvchWqes-7wEMxiFK8BlHwrxemvjYvFpaHgt71OY2cXRaxMst&new=1
+2018-10-15 09:46:24,569 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:24,576 - INFO - 已请求URL数量：6
+2018-10-15 09:46:24,800 - INFO - 该新闻标题：史航：读书可以经历1000种人生，不读书的人只能活1次
+2018-10-15 09:46:24,800 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=9U8jyUxgIfaxCpxe1Xmsf6sBlLdHjdjGYjg5aLE2FB1IKZ8HIzyiiJt5JK3gxjrTdJ8eKYDMZZXPlFbvSQe4GegV4Y3S0SJHMBTjqqHuAC15Xj6pIDM1oAnL0tHQ3Ula&new=1
+2018-10-15 09:46:24,947 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:24,953 - INFO - 已请求URL数量：7
+2018-10-15 09:46:25,186 - INFO - 该新闻标题：读书的人在死之前能体验1000种人生，不读书的人只能活一次！
+2018-10-15 09:46:25,186 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=W9104xJbS8vVMVbWaniDtgosnXyHLdJk9tbZorBFh0EE1icCk3Vbr7neZ*JYk9EGJ9P7d3Sz*20HUF1SsRSvkJ2mYDCm-8kKXkw6pzanwtTgDo6INFGeXurpfFYqiDCm&new=1
+2018-10-15 09:46:25,376 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:25,380 - INFO - 已请求URL数量：8
+2018-10-15 09:46:25,747 - INFO - 该新闻标题：读书真的能改变气质吗？这是我见过最好的回答
+2018-10-15 09:46:25,747 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=0sg2rlf2OYw3NDL3Qb*8Kkcjb-XVvStVP3Cy4424xQkskJRfM*fySB0VrbAy8MKrArb6WnHcr1ClFAtGw4r1qMGgs2p67bwAIYA3ScgeVUFkg7UTA49fdHZ9Ek5VQGPL&new=1
+2018-10-15 09:46:25,893 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:25,897 - INFO - 已请求URL数量：9
+2018-10-15 09:46:26,104 - INFO - 该新闻标题：俞敏洪：读书，使人生变得丰富
+2018-10-15 09:46:26,104 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567982&ver=1183&signature=zQrjM*slKBTCJZBZsKS5PVC*fMsYBuMMAe-Yyvnjz9N9RTvBOx8KRptACWC-Q770v-bg2-sFTm5PjhmaKie0Di8CCEyWpjAGp7AvLznR93HC8dawR2NBBCl98an4Mcbm&new=1
+2018-10-15 09:46:26,256 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:26,261 - INFO - 已请求URL数量：10
+2018-10-15 09:46:27,322 - INFO - ------成功跳转到新闻页面，开始爬取...当前网页标题：读书的相关微信公众号文章 – 搜狗微信搜索------
+2018-10-15 09:46:27,500 - INFO - 该新闻标题：读书和不读书的人，究竟有什么不同？
+2018-10-15 09:46:27,500 - INFO - 该新闻链接：http://mp.weixin.qq.com/s?src=11&timestamp=1539567987&ver=1183&signature=YvpYmwmwfAFmn2sEYmIBbl1tW93JzZn3o*CvNoVAWBOSmCPmAE4-l6dDSRXHwY0fKjbjkqsUd*lvqOGHf*daQmDpowkt2ZBVO5Pp0DzDTknfxHzD7SG4j0POeR1CYMIm&new=1
+2018-10-15 09:46:28,214 - INFO - 判重结果：这是新文章，添加到待发包中
+2018-10-15 09:46:28,217 - INFO - 已请求URL数量：11
