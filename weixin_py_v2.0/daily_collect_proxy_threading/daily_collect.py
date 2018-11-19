@@ -310,10 +310,16 @@ class AccountHttp(object):
     @staticmethod
     def dedup(account_name):
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
-        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id'.format(
+        bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id,CrawlerType'.format(
             account_name, date_today)
         get_ids = requests.get(bottom_url, timeout=21)
         ids = get_ids.text
+        if ids:
+            results = json.loads(ids).get('results')
+            for item in results:
+                if item.get('CrawlerType') == '2' or item.get('CrawlerType') == 2:
+                    replace_id = item.get('ID')
+                    ids = ids.replace(replace_id, '____')
         return ids
 
     def run(self):
@@ -336,7 +342,7 @@ class AccountHttp(object):
                     if html_account:
                         html = html_account
                     else:
-                        log.info('找到不到微信号首页: '.format(account_name))
+                        log.info('{}|找到不到微信号'.format(account_name))
                         continue
                     urls_article = self.urls_article(html)
                     # 确定account信息
@@ -498,6 +504,7 @@ if __name__ == '__main__':
     # 多线程版
     thread_list = []
     lock = threading.Lock()
+
     for i in range(5):
         t = threading.Thread(target=main)
         t.start()

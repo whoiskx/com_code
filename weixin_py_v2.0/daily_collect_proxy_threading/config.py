@@ -49,7 +49,7 @@ GETCAPTCHA_URL_BACKUP = 'http://183.238.76.204:38015/GetCaptcha'
 
 # 补采
 # ['bdb1937', 'dgshs2018', 'pd0351', 'guyuanxuanjiang', 'dgrb789']
-ADD_COLLECTION = [] #get_account_form_weixin()
+ADD_COLLECTION = []  # get_account_form_weixin()
 # 直接从数据库拿账号
 GET_ACCOUNT_FROM_MYSQL = False
 # 判重
@@ -95,9 +95,6 @@ def get_mysql_old():
         'connect_timeout': 10
     }
     return config_mysql
-
-
-
 
 
 def localhost_mysql():

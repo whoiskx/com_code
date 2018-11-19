@@ -4,6 +4,8 @@
 # # logger.info(__name__)
 # # print(__name__)
 # ll.critical(__name__, 1211323)
+import datetime
+import json
 import logging
 import os
 import time
@@ -24,7 +26,19 @@ def main():
     s += 1
     print(s)
 
-
+def dedup(account_name):
+    date_today = str(datetime.date.today().strftime('%Y%m%d'))
+    bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20180430&endtime={}&fl=id,CrawlerType'.format(
+        account_name, date_today)
+    get_ids = requests.get(bottom_url, timeout=21)
+    ids = get_ids.text
+    if ids:
+        results = json.loads(ids).get('results')
+        for item in results:
+            if item.get('CrawlerType') == '2' or item.get('CrawlerType') == 2:
+                replace_id = item.get('ID')
+                ids = ids.replace(replace_id, '____')
+    return ids
 if __name__ == '__main__':
     # from selenium import webdriver
     #
@@ -51,18 +65,18 @@ if __name__ == '__main__':
     # homepage = requests.get(account_link, proxies=proxies)
     # print(homepage.status_code)
     # print(homepage.text)
-    from utils import driver, GetDrver
-    driver.get('https://www.baidu.com/')
-    time.sleep(1)
-    driver.quit()
-    time.sleep(1)
-    driver = GetDrver().driver
-    driver.get('https://www.baidu.com/')
-    driver.quit()
-    print('end')
-    driver2 = GetDrver().driver
-    driver2.get('https://www.baidu.com/')
-    print(driver is driver2)
+    # from utils import driver, GetDrver
+    # driver.get('https://www.baidu.com/')
+    # time.sleep(1)
+    # driver.quit()
+    # time.sleep(1)
+    # driver = GetDrver().driver
+    # driver.get('https://www.baidu.com/')
+    # driver.quit()
+    # print('end')
+    # driver2 = GetDrver().driver
+    # driver2.get('https://www.baidu.com/')
+    # print(driver is driver2)
     # coding = utf-8
     # from selenium import webdriver
     # import time
@@ -75,3 +89,5 @@ if __name__ == '__main__':
     # browser.find_element_by_id("su").click()
     # time.sleep(3)  # sleep 3s
     # browser.quit()
+
+    print(dedup('gh_1c5f79a695d1'))

@@ -136,3 +136,5 @@ proxies = {
     }
 
 --no-sandbox 会导致 webdriver无法退出
+
+CrawlerType: "11"
