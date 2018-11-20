@@ -11,6 +11,8 @@ import json
 from lxml import etree
 
 from pyquery import PyQuery as pq
+from selenium import webdriver
+
 from models import JsonEntity, Article, Account, Backpack, Ftp
 from config import get_mysql_new, GETCAPTCHA_URL, mongo_conn, ADD_COLLECTION, GET_ACCOUNT_FROM_MYSQL, JUDEG
 from utils import uploads_mysql, get_log, driver, get_captcha_path, time_strftime, save_name
@@ -279,7 +281,17 @@ class AccountHttp(object):
         log.info('------开始处理未成功的URL：{}'.format(url))
         if re.search('weixin\.sogou\.com', url):
             log.info('------开始处理搜狗验证码------')
-            self.driver.get(url)
+            global lock
+            try:
+                self.driver.get(url)
+            except Exception as e:
+                log.info('浏览器错误，重启'.format(e))
+                if self.driver:
+                    self.driver.quit()
+                chrome_options = webdriver.ChromeOptions()
+                chrome_options.add_argument('--headless')
+                # chrome_options.add_argument('--no-sandbox')
+                self.driver = webdriver.Chrome(chrome_options=chrome_options)
             time.sleep(2)
             if '搜公众号' in self.driver.page_source:
                 log.info('浏览器页面正常' + '直接返回')

@@ -53,7 +53,7 @@ class AccountHttp(object):
         count = 0
         while True:
             count += 1
-            if count > 3:
+            if count > 4:
                 log.info('多次账号异常，跳过账号:'.format(self.name))
                 return
             log.info('start account {}'.format(self.search_name))
@@ -413,19 +413,19 @@ class AccountHttp(object):
             try:
                 self.driver.get(url)
             except WebDriverException as e:
-                log.error('浏览器异常', e)
+                log.error('浏览器异常'.format(e))
                 if self.driver:
                     self.driver.quit()
                 self.driver = GetDrver().driver
             except Exception as e:
-                log.exception(e)
+                if self.driver:
+                    self.driver.quit()
+                self.driver = GetDrver().driver
+                log.exception('重启浏览器——'.format(e))
             finally:
                 log.info('释放锁')
                 lock.release()
             time.sleep(2)
-            if '搜公众号' in self.driver.page_source:
-                log.info('浏览器页面正常' + '直接返回')
-                return
             try:
                 img = self.wait.until(EC.presence_of_element_located((By.ID, 'seccodeImage')))
                 log.info('------出现验证码页面------')
@@ -462,15 +462,9 @@ class AccountHttp(object):
                     submit = self.wait.until(EC.element_to_be_clickable((By.ID, 'submit')))
                     submit.click()
                     time.sleep(2)
-                    try:
-                        if '搜公众号' not in self.driver.page_source:
-                            log.info('验证失败')
-                            return
-                        log.info('------验证码正确------')
-                    except Exception as e:
-                        log.info('--22222222----验证码输入错误------ {}'.format(e))
-            except Exception as e:
-                log.info('------未跳转到验证码页面，跳转到首页，忽略------ {}'.format(e))
+                    log.info('------验证码完成------')
+            except Exception as es:
+                log.info('------未跳转到验证码页面，跳转到首页，忽略------ {}'.format(es))
 
         elif re.search('mp\.weixin\.qq\.com', url):
             log.info('------开始处理微信验证码------')
@@ -505,7 +499,7 @@ if __name__ == '__main__':
     thread_list = []
     lock = threading.Lock()
 
-    for i in range(5):
+    for i in range(4):
         t = threading.Thread(target=main)
         t.start()
         time.sleep(5)

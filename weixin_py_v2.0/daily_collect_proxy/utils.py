@@ -11,6 +11,8 @@ import pymysql
 import redis
 from selenium import webdriver
 
+from config import USE_PROXY
+
 
 def get_log(name=''):
     # 日志配置
@@ -120,11 +122,37 @@ def save_name():
             return name
 
 
+def abuyun_proxy():
+    if not USE_PROXY:
+        return False
+    # proxy_host = "http-dyn.abuyun.com"
+    # proxy_port = "9020"
+    # # 代理隧道验证信息
+    # proxy_user = "H47MY63960OG8D8D"
+    # proxy_pass = "DA3B03DDAEE0CDF7"
+    proxy_host = "http-dyn.abuyun.com"
+    proxy_port = "9020"
+    proxy_user = "HW282117435R626D"
+    proxy_pass = "73E6ADCC5C073EC4"
+    proxy_meta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
+        "host": proxy_host,
+        "port": proxy_port,
+        "user": proxy_user,
+        "pass": proxy_pass,
+    }
+    proxies = {
+        "http": proxy_meta,
+        "https": proxy_meta,
+    }
+    return proxies
+
+
 class GetDrver(object):
     def __init__(self):
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--no-sandbox')
+        # chrome_options.add_argument('--headless')
+        # --no-sandbox 会导致 webdriver无法退出
+        # chrome_options.add_argument('--no-sandbox')
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
@@ -137,5 +165,5 @@ if __name__ == '__main__':
     # log_test.info(123)
     # path = get_captcha_path()
     # print(path)
-    name = save_name()
-    print(name, type(name))
+    f_name = save_name()
+    print(f_name, type(f_name))
