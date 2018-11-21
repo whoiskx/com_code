@@ -50,7 +50,7 @@ if __name__ == '__main__':
             db = pymssql.connect(**config_mysql)
             # print('链接成功')
             cursor = db.cursor()
-            cursor.execute(sql, (_id))
+            cursor.execute(sql, (_id,))
             result = cursor.fetchone()
             account_list.append(result[2])
             print(result[2])

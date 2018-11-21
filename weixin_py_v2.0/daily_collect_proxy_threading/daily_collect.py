@@ -11,6 +11,8 @@ import json
 
 from lxml import etree
 from pyquery import PyQuery as pq
+from selenium import webdriver
+
 from models import JsonEntity, Article, Account, Backpack, Ftp
 from config import get_mysql_new, GETCAPTCHA_URL, mongo_conn, ADD_COLLECTION, GET_ACCOUNT_FROM_MYSQL, JUDEG
 from utils import uploads_mysql, get_log, GetDrver, driver, get_captcha_path, time_strftime, save_name, abuyun_proxy
@@ -205,7 +207,7 @@ class AccountHttp(object):
                                                 'start': time_strftime(), 'end': None, 'save_name': save_name()})
                     log.info("插入mongo成功")
         except Exception as e:
-            log.info('调度获取account出错：{}'.format(e))
+            log.exception('调度获取account出错：{}'.format(e))
             return None
         return [account]
 
@@ -412,6 +414,8 @@ class AccountHttp(object):
             lock.acquire()
             try:
                 self.driver.get(url)
+
+                # raise RuntimeError
             except WebDriverException as e:
                 log.error('浏览器异常'.format(e))
                 if self.driver:
@@ -420,8 +424,12 @@ class AccountHttp(object):
             except Exception as e:
                 if self.driver:
                     self.driver.quit()
-                self.driver = GetDrver().driver
-                log.exception('重启浏览器——'.format(e))
+                chrome_options = webdriver.ChromeOptions()
+                chrome_options.add_argument('--headless')
+                # --no-sandbox 会导致 webdriver无法退出
+                # chrome_options.add_argument('--no-sandbox')
+                self.driver = webdriver.Chrome(chrome_options=chrome_options)
+                log.exception('重启浏览器——{}'.format(e))
             finally:
                 log.info('释放锁')
                 lock.release()
@@ -499,7 +507,7 @@ if __name__ == '__main__':
     thread_list = []
     lock = threading.Lock()
 
-    for i in range(4):
+    for i in range(5):
         t = threading.Thread(target=main)
         t.start()
         time.sleep(5)

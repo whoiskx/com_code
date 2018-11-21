@@ -3,77 +3,16 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Facebook/rewrite/xml/read_write.py" line="38" />
     <bookmark url="file://E:/WinXin/WXCrawler/Application.cs" description="{" line="332" />
-    <bookmark url="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" description="lock" line="406" />
+    <bookmark url="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" description="lock" line="408" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Facebook/record.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guangzhou_committee/daily_collect/wx_account.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guangzhou_committee/read_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guangzhou_committee/广州市委打标签的相关公众号.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel_2/广州市委打标签的相关公众号.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel_2/广州市委打标签的相关公众号.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/18988336d16319b854df2c43357d7a1e.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/1e033487bb7a457f7b812b9d782f5dbd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/1f3e42d679e409e9e84002eccf04eecd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/5fd7a716ad4750eed71ec23cb8a19ec9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/811235f767013a07329bd25749b09311.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/822b8d3d8f12c412894c68cc79fa7a82.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/db6c879a8895b28c0fc050a684953c61.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guangzhou_committee/daily_collect/log_daily_collect.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_interfaces/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_interfaces/daily_collect/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel_2/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel_2/read_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/images/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/images/error.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/log_daily_collect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/log_daily_collect.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/save_name.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/save_name.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/0694a32c6260da28f518a7bcc1503c8d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/08eb3c7b5d688f9678fdb811c42db159.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/0a6af432f8d0d01a6c984025966c2d70.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/0f81468791aec8a34223ed3622eed010.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/16ea0c1220d09ab5b72f2a34fb9fd0f0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/1962bd9664443bc92877fdaff551530f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/2210fbe31a780a69c4590cce8d7e53cf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/28e1ba24648b286e8e61110eeab35286.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/2aec6ea5264fd98486a2c29914a346bc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/3faa9c82a2337619c44e5960b8ade4a4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/3fcd438cf951489be78125f0e0689a8c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/41424b240236a1f940905d66405a7dd7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/44abf3941e0b9698978a8052842efd16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/4898ab0963fa9abfff533dfc33dcba92.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/561b45e637c89c5b55dfe59f0de2d727.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/5c18821fdf826e7c043c75fa0a77f827.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/5e5bc8b9d4b85e790e218bd3a0077811.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/5f58458aff4b0a7ec7750579b974d8e4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/6fd1dda40809d1903445ba072a976369.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/7298931030ab2bbdbfc5e20e92f32c8e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/78feaa28762c526286a76790a98a0c6a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/8b9c9dd1867ac24b2fc580ab828729f6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/99acd9f343a2a6e73d342ab6a5af0006.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/b4eca9cbece9ea993053b31ebd626668.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/c09844b33e92fd38db0d36b515a45d38.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/c3aab0ab7b58f50700591e2cfa6091d3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/ccd5dd1d338ef364e62a68c24195503a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/cf315d7a1630b62cf676f2a67d589a2a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/e4b8d13ee49f81fcce52ab9bb42a84a6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/e708e15a3f17142817c1b57555790a11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/eb5ad75d13c467b3bcacafb7aa035f1f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/ecee4642267e2ebb22e9e08f7a8a48f5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/ee5ac9b7b0be0057c6d6abc2bfaf86b3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/fa581307a0a0c852ce35165851d5a5fd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/fe66d4958bea14e14df6e52a55be8e29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/xml/fe7a52a5a6e03015182852a19f1d6db9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guangzhou_committee/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/guangzhou_committee/read_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/images/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/images/error.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/log_daily_collect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/log_daily_collect.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/问题.txt" beforeDir="false" afterPath="$PROJECT_DIR$/问题.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
-              <caret line="331" column="17" selection-start-line="331" selection-start-column="12" selection-end-line="331" selection-end-column="17" />
+              <caret line="333" column="17" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="17" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -111,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="220" column="20" lean-forward="true" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="25" />
+              <caret line="220" column="20" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="25" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -145,8 +84,8 @@
       <file leaf-file-name="read_excel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guangzhou_committee/read_excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="115">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
               </folding>
@@ -165,14 +104,18 @@
       </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="daily_collect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="445" column="15" lean-forward="true" selection-start-line="445" selection-start-column="15" selection-end-line="445" selection-end-column="15" />
+            <state relative-caret-position="2641">
+              <caret line="222" column="37" selection-start-line="222" selection-start-column="31" selection-end-line="222" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -180,9 +123,7 @@
       <file leaf-file-name="wx_account.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/wx_account.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="2057" column="7" lean-forward="true" selection-start-line="2057" selection-start-column="7" selection-end-line="2057" selection-end-column="7" />
-            </state>
+            <state relative-caret-position="-47386" />
           </provider>
         </entry>
       </file>
@@ -207,7 +148,7 @@
       <find>d41d8cd98f00b204e9800998ecf8427e</find>
       <find>Ftp</find>
       <find>$set</find>
-      <find>requests 1</find>
+      <find />
       <find>Connection</find>
       <find>self.s</find>
       <find>get_tags</find>
@@ -275,7 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/utils/weixin_headers/read_dir.py" />
         <option value="$PROJECT_DIR$/utils/weixin_headers/tests.py" />
         <option value="$PROJECT_DIR$/baidu_query/not_login.py" />
         <option value="$PROJECT_DIR$/baidu_query/homepage.py" />
@@ -323,9 +263,10 @@
         <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" />
         <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/config.py" />
         <option value="$PROJECT_DIR$/guangzhou_committee/record.txt" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/wx_account.txt" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/daily_collect/wx_account.txt" />
         <option value="$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py" />
         <option value="$PROJECT_DIR$/guangzhou_committee/read_excel.py" />
-        <option value="$PROJECT_DIR$/guangzhou_committee/wx_account.txt" />
       </list>
     </option>
   </component>
@@ -338,7 +279,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="568" />
     <option name="y" value="27" />
     <option name="width" value="1331" />
@@ -430,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read_excel (1)">
+  <component name="RunManager" selected="Python.daily_collect (1)">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -449,7 +390,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="daily_collect (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="daily_collect (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="com_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -457,11 +398,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/guangzhou_committee/daily_collect_false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/guangzhou_committee/daily_collect" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guangzhou_committee/daily_collect_false/daily_collect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -522,19 +463,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.daily_collect (2)" />
       <item itemvalue="Python.daily_collect" />
       <item itemvalue="Python.daily_collect (3)" />
       <item itemvalue="Python.read_excel (1)" />
       <item itemvalue="Python.config" />
+      <item itemvalue="Python.daily_collect (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.daily_collect (1)" />
         <item itemvalue="Python.read_excel (1)" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.daily_collect (3)" />
         <item itemvalue="Python.daily_collect" />
-        <item itemvalue="Python.daily_collect (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -594,18 +535,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974359" visible="true" weight="0.18756586" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5095185" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.5554311" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.4300112" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.4300112" />
       <window_info id="Structure" order="1" sideWeight="0.50256413" side_tool="true" weight="0.15437302" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.24636059" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.36506158" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.3594625" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1352,6 +1292,11 @@
           <line>351</line>
           <option name="timeStamp" value="577" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1363,7 +1308,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="581" />
+      <option name="time" value="582" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1374,12 +1319,17 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>len(set(account_list))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>driver.get_cookies()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>[item[&quot;name&quot;] + &quot;=&quot; + item[&quot;value&quot;] for item in driver.get_cookies()]</expression-string>
+        <expression-string />
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1399,17 +1349,12 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>dd = driver.find_element_by_xpath('//*[@id=&quot;TANGRAM__22__button_submit&quot;]')</expression-string>
+        <expression-string />
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>'xx' in str(e)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>'xx' in e</expression-string>
+        <expression-string />
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -1732,7 +1677,7 @@
     <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="331" column="17" selection-start-line="331" selection-start-column="12" selection-end-line="331" selection-end-column="17" />
+          <caret line="333" column="17" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="17" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
@@ -1742,7 +1687,7 @@
     <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="220" column="20" lean-forward="true" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="25" />
+          <caret line="220" column="20" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="25" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
@@ -1763,19 +1708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guangzhou_committee/read_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/record.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1783,17 +1715,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/read_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/wx_account.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="2057" column="7" lean-forward="true" selection-start-line="2057" selection-start-column="7" selection-end-line="2057" selection-end-column="7" />
+        <state relative-caret-position="-47386" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="445" column="15" lean-forward="true" selection-start-line="445" selection-start-column="15" selection-end-line="445" selection-end-column="15" />
+        <state relative-caret-position="2641">
+          <caret line="222" column="37" selection-start-line="222" selection-start-column="31" selection-end-line="222" selection-end-column="37" />
         </state>
       </provider>
     </entry>

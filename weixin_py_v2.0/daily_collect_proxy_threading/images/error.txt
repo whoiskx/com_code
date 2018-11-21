@@ -19,3 +19,6 @@ invalid literal for int() with base 10  表示entity.time 为空''
 http.client.CannotSendRequest: Request-sent
     WebDriver 不是线程安全
         当多个线程同时运行时，保证运行结果符合预期，就是线程安全的。由于多线程执行时，存在线程的切换，而python线程的切换时机是不确定的。既有cooperative multitasking的调度，也有preemptive multitasking的调度。
+
+
+        FileExistsError: [Errno 17] File exists: 'xml'
