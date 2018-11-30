@@ -1,0 +1,6 @@
+ 启动  /usr/redis$ ./redis-cli
+ 选择  select 5
+ dbsize  数据大小
+ get analyse
+ llen analyse  队列
+ flushdb 清空

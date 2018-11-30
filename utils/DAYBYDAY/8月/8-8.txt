@@ -1,0 +1,69 @@
+%m %d   %H%M%S
+
+用了try语句 解释器报异常，
+    要么 异常再 try语句外，要么 在 try语句 后面的except 块
+
+select all
+    Edit 所有缩进
+
+当前文件是否存在
+    os.path.exists('xx')
+
+目前难点
+    多线程模式
+    相关包
+文件读写
+    写入 会更新显示
+
+解压跟文件后缀名有关系
+
+
+PhantomJS 安装error
+    sudo apt-get install  libfontconfig1
+    phantomjs  -v
+
+
+urunadm+ 37809 34954  1 11:54 pts/0    00:00:04 python3 get_more_public.py
+    第一个 37809 是进程
+
+更改代码  运行前要想想跟什么东西相关，没有会不会出错
+
+要跟踪名为 accounts 的文件的增长情况，请输入以下命令：
+tail -f accounts
+
+2、os.path.join()函数
+注：第一个绝对路径之前的参数将被忽略
+
+os.getcwd() 当前目录
+
+Mysql 表 字段不能用-???
+
+try
+except Exception as e
+    e 是class  str(e) or e.message 打印error字符串
+
+filezilla
+    协议不对（SFTP -> FTP） 首行选择适合的协议
+    FTP 文件传输协议 支持不同OS 操作系统  使用tcp/ip协议传输  上传跟下载
+nano 保存 ^O  退出 ^X
+
+grep --color=auto python
+grep最后一行
+    是该命令本身
+
+
+
+AWK是一种处理文本文件
+
+
+杀死进程名称中包含qemu的所有进程
+
+ps p aux|grep qemu|awk '{print $2}'|xargs kill -9
+
+# 浏览器窗口切换
+def switch_tab(self, num):
+    driver = self.driver
+    handles = driver.window_handles           # 获取当前窗口句柄集合（列表类型）
+    driver.switch_to.window(handles[num-1])
+
+C + shift + u 全部小写

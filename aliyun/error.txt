@@ -1,0 +1,20 @@
+requests HTTPConnectionPool(host='crawler.general.yunrunyuqing.com', port=38012)
+: Max retries exceeded with url: /crawler_change_hosts.html (Caused by NewConnectionError('<urllib
+3.connection.HTTPConnection object at 0x7fee0f099d30>: Failed to establish a new connection: [Errn
+o 110] Connection timed out',))
+
+
+9-27报错
+    HTTPConnectionPool(host='crawler.weiboapiservice.yunrunyuqing.com', port=8001):
+Max retries exceeded with url: /crawler_change_hosts.html (Caused by NewConnectionError('<urllib3.connectio
+n.HTTPConnection object at 0x7f6f2713cbe0>: Failed to establish a new connection: [Errno 110] Connection ti
+med out',))
+解决
+    https://blog.csdn.net/ZTCooper/article/details/80220063
+    headers = {
+    'Connection': 'close',
+}
+每次数据传输前客户端要和服务器建立TCP连接，为节省传输消耗，默认为keep-alive，即连接一次，传输多次，然而在多次访问后不能结束并回到连接池中，导致不能产生新的连接
+r = requests.get(url, headers=headers)
+
+db.getCollection('aliyun_dns_copy').update({}, {Sset:{'close':true}}, false,true

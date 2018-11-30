@@ -1,0 +1,19 @@
+抓取facebook 起始  8047
+
+chrome 安装问题
+    安装方式一:
+        sudo apt-get install google-chrome-stable
+        问题   unmet dependencies 包依赖损坏
+              解决方式: 更新包 sudo apt-get -f install            该命令可以从所有的软件源中搜索并安装指定的软件包
+              问题：Err http://mirrors.aliyun.com/ubuntu/ trusty-security/main libxcursor1  404 Not Found
+
+                  解决: sudo apt-get update      该命令可以更新软件源中的软件包列表，比如说你新增加了一个软件源但是没有执行这个操作当
+                  你想安装该源下的软件包时依然会提示找不到该软件包，这时只要执行了这个命令就可以了。
+        问题2：
+            Message: unknown error: Chrome failed to start: exited abnormally
+            谷歌浏览器报错：请以普通用户的身份启动Google Chrome。如果您出于开发目的，需要以根用户打身份运行Chrome，请使用-no-sandbox标记重新运行Chrome
+            chrome_options.add_argument("--no-sandbox")
+
+    完美解决
+
+

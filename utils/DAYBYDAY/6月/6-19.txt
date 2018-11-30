@@ -1,0 +1,50 @@
+git
+    LF will be replaced by CRLF ...
+        CRLF – Carriage-Return Line-Feed 回车换行
+        就是回车(CR, ASCII 13, \r) 换行(LF, ASCII 10, \n)    -> Windows
+        linux下的换行符为：LF
+        git add .时，系统提示：LF 将被转换成 CRLF
+        git config core.autocrlf false  //禁用自动转换
+
+        merge branch 'master' of github.com 解决
+        q 退出
+
+
+C#  Script   /Robot/Script
+    重复的删除
+    通用脚本
+    过滤无用垃圾脚本 写个通用脚本
+
+    1) .net 环境下 安装InronPython, 添加dll（文件为动态链接库文件，又称“应用程序拓展”，是软件文件类型。 在Windows中，许多应用程序并不是一个完整的可执行文件，它们被分割成一些相对独立的动态链接库，即DLL文件，放置于系统中。 当我们执行某一个程序时，相应的DLL文件就会被调用。）
+    2）注意路径 sys.path
+
+
+    分析
+        武穴  /Forum/BBSWuXue         http://bbs.wuxue.cc/forum.php?mod=forumdisplay&fid=2
+    百度知道_中国移动 /Forum/baiduKonw https://zhidao.baidu.com/search?word=%D6%D0%B9%FA%D2%C6%B6%AF&ie=gbk&site=-1&sites=0&date=0&pn=0
+
+
+url 转 中文
+    In [1]: from urllib.parse import unquote
+    In [2]: unquote("%C0%FA%CA%B7%C9%CF%C4%C7%D0%A9%C5%A3%C8%CB%C3%C7.PDF", encoding="GBK")
+    Out[2]: '历史上那些牛人们.PDF'
+
+    import urllib.parse
+    # Python3 url编码
+    print(urllib.parse.quote("天安门"))
+    # Python3 url解码
+    print(urllib.parse.unquote("%E5%A4%A9%E5%AE%89%E9%97%A8"))
+
+调整显示器亮度
+    桌面右键 显示设置
+
+下载 SQL
+
+    QQ 无效脚本  comment/blog/QQ
+
+    sinablog 无效脚本
+
+关闭用户账号控制提醒
+    属性 安全和维护 用户账号控制
+
+    请求

@@ -1,0 +1,40 @@
+git 冲突
+    push -f 强制  除非你确定仓库的更新是没用的可以直接抛弃，就可以执行 git push -f 强制覆盖到仓库
+    原因分析：新修改功能后的文件与原来commit未push的文件存在冲突，需要将修改后的文件手动加入到文件push队列中。
+    使用git add [filename] 将差异文件添加进去。也可以先使用git status （git status命令可以列出当前目录所有还没有被git管理的文件和被git管理且被修改但还未提交(git commit)的文件.）查看差异文件，然后按照自己的需求进行操作。
+
+
+pyquery
+    不用 eq 方法默认返回第一个
+
+
+ python 命名空间跟作用域
+    我们在全局命名空间里定义一个变量 Money。我们再在函数内给变量 Money 赋值，然后 Python 会假定 Money 是一个局部变量。然而，我们并没有在访问前声明一个局部变量 Money，结果就是会出现一个 UnboundLocalError 的错误。取消 global 语句的注释就能解决这个问题
+
+ selenium
+     我们在全局命名空间里定义一个变量 Money。我们再在函数内给变量 Money 赋值，然后 Python 会假定 Money 是一个局部变量。然而，我们并没有在访问前声明一个局部变量 Money，结果就是会出现一个 UnboundLocalError 的错误。取消 global 语句的注释就能解决这个问题
+     quit将关闭整个浏览器，而_close——只会关闭一个标签页
+
+    使用`XPATH`时，你必须注意，如果匹配超过一个元素，只返回第一个元素。 如果上面也没找到，将会抛出 ``NoSuchElementException``异常
+
+    输入会继续添加到已存在文本之后  driver.clear()
+        设置cookie driver.add_cookie(cookie)
+        获取cookie    driver.get_cookies()
+    driver.implicitly_wait(30)  # 隐性等待，最长等30秒
+       需要特别说明的是：隐性等待对整个driver的周期都起作用，所以只要设置一次即可，我曾看到有人把隐性等待当成了sleep在用，走哪儿都来一下
+
+      Expected Conditions的使用场景有2种
+
+            直接在断言中使用
+            与WebDriverWait配合使用，动态等待页面上元素出现或者消失
+
+robomongo
+    view 视图  控制界面显示-> explorer  左边侧栏   log  日志栏  Toolbars  工具栏 全选 -> 菜单栏下 电脑 文件 执行 图标
+        Theme 主题 更改界面风格
+    option default view Mode  默认数据显示界面
+
+    执行查询 ctrl + R  / F5 / ctrl + enter
+
+    UTC 协调世界时
+
+    robomongo 数据备份文件 只能备份当前集合

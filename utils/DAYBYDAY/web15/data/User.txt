@@ -1,0 +1,7 @@
+[
+  {
+    "username": "gua",
+    "id": 1,
+    "password": "1be6af03717a0906a774a129ac467fcea8f89849df003548a8039cffffb12baf"
+  }
+]

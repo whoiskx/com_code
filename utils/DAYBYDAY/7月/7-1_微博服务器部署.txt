@@ -1,0 +1,122 @@
+图谱API
+
+
+git 远程仓库
+  git init
+  git remote add origin ..@..
+  git pull ...
+  仓库名即为pull 下来的顶层目录
+
+
+View > Active Editor > Use Soft Wraps
+
+
+
+D:\Program Files\PyCharm 4.5.4\bin\pycharm64.exe.vmoptions 原始
+-Xms128m
+-Xmx750m
+-XX:ReservedCodeCacheSize=240m
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-ea
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+
+
+fbTimelineTimePeriod
+        fbTimelineCapsule clearfix
+            class="_1md0 fbTimelineCapsule"
+
+183.63.158.150:9020     Bfadmin    bangfu2015..
+                        bfadmin    Dfly2018!@#+-*
+安装流程
+
+
+
+
+    进程 直接回车
+
+
+wget https://mirrors.ustc.edu.cn/anaconda/miniconda/Miniconda3-4.5.1-Linux-x86_64.sh
+sh Miniconda3-4.5.1-Linux-x86_64.sh
+
+cd miniconda3/bin
+./conda create -n scraper python=3.6
+. activate scraper
+conda install scrapy==1.5.0 pymysql==0.7.9
+y
+pip install redis==2.10.6 requests
+
+or create a new repository on the command line
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:jiangchance/scrapy_exts.git
+git push -u origin master
+
+or push an existing repository from the command line
+git remote add origin git@github.com:jiangchance/scrapy_exts.git
+git push -u origin master
+
+
+
+部署
+183.63.158.150:9020     Bfadmin    bangfu2015..
+                        bfadmin    Dfly2018!@#+-*
+
+10.6.13.陕西131
+
+安装流程
+文件找不到
+    rm -r mini...
+    sh Mi....
+
+
+wget https://mirrors.ustc.edu.cn/anaconda/miniconda/Miniconda3-4.5.1-Linux-x86_64.sh
+sh Miniconda3-4.5.1-Linux-x86_64.sh
+
+cd miniconda3/bin
+./conda create -n scraper python=3.6
+
+. activate scraper
+conda install scrapy==1.5.0 pymysql==0.7.9
+y
+pip install redis==2.10.6 requests
+
+cd ~
+git clone https://github.com/jiangchance/scrapy-exts.git
+
+cd scraper/scraper
+REDIS_HOST = '10.6.13.110'
+
+在spider目录下
+scrapy runspider weibo_slave.py &
+
+ps aux|grep python
+
+exit
+
+已完成 121完成  122 123可以 找不到web  124正在进行
+125 问题跳过
+
+开始 126 无，  127， 128不行， 129， 130不行
+131， 132， 133 OK
+
+最终完成 121， 122， 123
+有问题跳过 125， 128，130， 136，139，140
+
+12x PATH点了yes
+
+安全无重复的
+138，
+
+127
+
+
+8-7 补充
+    history | grep scrapy 微博爬虫
+    38台slave，一台master
+    scrapy runspider weibo_slave.py
+    启动爬虫。。 先启动虚拟环境

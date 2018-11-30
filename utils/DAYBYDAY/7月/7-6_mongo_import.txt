@@ -1,0 +1,16 @@
+/home/bfadmin/mongodb
+
+Dfly2018!@#+-*
+
+pip install opencv-python
+ cv2错误
+ Python 延迟初始化（lazy property）
+
+ lsb_release -a 查看linux版本
+
+mongo 数据库导入导出
+ mongoexport -h localhost --port 27017  -d urun -c Group  -o D:\users.json
+ mongoimport -d urun  -c groups --file /home/bfadmin/temp/excel_to_mong
+
+数据库
+select * from ftp where site=3 and IsOK=1

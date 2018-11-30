@@ -1,0 +1,8 @@
+18-09-21 10:04:55 插入数据成功 中央纪委国家监委网站
+18-09-21 10:04:56 当前账号id为0 需要添加
+18-09-21 18:38:35 插入数据成功 江西政读
+18-09-21 18:38:35 当前账号id为0 需要添加
+18-09-21 18:38:41 插入数据错误 (2627, b"Violation of UNIQUE KEY constraint 'IX_WXAccount'. Cannot insert duplicate key in object 'dbo.WXAccount'.DB-Lib error message 20018, severity 14:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+18-09-25 16:46:54 插入数据成功 刀口谈兵
+18-09-25 16:46:55 当前账号id为0 需要添加
+18-09-25 16:47:00 插入数据错误 (2627, b"Violation of UNIQUE KEY constraint 'IX_WXAccount'. Cannot insert duplicate key in object 'dbo.WXAccount'.DB-Lib error message 20018, severity 14:\nGeneral SQL Server error: Check messages from the SQL Server\n")

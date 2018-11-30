@@ -1,0 +1,188 @@
+1. chromedriver  内存泄露？
+2. git仓库
+3. 多台部署
+
+4. 只要搜狗验证完成就可以抓
+    自带cookie重启浏览器可以解决
+
+程序执行 当前目录 大于 导入目录？
+
+top
+    查看CPU 内存 使用情况
+    前几行
+    输入命令
+
+requests
+    requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=18010): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x000002A068B6AAC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))
+    网络不通; 即联不通，网络IP挂掉
+
+Python 新环境
+    pip freeze > requirements.txt
+    pip install -r requirements.txt
+
+    安装
+        Linux下需要安装几个基础类库：Cython：pip install Cython      
+         ##python包freetds-dev：yum install freetds-devel.x86_64 / apt-get install freetds-dev   ##linux包
+
+pass 空语句  下面有语句会继续执行
+迭代 空对象， 直接跳过下面的语句块
+
+转移表
+    navicat 工具 数据传输  之后重新连接数据库
+
+ c + alt + shift 选择列
+
+ 统计mysql 数量
+ SELECT count(distinct account) FROM `account_http_copy`;
+
+
+ 查看print
+ python yourScript.py > out.txt
+
+如果又要查看打印的内容，怎么让它输出(还在运行)？
+
+这里提供一个最简单的方法：tail -f out.txt
+
+
+raise语句
+主动抛出异常。
+格式：
+主动抛出异常终止程序
+raise 异常名称(‘异常描述’)
+
+raise RuntimeError('testError')         没有描述 e 为 ''
+
+挂全局改代理IP
+
+
+使用 nohup 运行 Python程序
+    print不会在前台打印，直接打印到 nohup.out
+
+单个死循环 在 4核CPU内 占用 33%
+
+ grep -C 10 '切换' log.txt
+
+ return send_file(path, mimetype='image/jpeg')
+# return send_from_directory(IMAGE_DIR, filename)  阻塞
+
+__name__ 正在运行 '__main__', 被导入，模块名字
+
+Python windows 后台运行
+    pythonw.exe xx.py
+
+濮嬪鐞嗘悳鐙楅獙璇佺爜   utf-8编码被强制GBK编码
+��ΰʹ�ù�˾�߹��ѹ��㶫�ֹ�˾������ķ���   gbk被强制utf-8转码
+
+
+ipconfig /flushdns
+    刷新DNS
+
+except Exception as e:
+    e 是异常对象  不可迭代 -> str(e)
+
+ 检测服务器端口是否正常
+    服务器用了端口映射,内部端口不同，但是外部端口正常 - > 服务器拒绝连接
+
+静态方法
+    方法内没有调用self 就会提示
+
+ll /proc/PID
+    cwd符号链接的是进程运行目录；
+
+    exe符号连接就是执行程序的绝对路径；
+
+    cmdline就是程序运行时输入的命令行命令；
+
+    environ记录了进程运行时的环境变量；
+
+    fd目录下是进程打开或使用的文件的符号连接。
+
+图片防盗链的原理是当图片在网页中显示的时候，图片服务器会检测到引用这张图片的服务器域名，当发现服务器域名不包含http://qq.com或http://qpic.cn的时候就会被替换成防盗链图片。
+
+python 获取指定文件夹下所有文件名
+    os.walk()和os.listdir() 无序，windows打开会刷新 估计是为了排序
+
+IOError: image file is truncated (5 bytes not processed)
+复制代码
+解决办法是，再添加如下2句代码：
+
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+
+pycharm转换字母大小写的快捷键是什么？
+     ctrl/command + shift + u
+
+æ�¥æ�¬å�³å®�æ��ç«�ä¸�ä¸ªæ�°  响应乱码 response.encoding='utf-8'
+
+获取浏览器cookie
+#get the session cookie  
+cookie = [item["name"] + "=" + item["value"] for item in sel.get_cookies()]  
+#print cookie  
+  
+cookiestr = ';'.join(item for item in cookie)  
+
+包 含有__init__ 文件
+
+模块
+.py 文件
+
+grep -C 1000 -m 3  '访问过于频繁' log.txt
+
+SSH 代理
+proxies = {
+        'https': "http://localhost:1080",
+        'http': 'http://127.0.0.1:1080'
+
+    }
+
+--no-sandbox 会导致 webdriver无法退出
+
+CrawlerType: "11"
+
+<<<<<<< HEAD
+上传下载文件 sz rz
+    上传本地文件到服务器
+在服务器上先cd至相应要放上传文件的目录之后
+
+rz -bye                 //在远程服务器的相应目录上运行此命令,表示做好接收文件的准备
+ctrl+@                  //运行上面命令后,会出现一些乱码字符,不要怕,按此组合键,进入zssh
+zssh >                  //这里切换到了本地机器
+zssh > pwd           //看一下本地机器的目录在那
+zssh > ls               //看一下有那些文件
+zssh > sz 123.txt   //上传本地机器的当前目录的123.txt到远程机器的当前目录
+1
+2
+3
+4
+5
+6
+下载服务器文件到本地
+sz filename             //在远程机器上,启动sz, 准备发送文件
+                               //看到一堆乱码,不要怕,这会按下组合键
+ctrl+@
+zssh > pwd              //看看在那个目录,cd 切换到合适的目录
+zssh > rz                  //接住对应的文件
+
+
+Column Selection Mode
+    只能选择区域
+=======
+【二】显示1000行到3000行
+
+cat filename| head -n 3000 | tail -n +1000
+
+
+
+*注意两种方法的顺序
+
+
+
+分解：
+
+    tail -n 1000：显示最后1000行
+
+    tail -n +1000：从1000行开始显示，显示1000行以后的
+
+    head -n 1000：显示前面1000行
+
+>>>>>>> f955abdf2bf2f03db1c1b11c99f4a585d6d7b38d

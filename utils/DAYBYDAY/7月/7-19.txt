@@ -1,0 +1,37 @@
+ubuntu 解决“无法获得锁 /var/lib/dpkg/lock -open
+    在ubuntu系统的termial下，用apt-get install 安装软件的时候，如果在未完成下载的情况下将terminal close。此时 apt-get进程可能没有结束。结果，如果再次运行apt-get install 命令安装如今，可能会发生下面的提示：
+   无法获得锁 /var/lib/dpkg/lock - open (11: 资源暂时不可用)
+       无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它？
+    解决办法如下：
+    1。终端输入 ps  aux ，列出进程。找到含有apt-get的进程，直接sudo kill PID。
+
+    2。强制解锁,命令
+    sudo rm /var/cache/apt/archives/lock
+    sudo rm /var/lib/dpkg/lock
+
+查看 linux 版本
+    lsb_release -a
+
+fileZilla错误：无法与 SFTP 服务器建立 FTP 连接
+    进入通用选项并选择 SFTP 协议
+
+How do I restart ssh or sshd on Ubuntu?  or 16.04 SSH connection refused: hunting down root-cause
+    sudo apt-get install openssh-server
+
+
+  Ubuntu 也是 Linux 中的一个发行版本。在 Linux 系统中：
+蓝色代表目录；
+绿色代表可执行文件；
+红色表示压缩文件；
+浅蓝色表示链接文件；
+灰色表示其他文件；
+红色闪烁表示链接的文件有问题了
+黄色表示设备文件。
+
+unzip  xx.zip  linux tab 文件出不来  -> 可能文件类型跟命令不匹配
+
+小组监理
+
+socket 端口被占用、
+
+wireshark

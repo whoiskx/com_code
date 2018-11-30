@@ -1,0 +1,10 @@
+2018-10-29 14:51:13,955,afasf,DEBUG,tests.py:24,this is debug
+2018-10-29 14:51:13,955,afasf,INFO,tests.py:25,12313
+2018-10-29 14:51:13,955,afasf,ERROR,tests.py:26,123
+2018-10-29 14:51:13,955,afasf,INFO,tests.py:27,寮犱紵
+2018-10-29 14:53:40,819,abc,INFO,logger.py:87,this is debug 123
+2018-10-29 14:53:40,819,abc,INFO,logger.py:88,中文
+2018-10-29 14:53:56,119,afasf,DEBUG,tests.py:24,this is debug
+2018-10-29 14:53:56,119,afasf,INFO,tests.py:25,12313
+2018-10-29 14:53:56,119,afasf,ERROR,tests.py:26,123
+2018-10-29 14:53:56,119,afasf,INFO,tests.py:27,张伟使得公司高管搜狗广东分公司法国岁的法国

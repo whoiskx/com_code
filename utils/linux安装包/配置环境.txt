@@ -1,0 +1,32 @@
+# 详细版
+    其他：
+        先下载包，后运行setup.py install for lxml 安装
+
+   1 安装Chrome           65
+        sudo apt-get install chromium-browser
+        chromium-browser --version  对应相应的webdriver（ 不同版本下载 http://chromedriver.storage.googleapis.com/index.html ）；
+        unzip 解压zip 文件 直接解压
+        webdriver 保存到/usr/local/bin 目录下  cp  目录下运行不了
+        执行webdriver.Chrome()
+   2 安装对应webdriver     2.38
+   3 安装pip3                 sudo apt install python3-pip
+   4 安装zip  直接unzip 解压
+   5 执行程序移到 /usr/local/bin
+   6 更新setuptools           sudo pip3 install -U setuptools
+   7 安装Cython               sudo pip3 install Cython
+   8 安装libffi-dev           sudo apt install libffi-dev
+   9 安装requirements.txt  去掉部分安装包
+   10 安装 sudo apt-get install libxml2-dev libxslt-dev
+   11 Pillow
+        sudo apt-get install libjpeg-dev zlib1g-dev
+        pip install Pillow
+   12 pymssql
+        # Install pre-requesite packages
+        sudo apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
+
+   13 广外新添
+   sudo apt-get install libpq-dev python-dev
+
+   sudo apt install libffi-dev libxml2-dev libxslt-dev libjpeg-dev zlib1g-dev unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc libpq-dev python-dev
+
+   sudo pip3 install --upgrade requests   body()  error

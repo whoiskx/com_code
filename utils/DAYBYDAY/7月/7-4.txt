@@ -1,0 +1,21 @@
+
+itchat 微信开源接口
+
+Python文本处理工具集
+    词性标注，句法分析，关键词提取，文本分类，情感分析等等
+    1. NLTK — Natural Language Toolkit
+     Pattern
+     6. langid.py: Stand-alone language identification system
+     7. Jieba: 结巴中文分词
+
+  原则是比具体技术更抽象，更接近事物本质，也更经得起时间考验的东西。这些原则沉淀在架构师的脑海中，最终内化成他的 mindset，以潜意识方式影响和指导他的架构和设计工作。
+
+
+
+我负责的
+    获取阅读数、点赞数模块
+    fb tw的完全转python	    除了翻译，还要优化
+
+
+磁盘分区
+    加1M

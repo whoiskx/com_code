@@ -1,0 +1,34 @@
+e 选择标签会有问题， 选择类比较好？？？？
+
+统计某字符串 的次数
+    str.count(sub, start= 0,end=len(string))
+
+
+B 香港
+    互联先锋  15
+
+元搜索
+    检索接口  客户查询（用于查看不利新闻之类）但是数据会缺少  -> 元搜索;
+    可能情况： 1.底层数据缺少 -》 关键字轮询采集，(我们负责) 2. 检索接口 查询问题,
+
+facebook 安全验证 解封 18小时
+
+SQL 插入  INSERT INTO table VALUES('%s', '%s') % (xx, xx)
+ERROR 1049 (42000): Unknown database 'yunrun2015!@#'
+    -p紧接密码
+
+系统管理员设置了系统策略
+    管理员模式运行
+
+pymysql pymysql.err.OperationalError 1045
+    有没有将密码关键字参数？？？？？？？？？？？？？
+
+    {
+  "X": 370,
+  "Y": 84
+}
+
+{
+  "X": 125,
+  "Y": 36
+}

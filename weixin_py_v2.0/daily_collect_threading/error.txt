@@ -1,0 +1,5 @@
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '121.28.84.254' ([Errno 110] Connection timed out)")
+
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='mp.weixin.qq.com', port=443): Max retries exceeded with url: /s?timestamp=1538276348&src=3&ver=1&signature=cWZmgvR6PaVeIZKo0PklaOiAz0Xi2rs7JbyJd6fqwUp3DYEFknM0Rp3zZFGla**SjSP7K-t1k-EZwMiX46A5Amz1QCB0BjUualt2Tuu6EaWvBWVY0HqPZshmsiPNFEy*aW65RwzxTo3M6o*A2mO1lZxrF1KuUTP72SEN-e6tynM= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe73b8d44a8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+程序出错 (2013, 'Lost connection to MySQL server during query ([Errno 110] Connection timed out)'

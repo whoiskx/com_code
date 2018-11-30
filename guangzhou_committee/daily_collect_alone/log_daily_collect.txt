@@ -1,0 +1,8 @@
+2018-11-27 15:35:01,073,daily_collect,INFO,350,初始化
+2018-11-27 15:35:01,074,daily_collect,INFO,211,第1次
+2018-11-27 15:35:01,074,daily_collect,INFO,61,start account guangzhoudaily
+2018-11-27 15:35:01,369,daily_collect,INFO,65,当前搜狗标题：guangzhoudaily的相关微信公众号 – 搜狗微信搜索
+2018-11-27 15:35:13,104,daily_collect,INFO,276,------开始处理未成功的URL：http://mp.weixin.qq.com/profile?src=3&timestamp=1543304101&ver=1&signature=iXe4r0Q-1monqT0mLK4UWRr6CYLB6vLvJ2Mr6QBvLISdN24CppAKJ51IjGKS6LcjgkRhlrw0WXsc7sFzOTlWTg==
+2018-11-27 15:35:13,105,daily_collect,INFO,331,------开始处理微信验证码------
+2018-11-27 15:35:13,607,daily_collect,INFO,336,------验证码：kofl------
+2018-11-27 15:35:13,717,daily_collect,INFO,342,------cookies已更新------200

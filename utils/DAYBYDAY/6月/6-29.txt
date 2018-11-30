@@ -1,0 +1,13 @@
+selenium
+    下拉 不sleep  会导致一直拖
+
+    救下急 就是 selenium 的driver问题
+    html = driver.page_source
+    如果 要下载的html 很大， 这步会出现异常， 好像是只默认能下载的页面是100MB；怎么设置下这个默认值
+
+设置浏览器缓存
+    快捷方式 右键属性 目标输入
+   chrome.exe --user-data-dir="d:\ChromeUser"
+   "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --user-data-dir="d:\ChromeUser"
+
+ 下拉第1014次，总共下拉1500次

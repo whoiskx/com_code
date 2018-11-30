@@ -1,0 +1,41 @@
+SaveBatchTaskForModifyingDomainDns	提交批量修改域名dns任务
+    域名API的服务接入地址为：domain.aliyuncs.com
+
+    逻辑 2个程序
+        1个 主切 备  一个 备切主
+        数据结构 用字典 {域名 主 备}
+
+
+     TTL，即Time to Life，解析生效时间。
+
+     selenium 可以直接请求网页 不用点击跳转
+
+
+
+     域名  主IP  备IP xxx
+
+     # 问题: 故障判断
+            切换结果    切换之后下次不再管
+            字段定义
+
+
+      多线程模式
+        等所有循环结束 开启下一轮域名轮询
+
+     字段
+     监控url  域名
+
+     监控备用服务器
+
+
+     gethostbyname 域名需要十分钟生效, 本地可能只要2分钟
+
+     ping  测试网络通畅 (测试你到某一个ip之间的网络是否通畅。)
+         192.168.1.1 这就是ping你到猫  ping 网站  网络OK 就是电脑问题
+
+     ipconfig/flushdns
+
+同一个主机IP要不要监控？
+    只监控服务器？？
+
+    因为向一台主机发送多次请求导致错误 延迟是否能解决

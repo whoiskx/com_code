@@ -1,0 +1,66 @@
+FB weibotask  / task 任务表 字段  ftp 上传服务器
+    ID          hash 对象
+    name        用户名
+    site        4 - FB；
+    type
+    url         个人主页
+    remark
+    ids         记录 顺序
+    Sex         1   出现最多
+    language    3
+    Country     0
+    Addon       添加时间
+    Enabled     1
+    CustomerID  0000
+    Oversea     0
+    Tag         0
+
+
+内容	    Content
+转载数	Transmits
+评论数	Comments
+点赞数	Praises
+图片链接	ImageUrl
+博主ID	UID
+博主名	Author
+博主头像链接	PortraitUrl
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Blog>
+    <site>5</site>
+    <content>https://t.co/718kJ57JPy presents: "AcA" https://t.co/q9iFBtU04L https://t.co/j6IZ9IG0Bb</content>
+    <author>Wikibuda</author>       @Wikibuda 作者
+    <time>2018-01-03T06:38:21+08:00</time>  发帖时间
+    <url>https://twitter.com/WikiBuda/status/948322601348235266</url> 博文url
+    <authorID>e1134c9b2066781bcb242f1c30cc23ce</authorID>   //md5(uid#site)
+    <imageUrl>http://pbs.twimg.com/profile_images/563757977086070784/2t0rRp12_normal.jpeg</imageUrl> 博主头像图片链接
+    <transtmis>0</transtmis>    转发数
+    <comments>0</comments>      评论数
+    <hash>cc3af9e7cda8cd648ef6945ddc252da8</hash>   内容md5
+    <blogid>948322601348235266</blogid>       单个博客id/评论id
+    <uid>WikiBuda</uid>     博主uid
+    <imgUrl>http://pbs.twimg.com/media/DSkeYTFWAAEhajr.jpg</imgUrl> 内容中附带的图片
+    <imgCounts>1</imgCounts> 内容中附带的图片数
+    <qimgCounts>0</qimgCounts>  未解释
+    <source>IFTTT</source>      来自哪里
+    <User>
+        <fans>0</fans>  粉丝
+        <favourites>0</favourites>
+        <follows>0</follows>    关注
+        <headurl>http://pbs.twimg.com/profile_images/563757977086070784/2t0rRp12_normal.jpeg</headurl> 头像地址
+        <name>Wikibuda</name>   用户名
+        <posts>0</posts>    推文
+        <sex>0</sex>    性别
+        <site>5</site>  类型
+        <uid>WikiBuda</uid> 用户
+        <verified_type>0</verified_type>
+    </User>
+    <phrase/>       分词
+    <attitudes_count>1</attitudes_count>    表态数
+    <favorite_count>0</favorite_count>       收藏数
+    <md5s/>
+    <atSomeone/>
+    <isComments>0</isComments>      是否评论内容：0.否 1.是
+</Blog>
+

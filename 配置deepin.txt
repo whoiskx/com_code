@@ -1,0 +1,37 @@
+配置代理
+    商店下载shadowsocks, 导入gui-config.json文件
+    配置系统代理 127.0.0.1 1080
+
+浏览器查看json
+    JSON Formatter
+
+配置环境
+    添加环境变量
+        export PATH=$PATH:/opt/software/node-v8.9.3-linux-x64/bin/node
+
+# 为了连接山西省厅 修改IP
+ ip地址  192.168.1.154
+ 网关  192.168.1.1
+    首选域名  114.114.114.114
+    掩码 255.255.255.0
+
+
+安装程序运行环境
+    安装rz/sz
+        sudo apt-get install lrzsz
+        包列表损坏
+            sudo rm /var/lib/apt/lists/* -vf  将删除损坏的列表，当您运行第二个命令时，它将用新列表替换它。
+            sudo apt-get update
+
+运行selenium TypeError: urlopen() got multiple values for keyword argument 'body'
+    sudo pip3 install --upgrade requests
+中文乱码
+    用phantomjs去截取中文页面的网站可能会出现乱码的情况，也就是截图中中文的位置全是方框。
+    解决办法就是安装字体。
+    在centos中执行：yum install bitmap-fonts bitmap-fonts-cjk
+    在ubuntu中执行：sudo apt-get install xfonts-wqy
+    山西省委这边需要    
+
+
+配置google-chrome 流程
+

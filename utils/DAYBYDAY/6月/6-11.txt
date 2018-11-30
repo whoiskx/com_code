@@ -1,0 +1,20 @@
+磁盘分区
+  电脑 管理 磁盘管理        压缩大小加1M
+  压缩 简单卷 选择盘符 NTFS
+
+删除git文件
+git rm --cached filename  （rm -r 文件夹）
+git commit -m "hehe"
+git push origin
+
+atom width of the windows
+  soft Wrap
+
+Duplicate 去重
+
+
+print '%(language)s has %(number)03d quote types.' %  {"language": "Python", "number": 2}
+
+Redis 没有官方的Windows版本，但是微软开源技术团队（Microsoft Open Tech group）开发和维护着这个 Win64 的版本
+
+“非不为也,实不能也

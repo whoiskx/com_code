@@ -1,0 +1,29 @@
+SELECT top 20* FROM [dbo].[WXAccount] where Account like 'gh_%';
+SELECT top 8 * FROM [dbo].[WXAccount] where FID not in (select Top 10 from WXAccount);
+select * from WXAccount where Name='掌上西区';
+select count(id) from WXAccount where  Account like 'gh_%';
+select count(id) from WXAccount where Addon >= '2018-09-03 08:06:00' and addon <= '2018-09-05 08:06:00'
+select count(DISTINCT NAME) from WXAccount;
+
+
+SELECT COUNT(DISTINCT account) FROM `account_http` WHERE read_num=2;
+
+SELECT count(*) FROM `account_http` where addon regexp '2018-10-09 16:';
+
+SELECT COUNT(*) FROM `account_http` WHERE read_num=2;
+
+SELECT count(ID) FROM [dbo].[WXAccount] where id<53007653;
+
+SELECT count(ID) FROM [dbo].[WXAccount] where id<52963713;
+
+select * from WXAccount where id='53007653'
+
+1.ctrl+q           打开查询窗口
+2.ctrl+/            注释sql语句
+3.ctrl+shift +/  解除注释
+4.ctrl+r           运行查询窗口的sql语句
+5.ctrl+shift+r   只运行选中的sql语句
+6.F6               打开一个mysql命令行窗口
+7.ctrl+l            删除一行
+8.ctrl+n           打开一个新的查询窗口
+9.ctrl+w          关闭一个查询窗口

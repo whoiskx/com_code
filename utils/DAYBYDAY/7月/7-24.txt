@@ -1,0 +1,65 @@
+doc.writexml(fp, indent='\t', addindent='\t', newl='\n', encoding="utf-8")
+    第一个 indent 指第二行
+
+文件写入编码问题  open('xx', encoding=utf-8)
+
+消息队列技术是分布式应用间交换信息的一种技术。消息队列可驻留在内存或磁盘上, 队列存储消息直到它们被应用程序读走
+https://www.ibm.com/developerworks/cn/opensource/os-cn-kafka/index.html
+
+redis
+    得到所有key(表)  r.keys()
+    得到所有键值对
+    r.hset()  用于字典  重复 -> 替换
+    r.hsetall() 所有
+
+
+python xml 生成
+
+md5 生成  创建md5对象 加密 显示
+m = hashlib.md5()
+m.update(str.encode(encoding='utf-8'))
+m.hexdigest()
+
+软件开发工具包（外语首字母缩写：SDK
+
+redis
+    里面的数据是二进制
+
+
+ EC.presence_of_element_located((By.CLASS_NAME, 'fwn'))
+    参数是元组  参数解包参数不一致
+
+  搜索 命令  +  -  "" 限制
+
+  研究生学位可分硕士学位和博士学位两阶
+
+  “”  双引号表示完全匹配，结果中必须出现与搜索文本完全相同的内容。2 A -B  搜索包含A但不包含B的结果（请注意A后面的空格不能省略）3 filetype  搜索对应类型的文件。例如：中国防火墙 filetype:ppt，即为搜索包含主题中国防火墙的ppt文件。（请注意使用英文的冒号）4 site  在某个网站内搜索，比如：site:http://pan.baidu.com 特别好用，用来搜百度云里的资源。以下是不怎么常用的。
+
+作者：小面包
+链接：https://www.zhihu.com/question/28013848/answer/62475371
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+射阳
+
+全面宽松
+
+微信赌博现新花样
+
+苹果维修视频
+
+月全食
+
+火星 + 液态水
+
+长生生物
+
+
+pyquery  和 driver
+
+花时间先确认是不是这个问题
+
+历史文件
+    消息吉拉拉  点选文件
+
+  pyquery 选择器 多重选择 类只能找类

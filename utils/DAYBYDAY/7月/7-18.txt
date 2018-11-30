@@ -1,0 +1,30 @@
+python 服务器连不上
+    连接端口异常断开 端口通道未关闭 导致连接不了  解决方式 先关闭 浏览器 服务器报错 自动关闭连接
+    IIS ？？
+
+ifrema
+    # document
+    对于使用的iFrame技术的website, 使用xPath无法直接定位到元素，需要先切换到相应的frame再进行定位：
+
+    selenium如何跳转到iframe
+        处理iframe，selenium提供了3中方法：
+        1.html的frame有id，传入id
+
+        2.html的frame有name，传入name
+
+        3.先找到iframe的元素，再传入该元素对象
+
+      跳出iframe
+
+        1.跳转到iframe后，返回到主窗体
+
+        dr.switchTo().defaultContent();
+
+        2.存在多个iframe，跳转到二级iframe后，返回上一级的iframe：
+
+        dr.switchTo().parentFrame();
+
+鼠标 移动
+
+action = ActionChains(driver)
+action.move_to_element(write).perform()  #

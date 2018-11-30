@@ -1,0 +1,70 @@
+
+MySQL 更新
+    最后更新字段不能加, 报错原因：找提示前面的语句
+
+selenium
+    driver url 不是以https 开头的  www开头导致 错误
+
+notepad++
+    tab -> 空格
+    设置->首选项->语言->右下角 替换为空格
+
+[''] 不是空列表  含有空字符串，True
+
+db['daily_collection'].insert(entity.update({'collection': T}))
+    字典更新返回结果是None -> NoneType' object is not iterable
+
+函数调用方法 改变对象 但是返回值是None
+
+所有的顶级代码在模块导入时都会被执行.
+
+用单下划线(_)开头表示模块变量或函数是protected的(使用import * from时不会包含).
+
+Python 函数内部引用全局变量 需要声明global  才能修改，直接修改报错
+
+多线程
+    webdriver非线程安全
+    由于线程的调度是由操作系统决定的
+
+  4.2. 输出列的含义
+F 代表这个程序的旗标 (flag)， 4 代表使用者为 super user
+S 代表这个程序的状态 (STAT)，关于各 STAT 的意义将在内文介绍
+UID 程序被该 UID 所拥有
+PID 进程的ID
+PPID 则是其上级父程序的ID
+C CPU 使用的资源百分比
+PRI 这个是 Priority (优先执行序) 的缩写，详细后面介绍
+NI 这个是 Nice 值，在下一小节我们会持续介绍
+ADDR 这个是 kernel function，指出该程序在内存的那个部分。如果是个 running的程序，一般就是 “-“
+SZ 使用掉的内存大小
+WCHAN 目前这个程序是否正在运作当中，若为 - 表示正在运作
+TTY 登入者的终端机位置
+TIME 使用掉的 CPU 时间。
+CMD 所下达的指令为何
+
+
+USER域指明了是哪个用户启动了这个命令;
+UID：启动该进程的用户的ID号 PID  PPID：代表该进程的父进程的ID号
+C：进程的CPU处理器利用率。
+
+STIME或START：均表示进程的启动时间
+
+进程
+    pstree -p 5816  查看子进程
+
+    ll /proc/5816 查看进程执行位置
+
+
+    使用vim的时候，偶尔会碰到vim莫名其妙的僵在那里。
+
+  解决方案：
+
+  经查，原来Ctrl+S在Linux里是锁定屏幕的快捷键，如果要解锁，按下Ctrl+Q就可以了。
+
+  经验总结：
+
+  牢记这两个VIM组合键 Ctrl+S 和 Ctrl+Q
+
+
+selenium.common.exceptions.TimeoutException: Message: timeout
+ 网络不行 打不开

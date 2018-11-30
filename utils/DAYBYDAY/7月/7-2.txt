@@ -1,0 +1,19 @@
+应用程序 快捷方式  右键 属性
+    目标 程序存储位置
+
+
+ chrome
+    chrome://version  chrome版本信息
+
+
+python time转换
+    int(time.time()) 时间戳  1970 之后经过的秒数
+    time.localtime   将时间戳转换为本地时间
+    time.strftime    本地时间格式化
+
+
+本机IP
+    192.168.191.1
+
+加班表
+    爬虫部署    临时紧急任务   在家办公  组长部门填自己的

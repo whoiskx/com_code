@@ -1,0 +1,27 @@
+18-10-15 12:10:33 []
+18-10-15 12:10:47 [(65934884,)]
+18-10-15 12:10:47 start rytv2012
+18-10-15 12:10:47 æçæç´¢
+18-10-15 12:10:47 初始化session
+18-10-15 12:10:47 https://weixin.sogou.com/weixin?type=1&s_from=input&query=rytv2012&ie=utf8&_sug_=n&_sug_type_=
+18-10-15 12:10:47 验证之前的cookie {}
+18-10-15 12:10:47 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=rytv2012&ie=utf8&_sug_=n&_sug_type_=
+18-10-15 12:10:47 ------开始处理搜狗验证码------
+18-10-15 12:10:51 ------出现验证码页面------
+18-10-15 12:10:52 ------验证码：522ET7------
+18-10-15 12:10:55 验证失败
+18-10-15 12:10:55 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=rytv2012&ie=utf8&_sug_=n&_sug_type_=
+18-10-15 12:10:55 ------开始处理搜狗验证码------
+18-10-15 12:10:57 ------出现验证码页面------
+18-10-15 12:10:58 ------验证码：S356YA------
+18-10-15 12:11:00 ------验证码正确------
+18-10-15 12:11:00 ------cookies更新------
+18-10-15 12:11:00 ------cookies已更新------ {'SUID': '64CF2A3B3120910A000000005BC4134B', 'ABTEST': '0|1539576651|v1', 'seccodeErrorCount': '1|Mon, 15 Oct 2018 04:15:53 GMT', 'SUIR': '1539576651', 'IPLOC': 'CN4401', 'PHPSESSID': 'so45dhi85t2vh38tlb8qrq1lb2', 'refresh': '1', 'SUV': '00B501F03B2ACF645BC4134C91423971', 'SNUID': 'CC67829CA8A2DF9B3858B1E4A82DE845', 'seccodeRight': 'success', 'successCount': '1|Mon, 15 Oct 2018 04:15:58 GMT', 'JSESSIONID': 'aaatpH0AOjJ0wgLYfeIzw'}
+18-10-15 12:11:00 验证完毕
+18-10-15 12:11:02 start rytv2012
+18-10-15 12:11:02 rytv2012的相关微信公众号 – 搜狗微信搜索
+18-10-15 12:11:03 头像上传成功
+18-10-15 12:11:03 更新数据成功 65934884
+18-10-23 17:32:34 path 65934884.jpj
+18-10-23 17:32:36 path 65934884.jpg
+18-10-23 17:32:36 D:\WXSchedule\Images\65934 65934884.jpg

@@ -1,0 +1,17 @@
+sudo apt-get install -y python-qt4
+
+
+消息队列
+
+product broke consumer
+
+producer： 生产者负责产生和发送消息到 broker
+broker：简单起见，你可以把 broker 理解为消息的处理中心
+consumer： 消费者从 broker 中获取消息来处理。
+
+broker 只具备 message 存储功能，可能也包括重试、消息确认等特性，实际上的消息队列一般都有多个 queue，根据消息的不同特性把他们放到不同的地方，消费者也可以只处理自己感兴趣的消息，如下图所示。
+
+redis
+作消息队列。一个是使用生产者消费模式模式，另外一个方法就是发布订阅者模式
+
+38010
