@@ -1,0 +1,1768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Facebook/rewrite/xml/read_write.py" line="38" />
+    <bookmark url="file://E:/WinXin/WXCrawler/Application.cs" description="{" line="332" />
+    <bookmark url="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" description="lock" line="408" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guangzhou_committee/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/guangzhou_committee/read_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/images/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/images/error.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/log_daily_collect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/log_daily_collect.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/com_code$logger.coverage" NAME="logger Coverage Results" MODIFIED="1528596816085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_test" />
+    <SUITE FILE_PATH="coverage/com_code$dmoz_spider.coverage" NAME="dmoz_spider Coverage Results" MODIFIED="1528612527766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_learn/tutorial/tutorial/spiders" />
+    <SUITE FILE_PATH="coverage/com_code$login.coverage" NAME="login Coverage Results" MODIFIED="1529417392616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Facebook_api" />
+    <SUITE FILE_PATH="coverage/com_code$errorhandler.coverage" NAME="errorhandler Coverage Results" MODIFIED="1529411079636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote" />
+    <SUITE FILE_PATH="coverage/com_code$wxb_rank.coverage" NAME="wxb_rank Coverage Results" MODIFIED="1528469373375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxb_rank" />
+    <SUITE FILE_PATH="coverage/com_code$parse_profile.coverage" NAME="parse_profile Coverage Results" MODIFIED="1529509664515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/facebook_follows" />
+    <SUITE FILE_PATH="coverage/com_code$T_test_login.coverage" NAME="T_test_login Coverage Results" MODIFIED="1529502631914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Facebook_xihaiming" />
+    <SUITE FILE_PATH="coverage/com_code$T_redis.coverage" NAME="T_redis Coverage Results" MODIFIED="1528643566509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_test" />
+    <SUITE FILE_PATH="coverage/com_code$T_pyquery.coverage" NAME="T_pyquery Coverage Results" MODIFIED="1528636665359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_test" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="daily_collect.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="333" column="17" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="17" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily_collect.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="220" column="20" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="25" />
+              <folding>
+                <element signature="e#24#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="72" selection-start-line="72" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="发包格式.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_threading/发包格式.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="read_excel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guangzhou_committee/read_excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="record.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/record.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-end-column="6764" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="daily_collect.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2641">
+              <caret line="222" column="37" selection-start-line="222" selection-start-column="31" selection-end-line="222" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wx_account.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/wx_account.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-47386" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>捡到一袋鸡肠回家煮</find>
+      <find>_account</find>
+      <find>info</find>
+      <find>ftp_note</find>
+      <find>微信公众号页面错误</find>
+      <find>程序出错</find>
+      <find>d41d8cd98f00b204e9800998ecf8427e</find>
+      <find>Ftp</find>
+      <find>$set</find>
+      <find />
+      <find>Connection</find>
+      <find>self.s</find>
+      <find>get_tags</find>
+      <find>ddzxdy</find>
+      <find>找到不到微信号首页</find>
+      <find>crack_sougou</find>
+      <find>上传ftp异常</find>
+      <find>1080</find>
+      <find>LOGGER_NAME</find>
+      <find>重新获取代理</find>
+      <find>解析公众号错误</find>
+      <find>获取标签结果：</find>
+      <find>send_result</find>
+      <find>lock</find>
+      <find>thread</find>
+      <find>crac</find>
+      <find>未跳转到验证码页面</find>
+      <find>uploads_mysql</find>
+      <find>板芙生活圈</find>
+      <find>sqtpxx</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>changing</replace>
+      <replace>monitor_url</replace>
+      <replace>print(</replace>
+      <replace>当前运行</replace>
+      <replace>item[]</replace>
+      <replace>account_insert.get()</replace>
+      <replace>account_init</replace>
+      <replace>query_name</replace>
+      <replace>account_info</replace>
+      <replace>account_add</replace>
+      <replace>ariticle</replace>
+      <replace>article</replace>
+      <replace>self.name</replace>
+      <replace>uploads_body</replace>
+      <replace>account_insert</replace>
+      <replace>self</replace>
+      <replace>entity</replace>
+      <replace>self.s</replace>
+      <replace>&quot;</replace>
+      <replace>:</replace>
+      <replace>self.browser</replace>
+      <replace>cookies</replace>
+      <replace>driver</replace>
+      <replace>print</replace>
+      <replace>self.</replace>
+      <replace>count</replace>
+      <replace>self.search_name</replace>
+      <replace>backpack</replace>
+      <replace>log</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\com_code\WechatSogou-master\wechatsogou</dir>
+      <dir>D:\com_code\weixin_py_v2.0</dir>
+      <dir>D:\com_code\wx_analyse_media</dir>
+      <dir>D:\com_code\weixin_interfaces\new_media_analyse_version\wx_analyse_media_online</dir>
+      <dir>D:\com_code</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/utils/weixin_headers/tests.py" />
+        <option value="$PROJECT_DIR$/baidu_query/not_login.py" />
+        <option value="$PROJECT_DIR$/baidu_query/homepage.py" />
+        <option value="$PROJECT_DIR$/utils/imge_size.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/utils.py" />
+        <option value="$PROJECT_DIR$/updata_spider/update__weixin_public/config.py" />
+        <option value="$PROJECT_DIR$/update__weixin_public/update_weixin_public/version.txt" />
+        <option value="$PROJECT_DIR$/update__weixin_public/config.py" />
+        <option value="$PROJECT_DIR$/update__weixin_public/updata_public_versions.py" />
+        <option value="$PROJECT_DIR$/wechat/headers/headers_v2_save_and_return/headers.py" />
+        <option value="$PROJECT_DIR$/tests/img.html" />
+        <option value="$PROJECT_DIR$/aliyun/tests.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel/test_excel.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel/tests_excel.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel/daily_collect.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_excel_tags_test/daily_collect.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_excel_tags/config.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_excel_tags_2222/config.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_excel_tags_2222/daily_collect.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel_2/tests_excel.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/config.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/save_name.txt" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/config.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/tests.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/models.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_process/save_name.txt" />
+        <option value="$PROJECT_DIR$/public_update/config.py" />
+        <option value="$PROJECT_DIR$/public_update/public_update.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_process/models.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_process/config.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_process/daily_collect.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py" />
+        <option value="$PROJECT_DIR$/public_update/public_update/version.txt" />
+        <option value="$PROJECT_DIR$/public_update/public_update/daily_collect/daily_collect.py" />
+        <option value="$PROJECT_DIR$/aliyun/error.txt" />
+        <option value="$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py" />
+        <option value="$PROJECT_DIR$/错误记录9-19.txt" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/daily_collect_alone/daily_collect.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel_2/read_excel.py" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/daily_collect/utils.py" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/daily_collect_false/utils.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/daily_collect.py" />
+        <option value="$PROJECT_DIR$/问题.txt" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" />
+        <option value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/config.py" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/record.txt" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/wx_account.txt" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/daily_collect/wx_account.txt" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py" />
+        <option value="$PROJECT_DIR$/guangzhou_committee/read_excel.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="568" />
+    <option name="y" value="18" />
+    <option name="width" value="1321" />
+    <option name="height" value="1019" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="guangzhou_committee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="guangzhou_committee" type="462c0819:PsiDirectoryNode" />
+              <item name="daily_collect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="aliyu_weixin_image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com_code" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin_py_v2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="daily_collect_account_excel_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Program Files/Python36/Lib/site-packages/openpyxl/worksheet/worksheet.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\com_code\guangzhou_committee\daily_collect" />
+      <recent name="D:\com_code\Facebook" />
+      <recent name="D:\com_code\wechat\headers" />
+      <recent name="D:\com_code\tests\images" />
+      <recent name="D:\com_code\tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\com_code\guangzhou_committee" />
+      <recent name="D:\com_code\guangzhou_committee\daily_collect" />
+      <recent name="D:\com_code\weixin_py_v2.0\daily_collect_proxy" />
+      <recent name="D:\com_code\weixin_py_v2.0\daily_collect_account_excel_2" />
+      <recent name="D:\com_code\public_update\public_update" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.daily_collect (1)">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="daily_collect (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/guangzhou_committee/daily_collect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="daily_collect (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="daily_collect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/daily_collect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_excel (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="com_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/guangzhou_committee" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guangzhou_committee/read_excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.daily_collect" />
+      <item itemvalue="Python.daily_collect (3)" />
+      <item itemvalue="Python.read_excel (1)" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.daily_collect (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.daily_collect (1)" />
+        <item itemvalue="Python.read_excel (1)" />
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.daily_collect (3)" />
+        <item itemvalue="Python.daily_collect" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6880914-f014-453f-ab91-19c7daa12ffa" name="Default" comment="" />
+      <created>1528343710913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528343710913</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_for_body_to_row_test - 2018.07.06 at 09h 31m 36s.xml">
+      <configuration name="py.test for body_to_row.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_pymysql_py - 2018.08.31 at 11h 07m 43s.xml">
+      <configuration name="py.test in test_pymysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_pymysql_py - 2018.08.31 at 11h 08m 13s.xml">
+      <configuration name="py.test in test_pymysql.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_info_py - 2018.09.11 at 17h 18m 25s.xml">
+      <configuration name="py.test in test_info.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_info_py - 2018.09.11 at 17h 18m 39s.xml">
+      <configuration name="py.test in test_info.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_info_py - 2018.09.11 at 17h 23m 40s.xml">
+      <configuration name="py.test in test_info.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_wechat_spider-master - 2018.09.29 at 11h 41m 33s.xml">
+      <configuration name="py.test in wechat_spider-master" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_instance_method_py - 2018.10.31 at 10h 10m 33s.xml">
+      <configuration name="py.test in instance_method.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_instance_method_py - 2018.10.31 at 10h 10m 41s.xml">
+      <configuration name="py.test in instance_method.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_excel_py - 2018.11.13 at 15h 09m 38s.xml">
+      <configuration name="py.test in test_excel.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974359" visible="true" weight="0.18756586" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.5095185" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.5554311" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.4300112" />
+      <window_info id="Structure" order="1" sideWeight="0.50256413" side_tool="true" weight="0.15437302" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24636059" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" visible="true" weight="0.3594625" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39468086" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.4412094" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974359" weight="0.18756586" />
+      <window_info id="Structure" order="1" sideWeight="0.50256413" side_tool="true" weight="0.15437302" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.34361702" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.93169093" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" x="11" y="337" width="1898" height="365" id="Debug" order="12" sideWeight="0.50052685" weight="0.36506158" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.49608064" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39468086" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.5556769" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapy_exts/scrapy-exts/scraper/exts/dupefilter.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wxb_rank/wxb_rank.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/library_git/wechat_articles_spider-master/wechatarticles/ArticlesUrls.py</url>
+          <line>1</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/library_git/crawl_wechat-master/new_crawl_wechat.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/library_git/crawl_wechat-master/new_crawl_wechat.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook_token_login_test/login.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/facebook_follows/login_testz_no_login.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/facebook_group/post_parse.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/facebook_group/group_members/parse_menbers_url.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook_xihaiming/T_test_login.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/body_to_row.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/wnagyi_163/test.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/wnagyi_163/bottom.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/wnagyi_163/wangyi.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/qq/qq.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/qq/qq.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/qq/qq_action_from_blog.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/qq/qq_action_from_blog.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/qq/qq_action_from_blog.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/qq/login_requests.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/slider_validation/API/qq/vlogin.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qq_wangyi/slider_validation/API/qq/vlogin.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/my_test/driver_page_source.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/my_test/FB_not_login.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/rewrite/redis_consumer.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/rewrite/post_nologin.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/rewrite/post_nologin.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/rewrite/redis_consumer.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/catch_post/temp_parse.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/catch_post/temp_parse.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/catch_post/temp_parse.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/get_name.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/get_name.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/my_test/try_except.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/get_more_public.py</url>
+          <line>306</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/get_more_public.py</url>
+          <line>270</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/get_more_public_bottom.py</url>
+          <line>323</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/bukong/fb_mysql.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/get_more_public_bottom.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/get_more_public_bottom.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/ts.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/get_more_public_bottom.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aliyun/tests_add.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/appium_wx/tt.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/WX/WX_qingbo/send_http2.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/appium_wx/account_backup.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/sougou_weixin.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/account_request.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/tests_pymysql.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/account_request.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/account_query_add.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/account_query_add.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/ids_read.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py/account_request_v3.0.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/ids_read.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/mobile.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/mobile.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/tests.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/ids_read.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/tests.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_server/handle_artiles.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/account_request_v3.0.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/tests.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media/analyse_new_media.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media/analyse_new_media.py</url>
+          <line>188</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media/analyse_new_media.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SougouParseArticle/sougou_parser_title.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SougouParseArticle/mongo_util.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <line>103</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <line>47</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url />
+          <line>300</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/testss.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/testss.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/flask_add/uploads_img.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/微信请求头像判断/tests.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/微信请求头像判断/tests.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/微信请求头像判断/send.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/app_weixin_media.py</url>
+          <line>279</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SougouWeixin/sougouweixin_spider.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SougouWeixin/sougouweixin_spider.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/tests_info.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/testss.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/img_uploads.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/get_tests.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/analyse_new_media.py</url>
+          <line>1</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/app_weixin_media.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/tests_info.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/images/send.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="429" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/app_weixin_media.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/tests_info.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/images/get_img.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/9-13/facebook_index.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/handle_artiles.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/app_weixin_media.py</url>
+          <line>421</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/handle_artiles.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/testss.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/app_weixin_media.py</url>
+          <line>261</line>
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/app_weixin_media.py</url>
+          <line>465</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/app_weixin_media.py</url>
+          <line>344</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media/send_backpack.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/mobile2.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/twfb_info_add/add.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/twfb_info_add/add.py</url>
+          <line>270</line>
+          <option name="timeStamp" value="476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/app_weixin_media.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wechat/daily/aliyun_headers_check/headers.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="479" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aliyun/ip_switch/new_ip_switch.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/ids_read.py</url>
+          <line>1</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wechat/add/collect_by_account/collect.py</url>
+          <line>225</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media_v2.2/analyse_new_media.py</url>
+          <line>52</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/verification_code.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wechat/add/collect_by_account/collect.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wechat/datacenter/collect.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wx_analyse_media/send_backpack.py</url>
+          <line>261</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/ftp/send_ftp.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/models.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/testss.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/压缩id判重.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wechat/datacenter/collect.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/setting.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="525" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/flask_add/uploads_img.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="526" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/new_media_analyse_v1.0_thuc_and_paltform/wx_analyse_media_online/app_weixin_media.py</url>
+          <line>322</line>
+          <option name="timeStamp" value="530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/utils.py</url>
+          <line>1</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aliyun/xlsx_to_mongo.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="536" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_interfaces/new_media_analyse_version/wx_analyse_media_online/app_weixin_media.py</url>
+          <line>380</line>
+          <option name="timeStamp" value="537" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/uin.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="545" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aliyun/xlsx_to_mongo.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="546" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Facebook/tests.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="547" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wechat/daily/daily_check/self_check.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="549" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/weixin_headers/read_dir.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="573" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baidu_query/homepage.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="574" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/daily_collect.py</url>
+          <line>351</line>
+          <option name="timeStamp" value="577" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="582" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="backpack_list" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>len(set(account_list))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.get_cookies()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_xpath('//*[@id=&quot;TANGRAM__22__header_a&quot;]').click()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_xpath().click()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_xpath('//*[@id=&quot;TANGRAM__PSP_3__submit&quot;]').click()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>'https://mp.weixin.qq.com/s?timestamp=1536141825&amp;src=3&amp;ver=1&amp;signature=7YVvOsPbe0SEAk8GcSBPHnOPgzBaspqtGKcMSS8QhNQ3p33Yt4BTTLwD4JmqeSq4HOxXoeN5*ksbIZoj19bu*vg522ymJ*sku*CpYjdowW1UokDK4rxw1D*WqmtaSm5w54QRS714J6*NXYcVa6*0VNtj9Gv6wkh-qTlhJl*W0mw='</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>len(content_all_list)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pq(homepage.text)('title').text()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e(&quot;.info&quot;).eq(0).text()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>account.account_id</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>backpack_list</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/aliyun/域名修改">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/error.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/ip_switch_session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/testss.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliyun/ip_switch_v2.0_exception_400/new_ip_switch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/错误记录9-19.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建文件夹/SougouWeixin/files/search_keys.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建文件夹/SougouWeixin/ftp_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1779" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建文件夹/SougouWeixin/sqlserver_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_update/public_update/version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_update/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect_alone/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect_alone/log_daily_collect.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_update/public_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="53" />
+          <folding>
+            <element signature="e#38#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect_alone/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建文件夹/SougouWeixin/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel_2/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_account_excel_2/read_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect_alone/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="274" column="6" selection-start-line="274" selection-start-column="4" selection-end-line="341" selection-end-column="70" />
+          <folding>
+            <element signature="e#11526#14881#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/log_daily_collect.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/images/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="280" column="4" selection-start-line="280" selection-start-column="4" selection-end-line="347" selection-end-column="70" />
+          <folding>
+            <element signature="e#11829#15184#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect_false/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="360" column="55" selection-start-line="360" selection-start-column="55" selection-end-line="360" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect_false/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="126" column="51" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/get_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10677">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/问题.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/.bash_history">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="126" column="49" selection-start-line="126" selection-start-column="49" selection-end-line="126" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建文件夹/SougouWeixin/captch_dytry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建文件夹/SougouWeixin/log.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新建文件夹/SougouWeixin/sougouweixin_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="282" column="25" selection-start-line="282" selection-start-column="25" selection-end-line="282" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/save_name.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_threading/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_threading/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_threading/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_threading/发包格式.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy_threading/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="333" column="17" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="220" column="20" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="72" selection-start-line="72" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin_py_v2.0/daily_collect_proxy/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/record.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-end-column="6764" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/read_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/wx_account.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47386" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guangzhou_committee/daily_collect/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2641">
+          <caret line="222" column="37" selection-start-line="222" selection-start-column="31" selection-end-line="222" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
