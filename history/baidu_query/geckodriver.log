@@ -1,0 +1,19 @@
+1541576584672	geckodriver	INFO	geckodriver 0.21.0
+1541576584679	geckodriver	INFO	Listening on 127.0.0.1:53212
+1541576587839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\urun\\AppData\\Local\\Temp\\rust_mozprofile.fseqq42MQIAK"
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\urun\AppData\Local\openvr\openvrpaths.vrpath
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 335)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:335:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:328:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:352:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:392:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:64:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1541576595329	Marionette	INFO	Listening on port 53228
+1541576595741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+[Parent 35300, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_cha[Parent 35300, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 46112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 46112, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

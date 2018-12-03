@@ -21,11 +21,7 @@ def main():
         if index == 0:
             continue
         for i, cell in enumerate(row):
-<<<<<<< HEAD
             if i == 0:
-=======
-            if i == 1:
->>>>>>> f955abdf2bf2f03db1c1b11c99f4a585d6d7b38d
                 # print(cell.value)
                 # if '\\N' in cell.value:
                 #     count += 1
