@@ -130,7 +130,7 @@ def mongo_conn():
 
 
 if __name__ == '__main__':
-    # config_sql = localhost_mysql()
+    # config_sql = get_mysql_old()
     # db = pymysql.connect(**config_sql)
     # cursor = db.cursor()
     # # cursor.execute(sql, _tuple)

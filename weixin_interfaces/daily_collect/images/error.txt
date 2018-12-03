@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '121.28.84.254' ([Errno 110] Connection timed out)")
 
 requests.exceptions.ConnectionError: HTTPSConnectionPool(host='mp.weixin.qq.com', port=443): Max retries exceeded with url: /s?timestamp=1538276348&src=3&ver=1&signature=cWZmgvR6PaVeIZKo0PklaOiAz0Xi2rs7JbyJd6fqwUp3DYEFknM0Rp3zZFGla**SjSP7K-t1k-EZwMiX46A5Amz1QCB0BjUualt2Tuu6EaWvBWVY0HqPZshmsiPNFEy*aW65RwzxTo3M6o*A2mO1lZxrF1KuUTP72SEN-e6tynM= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe73b8d44a8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
@@ -12,4 +13,20 @@ invalid literal for int() with base 10  表示entity.time 为空''
     120.78.237.213:27017: [Errno 113] No route to host 未处理
     HTTPConnectionPool(host='60.190.238.178', port=38010): Max retries exceeded with url: /search/common/weixin/select?sort=Time%20desc&Account=mmdalaohu&rows=2000&starttime=20180430&endtime=20181101&fl=id (Caused by ReadTimeoutError("HTTPConnectionPool(host='60.190.238.178', port=38010): Read timed out. (read timeout=21)",))
     访问过于频繁，请用微信扫描二维码进行访问   01:26:42
+=======
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '121.28.84.254' ([Errno 110] Connection timed out)")
+
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='mp.weixin.qq.com', port=443): Max retries exceeded with url: /s?timestamp=1538276348&src=3&ver=1&signature=cWZmgvR6PaVeIZKo0PklaOiAz0Xi2rs7JbyJd6fqwUp3DYEFknM0Rp3zZFGla**SjSP7K-t1k-EZwMiX46A5Amz1QCB0BjUualt2Tuu6EaWvBWVY0HqPZshmsiPNFEy*aW65RwzxTo3M6o*A2mO1lZxrF1KuUTP72SEN-e6tynM= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe73b8d44a8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+
+程序出错 (2013, 'Lost connection to MySQL server during query ([Errno 110] Connection timed out)'
+
+invalid literal for int() with base 10  表示entity.time 为空''
+
+
+11-2 运行报错整理
+    Connection broken: IncompleteRead... 更新requests包
+    120.78.237.213:27017: [Errno 113] No route to host 未处理
+    HTTPConnectionPool(host='60.190.238.178', port=38010): Max retries exceeded with url: /search/common/weixin/select?sort=Time%20desc&Account=mmdalaohu&rows=2000&starttime=20180430&endtime=20181101&fl=id (Caused by ReadTimeoutError("HTTPConnectionPool(host='60.190.238.178', port=38010): Read timed out. (read timeout=21)",))
+    访问过于频繁，请用微信扫描二维码进行访问   01:26:42
+>>>>>>> 4c7b1714548b1f6604c519614904db002e9f70c8
      01:45:58,565,daily_collect,INFO,287,程序出错 Message: chrome not reachable

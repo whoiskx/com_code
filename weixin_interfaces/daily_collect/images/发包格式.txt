@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 底层包
 [
     {
@@ -48,3 +49,55 @@
                     },
                 ]
 
+=======
+# 底层包
+[
+    {
+        "headers": {
+            "topic": "weixin",
+            "key": "7707bae04d01dc2bf3fee3ccc5d0b96e",
+            "timestamp": 1537956221
+        },
+        "body": "{\"ID\": \"7707bae04d01dc2bf3fee3ccc5d0b96e\", \"Account\": \"sxbzpu\", \"TaskID\": \"50442719\", \"TaskName\": \"\\u5fae\\u4fe1_\\u5c71\\u897f\\u65b0\\u95fb\\u7f51\\u4e09\\u9c9c\\u5305\\u5b50\\u94fa\", \"AccountID\": \"50442719\", \"SiteID\": 50442719, \"TopicID\": 0, \"Url\": \"https://mp.weixin.qq.com/s?timestamp=1537956221&src=3&ver=1&signature=PwoEQwNi07rfMpqLP-HMBAo1bHjQGUR4gscfXJibdgM5GFgLOpo1Lm16a4whVzSeMBeZzQL6gQGSFSqw7SauPVMapQSH5owUwbIL1pDMf4U3*610e6SgjYCbmmzExhySmCtQWfRCWyF8hHQoCNIkPN9GLgZL8GmD3bTeZLyPeCQ=\", \"Title\": \"\\u4e58\\u706b\\u8f66\\u8ba9\\u6211\\u4eec\\u53bb\\u8d4f\\u7f8e\\u666f\\u54c1\\u7f8e\\u98df\", \"Content\": \"\", \"Author\": \"\\u5c71\\u897f\\u65b0\\u95fb\\u7f51\\u4e09\\u9c9c\\u5305\\u5b50\\u94fa\", \"Time\": 1537933889000, \"AddOn\": 1537956221000}"
+    },
+    {
+        "headers": {
+            "topic": "weixin",
+            "key": "19f0450735ed60ed0831fca1518e00dc",
+            "timestamp": 1537956222
+        },
+        "body": "{\"ID\": \"19f0450735ed60ed0831fca1518e00dc\", \"Account\": \"sxbzpu\", \"TaskID\": \"50442719\", \"TaskName\": \"\\u5fae\\u4fe1_\\u5c71\\u897f\\u65b0\\u95fb\\u7f51\\u4e09\\u9c9c\\u5305\\u5b50\\u94fa\", \"AccountID\": \"50442719\", \"SiteID\": 50442719, \"TopicID\": 0, \"Url\": \"https://mp.weixin.qq.com/s?timestamp=1537956221&src=3&ver=1&signature=PwoEQwNi07rfMpqLP-HMBAo1bHjQGUR4gscfXJibdgM5GFgLOpo1Lm16a4whVzSeMBeZzQL6gQGSFSqw7SauPVMapQSH5owUwbIL1pDMf4WDexbciLxaHMtUaj6NBV7VExcQ*UsFbsmPNYU0GBLES98-ucgS7IgSdfzqv0gBPhQ=\", \"Title\": \"\\u56fd\\u5e86\\u671f\\u95f4\\u5c55\\u89c8\\u548c\\u6f14\\u51fa\\u4e00\\u4e2a\\u90fd\\u4e0d\\u9519\\u8fc7\", \"Content\": \"\", \"Time\": 1537933889000, \"AddOn\": 1537956222000}"
+    }
+]
+
+# ftp 发包
+    查询
+    https://110.249.163.247:8171/queryScheduler/wxquery/?usr=jqwang&passwd=1234asdf4321&author=%E5%94%90%E5%94%90%E5%81%87%E6%9C%9F&hl=false
+    # 设置行 数据在最后
+    https://110.249.163.247:8171/queryScheduler/wxquery/?usr=jqwang&passwd=1234asdf4321&author=%E5%94%90%E5%94%90%E5%81%87%E6%9C%9F&hl=false&ir=all&rows=500
+
+# 数据分发中心
+    'http://27.17.18.131:38072'
+    数据中心：datacenter_Yweixin
+    datacenter_Yweixin = [
+                    {
+                        "headers": {
+                            "topic": "Yweixin",
+                        },
+                        "body": json.dumps(self.need_send_all)
+                    },
+
+                ]
+
+# 三合一检索
+    'http://222.184.225.246:8171'
+    datacenter_YproWeixin = [
+                    {
+                        "headers": {
+                            "topic": "YproWeixin",
+                        },
+                        "body": json.dumps(self.need_send_pro_all)
+                    },
+                ]
+
+>>>>>>> 4c7b1714548b1f6604c519614904db002e9f70c8

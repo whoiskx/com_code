@@ -47,11 +47,11 @@ urun = conn.taskDnsSwitch
 # 舆情垃圾判断	124.239.144.164:7109	120.78.237.190:7109	http://dm.textclassify.yunrunyuqing.com:7109/dm_change_hosts.html
 
 data = {
-    "name": '叶钟文',
-    "domain": 'crawler.proip.yunrunyuqing.com',
-    "main_ip": '47.107.26.87',
-    "backup_ip": '47.97.127.86',
-    "monitor": 'http://crawler.proip.yunrunyuqing.com/Monitor',
+    "name": '中信-微信文章标题分析接口',
+    "domain": 'crawler.weixinarticle.yunrunyuqing.com',
+    "main_ip": '182.245.126.226',
+    "backup_ip": '120.78.237.138',
+    "monitor": 'http://crawler.weixinarticle.yunrunyuqing.com:21028',
     "changing": False,
     "end_time": None,
     "close": False

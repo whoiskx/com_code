@@ -243,7 +243,7 @@ class AccountHttp(object):
             log.info('start account {}'.format(self.search_name))
             search_url = self.url.format(self.search_name)
             # 搜索页header 跟 微信历史页header不兼容 删掉没啥影响
-            resp_search = self.s.get(search_url, cookies=self.cookies, tiemout=self.timeout)
+            resp_search = self.s.get(search_url, cookies=self.cookies)
             e = pq(resp_search.text)
             log.info('当前搜狗标题：{}'.format(e('title').text()))
             if '搜狗' not in e('title').text():
@@ -256,7 +256,7 @@ class AccountHttp(object):
                 count_proxy = 0
                 while True:
                     if self.proxies is False:
-                        homepage = self.s.get(account_link,tiemout=self.timeout)
+                        homepage = self.s.get(account_link)
                         count_proxy += 1
                         if count_proxy >= 4:
                             log.info('微信历史页多次验证失败{}'.format(self.search_name))
@@ -274,7 +274,7 @@ class AccountHttp(object):
                     try:
                         # log.info('当前代理 {}'.format(self.proxies))
                         homepage = self.s.get(account_link, cookies=self.cookies, headers=self.headers,
-                                              proxies=self.proxies, timeout=self.timeout)
+                                              proxies=self.proxies)
                         if '<title>请输入验证码 </title>' in homepage.text:
                             if count_proxy > 50:
                                 log.info('获取代理超过50次，延迟0.5秒')
@@ -538,7 +538,7 @@ class AccountHttp(object):
             log.info('------开始处理微信验证码------')
             cert = random.random()
             image_url = 'https://mp.weixin.qq.com/mp/verifycode?cert={}'.format(cert)
-            respones = self.s.get(image_url, cookies=self.cookies, tiemout=self.timeout)
+            respones = self.s.get(image_url, cookies=self.cookies)
             captch_input = captch_upload_image(respones.content)
             log.info('------验证码：{}------'.format(captch_input))
             data = {

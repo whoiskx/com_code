@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/wx_analyse_media" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/weixin_interfaces/loop_collection/daily_collect_proxy_threading_v1.0" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/weixin_interfaces/loop_collection/daily_collect_proxy_threading_v2.0" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weixin_interfaces/weixin_infos/account_info" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

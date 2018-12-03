@@ -1,0 +1,223 @@
+2018-12-03 15:51:51,776,account_info,INFO,127,123
+2018-12-03 15:53:42,980,account_info,INFO,256,['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+2018-12-03 15:53:43,224,account_info,INFO,70,æçæç´¢
+2018-12-03 15:53:43,224,account_info,INFO,72,初始化session
+2018-12-03 15:53:43,224,account_info,INFO,89,https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+2018-12-03 15:53:43,227,account_info,INFO,180,------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+2018-12-03 15:53:43,229,account_info,INFO,182,------开始处理搜狗验证码------
+2018-12-03 15:53:46,271,account_info,INFO,193,------出现验证码页面------
+2018-12-03 15:53:46,685,account_info,INFO,213,------验证码：3F6EC5------
+2018-12-03 15:53:48,894,account_info,INFO,225,------验证码正确------
+2018-12-03 15:53:48,898,account_info,INFO,97,------cookies更新------
+2018-12-03 15:53:48,901,account_info,INFO,103,------cookies已更新------
+2018-12-03 15:53:48,901,account_info,INFO,109,验证完毕
+2018-12-03 15:53:50,995,account_info,INFO,70,iQIYI2010的相关微信公众号 – 搜狗微信搜索
+2018-12-03 15:53:51,050,account_info,INFO,70,chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+2018-12-03 15:53:51,103,account_info,INFO,70,duzhe3650的相关微信公众号 – 搜狗微信搜索
+2018-12-03 15:53:51,109,account_info,INFO,82,不能匹配正确的公众号: duzhe3650
+2018-12-03 15:53:51,161,account_info,INFO,70,qqwrd007的相关微信公众号 – 搜狗微信搜索
+2018-12-03 15:53:51,161,account_info,INFO,85,找不到该公众号: qqwrd007
+18-12-03 15:55:32 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 15:55:32 start iQIYI2010
+18-12-03 15:55:32 æçæç´¢
+18-12-03 15:55:32 初始化session
+18-12-03 15:55:32 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 15:55:32 验证之前的cookie {}
+18-12-03 15:55:32 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 15:55:32 ------开始处理搜狗验证码------
+18-12-03 15:55:35 ------出现验证码页面------
+18-12-03 15:55:35 ------验证码：325VE5------
+18-12-03 15:55:37 ------验证码正确------
+18-12-03 15:55:37 ------cookies更新------
+18-12-03 15:55:37 ------cookies已更新------ {'JSESSIONID': 'aaa1KSEIeSHYGbUG1H6Cw', 'refresh': '1', 'successCount': '1|Mon, 03 Dec 2018 08:00:35 GMT', 'seccodeRight': 'success', 'SNUID': '0931534D43413F5A3A1CE9594416242B', 'SUV': '004942F00E17724A5C04E17542F68393', 'SUID': '4A72170E2613910A000000005C04E175', 'SUIR': '1543823733', 'ABTEST': '8|1543823732|v1', 'IPLOC': 'CN4401', 'PHPSESSID': 'ku1nrci7jlbasd21si2ipg5tk4'}
+18-12-03 15:55:37 验证完毕
+18-12-03 15:55:39 start iQIYI2010
+18-12-03 15:55:39 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 15:55:39 start chaoliunvren88
+18-12-03 15:55:40 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 15:55:40 start duzhe3650
+18-12-03 15:55:40 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 15:55:40 不能匹配正确的公众号: duzhe3650
+18-12-03 15:55:40 start qqwrd007
+18-12-03 15:55:40 qqwrd007的相关微信公众号 – 搜狗微信搜索
+18-12-03 15:55:40 找不到该公众号: qqwrd007
+18-12-03 15:56:32 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 15:56:32 start iQIYI2010
+18-12-03 15:56:32 æçæç´¢
+18-12-03 15:56:32 初始化session
+18-12-03 15:56:32 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 15:56:32 验证之前的cookie {}
+18-12-03 15:56:32 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 15:56:32 ------开始处理搜狗验证码------
+18-12-03 15:56:34 ------出现验证码页面------
+18-12-03 15:56:35 ------验证码：62F5B7------
+18-12-03 15:56:37 ------验证码正确------
+18-12-03 15:56:37 ------cookies更新------
+18-12-03 15:56:37 ------cookies已更新------ {'JSESSIONID': 'aaakdmwI0ENyfbmM1H6Cw', 'refresh': '1', 'successCount': '1|Mon, 03 Dec 2018 08:01:35 GMT', 'seccodeRight': 'success', 'SNUID': '91AECBD2DBDEA0C5A030A0B0DCE173DE', 'SUV': '00E5404C0E17724A5C04E1B0429AB229', 'SUID': '4A72170E2613910A000000005C04E1B0', 'SUIR': '1543823792', 'ABTEST': '0|1543823792|v1', 'IPLOC': 'CN4401', 'PHPSESSID': 'sp6masngrcuqg1mgcpp6uf6n67'}
+18-12-03 15:56:37 验证完毕
+18-12-03 15:56:39 start iQIYI2010
+18-12-03 15:56:39 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 15:56:39 start chaoliunvren88
+18-12-03 15:56:39 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 15:56:39 start duzhe3650
+18-12-03 15:56:39 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 15:56:39 不能匹配正确的公众号: duzhe3650
+18-12-03 15:56:39 start qqwrd007
+18-12-03 15:56:39 qqwrd007的相关微信公众号 – 搜狗微信搜索
+18-12-03 15:56:39 找不到该公众号: qqwrd007
+18-12-03 16:06:15 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 16:06:15 start iQIYI2010
+18-12-03 16:06:15 æçæç´¢
+18-12-03 16:06:15 初始化session
+18-12-03 16:06:15 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 16:06:15 验证之前的cookie {}
+18-12-03 16:06:15 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 16:06:15 ------开始处理搜狗验证码------
+18-12-03 16:06:18 ------出现验证码页面------
+18-12-03 16:06:18 ------验证码：EM426H------
+18-12-03 16:06:20 ------验证码正确------
+18-12-03 16:06:20 ------cookies更新------
+18-12-03 16:06:20 ------cookies已更新------ {'JSESSIONID': 'aaajj1gfiSTkYaUmRE6Cw', 'refresh': '1', 'successCount': '1|Mon, 03 Dec 2018 08:11:18 GMT', 'seccodeRight': 'success', 'SNUID': 'CBF2978F8084FD981E31A43981AB97EB', 'SUV': '004942F00E17724A5C04E3F84389E391', 'SUID': '4A72170E2613910A000000005C04E3F8', 'SUIR': '1543824375', 'ABTEST': '0|1543824375|v1', 'IPLOC': 'CN4401', 'PHPSESSID': '66g83rldlu357jc8c72dm45k45'}
+18-12-03 16:06:20 验证完毕
+18-12-03 16:06:22 start iQIYI2010
+18-12-03 16:06:22 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 16:06:22 start chaoliunvren88
+18-12-03 16:06:22 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 16:06:22 start duzhe3650
+18-12-03 16:06:23 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 16:06:23 不能匹配正确的公众号: duzhe3650
+18-12-03 16:06:23 start qqwrd007
+18-12-03 16:06:23 qqwrd007的相关微信公众号 – 搜狗微信搜索
+18-12-03 16:06:23 找不到该公众号: qqwrd007
+18-12-03 17:12:28 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 17:12:28 start iQIYI2010
+18-12-03 17:12:28 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:12:28 start chaoliunvren88
+18-12-03 17:12:28 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:12:28 start duzhe3650
+18-12-03 17:12:28 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:12:28 不能匹配正确的公众号: duzhe3650
+18-12-03 17:12:28 start qqwrd007
+18-12-03 17:12:28 qqwrd007的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:12:28 找不到该公众号: qqwrd007
+18-12-03 17:13:07 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 17:13:07 start iQIYI2010
+18-12-03 17:13:07 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:13:07 start chaoliunvren88
+18-12-03 17:13:07 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:13:07 start duzhe3650
+18-12-03 17:13:07 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:13:07 不能匹配正确的公众号: duzhe3650
+18-12-03 17:13:07 start qqwrd007
+18-12-03 17:13:08 qqwrd007的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:13:08 找不到该公众号: qqwrd007
+18-12-03 17:18:56 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 17:18:56 start iQIYI2010
+18-12-03 17:18:56 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:18:56 start chaoliunvren88
+18-12-03 17:18:56 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:18:56 start duzhe3650
+18-12-03 17:18:56 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:18:56 不能匹配正确的公众号: duzhe3650
+18-12-03 17:18:56 start qqwrd007
+18-12-03 17:18:56 qqwrd007的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:18:56 找不到该公众号: qqwrd007
+18-12-03 17:18:56 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 17:18:56 start iQIYI2010
+18-12-03 17:18:56 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:18:56 start chaoliunvren88
+18-12-03 17:18:56 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:18:56 start duzhe3650
+18-12-03 17:18:56 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:18:56 不能匹配正确的公众号: duzhe3650
+18-12-03 17:18:56 start qqwrd007
+18-12-03 17:18:56 æçæç´¢
+18-12-03 17:18:56 初始化session
+18-12-03 17:18:56 https://weixin.sogou.com/weixin?type=1&s_from=input&query=qqwrd007&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 17:18:56 验证之前的cookie {}
+18-12-03 17:18:56 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=qqwrd007&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 17:18:56 ------开始处理搜狗验证码------
+18-12-03 17:18:57 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 17:18:57 start iQIYI2010
+18-12-03 17:18:57 æçæç´¢
+18-12-03 17:18:57 初始化session
+18-12-03 17:18:57 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 17:18:57 验证之前的cookie {}
+18-12-03 17:18:57 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 17:18:57 ------开始处理搜狗验证码------
+18-12-03 17:18:57 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 17:18:57 start iQIYI2010
+18-12-03 17:18:57 æçæç´¢
+18-12-03 17:18:57 初始化session
+18-12-03 17:18:57 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 17:18:57 验证之前的cookie {}
+18-12-03 17:18:57 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 17:18:57 ------开始处理搜狗验证码------
+18-12-03 17:18:57 ['iQIYI2010', 'chaoliunvren88', 'duzhe3650', 'qqwrd007']
+18-12-03 17:18:57 start iQIYI2010
+18-12-03 17:18:57 æçæç´¢
+18-12-03 17:18:57 初始化session
+18-12-03 17:18:57 https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 17:18:57 验证之前的cookie {}
+18-12-03 17:18:57 ------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=iQIYI2010&ie=utf8&_sug_=n&_sug_type_=
+18-12-03 17:18:57 ------开始处理搜狗验证码------
+18-12-03 17:18:59 ------出现验证码页面------
+18-12-03 17:19:00 ------出现验证码页面------
+18-12-03 17:19:00 ------出现验证码页面------
+18-12-03 17:19:00 ------出现验证码页面------
+18-12-03 17:19:00 ------验证码：6EE5J6------
+18-12-03 17:19:00 ------验证码：6EE5J6------
+18-12-03 17:19:00 ------验证码：67E5J6------
+18-12-03 17:19:00 ------验证码：67E5J6------
+18-12-03 17:19:03 ------验证码正确------
+18-12-03 17:19:03 ------cookies更新------
+18-12-03 17:19:03 ------cookies已更新------ {'JSESSIONID': 'aaas4rueVewko7ULXE6Cw', 'refresh': '1', 'successCount': '1|Mon, 03 Dec 2018 09:24:01 GMT', 'seccodeRight': 'success', 'SNUID': '1A23465E50542C4BF3E72F95516A651E', 'SUV': '00BC42EF0E17724A5C04F501EC2C0320', 'SUID': '4A72170E2613910A000000005C04F501', 'SUIR': '1543828737', 'ABTEST': '0|1543828737|v1', 'IPLOC': 'CN4401', 'PHPSESSID': 'mcu9fsakvgip9cv6cp0aj94j85'}
+18-12-03 17:19:03 验证完毕
+18-12-03 17:19:03 ------验证码正确------
+18-12-03 17:19:03 ------cookies更新------
+18-12-03 17:19:03 ------cookies已更新------ {'JSESSIONID': 'aaas4rueVewko7ULXE6Cw', 'refresh': '1', 'successCount': '1|Mon, 03 Dec 2018 09:24:01 GMT', 'seccodeRight': 'success', 'SNUID': '1A23465E50542C4BF3E72F95516A651E', 'SUV': '00BC42EF0E17724A5C04F501EC2C0320', 'SUID': '4A72170E2613910A000000005C04F501', 'SUIR': '1543828737', 'ABTEST': '0|1543828737|v1', 'IPLOC': 'CN4401', 'PHPSESSID': 'mcu9fsakvgip9cv6cp0aj94j85'}
+18-12-03 17:19:03 验证完毕
+18-12-03 17:19:03 ------验证码正确------
+18-12-03 17:19:03 ------cookies更新------
+18-12-03 17:19:03 ------cookies已更新------ {'JSESSIONID': 'aaas4rueVewko7ULXE6Cw', 'refresh': '1', 'successCount': '1|Mon, 03 Dec 2018 09:24:01 GMT', 'seccodeRight': 'success', 'SNUID': '1A23465E50542C4BF3E72F95516A651E', 'SUV': '00BC42EF0E17724A5C04F501EC2C0320', 'SUID': '4A72170E2613910A000000005C04F501', 'SUIR': '1543828737', 'ABTEST': '0|1543828737|v1', 'IPLOC': 'CN4401', 'PHPSESSID': 'mcu9fsakvgip9cv6cp0aj94j85'}
+18-12-03 17:19:03 验证完毕
+18-12-03 17:19:03 ------验证码正确------
+18-12-03 17:19:03 ------cookies更新------
+18-12-03 17:19:03 ------cookies已更新------ {'JSESSIONID': 'aaas4rueVewko7ULXE6Cw', 'refresh': '1', 'successCount': '1|Mon, 03 Dec 2018 09:24:01 GMT', 'seccodeRight': 'success', 'SNUID': '1A23465E50542C4BF3E72F95516A651E', 'SUV': '00BC42EF0E17724A5C04F501EC2C0320', 'SUID': '4A72170E2613910A000000005C04F501', 'SUIR': '1543828737', 'ABTEST': '0|1543828737|v1', 'IPLOC': 'CN4401', 'PHPSESSID': 'mcu9fsakvgip9cv6cp0aj94j85'}
+18-12-03 17:19:03 验证完毕
+18-12-03 17:19:05 start iQIYI2010
+18-12-03 17:19:05 start iQIYI2010
+18-12-03 17:19:05 start iQIYI2010
+18-12-03 17:19:05 start iQIYI2010
+18-12-03 17:19:05 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 start chaoliunvren88
+18-12-03 17:19:05 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 不能匹配正确的公众号: chaoliunvren88
+18-12-03 17:19:05 start chaoliunvren88
+18-12-03 17:19:05 iQIYI2010的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 不能匹配正确的公众号: chaoliunvren88
+18-12-03 17:19:05 start chaoliunvren88
+18-12-03 17:19:05 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 start duzhe3650
+18-12-03 17:19:05 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 不能匹配正确的公众号: duzhe3650
+18-12-03 17:19:05 start duzhe3650
+18-12-03 17:19:05 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 不能匹配正确的公众号: duzhe3650
+18-12-03 17:19:05 chaoliunvren88的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 不能匹配正确的公众号: qqwrd007
+18-12-03 17:19:05 start duzhe3650
+18-12-03 17:19:05 start qqwrd007
+18-12-03 17:19:05 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 不能匹配正确的公众号: duzhe3650
+18-12-03 17:19:05 start qqwrd007
+18-12-03 17:19:05 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 duzhe3650的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 不能匹配正确的公众号: qqwrd007
+18-12-03 17:19:05 qqwrd007的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 找不到该公众号: qqwrd007
+18-12-03 17:19:05 不能匹配正确的公众号: qqwrd007
+18-12-03 17:19:05 start qqwrd007
+18-12-03 17:19:05 qqwrd007的相关微信公众号 – 搜狗微信搜索
+18-12-03 17:19:05 找不到该公众号: qqwrd007
