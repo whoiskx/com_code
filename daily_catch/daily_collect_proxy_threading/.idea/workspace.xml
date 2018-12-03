@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33aff510-c4a3-4849-bbf9-54fc5d0ee714" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Facebook/record.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/account_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/com_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/com_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../aliyun/ip_switch_v2.0_exception_400/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../aliyun/ip_switch_v2.0_exception_400/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../aliyun/tests_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../aliyun/tests_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/captcha.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/captcha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_daily_collect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log_daily_collect.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/log_daily_collect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/log_daily_collect.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/verification_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../guangzhou_committee/daily_collect/verification_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/images/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/images/error.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/images/reademe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/images/reademe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/images/发包格式.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/images/发包格式.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/log_daily_collect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/log_daily_collect.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/verification_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/daily_collect/verification_code.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_py_v2.0/daily_collect_proxy_threading/log_daily_collect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_py_v2.0/daily_collect_proxy_threading/log_daily_collect.txt" afterDir="false" />
-    </list>
+    <list default="true" id="33aff510-c4a3-4849-bbf9-54fc5d0ee714" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -549,7 +517,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15688367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
