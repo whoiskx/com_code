@@ -399,8 +399,8 @@ class AccountHttp(object):
                             log.info('当前文章ID: {}'.format(entity.id))
                             article_date = datetime.datetime.fromtimestamp(int(str(article.time)[:-3]))
                             day_diff = datetime.date.today() - article_date.date()
-                            if day_diff.days > 0:
-                                log.info('超过0天的文章不采集,已采集{}条文章'.format(page_count))
+                            if day_diff.days > 1:
+                                log.info('超过1天的文章不采集,已采集{}条文章'.format(page_count))
                                 self.count_articles(page_count)
                                 break
                             if dedup_result:

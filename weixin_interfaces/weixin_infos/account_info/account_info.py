@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
-import base64
 import collections
 
-import pymongo
-import pymssql
-
 import pymysql
-from flask import Flask, request, send_from_directory, Response, send_file
+from flask import Flask, request
 
 import random
 import re
@@ -78,7 +74,9 @@ class AccountHttp(object):
 
             if self.name == e(".info").eq(0).text().replace('微信号：', ''):
                 info = self.uploads_account_info(e)
+
                 self.find = True
+
                 return info
 
                 # 搜索页面有account，公众号主页有account，确保找到account
@@ -91,7 +89,6 @@ class AccountHttp(object):
             else:
                 # 处理验证码
                 log(search_url)
-                # log(resp_search.text)
                 log('验证之前的cookie', self.cookies)
                 try_count = 0
                 while True:
@@ -112,36 +109,7 @@ class AccountHttp(object):
 
                 log("验证完毕")
                 time.sleep(2)
-                # 被跳过的公众号要不要抓取  大概 4次
                 continue
-
-    def handle_img(self, img_b, account_id):
-        num = int(account_id) // 1000
-        IMAGE_DIR = os.path.join(self.BASE_DIR, str(num))
-        if not os.path.exists(IMAGE_DIR):
-            os.makedirs(IMAGE_DIR)
-
-        image_path = os.path.join(IMAGE_DIR, str(account_id) + '.jpg')
-        try:
-            with open(image_path, 'wb') as f:
-                f.write(img_b)
-            log('头像上传成功')
-        except Exception as e:
-            log('头像上传失败', e)
-
-        # 更新数据库
-        config_mysql_old = get_mysql_old()
-        db = pymssql.connect(**config_mysql_old)
-        cursor = db.cursor()
-        path = 'Images/' + str(account_id // 1000) + '/' + str(account_id)
-        try:
-            sql_insert = """UPDATE  WXAccount SET ImageUrl='{}' WHERE ID='{}'""".format(path, account_id)
-            cursor.execute(sql_insert)
-            db.commit()
-            log('更新数据成功', account_id)
-        except Exception as e:
-            log('更新数据错误', e)
-            db.rollback()
 
     def uploads_account_info(self, e):
         info = dict()
@@ -168,17 +136,14 @@ class AccountHttp(object):
     def run(self):
         self.find = False
         info = self.account_homepage()
-
         if self.find and info:
             return info
-        # else:
-        #     # self.send_result()
-        #     error = {
-        #         'Status': 0,
-        #         'Message': info,
-        #         'Account': self.name,
-        #     }
-        #     return error
+
+    def run_uploads(self):
+        self.find = False
+        info = self.account_homepage()
+        if self.find and info:
+            return info
 
     def crack_sougou(self, url):
         log('------开始处理未成功的URL：{}'.format(url))
@@ -270,106 +235,38 @@ def get_account_info():
     count = len(info_list)
     if count == 0:
         status = 0
+        msg = 'Fail'
     else:
         status = count
-    resutlt = collections.OrderedDict(status=status, msg='Successful', totalCount=count, data=info_list)
+        msg = 'Successful'
+    resutlt = collections.OrderedDict(status=status, msg=msg, totalCount=count, data=info_list)
     return json.dumps(resutlt)
 
 
-@app.route("/CheckImage/<account_id>")
-def check_image(account_id):
-    # Images/50000/50000350.jpg
-    user_file_dir = r'D:\WXSchedule\Images'
-    num = int(account_id) // 1000
-    IMAGE_DIR = os.path.join(user_file_dir, str(num))
-    path = os.path.join(IMAGE_DIR, account_id + '.jpg')
-    log(path)
-    if os.path.exists(path):
-        return 'True'
+@app.route('/WeiXinAccountUploads')
+def get_account_info():
+    all_account = request.args.get('account')
+    if ',' in all_account:
+        account_list = all_account.split(',')
+        log(account_list)
     else:
-        return 'False'
-
-
-@app.route('/SaveImage')
-def save_images():
-    name = request.args.get('account')
-    mysql_config = get_mysql_old()
-    db = pymssql.connect(**mysql_config)
-    cursor = db.cursor()
-    sql_select = """
-            select id from wxaccount where account=%s 
-    """
-    cursor.execute(sql_select, (name,))
-    result = cursor.fetchall()
-    log(result)
-    if len(result) > 0:
-        info = result[0]
-        account_id = info[0]
-        account.name = name
-        account.account_id = account_id
-        result = account.run()
+        account_list = [all_account]
+        log(account_list)
+    info_list = []
+    for account_name in account_list:
+        account.name = account_name
+        info = account.run_uploads()
+        if info:
+            info_list.append(info)
+    count = len(info_list)
+    if count == 0:
+        status = 0
+        msg = 'Fail'
     else:
-        return '数据库找不到该账号'
-    return result
-
-
-def save_and_back_images(account_id):
-    mysql_config = get_mysql_old()
-    db = pymssql.connect(**mysql_config)
-    cursor = db.cursor()
-    sql_select = """
-            select * from wxaccount where id=%s 
-    """
-    cursor.execute(sql_select, (account_id,))
-    result = cursor.fetchall()
-    log(result)
-    if len(result) > 0:
-        info = result[0]
-        account.name = info[2]
-        account.account = info[2]
-        account.account_id = account_id
-        result = account.run()
-    else:
-        return '数据库找不到该账号'
-    return result
-
-
-@app.route("/Images/<file>/<filename>")
-def back_image(file, filename):
-    # Images/50000/50000350.jpg
-    log('path', filename)
-    user_file_dir = r'D:\WXSchedule\Images'
-    account_id = filename.replace('.jpg', '')
-    num = int(account_id) // 1000
-    IMAGE_DIR = os.path.join(user_file_dir, str(num))
-    path = os.path.join(IMAGE_DIR, filename)
-    log(IMAGE_DIR, filename)
-    if IMAGE_DIR and filename:
-
-        if os.path.exists(path):
-            # image = file("images/".format(filename))
-            # resp = Response(image, mimetype="image/jpeg")
-            # return resp
-
-            return send_file(path, mimetype='image/jpeg')
-            # return send_from_directory(IMAGE_DIR, filename)
-        else:
-            save_result = save_and_back_images(account_id)
-            # 返回默认图片
-            if save_result == '完成' and os.path.exists(path):
-                return send_file(path, mimetype='image/jpeg')
-                # return send_from_directory(IMAGE_DIR, filename)
-            else:
-                log('找不到该账号', filename)
-                conn = pymongo.MongoClient('120.78.237.213', 27017)
-                db = conn.WeChat
-                db['weixin_headers_miss'].insert({'id': filename})
-                IMAGE_DIR = os.path.join(user_file_dir, '0')
-                filename = '0.jpg'
-                path = os.path.join(IMAGE_DIR, filename)
-                return send_file(path, mimetype='image/jpeg')
-                # return send_from_directory(IMAGE_DIR, filename)
-    return ''
+        status = count
+        msg = 'Successful'
+    resutlt = collections.OrderedDict(status=status, msg=msg, totalCount=count, data=info_list)
+    return json.dumps(resutlt)
 
 
 if __name__ == '__main__':

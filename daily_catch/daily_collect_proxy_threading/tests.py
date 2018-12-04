@@ -92,5 +92,12 @@ if __name__ == '__main__':
     # browser.find_element_by_id("su").click()
     # time.sleep(3)  # sleep 3s
     # browser.quit()
-    requests.get('http://mp.weixin.qq.com/profile?src=3&timestamp=1543377711&ver=1&signature=Z8P3R8utUp4WJlMctCRNU9Fdx0hPkHhzHfJi5gULXzPFjMdI9xVsP4A22yXn0BsILw87vCkWXGsFL1RRHSiR8g==')
+    # requests.get('http://mp.weixin.qq.com/profile?src=3&timestamp=1543377711&ver=1&signature=Z8P3R8utUp4WJlMctCRNU9Fdx0hPkHhzHfJi5gULXzPFjMdI9xVsP4A22yXn0BsILw87vCkWXGsFL1RRHSiR8g==')
     # print(dedup('gh_1c5f79a695d1'))
+    from config import mongo_conn
+    db = mongo_conn()
+    count = 0
+    for i in db['run_counts'].find():
+        count += i.get('account_count')
+        print(i.get('account_count'))
+    print(count)
