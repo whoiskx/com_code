@@ -61,9 +61,9 @@ JUDEG = True
 USE_PROXY = True
 
 # 线程数
-TREAD_COUNT = 2
+TREAD_COUNT = 1
 # 进程数
-PROCESS_COUNT = 6
+PROCESS_COUNT = 1
 
 
 def mysql_tag_code():

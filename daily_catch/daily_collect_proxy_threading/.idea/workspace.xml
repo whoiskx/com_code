@@ -2,126 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33aff510-c4a3-4849-bbf9-54fc5d0ee714" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_collect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/00d688b0-f150-11e8-ba47-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/11318ed8-f152-11e8-a24d-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/15b45c6a-f152-11e8-89b4-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/17d9d164-f152-11e8-8e63-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/69b41bca-f44a-11e8-af97-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/794eb2c6-f37c-11e8-b47a-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/7cc30966-f37c-11e8-add2-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/e8638f80-f14f-11e8-9a04-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/fd2012cc-f14f-11e8-8be0-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftp/fd770744-f14f-11e8-b24d-8cec4b725d4b.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/captcha.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/captcha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_daily_collect.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/require.txt" beforeDir="false" afterPath="$PROJECT_DIR$/record/require.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_name.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/01954e90c15ea35894b13e6593232454.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/02ec92795b41347f7319617cecbd0c52.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/0358d8c2f1c5545865ef39ade54f2532.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/0412c3dc5d9dcb47aabaab26403fc5a9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/1035ddfc8c27188aabad4a94556d82e9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/10ed2f181115b69dcb50f0bdd0b809dc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/12200f44005a3c3aa637805a917ee870.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/14c713e48f24f86ff29f2599956c4b2a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/14e78ecd65e011e3e72e8c00a8631680.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/169c9e2ca1840efce9a1f1d1c41accc3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/18d800fd734ad38c024c42d1376566db.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/1c5bb66e70750e45222cbcfe8c16cc65.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/1ed1e296de924b407776d72bd727995f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/20e0ca3ffdd1a5fc91610dba186624fd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/21f640ac290463f42664db5307532856.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/2bf356cd7343cf0ebf3a94c2cf2e7968.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/2cdcd158b8527ab3844c8b8675d20c2f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/2fb290abb6a49bfabba21f389befe82a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/31728c4b3ad84c287c63840e2e77601a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/32c8ee4d76aa1399aa887e2fb0f1b66f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/33027009b06f3db57e96f4b1c9e15d05.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/35fad9eab4e48cf161fcb11dfb03d169.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/36301d68be42028200bf21151bde0f66.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/36c3b44004820141db041e878758fd16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/3728a996c4fb446baaf4a7f429711972.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/3887407271b2154ab9e3bfc418b8f332.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/3b4a8460199d4cb72085a816ccc262f0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/458b57d0a8df2b5b77c060e831694732.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/49643fcb390109a7ec631412f99c83f0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/4a31403dec147a24cb89287d52b3124e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/4a76b8c2744b8ae2e867eb500cfbab0e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/4b845496166b7cb4a59148e749d4f90a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/4bb317846d5e6dc9619bb051855b975e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/4c730dd9cd41c6bb8b249c0c0ffea829.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/4fde44f491d813718b55ee16a8208ba9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/528bf1e55ff1dbeb64a265fabb416948.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/546945b61234b5d4e3d4f2ed322b5de0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/5bdb8898172138f5efbc6600881da9ba.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/5c1c0d27072674148e0c5e91c38a1d77.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/6c2b090510b13277eb6bf5ae601f0144.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/71c010e54aa3bb1035f5484fbb5d1d2a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/7446572e5885d9f19451bddc3cb1b2ba.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/752bd4c8b232b8217598d6e4471a1f6b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/7b01f06df5685e877495d8f732da3bf0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/7e639cd6ab6c914ff1c91e1cdc7c180d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/861994a8e0355f81852177326fe3c050.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/8b4824a372a59710acfc00420e268c3c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/8bd148a5ebe17bb0ef75ea1703efc4f8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/8bf54ccbd4b11b80b23999385f2b8324.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/905f8c564f09dedb0029251e0ce49e98.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/94e34ffc6ff2526332f0c4e8d66de956.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/97a5751453db9770608c976a50149e86.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/99d008fedb51127e407cd15b28aef283.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/9d055ad915c68eeef03e6ebe07b60652.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/9da2081ff0560788793d433ab5266455.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/9eebd726f51a9b4e4319f629a655fcf8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/a259ca66cb9c7610ddcae47d55dd6bec.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/a45515d885dae37111010573e552c5cb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/a5121a2144f5468f9181296ecf5caf6a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/ad36df24e1262c5985f368cce06f9269.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/b085aa2f167251182a6b6963581ad446.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/b16e0479465c961feb8c7c85f9c5cfc8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/b578c78186f3d1338521fc1ec2373d58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/b59a78fd431bb80880d4f4ec166c5ae1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/b5a7c0875a61c50b88581cc418b82cff.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/bc5fc86110a7a74a448f2e610f3d9b5d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/be1c3c61597cebd04f246048428672e2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/bfc939e00f0f0ad58252ce725ae6e110.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/bff6282d3f609367807a8f49abd47de7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/c3aac2b27f9093be4f3cccd6baa46045.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/c73e8b2f16bb6857c2441b7dcde29e8c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/c74cdd55ba73ed92e1317334d619d7f7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/ccadd41f6bf1921c8cfd0f9059bb50d6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/ce275cc7ed42bef5440e83f276e1d4e7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/d100a3cc736037702a983fad2130eeeb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/d3d3aa18787d27669f94e6916760ff30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/d5524de4513288fdd5d004679cd7b690.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/d5c730b6db8d7fc3cde70c1e451e09e5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/dc78c1bbae7e43bf8abdfa0faa17f7fd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/ddb75708e9464160d5e350b8d8ac3eb4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/e033c2882f9c6b56c5d21240ca0c2932.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/e796741c7ba56de2452cea8d02068c8e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/e97f824e63efc8c93c5ba71fee382b21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/f378b79d2189b9f382cc07180554d4a1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/f44d03b8e4d3143273a2cf3c2b3d43e4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/f6e03fd033b284eb9768f4ef0f9d1d55.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/f6f5a556ffd629ac3f4ea4777958dd6c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/f8c83052a62e6c07609b335b202d71c1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/f8fa6b432cbee191291b43c746c67b4b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/fe1710001358636fc97a50d359724a25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/dictionaries/urun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/dictionaries/urun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/00d688b0-f150-11e8-ba47-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/11318ed8-f152-11e8-a24d-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/15b45c6a-f152-11e8-89b4-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/17d9d164-f152-11e8-8e63-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/794eb2c6-f37c-11e8-b47a-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/7cc30966-f37c-11e8-add2-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/e8638f80-f14f-11e8-9a04-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/fd2012cc-f14f-11e8-8be0-8cec4b725d4b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/ftp/fd770744-f14f-11e8-b24d-8cec4b725d4b.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/images/captcha.png" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/images/captcha.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/record/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/record/error.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/record/get_proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/record/get_proxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/record/reademe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/record/reademe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/record/发包格式.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/record/发包格式.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/require.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/xml/b351afc6db9ff25a888f0880313ef1d6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/public_update.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/public_update.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/version.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/account_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/account_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../数据库查询语句.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../数据库查询语句.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,8 +48,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$config.coverage" NAME="config Coverage Results" MODIFIED="1542968143962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$exceptions.coverage" NAME="exceptions Coverage Results" MODIFIED="1543390666768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.6/dist-packages/requests" />
-    <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$models.coverage" NAME="models Coverage Results" MODIFIED="1543832274841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$daily_collect.coverage" NAME="daily_collect Coverage Results" MODIFIED="1543906850924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$models.coverage" NAME="models Coverage Results" MODIFIED="1543909012344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$daily_collect.coverage" NAME="daily_collect Coverage Results" MODIFIED="1543909764990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$tests.coverage" NAME="tests Coverage Results" MODIFIED="1543897005795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$utils.coverage" NAME="utils Coverage Results" MODIFIED="1542879520708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -212,37 +127,37 @@
           <entry key="log" value="7" />
           <entry key="png" value="8" />
           <entry key="py" value="36" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="8" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="Python" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3453" />
-          <entry key="txt" value="19" />
+          <entry key="py" value="3489" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="3453" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Python" value="3489" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daily_collect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="397" column="53" lean-forward="true" selection-start-line="397" selection-start-column="31" selection-end-line="397" selection-end-column="53" />
+            <state relative-caret-position="205">
+              <caret line="455" column="41" selection-start-line="455" selection-start-column="34" selection-end-line="455" selection-end-column="41" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -267,8 +182,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="64" selection-start-line="64" selection-end-line="66" selection-end-column="32" />
+            <state relative-caret-position="690">
+              <caret line="507" column="18" lean-forward="true" selection-start-line="507" selection-start-column="18" selection-end-line="507" selection-end-column="18" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -277,19 +192,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.6/dist-packages/requests/exceptions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" column="40" selection-start-line="12" selection-start-column="7" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="217" column="50" selection-start-line="217" selection-start-column="50" selection-end-line="217" selection-end-column="50" />
+            <state relative-caret-position="672">
+              <caret line="236" selection-start-line="236" selection-end-line="236" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -297,7 +203,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="584">
@@ -321,7 +227,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="240">
               <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
@@ -335,6 +241,15 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/save_name.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -346,8 +261,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>FTP</find>
-      <find>hashlib</find>
       <find>post_dedup_urls</find>
       <find>开始处理微信验证码</find>
       <find>error</find>
@@ -374,8 +287,10 @@
       <find>self.s</find>
       <find>self.s.get</find>
       <find>429</find>
-      <find>timeout</find>
       <find>429 Too Many Requests</find>
+      <find>429 Too Many</find>
+      <find>代理请求异常</find>
+      <find>timeout</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -402,13 +317,13 @@
         <option value="$PROJECT_DIR$/get_proxy.py" />
         <option value="$PROJECT_DIR$/images/error.txt" />
         <option value="$PROJECT_DIR$/verification_code.py" />
-        <option value="$PROJECT_DIR$/save_name.txt" />
         <option value="$PROJECT_DIR$/log_daily_collect.txt" />
-        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/tests.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/daily_collect.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/save_name.txt" />
+        <option value="$PROJECT_DIR$/models.py" />
       </list>
     </option>
   </component>
@@ -605,8 +520,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.daily_collect" />
-        <item itemvalue="Python.tests" />
         <item itemvalue="Python.models" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.exceptions" />
         <item itemvalue="Python.config" />
       </list>
@@ -638,13 +553,13 @@
     <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15688367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15688367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32990867" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4967983" weight="0.28310502" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" visible="true" weight="0.46803653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4967983" weight="0.35045663" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893278" weight="0.4086758" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
@@ -672,8 +587,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/daily_collect.py</url>
-          <line>398</line>
+          <line>396</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/daily_collect.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -738,6 +658,16 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>'429' in article.title</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>article.title</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>hash_md5(entity.title + str(entity.time))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -769,16 +699,6 @@
       </expression>
       <expression>
         <expression-string>session=&quot;ebf24493cc2cd3c6801294525df5b8</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>搜公众号</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self.driver.page_source</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -925,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save_name.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log_daily_collect.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -959,10 +869,50 @@
     <entry file="file://$PROJECT_DIR$/geckodriver.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daily_collect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="455" column="41" selection-start-line="455" selection-start-column="34" selection-end-line="455" selection-end-column="41" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_name.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="507" column="18" lean-forward="true" selection-start-line="507" selection-start-column="18" selection-end-line="507" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="217" column="50" selection-start-line="217" selection-start-column="50" selection-end-line="217" selection-end-column="50" />
+        <state relative-caret-position="672">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
@@ -975,36 +925,6 @@
           <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
           <folding>
             <element signature="e#153#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="64" selection-start-line="64" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/daily_collect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="397" column="53" lean-forward="true" selection-start-line="397" selection-start-column="31" selection-end-line="397" selection-end-column="53" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

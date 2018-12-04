@@ -29,4 +29,5 @@ select * from WXAccount where id='53007653'
 9.ctrl+w          关闭一个查询窗口
 
 1）多个where语句  and
-2） sql预计
+2） sql语句插入结尾 不能有 ,
+3) `` 使用反引号即可  忽视mysql关键字

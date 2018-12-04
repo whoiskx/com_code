@@ -28,7 +28,6 @@ from selenium.common.exceptions import WebDriverException
 from PIL import Image
 from io import BytesIO
 
-
 log = get_log('daily_collect')
 
 
@@ -283,7 +282,7 @@ class AccountHttp(object):
                             log.info('历史页需要输入验证码，重新发送请求 {}'.format(count_proxy))
                             continue
                         if '429 Too Many Requests' in homepage.text:
-                            log('代理无效_历史页：429 Too Many Requests')
+                            log.info('代理无效_历史页：429 Too Many Requests')
                             continue
                         else:
                             return homepage.text
@@ -394,12 +393,12 @@ class AccountHttp(object):
                             #     break
                             article = Article()
                             article.create(url, account, self.proxies)
-                            log.info('第{}条 文章标题: {}'.format(page_count, article.title))
-                            if '429' in article.title:
-                                print('error')
-                            log.info("当前文章url: {}".format(url))
+                            # if '429' in article.title:
+                            #     print('error')
                             entity = JsonEntity(article, account)
-                            log.info('当前文章ID: {}'.format(entity.id))
+                            log.info(
+                                "第{}条 文章标题: {} 当前文章ID: {}, 当前文章url: {}".format(page_count, article.title, entity.id,
+                                                                               url))
                             article_date = datetime.datetime.fromtimestamp(int(str(article.time)[:-3]))
                             day_diff = datetime.date.today() - article_date.date()
                             if day_diff.days > 15:

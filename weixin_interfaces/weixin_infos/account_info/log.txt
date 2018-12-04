@@ -303,3 +303,63 @@
 18-12-04 14:37:41 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')\n                               VALUES ('河北省明德公益基金会','gh_4d' at line 1") 
 18-12-04 14:38:12 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
 18-12-04 14:38:26 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2") 
+18-12-04 16:50:29 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 16:50:48 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval )\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 16:51:06 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 16:52:58 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s,%s,%s, %s)' at line 2") 
+18-12-04 16:53:21 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 16:53:30 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval )\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 16:54:32 插入数据错误 must be real number, not str 
+18-12-04 16:57:00 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval )\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 16:57:13 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval )\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 16:58:19 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:00:10 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval )\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 17:00:18 插入数据错误 %d format: a number is required, not str 
+18-12-04 17:00:38 插入数据错误 %d format: a number is required, not str 
+18-12-04 17:03:09 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval )\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 17:03:24 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:03:30 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:03:40 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval )\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 17:03:53 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:03:59 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:04:05 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:04:15 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 17:04:29 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:04:58 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Interval')\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 17:05:10 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 17:05:16 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:05:32 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 17:08:55 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, Account, Biz, Status\n                               VALUES (1440,'河' at line 1") 
+18-12-04 17:09:29 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, Account, Biz, Status\n                               VALUES ('河北省' at line 1") 
+18-12-04 17:09:41 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, Account, Biz, Status\n                               VALUES ('河北省' at line 1") 
+18-12-04 17:10:10 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALUES ('河北省明德公益基金会',1440,'gh_4d3319272897', 'MzU1NTQ5MTE3MQ' at line 2") 
+18-12-04 17:10:20 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALUES ('河北省明德公益基金会',1440,'gh_4d3319272897','MzU1NTQ5MTE3MQ=' at line 2") 
+18-12-04 17:10:31 插入数据错误 (1136, "Column count doesn't match value count at row 1") 
+18-12-04 17:10:40 插入数据错误 (1054, "Unknown column 'Intervals' in 'field list'") 
+18-12-04 17:10:55 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, Account, Biz)\n                               VALUES ('河北省明德' at line 1") 
+18-12-04 17:21:38 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, Account, Biz)\n                               VALUES ('河北省明德' at line 1") 
+18-12-04 17:21:48 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 17:21:54 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:22:09 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval,  Account, Biz,name)\n                               VALUES ('河北省' at line 1") 
+18-12-04 17:22:25 插入数据错误 not enough arguments for format string 
+18-12-04 17:22:33 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:23:16 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 17:27:31 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(@Interval))\n                               VALUES ('河北省明德公益基金' at line 1") 
+18-12-04 17:28:41 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'declare Interval string default Interval; \n                               INSERT' at line 1") 
+18-12-04 17:29:18 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:30:52 插入数据错误 not all arguments converted during string formatting 
+18-12-04 17:31:14 插入数据错误 %d format: a number is required, not str 
+18-12-04 17:31:33 插入数据错误 not all arguments converted during string formatting 
+18-12-04 17:32:07 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:32:38 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:33:02 插入数据成功 河北省明德公益基金会
+18-12-04 17:38:44 ['gh_4d3319272897']
+18-12-04 17:38:44 start gh_4d3319272897
+18-12-04 17:38:45 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 17:38:45 biz MzU1NTQ5MTE3MQ==
+18-12-04 17:38:45 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 17:39:57 ['gh_4d3319272897']
+18-12-04 17:39:57 start gh_4d3319272897
+18-12-04 17:39:57 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 17:39:57 biz MzU1NTQ5MTE3MQ==
+18-12-04 17:39:57 插入数据成功 河北省明德公益基金会

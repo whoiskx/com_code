@@ -237,8 +237,9 @@ class AccountHttp(object):
 
 
 account = AccountHttp()
-account.name = 'gh_4d3319272897'
-account.run_uploads()
+# account.name = 'gh_4d3319272897'
+# account.run_uploads()
+
 
 @app.route('/WeiXinInfo')
 def get_account_info():
@@ -283,15 +284,15 @@ def to_account_mysql():
             # 上传数据库
             from model import Account
             _account = Account(info)
-
+            _account.to_mysql_weixin()
+            return '上传成功'
 
 
 if __name__ == '__main__':
-    # try:
-    #     app.run(host='0.0.0.0', port=10009)
-    # except Exception as e:
-    #     log('服务器错误 ', e)
-    #     if account.browser:
-    #         account.browser.quit()
-    #     account = AccountHttp()
-    pass
+    try:
+        app.run(host='0.0.0.0', port=10009)
+    except Exception as e:
+        log('服务器错误 ', e)
+        if account.browser:
+            account.browser.quit()
+        account = AccountHttp()

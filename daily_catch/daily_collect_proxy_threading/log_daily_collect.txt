@@ -1,0 +1,50 @@
+2018-12-04 15:49:28,108,daily_collect,INFO,619,The number of CPU is:4
+2018-12-04 15:49:29,447,daily_collect,INFO,573,初始化
+2018-12-04 15:49:29,601,daily_collect,INFO,101,找不到save_name，需要插入
+2018-12-04 15:49:29,612,daily_collect,INFO,104,插入mongo成功
+2018-12-04 15:49:29,614,daily_collect,INFO,353,当前运行的线程数为：8
+2018-12-04 15:49:29,614,daily_collect,INFO,354,当前运行的进程：Process-1
+2018-12-04 15:49:29,614,daily_collect,INFO,356,第1次
+2018-12-04 15:49:29,615,daily_collect,INFO,242,start account lymaiy
+2018-12-04 15:49:29,746,daily_collect,INFO,247,当前搜狗标题：æçæç´¢
+2018-12-04 15:49:29,747,daily_collect,INFO,249,初始化session
+2018-12-04 15:49:29,747,daily_collect,INFO,302,https://weixin.sogou.com/weixin?type=1&s_from=input&query=lymaiy&ie=utf8&_sug_=n&_sug_type_=
+2018-12-04 15:49:29,747,daily_collect,INFO,473,------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=lymaiy&ie=utf8&_sug_=n&_sug_type_=
+2018-12-04 15:49:29,748,daily_collect,INFO,475,------开始处理搜狗验证码------
+2018-12-04 15:49:32,504,daily_collect,INFO,484,------出现验证码页面------
+2018-12-04 15:49:32,810,daily_collect,INFO,511,------验证码：D3E377------
+2018-12-04 15:49:34,948,daily_collect,INFO,531,搜公众号 不在页面中验证失败
+2018-12-04 15:49:34,951,daily_collect,INFO,532,title搜狗搜索
+2018-12-04 15:49:34,952,daily_collect,INFO,242,start account lymaiy
+2018-12-04 15:49:35,068,daily_collect,INFO,247,当前搜狗标题：æçæç´¢
+2018-12-04 15:49:35,069,daily_collect,INFO,249,初始化session
+2018-12-04 15:49:35,069,daily_collect,INFO,302,https://weixin.sogou.com/weixin?type=1&s_from=input&query=lymaiy&ie=utf8&_sug_=n&_sug_type_=
+2018-12-04 15:49:35,069,daily_collect,INFO,473,------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=lymaiy&ie=utf8&_sug_=n&_sug_type_=
+2018-12-04 15:49:35,070,daily_collect,INFO,475,------开始处理搜狗验证码------
+2018-12-04 15:49:37,202,daily_collect,INFO,484,------出现验证码页面------
+2018-12-04 15:49:37,454,daily_collect,INFO,511,------验证码：5278T7------
+2018-12-04 15:49:59,592,daily_collect,INFO,539,------未跳转到验证码页面，跳转到首页，忽略------ Message: timeout
+  (Session info: headless chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.44.609551 (5d576e9a44fe4c5b6a07e568f1ebc753f1214634),platform=Linux 4.15.0-29deepin-generic x86_64)
+
+2018-12-04 15:49:59,592,daily_collect,INFO,242,start account lymaiy
+2018-12-04 15:49:59,727,daily_collect,INFO,247,当前搜狗标题：æçæç´¢
+2018-12-04 15:49:59,728,daily_collect,INFO,249,初始化session
+2018-12-04 15:49:59,728,daily_collect,INFO,302,https://weixin.sogou.com/weixin?type=1&s_from=input&query=lymaiy&ie=utf8&_sug_=n&_sug_type_=
+2018-12-04 15:49:59,728,daily_collect,INFO,473,------开始处理未成功的URL：https://weixin.sogou.com/weixin?type=1&s_from=input&query=lymaiy&ie=utf8&_sug_=n&_sug_type_=
+2018-12-04 15:49:59,729,daily_collect,INFO,475,------开始处理搜狗验证码------
+2018-12-04 15:50:11,354,daily_collect,INFO,479,浏览器页面正常直接返回
+2018-12-04 15:50:11,357,daily_collect,INFO,480,title lymaiy的相关微信公众号 – 搜狗微信搜索
+2018-12-04 15:50:11,358,daily_collect,INFO,332,------开始更新cookies------
+2018-12-04 15:50:11,362,daily_collect,INFO,338,------cookies已更新------
+2018-12-04 15:50:11,362,daily_collect,INFO,242,start account lymaiy
+2018-12-04 15:50:11,440,daily_collect,INFO,247,当前搜狗标题：lymaiy的相关微信公众号 – 搜狗微信搜索
+2018-12-04 15:50:11,440,daily_collect,INFO,295,找不到该公众号: lymaiy
+2018-12-04 15:50:11,440,daily_collect,INFO,368,lymaiy|找到不到微信号
+2018-12-04 15:50:11,585,daily_collect,INFO,93,{'_id': ObjectId('5c063189ed6e802f58b1c15c'), 'account_count': 1, 'article_count': 0, 'start': '2018-12-04 15:49:29', 'end': None, 'save_name': '2153dbac-f799-11e8-89de-8cec4b725d4b'}
+2018-12-04 15:50:11,594,daily_collect,INFO,98,更新mongo成功
+2018-12-04 15:50:11,594,daily_collect,INFO,353,当前运行的线程数为：8
+2018-12-04 15:50:11,595,daily_collect,INFO,354,当前运行的进程：Process-1
+2018-12-04 15:50:11,595,daily_collect,INFO,356,第2次
+2018-12-04 15:50:11,595,daily_collect,INFO,242,start account wbzbsy
+2018-12-04 15:50:11,712,daily_collect,INFO,247,当前搜狗标题：wbzbsy的相关微信公众号 – 搜狗微信搜索

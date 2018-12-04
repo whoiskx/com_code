@@ -55,28 +55,22 @@ class Account(object):
         db = pymysql.connect(**config_mysql_old)
         cursor = db.cursor()
         try:
-            # sql_insert = """
-            #                    INSERT INTO weixin (Name, Account, Biz, Interval, LabelID, Authentication, Introduction, LogoPath, Pause, Status)
-            #                    VALUES ('{}','{}', '{}', {}, {}, {}, {}, {}, {}, {})""".format(self.Name,
-            #                                                                                           self.Account,
-            #                                                                                           self.Biz,
-            #                                                                                           self.Interval,
-            #                                                                                           self.LabelID,
-            #                                                                                           self.Authentication,
-            #                                                                                           self.Introduction,
-            #                                                                                           self.LogoPath,
-            #                                                                                           self.Pause,
-            #                                                                                           self.Status
-            #                                                                                           )
-            sql_insert = """
-                               INSERT INTO weixin (Name, Account, Biz )
-                               VALUES ('{}','{}','{}',)""".format(self.Name,
-                                                                 self.Account,
-                                                                 self.Biz,
-                                                                 # self.Interval,
+            sql_insert = """    
+                               INSERT INTO weixin (`Name`, Account, Biz, `Interval`, LabelID, Authentication, Introduction, LogoPath, Pause, Status)
+                               VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
+            cursor.execute(sql_insert, (
+                self.Name,
+                self.Account,
+                self.Biz,
+                self.Interval,
+                self.LabelID,
+                self.Authentication,
+                self.Introduction,
+                self.LogoPath,
+                self.Pause,
+                self.Status
 
-                                                                 )
-            cursor.execute(sql_insert)
+            ))
             db.commit()
             log('插入数据成功 {}'.format(self.Name))
             # log("当前账号id为0 需要添加 {}".format(self.name))

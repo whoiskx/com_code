@@ -62,6 +62,9 @@ class Article(object):
                     if '访问过于频繁，请用微信扫描二维码进行访问' in resp.text:
                         log('代理无效：访问过于频繁，请用微信扫描二维码进行访问')
                         continue
+                    if '429 Too Many Requests' in resp.text:
+                        log('代理无效：429 Too Many Requests')
+                        continue
                     else:
                         break
                 except requests.exceptions.ProxyError as e:
