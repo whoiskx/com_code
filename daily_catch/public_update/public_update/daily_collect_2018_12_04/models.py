@@ -12,6 +12,7 @@ import datetime
 import hashlib
 import uuid
 import zipfile
+from utils import abuyun_proxy
 
 log = get_log('models').info
 
@@ -54,19 +55,23 @@ class Article(object):
             count_loop = 0
             while True:
                 count_loop += 1
-                if count_loop >= 50:
-                    log('文章页未获取有效代理')
+                if count_loop >= 10:
                     break
                 try:
                     resp = requests.get(self.url, proxies=proxies, timeout=21)
-                    if '访问过于频繁，请用微信扫描二维码进行访问' in resp.text:
-                        log('代理无效：访问过于频繁，请用微信扫描二维码进行访问')
-                        continue
-                    if '429 Too Many Requests' in resp.text:
-                        log('代理无效：429 Too Many Requests')
-                        continue
-                    else:
-                        break
+                    proxy_count = 0
+                    while True:
+                        proxy_count += 1
+                        if proxy_count > 10:
+                            log('文章页未获取有效代理')
+                            # raise RuntimeError('访问过于频繁，请用微信扫描二维码进行访问')
+                        if '访问过于频繁，请用微信扫描二维码进行访问' in resp.text:
+                            proxies = abuyun_proxy()
+                            resp = requests.get(self.url, proxies=proxies, timeout=21)
+                            log('代理无效：访问过于频繁，请用微信扫描二维码进行访问')
+                        else:
+                            break
+                    break
                 except requests.exceptions.ProxyError as e:
                     log('代理请求ProxyError：{}'.format(e))
                 except requests.exceptions.ConnectionError as e:

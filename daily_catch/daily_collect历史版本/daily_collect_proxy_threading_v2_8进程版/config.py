@@ -63,7 +63,7 @@ USE_PROXY = True
 # 线程数
 TREAD_COUNT = 2
 # 进程数
-PROCESS_COUNT = 6
+PROCESS_COUNT = 8
 
 
 def mysql_tag_code():

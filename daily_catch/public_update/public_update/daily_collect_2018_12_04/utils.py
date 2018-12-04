@@ -231,6 +231,5 @@ if __name__ == '__main__':
     # log_test.info(123)
     # path = get_captcha_path()
     # print(path)
-
     f_name = save_name()
     print(f_name, type(f_name))

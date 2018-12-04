@@ -27,3 +27,6 @@ select * from WXAccount where id='53007653'
 7.ctrl+l            删除一行
 8.ctrl+n           打开一个新的查询窗口
 9.ctrl+w          关闭一个查询窗口
+
+1）多个where语句  and
+2） sql预计

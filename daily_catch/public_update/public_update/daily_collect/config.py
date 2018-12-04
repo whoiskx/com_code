@@ -63,7 +63,7 @@ USE_PROXY = True
 # 线程数
 TREAD_COUNT = 2
 # 进程数
-PROCESS_COUNT = 4
+PROCESS_COUNT = 6
 
 
 def mysql_tag_code():
@@ -130,7 +130,7 @@ def mongo_conn():
 
 
 if __name__ == '__main__':
-    # config_sql = localhost_mysql()
+    # config_sql = get_mysql_old()
     # db = pymysql.connect(**config_sql)
     # cursor = db.cursor()
     # # cursor.execute(sql, _tuple)

@@ -48,7 +48,7 @@ def get_mysql_new():
     MYSQL_PORT = 7101
     MYSQL_USER = 'yunrun'
     MYSQL_PASSWORD = 'YunRun2018!@#'
-    MYSQL_DATABASE = 'test'
+    MYSQL_DATABASE = 'info_src'
 
     config_mysql = {
         'host': MYSQL_HOST,

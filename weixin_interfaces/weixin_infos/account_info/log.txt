@@ -256,3 +256,50 @@
 18-12-03 17:50:13 start qqwrd007
 18-12-03 17:50:13 qqwrd007的相关微信公众号 – 搜狗微信搜索
 18-12-03 17:50:13 找不到该公众号: qqwrd007
+18-12-04 10:31:26 start gh_4d3319272897
+18-12-04 10:31:27 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 10:32:11 start gh_4d3319272897
+18-12-04 10:32:11 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 10:32:11 服务器错误  [Errno 98] Address already in use
+18-12-04 10:32:24 start gh_4d3319272897
+18-12-04 10:32:24 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 10:32:24 服务器错误  [Errno 98] Address already in use
+18-12-04 10:32:35 start gh_4d3319272897
+18-12-04 10:32:35 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 10:33:01 start gh_4d3319272897
+18-12-04 10:33:01 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 10:33:29 start gh_4d3319272897
+18-12-04 10:33:29 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 11:30:02 start gh_4d3319272897
+18-12-04 11:30:02 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 11:30:02 biz MzU1NTQ5MTE3MQ==
+18-12-04 11:30:17 start gh_4d3319272897
+18-12-04 11:30:17 gh_4d3319272897的相关微信公众号 – 搜狗微信搜索
+18-12-04 11:30:17 biz MzU1NTQ5MTE3MQ==
+18-12-04 11:33:43 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, LabelID, Authentication, Introduction, LogoPath, Pause, Status)\n      ' at line 1") 
+18-12-04 11:35:16 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, LabelID, Authentication, Introduction, LogoPath, Pause, Status)\n      ' at line 1") 
+18-12-04 11:36:58 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, LabelID, Authentication, Introduction, LogoPath, Pause, Status)\n      ' at line 1") 
+18-12-04 11:37:25 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, LabelID, Authentication, Introduction, LogoPath, Pause, Status)\n      ' at line 1") 
+18-12-04 11:38:08 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, LabelID, Authentication, Introduction, LogoPath, Pause, Status)\n      ' at line 1") 
+18-12-04 11:38:31 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval, LabelID, Authentication, Introduction, LogoPath, Pause, Status)\n      ' at line 1") 
+18-12-04 11:40:53 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 12:00:58 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 12:04:06 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 12:05:04 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 12:05:32 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 12:06:48 插入数据成功 河北省明德公益基金会
+18-12-04 12:08:02 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 12:08:32 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 12:14:05 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 12:14:11 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Interval)\n                               VALUES ('河北省明德公益基金会' at line 1") 
+18-12-04 12:15:03 插入数据错误 not all arguments converted during string formatting 
+18-12-04 12:15:22 插入数据错误 not all arguments converted during string formatting 
+18-12-04 12:18:13 插入数据错误 not all arguments converted during string formatting 
+18-12-04 12:18:46 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==, 14)' at line 2") 
+18-12-04 12:19:04 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==, 14)' at line 2") 
+18-12-04 12:19:15 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==, '14')' at line 2") 
+18-12-04 12:27:26 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')\n                               VALUES ('河北省明德公益基金会','gh_4d' at line 1") 
+18-12-04 12:27:31 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')\n                               VALUES ('河北省明德公益基金会','gh_4d' at line 1") 
+18-12-04 14:37:41 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')\n                               VALUES ('河北省明德公益基金会','gh_4d' at line 1") 
+18-12-04 14:38:12 插入数据错误 (1062, "Duplicate entry '0' for key 'PRIMARY'") 
+18-12-04 14:38:26 插入数据错误 (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2") 

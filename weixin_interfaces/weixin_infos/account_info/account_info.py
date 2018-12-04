@@ -56,6 +56,7 @@ class AccountHttp(object):
         self.BASE_DIR = r'D:\WXSchedule\Images'
         self.account_id = ''
         self.find = False
+        self.to_mysql = False
 
     def account_homepage(self):
         # 搜索并进入公众号主页
@@ -74,9 +75,29 @@ class AccountHttp(object):
 
             if self.name == e(".info").eq(0).text().replace('微信号：', ''):
                 info = self.uploads_account_info(e)
-
+                account_link = e(".tit").find('a').attr('href')
                 self.find = True
-
+                if self.to_mysql:
+                    count = 0
+                    while True:
+                        homepage = self.s.get(account_link)
+                        count += 1
+                        if count >= 4:
+                            log('微信历史页多次验证失败{}'.format(self.name))
+                            break
+                        if '<title>请输入验证码 </title>' in homepage.text:
+                            self.crack_sougou(account_link)
+                            count += 1
+                            continue
+                        else:
+                            # var biz = "MzU1NTQ5MTE3MQ==" || "";
+                            find_biz = re.search('var biz = ".*?"', homepage.text)
+                            biz = ''
+                            if find_biz:
+                                biz = find_biz.group()[11:-1]
+                            info['Biz'] = biz
+                            log('biz {}'.format(biz))
+                            return info
                 return info
 
                 # 搜索页面有account，公众号主页有account，确保找到account
@@ -141,6 +162,7 @@ class AccountHttp(object):
 
     def run_uploads(self):
         self.find = False
+        self.to_mysql = True
         info = self.account_homepage()
         if self.find and info:
             return info
@@ -215,7 +237,8 @@ class AccountHttp(object):
 
 
 account = AccountHttp()
-
+account.name = 'gh_4d3319272897'
+account.run_uploads()
 
 @app.route('/WeiXinInfo')
 def get_account_info():
@@ -244,7 +267,7 @@ def get_account_info():
 
 
 @app.route('/WeiXinAccountUploads')
-def get_account_info():
+def to_account_mysql():
     all_account = request.args.get('account')
     if ',' in all_account:
         account_list = all_account.split(',')
@@ -257,23 +280,18 @@ def get_account_info():
         account.name = account_name
         info = account.run_uploads()
         if info:
-            info_list.append(info)
-    count = len(info_list)
-    if count == 0:
-        status = 0
-        msg = 'Fail'
-    else:
-        status = count
-        msg = 'Successful'
-    resutlt = collections.OrderedDict(status=status, msg=msg, totalCount=count, data=info_list)
-    return json.dumps(resutlt)
+            # 上传数据库
+            from model import Account
+            _account = Account(info)
+
 
 
 if __name__ == '__main__':
-    try:
-        app.run(host='0.0.0.0', port=10009)
-    except Exception as e:
-        log('服务器错误 ', e)
-        if account.browser:
-            account.browser.quit()
-        account = AccountHttp()
+    # try:
+    #     app.run(host='0.0.0.0', port=10009)
+    # except Exception as e:
+    #     log('服务器错误 ', e)
+    #     if account.browser:
+    #         account.browser.quit()
+    #     account = AccountHttp()
+    pass

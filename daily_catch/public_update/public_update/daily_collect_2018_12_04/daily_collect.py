@@ -28,7 +28,9 @@ from selenium.common.exceptions import WebDriverException
 from PIL import Image
 from io import BytesIO
 
+# from verification_code import captch_upload_image
 
+current_dir = os.getcwd()
 log = get_log('daily_collect')
 
 
@@ -65,7 +67,6 @@ class AccountHttp(object):
         self.driver.set_script_timeout(20)
         self.wait = WebDriverWait(self.driver, 5)
         self.proxies = abuyun_proxy()
-        self.timeout = 23
 
     def get_account(self):
         collection_name = 'run_counts'
@@ -74,7 +75,7 @@ class AccountHttp(object):
             # s.keep_alive = False
             # s.adapters.DEFAULT_RETRIES = 5
             url = 'http://dispatch.yunrunyuqing.com:38082/ScheduleDispatch/dispatch?type=8'
-            resp = requests.get(url, timeout=self.timeout, headers={'Connection': 'close'})
+            resp = requests.get(url, timeout=30, headers={'Connection': 'close'})
             data = json.loads(resp.text).get('data')
             if not data:
                 # 即返回None
@@ -110,6 +111,7 @@ class AccountHttp(object):
 
     @staticmethod
     def urls_article(html):
+        collection_name = 'run_counts'
         items = re.findall('"content_url":".*?,"copyright_stat"', html)
         urls = []
         for item in items:
@@ -125,16 +127,12 @@ class AccountHttp(object):
                 item = re.search('"content_url":".*?wechat_redirect', url).group()
                 url = item[15:].replace('amp;', '')
             urls.append(url)
-        return urls
-
-    @staticmethod
-    def count_articles(count_article):
         # 统计文章数量
-        collection_name = 'run_counts'
+        count_article = len(urls)
         log.info('文章数量:{}'.format(count_article))
         try:
             if count_article == 0:
-                return
+                return urls
             db = mongo_conn()
             result = db[collection_name].find({})
             if result.count() == 0:
@@ -149,6 +147,7 @@ class AccountHttp(object):
                     log.info('更新文章数量成功')
         except Exception as e:
             log.exception(e)
+        return urls
 
     @staticmethod
     def save_to_mongo(entity):
@@ -159,7 +158,6 @@ class AccountHttp(object):
     @staticmethod
     def create_xml(infos, file_name):
         # log.info('创建xml文件')
-        current_dir = os.getcwd()
         if not os.path.exists(os.path.join(current_dir, 'xml')):
             os.mkdir('xml')
         data = etree.Element("data")
@@ -183,18 +181,19 @@ class AccountHttp(object):
         for count in range(3):
             try:
                 url = 'http://183.131.241.60:38011/GetTag?account={}'.format(self.search_name)
-                resp = requests.get(url, timeout=self.timeout)
+                resp = requests.get(url, timeout=30)
                 log.info('账号: {} 获取标签结果：{}'.format(self.search_name, resp.text))
                 return resp.text
             except Exception as e:
                 log.error('获取标签错误：{} 第{}次'.format(e, count))
 
-    def dedup(self, account_name):
+    @staticmethod
+    def dedup(account_name):
         # 根据底层判重
         date_today = str(datetime.date.today().strftime('%Y%m%d'))
         bottom_url = 'http://60.190.238.178:38010/search/common/weixin/select?sort=Time%20desc&Account={}&rows=2000&starttime=20181101&endtime={}&fl=id,CrawlerType'.format(
             account_name, date_today)
-        get_ids = requests.get(bottom_url, timeout=self.timeout)
+        get_ids = requests.get(bottom_url, timeout=21)
         ids = get_ids.text
         if ids:
             results = json.loads(ids).get('results')
@@ -204,7 +203,8 @@ class AccountHttp(object):
                     ids = ids.replace(replace_id, '____')
         return ids
 
-    def dedup_redis(self, keys):
+    @staticmethod
+    def dedup_redis(keys):
         # 根据redis缓存判重
         loop_count = 0
         while True:
@@ -214,7 +214,7 @@ class AccountHttp(object):
                 break
             bottom_url = 'HTTP://47.100.53.87:8008/Schedule/GetCacheWx?keys={}&sourceNodes=1&sourceType=2'.format(keys)
             try:
-                all_data_text = requests.get(bottom_url, timeout=self.timeout)
+                all_data_text = requests.get(bottom_url, timeout=21)
             except Exception as e:
                 log.exception('请求去重urls列表错误: url:{}, error:{}'.format(bottom_url, e))
                 return None
@@ -397,9 +397,8 @@ class AccountHttp(object):
                             log.info('当前文章ID: {}'.format(entity.id))
                             article_date = datetime.datetime.fromtimestamp(int(str(article.time)[:-3]))
                             day_diff = datetime.date.today() - article_date.date()
-                            if day_diff.days > 15:
-                                log.info('超过采集interval最大15天 的文章不采集,已采集{}条文章'.format(page_count))
-                                self.count_articles(page_count)
+                            if day_diff.days >= 6:
+                                log.info('超过7天的文章不采集')
                                 break
                             if dedup_result:
                                 # title_time_str = entity.title + str(entity.time)
@@ -443,9 +442,7 @@ class AccountHttp(object):
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
                         log.info("数据中心，三合一，发包完成")
-                    else:
-                        log.info('包列表为空，不发送数据')
-                        continue
+                        # todo上传判重中心
                     # todo 发包超时，修改MTU
                     if ftp_info is not None:
                         entity.uploads_ftp(ftp_info, ftp_list)
@@ -455,8 +452,8 @@ class AccountHttp(object):
                         url = 'http://47.100.53.87:8008/Schedule/CacheWx'
                         data = [{"key": keys, "sourceNodes": "1", "sourceType": "2",
                                  "urls": post_dedup_urls}]
-                        r = requests.post(url, data=json.dumps(data), timeout=self.timeout)
-                        log.info('上传判重中心结果{}'.format(r.status_code))
+                        r = requests.post(url, data=json.dumps(data))
+                        log.info('上传结果{}'.format(r.status_code))
                 except Exception as e:
                     log.exception("解析公众号错误 {}".format(e))
                     time.sleep(30)
@@ -494,7 +491,7 @@ class AccountHttp(object):
                     # raise RuntimeError
                     captch_input = ''
                     files = {'img': (captcha_name, open(captcha_path, 'rb'), 'image/png', {})}
-                    res = requests.post(url=GETCAPTCHA_URL, files=files, timeout=self.timeout)
+                    res = requests.post(url=GETCAPTCHA_URL, files=files, timeout=30)
                     res = res.json()
                     if res.get('Success'):
                         captch_input = res.get('Captcha')
@@ -572,7 +569,7 @@ def main():
                 log.info('补采完成')
                 break
         except Exception as error:
-            log.exception('获取账号错误，重启程序, error:{}'.format(error))
+            log.exception('获取账号错误，重启程序{}'.format(error))
             if test.driver:
                 test.driver.quit()
                 log.info('当前浏览器已关闭，循环重新开始')

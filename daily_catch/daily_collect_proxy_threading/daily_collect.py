@@ -282,6 +282,9 @@ class AccountHttp(object):
                                 # self.crack_sougou(account_link)
                             log.info('历史页需要输入验证码，重新发送请求 {}'.format(count_proxy))
                             continue
+                        if '429 Too Many Requests' in homepage.text:
+                            log('代理无效_历史页：429 Too Many Requests')
+                            continue
                         else:
                             return homepage.text
                     except Exception as e2:
@@ -392,13 +395,15 @@ class AccountHttp(object):
                             article = Article()
                             article.create(url, account, self.proxies)
                             log.info('第{}条 文章标题: {}'.format(page_count, article.title))
+                            if '429' in article.title:
+                                print('error')
                             log.info("当前文章url: {}".format(url))
                             entity = JsonEntity(article, account)
                             log.info('当前文章ID: {}'.format(entity.id))
                             article_date = datetime.datetime.fromtimestamp(int(str(article.time)[:-3]))
                             day_diff = datetime.date.today() - article_date.date()
-                            if day_diff.days >= 6:
-                                log.info('超过7天的文章不采集,已采集{}条文章'.format(page_count))
+                            if day_diff.days > 15:
+                                log.info('超过采集interval最大15天 的文章不采集,账号:{}已采集{}条文章'.format(self.name, page_count))
                                 self.count_articles(page_count)
                                 break
                             if dedup_result:
