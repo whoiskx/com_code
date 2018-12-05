@@ -2,20 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33aff510-c4a3-4849-bbf9-54fc5d0ee714" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/log_daily_collect.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_name.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../utils/DAYBYDAY/1204" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wechat/weixin_verification_code/collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../daily_collect_proxy_threading.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_daily_collect.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_name.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.bash_history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/daily_collect.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/dictionaries/urun.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/click_after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/click_before.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/daily_collect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/get_proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/images/83431e5a-e177-11e8-9e5d-24b6fdf8036c.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/images/captcha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/images/error.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/images/reademe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/images/发包格式.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/log_daily_collect.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/require.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/save_name.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/verification_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/2bf42e6152be8ad272525c62b537a0c7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/2d4e98041d9072701896b679bf845d3a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/542ce7173617142557a4e2b27494718a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/6fecde7585a6e3f8f44178796a6afc92.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/8c523ad94d4adda5d8b185e20e324e94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/a4df53f39be988e963196be36b884aa1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/b004b9a21c4c3de0c67563b60d4f02c8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/c0bebbefb0bb70e4849c928dd761b7cd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../daily_collect_proxy_threading_可以跳过搜狗验证码/xml/ce1dfec0e434765d0ba0c20eadb02fd6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../old_version/daily_collect_proxy_process.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/.idea/update__weixin_public.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/.idea/core_spider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.bash_history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/daily_collect.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/dictionaries/urun.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/daily_collect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/images/captcha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/record/83431e5a-e177-11e8-9e5d-24b6fdf8036c.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/record/error.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/record/get_proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/record/reademe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/record/发包格式.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/require.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/daily_collect/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/public_update.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../process_update/public_update/public_update/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public_update.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/daily_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/daily_collect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/images/captcha.png" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/images/captcha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/daily_collect/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/daily_collect/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/public_update.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/public_update.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../public_update/public_update/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../public_update/public_update/version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../utils/100001516.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../utils/115339132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../utils/92971046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../utils/icom_320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../utils/icom_90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../utils/oIWsFtxcuS5POm3CJZA0oVsDRd6M.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../weixin_interfaces/weixin_infos/account_info/log.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +109,7 @@
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$config.coverage" NAME="config Coverage Results" MODIFIED="1542968143962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$exceptions.coverage" NAME="exceptions Coverage Results" MODIFIED="1543390666768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.6/dist-packages/requests" />
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$models.coverage" NAME="models Coverage Results" MODIFIED="1543909012344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$daily_collect.coverage" NAME="daily_collect Coverage Results" MODIFIED="1543973901170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$daily_collect.coverage" NAME="daily_collect Coverage Results" MODIFIED="1543992611060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$tests.coverage" NAME="tests Coverage Results" MODIFIED="1543897005795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_collect_proxy_threading$utils.coverage" NAME="utils Coverage Results" MODIFIED="1542879520708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -89,6 +171,7 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -96,7 +179,7 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -117,25 +200,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3546" />
+          <entry key="py" value="3554" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="3546" />
+          <entry key="Python" value="3554" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/daily_collect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="353" column="29" selection-start-line="353" selection-start-column="22" selection-end-line="353" selection-end-column="29" />
+            <state relative-caret-position="10604">
+              <caret line="509" column="12" selection-start-line="509" selection-start-column="12" selection-end-line="509" selection-end-column="12" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -151,7 +234,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="946">
               <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -165,11 +248,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="236" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="408">
+              <caret line="200" column="33" selection-start-line="200" selection-start-column="33" selection-end-line="201" selection-end-column="37" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -180,7 +263,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
+            <state relative-caret-position="2024">
               <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
               <folding>
                 <element signature="e#153#168#0" expanded="true" />
@@ -201,8 +284,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="1364">
+              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
               </folding>
@@ -251,10 +334,10 @@
       <find>requests</find>
       <find>self.s</find>
       <find>self.s.get</find>
-      <find>429</find>
       <find>429 Too Many Requests</find>
       <find>429 Too Many</find>
       <find>timeout</find>
+      <find>429</find>
       <find>代理请求异常</find>
     </findStrings>
     <replaceStrings>
@@ -284,10 +367,10 @@
         <option value="$PROJECT_DIR$/verification_code.py" />
         <option value="$PROJECT_DIR$/log_daily_collect.txt" />
         <option value="$PROJECT_DIR$/tests.py" />
-        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/save_name.txt" />
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/daily_collect.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/config.py" />
       </list>
     </option>
@@ -299,10 +382,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="429" />
-    <option name="y" value="18" />
-    <option name="width" value="1316" />
-    <option name="height" value="1019" />
+    <option name="x" value="768" />
+    <option name="width" value="1138" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -324,7 +406,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,6 +417,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,7 +600,7 @@
     <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15688367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15848452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -550,11 +632,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/daily_collect.py</url>
-          <line>396</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/daily_collect.py</url>
           <line>284</line>
@@ -812,33 +889,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/record/require.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/save_name.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,19 +903,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
+    <entry file="file://$PROJECT_DIR$/daily_collect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        <state relative-caret-position="10604">
+          <caret line="509" column="12" selection-start-line="509" selection-start-column="12" selection-end-line="509" selection-end-column="12" />
           <folding>
-            <element signature="e#153#168#0" expanded="true" />
+            <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="946">
           <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -872,20 +929,40 @@
     <entry file="file://$PROJECT_DIR$/.bash_history">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+          <folding>
+            <element signature="e#153#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/record/require.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="1364">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daily_collect.py">
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="353" column="29" selection-start-line="353" selection-start-column="22" selection-end-line="353" selection-end-column="29" />
+        <state relative-caret-position="408">
+          <caret line="200" column="33" selection-start-line="200" selection-start-column="33" selection-end-line="201" selection-end-column="37" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>

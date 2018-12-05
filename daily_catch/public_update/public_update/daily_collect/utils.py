@@ -198,8 +198,10 @@ def abuyun_proxy():
     # proxy_pass = "DA3B03DDAEE0CDF7"
     proxy_host = "http-dyn.abuyun.com"
     proxy_port = "9020"
-    proxy_user = "HA8J88B72RMD896D"
-    proxy_pass = "B9DC78EE0EE4DB7B"
+    # proxy_user = "HA8J88B72RMD896D"
+    # proxy_pass = "B9DC78EE0EE4DB7B"
+    proxy_user = "HW282117435R626D"
+    proxy_pass = "73E6ADCC5C073EC4"
     proxy_meta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
         "host": proxy_host,
         "port": proxy_port,

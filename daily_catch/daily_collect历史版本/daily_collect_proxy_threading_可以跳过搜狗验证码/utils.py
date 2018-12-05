@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import datetime
-import hashlib
 import logging
 import os
 import sys
@@ -10,7 +9,6 @@ from threading import Thread
 import pymongo
 import pymysql
 import redis
-import requests
 from selenium import webdriver
 
 from config import USE_PROXY
@@ -124,70 +122,6 @@ def save_name():
             return name
 
 
-# 识别验证码
-def captch_upload_image(filebytes):
-    """
-    :param filebytes: 待识别图像的二进制数据
-    :return: 验证码识别后的字符串
-    """
-
-    # 打码平台参数配置
-    # 接口URL
-    DYTRY_APIURL = 'http://api.dytry.com/ocr.json'
-    # 用户名
-    DYTRY_USERNAME = 'uruntest'
-    # 用户密码
-    DYTRY_PASSWORD = '0763!@#'
-    # 题目类型
-    DYTRY_TYPEID = 9999
-    # 软件ID
-    DYTRY_SOFTID = 1107
-    # 软件KEY
-    DYTRY_SOFTKEY = '34af19d2ee35e938dbbdc0336eb730cb'
-
-    BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-    IMAGE_DIR = os.path.join(BASE_DIR, 'images')
-    CAPTCHA_NAME = 'captcha.png'
-
-    paramKeys = ['username', 'password', 'typeid', 'softid', 'softkey']
-    paramDict = {
-        "username": DYTRY_USERNAME,
-        "password": DYTRY_PASSWORD,
-        "typeid": DYTRY_TYPEID,
-        "softid": DYTRY_SOFTID,
-        "softkey": DYTRY_SOFTKEY,
-    }
-
-    timestr = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S').encode('utf-8')
-    boundary = '------------' + hashlib.md5(timestr).hexdigest().lower()
-    boundarystr = '\r\n--%s\r\n' % (boundary)
-
-    bs = b''
-    for key in paramKeys:
-        bs = bs + boundarystr.encode('ascii')
-        param = "Content-Disposition: form-data; name=\"%s\"\r\n\r\n%s" % (key, paramDict[key])
-        # print param
-        bs = bs + param.encode('utf8')
-    bs = bs + boundarystr.encode('ascii')
-
-    header = 'Content-Disposition: form-data; name=\"image\"; filename=\"%s\"\r\nContent-Type: image/jpeg\r\n\r\n' % (
-        'sample')
-    bs = bs + header.encode('utf8')
-
-    bs = bs + filebytes
-    tailer = '\r\n--%s--\r\n' % (boundary)
-    bs = bs + tailer.encode('ascii')
-
-    headers = {'Content-Type': 'multipart/form-data; boundary=%s' % boundary,
-               'Connection': 'Keep-Alive',
-               'Expect': '100-continue',
-               }
-    response = requests.post(url=DYTRY_APIURL, params='', data=bs, headers=headers)
-    requests.utils.dict_from_cookiejar(response.cookies)
-    captch_input = response.json().get('Result')
-    return captch_input
-
-
 def abuyun_proxy():
     if not USE_PROXY:
         return False
@@ -198,10 +132,8 @@ def abuyun_proxy():
     # proxy_pass = "DA3B03DDAEE0CDF7"
     proxy_host = "http-dyn.abuyun.com"
     proxy_port = "9020"
-    # proxy_user = "HA8J88B72RMD896D"
-    # proxy_pass = "B9DC78EE0EE4DB7B"
-    proxy_user = "HW282117435R626D"
-    proxy_pass = "73E6ADCC5C073EC4"
+    proxy_user = "HA8J88B72RMD896D"
+    proxy_pass = "B9DC78EE0EE4DB7B"
     proxy_meta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
         "host": proxy_host,
         "port": proxy_port,
@@ -218,22 +150,20 @@ def abuyun_proxy():
 class GetDrver(object):
     def __init__(self):
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--headless')
+        # chrome_options.add_argument('--headless')
         # --no-sandbox 会导致 webdriver无法退出
         # chrome_options.add_argument('--no-sandbox')
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
 
-#
-# get_driver = GetDrver()
-# # driver 每次导入都是同一个
-# driver = get_driver.driver
+
+get_driver = GetDrver()
+# driver 每次导入都是同一个？
+driver = get_driver.driver
 
 if __name__ == '__main__':
     # log_test = get_log()
     # log_test.info(123)
     # path = get_captcha_path()
     # print(path)
-
     f_name = save_name()
     print(f_name, type(f_name))
-
