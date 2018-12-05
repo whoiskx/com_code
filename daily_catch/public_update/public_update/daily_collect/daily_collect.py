@@ -267,7 +267,7 @@ class AccountHttp(object):
                         else:
                             return homepage.text
                     count_proxy += 1
-                    if count_proxy > 100:
+                    if count_proxy > 200:
                         log.error('未能获取有效代理:账号退出{}'.format(self.search_name))
                         return
                     try:
@@ -397,19 +397,21 @@ class AccountHttp(object):
                             #     print('error')
                             entity = JsonEntity(article, account)
                             log.info(
-                                "第{}条 文章标题: {} 当前文章ID: {}, 当前文章url: {}".format(page_count, article.title, entity.id,
-                                                                               url))
+                                "当前运行的进程：{} 第{}条 文章标题: {} 当前文章ID: {}, 当前文章url: {}".format(
+                                    multiprocessing.current_process().name, page_count, article.title, entity.id,
+                                    url))
                             article_date = datetime.datetime.fromtimestamp(int(str(article.time)[:-3]))
                             day_diff = datetime.date.today() - article_date.date()
-                            if day_diff.days > 15:
-                                log.info('超过采集interval最大15天 的文章不采集,账号:{}已采集{}条文章'.format(self.name, page_count))
+                            if day_diff.days > 15 or page_count > 30:
+                                log.info('当前运行的进程：{} 超过采集interval最大15天 或者超过30篇的文章不采集,账号:{}已采集{}条文章'.format(
+                                    multiprocessing.current_process().name, self.name, page_count))
                                 self.count_articles(page_count)
                                 break
                             if dedup_result:
                                 # title_time_str = entity.title + str(entity.time)
                                 # title_time_md5 = hash_md5(title_time_str)
                                 if entity.id in dedup_result:
-                                    log.info('当前文章已存在，跳过')
+                                    log.info('当前运行的进程：{} 当前文章已存在，跳过'.format(multiprocessing.current_process().name))
                                     continue
                                 else:
                                     post_dedup_urls.append(entity.id)
@@ -433,11 +435,11 @@ class AccountHttp(object):
                             # ftp包
                             ftp_info = Ftp(entity)
                             name_xml = ftp_info.hash_md5(ftp_info.url)
-                            log.info('当前文章xml: {}'.format(name_xml))
+                            log.info('当前运行的进程：{}  当前文章xml: {}'.format(multiprocessing.current_process().name, name_xml))
                             self.create_xml(ftp_info.ftp_dict(), name_xml)
                             ftp_list.append(name_xml)
                         except Exception as run_error:
-                            log.info('微信解析文章错误 {}'.format(run_error))
+                            log.info('当前运行的进程：{} 微信解析文章错误 {}'.format(multiprocessing.current_process().name, run_error))
                             continue
 
                     log.info("开始发包")
@@ -446,7 +448,7 @@ class AccountHttp(object):
                         # entity.uploads(backpack_list)
                         entity.uploads_datacenter_relay(backpack_list)
                         entity.uploads_datacenter_unity(backpack_list)
-                        log.info("数据中心，三合一，发包完成")
+                        log.info("当前运行的进程：{} 数据中心，三合一，发包完成".format(multiprocessing.current_process().name))
                     else:
                         log.info('包列表为空，不发送数据')
                         continue
@@ -455,12 +457,13 @@ class AccountHttp(object):
                         entity.uploads_ftp(ftp_info, ftp_list)
                         log.info("ftp发包完成")
                     if post_dedup_urls:
-                        log.info('上传判重中心key:{} urls:{}'.format(keys, post_dedup_urls))
+                        log.info('当前运行的进程：{} 上传判重中心key:{} urls:{}'.format(multiprocessing.current_process().name, keys, post_dedup_urls))
                         url = 'http://47.100.53.87:8008/Schedule/CacheWx'
                         data = [{"key": keys, "sourceNodes": "1", "sourceType": "2",
                                  "urls": post_dedup_urls}]
                         r = requests.post(url, data=json.dumps(data), timeout=self.timeout)
-                        log.info('上传判重中心结果{}'.format(r.status_code))
+                        log.info('当前运行的进程：{} 上传判重中心结果{}'.format(multiprocessing.current_process().name, r.status_code))
+                    time.sleep(5)
                 except Exception as e:
                     log.exception("解析公众号错误 {}".format(e))
                     time.sleep(30)

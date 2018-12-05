@@ -54,7 +54,7 @@ class Article(object):
             count_loop = 0
             while True:
                 count_loop += 1
-                if count_loop >= 50:
+                if count_loop >= 100:
                     log('文章页未获取有效代理')
                     break
                 try:
