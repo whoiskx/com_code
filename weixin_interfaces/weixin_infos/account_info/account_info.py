@@ -276,7 +276,6 @@ def to_account_mysql():
     else:
         account_list = [all_account]
         log(account_list)
-    info_list = []
     for account_name in account_list:
         account.name = account_name
         info = account.run_uploads()
@@ -286,6 +285,7 @@ def to_account_mysql():
             _account = Account(info)
             _account.to_mysql_weixin()
             return '上传成功'
+        return '上传失败'
 
 
 if __name__ == '__main__':

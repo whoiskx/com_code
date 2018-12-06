@@ -458,21 +458,25 @@ def advance_find_account():
 
 
 def uploads_status(uploads_id):
+    # 分析成功调用
+    log('上传ID {}'.format(uploads_id))
     url = 'http://api.test.yunrunyuqing.com:38016/rapidAnalysis/dist/index.html#!/%E6%96%B0%E9%97%BB%E4%BC%A0%E6%92%AD%E5%88%86%E6%9E%90/newsUpdate'
     data = {
         'id': uploads_id,
-        'status': '1'
+        'status': '1',
     }
     r = requests.post(url, data=data)
-    log(r.status_code)
+    log('上传结果 {}'.format(r.status_code))
 
 
 @app.route('/WeiXinArt/WeiXinParse')
 def find_account():
     name = request.args.get('account')
-    uploads_id = int(request.args.get('id'))
+    uploads_id = int(request.args.get('id')) if request.args.get('id') else -112313
     search_account = mongo_conn_sentiment().find_one({'Account': name})
     if search_account is not None and search_account.get('Addon') == time_strftime():
+        if uploads_id != -112313:
+            uploads_status(uploads_id)
         return json.dumps(search_account.get('Data'))
     account = AccountHttp()
     data = account.run(name)
@@ -487,12 +491,13 @@ def find_account():
         analyse_result['ActiveDegree'] = data.get('ActiveDegree')
         analyse_result['KeyWord'] = data.get('KeyWord')
         analyse_result['ArtPosNeg'] = data.get('ArtPosNeg')
-        uploads_status(uploads_id)
+        if uploads_id != -112313:
+            uploads_status(uploads_id)
         return json.dumps(analyse_result)
     error_result.update({'Message': "account can't analyze"})
     return json.dumps(error_result)
 
 
 if __name__ == '__main__':
-    # app.run(host='0.0.0.0', port=10004, threaded=True)
-    uploads_status(10086)
+    app.run(host='0.0.0.0', port=10004, threaded=True)
+    # uploads_status(10086)

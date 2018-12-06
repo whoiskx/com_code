@@ -402,8 +402,8 @@ class AccountHttp(object):
                                     url))
                             article_date = datetime.datetime.fromtimestamp(int(str(article.time)[:-3]))
                             day_diff = datetime.date.today() - article_date.date()
-                            if day_diff.days > 15 or page_count > 30:
-                                log.info('当前运行的进程：{} 超过采集interval最大15天 或者超过30篇的文章不采集,账号:{}已采集{}条文章'.format(
+                            if day_diff.days > 15 or page_count > 20:
+                                log.info('当前运行的进程：{} 超过采集interval最大15天 或者超过20篇的文章不采集,账号:{}已采集{}条文章'.format(
                                     multiprocessing.current_process().name, self.name, page_count))
                                 self.count_articles(page_count)
                                 break

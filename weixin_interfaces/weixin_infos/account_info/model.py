@@ -28,22 +28,24 @@ from utils import log
 class Account(object):
     def __init__(self, info):
         # self.ID = ''
-        self.Name = info.get('Name')
+        self.Name = info.get('Name', '')
         self.Account = info.get('Account')
-        self.Biz = info.get('Biz')
+        self.Biz = info.get('Biz', '')
         self.Url = ''
         # self.ScheduleID = ''
         self.Interval = 1440
         self.LabelID = 8
         # self.DestinationID = ''
-        self.Authentication = info.get('Certification')
-        self.Introduction = info.get('Feature')
-        self.LogoPath = info.get('ImageUrl')
+        self.Authentication = info.get('Certification', '')
+        self.Introduction = info.get('Feature', '')
+        self.LogoPath = info.get('ImageUrl', '')
         # self.Weight = ''
         self.AddOn = ''
+        # 0 不暂停； 1 暂停
         self.Pause = 0
         # self.UpdateOn = ''
         # self.CollectionTime = ''
+        # 0 删除； 1正常
         self.Status = 1
         # self.CreateUserID = ''
         # self.CreateUserName = ''
@@ -80,10 +82,10 @@ class Account(object):
 
 
 if __name__ == '__main__':
-    info = {'Name': '河北省明德公益基金会', 'Account': 'gh_4d3319272897',
+    infos = {'Name': '河北省明德公益基金会', 'Account': 'gh_4d3319272897',
             'Feature': '河北省明德公益基金会旨在资助贫困地区或欠发达地区教育事业,以及贫困家庭的孩子完成学业.同时对孤儿院给予资助,改善其环境,提高孤儿们生活水平.此外还将资助贫困地区孤寡老人,改善老人们的生活质量.',
             'Certification': '河北省明德公益基金会',
             'ImageUrl': 'http://img01.sogoucdn.com/app/a/100520090/oIWsFt2BhFXTECL9n58Fgr9h40F8',
             'Biz': 'MzU1NTQ5MTE3MQ=='}
-    _account = Account(info)
+    _account = Account(infos)
     _account.to_mysql_weixin()

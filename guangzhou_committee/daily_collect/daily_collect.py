@@ -109,250 +109,6 @@ class AccountHttp(object):
 
     @staticmethod
     def get_account():
-<<<<<<< HEAD
-        # try:
-        #     url = 'http://10.194.12.106:8002/GetWeixinTask?name=&name_array=&Name_word=&channel=&pageno=1&pagesize=12&local=False&token=082c5e82-a168-4c2e-a8e6-00760225c93a_wechat&page=1&rows=12&sort='
-        #     resp = requests.get(url, timeout=30)
-        #     data = json.loads(resp.text).get('weixin')
-        #     account_list = []
-        #     for account_info in data:
-        #         account_list.append(account_info.get('account'))
-        #     return account_list
-        # except Exception as e:
-        #     log.info(e)
-        return ['rmrb_2b', 'rmrbqiuzheng', 'rmrbwy', 'dadifukan', 'rmdushu', 'rmwenyuan', 'wenyipl', 'rmrbmssc',
-                'rmrbpl', 'rmrbllb', 'rmrbty', 'rmrbyjb', 'rmrb_hww', 'xiake_island', 'xuexixiaozu', 'peopledigital',
-                'hqsbwx', 'huanqiu-com', 'America_hq', 'huanqiuouzhou123', 'huanqiukorea', 'huanqiutaiwan',
-                'zhongguoqichebao', 'qichezaocan', 'wwwstcncom', 'quanshangcn', 'lianhuacaijingcom', 'zqsbxsb',
-                'shujubao2015', 'chuangyzbh', 'trustway', 'zqsb_cfzx', 'gongsiyuqing', 'Betainvest', 'jksb2013',
-                'jkzg-nhfpc', 'jksb2016', 'gh_abf70cc555e4', 'rmltwz', 'globalpeople2006', 'rmrbpaxy',
-                'ChinaEconomicWeekly', 'msweekly', 'gjrwls', 'peoplevision', 'quan_yue001', 'guolishuhua', 'baidaitrip',
-                'cnenergy', 'depo88', 'guojinengyuancankao', 'dabaxinwen', 'energyinternetclub', 'GlobalTimesNews',
-                'gh_81dcf95743f9', 'gtmetroshanghai', 'LT0385', 'yaonidongwx', 'duxinyanjiusuo', 'tiantianfachi',
-                'muyingribao', 'yansutanxing', 'fcyymwx', 'gjjrb777', 'gh_a1185130b3be', 'chinafundnews', 'Money-Lcq',
-                'sanbanfuweixin', 'qhrb168', 'rmwz365', 'gh_2e81f20bd4d6', 'zhongguochengshibao', 'gh_0c422b3ac3e0',
-                'qichezuweixin', 'qicheyuyundong', 'china_engine', 'jiayongqiche', 'qichepiping', 'zgcsgdjtxh',
-                'ev-qiche', 'canfans_news', 'WDCHN-NES', 'rmrbqmtpt', 'xxdaguo', 'wxpdmi', 'people_rmw', 'cpcnews',
-                'rmwjkpd', 'rmwshipin', 'qglt19990509', 'jxnihao', 'rmhuanbao', 'finance_people', 'renminyx', 'rmrbwx',
-                'rmrbbj', 'baidaitrip', 'gjjrb777', 'rmrbjjsh', 'PhotoWorldMagazine', 'xinhuashefabu1', 'XHSXHSD',
-                'wobaodao', 'xinhuafoto', 'xinhuapub1979', 'zgjzzzs', 'xhszzb', 'lwdflwdf', 'shzqbwx',
-                'OutlookWeekly1981', 'www_cnstock_com', 'zhczyj', 'jjckb-wx', 'nbxdjb', 'xinhuaafrica', 'NX7913',
-                'newsxinhua', 'sikexh', 'kjcxlcb', 'kjqydst', 'kxylydt01', 'jskjqy', 'XMTV-AUTO', 'xinhuaonline_bj',
-                'xinhuahebei', 'xhwjxpd', 'xhwscxsj', 'onncc626', 'xinhuakehuan', 'wjqnxh', 'xinhuashipin', 'xinhuajk',
-                'xhw-ysc', 'xinhuahouse_nj', 'shanxi_toutiao', 'interxinhua', 'bjcankao', 'Chinatopbrands', 'ckxxwx',
-                'caiguo08', 'GlobeMagazine', 'banyuetan-weixin', 'gjxqdb', 'ahxinhuashe', 'chuangke_xinhua', 'kpzgcbzd',
-                'xh-energy', 'cqhjsx', 'gd7744', 'chihuochuangjian', 'bjxuanwen', 'qstheory_001', 'WDANGS', 'XEshixi',
-                'qiushimp', 'qiushisjb', 'hongqiwengao', 'gh_affeebf9ba89', 'gmrb1949', 'tianxiayan2015',
-                'yuedugongshe', 'liuxuezazhi', 'zhreading', 'guangmingjiangtan', 'gmweijiaoyu', 'gmwhcy', 'gmyygs',
-                'wenzhaibao', 'GM_WenYi', 'dongdajiefive', 'gm_GMAD', 'guangmingzhiku', 'gmw_001', 'wangxindangjian',
-                'kejimingjia', 'Military2016', 'ourcecn', 'ssqs_2016', 'koudaijr', 'zbpafda', 'wocaijing11',
-                'zgjcgycbs', 'zgfzb1986', 'ZG-xyjj', 'ncjrnews', 'smecei', 'o2olink', 'VIEW-CBMD', 'jingjizazhi',
-                'JJZZSLSH', 'jjrbwx', 'cewenhua', 'autocecn', 'fzsbwx', 'edpbook_com_cn', 'ceinews', 'smecei',
-                'cfw-com-cn', 'iceo-com-cn', 'cfnnews', 'flower_floraltime', 'chuangyidasai', 'RealTimeChina',
-                'CHINADAILYWX', 'zgzs001', 'jjzswx', 'musicradio2002?', 'dszs001?', 'wenyi1066?', 'zgxczs720?',
-                'lnzsam1053?', 'CNEB_CNR?', 'cnr_cnr?', 'cnrjunshi', 'zggbzz?', 'xinwenzongheng?', 'jjzsjysk?',
-                'jyskjlb?', 'CNRTXCJ?', 'wangguan201508?', 'lnzsam1053', 'CCTV-channel1', 'cctvjrsf ', 'cctvdzw',
-                'cctvshzck2013', 'CCTV1kaijiangla', 'cctvtzbkn', 'CCTV-1leyuan', 'cctvjyxwl', 'cctvxilejie', 'ijiaiwei',
-                'cctvddc', 'cctv-duihua', 'cctv2-XFZZ', 'cctvyscj', 'cctvjysj', 'cctvdysj', 'cctvfh', 'cctvjjyflm',
-                'cctv-yirenyishijie', 'cctv_cj_gl', 'Weareyoung_66', 'cctv2jingxilianlian', 'cctv2pinglun',
-                'cctv2_cyyxh', 'CWZB_88', 'gh_22c6191afa20', 'cctv2sz', 'cctvcbn520', 'CCTVyangshizongyi',
-                'huangjin100s', 'cctvyzyy', 'woaimantangcai', 'cctvwdsj', 'WYSCW_CCTV', 'cctvxxfcf', 'staroad',
-                'gh_665917744409', 'Cctvhsll', 'cctv3wenhuashidian', 'cctvkmdj', 'cctvyilantianxia', 'zongyishengdian',
-                'CCTV-YSRS', 'cctvqitianle', 'yangshifeichang6jia1', 'cctvhuanlexiu', 'gh_530ced15e899',
-                'gh_06ab3b8bb060', 'CCTV4gbdawx', 'cctvkuailehanyu', 'jinriyazhou', 'cctvjrgz', 'cctvyfdj',
-                'shenduguoji2015', 'cctvzhyy', 'CCTV-wgrzzg', 'cctv_zhonghuaqing', 'cctvzgxw', 'cctvcsydy', 'cctv4zgwy',
-                'cctvhrsj', 'gh_28533671d357', 'CCTV-4ZBZG', 'cctv4lxwx', 'T2905956623', 'zhitongtaiwan',
-                'gh_e80a6b8d2dad', 'shijietingwoshuo', 'CCTV-5sportnews', 'jianshendongqilai', 'cctv5hoopark',
-                'saicheshidai', 'shuishiqiuwang', 'cctvxiaojizhe', 'cctv5tiyukaba', 'InteractiveNBA', 'cctvjunshijishi',
-                'cctvjlrs', 'fangwuxgc', 'junmittx', 'junyingdawutai ', 'CAPFnet ', 'cctv7woaiguofang', 'jfjjs7tv',
-                'cctv7sszjyx', 'CCTV-7_Junshi', 'jlwhdsy7', 'cctv7bzjd', 'CCTVygdd', 'CCTV7mlzgxcx',
-                'cctv-7fazhibianjibu', 'A94897456', 'CCTV_MRNJ', 'cctvkjy', 'jujiaosannong', 'xiangcundashijie',
-                'nongtv', 'nongye7', 'cctv7ssdzp', 'xiangyuecctv', 'cctv7xiangtu', 'ntvzaobao', 'cctveight', 'cctvxtj',
-                'cctv9jilupindao', 'cctv1cha', 'cctv-zoujinkexue', 'cctvylrc', 'cctvbaijiajiangtan', 'cctvdushu',
-                'cctv10_kejiao', 'storyboxes', 'cctv10-tansuofaxian', 'fammgc', 'wenmingmima', 'cctv-dajia',
-                'gh_c3e024997eda', 'cctvgby', 'CCTVCSZY', 'cctvpflmj', 'CCTV12pingan365', 'cctvrexian12',
-                'CCTV_xinlifangtan', 'gh_42f7a3741bc3', 'shequyingxiong', 'cctvyixian', 'CCTVFLJT',
-                'daodeguancha-cctv12', 'cctvchanhuilu', 'cctv12xqds', 'yangshitianwang', 'cctvnewscenter',
-                'cctv_newsweekly', 'xinwendiaochacctv', 'xinwenyijiayi', 'jdftcctv', 'cctvgdzg', 'cctv_worldweekly',
-                'cctv14guonianla', 'cctvxwddk', 'zmxxsn', 'gh_4dfff955d985', 'cctvyykd', 'jssn3031', 'CCTV-Children',
-                'zuiyejiaqi', 'cctv15music2013', 'CCTVyiqiyinyueba', 'GlobalChineseMusic', 'cctv-gsywx', 'CCTV_HMYY',
-                'gh_054ec888a67a', 'cctvfhgy', 'CCTV_News_Content', 'gh_06d1dea1491a', 'CCTV-FRANCAIS', 'CCTV-Arabic',
-                'CCTVADAD', 'cctvgygg', 'cctvkandian', 'cctv-vc', 'cctvcomweixin', 'yswshangcheng', 'cntvweixin',
-                'CNTV-CBox', 'cctv-wlcw', 'ipandacom', 'CNTVsports', 'cctvyuedong', 'mongolcntv', 'CNTV_UYGHUR',
-                'cntv_kazakh', 'wangluoxinwenlianbo', 'tushuojzg', 'zchhdhc', 'cctvwish', 'cctv315', 'cctvhjcf',
-                'NEWSPlus', 'cibn123', 'duanchun-shuo', 'crihuanqiujunshi', 'hitfmcri', 'gh_c92bcbfd9b97', 'cribbr',
-                'gh_7e86f2af1dc1', 'huanqiuruiping', 'bzbkcri', 'CRI-russian', 'zxfcdcri', 'crionline', 'CRIjpn',
-                'cridanganjiemi', 'RADIOEZFM', 'ezfmmotianlun', 'Radio_cri', 'fm9050', 'sportstalk', 'cri_lao',
-                'crihqmrf', 'criturkish', 'CRIfrench', 'CRI_ESP', 'gh_1ae6140d3b1a', 'laowaikandian', 'cri_indonesia',
-                'cripor', 'gh_d52089dd3ee7', 'myanmar_online', 'hqjy905', 'Mabuhay_CRI', 'cripersian', 'khmerccfr',
-                'watchasean', 'jiluzhemiyaniu', 'crient', 'crinanhai', 'CRI_Nepal', 'CRIzwhq', 'CRIgreek', 'crithai',
-                'Hrvatska1', 'itaiwannews', 'CRI-Poland', 'cri_malay', 'shiliuhaoxinxi', 'Balkanrose',
-                'Delhiin-tsag_2016', 'WORLDWIDECHINESE', 'srilankacri', 'HQQG--CRI', 'CNS1952', 'cns2012',
-                'qiaowangzhongguo', 'OverseasChinese_CNS', 'cnsgs-01', 'CNS-SD', 'CNS-gd', 'CNS-chaoshan', 'cns-jl',
-                'siluxgc', 'cns-xj', 'cns-bt', 'cnshebei', 'hubeicns', 'cns_sn', 'zhangzhongjiangsu', 'jstvjsxw',
-                'cnssx0351', 'cns-gx', 'zzxgzwx', 'cns0898', 'sldhslm', 'cns-hlj', 'hunanhaowan', 'cns_ln', 'cnsyn-01',
-                'shiyunnan01', 'CNSxywc', 'qinghaiyys', 'sfscns', 'chinanewsweekly', 'chinanews-shanghai', 'gannews',
-                'cnscqttnews', 'cctvnewscenter', 'cctvcomweixin', 'baguaconghua', 'apptoday', 'baguaconghua',
-                'baoliao-020', 'bazaarstar', 'bmsh_gz', 'by168com', 'cctvcomweixin', 'chinamobilegame', 'chuangyezone',
-                'CN440001', 'consumer-report', 'DPCHRDZX', 'Fang-com1999', 'fangjia-gz', 'fangyimai2013', 'FC510370',
-                'fzg360gz', 'GDAPER', 'gdfood2011', 'gdsjyt', 'gep2013', 'gh_840f04e9f9e8', 'gongzhonghao001',
-                'greenovation', 'gswmcc', 'guancha006', 'guangzhou3456', 'guangzhouhouse', 'guangzhouplus',
-                'guangzhoutop1', 'gz-focus', 'gzbgyyz', 'GZBNGS', 'gzcankao', 'gzcmbchina', 'gzeducation', 'gzjzfb',
-                'gzqz020', 'gzrb1212', 'GZSBS1314', 'gzshis', 'gzwangyifangchan', 'houseifeng', 'houseqq_gz', 'housezc',
-                'ihuichi', 'iiChuangYi', 'InGuangzhouCity', 'kenjinrong', 'LandRove711', 'longdongshenghuo',
-                'LUOGANGJIAYUANWANG', 'manshiguang3', 'mlddxypdzhz', 'ndkuayue', 'nfrbsy', 'nfxxsc', 'njusky',
-                'plusyouth', 'py2456', 'qingniankongjian706', 'qq296836288', 'redianweiping', 'shangdao999',
-                'shenghuodiaochatuan', 'shenmagame', 'smr669', 'solidarity4ever', 'SP-666888', 'sunbushu123',
-                'Talkpark', 'tianheshangquan', 'wangxinguangdong', 'weiguangzhou1314', 'welianapp', 'wuxiaobopd',
-                'xc020chao', 'xdnphb', 'xinby2016', 'xxsbejtbj', 'xxsbejtxc', 'XYGC_China', 'ycwbwhcb', 'yeascnu',
-                'yezhulecom', 'yueshanghuigd', 'YuLe100Fen', 'yuqing_fw', 'ZC173-COM', 'zcshenghuo666', 'zcsht2014',
-                'ZGGZFABU', 'zgzyscw', 'zhaoqingzhiku', 'zhenghedao', 'zhijuzk', 'zjshzsh', 'zzswgx', 'a221250',
-                'baobzhu', 'bilingongren', 'bjshengyun', 'CantonRadio', 'caogenzhiku', 'casszhongjun', 'dagongmama',
-                'faith-in-one', 'fazegongyi', 'Feminists2016', 'FeministsLGBTQAI', 'FFeminist', 'gdufetns',
-                'gh_67f7eff9f590', 'GICS2013', 'GLCAC-01', 'GSEC123', 'GuyuStory', 'gzld1688', 'gzlntzkss2014',
-                'GZxmtnx', 'hzjinshazhou', 'kanpei2015', 'lang-club', 'laobinglaobing121', 'LGBTRights', 'lingdaoquna',
-                'lvxing020', 'meilihuangbu', 'mimeng7', 'msgzms', 'nandugz', 'NewHoriEnter', 'New_Austral', 'ngocn05',
-                'potu_groundbreaking', 'qinyouhui002', 'qiubaifree', 'sanlouyouthspace301', 'sysudin', 'SYSU_rainbow',
-                'trans-center', 'TrendEntLife', 'vloveit', 'weyiqi', 'ycwbxiaomanyao', 'youngdust', 'youxi248',
-                'zcnaxie', 'zgztlm', 'ZHITONG_CHINA', 'zhuojianzhuojian', 'zqb_caolin', 'cctvnewscenter', 'cdqqcom',
-                'chinainternationnews', 'cns2012', 'conghuakx', 'daqinwang', 'dayanhs2015', 'fenghuangxinmeiti',
-                'fmgz1061', 'foshanxinwen', 'G4news', 'GDGGDVXC', 'gdsinazw', 'gdtoutiao', 'GDTVZJPD2013', 'gd_xkb',
-                'GRshequ', 'guanchacn', 'guangzhouyouth', 'gzdailybl', 'gzrbszxw', 'GZTV-M', 'Gz_byss', 'hantiang-1',
-                'hpggguancha', 'huaduzc', 'igznews', 'intozine', 'jinjibaodao', 'jjbd21', 'jjxxtimes', 'kingoldmedia01',
-                'linyiforefront', 'luogangwang', 'msweekly', 'nbweekly', 'nddaily', 'NF-dushi', 'nfdaily3c', 'nfncb289',
-                'nfsyyjjb', 'NF_Daily', 'oeeeend', 'panyuribao', 'Peopleweekly', 'qzdt986', 'renwuzaixian',
-                'thepapernews', 'timeweekly', 'tvscsts', 'tvszuixinwen', 'wanbaoweixin', 'wenhuidaily', 'wwpnethk',
-                'wwwhdbbsnet', 'XKB-CBD-NEWS', 'xkbfs888', 'xkbshenduxinwen', 'xkbxmt', 'xxrbfzxwvx', 'xxrbvx',
-                'xxrbycxwlin', 'xxsb2012', 'ycdtb2012', 'ycwbbaoliao', 'ycwbjiazhang001', 'ycwbyzj', 'ycwbzzj',
-                'ycwb_jyw', 'yixian300', 'zc-news', 'zhiboguangzhou', 'zhihuribao', 'zjxwy630', 'bcgguangzhou',
-                'conghuagongan', 'gcdyweixin', 'gh_4eecb3856810', 'gh_e7dbb197901e', 'guangzho007', 'GuangzhouMTR',
-                'GZ-ZCGA', 'GzByYjb', 'gzchxf119', 'gzhdfb', 'gzhpfb', 'gzhzfb', 'gzliwanfabu', 'gzpyfb', 'gzszcgs',
-                'gzyxfb', 'gz_baiyunfabu', 'gz_nsxf', 'huaduguoshui', 'huangpu119', 'huangpudishui', 'huangpuguoshui',
-                'nanshaguoshui', 'nfrbzsgc', 'nssqxt', 'panyuguoshui', 'panyuxiaofangdadui', 'py168-com', 'tianhefabu',
-                'tianheguoshui', 'WMGuangDong', 'yxgswx', 'zcxfdd', 'igznews', 'Rainieyang060477', 'ererose888',
-                'everose888', 'gzwangyifangchan', 'bmsh_gz', 'casszhongjun', 'xsgongshe', 'wuyoushui123', 'newsxinhua',
-                'baoliao-020', 'bazaarstar', 'apptoday', 'apptoday', 'newsxinhua', 'cns2012', 'cctvnewscenter',
-                'shijieribaoph', 'aucntv', 'angolanews', 'GEStudio', 'ssdaily', 'jianhuadaily', 'LaVozChina',
-                'zhongwendaobao', 'chineseinla_com', 'chinapress', 'ChinesePress', 'newsca', 'shangbaoindo',
-                'oushi1983', 'uk-chinese', 'Zimbabwe_ChineseWeb', 'euchinesejournal', 'SingtaoEU', 'angkortime',
-                'yuhsrb', 'onemex-com', 'aozhouhuarenwang', 'ukdajiatan', 'Channel-Chinese', 'qiaowangzhongguo',
-                'We-sa2cn', 'udnbkk', 'cctvcomweixin', 'fenghuangxinmeiti', 'cctvnewscenter', 'zhaoqingfabu', 'gdgyfb',
-                'gh_aaeb341631a1', 'citicbankchina', 'gh_365752ae0ea1', 'gh_0be17657d15b', 'citiccpamc ',
-                'citiccpamc_weixin', 'citichuyu', 'CiticAgriculture', 'citic-hic', 'citic-hic-jw', 'ccc_hr',
-                'ccc_qywhb', 'VivaAfrica', 'citic_fzqzx', 'znszvhr', 'CADI-Group', 'CADIwh', 'cadi_ghdzb',
-                'CADI-culture', 'CITICPRU-Official', 'citicmh', 'zxxy2002', 'zxxyspermbank', 'hzzxyy1985', 'dz541zyy',
-                'Zxhzyy120', 'PHIS-CITIC', 'swsfybjy', 'ZXDTSC', 'citic_healthcare', 'citictour', 'zj_citic',
-                'CITIC-MICE', 'sh-citic', 'i4007701700', 'sh021666', 'zhongxintuoguan', 'CITICS', 'CIITCS_Tourism',
-                'CITICS_OverseasResearch', 'citics_strategy', 'ZXZQDCYJ', 'CiticsMacro', 'Citics_homeappliance',
-                'CITCS-Retails', 'CITCS_NEEQ', 'CITICSYIYAO', 'gh_08cda1e1d7ff', 'CiticsMachinery', 'gh_15b911e55e42',
-                'gh_21c573a56db3', 'gh_294e097afc75', 'gh_0017730a38b2', 'MediaBBS', 'feiyinguandian', 'ZXJGYJ',
-                'maigaobank', 'gh_5edf2ad8dfe3', 'Fashion_forefront', 'zhongxinjiaoyun', 'citics_food-beverage',
-                'citics_bj', 'xinEtou', 'czcitics', 'cdrmnl', 'CITICS-CTU', 'CITICS-DL', 'citics_db', 'citicsdg',
-                'fszxzq', 'citicsfj', 'zxzq-fushun', 'citicsgd', 'pyzxzq', 'hrb600030', 'zxzqhk', 'CiticsHM',
-                'zxzqhz95548', 'zxzqdxl', 'snjjxzyyb', 'citicshf', 'zxzqhhht', 'zxzqhbfgs', 'zxzqhz', 'citicsjs',
-                'citics_jx', 'citics', 'ZXZQNC', 'citicsnn', 'citicnbfgs', 'zxzqnbttb', 'zxzqnbzs', 'zxzqnh',
-                'zxzqphyyb', 'CiticsQD', 'zxzqst', 'citics-shhf', 'zxzqshsh', 'Citics_changshou', 'zxzq_szqh',
-                'zxszfgs', 'zxzqfhyl', 'zxzqszlg', 'zxzq_sz', 'citics-szwhl', 'zxzqsjz', 'CITICS_suzhou', 'Wujiang_zx',
-                'zxzqty', 'zxzqtangshan', 'gh_e436cccada94', 'zxzqtjdg', 'zxzqhhd', 'ZXZQTJYYL', 'zxzqtx', 'zxzqwz',
-                'citicswx509', 'jsddyyb', 'xddjyyb', 'xa88236158', 'zxzqxzyyb', 'zxzqyy', 'zxzq-changchun', 'citicszj',
-                'zxxlyyb', 'zxzqsdbz', 'zxwtzzyyb', 'zxzqcfgl', 'zxzqhzyyb', 'zxwtjnyyb', 'zxwtjmyyb', 'Zxlc95548',
-                'zxzqjn', 'zxwtlzyyb2275566', 'zxwt_jijunlin', 'zxzqlk', 'zxzqlyyyb', 'Zxwtbsl600030', 'dzlwtzq',
-                'zxzqjdl', 'zxzqsdjsql', 'zxzqkfq', 'zxwtnjlcfgl', 'zxzq_sdl', 'ZXWTWHL', 'citicwt', 'zxwtzqcfgl',
-                'zxzqsdzbmsj', 'zxzqsdzc', 'zxzqzp', 'Citics95548', 'i_option', 'citicscfgl', 'zxqh_yjb', 'citicsf-zz ',
-                'taiji-qq', 'zxhjjs', 'XGL_lighting', 'ydianting  ', 'weixintingche', 'ake19970602', 'zxkycitic',
-                'thjweixin', 'zxjzjs-gm', 'aqniu-wx', 'freebuf', 'i77169', 'alijaq', 'XuanwuLab', 'a301zls',
-                'YunTouTiao', 'youxia-org', 'AnZer_SH', 'lookvul', 'oschina2013', 'mcbang_com', 'lazy-thought',
-                'seebug_org', 'gh_ec13b31de182', 'icqedu', 'wushengxinxi', 'KnewSec', 'DJ_notes', 'NUKE404', 'taosay',
-                'safeapp', 'nbdnews', 'NF_Daily', 'nddaily', 'stpbscm', 'sttvnews', 'strm0754', 'haochimei0663',
-                'stliantong', 'STYiXian', 'shantoutop', 'stsrmjcy', 'stmsa01', 'stchedu', 'PorscheSTDB', 'edaynew',
-                'gdst_oil', 'ssst201509', 'jujiao0754', 'STWGXJ', 'shantoudxs', 'shantoulvshi', 'lvshixuqincheng',
-                'gwtlvshi', 'gh_4bd61ea7ad6d', '2936022', '2936022', 'stchedu', 'stmsa01', 'stsrmjcy', 'chqyjb',
-                'chenghaixiaofangV', 'chqyjb', 'stchedu', 'stmsa01', 'stsrmjcy', 'chqyjb', 'stchedu', 'stmsa01',
-                'stsrmjcy', 'chenghaixiaofangV', 'chqyjb', 'stchedu', 'stmsa01', 'stsrmjcy', 'rmrbwx', 'XHSXHSD',
-                'cacweixin', 'xinhuashefabu1', 'xiaoshanwlm', 'yxgc99', 'cacweixin', 'xszcwx', 'Xszclt', 'wxslife',
-                'wxswsh', 'ipozm00036', 'my19lou', 'Xiaoneiwangcom', 'wwwzaixscom', 'Xs163-net', 'xshavefun',
-                'kuahuqiaocom', 'xiaoshanwlm', 'Xszn89757', 'gl311241 ', 'gualixxs', 'xszcxw', 'xsgbdst', 'xsgdxwzx',
-                'XSFM1079', 'xstvxsj', 'Hi_xiaoshan', 'xiaoshanribao', 'Elite_QTH', 'xsrb_jjzk', 'QC88666',
-                'xiaoshan-360', 'NEWXIAOSHANG', 'xiaokashow', 'xsrbjrtk', 'xsrbdzzj ', 'xstownpublish', 'lblm-gfwx',
-                'hzrbjrdjd', 'xsrbxjz2004', 'djdxjz', 'xsnetcn', 'xianghuxsnet', 'Xsrb_wxxs', 'xiaoshanjiaoyu',
-                'xianghuclub', 'weifanggongan', 'weifangfabu', 'E安全', 'E安全', 'EAQapp', 'njxz025', 'ipandacom',
-                'ultraplus_cross', 'dagaotegao', 'loushishiguangji', 'gongansihuafuwu', 'rmrbwx', 'cctvnewscenter',
-                'thepapernews', 'guanchacn', 'ckxxwx', 'ourcecn', 'xwzc021', 'nddaily', 'chinanewsweekly',
-                'capitalnews', 'xiake_island', 'xjbzse', 'wepolitics', 'hqsbwx', 'newsbro', 'finance_ifeng', 'gzadmin',
-                'qqgentle', ' gh_acbbcdd3fcd2', 'gh_62dfc109892d', 'Petrochem-Forum', 'ICIS_China_LiLi', 'hg707_com',
-                'Hydrocracking', 'dsxp688', 'qianqianchuangtou', 'zui0580', 'Zf0580', 'ayawawavip', 'FB-xitong',
-                'tm0851', 'Cool-Guiyang', 'gytv851', 'guiyangtong', 'zbgy5822222', 'xsxianhua', 'nesw97', 'nbnw666666',
-                'zhegu8', 'ultraplus_cross', 'travelread', 'gzgajg', 'gzsedu', 'gysjyw', 'gzespt', ' citics_strategy',
-                ' thjweixin', 'feiyinguandian', 'i_option', 'gh_21c573a56db3', 'citics_food-beverage', 'citic-hic',
-                'dz541zyy', 'CITICSYIYAO', 'citicbankchina', 'Citics95548', 'citicsproducts', 'citicscfgl', 'zxqh_yjb',
-                'citicsf-zz ', 'taiji-qq', 'zxjzjs-gm', 'gh_5edf2ad8dfe3', 'Fashion_forefront', 'zhongxinjiaoyun',
-                ' citics_strategy', ' thjweixin', 'feiyinguandian', 'i_option', 'gh_21c573a56db3',
-                'citics_food-beverage', 'citic-hic', 'dz541zyy', 'CITICSYIYAO', 'citicbankchina', 'Citics95548',
-                'citicsproducts', 'citicscfgl', 'zxqh_yjb', 'citicsf-zz ', 'taiji-qq', 'zxjzjs-gm', 'gh_5edf2ad8dfe3',
-                'Fashion_forefront', 'zhongxinjiaoyun', 'citics_strategy', 'thjweixin', 'feiyinguandian', 'i_option',
-                'gh_21c573a56db3', 'citics_food-beverage', 'citic-hic', 'dz541zyy', 'CITICSYIYAO', 'citicbankchina',
-                'Citics95548', 'citicsproducts', 'citicscfgl', 'zxqh_yjb', 'citicsf-zz ', 'taiji-qq', 'zxjzjs-gm',
-                'gh_5edf2ad8dfe3', 'Fashion_forefront', 'zhongxinjiaoyun', 'citics_strategy', 'thjweixin',
-                'feiyinguandian', 'i_option', 'gh_21c573a56db3', 'citics_food-beverage', 'citic-hic', 'dz541zyy',
-                'CITICSYIYAO', 'citicbankchina', 'Citics95548', 'citicsproducts', 'citicscfgl', 'zxqh_yjb',
-                'citicsf-zz ', 'taiji-qq', 'zxjzjs-gm', 'gh_5edf2ad8dfe3', 'Fashion_forefront', 'zhongxinjiaoyun',
-                'yes0717', 'ycyd-10086', 'yichang188 ', 'finance_ifeng', 'newsxinhua', 'Zhongguojiaoyubao', 'jybxwb',
-                'yzwb20102806', 'xsgbdst', 'zjsjyksywx', 'nbdnews', 'gzgycyjy', 'gzgycyjy', 'aisiqingnian',
-                'gh_24fdcfee9407', 'gh_d99f17a3c0ab', 'weikjsh', 'TrendEntLife', 'EntFront', 'upooxx', 'yuleshiang',
-                'vvxixi', 'cosmochina', 'TrendLifeRemit', 'jiankangssbk', 'GuangzhouMTR', 'gzchihuo7', 'zouqilx',
-                'gzchihuo7', 'weikjsh', 'TrendEntLife', 'gh_ea38249bc86e', 'gzvworld', 'safe01', 'gzuniversity',
-                'cn0851com', 'tfb0662', 'education-today', 'cernet', 'shijiejiaoyu', 'edreview', 'ictedu',
-                'jiaoyuxinwenwang', 'Chinaedu2014', 'zgjyxxh', 'irenminjiaoyu', 'cityetv68', 'zgjyxxh', 'ictedu',
-                'stganlantai', 'cityetv68', 'CantonRainbowGroup', 'gh_75ab47bb3210', 'assy224300', 'gh_97b725ee8500',
-                'gh_69a6c35f0654', 'ai_sheyang', 'syq5388', 'XingfuHaihe', 'atsyr0515', 'syxsy0515', 'gh_bf4c29b37bc6',
-                'syrjcom', 'syw320924', 'jzxt666', 'cnsheyang', 'sheyangcheng', 'zhsheyang', 'dasheyang', 'syjiacc',
-                'ycrd01', 'dywt0515', 'yccs6199', 'ycbaixing', 'weishuzi58', 'wmdeyc', 'xskd0515', 'binhaizx',
-                'bhwangcn', 'xbinhaibbs', 'dongtaiwsg', 'vyc0515', 'chwl0515', 'tv0515', 'baixingdiyi', 'yc2min',
-                'ycyanxunwang', 'zhuhai6677', 'botofilm', 'doumen0756', 'DM-LYJ', 'Q1871101820', 'AomenHr', 'MacauWX',
-                'zhuhairx', 'm4006116063', 'zhuhaizp', 'gh_8e2fdd6761dc', 'zhch0756', 'zhportnews', 'gh_2660451e2715',
-                'zhhy345', 'nfrbzhgc', 'wd0756', 'wazhuhai', 'zhuhaixxs', 'jinbushanglv', 'zhhsh8', 'shimuwang-net',
-                'xiguawman', 'DWQ8991', 'zhuhaishenghuo', 'gh_64d4697dc852', 'yodewo', 'knowjluzh', 'nvsheng-zl',
-                'jzlm365', 'zhweishi365', 'zhcptjgyxsdzb', 'LSJLL666', 'zhcptweixin', 'chaozh0756', 'gkygfwx',
-                'gh_099b867cb5c3', 'UIC_ZH', 'jzdwxcb', 'zmushelian', 'zh-zcsw', 'JNU-Zhuhai', 'zhuhaihuishenghuo8',
-                'sysuxtw', 'ygashq8', 'zhhouse163', 'zhdmsc', 'pingan-dm', 'JWren0756', 'w-zhuhai', 'zhdxwsyyt',
-                'hopesungroup', 'sdytxl', 'sddkby', 'sdjiangong', 'shandongjinrui', 'sdjbjtyxgs', 'sdzywhfz',
-                'sd-qiquan', 'GIECO_dy', 'tsingtaosd', 'sdtv96005900', 'ljsd22', 'mrsd22', 'sdjjgb', 'sdxjrd', 'HB6754',
-                'shandongpeople', 'sdbd168', 'sd_weifang', 'SD1809622102', 'wjshandongzd', 'sdxfxc_119',
-                'shandonggaofa', 'sdjiancha', 'gh_08cdf4e399d2', 'sdjyfb', 'gh_08a701c6f59b', 'dongyingzhijian',
-                'gmrb1949', 'CHINADAILYWX', 'qstheory_001', 'ycdysj2233555', 'xinhuashefabu1', 'XHSXHSD', 'zgzs001',
-                'cnr_cnr', 'CNS1952', 'cns2012', 'wa0759', 'zhanjiangguoshui', 'gh_887f53ea398f', 'qqnba-wx',
-                'tctxw67812728', 'hntcjcy', 'hntcgs', 'tcxszglj', 'hntcxfdd', 'zstc99', 'gh_2825c0b8533d',
-                'gh_2c6a6bb1c4b3', 'gh_8b50a2298a97', 'tcxzfw', 'jishikandian', 'hnjdxmt', 'hngfgzh', 'hnyzy2016',
-                'hainangongan110', 'hain119', 'gh_0e9ba8e1d7b8', 'chqyjb', 'chenghaixiaofangV', 'shanxigonganjiaojing',
-                'xianyangjiaojing122', 'xa-police', 'gh_2a75991a8cd3', 'gh_3c09b0284b37', 'hzjf110', 'gh_84945317e1f3',
-                'gh_23315ba9693f', 'hzsgajbbfj', 'hezhoujiaojing', 'gossipleague', 'girlnba', 'dqmmiss',
-                'gh_8b1d23dbd0b2', 'cctvnewscenter', 'xinlang-xinwen', 'changjianggongan', 'pagz110', 'gzepb12369',
-                'gzminzheng', 'gzsfzhggwyh', 'gzsjtw', 'wenminggz', 'guangzhoujiancha', 'gzsgxw', 'gh_609018f1f8e5',
-                'gzsswj', 'gzwsjs', 'gzaic2017', 'guangzhoudishui', 'hain119', 'cidugongan', 'hainangongan110',
-                'gh_0e9ba8e1d7b8', 'fjrbwx', 'i_fjtvnews', 'myfzqq', 'xianhua-3', 'libinlian710', 'yxh18971558290',
-                'qymlj1949', 'shangpinlianghui', 'gh_d0694dcbc929', 'libinlian710', 'Beinger33 ', 'zgwmjy_gm ',
-                'feitong88000', 'gh_713e3c0d0d96 ', 'ss-ytsc88', 'KM33JY ', 'ssjgyx', 'ss-bll ', 'crds333', 'xsxianhua',
-                'xs-xianhua', 'gzjiaojing', 'gz-rst', 'gzssfj', 'gzzfcxjs', 'gh_bd6773a90306', 'lianjieguangzhou',
-                'tyzzlc', 'TYjinrijiaotomg', 'taiyuangongan-110', 'sxwbsxtt', 'sxtyjjzd', 'TY_FM107', 'tyty114',
-                'shanxiribaowang', 'sxxwlbgw', 'shanxiwanbao', 'datongchuanmei', 'datongnews', 'DTGZXX', 'datongcm',
-                'v037300', 'sxttszh', 'szjjxcjy', 'sz0349888', 'szxww0349', 'szgawx110', 'jizhezhan99999', 'CBXZ0350',
-                'zxanjj', 'sxfzbxzjzz', 'sxxzga', 'cszx0350', 'jzzxcc', 'yqxww0353', 'sxyqrb', 'yqcc0353', 'meetyq',
-                'lvliangzaixian', 'lldyms', 'LLJTGB', 'lltt0358', 'kanlvliang', 'sxxwlbgw', 'jzwsh999', 'tgxrmzfbgs',
-                'sxjzfulian', 'jinrijinzhong', 'czgj521', 'czhsh8', 'czxww0355', 'cbczwx', 'changzhiribaoshe', 'lfjjzd',
-                'fm8890357', 'lfdigov', 'linfenzixun', 'wenminglinfen', 'jcgz0356', 'jczxwx2014', 'jctt668', 'JinCnews',
-                'jcwsxx', 'ychengcom', 'shengweidayuan001', 'sxycjjzd', 'ycwzx8', 'ycbl01', 'xhwjxpd', 'jiangxifabu',
-                'jiangxiweishixinwen', 'lianjiejiangxi', 'jxgagfwx', 'fm962gz', 'ycwbvlife', 'iceo-com-cn',
-                'nanfangplus', 'southernweekly', 'southcn_news', 'NFWSchannel', 'gdtvjrgz', 'GRT-LNXQ', 'fm10771077',
-                'ilove1036', 'GRT_QMFQS', 'gh_8731cb794259', 'grtgdnews', 'GDLZTV', 'radio914', 'SouthReviews',
-                'chudian-news', 'www-21so-com', 'gdtvtyzj', 'gdggpd', 'hsl02061293110', 'gdgbxw', 'gdfabu0710',
-                'GuangzhouMTR', 'bdbguangzhou', 'funs360', 'gztv630', 'ganzhougongan', 'gzsjyj2016', 'yuanchengfabu',
-                'hyycga', 'heyuan_cn', 'xxsb2012', 'czrbicz', 'czlook2011', 'changzhixinwen', 'tangjingdj',
-                'guangzhoudaily', 'xxsbejtyjds', 'hain119', 'hainangongan110', 'hngfgzh', 'hdqcxh', 'hdqcpj',
-                'changan_020', 'qcqzx365', 'CarHotInformation', 'hdtvnews', 'hddtfm1005', 'huadushb', 'huaduzc',
-                'wwwhdbbsnet', 'gzrbhuadusqb', 'HuaDuWSH', 'hdbnews', 'Shilinggov', 'happyjianshen', 'shiling18',
-                'gh_c5760bddfada', 'gdjrgzt', 'GDGGDVXC', 'gzlsfb', 'iconghua', 'jskd', 'jscszh', 'dihuokuangbiao',
-                'csdcsc', 'jishikandian']
-=======
         cwd = os.getcwd()
         file_dir = os.path.join(cwd, 'wx_account.txt')
         with open(file_dir, 'r') as f:
@@ -360,7 +116,6 @@ class AccountHttp(object):
         account_list = all_account.split('\n')
         # log.info(account_list)
         return account_list[:-1]
->>>>>>> f955abdf2bf2f03db1c1b11c99f4a585d6d7b38d
 
     @staticmethod
     def urls_article(html):
@@ -460,14 +215,6 @@ class AccountHttp(object):
             # ADD_COLLECTION 补采账号  get_account 日常采集； 使用account_list 兼容单个账号和账号列表
             account_list = ADD_COLLECTION if ADD_COLLECTION else self.get_account()
             log.info('一共获取{}账号'.format(len(account_list)))
-<<<<<<< HEAD
-            if account_list is None:
-                log.info('调度队列为空，休眠5秒')
-                time.sleep(5)
-            for account_name in account_list:
-                count += 1
-                log.info('第{}次'.format(count))
-=======
             # if account_list is None:
             #     log.info('调度队列为空，休眠5秒')
             #     time.sleep(5)
@@ -479,7 +226,6 @@ class AccountHttp(object):
                 log.info('第{}次'.format(count))
                 # if count < 752:
                 #     continue
->>>>>>> f955abdf2bf2f03db1c1b11c99f4a585d6d7b38d
                 try:
                     self.search_name = account_name
                     html_account = self.account_homepage()
@@ -516,15 +262,9 @@ class AccountHttp(object):
                         log.info("当前文章url: {}".format(url))
                         entity = JsonEntity(article, account)
                         log.info('当前文章ID: {}'.format(entity.id))
-<<<<<<< HEAD
-                        if entity.id in ids and JUDEG is True:
-                            log.info('当前文章已存在，跳过0')
-                            # continue
-=======
                         # if entity.id in ids and JUDEG is True:
                         #     log.info('当前文章已存在，跳过0')
                         #     # continue
->>>>>>> f955abdf2bf2f03db1c1b11c99f4a585d6d7b38d
                         backpack = Backpack()
                         backpack.create(entity)
                         backpack_list.append(backpack.create_backpack())
